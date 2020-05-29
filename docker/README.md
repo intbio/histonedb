@@ -5,9 +5,10 @@ Create project directory and directories where to mount project code and databas
 ```
 mkdir project_dir
 cd project_dir
-mkdir histonedb
+git clone https://github.com/intbio/histonedb.git
 mkdir db
 ```
+
 Then you can run HistoneDB via two ways.
 
 ## Running via docker
@@ -15,6 +16,8 @@ Then you can run HistoneDB via two ways.
 - Run as a service in docker, this will run apache and attempt to start mysqld
 
 ```docker run --name histdb -d -p 8080:10080 -v project_dir/histonedb:/var/www/histonedb -v project_dir/db:/var/lib/mysql intbio/histonedb:0.0.1  ```
+
+- Check the website is available at http://localhost:8080
 
 - Get into container and start db regeneration
 
