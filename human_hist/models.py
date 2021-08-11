@@ -1,12 +1,13 @@
 from django.db import models
 from browse.models import *
 
+from django.core.validators import validate_comma_separated_integer_list
 
 # Create your models here.
 
 # class Human_variants(models.Model):
 #     id = models.CharField(max_length=25, primary_key=True)
-#     db_variant = models.ForeignKey(Variant, related_name="human_variants", blank=True, null=True)
+#     db_variant = models.ForeignKey(Variant, related_name="human_variants", blank=True, null=True, on_delete=models.CASCADE)
 #
 #     def __unicode__(self):
 #         return self.id
@@ -15,17 +16,17 @@ class Histone_Human_genes(models.Model):
     # id             = models.CharField(max_length=25, primary_key=True)
     hgnc_symbol = models.CharField(max_length=25)
     prev_hgnc_symb = models.CharField(max_length=25)
-    hist_type = models.CharField(max_length=5) # оставить в генах db_type = models.ForeignKey(Histone, related_name="human_variants")
-    # variant = models.ForeignKey(Human_variants, related_name="variants", blank=True, null=True)
+    hist_type = models.CharField(max_length=5) # оставить в генах db_type = models.ForeignKey(Histone, related_name="human_variants", on_delete=models.CASCADE)
+    # variant = models.ForeignKey(Human_variants, related_name="variants", blank=True, null=True, on_delete=models.CASCADE)
     variant = models.CharField(max_length=25)
-    #variant = models.ForeignKey(Variant, related_name="human_genes")
+    #variant = models.ForeignKey(Variant, related_name="human_genes", on_delete=models.CASCADE)
     ncbi_gene_id = models.IntegerField()
     ensg = models.CharField(max_length=100)
     expr_timing = models.CharField(max_length=25)
     expr_pattern = models.CharField(max_length=25)
     biotype = models.CharField(max_length=25)
     bona_fidecanonical = models.CharField(max_length=25)
-    pmids = models.CommaSeparatedIntegerField(max_length=250)
+    pmids = models.CharField(max_length=250, validators=[validate_comma_separated_integer_list]) # models.CommaSeparatedIntegerField(max_length=250) DEpricated in Django  1.9+
 
     def __unicode__(self):
         return self.id
@@ -39,7 +40,7 @@ class Histone_Human_proteins(models.Model):
     prot_lenght = models.IntegerField()
     isoform = models.CharField(max_length=40)
     # test
-    # sequence = models.ForeignKey(Sequence, related_name="human_proteins_seq", default='default')
+    # sequence = models.ForeignKey(Sequence, related_name="human_proteins_seq", default='default', on_delete=models.CASCADE)
 
     def __unicode__(self):
         return self.id

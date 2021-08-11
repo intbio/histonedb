@@ -355,8 +355,8 @@ class Taxonomy(models.Model):
     """
     name = models.CharField(max_length = 200)#, unique = True)
     type_name = models.CharField(max_length = 50)
-    rank = models.ForeignKey(Rank, related_name = 'taxa', null = True)
-    parent = models.ForeignKey('self', related_name = 'direct_children', null = True)
+    rank = models.ForeignKey(Rank, related_name = 'taxa', null = True, on_delete=models.CASCADE)
+    parent = models.ForeignKey('self', related_name = 'direct_children', null = True, on_delete=models.CASCADE)
     _parents = models.ManyToManyField('self', through = 'ParentsRelation', related_name = 'children', symmetrical=False)
     class Meta:
         ordering = ['name']
@@ -484,8 +484,8 @@ class Taxonomy(models.Model):
 ##################################################
 
 class ParentsRelation(models.Model):
-    taxon = models.ForeignKey(Taxonomy, related_name='parents_relation_taxa')
-    parent = models.ForeignKey(Taxonomy, related_name = 'parents_relation_parents')
+    taxon = models.ForeignKey(Taxonomy, related_name='parents_relation_taxa', on_delete=models.CASCADE)
+    parent = models.ForeignKey(Taxonomy, related_name = 'parents_relation_parents', on_delete=models.CASCADE)
     index = models.IntegerField()
     class Meta:
         unique_together = ('taxon', 'parent')
@@ -499,8 +499,8 @@ class ParentsRelation(models.Model):
 ##################################################
 
 class RelCommonTaxa(models.Model):
-    common = models.ForeignKey(Taxonomy, related_name='common_from_taxa')
-    taxon = models.ForeignKey(Taxonomy, related_name = 'taxa_from_common')
+    common = models.ForeignKey(Taxonomy, related_name='common_from_taxa', on_delete=models.CASCADE)
+    taxon = models.ForeignKey(Taxonomy, related_name = 'taxa_from_common', on_delete=models.CASCADE)
     language = models.CharField(max_length = 80, null = True)
     class Meta:
         ordering = ['taxon','common']
@@ -514,8 +514,8 @@ class RelCommonTaxa(models.Model):
 ##################################################
 
 class RelSynonymTaxa(models.Model):
-    synonym = models.ForeignKey(Taxonomy, related_name='synonym_from_taxa')
-    taxon = models.ForeignKey(Taxonomy, related_name = 'taxa_from_synonym')
+    synonym = models.ForeignKey(Taxonomy, related_name='synonym_from_taxa', on_delete=models.CASCADE)
+    taxon = models.ForeignKey(Taxonomy, related_name = 'taxa_from_synonym', on_delete=models.CASCADE)
     class Meta:
         ordering = ['taxon','synonym']
         unique_together = ('synonym', 'taxon')
@@ -528,8 +528,8 @@ class RelSynonymTaxa(models.Model):
 ##################################################
 
 class RelHomonymTaxa(models.Model):
-    homonym = models.ForeignKey(Taxonomy, related_name='homonym_from_taxa')
-    taxon = models.ForeignKey(Taxonomy, related_name = 'taxa_from_homonym')
+    homonym = models.ForeignKey(Taxonomy, related_name='homonym_from_taxa', on_delete=models.CASCADE)
+    taxon = models.ForeignKey(Taxonomy, related_name = 'taxa_from_homonym', on_delete=models.CASCADE)
     class Meta:
         ordering = ['taxon','homonym']
         unique_together = ('homonym', 'taxon')
@@ -555,8 +555,8 @@ class BadTaxa(models.Model):
 ##################################################
 
 class TaxonomyTreeOccurence(models.Model):
-    taxon = models.ForeignKey(Taxonomy, related_name = 'taxonomy_occurences')
-    tree = models.ForeignKey('Tree', related_name = 'taxonomy_occurences')
+    taxon = models.ForeignKey(Taxonomy, related_name = 'taxonomy_occurences', on_delete=models.CASCADE)
+    tree = models.ForeignKey('Tree', related_name = 'taxonomy_occurences', on_delete=models.CASCADE)
     user_taxon_name = models.CharField(max_length = 200, null = True)
     nb_occurence = models.IntegerField(default = 0)
     class Meta:
@@ -614,7 +614,7 @@ class Tree(models.Model, TaxonomyReference):
     _from_collection = models.BooleanField(default = False)
     column_error = models.IntegerField(null = True)
     #
-    collection = models.ForeignKey('TreeCollection', related_name = 'trees', null = True)
+    collection = models.ForeignKey('TreeCollection', related_name = 'trees', null = True, on_delete=models.CASCADE)
     bad_taxa = models.ManyToManyField(BadTaxa, related_name = 'trees' )
     taxon_ids = []
 
@@ -1853,9 +1853,9 @@ class TreeCollection(models.Model, TaxonomyReference):
 
 
 class AbstractTreeColTaxa(models.Model):
-    collection = models.ForeignKey(TreeCollection)#, related_name = 'rel')
-    tree = models.ForeignKey(Tree)#, related_name = 'rel')
-    taxon = models.ForeignKey(Taxonomy)#, related_name = 'rel', null = True)
+    collection = models.ForeignKey(TreeCollection, on_delete=models.CASCADE)#, related_name = 'rel')
+    tree = models.ForeignKey(Tree, on_delete=models.CASCADE)#, related_name = 'rel')
+    taxon = models.ForeignKey(Taxonomy, on_delete=models.CASCADE)#, related_name = 'rel', null = True)
     user_taxon_name = models.CharField(max_length = 200, null = True)
                 
     class Meta:

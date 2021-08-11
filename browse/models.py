@@ -28,8 +28,8 @@ class Variant(models.Model):
     H2A.10 -> one species, different varaint that are species speficific
     """
     id            = models.CharField(max_length=25, primary_key=True)
-    hist_type     = models.ForeignKey(Histone, related_name="variants")
-    taxonomic_span = models.CharField(max_length=100) #models.ForeignKey(Taxonomy)?
+    hist_type     = models.ForeignKey(Histone, related_name="variants", on_delete=models.CASCADE)
+    taxonomic_span = models.CharField(max_length=100) #models.ForeignKey(Taxonomy, on_delete=models.CASCADE)?
     description   = models.CharField(max_length=1000)
     hmmthreshold  = models.FloatField(null=True) # parameter used in hmmersearch during sequence annotation
     blastthreshold  = models.FloatField(null=True) # parameter used in blastthreshold during sequence annotation
@@ -44,18 +44,18 @@ class Variant(models.Model):
 
 #This is to handle other names for the same variants.like cenH3, CENPA, etc.
 class OldStyleVariant(models.Model):
-    updated_variant = models.ForeignKey(Variant, related_name="old_names")
+    updated_variant = models.ForeignKey(Variant, related_name="old_names", on_delete=models.CASCADE)
     name            = models.CharField(max_length=255, primary_key=True)
     gene            = models.IntegerField(null=True, validators=[MaxValueValidator(15),MinValueValidator(1)])
     splice          = models.IntegerField(null=True, validators=[MaxValueValidator(15),MinValueValidator(1)])
-    taxonomy        = models.ForeignKey(Taxonomy, related_name="+")
+    taxonomy        = models.ForeignKey(Taxonomy, related_name="+", on_delete=models.CASCADE)
 
     def __str__(self):
         return "{} (now called {})".format(self.name, self.updated_variant.id)
 
 class TemplateSequence(models.Model):
     variant  = models.CharField(max_length=255) #Not a foreign key; Maybe it is "General". It is just used to specify path
-    taxonomy = models.ForeignKey(Taxonomy)
+    taxonomy = models.ForeignKey(Taxonomy, on_delete=models.CASCADE)
 
     def __str__(self):
         return "{}_{}".format(self.variant, self.taxonomy.name)
@@ -70,12 +70,12 @@ class TemplateSequence(models.Model):
 class Sequence(models.Model):
     id           = models.CharField(max_length=255, primary_key=True) #GI, superseeded by ACCESSION
     # id           = models.CharField(max_length=255, primary_key=True,db_index=True) #GI, superseeded by ACCESSION
-    variant      = models.ForeignKey(Variant, related_name="sequences", blank=True, null=True)
-    variant_hmm  = models.ForeignKey(Variant, related_name="sequences_by_hmm", blank=True, null=True)
-    histone_type = models.ForeignKey(Histone, related_name="sequences", blank=True, null=True)
+    variant      = models.ForeignKey(Variant, related_name="sequences", blank=True, null=True, on_delete=models.CASCADE)
+    variant_hmm  = models.ForeignKey(Variant, related_name="sequences_by_hmm", blank=True, null=True, on_delete=models.CASCADE)
+    histone_type = models.ForeignKey(Histone, related_name="sequences", blank=True, null=True, on_delete=models.CASCADE)
     gene         = models.IntegerField(null=True, validators=[MaxValueValidator(15),MinValueValidator(1)])
     splice       = models.IntegerField(null=True, validators=[MaxValueValidator(15),MinValueValidator(1)])
-    taxonomy     = models.ForeignKey(Taxonomy)
+    taxonomy     = models.ForeignKey(Taxonomy, on_delete=models.CASCADE)
     header       = models.CharField(max_length=255)
     sequence     = models.TextField()
     reviewed     = models.BooleanField()
@@ -158,8 +158,8 @@ class ScoreForHistoneType(models.Model):
     """
     The histone type score class, assigns a bunch of score entries to the sequence. For each histone a score.
     """
-    sequence                = models.ForeignKey(Sequence, related_name="histone_model_scores")
-    histone                 = models.ForeignKey(Histone, related_name="histone_+")
+    sequence                = models.ForeignKey(Sequence, related_name="histone_model_scores", on_delete=models.CASCADE)
+    histone                 = models.ForeignKey(Histone, related_name="histone_+", on_delete=models.CASCADE)
     score                   = models.FloatField()
     evalue                  = models.FloatField()
     hmmStart                = models.IntegerField()
@@ -181,9 +181,9 @@ class Score(models.Model):
     """
     # id                      = models.IntegerField(primary_key=True)
     # id = models.AutoField(primary_key=True)
-    # sequence                = models.ForeignKey(SequenceBlast, related_name="all_model_scores")
-    sequence                = models.ForeignKey(Sequence, related_name="all_model_scores")
-    variant                 = models.ForeignKey(Variant, related_name="b+")
+    # sequence                = models.ForeignKey(SequenceBlast, related_name="all_model_scores", on_delete=models.CASCADE)
+    sequence                = models.ForeignKey(Sequence, related_name="all_model_scores", on_delete=models.CASCADE)
+    variant                 = models.ForeignKey(Variant, related_name="b+", on_delete=models.CASCADE)
     score                   = models.FloatField()
     bitScore                = models.FloatField(blank=True, null=True)
     evalue                  = models.FloatField()
@@ -196,7 +196,7 @@ class Score(models.Model):
     align_length            = models.IntegerField(blank=True, null=True)
     match                   = models.TextField(default='')
     hit_accession           = models.CharField(max_length=255, default='')
-    # hit_sequence = models.ForeignKey(Sequence, related_name="aligned_scores")
+    # hit_sequence = models.ForeignKey(Sequence, related_name="aligned_scores", on_delete=models.CASCADE)
     used_for_classification = models.BooleanField(default=False)
 
     def __str__(self):
@@ -211,13 +211,13 @@ class ScoreIdentity(models.Model):
     """
     # id                      = models.IntegerField(primary_key=True)
     # id = models.AutoField(primary_key=True)
-    # sequence                = models.ForeignKey(SequenceBlast, related_name="all_model_scores")
-    sequence                = models.ForeignKey(Sequence, related_name="all_model_identities")
-    variant                 = models.ForeignKey(Variant, related_name="i+")
+    # sequence                = models.ForeignKey(SequenceBlast, related_name="all_model_scores", on_delete=models.CASCADE)
+    sequence                = models.ForeignKey(Sequence, related_name="all_model_identities", on_delete=models.CASCADE)
+    variant                 = models.ForeignKey(Variant, related_name="i+", on_delete=models.CASCADE)
     score                   = models.FloatField() # Identity value is the percentage of identical matches between the two sequences over the reported aligned region (including any gaps in the length).
     similarity              = models.FloatField() # Similarity value is the percentage of matches between the two sequences over the reported aligned region (including any gaps in the length).
     hit_accession           = models.CharField(max_length=255, default='')
-    # hit_sequence = models.ForeignKey(Sequence, related_name="aligned_scores")
+    # hit_sequence = models.ForeignKey(Sequence, related_name="aligned_scores", on_delete=models.CASCADE)
     used_for_classification = models.BooleanField(default=False)
 
     def __str__(self):
@@ -232,8 +232,8 @@ class ScoreHmm(models.Model):
     """
     # id                      = models.IntegerField(primary_key=True)
     # id = models.AutoField(primary_key=True)
-    sequence                = models.ForeignKey(Sequence, related_name="all_model_hmm_scores")
-    variant                 = models.ForeignKey(Variant, related_name="+")
+    sequence                = models.ForeignKey(Sequence, related_name="all_model_hmm_scores", on_delete=models.CASCADE)
+    variant                 = models.ForeignKey(Variant, related_name="+", on_delete=models.CASCADE)
     above_threshold         = models.BooleanField()
     score                   = models.FloatField()
     evalue                  = models.FloatField()
@@ -307,7 +307,7 @@ extension\tffff66
 
 class Feature(models.Model):
     id          = models.CharField(max_length=255, primary_key=True)
-    template    = models.ForeignKey(TemplateSequence, null=True)
+    template    = models.ForeignKey(TemplateSequence, null=True, on_delete=models.CASCADE)
     start       = models.IntegerField()
     end         = models.IntegerField()
     name        = models.CharField(max_length=600)
