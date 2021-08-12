@@ -201,6 +201,7 @@ class Command(BaseCommand):
         
         with open(self.combined_hmm_file, "w") as combined_hmm:
             for hist_type, seed in self.get_seeds():
+                self.log.error('{}, {}'.format(hist_type, seed))
                 #Build HMMs
                 hmm_dir = os.path.join(self.hmm_directory, hist_type)
                 if not os.path.exists(hmm_dir):
@@ -232,6 +233,7 @@ class Command(BaseCommand):
     def search(self, hmms_db, out, sequences=None, E=10):
         """Use HMMs to search the nr database"""
         self.log.info("Searching HMMs...")
+
         # print >> self.stdout, "Searching HMMs..."
 
         if sequences is None:

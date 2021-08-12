@@ -39,7 +39,7 @@ class Histone_Human_proteins(models.Model):
     prot_lenght = models.IntegerField()
     isoform = models.CharField(max_length=40)
     # test
-    # sequence = models.ForeignKey(Sequence, related_name="human_proteins_seq", default='default')
+    sequence = models.ForeignKey(Sequence, related_name="human_proteins_seq")
 
     def __unicode__(self):
         return self.id
