@@ -15,10 +15,13 @@ jobs:
         username: ${{ secrets.USERNAME }}
         key: ${{ secrets.KEY }}
         port: ${{ secrets.PORT }}
+        envs: GITHUB_REF
         script: |
           cd *_test_dir/
           cd histonedb
           git stash
           git pull
+          echo Checking out to branch ${GITHUB_REF##*/}
           git checkout ${GITHUB_REF##*/}
+          git pull
           git stash pop
