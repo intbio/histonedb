@@ -27,7 +27,7 @@ python manage.py buildvariantinfo -f
 python manage.py buildhmms
 
 # python manage.py extractvariants -f #This will download new nr if not present in dir
-# python manage.py extractvariants -f --db nr_small_per10_v4 #This will download new nr if not present in dir
+# python manage.py extractvariants -f --db nr_small_per10_v4
 #Line below is for express code testing
 python manage.py extractvariants -f --db https://www.dropbox.com/s/6lh26otjq0w8337/nr_test_small_352mb.gz
 

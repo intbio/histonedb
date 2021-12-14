@@ -50,6 +50,8 @@ TYPE_CLASSIFICATION_REPORT_FILE     = os.path.join(MODEL_EVALUATION, "type_class
 BLASTDB_FILE                        = os.path.join(BLASTDBS_DIR, "BLASTDB_sequences_{}.fa")
 DB_HISTVARIANTS_BLAST_RESULTS_FILE  = os.path.join(BLAST_DIRECTORY, "results", "{}", "blast_search{}.out")
 DB_HISTVARIANTS_PARSED_RESULTS_FILE = os.path.join(BLAST_DIRECTORY, "results", "{}", "blast_search_parsed{}.out")
+DB_CURATED_BLAST_RESULTS_FILE       = os.path.join(BLAST_DIRECTORY, "model_evaluation", "blast_search_curated_{}.out")
+
 
 # Parameters for parallel extraction variant sequences from file
 # HMMER_PROCS=20 # recommended for large data files

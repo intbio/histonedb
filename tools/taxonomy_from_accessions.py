@@ -46,6 +46,8 @@ def fetch_seq(accessions):
                 # handle = Entrez.efetch(db="protein", rettype="gb", retmode="text", webenv=webenv, query_key=query_key)
                 handle= Entrez.efetch(db="protein", id=",".join(accessions), rettype="gb", retmode="text")
                 data = list(SeqIO.parse(handle, "gb"))
+                if 'NP_009564.1' in data.id:
+                    log.info('')
                 if (len(accessions) == len(data)):
                     break
             except:
@@ -115,6 +117,7 @@ def taxonomy_from_header(header_init, accession=None, species_re=None):
     organism = re.sub(r"['\(\)\.]", r'', organism)
     organism = organism.lower()
     try:
+        log.info('DEBUG:: Extracted taxonomy from header for {} to {}'.format(accession, Taxonomy.objects.get(name=organism.lower()).id))
         return Taxonomy.objects.get(name=organism.lower())
     except:
         try:
@@ -156,6 +159,7 @@ def update_taxonomy(accessions):
             seq = Sequence.objects.get(pk=accession)
             seq.taxonomy_id = taxid
             seq.save()
+            log.info('DEBUG:: Updated taxonomy for {} to {}'.format(accession, taxid))
         except:
             log.error("Unable to update TAXID {} for accession {}".format(taxid, accession))
             log.error('Error message: {}'.format(sys.exc_info()[0]))

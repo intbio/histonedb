@@ -196,6 +196,19 @@ var $table_{{ page_name }} = $('#sequence_table_{{ page_name }}'),
             '</div>'
           ].join('');
         }
+        function scoreFormatter(value, row, index) {
+          return [
+            value,
+            '<div class="button-group dropdown pull-right">',
+            '<a href="#" class="dropdown-toggle rowlink" data-toggle="dropdown" aria-haspopup="true">',
+            '<span class="caret"></span>',
+            '<ul class="dropdown-menu" role="menu">',
+            '<li><a href="#" id="scores_modal_button_{{ page_name }}">Score against all variants</a></li>',
+            '</ul>',
+            '</a>',
+            '</div>'
+          ].join('');
+        }
         function variantFormatter(value, row, index) {
           return [
             value,
@@ -226,6 +239,13 @@ var $table_{{ page_name }} = $('#sequence_table_{{ page_name }}'),
             '</a>',
             '</div>'
           ].join('');
+        }
+
+        window.scoreEvents = {
+          'click #scores_modal_button_{{ page_name }}': function (e, value, row, index) {
+              make_scores_table_{{ page_name }}($('#scores_table_div_{{ page_name }}'), [row.id], "418px");
+              $('#scores_modal_{{ page_name }}').modal('show');
+          }
         }
 
         window.variantEvents = {
@@ -330,7 +350,7 @@ var $table_{{ page_name }} = $('#sequence_table_{{ page_name }}'),
             {field:"taxonomy", sortable:true, title:"Taxonomy", clickToSelect:false, events:taxonomyEvents, formatter:taxonomyFormatter},
             {% if not quick_msa %}
             {field:"header", sortable:true, width:50, title:"Description", rowspan:1, clickToSelect:false},
-            {field:"score", sortable:true, title:"Score", clickToSelect:false},
+            {field:"score", sortable:true, title:"Score", clickToSelect:false, events:scoreEvents, formatter:scoreFormatter},
             {field:"evalue", sortable:true, title:"E-value", clickToSelect:false},
             {% endif %}
             {% if blast_results %}

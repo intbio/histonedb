@@ -15,6 +15,7 @@ from django.templatetags.static import static
 from browse.forms import AdvancedFilterForm, AnalyzeFileForm
 from browse.search import HistoneSearch
 from browse.process_upload import process_upload, process_upload_blast, InvalidFASTA
+from tools.browse_service import *
 
 from colour import Color
 import pandas as pd
@@ -59,6 +60,19 @@ colors = [
     "#ccebc5",
     "#ffed6f",
 ]
+
+def alignments(request, histone_type):
+    # with open(DB_HISTVARIANTS_BLAST_RESULTS_FILE.format('H3', '5'), 'r', encoding="utf-8") as f:
+    with open(DB_CURATED_BLAST_RESULTS_FILE.format(histone_type), 'r') as f:
+        string_xml = f.read()
+    print(string_xml[:20])
+    data = {
+        "blast_result": string_xml,
+        # "filter_form":AdvancedFilterForm(),
+        # "original_query":{},
+        # "current_query":{}
+    }
+    return render(request, 'alignments.html', data)
 
 def help(request):
     data = {
@@ -443,11 +457,11 @@ def get_all_scores(request, ids=None):
         #Returning 'false' stops Bootstrap table
         return "false"
     
-    variants = list(Variant.objects.all().order_by("id").values_list("id", "hmmthreshold"))
+    variants = list(Variant.objects.all().order_by("hist_type__id", "id").values_list("id", "blastthreshold"))
     indices = {variant: i for i, (variant, threshold) in enumerate(variants)}
     rows = [{} for _ in range(len(variants))]
     for i, (variant, threshold) in enumerate(variants):
-        rows[i]["variant"] = "{} (T:{})".format(variant, round(threshold,1))
+        rows[i]["variant"] = "{} (T:{})".format(variant, round(threshold,1)) if threshold else "{} (T:{})".format(variant, threshold)
         for id in ids:
             rows[i][id] = "n/a"
         rows[i]["data"] = {}
@@ -465,10 +479,10 @@ def get_all_scores(request, ids=None):
 
         for j, score in enumerate(scores):
             if score.variant.id in indices:
-                threshold = score.variant.hmmthreshold
+                threshold = score.variant.blastthreshold
                 if rows[indices[score.variant.id]][id] == "n/a" or score.score > rows[indices[score.variant.id]][id]:
                     rows[indices[score.variant.id]][id] = score.score
-                    rows[indices[score.variant.id]]["data"]["above_threshold"][id] = score.score>=threshold
+                    rows[indices[score.variant.id]]["data"]["above_threshold"][id] = score.score>=threshold if threshold else False
                     rows[indices[score.variant.id]]["data"]["this_classified"][id] = score.used_for_classification
                     try:
                         if score.regex:

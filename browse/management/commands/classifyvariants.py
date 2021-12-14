@@ -16,6 +16,8 @@ from tqdm import tqdm
 from datetime import date, datetime
 from cProfile import Profile
 
+import pandas as pd
+
 
 # This command is the main one in classifying histone sequences using one of the two ways^
 # by using HMMs constructed based on these alignment to classify the bigger database or
@@ -33,6 +35,13 @@ class Command(BaseCommand):
     log = logging.getLogger(__name__)
 
     def add_arguments(self, parser):
+        parser.add_argument(
+            "-c",
+            "--curated",
+            default=False,
+            action="store_true",
+            help="Blast curated sequences and saves all scores against other curated sequences (?)")
+
         parser.add_argument(
             "-f",
             "--force",
@@ -71,15 +80,18 @@ class Command(BaseCommand):
             self.get_stats_hmm()
 
         if 'BLAST' in CLASSIFICATION_TYPES:
+            if options["force"] and options["curated"]:
+                assert "You can use option --curated only with --force=False"
             if options["force"]:
                 Score.objects.all().delete()
                 Sequence.objects.exclude(reviewed=True).update(variant=None)
+            if options["force"] or options["curated"]:
+                Score.objects.filter(sequence__reviewed=True).delete()
                 self.get_scores_for_curated_via_blast()
                 # self.estimate_thresholds()
-                # if options["force"] or not os.path.isfile(self.blast_file + "0"):
-                # self.search_blast()
-            self.classify_via_blast(force=options["force"])
-            self.get_stats_blast()
+            if not options["curated"]:
+                self.classify_via_blast(force=options["force"])
+                self.get_stats_blast()
 
         seq_num = Sequence.objects.count()
         seqauto_num = Sequence.objects.filter(reviewed=False).count()
@@ -375,7 +387,15 @@ class Command(BaseCommand):
     # For BLAST classification
     def get_scores_for_curated_via_blast(self):
         # Score.objects.filter(sequence__reviewed=True).delete()
-        for sequence in Sequence.objects.filter(reviewed=True):
+        thresholds_dict = {'accession': [],
+                           'variant': [],
+                           'histone_type': [],
+                           'taxonomy': [],
+                           'header': [],
+                           'reviewed': [],
+                           'threshold': []}
+        for histone_type in ['H1', 'H2A', 'H2B', 'H3', 'H4']:
+            sequences = [seq.format(format='fasta') for seq in Sequence.objects.filter(reviewed=True, histone_type=histone_type)]
             seqs_file = os.path.join(settings.STATIC_ROOT_AUX, "browse", "blast", "HistoneDB_sequences.fa")
 
             blastp = os.path.join(os.path.dirname(sys.executable), "blastp")
@@ -384,21 +404,40 @@ class Command(BaseCommand):
                 cmd=blastp,
                 db=seqs_file,
                 evalue=.01, outfmt=5)
-            result, error = blastp_cline(stdin="\n".join([s.format("fasta") for s in [sequence]]))
+            result, error = blastp_cline(stdin="\n".join([s.format("fasta") for s in sequences]))
 
-            resultFile = io.BytesIO()
-            resultFile.write(result.encode("utf-8"))
-            resultFile.seek(0)
+            with open(DB_CURATED_BLAST_RESULTS_FILE.format(histone_type), 'w') as f:
+                f.write(result)
 
-            for i, blast_record in enumerate(NCBIXML.parse(resultFile)):
-                if len(blast_record.alignments) == 0:
-                    self.log.error('No BLAST record alignments for {} during adding scores for curated sequences'.format(sequence.id))
-                    continue
+            log.info('Blast results saved to {}'.format(DB_CURATED_BLAST_RESULTS_FILE.format(histone_type)))
 
-                for algn in blast_record.alignments:
-                    algn_self = False if sequence.id != algn.hit_def.split("|")[0] else True # alignment on itself
-                    for hsp in algn.hsps:
-                        add_score(sequence, sequence.variant, hsp, algn.hit_def.split("|")[0], best=algn_self) ### looks like there is an error
+            with open(DB_CURATED_BLAST_RESULTS_FILE.format(histone_type)) as blastFile:
+                for i, blast_record in enumerate(NCBIXML.parse(blastFile)):
+                    query_split = blast_record.query.split('|')
+                    accession = query_split[0]
+                    sequence = Sequence.objects.get(id=accession)
+                    if len(blast_record.alignments) == 0:
+                        self.log.error(
+                            'No BLAST record alignments for {} during adding scores for curated sequences'.format(sequence.id))
+                        continue
+
+                    threshold = None
+                    for algn in blast_record.alignments:
+                        algn_self = (sequence.id == algn.hit_def.split("|")[0])  # alignment on itself
+                        variant_model = Variant.objects.get(id=algn.hit_def.split("|")[2])
+                        for hsp in algn.hsps:
+                            add_score(sequence, variant_model, hsp, algn.hit_def.split("|")[0], best=algn_self)
+                            if algn_self and (not threshold or threshold > hsp.score):
+                                threshold = hsp.score
+
+                    thresholds_dict['accession'].append(sequence.id)
+                    thresholds_dict['variant'].append(sequence.variant.id)
+                    thresholds_dict['histone_type'].append(sequence.histone_type.id)
+                    thresholds_dict['taxonomy'].append(sequence.taxonomy.name)
+                    thresholds_dict['header'].append(sequence.header)
+                    thresholds_dict['reviewed'].append(sequence.reviewed)
+                    thresholds_dict['threshold'].append(threshold)
+        pd.DataFrame(thresholds_dict).to_csv(os.path.join(BLAST_DIRECTORY, "model_evaluation", "thresholds.csv"))
 
     def classify_via_blast(self, force=True):
         for hist_type in ['H1', 'H2A', 'H2B', 'H3', 'H4']:
@@ -411,6 +450,7 @@ class Command(BaseCommand):
                                             blastdb=BLASTDB_FILE, hist_type=hist_type,
                                             result_file=DB_HISTVARIANTS_PARSED_RESULTS_FILE,
                                             do_search=force, load_to_db=True, procs=BLAST_PROCS)
+            self.load_in_db_nonclassified(hist_type=hist_type)
         # self.checkH2AX()
 
     def predict_variants_via_blast(self, sequences, blastout, blastdb, hist_type, result_file=None, do_search=True, load_to_db=True, procs=1):
@@ -428,7 +468,7 @@ class Command(BaseCommand):
                 self.load_in_db(parsed_blastout=result, hist_type=hist_type)
             result = pd.DataFrame(result).fillna('').drop(columns=['hsp', 'hit_accession'])
             if result_file:
-                result.to_csv(result_file.format(hist_type, "%d") % i, index=False)
+                result[result['best']].to_csv(result_file.format(hist_type, "%d") % i, index=False)
                 self.log.info("Predicted sequences saved to {}".format(result_file.format(hist_type, '%d') % i))
 
     def search_blast(self, sequences, blastdb, blastout, procs):
@@ -519,10 +559,10 @@ class Command(BaseCommand):
                            'score': best_alignments[0]['score'], 'best': True, 'description': description,
                            'hsp': best_alignments[0]['best_hsp'], 'hit_accession': best_alignments[0]['hit_accession']})
 
-            # for best_algn in best_alignments[1:]:
-                # result.append({'accession': accession, 'histone_type': hist_type,'histone_variant': best_algn['hit_variant'],
-                #                'score': best_algn['score'], 'best': True, 'description': description,
-                #                'hsp': best_algn['best_hsp'], 'hit_accession': best_algn['hit_accession']})
+            for best_algn in best_alignments[1:]:
+                result.append({'accession': accession, 'histone_type': hist_type,'histone_variant': best_algn['hit_variant'],
+                               'score': best_algn['score'], 'best': False, 'description': description,
+                               'hsp': best_algn['best_hsp'], 'hit_accession': best_algn['hit_accession']})
 
         blastFile.close()
         return result
@@ -547,13 +587,15 @@ class Command(BaseCommand):
                 seq.variant = variant_model
                 seq.save()
             try:
-                if record['hit_accession']: add_score(seq, variant_model, record['hsp'], record['hit_accession'], best=True)
+                if record['hit_accession']: add_score(seq, variant_model, record['hsp'], record['hit_accession'], best=record['best'])
                 else: add_score(seq, variant_model)
             except Exception as e:
                 self.log.warning('Failed to add histone variant score: {}'.format(str(e)))
                 pass
         self.log.info('Classified {} from {} in database'.format(Sequence.objects.exclude(variant=None).count(),
                                                                  Sequence.objects.all().count()))
+
+    def load_in_db_nonclassified(self, hist_type):
         non_classified = Sequence.objects.filter(variant=None, histone_type__id=hist_type)
         self.log.info('Found {} sequences are not classified for {}'.format(non_classified.count(), hist_type))
         for s in non_classified:
