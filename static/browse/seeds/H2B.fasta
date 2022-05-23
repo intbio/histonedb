@@ -1,462 +1,318 @@
->Mus|NP_081340.1|subH2B Mus_subH2B_254588081
-----------------------------------------------------------MA
-KPTF-----------------------KRQCYIKRH------LR-----P-----L----
--Y-RK-HSRCSSINLGHGNYSL--YINRVLKEVVPNRGISSYSVDIMNILINDIFERIAT
-EACQQMF----LRKRCTLTPGDIQQAVHLLLPKKLATLAVTFGSKAVHR---FIHS----
------------
->Cricetulus|XP_003515979.1|subH2B Cricetulus_subH2B_354507874
-----------------------------------------------------------MA
-KSII----------------------KRYQFVKRRQ-------------------R----
--R-AF-RKRYSSINFGQRNYSL--YISRVLKEVVPMRGLSSNTVDIMNTLINDLFERIAT
-EACQLMY----FRKRCTLTLEDIQKAVYLLVPKKLAKSAVTFGSKAVHR---FIHS----
------------
->Macaca|XP_001095287.1|subH2B Macaca_subH2B_109077646
-----------------------------------------------------------MA
-RSST-----------------------KKHKYSKRH------QS-----P-----T----
--S-RK-KAHS-SIDFVHGNYSF--FVNKVLKEVVSHRGTSSRTLDLMNTLINNFFQHISM
-KAYRLMY----FRNRCTLTPEDILKAAYLLLPQKTANYAVAFGSEVFRR---YVHS----
------------
->Cavia|XP_003461969.1|subH2B Cavia_subH2B_348552306
-----------------------------------------------------------MV
-KSVI--------------KPR----RYFRGRRTSIS------------------------
----SK-K-SCLSSNSGYRNYSL--YVSRVLKEVVPERAISSCTVNIMNTLIDDIFERISE
-EAHHLMC----SQKRCTLTPKDIQKAVYLLLPRKLAKYAVAFGDGAVDR---YVHS----
------------
->Heterocephalus|XP_004885290.1|subH2B Heterocephalus_subH2B_512843645
-----------------------------------------------------------MV
-RSII--------------KQY----GYSRRHLTPTY------RK----------------
----KS-YLST---SFGHRNYSL--YISRVLKEVAPQRHISSRTLDMMNALINNIFERIAT
-EAHHLMC----SRNRCTLAPEDIQRAVYLLLPGKLAKYAMAFGDEAVHR---YVHS----
------------
->Equus|XP_001504072.1|subH2B Equus_subH2B_149727070
-----------------------------------------------------------MA
-RAST--------------KKS----RCSRRRQSPAS------RK-----------K----
--S-HA-STYRGH-----RNYSL--YINRVLKEVVPQRGISARTLDTMNILINNIFERIST
-EACSMMY----FRNRCTLTPQDVQKAVYSLFPGKLAKYAVAFGSEAVQR---YLHS----
------------
->Bos|NP_991343.1|subH2B Bos_subH2B_45429973
-----------------------------------------------------------MA
-RNVT---------------KRNKRCRGHQKAIYKKK-------------S-----H----
--S-SS-ESGL-------RNYSL--YINRVLKEVVPQKGISSRTIDIINTMINDMFERIST
-EACNLMY----YRKRCTLTPEDIEKAVYLLLPEKLAKYAVAFGKEAVQR---YVRS----
------------
->Loxodonta|XP_003407998.1|subH2B Loxodonta_subH2B_344272356
-----------------------------------------------------------MA
-RSII---------------------KKYRYSNGHLS------SI-----S-----I----
--K-KL-HSST---NFGHRNYSL--YVNRVLKEVVPQRGISSRTLDVMNTLINNIFKCIAT
-EACNLMY----FRNRCTLTPEDIQRAVYVRLPGKLAKHAVAFGSEAVNR---YVHS----
------------
->Sus|XP_003134084.1|subH2B Sus_subH2B_311273883
-----------------------------------------------------------MA
-RYIT-----------------------KKNRCSRGH------RH-----P-----N----
--S-RK-K-TCSSTECGRRNYSL--YVNRVLKEVVPQSGISSRTLDMMNTVINDIFERISM
-EASNLMY----FRNRCTLTPEDVQKAVYLLLPRKLAKHAVAFGSDAVHR---YVHS----
------------
->Ailuropoda|XP_002921383.1|subH2B Ailuropoda_subH2B_301771932
-----------------------------------------------------------MA
-RSIT---------------KKNKRSRGHRSPISKKK------SHSSTDFG----------
--R---------------RNYSL--YINRVLKEVVPQRSISSRTLDVMNTLIKDIFERISV
-EARSLMC----FRNRCTLTPEDIQKAVYLLLPGKLAKYAVAFGSEAVQR---YVQS----
------------
->Monodelphis|XP_001366286.1|subH2B Monodelphis_subH2B_126320607
-----------------------------------------------------------MT
-KAVR---------------------SNESQKLTTNQ-----------E-------K----
--K-KK-KKKKLLLS---RNYSL--YTHRVLKEVIPNQGLTYKTTEIMNSMINNILERIAE
-EAGNLLC----YKRHLTLGHQDIQMAVYRLLPDELAKHAVAFGTRAVTT---YNDSK---
------------
->Bos|DAA13058.1|H2B.W Bos_H2B.W_296470943
--------MGIGGSILSETSSDSYEEDVITKETGISEIEPSEKEMAKVETSKPDPYDAEPI
-KVET-------------SKPDPYDAEPKKAETSKPDPYDAEPKKAKQK-T-----A----
--K-GR-RRRRHCHHDSFSSFAT--YFPRVLRQIHKGMSLSHDSVNILDSFVKDTFERIAE
-EAGRLAG----DNKRRTITTEDIEAAVRLLLPGKLGKYAVLKATKSLIT---YRTCK---
------------
->Trypanosoma|XP_823266.1|canonical_H2B Trypanosoma_canonical_H2B_71748422
-----------------------------------------------------MA----TP
-KSTP--------------AKT---------------------RK---E-A-----K----
--K-TR-RQRK-------RTWNV--YVSRSLRSINSQMSMTSRTMKIVNSFVNDLFERIAA
-EAATIVR----VNRKRTLGARELQTAVRLVLPADLAKHAMAEGTKAVSH---ASS-----
------------
->Toxoplasma|XP_002369740.1|canonical_H2B Toxoplasma_canonical_H2B_237840885
-----------------------------------------------------------MS
-GKGP--------------AQK---SQAAKKTAGKSL-------------G-----P----
--RYRR-RKRT-------ESFAL--YIYKVLKQVHPETGVSKKSMSIMNSFINDIFDRLAD
-EAVRLIR----YNKKRTLSSREIQTAVRLLLPGELSKHAVSEGTKAVTK---YTTSGA--
------------
->Toxoplasma|XP_002369740.1|H2B.Z Toxoplasma_H2B.Z_237840885
-----------------------------------------------------------MS
-GKGP--------------AQK---SQAAKKTAGKSL-------------G-----P----
--RYRR-RKRT-------ESFAL--YIYKVLKQVHPETGVSKKSMSIMNSFINDIFDRLAD
-EAVRLIR----YNKKRTLSSREIQTAVRLLLPGELSKHAVSEGTKAVTK---YTTSGA--
------------
->Plasmodium|XP_001349046.1|H2B.Z Plasmodium_H2B.Z_124511826
-----------------------------------------------------------MS
-GKGP--------------AQK---SQAAKKTAGKTL-------------G-----P----
--RHKR-KRRT-------ESFSL--YIFKVLKQVHPETGVTKKSMNIMNSFINDIFDRLVT
-EATRLIR----YNKKRTLSSREIQTAVRLLLPGELSKHAVSEGTKAVTK---YTTSAA--
------------
->Plasmodium|XP_678689.1|H2B.Z Plasmodium_H2B.Z_68073549
-----------------------------------------------------------MS
-GKGP--------------AQK----SQAAKKTAGKT-------------L----------
---GPRHKRKRRT-----ESFSL--YIFKVLKQVHPETGVTKKSMNIMNSFINDIFDRLVT
-EATRLIR----YNKKRTLSSREIQTAVRLLLPGELSKHAVSEGTKAVTK---YTTSGA--
------------
->Saccharomyces|NP_010510.3|canonical_H2B Saccharomyces_canonical_H2B_398366183
---------------------------------------------------MSAKAEKKPA
-SKAP--------------AEK----KPAAKKTSTST-----------D-G-----K----
--K-RS-KARK-------ETYSS--YIYKVLKQTHPDTGISQKSMSILNSFVNDIFERIAT
-EASKLAA----YNKKSTISAREIQTAVRLILPGELAKHAVSEGTRAVTK---YSSSTQA-
------------
->Saccharomyces|NP_009553.1|canonical_H2B Saccharomyces_canonical_H2B_6319471
---------------------------------------------------MSSAAEKKPA
-SKAP--------------AEK----KPAAKKTSTSV-----------D-G-----K----
--K-RS-KVRK-------ETYSS--YIYKVLKQTHPDTGISQKSMSILNSFVNDIFERIAT
-EASKLAA----YNKKSTISAREIQTAVRLILPGELAKHAVSEGTRAVTK---YSSSTQA-
------------
->Arabidopsis|Q9LZ45.3|canonical_H2B Arabidopsis_canonical_H2B_75181188
----------------------------------------------------MAP----KA
-EKKP--------------AEK----APAPKAEKKIA------KE---G-GTSEIVK----
--K-KK-KTKKST-----ETYKI--YIFKVLKQVHPDIGISGKAMGIMNSFINDIFEKLAQ
-ESSRLAR----YNKKPTITSREIQTAVRLVLPGELAKHAVSEGTKAVTK---FTSS----
------------
->Arabidopsis|Q9FFC0.3|canonical_H2B Arabidopsis_canonical_H2B_75170197
-----------------------------------------------MAKADKKPAEKKPA
-EKTP-------------AAEPAAAAEKKPKAGKKLP------KEPAGA-GD----K----
--K-KK-RSKKNV-----ETYKI--YIFKVLKQVHPDIGISSKAMGIMNSFINDIFEKLAG
-ESSKLAR----YNKKPTITSREIQTAVRLVLPGELAKHAVSEGTKAVTK---FTSS----
------------
->Arabidopsis|Q9LQQ4.3|canonical_H2B Arabidopsis_canonical_H2B_75180188
---------------------------------------------------MAPRAEKKPA
-EKKTAAERPVEENKAAEKAPA----EKKPKAGKKLP------PK--EA-GD----K----
--K-KK-RSKKNV-----ETYKI--YIFKVLKQVHPDIGISSKAMGIMNSFINDIFEKLAQ
-ESSKLAR----YNKKPTITSREIQTAVRLVLPGELAKHAVSEGTKAVTK---FTSS----
------------
->Arabidopsis|Q9LZT0.3|canonical_H2B Arabidopsis_canonical_H2B_75181341
---------------------------------------------------MAPKAEKKPA
-EKKP-----VEEKSKAEKAPA----EKKPKAGKKLP------KEAGAG-G-----D----
--K-KK-KMKKKSV----ETYKI--YIFKVLKQVHPDIGISSKAMGIMNSFINDIFEKLAS
-ESSKLAR----YNKKPTITSREIQTAVRLVLPGELAKHAVSEGTKAVTK---FTSS----
------------
->Psammechinus|Q27749.3|sperm_H2B Psammechinus_sperm_H2B_74767039
-----------------------------------------------------MPSQKSPT
-KRSP-----------TKRSPQ----KGGKGAKRGGK------AG---K-R-----RRGVA
-VK-RR-RRRR-------ESYGI--YIYKVLKQVHPDTGISSRAMSVMNSFVNDVFERIAS
-EAGRLTT----YNRRNTVSSREVQTAVRLLLPGELAKHAVSEGTKAVTK---YTTSR---
------------
->Strongylocentrotus|NP_999706.1|sperm_H2B Strongylocentrotus_sperm_H2B_47551059
-----------------------------------------------------MPSQRSPT
-KRSP-----------TKRSPQ----KGAGKGGKGSKRGGKARRR---G-G-----A---A
-VR-RR-RRRR-------ESYGI--YIYKVLKQVHPDTGISSRGMSIMNSFVNDVFERVAA
-EASRLTK----YNRRSTVSSREIQTAVRLLLPGELAKHAVSEGTKAVTK---YTTSR---
------------
->Strongylocentrotus|NP_999721.1|sperm_H2B Strongylocentrotus_sperm_H2B_47551083
-----------------------------------------------------MP--RSPS
-KTSPRKGSPRRGSPSRKASPK-RGGKGAKRAGKGGR------RR---N-V-----V----
--R-RR-RRRR-------ESYGI--YIYKVLKQVHPDTGISSRGMSVMNSFVNDIFGRIAG
-EASRLTR----ANRRSTISSREIQTAVRLLLPGELAKHAVSEGTKAVTK---YTTSR---
------------
->Parechinus|P02291.2|sperm_H2B Parechinus_sperm_H2B_108885304
-----------------------------------------------------MPRS--PA
-KTSP-----------RKGSPR----KGSPSRKASPKRGGKGAKRAGKG-G-----RRRRV
-VK-RR-RRRR-------ESYGI--YIYKVLKQVHPDTGISSRAMSVMNSFVNDVFERIAG
-EASRLTS----ANRRSTVSSREIQTAVRLLLPGELAKHAVSEGTKAVTK---YTTSR---
------------
->Psammechinus|Q27750.3|sperm_H2B Psammechinus_sperm_H2B_108860775
-----------------------------------------------------MP--KSPS
-KSSP------RKGSPRKGSPR----KGSPKRGGKGA------KRAGKG-GRRNVVK----
----RR-RRRR-------ESYGI--YIYKVLKQVHPDTGISSRGMSVMNSFVNDVFERIAG
-EASRLTS----ANRRSTISSREIQTAVRLLLPGELAKHAVSEGTKAVTK---YTTARR--
------------
->Psammechinus|AAA30025.1|canonical_H2B Psammechinus_canonical_H2B_161386
-----------------------------------------------------------MA
-PTAQ--------------VAK----KGSKKAVKAPR------PS---G-G-----K----
--K-RN-RKRK-------ESYGI--YIYKVLKQVHPDTGISSRAMIIMNSFVNDIFERIAG
-ESSRLAQ----YNKKSTISSREIQTAVRLILPGELAKHAVSEGTKAVTK---YTTSK---
------------
->Strongylocentrotus|NP_999710.2|canonical_H2B Strongylocentrotus_canonical_H2B_62909990
-----------------------------------------------------------MA
-PTAQ--------------VAK----KGSKKAVKGTK------TA--XG-G-----K----
--K-RN-RKRK-------ESYGI--YIYKVLKQVHPDTGISSRAMVIMNSXVBDIFERIAG
-ESSRLAQ----YNKKXTXSSREIQTAVRLILPGELAKHAVSEGTKAVTK---YTTSK---
------------
->Caenorhabditis|NP_505464.1|canonical_H2B Caenorhabditis_canonical_H2B_17558794
-----------------------------------------------------------MA
-PPKP--------------SAK----GAKKAAKTVSK------PK---D-G-----K----
--K-RK-HARK-------ESYSV--YIYRVLKQVHPDTGVSSKAMSIMNSFVNDVFERIAS
-EASRLAH----YNKRSTISSREIQTAVRLILPGELAKHAVSEGTKAVTK---YTSSK---
------------
->Drosophila|NP_724342.1|canonical_H2B Drosophila_canonical_H2B_24585671
-----------------------------------------------------MP----PK
-TSGK--------------AAK----KAGK--AQKNI------TK---T-D-----K----
--K-KK-RKRK-------ESYAI--YIYKVLKQVHPDTGISSKAMSIMNSFVNDIFERIAA
-EASRLAH----YNKRSTITSREIQTAVRLLLPGELAKHAVSEGTKAVTK---YTSSK---
------------
->Xenopus|NP_001086753.1|canonical_H2B Xenopus_canonical_H2B_148222089
-----------------------------------------------------MPE---PA
-KSAP--------------APK----KGSKKAVTKTQ------KK---D-G-----K----
--K-RR-KSRK-------ESYAI--YVYKVLKQVHPDTGISSKAMSIMNSFVNDVFERIAG
-EASRLAH----YNKRSTITSREIQTAVRLLLPGELAKHAVSEGTKAVTK---YTSAK---
------------
->Homo|NP_778225|canonical_H2B
-----------------------------------------------------MPD---PS
-KSAP--------------APK----KGSKKAVTKAQ------KK---D-G-----K----
--K-RK-RGRK-------ESYSI--YVYKVLKQVHPDTGISSKAMGIMNSFVNDIFERIAS
-EASRLAH----YNKRSTITSREVQTAVRLLLPGELAKHAVSEGTKAVTK---YTSSK---
------------
->Gallus|NP_001073188.1|canonical_H2B Gallus_canonical_H2B_119331174
-----------------------------------------------------MPE---PA
-KSAP--------------APK----KGSKKAVTKTQ------KK---G-D-----K----
--K-RK-KSRK-------ESYSI--YVYKVLKQVHPDTGISSKAMGIMNSFVNDIFERIAG
-EASRLAH----YNKRSTITSREIQTAVRLLLPGELAKHAVSEGTKAVTK---YTSSK---
------------
->Homo|NP_003512|canonical_H2B
-----------------------------------------------------MPE---PV
-KSAP--------------VPK----KGSKKAINKAQ------KK---D-G-----K----
--K-RK-RSRK-------ESYSV--YVYKVLKQVHPDTGISSKAMGIMNSFVNDIFERIAG
-EASRLAH----YNKRSTITSREIQTAVRLLLPGELAKHAVSEGTKAVTK---YTSSK---
------------
->Rattus|NP_072173.1|canonical_H2B Rattus_canonical_H2B_12025526
-----------------------------------------------------MPE---PA
-KSRP--------------APK----KGSKKAVTKAQ------KK---D-G-----K----
--E-RK-RSRK-------ESYSV--YVYKVLKQVHPDTGISSKAMGIMNSFVNDIFERIAG
-E-RRLAH----YNKRSTITSREIQTAVRLLLPGELAKHAVSEGTKAVTK---YTSSK---
------------
->Mus|NP_783595.1|canonical_H2B Mus_canonical_H2B_28316760
-----------------------------------------------------MPE---PS
-KSAP--------------APK----KGSKKAISKAQ------KK---D-G-----K----
--K-RK-RSRK-------ESYSV--YVYKVLKQVHPDTGISSKAMGIMNSFVNDIFERIAS
-EASRLAH----YNKRSTITSREIQTAVRLLLPGELAKHAVSEGTKAVTK---YTSSK---
------------
->Homo|NP_003510|canonical_H2B
-----------------------------------------------------MPE---LA
-KSAP--------------APK----KGSKKAVTKAQ------KK---D-G-----K----
--K-RK-RSRK-------ESYSV--YVYKVLKQVHPDTGISSKAMGIMNSFVNDIFERIAS
-EASRLAH----YNKRSTITSREIQTAVRLLLPGELAKHAVSEGTKAVTK---YTSSK---
------------
->Homo|NP_059141|H2B.S
-----------------------------------------------------MPE---PA
-KSAP--------------APK----KGSKKAVTKAQ------KK---D-G-----R----
--K-RK-RSRK-------ESYSV--YVYKVLKQVHPDTGISSKAMGIMNSFVNDIFERIAG
-EASRLPH----YNKRSTITSREIQTAVRLLLPGELAKHAVSEGTKAVTK---YTSAK---
------------
->Homo|NP_066406|canonical_H2B
-----------------------------------------------------MPE---PS
-KSAP--------------APK----KGSKKAITKAQ------KK---D-G-----K----
--K-RK-RSRK-------ESYSI--YVYKVLKQVHPDTGISSKAMGIMNSFVNDIFERIAG
-EASRLAH----YNKRSTITSREIQTAVRLLLPGELAKHAVSEGTKAVTK---YTSSK---
------------
->Monodelphis|XP_007485418.1|canonical_H2B Monodelphis_canonical_H2B_612000632
-----------------------------------------------------MPE---PG
-KSAP--------------APK----KGSKKAVTKAQ------KK---D-G-----K----
--K-RK-RSRK-------ESYSV--YVYKVLKQVHPDTGISSKAMGIMNSFVNDIFERIAS
-EASRLAH----YNKRSTITSREIQTAVRLLLPGELAKHAVSEGTKAVTK---YTSSK---
------------
->Homo|NP_066402.2|canonical_H2B Homo_canonical_H2B_20336754
-----------------------------------------------------MPE---PA
-KSAP--------------APK----KGSKKAVTKAQ------KK---D-G-----K----
--K-RK-RSRK-------ESYSI--YVYKVLKQVHPDTGISSKAMGIMNSFVNDIFERIAG
-EASRLAH----YNKRSTITSREIQTAVRLLLPGELAKHAVSEGTKAVTK---YTSAK---
------------
->Loxodonta|XP_003422331.1|canonical_H2B Loxodonta_canonical_H2B_344307322
-----------------------------------------------------MPE---PA
-KSAP--------------APK----KGSKKAVTKAQ------KK---D-G-----K----
--K-RK-RSRK-------ESYSI--YVYKVLKQVHPDTGISSKAMGIMNSFVNDIFERIAG
-EASRLAH----YNKRSTITSREIQTAVRLLLPGELAKHAVSEGTKAVTK---YTSAK---
------------
->Cricetulus|XP_007634673.1|canonical_H2B Cricetulus_canonical_H2B_625285907
-----------------------------------------------------MPE---PA
-KSAP--------------APK----KGSKKAVTKAQ------KK---D-G-----K----
--K-RK-RSRK-------ESYSV--YVYKVLKQVHPDTGISSKAMGIMNSFVNDIFERIAG
-EASRLAH----YNKRSTITSREIQTAVRLLLPGELAKHAVSEGTKAVTK---YTSAK---
------------
->Homo|NP_001299582|canonical_H2B
-----------------------------------------------------MPE---PA
-KSAP--------------APK----KGSKKAVTKAQ------KK---D-G-----K----
--K-RK-RSRK-------ESYSV--YVYKVLKQVHPDTGISSKAMGIMNSFVNDIFERIAG
-EASRLAH----YNKRSTITSREIQTAVRLLLPGELAKHAVSEGTKAVTK---YTSAK---
------------
->Homo|NP_003511|canonical_H2B
-----------------------------------------------------MPE---PS
-KSAP--------------APK----KGSKKAVTKAQ------KK---D-G-----K----
--K-RK-RSRK-------ESYSV--YVYKVLKQVHPDTGISSKAMGIMNSFVNDIFERIAG
-EASRLAH----YNKRSTITSREIQTAVRLLLPGELAKHAVSEGTKAVTK---YTSSK---
------------
->Homo|NP_066407|canonical_H2B
-----------------------------------------------------MPE---PT
-KSAP--------------APK----KGSKKAVTKAQ------KK---D-G-----K----
--K-RK-RSRK-------ESYSV--YVYKVLKQVHPDTGISSKAMGIMNSFVNDIFERIAG
-EASRLAH----YNKRSTITSREIQTAVRLLLPGELAKHAVSEGTKAVTK---YTSSK---
------------
->Bos|NP_001032546.1|canonical_H2B Bos_canonical_H2B_82697375
-----------------------------------------------------MPE---PA
-KSAP--------------APK----KGSKKAVTKAQ------KK---D-G-----K----
--K-RK-RSRK-------ESYSV--YVYKVLKQVHPDTGISSKAMGIMNSFVNDIFERIAG
-EASRLAH----YNKRSTITSREIQTAVRLLLPGELAKHAVSEGTKAVTK---YTSSK---
------------
->Cavia|XP_013006892.1|canonical_H2B Cavia_canonical_H2B_884911570
-----------------------------------------------------MPE---PA
-KSAP--------------APK----KGSKKAVTKAQ------KK---D-G-----K----
--K-RK-RSRK-------ESYSV--YVYKVLKQVHPDTGISSKAMGIMNSFVNDIFERIAG
-EASRLAH----YNKRSTITSREIQTAVRLLLPGELAKHAVSEGTKAVTK---YTSSK---
------------
->Heterocephalus|XP_012928647.1|canonical_H2B Heterocephalus_canonical_H2B_861442736
-----------------------------------------------------MPE---PA
-KSAP--------------APK----KGSKKAVTKAQ------KK---D-G-----K----
--K-RK-RSRK-------ESYSV--YVYKVLKQVHPDTGISSKAMGIMNSFVNDIFERIAG
-EASRLAH----YNKRSTITSREIQTAVRLLLPGELAKHAVSEGTKAVTK---YTSSK---
------------
->Macaca|XP_011741102.1|canonical_H2B Macaca_canonical_H2B_795655520
-----------------------------------------------------MPE---PA
-KSAP--------------APK----KGSKKAVTKAQ------KK---D-G-----K----
--K-RK-RSRK-------ESYSV--YVYKVLKQVHPDTGISSKAMGIMNSFVNDIFERIAG
-EASRLAH----YNKRSTITSREIQTAVRLLLPGELAKHAVSEGTKAVTK---YTSSK---
------------
->Oryctolagus|XP_008246696.1|canonical_H2B Oryctolagus_canonical_H2B_655885637
-----------------------------------------------------MPE---PA
-KSAP--------------APK----KGSKKAVTKAQ------KK---D-G-----K----
--K-RK-RSRK-------ESYSV--YVYKVLKQVHPDTGISSKAMGIMNSFVNDIFERIAG
-EASRLAH----YNKRSTITSREIQTAVRLLLPGELAKHAVSEGTKAVTK---YTSSK---
------------
->Homo|NP_003517|canonical_H2B
-----------------------------------------------------MPE---PA
-KSAP--------------APK----KGSKKAVTKAQ------KK---D-G-----K----
--K-RK-RSRK-------ESYSV--YVYKVLKQVHPDTGISSKAMGIMNSFVNDIFERIAG
-EASRLAH----YNKRSTITSREIQTAVRLLLPGELAKHAVSEGTKAVTK---YTSSK---
------------
->Homo|NP_003514|canonical_H2B
-----------------------------------------------------MPE---PA
-KSAP--------------APK----KGSKKAVTKAQ------KK---D-G-----K----
--K-RK-RSRK-------ESYSV--YVYKVLKQVHPDTGISSKAMGIMNSFVNDIFERIAG
-EASRLAH----YNKRSTITSREIQTAVRLLLPGELAKHAVSEGTKAVTK---YTSSK---
------------
->Homo|NP_003513|canonical_H2B
-----------------------------------------------------MPE---PA
-KSAP--------------APK----KGSKKAVTKAQ------KK---D-G-----K----
--K-RK-RSRK-------ESYSV--YVYKVLKQVHPDTGISSKAMGIMNSFVNDIFERIAG
-EASRLAH----YNKRSTITSREIQTAVRLLLPGELAKHAVSEGTKAVTK---YTSSK---
------------
->Homo|NP_003516|canonical_H2B
-----------------------------------------------------MPE---PA
-KSAP--------------APK----KGSKKAVTKAQ------KK---D-G-----K----
--K-RK-RSRK-------ESYSV--YVYKVLKQVHPDTGISSKAMGIMNSFVNDIFERIAG
-EASRLAH----YNKRSTITSREIQTAVRLLLPGELAKHAVSEGTKAVTK---YTSSK---
------------
->Homo|NP_003509|canonical_H2B
-----------------------------------------------------MPE---PA
-KSAP--------------APK----KGSKKAVTKAQ------KK---D-G-----K----
--K-RK-RSRK-------ESYSV--YVYKVLKQVHPDTGISSKAMGIMNSFVNDIFERIAG
-EASRLAH----YNKRSTITSREIQTAVRLLLPGELAKHAVSEGTKAVTK---YTSSK---
------------
->Equus|XP_005610255.1|canonical_H2B Equus_canonical_H2B_545217094
-----------------------------------------------------MPE---PA
-KSAP--------------APK----KGSKKAVTKAQ------KK---D-G-----K----
--K-RK-RSRK-------ESYSI--YVYKVLKQVHPDTGISSKAMGIMNSFVNDIFERIAG
-EASRLAH----YNKRSTITSREIQTAVRLLLPGELAKHAVSEGTKAVTK---YTSSK---
------------
->Homo|NP_003519|canonical_H2B
-----------------------------------------------------MPE---PA
-KSAP--------------APK----KGSKKAVTKAQ------KK---D-G-----K----
--K-RK-RSRK-------ESYSI--YVYKVLKQVHPDTGISSKAMGIMNSFVNDIFERIAG
-EASRLAH----YNKRSTITSREIQTAVRLLLPGELAKHAVSEGTKAVTK---YTSSK---
------------
->Homo|NP_003518|canonical_H2B
-----------------------------------------------------MPD---PA
-KSAP--------------APK----KGSKKAVTKAQ------KK---D-G-----K----
--K-RK-RSRK-------ESYSI--YVYKVLKQVHPDTGISSKAMGIMNSFVNDIFERIAG
-EASRLAH----YNKRSTITSREIQTAVRLLLPGELAKHAVSEGTKAVTK---YTSSK---
------------
->Ailuropoda|XP_011216221.1|canonical_H2B Ailuropoda_canonical_H2B_752441783
-----------------------------------------------------MPD---PA
-KSAP--------------APK----KGSKKAVTKVQ------KK---D-G-----K----
--K-RK-RSRK-------ESYSV--YVYKVLKQVHPDTGISSKAMGIMNSFVNDIFERIAG
-EASRLAH----YNKRSTITSREIQTAVRLLLPGELAKHAVSEGTKAVTK---YTSSK---
------------
->Homo|NP_001019770|canonical_H2B
-----------------------------------------------------MPD---PA
-KSAP--------------APK----KGSKKAVTKVQ------KK---D-G-----K----
--K-RK-RSRK-------ESYSV--YVYKVLKQVHPDTGISSKAMGIMNSFVNDIFERIAG
-EASRLAH----YNKRSTITSREIQTAVRLLLPGELAKHAVSEGTKAVTK---YTSSK---
------------
->Homo|NP_001154806|canonical_H2B
-----------------------------------------------------MPD---PA
-KSAP--------------APK----KGSKKAVTKVQ------KK---D-G-----K----
--K-RK-RSRK-------ESYSV--YVYKVLKQVHPDTGISSKAMGIMNSFVNDIFERIAG
-EASRLAH----YNKRSTITSREIQTAVRLLLPGELAKHAVSEGTKAVTK---YTSSKLIG
-PILWK------
->Sus|XP_005665716.1|canonical_H2B Sus_canonical_H2B_545837877
-----------------------------------------------------MPD---PA
-KSAP--------------APK----KGSKKAVTKAQ------KK---D-G-----K----
--K-RK-RSRK-------ESYSV--YVYKVLKQVHPDTGISSKAMGIMNSFVNDIFERIAG
-EASRLAH----YNKRSTITSREIQTAVRLLLPGELAKHAVSEGTKAVTK---YTSSK---
------------
->Homo|NP_003515|canonical_H2B
-----------------------------------------------------MPD---PA
-KSAP--------------APK----KGSKKAVTKAQ------KK---D-G-----K----
--K-RK-RSRK-------ESYSV--YVYKVLKQVHPDTGISSKAMGIMNSFVNDIFERIAG
-EASRLAH----YNKRSTITSREIQTAVRLLLPGELAKHAVSEGTKAVTK---YTSSK---
------------
->Canis|XP_005640164.1|canonical_H2B Canis_canonical_H2B_545554624
-----------------------------------------------------MPEL--TS
-KGTT--------------ISK----KGFKRAVAKTQ------KK---E-G-----K----
--K-RR-RCRK-------ESYSI--YIYKVLKQVHPDTGISSKAMGIMNSFVNDIFERIAG
-EASRLAH----YNKRSTITSREIQTAVRLLLPGELAKHAVSEGTKAVTK---YTSSK---
------------
->Canis|XP_005640164.1|H2B.1 Canis_H2B.1_545554624
-----------------------------------------------------MPEL--TS
-KGTT--------------ISK----KGFKRAVAKTQ------KK---E-G-----K----
--K-RR-RCRK-------ESYSI--YIYKVLKQVHPDTGISSKAMGIMNSFVNDIFERIAG
-EASRLAH----YNKRSTITSREIQTAVRLLLPGELAKHAVSEGTKAVTK---YTSSK---
------------
->Homo|NP_733759.1|H2B.1 Homo_H2B.1_24586679
-----------------------------------------------------MPEV--SS
-KGAT--------------ISK----KGFKKAVVKTQ------KK---E-G-----K----
--K-RK-RTRK-------ESYSI--YIYKVLKQVHPDTGISSKAMSIMNSFVTDIFERIAS
-EASRLAH----YSKRSTISSREIQTAVRLLLPGELAKHAVSEGTKAVTK---YTSSK---
------------
->Mus|NP_783594.1|H2B.1 Mus_H2B.1_28316750
-----------------------------------------------------MPEV--AV
-KGAT--------------ISK----KGFKKAVTKTQ------KK---E-G-----R----
--K-RK-RCRK-------ESYSI--YIYKVLKQVHPDTGISSKAMSIMNSFVTDIFERIAS
-EASRLAH----YNKRSTITSREIQTAVRLLLPGELAKHAVSEGTKAVTK---YTSSK---
------------
->Rattus|NP_072169.1|H2B.1 Rattus_H2B.1_12025524
-----------------------------------------------------MP--EVSA
-KGTT--------------ISK----KGFKKAVTKTQ------KK---E-G-----R----
--K-RK-RCRE-------ESYSI--YIYKVLKQVHPDTGISSKAMSIMNSFVTDIFERIAG
-EASRLAH----YNKRSTITSREIQTAVRLLLPGELAKHAVSEGTKAVTK---YTSSK---
------------
->Macaca|NP_001180847.1|H2B.W Macaca_H2B.W_302564969
----------------------------MLRTQVPPLLRSTTAIVWSCRVMAAASAMAEPS
-SETT--------------SEEQLITQEPKEANSTMAQKQSKQRK---R-G-----R----
----RG-PCRCHANCRG-DSFAT--YFRRVLKQVHQGLSLSREAVSVMDSLVHDILDRIAT
-EAGRLAR----STKRQTITAWETRIAVRLLLPGEMGKLAESEGTKAVLRTSLYAVQQQRK
------------
->Homo|Q7Z2G1.2|H2B.W Homo_H2B.W_223590216
----------------------------MLRTEVPRLPRSTTAIVWSCHLMATASAMAGPS
-SETT--------------SEEQLITQEPKEANSTTS------QKQSKQ-R-----K----
--RGRH-GPRRCHSNCRGDSFAT--YFRRVLKQVHQGLSLSREAVSVMDSLVHDILDRIAT
-EAGRLAR----STKRQTITAWETRMAVRLLLPGQMGKLAESEGTKAVLRTSLYAIQQQRK
------------
->Homo|NP_001002916|H2B.W
---------------------------------------------------MAGPSSETTS
-EEQL--------------ITQ----EPKEANSTTSQ------KQSKQR-------K----
--RGRH-GPRRCHSNCRGDSFAT--YFRRVLKQVHQGLSLSREAVSVMDSLVHDILDRIAT
-EAGHLAR----STKRQTITAWETRMAVRLLLPGQMGKLAESEGTKAVLRTSLYAIQQQRK
------------
->Oryctolagus|XP_002720211.1|H2B.W Oryctolagus_H2B.W_291407712
-----------------------------------------------------MA--E-PA
-SHVA--------------SEENLSLEPKTTASSTPK------EK---Q-P-----R----
--R-RR-RRRQG------HNYSFASYFPKVLKHVHKGLSLSKEAKGVMDSIVRDVFERIAH
-EAASLVR----YSKHSTLTSRDVQSAVRLLLPGQLHKHADVEGTKALLK---FITHP---
------------
->Ailuropoda|XP_002925981.1|H2B.W Ailuropoda_H2B.W_301781100
---------------------------------------------------MAEPGCETSS
-EESL-----------GTEEPS----AANPKSPKQKQ------KQ---P-R-----R----
--QCRR-RCRRCP-----NSFAT--YFPRVLKQVHEGLSLSKKAVSVMDSFLKDIFEHIAD
-EAAHLARSTKGSNKHSTINSREIQTAVRLLLPGEIGKHTVSKATKAVIR---FQRCE---
------------
->Canis|XP_548517.2|H2B.W Canis_H2B.W_545560116
-MIPGKPEEGKGSSEGPICDTEVACDVRKCSDYKGASAPQQPPLSVLLSCWEGEPHMAEPG
-CETS--------------SEECLGTKEPREAEPETP------KR-----------K----
--KPRR-QCHRRCRRSRSDSFAI--YFPRVLKQVDEGLSLSQKAVSIMDSFVKDIFERIAD
-EASRLAR----STKRSTITSREIQTAVRLLLPGEIGKYAVSEATKALMR---NQVGALEK
-QVKNVLSLGCG
+>cH2B_Trypanosoma_brucei_brucei_TREU927_XP_823266.1 XP_823266.1 type: H2B, variant: cH2B, organism: Trypanosoma brucei brucei TREU927
+-------------------------------------------------------MA---
+TPKSTPAKTR------------------------KEA-------------KKT-------
+--RRQRK--R--------TWNVYVSRSLRSINSQMSMTSRTMKIVNSFVNDLFERIAAEA
+ATIVRVN----RKRTLGARELQTAVRLVLPADLAKHAMAEGTKAVSHASS----------
+------
+>cH2B_Saccharomyces_cerevisiae_S288C_NP_009553.1 NP_009553.1 type: H2B, variant: cH2B, organism: Saccharomyces cerevisiae S288C
+-------------------------------------------------------MS---
+SAAEKKPASK----------------------APAEKKPAAKKTSTSVDGKKR-------
+--SKVRK--E--------TYSSYIYKVLKQTHPDTGISQKSMSILNSFVNDIFERIATEA
+SKLAAYN----KKSTISAREIQTAVRLILPGELAKHAVSEGTRAVTKYSSSTQA------
+------
+>cH2B_Saccharomyces_cerevisiae_S288C_NP_010510.3 NP_010510.3 type: H2B, variant: cH2B, organism: Saccharomyces cerevisiae S288C
+-------------------------------------------------------MS---
+AKAEKKPASK----------------------APAEKKPAAKKTSTSTDGKKR-------
+--SKARK--E--------TYSSYIYKVLKQTHPDTGISQKSMSILNSFVNDIFERIATEA
+SKLAAYN----KKSTISAREIQTAVRLILPGELAKHAVSEGTRAVTKYSSSTQA------
+------
+>cH2B_Arabidopsis_thaliana_Q9LZ45.3 Q9LZ45.3 type: H2B, variant: cH2B, organism: Arabidopsis thaliana
+-------------------------------------------------------MA---
+PKAEKKPAEK--------------------APAPKAEKKIAKEGGTSEIVKKK-------
+--KKTKKSTE--------TYKIYIFKVLKQVHPDIGISGKAMGIMNSFINDIFEKLAQES
+SRLARYN----KKPTITSREIQTAVRLVLPGELAKHAVSEGTKAVTKFTSS---------
+------
+>cH2B_Arabidopsis_thaliana_Q9FFC0.3 Q9FFC0.3 type: H2B, variant: cH2B, organism: Arabidopsis thaliana
+--------------------------------------------------------M---
+AKADKKPAEKK-----PAEKTPAAEPAAAAEKKPKAGKKLPKEPAGA-GDKKK-------
+--KRSKKNVE--------TYKIYIFKVLKQVHPDIGISSKAMGIMNSFINDIFEKLAGES
+SKLARYN----KKPTITSREIQTAVRLVLPGELAKHAVSEGTKAVTKFTSS---------
+------
+>cH2B_Arabidopsis_thaliana_Q9LQQ4.3 Q9LQQ4.3 type: H2B, variant: cH2B, organism: Arabidopsis thaliana
+-------------------------------------------------------MA---
+PRAEKKPAEKKTAAERPVEENKAAEK-APAEKKPKAGKKLPPK--EA-GDKKK-------
+--KRSKKNVE--------TYKIYIFKVLKQVHPDIGISSKAMGIMNSFINDIFEKLAQES
+SKLARYN----KKPTITSREIQTAVRLVLPGELAKHAVSEGTKAVTKFTSS---------
+------
+>cH2B_Arabidopsis_thaliana_Q9LZT0.3 Q9LZT0.3 type: H2B, variant: cH2B, organism: Arabidopsis thaliana
+-------------------------------------------------------MA---
+PKAEKKPAEKK-----PVEEKSKAEK-APAEKKPKAGKKLPKEAGAG-GDKKK-------
+--KMKKKSVE--------TYKIYIFKVLKQVHPDIGISSKAMGIMNSFINDIFEKLASES
+SKLARYN----KKPTITSREIQTAVRLVLPGELAKHAVSEGTKAVTKFTSS---------
+------
+>cH2B_Psammechinus_miliaris_AAA30025.1 AAA30025.1 type: H2B, variant: cH2B, organism: Psammechinus miliaris
+-------------------------------------------------------MA---
+PTA---QVAK------------------------KGSKKAVKAPRPS-GGKKR-------
+--NRKRK--E--------SYGIYIYKVLKQVHPDTGISSRAMIIMNSFVNDIFERIAGES
+SRLAQYN----KKSTISSREIQTAVRLILPGELAKHAVSEGTKAVTKYTTSK--------
+------
+>cH2B_Strongylocentrotus_purpuratus_NP_999710.2 NP_999710.2 type: H2B, variant: cH2B, organism: Strongylocentrotus purpuratus
+-------------------------------------------------------MA---
+PTA---QVAK------------------------KGSKKAVKGTKTAXGGKKR-------
+--NRKRK--E--------SYGIYIYKVLKQVHPDTGISSRAMVIMNSXVBDIFERIAGES
+SRLAQYN----KKXTXSSREIQTAVRLILPGELAKHAVSEGTKAVTKYTTSK--------
+------
+>cH2B_Caenorhabditis_elegans_NP_505464.1 NP_505464.1 type: H2B, variant: cH2B, organism: Caenorhabditis elegans
+-------------------------------------------------------MA---
+PPKPSAKGAK------------------------KAAK---TVSKPK-DGKKR-------
+--KHARK--E--------SYSVYIYRVLKQVHPDTGVSSKAMSIMNSFVNDVFERIASEA
+SRLAHYN----KRSTISSREIQTAVRLILPGELAKHAVSEGTKAVTKYTSSK--------
+------
+>cH2B_Drosophila_melanogaster_NP_724342.1 NP_724342.1 type: H2B, variant: cH2B, organism: Drosophila melanogaster
+--------------------------------------------------------M---
+PPKTSGKAAK------------------------KAGK--AQKNITK-TDKKK-------
+--KRKRK--E--------SYAIYIYKVLKQVHPDTGISSKAMSIMNSFVNDIFERIAAEA
+SRLAHYN----KRSTITSREIQTAVRLLLPGELAKHAVSEGTKAVTKYTSSK--------
+------
+>cH2B_Xenopus_laevis_NP_001086753.1 NP_001086753.1 type: H2B, variant: cH2B, organism: Xenopus laevis
+-------------------------------------------------------MP---
+EPAKSAPAPK------------------------KGSKKAVTKTQKK-DGKKR-------
+--RKSRK--E--------SYAIYVYKVLKQVHPDTGISSKAMSIMNSFVNDVFERIAGEA
+SRLAHYN----KRSTITSREIQTAVRLLLPGELAKHAVSEGTKAVTKYTSAK--------
+------
+>cH2B_Gallus_gallus_NP_001073188.1 NP_001073188.1 type: H2B, variant: cH2B, organism: Gallus gallus
+-------------------------------------------------------MP---
+EPAKSAPAPK------------------------KGSKKAVTKTQKK-GDKKR-------
+--KKSRK--E--------SYSIYVYKVLKQVHPDTGISSKAMGIMNSFVNDIFERIAGEA
+SRLAHYN----KRSTITSREIQTAVRLLLPGELAKHAVSEGTKAVTKYTSSK--------
+------
+>cH2B_Mus_musculus_NP_783595.1 NP_783595.1 type: H2B, variant: cH2B, organism: Mus musculus
+-------------------------------------------------------MP---
+EPSKSAPAPK------------------------KGSKKAISKAQKK-DGKKR-------
+--KRSRK--E--------SYSVYVYKVLKQVHPDTGISSKAMGIMNSFVNDIFERIASEA
+SRLAHYN----KRSTITSREIQTAVRLLLPGELAKHAVSEGTKAVTKYTSSK--------
+------
+>cH2B_Monodelphis_domestica_XP_007485418.1 XP_007485418.1 type: H2B, variant: cH2B, organism: Monodelphis domestica
+-------------------------------------------------------MP---
+EPGKSAPAPK------------------------KGSKKAVTKAQKK-DGKKR-------
+--KRSRK--E--------SYSVYVYKVLKQVHPDTGISSKAMGIMNSFVNDIFERIASEA
+SRLAHYN----KRSTITSREIQTAVRLLLPGELAKHAVSEGTKAVTKYTSSK--------
+------
+>cH2B_Ailuropoda_melanoleuca_XP_011216221.1 XP_011216221.1 type: H2B, variant: cH2B, organism: Ailuropoda melanoleuca
+-------------------------------------------------------MP---
+DPAKSAPAPK------------------------KGSKKAVTKVQKK-DGKKR-------
+--KRSRK--E--------SYSVYVYKVLKQVHPDTGISSKAMGIMNSFVNDIFERIAGEA
+SRLAHYN----KRSTITSREIQTAVRLLLPGELAKHAVSEGTKAVTKYTSSK--------
+------
+>cH2B_Cricetulus_griseus_XP_007634673.1 XP_007634673.1 type: H2B, variant: cH2B, organism: Cricetulus griseus
+-------------------------------------------------------MP---
+EPAKSAPAPK------------------------KGSKKAVTKAQKK-DGKKR-------
+--KRSRK--E--------SYSVYVYKVLKQVHPDTGISSKAMGIMNSFVNDIFERIAGEA
+SRLAHYN----KRSTITSREIQTAVRLLLPGELAKHAVSEGTKAVTKYTSAK--------
+------
+>cH2B_Sus_scrofa_XP_005665716.1 XP_005665716.1 type: H2B, variant: cH2B, organism: Sus scrofa
+-------------------------------------------------------MP---
+DPAKSAPAPK------------------------KGSKKAVTKAQKK-DGKKR-------
+--KRSRK--E--------SYSVYVYKVLKQVHPDTGISSKAMGIMNSFVNDIFERIAGEA
+SRLAHYN----KRSTITSREIQTAVRLLLPGELAKHAVSEGTKAVTKYTSSK--------
+------
+>cH2B_Loxodonta_africana_XP_003422331.1 XP_003422331.1 type: H2B, variant: cH2B, organism: Loxodonta africana
+-------------------------------------------------------MP---
+EPAKSAPAPK------------------------KGSKKAVTKAQKK-DGKKR-------
+--KRSRK--E--------SYSIYVYKVLKQVHPDTGISSKAMGIMNSFVNDIFERIAGEA
+SRLAHYN----KRSTITSREIQTAVRLLLPGELAKHAVSEGTKAVTKYTSAK--------
+------
+>cH2B_Macaca_nemestrina_XP_011741102.1 XP_011741102.1 type: H2B, variant: cH2B, organism: Macaca nemestrina
+-------------------------------------------------------MP---
+EPAKSAPAPK------------------------KGSKKAVTKAQKK-DGKKR-------
+--KRSRK--E--------SYSVYVYKVLKQVHPDTGISSKAMGIMNSFVNDIFERIAGEA
+SRLAHYN----KRSTITSREIQTAVRLLLPGELAKHAVSEGTKAVTKYTSSK--------
+------
+>cH2B_Bos_taurus_NP_001032546.1 NP_001032546.1 type: H2B, variant: cH2B, organism: Bos taurus
+-------------------------------------------------------MP---
+EPAKSAPAPK------------------------KGSKKAVTKAQKK-DGKKR-------
+--KRSRK--E--------SYSVYVYKVLKQVHPDTGISSKAMGIMNSFVNDIFERIAGEA
+SRLAHYN----KRSTITSREIQTAVRLLLPGELAKHAVSEGTKAVTKYTSSK--------
+------
+>cH2B_Oryctolagus_cuniculus_XP_008246696.1 XP_008246696.1 type: H2B, variant: cH2B, organism: Oryctolagus cuniculus
+-------------------------------------------------------MP---
+EPAKSAPAPK------------------------KGSKKAVTKAQKK-DGKKR-------
+--KRSRK--E--------SYSVYVYKVLKQVHPDTGISSKAMGIMNSFVNDIFERIAGEA
+SRLAHYN----KRSTITSREIQTAVRLLLPGELAKHAVSEGTKAVTKYTSSK--------
+------
+>cH2B_Rattus_norvegicus_NP_072173.2 NP_072173.2 type: H2B, variant: cH2B, organism: Rattus norvegicus
+-------------------------------------------------------MP---
+EPAKSAPAPK------------------------KGSKKAVTKAQKK-DGKKR-------
+--KRSRK--E--------SYSVYVYKVLKQVHPDTGISSKAMGIMNSFVNDIFERIAGEA
+SRLAHYN----KRSTITSREIQTAVRLLLPGELAKHAVSEGTKAVTKYTSSK--------
+------
+>cH2B_Cavia_porcellus_XP_013006892.1 XP_013006892.1 type: H2B, variant: cH2B, organism: Cavia porcellus
+-------------------------------------------------------MP---
+EPAKSAPAPK------------------------KGSKKAVTKAQKK-DGKKR-------
+--KRSRK--E--------SYSVYVYKVLKQVHPDTGISSKAMGIMNSFVNDIFERIAGEA
+SRLAHYN----KRSTITSREIQTAVRLLLPGELAKHAVSEGTKAVTKYTSSK--------
+------
+>cH2B_Heterocephalus_glaber_XP_012928647.1 XP_012928647.1 type: H2B, variant: cH2B, organism: Heterocephalus glaber
+-------------------------------------------------------MP---
+EPAKSAPAPK------------------------KGSKKAVTKAQKK-DGKKR-------
+--KRSRK--E--------SYSVYVYKVLKQVHPDTGISSKAMGIMNSFVNDIFERIAGEA
+SRLAHYN----KRSTITSREIQTAVRLLLPGELAKHAVSEGTKAVTKYTSSK--------
+------
+>cH2B_Equus_caballus_XP_005610255.1 XP_005610255.1 type: H2B, variant: cH2B, organism: Equus caballus
+-------------------------------------------------------MP---
+EPAKSAPAPK------------------------KGSKKAVTKAQKK-DGKKR-------
+--KRSRK--E--------SYSIYVYKVLKQVHPDTGISSKAMGIMNSFVNDIFERIAGEA
+SRLAHYN----KRSTITSREIQTAVRLLLPGELAKHAVSEGTKAVTKYTSSK--------
+------
+>subH2B_Monodelphis_domestica_XP_001366286.1 XP_001366286.1 type: H2B, variant: subH2B, organism: Monodelphis domestica
+-------------------------------------------------------MT---
+KAV--RS---------------------------NESQKLTTNQEKKKK-KKK-------
+--KLLLS--R--------NYSLYTHRVLKEVIPNQGLTYKTTEIMNSMINNILERIAEEA
+GNLLCYK----RHLTLGHQDIQMAVYRLLPDELAKHAVAFGTRAVTTYNDSK--------
+------
+>subH2B_Mus_musculus_NP_081340.1 NP_081340.1 type: H2B, variant: subH2B, organism: Mus musculus
+-------------------------------------------------------MA---
+KPTFKRQ---------------------------CYIKRHLRPLYRKHSRCSS-------
+--INLGH--G--------NYSLYINRVLKEVVPNRGISSYSVDIMNILINDIFERIATEA
+CQQMFLR----KRCTLTPGDIQQAVHLLLPKKLATLAVTFGSKAVHRFIHS---------
+------
+>subH2B_Cricetulus_griseus_XP_003515979.1 XP_003515979.1 type: H2B, variant: subH2B, organism: Cricetulus griseus
+-------------------------------------------------------MA---
+KSIIKRY---------------------------QFVKRRQRRAFRKR--YSS-------
+--INFGQ--R--------NYSLYISRVLKEVVPMRGLSSNTVDIMNTLINDLFERIATEA
+CQLMYFR----KRCTLTLEDIQKAVYLLVPKKLAKSAVTFGSKAVHRFIHS---------
+------
+>subH2B_Macaca_mulatta_XP_001095287.1 XP_001095287.1 type: H2B, variant: subH2B, organism: Macaca mulatta
+-------------------------------------------------------MA---
+RSSTKKH---------------------------KYSKRHQSPTSRKKA-HSS-------
+--IDFVH--G--------NYSFFVNKVLKEVVSHRGTSSRTLDLMNTLINNFFQHISMKA
+YRLMYFR----NRCTLTPEDILKAAYLLLPQKTANYAVAFGSEVFRRYVHS---------
+------
+>subH2B_Cavia_porcellus_XP_003461969.1 XP_003461969.1 type: H2B, variant: subH2B, organism: Cavia porcellus
+-------------------------------------------------------MV---
+KSVIKPR---------------------------RYFRGRRTSISSKKS-CLS-------
+--SNSGY--R--------NYSLYVSRVLKEVVPERAISSCTVNIMNTLIDDIFERISEEA
+HHLMCSQ----KRCTLTPKDIQKAVYLLLPRKLAKYAVAFGDGAVDRYVHS---------
+------
+>subH2B_Heterocephalus_glaber_XP_004885290.1 XP_004885290.1 type: H2B, variant: subH2B, organism: Heterocephalus glaber
+-------------------------------------------------------MV---
+RSIIKQY---------------------------GYSRRHLTPTYRKKS-YLS-------
+--TSFGH--R--------NYSLYISRVLKEVAPQRHISSRTLDMMNALINNIFERIATEA
+HHLMCSR----NRCTLAPEDIQRAVYLLLPGKLAKYAMAFGDEAVHRYVHS---------
+------
+>subH2B_Equus_caballus_XP_001504072.2 XP_001504072.2 type: H2B, variant: subH2B, organism: Equus caballus
+-------------------------------------------------------MA---
+RDSTKKS---------------------------RCSRRRQSPASRKKS-HAS-------
+--TYRGH--R--------NYSLYINRVLKEVVPQRGISARTLDTMNILINNIFERISTEA
+CSMMYFR----NRCTLTPQDVQKAVYSLFPGKLAKYAVAFGSEAVQRYLHS---------
+------
+>subH2B_Bos_taurus_NP_991343.1 NP_991343.1 type: H2B, variant: subH2B, organism: Bos taurus
+-------------------------------------------------------MA---
+RNVTKRN---------------------------KRCRGHQKAIYKKKS-HSS-------
+--SESGL--R--------NYSLYINRVLKEVVPQKGISSRTIDIINTMINDMFERISTEA
+CNLMYYR----KRCTLTPEDIEKAVYLLLPEKLAKYAVAFGKEAVQRYVRS---------
+------
+>subH2B_Loxodonta_africana_XP_003407998.1 XP_003407998.1 type: H2B, variant: subH2B, organism: Loxodonta africana
+-------------------------------------------------------MA---
+RSIIKKY---------------------------RYSNGHLSSISIKKL-HSS-------
+--TNFGH--R--------NYSLYVNRVLKEVVPQRGISSRTLDVMNTLINNIFKCIATEA
+CNLMYFR----NRCTLTPEDIQRAVYVRLPGKLAKHAVAFGSEAVNRYVHS---------
+------
+>subH2B_Sus_scrofa_XP_003134084.1 XP_003134084.1 type: H2B, variant: subH2B, organism: Sus scrofa
+-------------------------------------------------------MA---
+RYITKKN---------------------------RCSRGHRHPNSRKKT-CSS-------
+--TECGR--R--------NYSLYVNRVLKEVVPQSGISSRTLDMMNTVINDIFERISMEA
+SNLMYFR----NRCTLTPEDVQKAVYLLLPRKLAKHAVAFGSDAVHRYVHS---------
+------
+>subH2B_Ailuropoda_melanoleuca_XP_002921383.1 XP_002921383.1 type: H2B, variant: subH2B, organism: Ailuropoda melanoleuca
+-------------------------------------------------------MA---
+RSITKKN---------------------------KRSRGHRSPISKKKS-HSS-------
+--TDFGR--R--------NYSLYINRVLKEVVPQRSISSRTLDVMNTLIKDIFERISVEA
+RSLMCFR----NRCTLTPEDIQKAVYLLLPGKLAKYAVAFGSEAVQRYVQS---------
+------
+>H2B.1_Canis_lupus_familiaris_XP_005640164.1 XP_005640164.1 type: H2B, variant: H2B.1, organism: Canis lupus familiaris
+-------------------------------------------------------MP---
+ELTSKGTTISK-----------------------KGFKRAVAKTQKKEG-KKR-------
+--RRCRK--E--------SYSIYIYKVLKQVHPDTGISSKAMGIMNSFVNDIFERIAGEA
+SRLAHYN----KRSTITSREIQTAVRLLLPGELAKHAVSEGTKAVTKYTSSK--------
+------
+>H2B.1_Mus_musculus_NP_783594.1 NP_783594.1 type: H2B, variant: H2B.1, organism: Mus musculus
+-------------------------------------------------------MP---
+EVAVKGATISK-----------------------KGFKKAVTKTQKKEG-RKR-------
+--KRCRK--E--------SYSIYIYKVLKQVHPDTGISSKAMSIMNSFVTDIFERIASEA
+SRLAHYN----KRSTITSREIQTAVRLLLPGELAKHAVSEGTKAVTKYTSSK--------
+------
+>H2B.1_Rattus_norvegicus_NP_072169.1 NP_072169.1 type: H2B, variant: H2B.1, organism: Rattus norvegicus
+-------------------------------------------------------MP---
+EVSAKGTTISK-----------------------KGFKKAVTKTQKKEG-RKR-------
+--KRCRE--E--------SYSIYIYKVLKQVHPDTGISSKAMSIMNSFVTDIFERIAGEA
+SRLAHYN----KRSTITSREIQTAVRLLLPGELAKHAVSEGTKAVTKYTSSK--------
+------
+>H2B.W_Bos_taurus_DAA13058.1 DAA13058.1 type: H2B, variant: H2B.W, organism: Bos taurus
+-------MGIGGSILSETSSDSYEEDVITKETGISEIEPSEKEMAKVETSKPDPYDA---
+EPIKVETSKPDPYD--------------------AEPKKAETSKPDPYDAEPKKAKQKTA
+KGRRRRRHCH---HDSFSSFATYFPRVLRQIHKGMSLSHDSVNILDSFVKDTFERIAEEA
+GRLAGDN----KRRTITTEDIEAAVRLLLPGKLGKYAVLKATKSLITYRTCK--------
+------
+>H2B.W_Oryctolagus_cuniculus_XP_002720211.1 XP_002720211.1 type: H2B, variant: H2B.W, organism: Oryctolagus cuniculus
+-------------------------------------------------------MA---
+EPASHVASEENL-S--------------------LEPKTTASSTP--KEKQPR-------
+--RRRRRR-----QGHNYSFASYFPKVLKHVHKGLSLSKEAKGVMDSIVRDVFERIAHEA
+ASLVRYS----KHSTLTSRDVQSAVRLLLPGQLHKHADVEGTKALLKFITHP--------
+------
+>H2B.W_Macaca_mulatta_NP_001180847.1 NP_001180847.1 type: H2B, variant: H2B.W, organism: Macaca mulatta
+---------MLRTQVPPLLRSTTAIVWSCRVMAAASA------------------MA---
+EPSSETTSEEQLIT--------------------QEPKEANSTMAQKQSKQRK-------
+--RGRRGPCRCHANCRGDSFATYFRRVLKQVHQGLSLSREAVSVMDSLVHDILDRIATEA
+GRLARST----KRQTITAWETRIAVRLLLPGEMGKLAESEGTKAVLRTSLYAVQQQRK--
+------
+>H2B.W_Canis_lupus_familiaris_XP_548517.2 XP_548517.2 type: H2B, variant: H2B.W, organism: Canis lupus familiaris
+MIPGKPEEGKGSSEGPICDTEVACDVRKCSDYKGASAPQQPPLSVLLSCWEGEPHMA---
+EPGCETSSEECLGT--------------------KEPREAEPETP--KRKKPR-------
+--RQCHRRCR---RSRSDSFAIYFPRVLKQVDEGLSLSQKAVSIMDSFVKDIFERIADEA
+SRLARST----KRSTITSREIQTAVRLLLPGEIGKYAVSEATKALMRNQVGALEKQVKNV
+LSLGCG
+>H2B.W_Ailuropoda_melanoleuca_XP_002925981.1 XP_002925981.1 type: H2B, variant: H2B.W, organism: Ailuropoda melanoleuca
+-------------------------------------------------------MA---
+EPGCETSSEESLGT--------------------EEPSAANPKSPKQKQKQPR-------
+--RQCRRRCR---RCPN-SFATYFPRVLKQVHEGLSLSKKAVSVMDSFLKDIFEHIADEA
+AHLARSTKGSNKHSTINSREIQTAVRLLLPGEIGKHTVSKATKAVIRFQRCE--------
+------
+>sperm_H2B_Strongylocentrotus_purpuratus_NP_999721.1 NP_999721.1 type: H2B, variant: sperm_H2B, organism: Strongylocentrotus purpuratus
+-------------------------------------------------------MP--R
+SPSKTSPRKGSPRRGSPSRKASPKRGG-------KGAKRAGKGGRRRN--VVR-------
+--RRRRR--R-------ESYGIYIYKVLKQVHPDTGISSRGMSVMNSFVNDIFGRIAGEA
+SRLTRAN----RRSTISSREIQTAVRLLLPGELAKHAVSEGTKAVTKYTTSR--------
+------
+>sperm_H2B_Parechinus_angulosus_P02291.2 P02291.2 type: H2B, variant: sperm_H2B, organism: Parechinus angulosus
+-------------------------------------------------------MP--R
+SPAKTSPRKGSPRKGSPSRKASPKRGG-------KGAKRAGKGGRRRR--VVK-------
+--RRRRR--R-------ESYGIYIYKVLKQVHPDTGISSRAMSVMNSFVNDVFERIAGEA
+SRLTSAN----RRSTVSSREIQTAVRLLLPGELAKHAVSEGTKAVTKYTTSR--------
+------
+>sperm_H2B_Psammechinus_miliaris_Q27750.3 Q27750.3 type: H2B, variant: sperm_H2B, organism: Psammechinus miliaris
+-------------------------------------------------------MP--K
+SPSKSSPRKGSPRKGSP-RKGSPKRGG-------KGAKRAGKGGRRN---VVK-------
+--RRRRR--R-------ESYGIYIYKVLKQVHPDTGISSRGMSVMNSFVNDVFERIAGEA
+SRLTSAN----RRSTISSREIQTAVRLLLPGELAKHAVSEGTKAVTKYTTARR-------
+------
+>sperm_H2B_Psammechinus_miliaris_Q27749.3 Q27749.3 type: H2B, variant: sperm_H2B, organism: Psammechinus miliaris
+-------------------------------------------------------MPSQK
+SPTKRSPTKRSPQ-----------KGG-------KGAKRGGKAGKRRRGVAVK-------
+--RRRRR--R-------ESYGIYIYKVLKQVHPDTGISSRAMSVMNSFVNDVFERIASEA
+GRLTTYN----RRNTVSSREVQTAVRLLLPGELAKHAVSEGTKAVTKYTTSR--------
+------
+>sperm_H2B_Strongylocentrotus_purpuratus_NP_999706.1 NP_999706.1 type: H2B, variant: sperm_H2B, organism: Strongylocentrotus purpuratus
+-------------------------------------------------------MPSQR
+SPTKRSPTKRSPQKGAG-------KGG-------KGSKRGGKA-RRRGGAAVR-------
+--RRRRR--R-------ESYGIYIYKVLKQVHPDTGISSRGMSIMNSFVNDVFERVAAEA
+SRLTKYN----RRSTVSSREIQTAVRLLLPGELAKHAVSEGTKAVTKYTTSR--------
+------
+>H2B.Z_Plasmodium_berghei_ANKA_XP_678689.1 XP_678689.1 type: H2B, variant: H2B.Z, organism: Plasmodium berghei ANKA
+-------------------------------------------------------MS---
+--GKGPA---------------------------QKSQAAKKTAGKTLGPRHK-------
+--RKRRT--E--------SFSLYIFKVLKQVHPETGVTKKSMNIMNSFINDIFDRLVTEA
+TRLIRYN----KKRTLSSREIQTAVRLLLPGELSKHAVSEGTKAVTKYTTSGA-------
+------
+>H2B.Z_Plasmodium_falciparum_3D7_XP_001349046.1 XP_001349046.1 type: H2B, variant: H2B.Z, organism: Plasmodium falciparum 3D7
+-------------------------------------------------------MS---
+--GKGPA---------------------------QKSQAAKKTAGKTLGPRHK-------
+--RKRRT--E--------SFSLYIFKVLKQVHPETGVTKKSMNIMNSFINDIFDRLVTEA
+TRLIRYN----KKRTLSSREIQTAVRLLLPGELSKHAVSEGTKAVTKYTTSAA-------
+------
+>H2B.Z_Toxoplasma_gondii_ME49_XP_002369740.1 XP_002369740.1 type: H2B, variant: H2B.Z, organism: Toxoplasma gondii ME49
+-------------------------------------------------------MS---
+--GKGPA---------------------------QKSQAAKKTAGKSLGPRYR-------
+--RRKRT--E--------SFALYIYKVLKQVHPETGVSKKSMSIMNSFINDIFDRLADEA
+VRLIRYN----KKRTLSSREIQTAVRLLLPGELSKHAVSEGTKAVTKYTTSGA-------
+------

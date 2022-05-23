@@ -15,7 +15,7 @@
         $("#advanced_filter_title").html("Advanced Filter");
         $("#advanced_search_button").html("Filter");
         $("#advanced_search_button").click(function(){
-          $.post("{% url 'browse.views.search' %}", function( data ) {
+          $.post("{% url 'browse:search' %}", function( data ) {
             table.bootstrapTable('refresh');
           });
         });
@@ -34,7 +34,7 @@
         <h4 class="modal-title" id="advanced_filter_title">Advanced Search</h4>
       </div>
       <div class="modal-body">
-        <form role="search" action="{% url 'browse.views.search' %}" id="advanced_search_form" method="POST">
+        <form role="search" action="{% url 'browse:search' %}" id="advanced_search_form" method="POST">
           {% csrf_token %}
           <script>console.log({{ form|length }});</script>
           {% for field in form %}

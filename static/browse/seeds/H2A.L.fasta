@@ -1,0 +1,85 @@
+>H2A.L_Oryctolagus_cuniculus_XP_002719866.1 XP_002719866.1 type: H2A, variant: H2A.L, organism: Oryctolagus cuniculus
+------------------------------------------------------------
+-------MRGKKPSKKAGKRRKPNVSRSTRAELQFPVSRVDRHLHHDRYAQRLSSSTPVF
+LAGVLEYLTSNILELAGEEAHKNSRIRITPEHMRKAIESSEHLRDLLEEDPKPRD-----
+-------------------EDVAQPEEKE-
+>H2A.L_Oryctolagus_cuniculus_XP_002720052.1 XP_002720052.1 type: H2A, variant: H2A.L, organism: Oryctolagus cuniculus
+------------------------------------------------------------
+-------MRGKKPSKKAGKRRKPNVSRSTRAELQFPVSRVDRHLHHDRYAQRLSSSTPVF
+LAGVLEYLTSNILELAGEEAHKNSRVRITPEHMRKAIESSEHLRDLLEEDPKPRD-----
+-------------------EDVAQPEEKE-
+>H2A.L_Cavia_porcellus_XP_003469395.1 XP_003469395.1 type: H2A, variant: H2A.L, organism: Cavia porcellus
+------------------------------------------------------------
+-------MAAKKCKGISSKPRKHPVSRSTRAQLQFPVSRVERYLRENGYL-RLSACTPVF
+LAGILEYLTASALHLAARVAHRRHKKRISPEHLARALEKSEQLRQVFGDSTKALL-----
+-------------------DEIIQAKKK--
+>H2A.L_Cavia_porcellus_XP_003469399.1 XP_003469399.1 type: H2A, variant: H2A.L, organism: Cavia porcellus
+------------------------------------------------------------
+-------MDGKKSNEKSSQLRKHPVSCSRRAELQLPVSRMERYLRENSYAPHLPFSTPVF
+LEGVLEYLTASILDLARKEARGKRKKHILPQHLETAAENNQQLGLRFGDSRKSML-----
+-------------------DEMTQNKKK--
+>H2A.L_Heterocephalus_glaber_EHB17227.1 EHB17227.1 type: H2A, variant: H2A.L, organism: Heterocephalus glaber
+MDIHRQRPNQSPVDTNDITKPRLSQRQLLTSEKHRETSGWAQALLFGEAQARREIKLGQL
+KPNTASIMAGKKRRQNSSKPRKQAVSRSTRAELQFPVSRVERYLREGGYAQRLGSSTPVF
+LAGVLEYLTANILDLAGKEAEGNCKKRITPQHLETVMENNQQLRALFQGDTKSLL-----
+-------------------DETSQLKKKC-
+>H2A.L_Heterocephalus_glaber_EHB04253.1 EHB04253.1 type: H2A, variant: H2A.L, organism: Heterocephalus glaber
+------------------------------------------------------------
+-------MAGKKRRQNSSKPRKQAVSRSTRAELQFPVSRVEHYLREGGYAHRLASSTPVF
+LAGVLEYLRANILDLAGKEAQGKRKKCITPQHLETAMENNQHLRPLFQDDPKSLLDETSQ
+PNPRRSDEAWVPEHGKTFSTSSSSPQNTHR
+>H2A.L_Heterocephalus_glaber_EHB10563.1 EHB10563.1 type: H2A, variant: H2A.L, organism: Heterocephalus glaber
+------------------------------------------------------------
+-------MAGKKRRQNSSKPRKQAVSRSTRAELQFPVSRVEHYLREGGYAHRLGSSTPVF
+LAGVLKYLRANILDLAGKEAQGKRKKCIAPQHLETAMENNQHLRPLFQDGPKSLL-----
+-------------------DETSQPKKK--
+>H2A.L_Bos_taurus_NP_001071426.1 NP_001071426.1 type: H2A, variant: H2A.L, organism: Bos taurus
+------------------------------------------------------------
+-------MSPGRHLWNCRRSRRRSLSRSTRAELQFPVSRVDRLLREGQFANRLSSATPVF
+LTGILEYLIANILDLAGKEACTNHRVRISPEHVQTALVNNENLRCLFQPGAFSQP-----
+------------------AASPPAPEN---
+>H2A.L_Bos_taurus_XP_875023.2 XP_875023.2 type: H2A, variant: H2A.L, organism: Bos taurus
+------------------------------------------------------------
+-------MSPRRHLWNCRRSRRHSLSRSTRAELQFPVSRVDRLLREGQGAYRLSSATPVF
+LTAVLEYLIANILDLAGKEACTNHRVRISPEHVQTALINNENLRRLFQPGAFSQP-----
+------------------TASPHLPEN---
+>H2A.L_Sus_scrofa_XP_003360303.2 XP_003360303.2 type: H2A, variant: H2A.L, organism: Sus scrofa
+------------------------------------------------------------
+-------MSRKRNLPQCNRRKKHALSRSSRAELQFPVSRVDRYLREGRYAQRLSSQAPVF
+LAGVLEYLTANILELAASEARSNNKMRIAPEHVQRAASHNQTLSSLFQASSVSRGAEE--
+------------------GAEEPLPEAGR-
+>H2A.L_Sus_scrofa_XP_003484147.1 XP_003484147.1 type: H2A, variant: H2A.L, organism: Sus scrofa
+------------------------------------------------------------
+-------MSRKRNLPQCSHRKKHALSCSSRAELQFPMSSLDCVLPEGQYAQRLSSYTPVF
+LAGVLEHLMAHILELAAREARSSRKVRITPEHVQRALNNNETLSRLFQASSVSRGAEEGA
+EEP---------------GAEEPLPEAGQ-
+>H2A.L_Ailuropoda_melanoleuca_XP_002927211.2 XP_002927211.2 type: H2A, variant: H2A.L, organism: Ailuropoda melanoleuca
+------------------------------------------------------------
+-------MSGRRSPWHSHQHKRHGLSRSMRAELQFPVSRVDRLLREGCYAQRLSSSTPVF
+LTGVLEYLTANILELAGQEARNHHKMRITPEHVQRALVNNQHLSCLFEDITSP-------
+-------------------PAKGTPQLRKC
+>H2A.L_Canis_lupus_familiaris_XP_548938.1 XP_548938.1 type: H2A, variant: H2A.L, organism: Canis lupus familiaris
+------------------------------------------------------------
+-------MSGERGPGHSRRPRRHGLSRSRRAELQFPVSRVDRLLREGHYAHRLSSSTPVF
+LAGILEYLTSNILELAGQEARNSHKMRITPEHLQKALGNNQYLSQLFEENTYSQGDGMVQ
+ARK---------------WSGPGTGADSRI
+>H2A.L_Canis_lupus_familiaris_XP_548947.1 XP_548947.1 type: H2A, variant: H2A.L, organism: Canis lupus familiaris
+------------------------------------------------------------
+-------MSGERGPGHSRRPRRHGLSRSRRAELQFPVSRVDRLLREGCYAHRLSSSTPVF
+LTGILEYLTSNILELVGQEACNSHKMRITPEHMQKALGNNQYLSQLFEENTYSQGDGMVQ
+ARK---------------WSGPGTGADSRI
+>H2A.L_Cricetulus_griseus_XP_003508207.1 XP_003508207.1 type: H2A, variant: H2A.L, organism: Cricetulus griseus
+------------------------------------------------------------
+-------MEEKK--------RKETISRITRGQLQFSLDRIERFFRDGNFSQRLSASAPVF
+LAGVLEFLTSNILDLAGREAHANGTRLITPEHVTQVVQNNDQLREVFKEHEDPVV-----
+-------------------SETPEPEKN--
+>H2A.L_Mus_musculus_NP_080903.1 NP_080903.1 type: H2A, variant: H2A.L, organism: Mus musculus
+------------------------------------------------------------
+-------MARKR-----QRRRRRKVTRSQRAELQFPVSRVDRFLREGNYSRRLSSSAPVF
+LAGVLEYLTSNILELAGEVAHTTGRKRIAPEHVCRVVQNNEQLHQLFKQGGTSVF-----
+--------------------EPPEPDDN--
+>H2A.L_Mus_musculus_NP_083864.1 NP_083864.1 type: H2A, variant: H2A.L, organism: Mus musculus
+------------------------------------------------------------
+-------MAKKM-----QRRRRQKRTRSQRGEL--PLSLVDRFLREEFHSSRLSSSALSF
+LTSVLEYLTSNILELAGEVAHTTGRKRVTPEDVRLVVQNNEQLRQLFKPGGTSVN-----
+-------------------EDDN-------

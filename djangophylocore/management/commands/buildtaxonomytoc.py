@@ -1,4 +1,4 @@
-from django.core.management.base import NoArgsCommand
+from django.core.management.base import BaseCommand
 from optparse import make_option
 
 import os
@@ -9,16 +9,16 @@ try:
 except:
     import pickle
 
-class Command(NoArgsCommand):
-    option_list = NoArgsCommand.option_list + (
-#        make_option('--verbose', '-v', action='store_true', dest='verbose', 
-#            help='Verbose operation'),
-   )
+class Command(BaseCommand):
+#     option_list = BaseCommand.option_list + (
+# #        make_option('--verbose', '-v', action='store_true', dest='verbose',
+# #            help='Verbose operation'),
+#    )
     help = "Build taxonomy toc"
     
     requires_system_checks = True
     
-    def handle_noargs(self, **options):
+    def handle(self, *args, **options):
         d = {}
         taxas = Taxonomy.objects.all()
         for taxa in taxas.iterator():

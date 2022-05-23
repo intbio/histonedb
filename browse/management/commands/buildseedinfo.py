@@ -1,21 +1,26 @@
-import os
-import logging
+import os, configparser, logging
+
 from django.core.management.base import BaseCommand, CommandError
 from django.conf import settings
+
 from tools.L_shade_hist_aln import write_alignments
 from tools.hist_ss import get_features_in_aln
+
 from Bio import SeqIO
 from Bio.Align import MultipleSeqAlignment
-from browse.models import Sequence
 from Bio.Align.AlignInfo import SummaryInfo
 
+from browse.models import Sequence
+
+config = configparser.ConfigParser()
+config.read('./histonedb.ini')
 
 class Command(BaseCommand):
     help = 'Reset sequence features'
-    seed_directory = os.path.join(settings.STATIC_ROOT_AUX, "browse", "seeds")
+    seed_directory = config['WEB_DATA']['seeds']
 
     # Logging info
-    logging.basicConfig(filename='log/buildseedinfo.log',
+    logging.basicConfig(filename=os.path.join(config['LOG']['database_log'], "buildseedinfo.log"),
                         format='%(asctime)s %(name)s %(levelname)-8s %(message)s',
                         level=logging.INFO,
                         datefmt='%Y-%m-%d %H:%M:%S')
@@ -33,6 +38,10 @@ class Command(BaseCommand):
         self.log.info('=======================================================')
         self.log.info('===               buildseedinfo START               ===')
         self.log.info('=======================================================')
+
+        with open(config['DATA']['variants'], encoding='utf-8') as f:
+            self.variants_tree = json.load(f)['tree']
+
         save_dir = os.path.join("tmp", "HistoneDB")
         if not os.path.exists(save_dir):
             os.makedirs(save_dir)

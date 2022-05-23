@@ -1,20 +1,22 @@
 from django.core.management.base import BaseCommand, CommandError
 from browse.models import *
 from djangophylocore.models import Rank
-import os
+
+import os, configparser, json, logging
 from itertools import chain
 import pprint as pp
-import json
 from colour import Color
 from django.db.models import Max, Min, Count, Avg
 from math import floor
-import logging
+
+config = configparser.ConfigParser()
+config.read('./histonedb.ini')
 
 class Command(BaseCommand):
     help = 'Build the sunburst json files for each core histone and its variants'
 
     # Logging info
-    logging.basicConfig(filename='log/buildsunburst.log',
+    logging.basicConfig(filename=os.path.join(config['LOG']['database_log'], "buildsunburst.log"),
                         format='%(asctime)s %(name)s %(levelname)-8s %(message)s',
                         level=logging.INFO,
                         datefmt='%Y-%m-%d %H:%M:%S')
@@ -37,7 +39,8 @@ class Command(BaseCommand):
         self.log.info('=======================================================')
         self.log.info('===               buildsunburst START               ===')
         self.log.info('=======================================================')
-        path = os.path.join("static", "browse", "sunbursts")
+        path = config['WEB_DATA']['sunbursts']
+        # path = os.path.join("static", "browse", "sunbursts")
         if options["all_taxonomy"]:
             sb = self.build_sunburst(all_taxonomy=True)
             with open(os.path.join(path, "all_taxa.json"), "w") as all_taxa:

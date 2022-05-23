@@ -1,16 +1,16 @@
-from django.core.management.base import NoArgsCommand
+from django.core.management.base import BaseCommand
 from optparse import make_option
 
 import os
 from django.conf import settings
 
 
-class Command(NoArgsCommand):
+class Command(BaseCommand):
     help = "Load all taxonomy data into database"
     
     requires_system_checks = True
     
-    def handle_noargs(self, **options):
+    def handle(self, *args, **options):
         localDir = os.path.dirname(__file__)
         absDir = os.path.join(os.getcwd(), localDir)
         verbose = options.get("verbose", True)

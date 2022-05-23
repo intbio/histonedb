@@ -7,7 +7,7 @@ from django.http import HttpResponse
 from django.http import HttpResponseRedirect
 from django.http import JsonResponse
 from django.shortcuts import redirect
-from django.core.urlresolvers import reverse
+from django.urls import reverse
 from django.shortcuts import get_list_or_404
 from django.core.exceptions import ObjectDoesNotExist
 from django.templatetags.static import static
@@ -21,6 +21,7 @@ import pandas as pd
 
 #Django libraires
 from browse.models import *
+from browse.aggregate_functions import GroupConcat
 from djangophylocore.models import *
 
 #BioPython
@@ -31,7 +32,7 @@ from Bio import Medline
 from Bio import Entrez
 Entrez.email = "HistoneDB_user@ncbi.nlm.nih.gov"
 
-from django.db.models import Min, Max, Count, Q
+from django.db.models import Min, Max, Count, Q, Value, IntegerField, CharField, Case, When
 from django.db.models.functions import Coalesce
 
 #Set2 Brewer, used in variant colors
@@ -78,26 +79,62 @@ def browse_types(request):
     }
     return render(request, 'browse_types.html', data)
 
+# def browse_variants(request, histone_type):
+#     try:
+#         hist_type = Histone.objects.get(id=histone_type)
+#     except:
+#         return "404"
+#
+#     variants = hist_type.variants.filter(parent_id=None).annotate(num_sequences=Count('sequences')).order_by("id").all().values_list("id", "num_sequences", "taxonomic_span")
+#     curated_variants = hist_type.variants.filter(parent_id=None).filter(Q(sequences__reviewed=True) | Q(sequences__reviewed__isnull=True)).annotate(num_sequences=Count('sequences')).order_by("id").all().values_list("num_sequences", flat=True)
+#     # curated_variants = hist_type.variants.filter(parent_id=None).filter(sequences__reviewed=True).annotate(num_sequences=Coalesce(Count('sequences'), 0)).order_by("id").all().values_list("num_sequences", flat=True)
+#     variants = [{'id': id, 'num_curated': num_curated, 'num_all': num_all,
+#                  'alternate_names': ", ".join(Variant.objects.get(id=id).old_names.values_list("name", flat=True)),
+#                  'tax_span': tax_span, 'color': color,
+#                  'children': get_variants_children(id)} \
+#                 for (id, num_all, tax_span), num_curated, color in zip(variants, curated_variants, colors)]
+#     children = Variant.objects.get(id=variants[0]['id']).direct_children.annotate(num_sequences=Count('sequences')).order_by(
+#         "id").all().values_list("id", "num_sequences", "taxonomic_span")
+#     curated_children = Variant.objects.get(id=variants[0]['id']).direct_children.filter(Q(sequences__reviewed=True) | Q(sequences__reviewed__isnull=True)).annotate(
+#         num_sequences=Count('sequences')).order_by("id").all().values_list("num_sequences", flat=True)
+#     # assert False
+#
+#
+#     data = {
+#         "histone_type": histone_type,
+#         "histone_description": hist_type.description,
+#         "browse_section": "type",
+#         "name": histone_type,
+#         "variants": variants,
+#         "tree_url": "browse/trees/{}.xml".format(hist_type.id),
+#         "seed_url": reverse("browse:get_seed_aln_and_features", args=[hist_type.id]),
+#         "filter_form": AdvancedFilterForm(),
+#     }
+#
+#     #Store sequences in session, accesed in get_sequence_table_data
+#     data["original_query"] = {"id_hist_type":histone_type}
+#
+#     return render(request, 'browse_variants.html', data)
 def browse_variants(request, histone_type):
     try:
         hist_type = Histone.objects.get(id=histone_type)
     except:
         return "404"
 
-    variants = hist_type.variants.filter(parent_id=None).annotate(num_sequences=Count('sequences')).order_by("id").all().values_list("id", "num_sequences", "taxonomic_span")
-    curated_variants = hist_type.variants.filter(parent_id=None).filter(Q(sequences__reviewed=True) | Q(sequences__reviewed__isnull=True)).annotate(num_sequences=Count('sequences')).order_by("id").all().values_list("num_sequences", flat=True)
-    # curated_variants = hist_type.variants.filter(parent_id=None).filter(sequences__reviewed=True).annotate(num_sequences=Coalesce(Count('sequences'), 0)).order_by("id").all().values_list("num_sequences", flat=True)
-    variants = [{'id': id, 'num_curated': num_curated, 'num_all': num_all,
-                 'alternate_names': ", ".join(Variant.objects.get(id=id).old_names.values_list("name", flat=True)),
-                 'tax_span': tax_span, 'color': color,
-                 'children': get_variants_children(id)} \
-                for (id, num_all, tax_span), num_curated, color in zip(variants, curated_variants, colors)]
-    children = Variant.objects.get(id=variants[0]['id']).direct_children.annotate(num_sequences=Count('sequences')).order_by(
-        "id").all().values_list("id", "num_sequences", "taxonomic_span")
-    curated_children = Variant.objects.get(id=variants[0]['id']).direct_children.filter(Q(sequences__reviewed=True) | Q(sequences__reviewed__isnull=True)).annotate(
-        num_sequences=Count('sequences')).order_by("id").all().values_list("num_sequences", flat=True)
-    # assert False
+    # variants = hist_type.variants.filter(parent_id=None).annotate(num_sequences=Count('sequences')).order_by("id").all().values_list("id", "num_sequences", "taxonomic_span")
+    variants = hist_type.variants.annotate(alternate_names=GroupConcat('old_names__name', separator=', '),
+                                           num_sequences=Count('sequences'),
+                                           num_curated=Count(Case(When(sequences__reviewed=True, then=1), output_field=IntegerField()))).all()
 
+    variants_query = str(variants.query)
+    variants_num = variants.values_list("id", "num_sequences", "num_curated", "alternate_names", "taxonomic_span")
+    # curated_variants = hist_type.variants.filter(parent_id=None).filter(Q(sequences__reviewed=True) | Q(sequences__reviewed__isnull=True)).annotate(num_sequences=Count('sequences')).order_by("id").all().values_list("num_sequences", flat=True)
+    # curated_variants = hist_type.variants.filter(parent_id=None).filter(sequences__reviewed=True).annotate(num_sequences=Coalesce(Count('sequences'), 0)).order_by("id").all().values_list("num_sequences", flat=True)
+    # variants = [{'id': id, 'num_curated': num_curated, 'num_all': num_all,
+    #              'alternate_names': ", ".join(Variant.objects.get(id=id).old_names.values_list("name", flat=True)),
+    #              'tax_span': tax_span, 'color': color} \
+    #             for (id, num_all, tax_span), num_curated, color in zip(variants, curated_variants, colors)]
+    # assert False
 
     data = {
         "histone_type": histone_type,
@@ -105,14 +142,15 @@ def browse_variants(request, histone_type):
         "browse_section": "type",
         "name": histone_type,
         "variants": variants,
+        "colors": colors,
         "tree_url": "browse/trees/{}.xml".format(hist_type.id),
-        "seed_url": reverse("browse.views.get_seed_aln_and_features", args=[hist_type.id]),
+        "seed_url": reverse("browse:get_seed_aln_and_features", args=[hist_type.id]),
         "filter_form": AdvancedFilterForm(),
     }
 
     #Store sequences in session, accesed in get_sequence_table_data
     data["original_query"] = {"id_hist_type":histone_type}
-    
+
     return render(request, 'browse_variants.html', data)
 
 def browse_variant_with_highlighted_sequence(request, histone_type, variant, accession):

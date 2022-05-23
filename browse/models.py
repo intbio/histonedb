@@ -1,6 +1,8 @@
 from django.core.validators import MaxValueValidator, MinValueValidator
 from django.conf import settings
 from django.db import models
+from mptt.models import MPTTModel, TreeForeignKey
+
 from djangophylocore.models import Taxonomy
 
 from Bio.Seq import Seq
@@ -85,7 +87,7 @@ class Histone(models.Model):
         from django.core.urlresolvers import reverse
         return reverse('browse.views.browse_variants', args=[str(self.id)])
 
-class Variant(models.Model):
+class Variant(MPTTModel):
     """Most variants map to
     H2A.X -> multiple species, same varaint
     H2A.10 -> one species, different varaint that are species speficific
@@ -96,7 +98,10 @@ class Variant(models.Model):
     doublet        = models.BooleanField(default=False)
     description    = models.ForeignKey(HistoneDescription, on_delete=models.CASCADE)
     publications   = models.ManyToManyField(Publication)
-    parent         = models.ForeignKey('self', related_name='direct_children', null=True, on_delete=models.CASCADE)
+    parent         = TreeForeignKey('self', related_name='children', null=True, blank=True, on_delete=models.CASCADE)
+
+    class MPTTMeta:
+        order_insertion_by = ['id']
 
     def __str__(self):
         return self.id

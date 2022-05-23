@@ -1,1750 +1,1360 @@
->Macaca|EHH30639.1|H2A.P Macaca_H2A.P_355704714
+>cH2A_Trypanosoma_brucei_brucei_TREU927_XP_845905.1 XP_845905.1 type: H2A, variant: cH2A, organism: Trypanosoma brucei brucei TREU927
 ------------------------------------------------------------
--------M-----SEKNNRK----------------NSS---AN----------------
-----------------------------------NNQI--QDR-SRNELRVPMSFVDRVV
-QDEQDAQ-SQSSSTINILLTLLDCLADYIMEQVGL----EAINNG-RMRNTSQDGEREGD
-NHHEPHRTES-DGTRFVFDEMPK-----------SGKND---------------------
+------MATPKQAVKKASKGG------------------SSRSVKAGLIFPVGRVGTLLR
+RGQYAR-RIGASGAVYMAAVLEYLTAELLELSVKAAAQQTKK-TKRLTPRTVTLAVRHDD
+DLGALLRNVTMSRG------------------------GVMPSLNKALAKKQKSGKHA--
+--------KATPSV----------------------------------------------
 ------------------------------------------------------------
 ------------------------------------------------------------
 ------------------------------------------------------------
--------------------------------------------------------
->Homo|AAC26851.1|H2A.P Homo_H2A.P_3329433
+-------------
+>cH2A_Beta_vulgaris_subsp._vulgaris_XP_010685819.1 XP_010685819.1 type: H2A, variant: cH2A, organism: Beta vulgaris subsp. vulgaris
+-----------------------------------------------------------M
+DSTAGGKAKKGAGGRKGGGPK---------------KKPVSRSVKAGLQFPVGRIGRYLK
+KGRYAQ-RVGTGAPVYLAAVLEYLAAEVLELAGNAA--RDNK-KNRIIPRHVLLAVRNDD
+ELGKLLSGVTIAHG------------------------GVLPNINPVLLPKKAGGDKA--
+--------TKEPKSPSKATKSPKKA-----------------------------------
 ------------------------------------------------------------
------EPNPANIMSEKKNCK----------------NSS---TN----------------
-------------------N---------------NQ----TQDPSRNELQVPRSFVDRVV
-QDERDVQ-SQSSSTINTLLTLLDCLADYIMERVGL----EASNNG-SMRNTSQDREREVD
-NNREPHSAES-DVTRFLFDEMPK-----------SRKND---------------------
 ------------------------------------------------------------
 ------------------------------------------------------------
+-------------
+>cH2A_Tetrahymena_thermophila_AAC37292.1 AAC37292.1 type: H2A, variant: cH2A, organism: Tetrahymena thermophila
 ------------------------------------------------------------
--------------------------------------------------------
->Pan|XP_003317470.1|H2A.P Pan_H2A.P_332860554
+------MSTTGKGGKAKGKTA-S-------------SKQVSRSARAGLQFPVGRISRFLK
+NGRYSE-RIGTGAPVYLAAVLEYLAAEVLELAGNAA--KDNK-KTRIVPRHILLAIRNDE
+ELNKLMANTTIADG------------------------GVLPNINPMLLPSKTKKSTE--
+--------PEH-------------------------------------------------
 ------------------------------------------------------------
--------M-----SEKKNCK----------------NSS---TN----------------
-------------------N---------------NQ----TQDPSRNELQVPMSFVDRVV
-QDERDVQ-SQSSSTINTLLTLLDCLADYIMERVGL----EASNNG-SMRNTSQDREREVD
-NNREPHSAES-DVTRFLFDEMPK-----------SRKND---------------------
 ------------------------------------------------------------
 ------------------------------------------------------------
+-------------
+>cH2A_Caenorhabditis_elegans_NP_505463.1 NP_505463.1 type: H2A, variant: cH2A, organism: Caenorhabditis elegans
 ------------------------------------------------------------
--------------------------------------------------------
->Homo|NP_036406.1|H2A.P Homo_H2A.P_150456434
+--------MSGRG--KGGKAKTG-------------GKAKSRSSRAGLQFPVGRLHRILR
+KGNYAQ-RVGAGAPVYLAAVLEYLAAEVLELAGNAA--RDNK-KTRIAPRHLQLAVRNDE
+ELNKLLAGVTIAQG------------------------GVLPNIQAVLLPKKTAGDKE--
 ------------------------------------------------------------
--------M-----SEKKNCK----------------NSS---TN----------------
-------------------N---------------NQ----TQDPSRNELQVPRSFVDRVV
-QDERDVQ-SQSSSTINTLLTLLDCLADYIMERVGL----EASNNG-SMRNTSQDREREVD
-NNREPHSAES-DVTRFLFDEMPK-----------SRKND---------------------
 ------------------------------------------------------------
 ------------------------------------------------------------
 ------------------------------------------------------------
--------------------------------------------------------
->Heterocephalus|EHB10562.1|H2A.P Heterocephalus_H2A.P_351707643
+-------------
+>cH2A_Nematostella_vectensis_EDO48405.1 EDO48405.1 type: H2A, variant: cH2A, organism: Nematostella vectensis
 ------------------------------------------------------------
-------MM-----CEQ-------------K---SQYGSY--KDN----------------
-------------------N---------------QQ----EDPASRPEQQLPVSDIYCIL
-HEEYNPY---FSSTSDLLLAMLESLTDYILTLVGS------EGNNVGMPTNPQDGEREMD
-NNHEHPPIIP-DVSFSFSDEMPG-----------SRKKG---------------------
+--------MSGRGKGKAKG-----------------TKSKTRSSRAGLQFPVGRIHRHLR
+KGNYAE-RVGAGAPVYMAAVLEYLSAEILELAGNAA--RDNK-KTRIIPRHLQLAVRNDE
+ELNRLLHGVTIAQG------------------------GVLPNIQAVLLPKKTEKKAK--
+--------A---------------------------------------------------
 ------------------------------------------------------------
 ------------------------------------------------------------
 ------------------------------------------------------------
--------------------------------------------------------
->Cricetulus|XP_003508203.1|H2A.P Cricetulus_H2A.P_354492127
+-------------
+>cH2A_Callithrix_jacchus_XP_008992112.1 XP_008992112.1 type: H2A, variant: cH2A, organism: Callithrix jacchus
 ------------------------------------------------------------
--------M-----SGK--KN---------Q------GKSCSDNK----------------
-----------------------------------KM----EDPSSKPEVQIPVNYVYHLL
-QEEQYTP-CLGSTTSDFLLAMLDYITDYILEVVGS----EANINS--QQDIPQDRERQGD
-NDHDHSHAFK-NAPFSLFDEMPG-----------PRRNG---------------------
+--------MSGRG-KQGGKVR---------------AKAKSRSSRAGLQFPVGRIHRLLR
+KGKYAD-RIGAGAPVYLAAVLEYLTAEILELAGNAS--RDNK-KTRIIPRHLQLAIRNDE
+ELNKLLGGVTIAQG------------------------GVLPNIQAVLLPKKTESHHH--
+--------KSQSK-----------------------------------------------
 ------------------------------------------------------------
 ------------------------------------------------------------
 ------------------------------------------------------------
--------------------------------------------------------
->Mus|NP_080372.1|H2A.P Mus_H2A.P_13385600
+-------------
+>cH2A_Ixodes_scapularis_EEC09557.1 EEC09557.1 type: H2A, variant: cH2A, organism: Ixodes scapularis
 ------------------------------------------------------------
--------M-----SEKKSQE--------------KPCSD---NN----------------
-----------------------------------QI----EDPSSRPEVQVPVNYVYRIL
-QEEQYTP-CIGSTTSDFLLAMLDYLTDYILEVVGS----EANINN--QQNISQDRERQRD
-NDREPSRGFK-NAPFSLFDEMPG-----------PRRNG---------------------
+--------MSGRG--KGGKVK---------------GKSKTRSSRAGLQFPVGRIHRLLR
+KGNYAE-RVGAGAPVYLAAVLEYLAAEVLELAGNAA--RDNK-KTRIIPRHLQLAIRNDE
+ELNKLLSGVTIAQG------------------------GVLPNIQAVLLPKKTEKKS---
 ------------------------------------------------------------
 ------------------------------------------------------------
 ------------------------------------------------------------
--------------------------------------------------------
->Rattus|NP_001128070.1|H2A.P Rattus_H2A.P_197386154
 ------------------------------------------------------------
--------M-----SGKKSQE---------K------ACS---DN----------------
-------------------K---------------QT----EDPSSRPEVQVPVNYVYRLL
-QEEQYTP-CLGSTTSDFLLAMLDYLTDYILEVVGS----EANINS--QQNISQDRERQRE
-NDREPPQAFK-NAPFSLFDEMPG-----------PRRNG---------------------
+-------------
+>cH2A_Apis_mellifera_XP_001119899.1 XP_001119899.1 type: H2A, variant: cH2A, organism: Apis mellifera
 ------------------------------------------------------------
+--------MSGRG--KGGKAK---------------AKAKSRSNRAGLQFPVGRIHRLLR
+KGNYAE-RVGAGAPVYLAAVMEYLAAEVLELAGNAA--RDNK-KTRIIPRHLQLAIRNDE
+ELNKLLSGVTIAQG------------------------GVLPNIQAVLLPKKTEKKA---
 ------------------------------------------------------------
 ------------------------------------------------------------
--------------------------------------------------------
->Sus|XP_003135058.1|H2A.P Sus_H2A.P_311276123
 ------------------------------------------------------------
--------M-----SGKQSPE----------------GSY---------------------
-----------------------------------EA----PTHLTTTEPQVPVSFVDHLL
-QEDQYVH-TLSSSTTHFLFSVLEYLTDYILDLV------DTKANTGRMQMTPQDVERAVD
-SNAEPHRQVK-DTAFALFDEMPG-----------SRRNG---------------------
 ------------------------------------------------------------
+-------------
+>cH2A_Drosophila_melanogaster_NP_724343.1 NP_724343.1 type: H2A, variant: cH2A, organism: Drosophila melanogaster
 ------------------------------------------------------------
+--------MSGRG--KGGKVK---------------GKAKSRSNRAGLQFPVGRIHRLLR
+KGNYAE-RVGAGAPVYLAAVMEYLAAEVLELAGNAA--RDNK-KTRIIPRHLQLAIRNDE
+ELNKLLSGVTIAQG------------------------GVLPNIQAVLLPKKTEKKA---
 ------------------------------------------------------------
--------------------------------------------------------
->Canis|XP_005641297.1|H2A.P Canis_H2A.P_545557820
 ------------------------------------------------------------
--------M-----EPN--PA---------N---IMSGNK---NH----------------
-----------------------------------ESSNQTQAHLVTTELQFPVSYVDRLL
-QEDQRTH-CLSSTSTEFLLAMLDSLTDYILERVGT----EANNNN--MQTAPQDVERAVG
-SNREPQQCLK-DTAFTLFDEMPR-----------SRRNG---------------------
 ------------------------------------------------------------
 ------------------------------------------------------------
+-------------
+>cH2A_Xenopus_laevis_NP_001087948.1 NP_001087948.1 type: H2A, variant: cH2A, organism: Xenopus laevis
 ------------------------------------------------------------
--------------------------------------------------------
->Ailuropoda|XP_002913536.1|H2A.P Ailuropoda_H2A.P_301755368
+--------MSGRG-KQGGKTR---------------AKAKTRSSRAGLQFPVGRVHRLLR
+KGNYAE-RVGAGAPVYLAAVLEYLTAEILELAGNAA--RDNK-KTRIIPRHLQLAVRNDE
+ELNKLLGRVTIAQG------------------------GVLPNIQSVLLPKKTESSKS--
+--------AKSK------------------------------------------------
 ------------------------------------------------------------
--------M-----SGKKSHE----------------SSY---------------------
-----------------------------------QT----QAHLITTELQVPVSYVDRLL
-QENQYNH-PLSSSTTDFLLTMLDYLTDYILDVVGT----EANNSN--MPTAPQDVERAVD
-SSGEPYHRSK-DTAFTLFDEMPG-----------SRRNG---------------------
 ------------------------------------------------------------
 ------------------------------------------------------------
+-------------
+>cH2A_Danio_rerio_XP_009296490.1 XP_009296490.1 type: H2A, variant: cH2A, organism: Danio rerio
 ------------------------------------------------------------
--------------------------------------------------------
->Bos|NP_001071426.1|H2A.L Bos_H2A.L_118151026
+--------MSGRG-KTGGKAR---------------AKAKTRSSRAGLQFPVGRVHRLLR
+KGNYAE-RVGAGAPVYLAAVLEYLTAEILELAGNAA--RDNK-KTRIIPRHLQLAVRNDE
+ELNKLLGGVTIAQG------------------------GVLPNIQAVLLPKKTEKAAK--
+--------GK--------------------------------------------------
 ------------------------------------------------------------
-------MS-----PGRHLWN----------------CRR---SR----------------
-------------------R---------------RS----LSRSTRAELQFPVSRVDRLL
-REGQFAN-RLSSATPVFLTGILEYLIANILDLAGK----EACTNH-RVRISPEHVQTALV
-NNENLRCLFQ-PGAFSQPAASPPAPEN---------------------------------
 ------------------------------------------------------------
 ------------------------------------------------------------
+-------------
+>cH2A_Gallus_gallus_NP_001072943.1 NP_001072943.1 type: H2A, variant: cH2A, organism: Gallus gallus
 ------------------------------------------------------------
--------------------------------------------------------
->Bos|XP_875023.2|H2A.L Bos_H2A.L_119923405
+--------MSGRG-KQGGKAR---------------AKAKSRSSRAGLQFPVGRVHRLLR
+KGNYAE-RVGAGAPVYLAAVLEYLTAEILELAGNAA--RDNK-KTRIIPRHLQLAIRNDE
+ELNKLLGKVTIAQG------------------------GVLPNIQAVLLPKKTDSHKA--
+--------KAK-------------------------------------------------
 ------------------------------------------------------------
--------M-----SPR---R---------H---LWNCRR---SR----------------
-------------------R---------------HS----LSRSTRAELQFPVSRVDRLL
-REGQGAY-RLSSATPVFLTAVLEYLIANILDLAGK----EACTNH-RVRISPEHVQTALI
-NNENLRRLFQ-PGAFSQPTASPHLPEN---------------------------------
 ------------------------------------------------------------
 ------------------------------------------------------------
+-------------
+>cH2A_Cavia_porcellus_XP_003478913.1 XP_003478913.1 type: H2A, variant: cH2A, organism: Cavia porcellus
 ------------------------------------------------------------
--------------------------------------------------------
->Sus|XP_003360303.2|H2A.L Sus_H2A.L_350595614
+--------MSGRG-KQGGKAR---------------AKAKSRSSRAGLQFPVGRVHRLLR
+KGNYAE-RVGAGAPVYMAAVLEYLTAEILELAGNAA--RDNK-KTRIIPRHLQLAIRNDE
+ELNKLLGKVTIAQG------------------------GVLPNIQAVLLPKKTESHHK--
+--------AKGK------------------------------------------------
 ------------------------------------------------------------
--------M-----SRKRNLP---------Q------CNR---RK----------------
-------------------K---------------HA----LSRSSRAELQFPVSRVDRYL
-REGRYAQ-RLSSQAPVFLAGVLEYLTANILELAAS----EARSNN-KMRIAPEHVQRAAS
-HNQTLSSLFQ-ASSVSRGAEEGAEEPL---------------------------------
----PEAGR----------------------------------------------------
 ------------------------------------------------------------
 ------------------------------------------------------------
--------------------------------------------------------
->Sus|XP_003484147.1|H2A.L Sus_H2A.L_350595620
+-------------
+>cH2A_Monodelphis_domestica_XP_007485414.1 XP_007485414.1 type: H2A, variant: cH2A, organism: Monodelphis domestica
 ------------------------------------------------------------
--------M-----SRKRNLP---------Q------CSH---RK----------------
-------------------K---------------HA----LSCSSRAELQFPMSSLDCVL
-PEGQYAQ-RLSSYTPVFLAGVLEHLMAHILELAAR----EARSSR-KVRITPEHVQRALN
-NNETLSRLFQ-ASSVSRGAEEGAEEPG-----AEEPLPEAGQ------------------
+--------MSGRG-KQGGKAR---------------AKAKSRSSRAGLQFPVGRVHRLLR
+KGNYAE-RVGAGAPVYMAAVLEYLTAEILELAGNAA--RDNK-KTRIIPRHLQLAIRNDE
+ELNKLLGKVTIAQG------------------------GVLPNIQAVLLPKKTESHHK--
+--------TKGK------------------------------------------------
 ------------------------------------------------------------
 ------------------------------------------------------------
 ------------------------------------------------------------
--------------------------------------------------------
->Ailuropoda|XP_002927211.1|H2A.L Ailuropoda_H2A.L_301783589
+-------------
+>cH2A_Pan_troglodytes_XP_009448979.1 XP_009448979.1 type: H2A, variant: cH2A, organism: Pan troglodytes
 ------------------------------------------------------------
--------M-----SGRRSPW---------H------SHQ---HK----------------
-------------------R---------------HG----LSRSMRAELQFPVSRVDRLL
-REGCYAQ-RLSSSTPVFLTGVLEYLTANILELAGQ----EARNHH-KMRITPEHVQRALV
-NNQHLSCLFE-DITSLPAKGAPRLRKC---------------------------------
+--------MSGRG-KQGGKAR---------------AKAKTRSSRAGLQFPVGRVHRLLR
+KGNYAE-RVGAGAPVYLAAVLEYLTAEILELAGNAA--RDNK-KTRIIPRHLQLAIRNDE
+ELNKLLGKVTIAQG------------------------GVLPNIQAVLLPKKTESHHK--
+--------AKGKA-----------------------------------------------
 ------------------------------------------------------------
 ------------------------------------------------------------
 ------------------------------------------------------------
--------------------------------------------------------
->Canis|XP_548938.1|H2A.L Canis_H2A.L_57112025
+-------------
+>cH2A_Loxodonta_africana_XP_003422330.1 XP_003422330.1 type: H2A, variant: cH2A, organism: Loxodonta africana
 ------------------------------------------------------------
--------M-----SGE--RG----------------PGH---SR----------------
-----------------------------------RPRRHGLSRSRRAELQFPVSRVDRLL
-REGHYAH-RLSSSTPVFLAGILEYLTSNILELAGQ----EARNSH-KMRITPEHLQKALG
-NNQYLSQLFE-ENTYSQGDGMVQARKW-----SGPGTGADSRI-----------------
+--------MSGRG-KQGGKAR---------------AKAKTRSSRAGLQFPVGRVHRLLR
+KGNYAE-RVGAGAPVYLAAVLEYLTAEILELAGNAA--RDNK-KTRIIPRHLQLAIRNDE
+ELNKLLGKVTIAQG------------------------GVLPNIQAVLLPKKTESHHK--
+--------AKGK------------------------------------------------
 ------------------------------------------------------------
 ------------------------------------------------------------
 ------------------------------------------------------------
--------------------------------------------------------
->Canis|XP_548947.1|H2A.L Canis_H2A.L_57112039
+-------------
+>cH2A_Sus_scrofa_XP_003356618.1 XP_003356618.1 type: H2A, variant: cH2A, organism: Sus scrofa
 ------------------------------------------------------------
--------M-----SGE--RG----------------PGH---SR----------------
-----------------------------------RPRRHGLSRSRRAELQFPVSRVDRLL
-REGCYAH-RLSSSTPVFLTGILEYLTSNILELVGQ----EACNSH-KMRITPEHMQKALG
-NNQYLSQLFE-ENTYSQGDGMVQARKW-----SGPGTGADSRI-----------------
+--------MSGRG-KQGGKAR---------------AKAKTRSSRAGLQFPVGRVHRLLR
+KGNYAE-RVGAGAPVYLAAVLEYLTAEILELAGNAA--RDNK-KTRIIPRHLQLAIRNDE
+ELNKLLGKVTIAQG------------------------GVLPNIQAVLLPKKTESHHK--
+--------AKGK------------------------------------------------
 ------------------------------------------------------------
 ------------------------------------------------------------
 ------------------------------------------------------------
--------------------------------------------------------
->Cricetulus|XP_003508207.1|H2A.L Cricetulus_H2A.L_354492135
+-------------
+>cH2A_Oryctolagus_cuniculus_XP_008246690.1 XP_008246690.1 type: H2A, variant: cH2A, organism: Oryctolagus cuniculus
 ------------------------------------------------------------
--------M-----EEK--------------------------KR----------------
-------------------K---------------ET----ISRITRGQLQFSLDRIERFF
-RDGNFSQ-RLSASAPVFLAGVLEFLTSNILDLAGR----EAHANG-TRLITPEHVTQVVQ
-NNDQLREVFK-------EHEDPVVSET-----PEPEKN----------------------
+--------MSGRG-KQGGKAR---------------AKAKTRSSRAGLQFPVGRVHRLLR
+KGNYAE-RVGAGAPVYLAAVLEYLTAEILELAGNAA--RDNK-KTRIIPRHLQLAIRNDE
+ELNKLLGKVTIAQG------------------------GVLPNIQAVLLPKKTESHHK--
+--------AKGK------------------------------------------------
 ------------------------------------------------------------
 ------------------------------------------------------------
 ------------------------------------------------------------
--------------------------------------------------------
->Mus|NP_080903.1|H2A.L Mus_H2A.L_13386112
+-------------
+>cH2A_Heterocephalus_glaber_XP_004847876.1 XP_004847876.1 type: H2A, variant: cH2A, organism: Heterocephalus glaber
 ------------------------------------------------------------
--------M-----ARK--------------------RQR---RR----------------
-------------------R---------------RK----VTRSQRAELQFPVSRVDRFL
-REGNYSR-RLSSSAPVFLAGVLEYLTSNILELAGE----VAHTTG-RKRIAPEHVCRVVQ
-NNEQLHQLFK------QGG-----TSV-----FEPPEPDDN-------------------
+--------MSGRG-KQGGKAR---------------AKAKTRSSRAGLQFPVGRVHRLLR
+KGNYAE-RVGAGAPVYLAAVLEYLTAEILELAGNAA--RDNK-KTRIIPRHLQLAIRNDE
+ELNKLLGKVTIAQG------------------------GVLPNIQAVLLPKKTESHHK--
+--------AKGK------------------------------------------------
 ------------------------------------------------------------
 ------------------------------------------------------------
 ------------------------------------------------------------
--------------------------------------------------------
->Mus|NP_083864.1|H2A.L Mus_H2A.L_13386420
+-------------
+>cH2A_Canis_lupus_familiaris_XP_005640150.1 XP_005640150.1 type: H2A, variant: cH2A, organism: Canis lupus familiaris
 ------------------------------------------------------------
--------M-----AKKMQRR----------------------RR----------------
-----------------------------------QK----RTRSQRGEL--PLSLVDRFL
-REEFHSS-RLSSSALSFLTSVLEYLTSNILELAGE----VAHTTG-RKRVTPEDVRLVVQ
-NNEQLRQLFK------PGGTSVNEDDN---------------------------------
+--------MSGRG-KQGGKAR---------------AKAKSRSSRAGLQFPVGRVHRLLR
+KGNYAE-RVGAGAPVYLAAVLEYLTAEILELAGNAA--RDNK-KTRIIPRHLQLAIRNDE
+ELNKLLGRVTIAQG------------------------GVLPNIQAVLLPKKTESHHK--
+--------AKGK------------------------------------------------
 ------------------------------------------------------------
 ------------------------------------------------------------
 ------------------------------------------------------------
--------------------------------------------------------
->Oryctolagus|XP_002720052.1|H2A.L Oryctolagus_H2A.L_291407300
+-------------
+>cH2A_Ailuropoda_melanoleuca_XP_011215280.1 XP_011215280.1 type: H2A, variant: cH2A, organism: Ailuropoda melanoleuca
 ------------------------------------------------------------
--------M-----RGKKPSK---------K------AGK---RR----------------
-----------------------------------KP---NVSRSTRAELQFPVSRVDRHL
-HHDRYAQ-RLSSSTPVFLAGVLEYLTSNILELAGE----EAHKNS-RVRITPEHMRKAIE
-SSEHLRDLLE-------EDPKPRDEDV-----AQPEEKE---------------------
+--------MSGRG-KQGGKAR---------------AKAKSRSSRAGLQFPVGRVHRLLR
+KGNYAE-RVGAGAPVYLAAVLEYLTAEILELAGNAA--RDNK-KTRIIPRHLQLAIRNDE
+ELNKLLGRVTIAQG------------------------GVLPNIQAVLLPKKTESHHK--
+--------AKGK------------------------------------------------
 ------------------------------------------------------------
 ------------------------------------------------------------
 ------------------------------------------------------------
--------------------------------------------------------
->Oryctolagus|XP_002719866.1|H2A.L Oryctolagus_H2A.L_291407314
+-------------
+>cH2A_Bos_taurus_NP_001192525.1 NP_001192525.1 type: H2A, variant: cH2A, organism: Bos taurus
 ------------------------------------------------------------
--------M-----RGKKPSK---------K------AGK---RR----------------
-----------------------------------KP---NVSRSTRAELQFPVSRVDRHL
-HHDRYAQ-RLSSSTPVFLAGVLEYLTSNILELAGE----EAHKNS-RIRITPEHMRKAIE
-SSEHLRDLLE-------EDPKPRDEDV-----AQPEEKE---------------------
+--------MSGRG-KQGGKAR---------------AKAKSRSSRAGLQFPVGRVHRLLR
+KGNYAE-RVGAGAPVYLAAVLEYLTAEILELAGNAA--RDNK-KTRIIPRHLQLAIRNDE
+ELNKLLGRVTIAQG------------------------GVLPNIQAVLLPKKTESHHK--
+--------AKGK------------------------------------------------
 ------------------------------------------------------------
 ------------------------------------------------------------
 ------------------------------------------------------------
--------------------------------------------------------
->Cavia|XP_003469395.1|H2A.L Cavia_H2A.L_348567212
+-------------
+>cH2A_Nomascus_leucogenys_XP_004088806.1 XP_004088806.1 type: H2A, variant: cH2A, organism: Nomascus leucogenys
 ------------------------------------------------------------
-------MA-----AKKCKGI----------------SSK---PR----------------
-------------------K---------------HP----VSRSTRAQLQFPVSRVERYL
-RENGYL--RLSACTPVFLAGILEYLTASALHLAAR----VAHRRH-KKRISPEHLARALE
-KSEQLRQVFG-DSTKAL------LDEI-----IQAKKK----------------------
+--------MSGRG-KQGGKAR---------------AKAKSRSSRAGLQFPVGRVHRLLR
+KGNYAE-RVGAGAPVYLAAVLEYLTAEILELAGNAA--RDNK-KTRIIPRHLQLAIRNDE
+ELNKLLGRVTIAQG------------------------GVLPNIQAVLLPKKTESHHK--
+--------AKGK------------------------------------------------
 ------------------------------------------------------------
 ------------------------------------------------------------
 ------------------------------------------------------------
--------------------------------------------------------
->Cavia|XP_003469399.1|H2A.L Cavia_H2A.L_348567220
+-------------
+>cH2A_Macaca_mulatta_NP_001180653.1 NP_001180653.1 type: H2A, variant: cH2A, organism: Macaca mulatta
 ------------------------------------------------------------
--------M-----DGKKSNE---------K------SSQ---LR----------------
-------------------K---------------HP----VSCSRRAELQLPVSRMERYL
-RENSYAP-HLPFSTPVFLEGVLEYLTASILDLARK----EARGKR-KKHILPQHLETAAE
-NNQQLGLRFG------------DSRKS-----MLDEMTQNKKK-----------------
+--------MSGRG-KQGGKAR---------------AKAKTRSSRAGLQFPVGRVHRLLR
+KGNYSE-RVGAGAPVYLAAVLEYLTAEILELAGNAA--RDNK-KTRIIPRHLQLAIRNDE
+ELNKLLGRVTIAQG------------------------GVLPNIQAVLLPKKTESHHK--
+--------AKGK------------------------------------------------
 ------------------------------------------------------------
 ------------------------------------------------------------
 ------------------------------------------------------------
--------------------------------------------------------
->Heterocephalus|EHB17227.1|H2A.L Heterocephalus_H2A.L_351714308
+-------------
+>cH2A_Cricetulus_griseus_XP_007634672.1 XP_007634672.1 type: H2A, variant: cH2A, organism: Cricetulus griseus
+------------------------------------------------------------
+--------MSGRG-KQGGKAR---------------AKAKTRSSRAGLQFPVGRVHRLLR
+KGNYSE-RVGAGAPVYLAAVLEYLTAEILELAGNAA--RDNK-KTRIIPRHLQLAIRNDE
+ELNKLLGRVTIAQG------------------------GVLPNIQAVLLPKKTESHHK--
+--------AKGK------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+-------------
+>cH2A_Mus_musculus_NP_835489.1 NP_835489.1 type: H2A, variant: cH2A, organism: Mus musculus
+------------------------------------------------------------
+--------MSGRG-KQGGKAR---------------AKAKTRSSRAGLQFPVGRVHRLLR
+KGNYSE-RVGAGAPVYLAAVLEYLTAEILELAGNAA--RDNK-KTRIIPRHLQLAIRNDE
+ELNKLLGRVTIAQG------------------------GVLPNIQAVLLPKKTESHHK--
+--------AKGK------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+-------------
+>cH2A_Rattus_norvegicus_NP_068612.2 NP_068612.2 type: H2A, variant: cH2A, organism: Rattus norvegicus
+------------------------------------------------------------
+--------MSGRG-KQGGKAR---------------AKAKSRSSRAGLQFPVGRVHRLLR
+KGNYSE-RVGAGAPVYLAAVLEYLTAEILELAGNAA--RDNK-KTRIIPRHLQLAIRNDE
+ELNKLLGRVTIAQG------------------------GVLPNIQAVLLPKKTESHHK--
+--------AKGK------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+-------------
+>cH2A_Zea_mays_NP_001141988.1 NP_001141988.1 type: H2A, variant: cH2A, organism: Zea mays
+------------------------------------------------------------
+--------MAGRGKAIGAGAA---------------KKATSRSSKAGLQFPVGRIARFLK
+AGKYAE-RVGAGAPVYLAAVLEYLAAEVLELAGNAA--RDNK-KTRIVPRHIQLAVRNDE
+ELTKLLGGATIASG------------------------GVMPNIHQHLLPKKAASSKA--
+--------SVDDDDN---------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+-------------
+>cH2A_Oryza_sativa_Japonica_Group_NP_001066688.1 NP_001066688.1 type: H2A, variant: cH2A, organism: Oryza sativa Japonica Group
+------------------------------------------------------------
+--------MAGRGKAIGAGAA---------------KKATSRSSKAGLQFPVGRIARFLK
+AGKYAE-RVGAGAPVYLAAVLEYLAAEVLELAGNAA--RDNK-KTRIVPRHIQLAVRNDE
+ELTKLLGGATIASG------------------------GVMPNIHQHLLPKKAGSSKA--
+--------SHADDDDN--------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+-------------
+>cH2A_Zea_mays_NP_001132837.1 NP_001132837.1 type: H2A, variant: cH2A, organism: Zea mays
+------------------------------------------------------------
+--------MAGRGKAIGSGAA---------------KKATSRSSKAGLQFPVGRIARFLK
+AGKYAE-RVGAGAPVYLAAVLEYLAAEVLELAGNAA--RDNK-KTRIVPRHIQLAVRNDE
+ELSRLLGTVTIASG------------------------GVMPNIHNLLLPKKAGGGSA--
+--------KAAAGDED--------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+-------------
+>cH2A_Arabidopsis_thaliana_NP_175517.1 NP_175517.1 type: H2A, variant: cH2A, organism: Arabidopsis thaliana
+------------------------------------------------------------
+--------MAGRGKTLGSGSA---------------KKATTRSSKAGLQFPVGRIARFLK
+KGKYAE-RVGAGAPVYLAAVLEYLAAEVLELAGNAA--RDNK-KTRIVPRHIQLAVRNDE
+ELSKLLGDVTIANG------------------------GVMPNIHNLLLPKKTGASKP--
+--------SAEDD-----------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+-------------
+>cH2A_Arabidopsis_thaliana_NP_188703.1 NP_188703.1 type: H2A, variant: cH2A, organism: Arabidopsis thaliana
+------------------------------------------------------------
+--------MAGRGKTLGSGVA---------------KKSTSRSSKAGLQFPVGRIARFLK
+NGKYAT-RVGAGAPVYLAAVLEYLAAEVLELAGNAA--RDNK-KTRIVPRHIQLAVRNDE
+ELSKLLGDVTIANG------------------------GVMPNIHSLLLPKKAGASKP--
+--------SADED-----------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+-------------
+>cH2A_Arabidopsis_thaliana_NP_001190852.1 NP_001190852.1 type: H2A, variant: cH2A, organism: Arabidopsis thaliana
+------------------------------------------------------------
+--------MAGRGKQLGSGAA---------------KKSTSRSSKAGLQFPVGRIARFLK
+AGKYAE-RVGAGAPVYLAAVLEYLAAEVLELAGNAA--RDNK-KTRIVPRHIQLAVRNDE
+ELSKLLGDVTIANG------------------------GVMPNIHNLLLPKKAGSSKP--
+--------TEED------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+-------------
+>cH2A_Arabidopsis_thaliana_NP_200275.1 NP_200275.1 type: H2A, variant: cH2A, organism: Arabidopsis thaliana
+------------------------------------------------------------
+--------MAGRGKTLGSGGA---------------KKATSRSSKAGLQFPVGRIARFLK
+AGKYAE-RVGAGAPVYLAAVLEYLAAEVLELAGNAA--RDNK-KTRIVPRHIQLAVRNDE
+ELSKLLGDVTIANG------------------------GVMPNIHNLLLPKKAGASKP--
+--------QED-------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+-------------
+>cH2A_Perkinsus_marinus_ATCC_50983_EER16127.1 EER16127.1 type: H2A, variant: cH2A, organism: Perkinsus marinus ATCC 50983
+------------------------------------------------------------
+------MSGKGKGAVLEGMHK----------------DKKTRSAKAGLQFPVGRIARYMK
+HGRYAK-RVGAGAPVYLAAVLEYLVAEILELAGNAA--RDHK-KTRINPRHIQLAVRNDD
+ELNEFLSNVTIASG------------------------GVLPNIHTSLLPKKSTKKSM--
+--------EY--------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+-------------
+>cH2A_Toxoplasma_gondii_ME49_XP_002365268.2 XP_002365268.2 type: H2A, variant: cH2A, organism: Toxoplasma gondii ME49
+--------------MWLCDWAKEPEVSFFDSYKISAGNTHTCFPTRGRLLPVFLGSFLHS
+VSLVDKMSAKGKG----GRAKKS-------------GKSSSKSAKAGLQFPVGRIGRYLK
+KGRYAK-RVGAGAPVYMAAVLEYLCAEILELAGNAA--RDHK-KTRIIPRHIQLAVRNDE
+ELSKFLGGVTIASG------------------------GVMPNVHSVLLPKKSKGKKS--
+--------Q---------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+-------------
+>H2A.Z_Trypanosoma_brucei_brucei_TREU927_XP_846259.1 XP_846259.1 type: H2A, variant: H2A.Z, organism: Trypanosoma brucei brucei TREU927
+-------------------MSLTGDDAVPQAPLVGGVAMSPEQASALTGGKLGGKAVGPA
+HGKGKGKGKGKRGGKTGGKAG-R-------------RDKMTRAARADLNFPVGRIHSRLK
+DGLNRKQRCGASAAIYCAALLEYLTSEVIELAGAAA--KAQK-TERIKPRHLLLAIRGDE
+ELNQIVNA-TIARG------------------------GVVPFVHKSLEKKI--IKKS--
+--------KRGS------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+-------------
+>H2A.Z_Arabidopsis_thaliana_NP_193093.1 NP_193093.1 type: H2A, variant: H2A.Z, organism: Arabidopsis thaliana
+------------------------------------------------------------
+------MVCNTNILKDVSTKISA-------------FENVRMIMVEGEMFQVARIHKQLK
+NRVSAHSSVGATDVVYMTSILEYLTTEVLQLAENTS--KDLK-VKRITPRHLQLAIRGDE
+ELDTLIKG-TIIGG------------------------SVIPHIH---------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+-------------
+>H2A.Z_Perkinsus_marinus_ATCC_50983_XP_002776752.1 XP_002776752.1 type: H2A, variant: H2A.Z, organism: Perkinsus marinus ATCC 50983
+--MSTRKQTDVSLPVPVVTQ-------------------LAGGKGIKGAGLQGGKG----
+-GKGGKGAKVHGGKGKIGGKG----------------SSITRSARAGLQFPVGRVRRYLK
+DRATANCRVGSTAAVYTAAILEYLTAEVLELAGNAA--KDQK-VKRITPRHLHLAIRGDD
+ELDVLIRA-TIAGG------------------------GVVPYIHQSLTVKT--PYHK--
+--------KKRVM-----------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+-------------
+>H2A.Z_Perkinsus_marinus_ATCC_50983_XP_002784054.1 XP_002784054.1 type: H2A, variant: H2A.Z, organism: Perkinsus marinus ATCC 50983
+--MSDLKKTDINKSVPVVTQ-------------------LAGGKGIKGAGLQGGKG----
+-GKGGKGAKVHGGKGKMGGKG----------------ASMTRSARAGLQFPVGRVRRYLK
+DRATANCRVGSTAAVYTAAILEYLTAEVLELAGNAA--KDQK-VKRITPRHLHLAIRGDD
+ELDVLIRA-TIAGG------------------------GVVPYIHQSLTAKA--PYHK--
+--------KKRVM-----------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+-------------
+>H2A.Z_Perkinsus_marinus_ATCC_50983_XP_002784055.1 XP_002784055.1 type: H2A, variant: H2A.Z, organism: Perkinsus marinus ATCC 50983
+--MSDLKKTDINKSVPVVTQLGRLLDVASLSTPSSSLFCLAGGKGIKGAGLQGGKG----
+-GKGGKGAKVHGGKGKIGGKG----------------TSMTRSARAGLQFPVGRVRRYLK
+DRATANCRVGSTAAVYTAAILEYLTAEVLELAGNAA--KDQK-VKRITPRHLHLAIRGDD
+ELDVLIRA-TIAGG------------------------GVVPYIHQSLTAKA--PYHK--
+--------KKRVM-----------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+-------------
+>H2A.Z_Tetrahymena_thermophila_CAA33554.1 CAA33554.1 type: H2A, variant: H2A.Z, organism: Tetrahymena thermophila
+--------------------------------------------------MAGGKG----
+-GKGGKGGKGGKV---GGAKN-K-------------KTPQSRSYKAGLQFPVGRIHRFLK
+GRVSAKNRVGATAAVYAAAILEYLTAEVLELAGNAS--KDFK-VRRITPRHLLLAIRGDE
+ELDILIKA-TIAGG------------------------GVIPHIHKALLGKH--STKN--
+--------RSSAKTAEPR------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+-------------
+>H2A.Z_Cryptosporidium_parvum_Iowa_II_XP_626045.1 XP_626045.1 type: H2A, variant: H2A.Z, organism: Cryptosporidium parvum Iowa II
+----------------------------------------------MDGATSSGKI----
+-GGKV-GGKVGGKGKAGSGKGSK-------------KQPTSRAARAGLQFPVGRIQRMLK
+HRIPGDCRVGSTASVYAAAILEYLTAEVLELAGNAS--KDLK-VKRITPRHLQLAIRGDE
+ELDSLIKA-TIAGG------------------------GVIPHIEKSLMGKALIGKKG--
+--------KKGNMSP---------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+-------------
+>H2A.Z_Toxoplasma_gondii_ME49_XP_002371743.1 XP_002371743.1 type: H2A, variant: H2A.Z, organism: Toxoplasma gondii ME49
+---------------------------------------------MDGAGKVGGKVGGKV
+GGKVGGMGKGGKG-KSGSGKG-K-------------KAPLSRAARAGLQFPVGRVHRMLK
+SRISSEGRVGSTAAVYASAILEYLTAEVLELAGNAS--KDLK-VKRITPRHLQLAIRGDE
+ELDTLIKA-TIAGG------------------------GVIPHIHKSLMTKG--PSTQ--
+--------PMKKAKK---------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+-------------
+>H2A.Z_Drosophila_melanogaster_NP_524519.1 NP_524519.1 type: H2A, variant: H2A.Z, organism: Drosophila melanogaster
+--------------------------------------------------MAGGKA----
+-GK-------------DSGKA-K-------------AKAVSRSARAGLQFPVGRIHRHLK
+SRTTSHGRVGATAAVYSAAILEYLTAEVLELAGNAS--KDLK-VKRITPRHLQLAIRGDE
+ELDSLIKA-TIAGG------------------------GVIPHIHKSLIGKK--EETV--
+--------QDPQRKGNVILSQAY-------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+-------------
+>H2A.Z_Danio_rerio_NP_705930.1 NP_705930.1 type: H2A, variant: H2A.Z, organism: Danio rerio
+--------------------------------------------------MAGGKA----
+-GK-------------DSGKA-K-------------AKAVSRSQRAGLQFPVGRIHRHLK
+TRTTSHGRVGATAAVYSAAILEYLTAEVLELAGNAS--KDLK-VKRITPRHLQLAIRGDE
+ELDSLIKA-TIAGG------------------------GVIPHIHKSLIGKK--GQQK--
+--------TA--------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+-------------
+>H2A.Z_Gallus_gallus_P02272.2 P02272.2 type: H2A, variant: H2A.Z, organism: Gallus gallus
+--------------------------------------------------MAGGKA----
+-GK-------------DSGKA-K-------------AKAVSRSQRAGLQFPVGRIHRHLK
+TRTTSHGRVGATAAVYSAAILEYLTAEVLELAGNAS--KDLK-VKRITPRHLQLAIRGDE
+ELDSLIKA-TIAGG------------------------GVIPHIHKSLIGKK--GQQK--
+--------TA--------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+-------------
+>H2A.Z_Danio_rerio_NP_001036788.1 NP_001036788.1 type: H2A, variant: H2A.Z, organism: Danio rerio
+--------------------------------------------------MAGGKA----
+-GK-------------DSGKA-K-------------TKAVSRSQRAGLQFPVGRIHRHLK
+TRTTSHGRVGATAAVYSAAILEYLTAEVLELAGNAS--KDLK-VKRITPRHLQLAIRGDE
+ELDSLIKA-TIAGG------------------------GVIPHIHKSLIGKK--GQQK--
+--------TV--------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+-------------
+>H2A.Z_Gallus_gallus_NP_001026545.1 NP_001026545.1 type: H2A, variant: H2A.Z, organism: Gallus gallus
+--------------------------------------------------MAGGKA----
+-GK-------------DSGKT-K-------------TKAVSRSQRAGLQFPVGRIHRHLK
+SRTTSHGRVGATAAVYSAAILEYLTAEVLELAGNAS--KDLK-VKRITPRHLQLAIRGDE
+ELDSLIKA-TIAGG------------------------GVIPHIHKSLIGKK--GQQK--
+--------TV--------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+-------------
+>H2A.Z_Trichoplax_adhaerens_XP_002111498.1 XP_002111498.1 type: H2A, variant: H2A.Z, organism: Trichoplax adhaerens
+--------------------------------------------------MAGGKA----
+-GK-------------DS-KT-K-------------AKAVSRSARAGLQFPVGRIHRHLK
+NRTTSHGRVGATAAVYSAAILEYLTAEVLELAGNAS--KDLK-VKRITPRHLQLAIRGDE
+ELDSLIKA-TIAGG------------------------GVIPHIHKSLIGKK--GANK--
+--------PN--------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+-------------
+>H2A.Z_Nematostella_vectensis_EDO46289.1 EDO46289.1 type: H2A, variant: H2A.Z, organism: Nematostella vectensis
+--------------------------------------------------MAGGKA----
+-GK-------------DS-KA-K-------------AKAVSRSARAGLQFPVGRIHRHLK
+NRTTSHGRVGATAAVYSAAILEYLTAEVLELAGNAS--KDLK-VKRITPRHLQLAIRGDE
+ELDSLIKA-TIAGG------------------------GVIPHIHKSLIGKK--GANK--
+--------PT--------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+-------------
+>H2A.Z_Arabidopsis_thaliana_NP_175683.1 NP_175683.1 type: H2A, variant: H2A.Z, organism: Arabidopsis thaliana
+---------------------------------------------------MSGKG----
+-AKGLIMGKPSGS---DKDKD-K-------------KKPITRSSRAGLQFPVGRVHRLLK
+TRSTAHGRVGATAAVYTAAILEYLTAEVLELAGNAS--KDLK-VKRISPRHLQLAIRGDE
+ELDTLIKG-TIAGG------------------------GVIPHIHKSLINKS--AKE---
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+-------------
+>H2A.Z_Zea_mays_NP_001141633.1 NP_001141633.1 type: H2A, variant: H2A.Z, organism: Zea mays
+---------------------------------------------------MAGKG----
+-GKGLLAAKTTAAKSTDKDKDRK-------------KAPVSRSSRAGLQFPVGRIHRQLK
+SRASAHGRVGATAAVYSAAILEYLTAEVLELAGNAS--KDLK-VKRITPRHLQLAIRGDE
+ELDTLIKG-TIAGG------------------------GVIPHIHKSLINKT--AKE---
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+-------------
+>H2A.Z_Zea_mays_NP_001136523.1 NP_001136523.1 type: H2A, variant: H2A.Z, organism: Zea mays
+---------------------------------------------------MAGKG----
+-GKGLLAAKTTAAKSAEKDKG-K-------------KAPISRSSRAGLQFPVGRIHRQLK
+QRTQANGRVGATAAVYSAAILEYLTAEVLELAGNAS--KDLK-VKRITPRHLQLAIRGDE
+ELDTLIKG-TIAGG------------------------GVIPHIHKSLINKS--SKE---
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+-------------
+>H2A.Z_Oryza_sativa_Japonica_Group_NP_001051232.1 NP_001051232.1 type: H2A, variant: H2A.Z, organism: Oryza sativa Japonica Group
+---------------------------------------------------MAGKG----
+-GKGLLAAKTTAAKSAEKDKG-K-------------KAPVSRSSRAGLQFPVGRIHRQLK
+QRTQANGRVGATAAVYSAAILEYLTAEVLELAGNAS--KDLK-VKRITPRHLQLAIRGDE
+ELDTLIKG-TIAGG------------------------GVIPHIHKSLINKS--SKE---
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+-------------
+>H2A.Z_Arabidopsis_thaliana_NP_181415.1 NP_181415.1 type: H2A, variant: H2A.Z, organism: Arabidopsis thaliana
+---------------------------------------------------MAGKG----
+-GKGLLAAKTTAA-AANKDSV-K-------------KKSISRSSRAGIQFPVGRIHRQLK
+QRVSAHGRVGATAAVYTASILEYLTAEVLELAGNAS--KDLK-VKRITPRHLQLAIRGDE
+ELDTLIKG-TIAGG------------------------GVIPHIHKSLVNKV--TKD---
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+-------------
+>H2A.Z_Arabidopsis_thaliana_NP_191019.1 NP_191019.1 type: H2A, variant: H2A.Z, organism: Arabidopsis thaliana
+---------------------------------------------------MAGKG----
+-GKGLVAAKTMAA-NKDKDKD-K-------------KKPISRSARAGIQFPVGRIHRQLK
+TRVSAHGRVGATAAVYTASILEYLTAEVLELAGNAS--KDLK-VKRITPRHLQLAIRGDE
+ELDTLIKG-TIAGG------------------------GVIPHIHKSLINKT--TKE---
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+-------------
+>H2A.Z_Schizosaccharomyces_pombe_NP_595630.3 NP_595630.3 type: H2A, variant: H2A.Z, organism: Schizosaccharomyces pombe
+--------------------------------------------------MSGGGK----
+-GK-HVGGKGGSK---IGERG-Q-------------M---SHSARAGLQFPVGRVRRFLK
+AKTQNNMRVGAKSAVYSAAVLEYLTAEVLELAGNAA--KDLK-VKRITPRHLQLAIRGDE
+ELDTLIRA-TIAGG------------------------GVLPHINKQLLIRT--KEKY--
+--------PEEEEII---------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+-------------
+>H2A.Z_Saccharomyces_cerevisiae_S288C_NP_014631.1 NP_014631.1 type: H2A, variant: H2A.Z, organism: Saccharomyces cerevisiae S288C
+---------------------------------------------------MSGKA----
+-HGG----KGKSG---AKDSG-S-------------LRSQSSSARAGLQFPVGRIKRYLK
+RHATGRTRVGSKAAIYLTAVLEYLTAEVLELAGNAA--KDLK-VKRITPRHLQLAIRGDD
+ELDSLIRA-TIASG------------------------GVLPHINKALLLKV--EKKG--
+--------SKK-------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+-------------
+>H2A.X_Giardia_intestinalis_XP_001704715.1 XP_001704715.1 type: H2A, variant: H2A.X, organism: Giardia intestinalis
+------------------------------------------------------------
+-----MSTKPVKD----------------------NSKMKSRSARAGISFPIGRIHRHLR
+EGRYAE-RISSDAPVYLAAVLENVVAEVFREACNHR--DKKS-QKRIVPNHILTALRKDK
+ELATIFANVTIREG------------------------GVARS-------AKEGREG---
+--------KGSHRSQDL-------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+-------------
+>H2A.X_Dictyostelium_discoideum_AX4_XP_641587.1 XP_641587.1 type: H2A, variant: H2A.X, organism: Dictyostelium discoideum AX4
+------------------------------------------------------------
+-----MSETKPASSKPAAAAKPKKVIPRVSRTGEPKSKPESRSARAGITFPVSRVDRLLR
+EGRFAP-RVESTAPVYLAAVLEYLVFEILELAHNTC--SISK-KTRITPQHINWAVGNDL
+ELNSLFQHVTIAYG------------------------GVLPTPQQSTGEKKKKPSKK--
+--------AAEGSSQIY-------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+-------------
+>H2A.X_Tetrahymena_thermophila_AAC37291.1 AAC37291.1 type: H2A, variant: H2A.X, organism: Tetrahymena thermophila
+------------------------------------------------------------
+------MSTTGK----GGKAKGK----------TASSKQVSRSARAGLQFPVGRISRFLK
+HGRYSE-RVGTGAPVYLAAVLEYLAAEVLELAGNAA--KDNK-KTRIVPRHILLAIRNDE
+ELNKLMANTTIADG------------------------GVLPNINPMLLPSKSKKTE---
+--------SRGQASQDL-------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+-------------
+>H2A.X_Saccharomyces_cerevisiae_S288C_NP_009552.1 NP_009552.1 type: H2A, variant: H2A.X, organism: Saccharomyces cerevisiae S288C
+------------------------------------------------------------
+-----MSGGK------GGKAGSA------------AKASQSRSAKAGLTFPVGRVHRLLR
+RGNYAQ-RIGSGAPVYLTAVLEYLAAEILELAGNAA--RDNK-KTRIIPRHLQLAIRNDD
+ELNKLLGNVTIAQG------------------------GVLPNIHQNLLPKKSA------
+--------KTAKASQEL-------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+-------------
+>H2A.X_Saccharomyces_cerevisiae_S288C_NP_010511.3 NP_010511.3 type: H2A, variant: H2A.X, organism: Saccharomyces cerevisiae S288C
+------------------------------------------------------------
+-----MSGGK------GGKAGSA------------AKASQSRSAKAGLTFPVGRVHRLLR
+RGNYAQ-RIGSGAPVYLTAVLEYLAAEILELAGNAA--RDNK-KTRIIPRHLQLAIRNDD
+ELNKLLGNVTIAQG------------------------GVLPNIHQNLLPKKSA------
+--------KATKASQEL-------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+-------------
+>H2A.X_Ustilago_maydis_521_XP_011387544.1 XP_011387544.1 type: H2A, variant: H2A.X, organism: Ustilago maydis 521
+------------------------------------------------------------
+------MSSGGKS---GGKAGDA------------SSKAQSRSAKAGLQFPVGRIHRLLR
+KGNYAQ-RVGAGAPVYLAAVLEYLAAEILELAGNAA--RDNK-KSRIIPRHLQLAIRNDE
+ELNKLLGGVTISQG------------------------GVLPFIQSELLPAKSGKP----
+--------KKAGGSQDI-------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+-------------
+>H2A.X_Schizosaccharomyces_pombe_NP_594421.1 NP_594421.1 type: H2A, variant: H2A.X, organism: Schizosaccharomyces pombe
+------------------------------------------------------------
+------MSG-GKS---GGKAAVA-------------KSAQSRSAKAGLAFPVGRVHRLLR
+KGNYAQ-RVGAGAPVYLAAVLEYLAAEILELAGNAA--RDNK-KTRIIPRHLQLAIRNDE
+ELNKLLGHVTIAQG------------------------GVVPNINAHLLPKQSGK-----
+----------GKPSQEL-------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+-------------
+>H2A.X_Trichoplax_adhaerens_XP_002116274.1 XP_002116274.1 type: H2A, variant: H2A.X, organism: Trichoplax adhaerens
+------------------------------------------------------------
+------MSGRGK----GGKARNK---------------AKSRSTRAGLQFPVGRVHRMLR
+KGNYAE-RVGAGAPVYLAAVMEYLAAEILELAGNAA--RDNK-KQRIVPRHLQLAIRNDE
+ELNKLLSGVTIAQG------------------------GVLPNIQAVLLPKKSKVPIAGS
+-------KKGSSQSQEY-------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+-------------
+>H2A.X_Monodelphis_domestica_XP_001370540.1 XP_001370540.1 type: H2A, variant: H2A.X, organism: Monodelphis domestica
+------------------------------------------------------------
+------MSGRGKT---GGKARAK---------------AKSRSSRAGLQFPVGRVHRLLR
+KGHYAE-RVGAGAPVYLAAVLEYLTAEILELAGNAA--RDNK-KTRIIPRHLQLAIRNDE
+ELNKLLGGVTIAQG------------------------GVLPNIQAVLLPKKSGAITGPK
+APGSGGSKKSTQASQEY-------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+-------------
+>H2A.X_Mus_musculus_NP_034566.1 NP_034566.1 type: H2A, variant: H2A.X, organism: Mus musculus
+------------------------------------------------------------
+------MSGRGKT---GGKARAK---------------AKSRSSRAGLQFPVGRVHRLLR
+KGHYAE-RVGAGAPVYLAAVLEYLTAEILELAGNAA--RDNK-KTRIIPRHLQLAIRNDE
+ELNKLLGGVTIAQG------------------------GVLPNIQAVLLPKKSSATVGPK
+APAVG--KKASQASQEY-------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+-------------
+>H2A.X_Bos_taurus_NP_001073248.1 NP_001073248.1 type: H2A, variant: H2A.X, organism: Bos taurus
+------------------------------------------------------------
+------MSGRGKT---GGKARAK---------------AKSRSSRAGLQFPVGRVHRLLR
+KGHYAE-RVGAGAPVYLAAVLEYLTAEILELAGNAA--RDNK-KTRIIPRHLQLAIRNDE
+ELNKLLGGVTIAQG------------------------GVLPNIQAVLLPKKTSATVGPK
+APAGG--KKATQASQEY-------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+-------------
+>H2A.X_Rattus_norvegicus_NP_001102761.1 NP_001102761.1 type: H2A, variant: H2A.X, organism: Rattus norvegicus
+------------------------------------------------------------
+------MSGRGKT---GGKARAK---------------AKSRSSRAGLQFPVGRVHRLLR
+KGHYAE-RVGAGAPVYLAAVLEYLTAEILELAGNAA--RDNK-KTRIIPRHLQLAIRNDE
+ELNKLLGGVTIAQG------------------------GVLPNIQAVLLPKKTSATVGPK
+APAGG--KKASQASQEY-------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+-------------
+>H2A.X_Apis_mellifera_XP_624700.1 XP_624700.1 type: H2A, variant: H2A.X, organism: Apis mellifera
+------------------------------------------------------------
+------MSGRGK----GGKAKGK---------------AKTRSSRAGLQFPVGRIHRLLR
+KGNYAE-RVGAGAPVYLAAVMEYLAAEVLELAGNAA--RDNK-KTRIIPRHLQLAIRNDE
+ELNKLLSGVTIAQG------------------------GVLPNIQAVLLPKKTGTGGSG-
+--------KGDKASQEY-------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+-------------
+>H2A.X_Danio_rerio_NP_957367.1 NP_957367.1 type: H2A, variant: H2A.X, organism: Danio rerio
+------------------------------------------------------------
+------MSGRGKT---GGKARAK---------------AKTRSSRAGLQFPVGRVHRLLR
+KGNYAE-RVGAGAPVYLAAVLEYLTAEILELAGNAA--RDNK-KTRIIPRHLQLAVRNDE
+ELNKLLGGVTIAQG------------------------GVLPNIQAVLLPKKTGQAAASS
+GKSG---KKGSSQSQEY-------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+-------------
+>H2A.X_Arabidopsis_thaliana_NP_172363.1 NP_172363.1 type: H2A, variant: H2A.X, organism: Arabidopsis thaliana
+------------------------------------------------------------
+-----MSTGAGSGTTKGGRGKPK------------ATKSVSRSSKAGLQFPVGRIARFLK
+SGKYAE-RVGAGAPVYLSAVLEYLAAEVLELAGNAA--RDNK-KTRIVPRHIQLAVRNDE
+ELSKLLGSVTIANG------------------------GVLPNIHQTLLPSKVGKNKG--
+--------DIGSASQEF-------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+-------------
+>H2A.X_Arabidopsis_thaliana_NP_175868.1 NP_175868.1 type: H2A, variant: H2A.X, organism: Arabidopsis thaliana
+------------------------------------------------------------
+-----MSSGAGSGTTKGGRGKPK------------ATKSVSRSSKAGLQFPVGRIARFLK
+AGKYAE-RVGAGAPVYLSAVLEYLAAEVLELAGNAA--RDNK-KTRIVPRHIQLAVRNDE
+ELSKLLGSVTIANG------------------------GVLPNIHQTLLPSKVGKNKG--
+--------DIGSASQEF-------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+-------------
+>H2A.X_Zea_mays_XP_008644553.1 XP_008644553.1 type: H2A, variant: H2A.X, organism: Zea mays
+------------------------------------------------------------
+-----MSSTGG-----GGRGKAK-----------PATKSVSRSSKAGLQFPVGRIARYLK
+AGKYAE-RVGAGAPVYLSAVLEYLAAEVLELAGNAA--RDNK-KNRIVPRHIQLAVRNDE
+ELSKLLGTVTIAAG------------------------GVMPNIHQTLLPKKAGQKG---
+--------DIGSASQEF-------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+-------------
+>H2A.X_Zea_mays_XP_008662624.1 XP_008662624.1 type: H2A, variant: H2A.X, organism: Zea mays
+------------------------------------------------------------
+-----MSSG-------GGRGKPK------------GSKALSRSTKAGLQFPVGRIARYLK
+AGKYAE-RVGGGAPVYLSAVLEYLAAEVLELAGNAA--RDNK-KNRIVPRHIQLAVRNDE
+ELSKLLGAVTIAAG------------------------GVLPNIHQTLLPKKAGGKGKA-
+--------DIGSASQEF-------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+-------------
+>H2A.X_Oryza_sativa_Japonica_Group_NP_001066920.1 NP_001066920.1 type: H2A, variant: H2A.X, organism: Oryza sativa Japonica Group
+------------------------------------------------------------
+------MSSAGGG---GGRGKSK------------GSKSVSRSSKAGLQFPVGRIARYLK
+AGKYAE-RVGAGAPVYLSAVLEYLAAEVLELAGNAA--RDNK-KNRIVPRHIQLAVRNDE
+ELSRLLGAVTIAAG------------------------GVLPNIHQTLLPKKGGKDKA--
+--------DIGSASQEF-------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+-------------
+>H2A.X_Cryptosporidium_parvum_Iowa_II_XP_627120.1 XP_627120.1 type: H2A, variant: H2A.X, organism: Cryptosporidium parvum Iowa II
+------------------------------------------------------------
+------MSGKVTSS--GGRGGGK----------KTTRKTMSNSAKAGLQFPVGRVARYLK
+KGRYAK-RIGAAAPVYLAAVLEYLCAELLELAGNAA--RDAK-KTRITPRQIQLAVRNDE
+ELSKFLGNVTIASG------------------------GVLPNIPTVLLPKKSKSKQG--
+------------NSQEF-------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+-------------
+>H2A.X_Perkinsus_marinus_ATCC_50983_XP_002784006.1 XP_002784006.1 type: H2A, variant: H2A.X, organism: Perkinsus marinus ATCC 50983
+------------------------------------------------------------
+------MSGKGK----GGRGKAGK---------KSGSGAKSRSAKAGLQFPVGRIARYLK
+KGRYAK-RVGSGAPVYLAAVLEYLVAEILELAGNAA--RDHK-KTRIIPRHIQLAVRNDE
+ELNKFLAGVTLASG------------------------GVLPNIHTTLLPKKSKG-----
+--------KSFTASQEI-------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+-------------
+>H2A.X_Toxoplasma_gondii_ME49_XP_002365290.1 XP_002365290.1 type: H2A, variant: H2A.X, organism: Toxoplasma gondii ME49
+------------------------------------------------------------
+------MSAKGA----GGRKKTS------------SGKKVSRSAKAGLQFPVSRIGRYLK
+KGRYAK-RVGVGAPVYLAAVLEYLCAEILELAGNAA--RDHK-KTRIIPRHIQLAVRNDE
+ELSKFLGGVTIANG------------------------GVMPHVHAVLLPKHSKSKGK--
+----------HGVSQEF-------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+-------------
+>macroH2A_Ixodes_scapularis_XP_002403551.1 XP_002403551.1 type: H2A, variant: macroH2A, organism: Ixodes scapularis
+------------------------------------------------------------
+--------MSARGGK--KR-----------------AKVVSKSTKAGVLFPVGRMRRYLK
+KGTHHF-RIGAGAPVYMAAVIEYLSGEAISCQDSSP--RDPL-LSALTKRKCCSGRPN-L
+FFLQLLKGVTIASG------------------------GVLPRILPELLARRKGGRFKTV
+ALAKKPVAAAIAKEKAVPPKEKAKLAKGKVCRKSSHCHVPLGDRGIILSLWPTAPQGEHF
+TLVKHKTGLSLSVQLTVIQGDMASV---TADAAIHPTNASLSLSGEVGQVLEKAGGKEFV
+QEVKDLFSAHGPLESAGAVICPGHQFPAKFVIHCNVPSGSSEP------LEKCVRNCLAL
+ADEKNIRVLAVPPLATHSVASQKQQAAQTILKAISNYFVNVMSSSLKQIYFVLSDMESIG
+IYTSELAKLDS--
+>macroH2A_Trichoplax_adhaerens_XP_002111582.1 XP_002111582.1 type: H2A, variant: macroH2A, organism: Trichoplax adhaerens
+------------------------------------------------------------
+--------MSGRGGK--AR-----------------KKPSSRSARAGLQFPVGRMHRRLK
+SSTHHL-RIGSGAPVYLAACIEYLTAEILELAGNAA--RDNK-KLRIIPRHIQLAIGNDE
+ELHKLLSDVTIASG------------------------GVLPHVHTELLSKKAKGGGASV
+AAAAAPKKSKVRVSR-VGKSTPAKSNFSKKSGSSTKAFKN-----------------SEV
+TILSEKQ-LFLGQKLIVTKGDITKI---STDGIVHPTSSNFSHAGMIGGALSSAGGKQYM
+DGVAKVEQETGSLPVAGVTGSPAANLSAQEVIHVHSPSWGSTD--CQGNLEKAVRNILDY
+ADKKGMKSVAIPSIGSGSNNFPKLTAAQIILRSIAKYFVGVMSSSLKEVYFVLWDEESIN
+IYTSELNKLDVSG
+>macroH2A_Nematostella_vectensis_XP_001637578.1 XP_001637578.1 type: H2A, variant: macroH2A, organism: Nematostella vectensis
+------------------------------------------------------------
+--------MSARGGKAAKR-----------------AKAVSRSAKAGLQFPVSRVHRYLR
+KCTHHY-RISAAAPVYQAAVMEYLTAEILELAGNAA--RDNK-KTRIIPRHILLAVANDE
+ELHKLLKGVTIASG------------------------GVLPNIHPELLKKRKGGK----
+--LVSPEELKSKKPKPAPPPSPKKPVSSKKGRGKADK-----------------GPGDGF
+SVLSEKT-LFLGQKLTVVQGDIAAI---DADAVVLPTNAKFKLEGEVGEALKKAGGKEFK
+DEIKKLSEDNGDLALLDAAICDGHNFPAAYVISLHSPVYSEDSTTASDDLEKAVKNVLTI
+ADEKNLKILAIPSIGTGSNKYPKDLAAQVTLKAISNYFVSAMASSLKQIYFVLSDPENIG
+MYTMELARLDS--
+>macroH2A_Gallus_gallus_AAC28846.1 AAC28846.1 type: H2A, variant: macroH2A, organism: Gallus gallus
+------------------------------------------------------------
+--------MSSRGGK--KK-----------------STKTSRSAKAGVIFPVGRMLRYIK
+KGHPKY-RIGVGAPVYMAAVLEYLTAEILELAGNAA--RDNK-KGRVTPRHILLAVANDE
+ELNQLLKGVTIASG------------------------GVLPNIHPELLAKKRGSKGKLE
+AIITPPPAKKAKSPS--QKKTVSKKTGGKKGARKSKKKQGEVSKSASADSTTEGTPADGF
+TVLSTKS-LFLGQKLQVVQADIATI---DSDAVVHPTNSDFYTGGEVGSTLEKKGGKEFV
+EAVIELRKKNGPLDIAGAVVSAGHGLPAKFVIHCNSPGWGSDK--CEELLEKTVKNCLAL
+ADEKKLKSIAFPSIGSGRNGFPKQTAAQLILKAISSYFVSTMSSSIKTVYFVLFDSESIG
+IYVQEMAKLDAN-
+>macroH2A_Gallus_gallus_NP_990338.1 NP_990338.1 type: H2A, variant: macroH2A, organism: Gallus gallus
+------------------------------------------------------------
+--------MSSRGGK--KK-----------------STKTSRSAKAGVIFPVGRMLRYIK
+KGHPKY-RIGVGAPVYMAAVLEYLTAEILELAGNAA--RDNK-KGRVTPRHILLAVANDE
+ELNQLLKGVTIASG------------------------GVLPNIHPELLAKKRGSKGKLE
+AIITPPPAKKAKSPS--QKKTVSKKTGGKKGARKSKKKQGEVSKSASADSTTEGTPADGF
+TVLSTKS-LFLGQKLNLIHSEISNLAGFEVEAIINPTNADIDLKDDLGSTLEKKGGKEFV
+EAVIELRKKNGPLDIAGAVVSAGHGLPAKFVIHCNSPGWGSDK--CEELLEKTVKNCLAL
+ADEKKLKSIAFPSIGSGRNGFPKQTAAQLILKAISSYFVSTMSSSIKTVYFVLFDSESIG
+IYVQEMAKLDAN-
+>macroH2A_Danio_rerio_NP_001020673.1 NP_001020673.1 type: H2A, variant: macroH2A, organism: Danio rerio
+------------------------------------------------------------
+--------MSARGGK--KK-----------------ITKLSRSARAGVIFPVGRMMRYLR
+TGTHKY-RIGMGAPVYMAAVIEYLAAEILELAGNAA--RDNK-KGRITPRHIKLAVANDE
+ELNQLLRGVTISNG------------------------GVLPRIHPELLSKKRGGKVKVE
+SQVAVPEKSAKRKPV----KKPYKKSKGKPGRKPKKSTENDKEADANA---MEDGPGEGF
+TILSAKS-LFLGQKLSLTESEISKIGTIKVEGIINPTNAEIDLKEGIGNALEKTGGKDFL
+ETVKELRKSQGPLEVASVAVSQANGMAARFIIHCHVPQWGSDK--CEDQLEKTVKNCLSA
+AEEKKLKSVAFPSLPAGRNGFPKQTAAQLILKAISNHFVSATTSSLKNIYFVLFDSESIG
+IYLQEMAKMDAK-
+>macroH2A_Gallus_gallus_NP_001264267.1 NP_001264267.1 type: H2A, variant: macroH2A, organism: Gallus gallus
+------------------------------------------------------------
+--------MSGRSGK--KK-----------------MSKLSRSSRAGVIFPVGRMMRYLK
+KGTYKY-RIGVGAPVYMAAVIEYLAAEILELAGNAA--RDNK-KGRIAPRHILLAVANDE
+ELNQLLKGVTIASG------------------------GVLPRIQPELLAKKRGAKGKSE
+TILSPAPEKKGRKSM--VSKKSGKKAKSNKARTPKKNKQKDSEKEGASNSTSEDGPGDGF
+TILSSKS-LVPGQKLSLTQSDISHIGSMKVEGIVHPTTAEIDLKEEIGKALEKAGGKEFL
+ETVKELRKSQGPLEVAEAALTQSSGLAAKFVIHCHIPQWGSDK--CEEQLEETIKNCLTA
+AEDKKLKSVAFPPFPSGRNCFPKQTAAQVTLRAISTHFDGTSSSSLKNIYFLLFDSESIG
+IYVQEMAKLDTK-
+>H2A.B_Heterocephalus_glaber_EHB05905.1 EHB05905.1 type: H2A, variant: H2A.B, organism: Heterocephalus glaber
+------------------------------------------------------------
+-------MPRQALALT---------------------NERPPQGRAEPIFSVSQVERALC
+DGRYAQ-RLSCSASVFLAATLQFLSATVLELADREA--RYRS-RRRITRELLDVATLKDA
+LLCTLLGTTTISRV-----------------------APARP------------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+-------------
+>H2A.B_Sus_scrofa_XP_003135571.1 XP_003135571.1 type: H2A, variant: H2A.B, organism: Sus scrofa
+------------------------------------------------------------
+-------MPGKR--SRRKSPGR--QG-----------RTCARTTRAGLSASVSHMERLLR
+EGPYAQ-CLSSSARVFLAATIEYLTARVLELAGDEA--QIVG-RRCITPELVAMAVHNNA
+LLSAFFGTLAISQV-----------------------APTQE------------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+-------------
+>H2A.B_Bos_taurus_NP_001069373.1 NP_001069373.1 type: H2A, variant: H2A.B, organism: Bos taurus
+------------------------------------------------------------
+-------MPKKR--GHQRSSG-----------------IRSRTAQSELSFSVSHMEHLLR
+KGHYAQ-RLSSSAPVFLAAVIQDLTSKVLELAGNEA--QKNG-EKRITPKLVDMAIHNNA
+LLSSIFGMTTISLV-----------------------APGPH------------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+-------------
+>H2A.B_Callithrix_jacchus_XP_002763866.2 XP_002763866.2 type: H2A, variant: H2A.B, organism: Callithrix jacchus
+------------------------------------------------------------
+-------MSERR--SRRGSSAAGRRG-----------HTRSRTARAELIFSVSKMERGLW
+EGHYAQ-RLSDNAPVYLAAVIQYLTAKILELAAKGA--DNRG-ERIITPRLLDMAVHNDG
+LLSTLFHAITISQV-----------------------GPGPN------------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+-------------
+>H2A.B_Pan_troglodytes_XP_001145032.1 XP_001145032.1 type: H2A, variant: H2A.B, organism: Pan troglodytes
+------------------------------------------------------------
+-------MPRRR--RHRGSSGAGGRG-----------RTCSRTVRAELSFSVSQVERSLR
+EGQYAQ-RLSRTAPVYLAAVIEYLTAKVLELAGNEA--QNSG-ARNITPLLLDMVVHNDR
+LLSTLFNTTTISQV-----------------------APGED------------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+-------------
+>H2A.B_Macaca_mulatta_NP_001180843.1 NP_001180843.1 type: H2A, variant: H2A.B, organism: Macaca mulatta
+------------------------------------------------------------
+-------MSERR--SHRRSSRAGGRG-----------RTRSRTVRAELSFSVSQVERGLR
+EGHYAQ-RLSPTAPVYLAAVIEYLTAKVLELAGNEA--QNNG-ERNITPLLLDMAVHNNR
+LLSTLFDTTTISQV-----------------------APGGD------------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+-------------
+>H2A.B_Nomascus_leucogenys_XP_003282204.1 XP_003282204.1 type: H2A, variant: H2A.B, organism: Nomascus leucogenys
+------------------------------------------------------------
+-------MPRRR--SHRGSSGAGGRG-----------RTCSRTVRAELSFSVSQVERGLR
+EGHYAQ-RLSRTAPVYLAAVIEYLTAKVLELAGNEA--QNNG-ERNITPLLLDMVVHNNR
+LLSTLFHTTTISRV-----------------------APGGD------------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+-------------
+>H2A.B_Ailuropoda_melanoleuca_XP_011215272.1 XP_011215272.1 type: H2A, variant: H2A.B, organism: Ailuropoda melanoleuca
+------------------------------------------------------------
+-------MPGDR--SRRGSSSG--QR-----------RTRSRTARAELSFSVSHVERLLR
+EGHYAQ-RLGSSAPVFLAAVIQYLTAKVLELAGNEA--QNSG-GRRITPQLVDMAVHNHA
+LLSGFFGTTTISQV-----------------------APAWN------------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+-------------
+>H2A.B_Loxodonta_africana_XP_003421752.1 XP_003421752.1 type: H2A, variant: H2A.B, organism: Loxodonta africana
+------------------------------------------------------------
+-------MAGKR--SRRGGGGGGGGGGGGGGGGGSSRRQRRTRSRTELIFSASHVAHLLR
+EGHYAQ-RLSSSAPVFLAAILKCLTAKILELAGNEA--QNSG-RRLVTPELVDMAVHNNA
+LLSGFFLTTTISQV-----------------------APAR-------------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+-------------
+>H2A.B_Cricetulus_griseus_XP_003514308.1 XP_003514308.1 type: H2A, variant: H2A.B, organism: Cricetulus griseus
+------------------------------------------------------------
+-------MPRTRQSSRRGSS-----------------SRRSRTDRAELTFSVSLVEHHLR
+ESGHAR-RLSETVPILVTAILEFLTRRLLELASNEA--QRLGAQRLITPEILDLTIYNNA
+LLSEMFQFTTISQT-----------------------APAGPRRRRRQI-----------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+-------------
+>H2A.B_Cricetulus_griseus_XP_003515491.1 XP_003515491.1 type: H2A, variant: H2A.B, organism: Cricetulus griseus
+------------------------------------------------------------
+-------MPRTRQSSLRGSS-----------------SRRSRTDRAELTFSVSLVEHHLR
+ESGHAP-RLSETVPILLTAILEFLTRRLLELASNEA--QRLGAQRLITPEILDLTVYNNT
+LLSQLLQFTTISQT-----------------------APAGRRRRRRQT-----------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+-------------
+>H2A.B_Mus_musculus_NP_001268459.1 NP_001268459.1 type: H2A, variant: H2A.B, organism: Mus musculus
+------------------------------------------------------------
+-------MPRNTENCLQRSSG---HR-----------QHHSRTSRGELIFAVSLVEQHLR
+EVSRAR-RLSDMVPVSLVAILEFLTSRLLELAGNEA--QRRGTQRLITPQPLDLEVYSSM
+ELSDVFQFITISQV-----------------------APAHR------------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+-------------
+>H2A.B_Mus_musculus_NP_001268460.1 NP_001268460.1 type: H2A, variant: H2A.B, organism: Mus musculus
+------------------------------------------------------------
+-------MPRNRENCLRESSG---RR-----------HRRSRTSRAELIFAVSLVEQHLR
+EVSRAR-RLSDTVPIFLAAILESLTRRLLELAGNEA--QRRGTERRITPELLDLAVYSNM
+ELSDVFQFITISQV-----------------------APAHR------------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+-------------
+>H2A.L_Oryctolagus_cuniculus_XP_002719866.1 XP_002719866.1 type: H2A, variant: H2A.L, organism: Oryctolagus cuniculus
+------------------------------------------------------------
+-------MRGKKPSKKAGKRRK---------------PNVSRSTRAELQFPVSRVDRHLH
+HDRYAQ-RLSSSTPVFLAGVLEYLTSNILELAGEEA--HKNS-RIRITPEHMRKAIESSE
+HLRDLLEEDPKPRD------------------------EDVAQPEEKE------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+-------------
+>H2A.L_Oryctolagus_cuniculus_XP_002720052.1 XP_002720052.1 type: H2A, variant: H2A.L, organism: Oryctolagus cuniculus
+------------------------------------------------------------
+-------MRGKKPSKKAGKRRK---------------PNVSRSTRAELQFPVSRVDRHLH
+HDRYAQ-RLSSSTPVFLAGVLEYLTSNILELAGEEA--HKNS-RVRITPEHMRKAIESSE
+HLRDLLEEDPKPRD------------------------EDVAQPEEKE------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+-------------
+>H2A.L_Cavia_porcellus_XP_003469395.1 XP_003469395.1 type: H2A, variant: H2A.L, organism: Cavia porcellus
+------------------------------------------------------------
+-------MAAKKCKGISSKPRK---------------HPVSRSTRAQLQFPVSRVERYLR
+ENGYL--RLSACTPVFLAGILEYLTASALHLAARVA--HRRH-KKRISPEHLARALEKSE
+QLRQVFGDSTKALL------------------------DEIIQAKKK-------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+-------------
+>H2A.L_Cavia_porcellus_XP_003469399.1 XP_003469399.1 type: H2A, variant: H2A.L, organism: Cavia porcellus
+------------------------------------------------------------
+-------MDGKKSNEKSSQLRK---------------HPVSCSRRAELQLPVSRMERYLR
+ENSYAP-HLPFSTPVFLEGVLEYLTASILDLARKEA--RGKR-KKHILPQHLETAAENNQ
+QLGLRFGDSRKSML------------------------DEMTQNKKK-------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+-------------
+>H2A.L_Heterocephalus_glaber_EHB17227.1 EHB17227.1 type: H2A, variant: H2A.L, organism: Heterocephalus glaber
 MDIHRQRPNQSPVDTNDITKPRLSQRQLLTSEKHRETSGWAQALLFGEAQARREIKLGQL
-KPNTASIM-----AGKKRRQ---------N------SSK---PR----------------
-------------------K---------------QA----VSRSTRAELQFPVSRVERYL
-REGGYAQ-RLGSSTPVFLAGVLEYLTANILDLAGK----EAEGNC-KKRITPQHLETVME
-NNQQLRALFQ-GDTKSLLD-------E-----TSQLKKKC--------------------
+KPNTASIMAGKKRRQNSSKPRK---------------QAVSRSTRAELQFPVSRVERYLR
+EGGYAQ-RLGSSTPVFLAGVLEYLTANILDLAGKEA--EGNC-KKRITPQHLETVMENNQ
+QLRALFQGDTKSLL------------------------DETSQLKKKC------------
 ------------------------------------------------------------
 ------------------------------------------------------------
 ------------------------------------------------------------
--------------------------------------------------------
->Heterocephalus|EHB04253.1|H2A.L Heterocephalus_H2A.L_351701334
 ------------------------------------------------------------
--------M-----AGKKRRQ---------N------SSK---PR----------------
-------------------K---------------QA----VSRSTRAELQFPVSRVEHYL
-REGGYAH-RLASSTPVFLAGVLEYLRANILDLAGK----EAQGKR-KKCITPQHLETAME
-NNQHLRPLFQ-DDPKSLLDETSQPNPRRSDEAWVPEHGKTFSTSSSSP------------
----QNTHR----------------------------------------------------
+-------------
+>H2A.L_Heterocephalus_glaber_EHB04253.1 EHB04253.1 type: H2A, variant: H2A.L, organism: Heterocephalus glaber
 ------------------------------------------------------------
+-------MAGKKRRQNSSKPRK---------------QAVSRSTRAELQFPVSRVEHYLR
+EGGYAH-RLASSTPVFLAGVLEYLRANILDLAGKEA--QGKR-KKCITPQHLETAMENNQ
+HLRPLFQDDPKSLLDETSQPNPRRSDEAWVPEHGKTFSTSSSSPQNTHR-----------
 ------------------------------------------------------------
--------------------------------------------------------
->Heterocephalus|EHB10563.1|H2A.L Heterocephalus_H2A.L_351707644
 ------------------------------------------------------------
--------M-----AGKKRRQ---------N------SSK---PR----------------
-------------------K---------------QA----VSRSTRAELQFPVSRVEHYL
-REGGYAH-RLGSSTPVFLAGVLKYLRANILDLAGK----EAQGKR-KKCIAPQHLETAME
-NNQHLRPLFQ-------DGPKSLLDET-----SQPKKK----------------------
 ------------------------------------------------------------
 ------------------------------------------------------------
+-------------
+>H2A.L_Heterocephalus_glaber_EHB10563.1 EHB10563.1 type: H2A, variant: H2A.L, organism: Heterocephalus glaber
 ------------------------------------------------------------
--------------------------------------------------------
->Cricetulus|XP_003514308.1|H2A.B Cricetulus_H2A.B_354504491
+-------MAGKKRRQNSSKPRK---------------QAVSRSTRAELQFPVSRVEHYLR
+EGGYAH-RLGSSTPVFLAGVLKYLRANILDLAGKEA--QGKR-KKCIAPQHLETAMENNQ
+HLRPLFQDGPKSLL------------------------DETSQPKKK-------------
 ------------------------------------------------------------
-------MP-----RTRQSSR---------R------GSS---SR----------------
-----------------------------------------RSRTDRAELTFSVSLVEHHL
-RESGHAR-RLSETVPILVTAILEFLTRRLLELASN----EAQRLGAQRLITPEILDLTIY
-NNALLSEMFQ-FTTISQTAP------------AGPRRRRRQI------------------
 ------------------------------------------------------------
 ------------------------------------------------------------
 ------------------------------------------------------------
--------------------------------------------------------
->Cricetulus|XP_003515491.1|H2A.B Cricetulus_H2A.B_354506888
+-------------
+>H2A.L_Bos_taurus_NP_001071426.1 NP_001071426.1 type: H2A, variant: H2A.L, organism: Bos taurus
 ------------------------------------------------------------
--------M-----PRT--RQ---------S---SLRGSS---SR----------------
-----------------------------------------RSRTDRAELTFSVSLVEHHL
-RESGHAP-RLSETVPILLTAILEFLTRRLLELASN----EAQRLGAQRLITPEILDLTVY
-NNTLLSQLLQ-FTTISQTAP------------AGRRRRRRQT------------------
+-------MSPGRHLWNCRRSRR---------------RSLSRSTRAELQFPVSRVDRLLR
+EGQFAN-RLSSATPVFLTGILEYLIANILDLAGKEA--CTNH-RVRISPEHVQTALVNNE
+NLRCLFQPGAFSQP-----------------------AASPPAPEN--------------
 ------------------------------------------------------------
 ------------------------------------------------------------
 ------------------------------------------------------------
--------------------------------------------------------
->Mus|NP_001268459.1|H2A.B Mus_H2A.B_528078357
 ------------------------------------------------------------
--------M-----PRNTENC---------L---QRSSGH---------------------
-------------------R---------------QH----HSRTSRGELIFAVSLVEQHL
-REVSRAR-RLSDMVPVSLVAILEFLTSRLLELAGN----EAQRRGTQRLITPQPLDLEVY
-SSMELSDVFQ-FITISQ---------------VAPAHR----------------------
+-------------
+>H2A.L_Bos_taurus_XP_875023.2 XP_875023.2 type: H2A, variant: H2A.L, organism: Bos taurus
 ------------------------------------------------------------
+-------MSPRRHLWNCRRSRR---------------HSLSRSTRAELQFPVSRVDRLLR
+EGQGAY-RLSSATPVFLTAVLEYLIANILDLAGKEA--CTNH-RVRISPEHVQTALINNE
+NLRRLFQPGAFSQP-----------------------TASPHLPEN--------------
 ------------------------------------------------------------
 ------------------------------------------------------------
--------------------------------------------------------
->Mus|NP_001268460.1|H2A.B Mus_H2A.B_528078359
 ------------------------------------------------------------
-------MP-----RNRENCL---------R------ESS---GR----------------
-------------------R---HR----------------RSRTSRAELIFAVSLVEQHL
-REVSRAR-RLSDTVPIFLAAILESLTRRLLELAGN----EAQRRGTERRITPELLDLAVY
-SNMELSDVFQ-FITISQ---------------VAPAHR----------------------
 ------------------------------------------------------------
+-------------
+>H2A.L_Sus_scrofa_XP_003360303.2 XP_003360303.2 type: H2A, variant: H2A.L, organism: Sus scrofa
 ------------------------------------------------------------
+-------MSRKRNLPQCNRRKK---------------HALSRSSRAELQFPVSRVDRYLR
+EGRYAQ-RLSSQAPVFLAGVLEYLTANILELAASEA--RSNN-KMRIAPEHVQRAASHNQ
+TLSSLFQASSVSRGAEE--------------------GAEEPLPEAGR------------
 ------------------------------------------------------------
--------------------------------------------------------
->Heterocephalus|EHB05905.1|H2A.B Heterocephalus_H2A.B_351702986
 ------------------------------------------------------------
--------M-----PRQALAL----------------------------------------
-------------------T---------------NE----RPPQGRAEPIFSVSQVERAL
-CDGRYAQ-RLSCSASVFLAATLQFLSATVLELADR----EARYRS-RRRITRELLDVATL
-KDALLCTLLG-TTTISR---------------VAPARP----------------------
 ------------------------------------------------------------
 ------------------------------------------------------------
+-------------
+>H2A.L_Sus_scrofa_XP_003484147.1 XP_003484147.1 type: H2A, variant: H2A.L, organism: Sus scrofa
 ------------------------------------------------------------
--------------------------------------------------------
->Sus|XP_003135571.1|H2A.B Sus_H2A.B_311277259
+-------MSRKRNLPQCSHRKK---------------HALSCSSRAELQFPMSSLDCVLP
+EGQYAQ-RLSSYTPVFLAGVLEHLMAHILELAAREA--RSSR-KVRITPEHVQRALNNNE
+TLSRLFQASSVSRGAEEGAEEP---------------GAEEPLPEAGQ------------
 ------------------------------------------------------------
--------M-----PGKRSRR---------K---S--PGR--QGR----------------
-------------------T---------------------CARTTRAGLSASVSHMERLL
-REGPYAQ-CLSSSARVFLAATIEYLTARVLELAGD----EAQIVG-RRCITPELVAMAVH
-NNALLSAFFG-TLAISQ---------------VAPTQE----------------------
 ------------------------------------------------------------
 ------------------------------------------------------------
 ------------------------------------------------------------
--------------------------------------------------------
->Bos|NP_001069373.1|H2A.B Bos_H2A.B_115495331
+-------------
+>H2A.L_Ailuropoda_melanoleuca_XP_002927211.2 XP_002927211.2 type: H2A, variant: H2A.L, organism: Ailuropoda melanoleuca
 ------------------------------------------------------------
--------M-----PKK--------------------RGH---QR----------------
-------------------S---------------SG---IRSRTAQSELSFSVSHMEHLL
-RKGHYAQ-RLSSSAPVFLAAVIQDLTSKVLELAGN----EAQKNG-EKRITPKLVDMAIH
-NNALLSSIFG-MTTISLVAPGPH-------------------------------------
+-------MSGRRSPWHSHQHKR---------------HGLSRSMRAELQFPVSRVDRLLR
+EGCYAQ-RLSSSTPVFLTGVLEYLTANILELAGQEA--RNHH-KMRITPEHVQRALVNNQ
+HLSCLFEDITSP--------------------------PAKGTPQLRKC-----------
 ------------------------------------------------------------
 ------------------------------------------------------------
 ------------------------------------------------------------
--------------------------------------------------------
->Loxodonta|XP_003421752.1|H2A.B Loxodonta_H2A.B_344306151
 ------------------------------------------------------------
--------M-----AGKRSRR---------G---GGGGGG--GGG----------------
----------GGGGGGGSSR---------------RQ----RRTRSRTELIFSASHVAHLL
-REGHYAQ-RLSSSAPVFLAAILKCLTAKILELAGN----EAQNSG-RRLVTPELVDMAVH
-NNALLSGFFL-TTTISQ---------------VAPAR-----------------------
+-------------
+>H2A.L_Canis_lupus_familiaris_XP_548938.1 XP_548938.1 type: H2A, variant: H2A.L, organism: Canis lupus familiaris
 ------------------------------------------------------------
+-------MSGERGPGHSRRPRR---------------HGLSRSRRAELQFPVSRVDRLLR
+EGHYAH-RLSSSTPVFLAGILEYLTSNILELAGQEA--RNSH-KMRITPEHLQKALGNNQ
+YLSQLFEENTYSQGDGMVQARK---------------WSGPGTGADSRI-----------
 ------------------------------------------------------------
 ------------------------------------------------------------
--------------------------------------------------------
->Ailuropoda|XP_011215272.1|H2A.B Ailuropoda_H2A.B_752439251
 ------------------------------------------------------------
--------M-----PGDRSRR----------------GSS-SGQR----------------
-----------------------------------RT----RSRTARAELSFSVSHVERLL
-REGHYAQ-RLGSSAPVFLAAVIQYLTAKVLELAGN----EAQNSG-GRRITPQLVDMAVH
-NHALLSGFFG-TTTISQ---------------VAPAWN----------------------
 ------------------------------------------------------------
+-------------
+>H2A.L_Canis_lupus_familiaris_XP_548947.1 XP_548947.1 type: H2A, variant: H2A.L, organism: Canis lupus familiaris
 ------------------------------------------------------------
+-------MSGERGPGHSRRPRR---------------HGLSRSRRAELQFPVSRVDRLLR
+EGCYAH-RLSSSTPVFLTGILEYLTSNILELVGQEA--CNSH-KMRITPEHMQKALGNNQ
+YLSQLFEENTYSQGDGMVQARK---------------WSGPGTGADSRI-----------
 ------------------------------------------------------------
--------------------------------------------------------
->Callithrix|XP_002763866.1|H2A.B Callithrix_H2A.B_296237715
 ------------------------------------------------------------
--------M-----SERRSRR---------G---SSAAGR---RG----------------
-----------------------------------HT----RSRTARAELIFSVSKMERGL
-WEGHYAQ-RLSDNAPVYLAAVIQYLTAKILELAAK----EADNRG-ERIITPRLLDMAVH
-NDGLLSTLFH-AITISQVGPGPN-------------------------------------
 ------------------------------------------------------------
 ------------------------------------------------------------
+-------------
+>H2A.L_Cricetulus_griseus_XP_003508207.1 XP_003508207.1 type: H2A, variant: H2A.L, organism: Cricetulus griseus
 ------------------------------------------------------------
--------------------------------------------------------
->Macaca|NP_001180843.1|H2A.B Macaca_H2A.B_302564935
+-------MEEKK--------RK---------------ETISRITRGQLQFSLDRIERFFR
+DGNFSQ-RLSASAPVFLAGVLEFLTSNILDLAGREA--HANG-TRLITPEHVTQVVQNND
+QLREVFKEHEDPVV------------------------SETPEPEKN-------------
 ------------------------------------------------------------
--------M-----SERRSHR-----------RSSRAGGR---GR----------------
-------------------T---------------------RSRTVRAELSFSVSQVERGL
-REGHYAQ-RLSPTAPVYLAAVIEYLTAKVLELAGN----EAQNNG-ERNITPLLLDMAVH
-NNRLLSTLFD-TTTISQ---------------VAPGGD----------------------
 ------------------------------------------------------------
 ------------------------------------------------------------
 ------------------------------------------------------------
--------------------------------------------------------
->Nomascus|XP_003282204.1|H2A.B Nomascus_H2A.B_332266419
+-------------
+>H2A.L_Mus_musculus_NP_080903.1 NP_080903.1 type: H2A, variant: H2A.L, organism: Mus musculus
 ------------------------------------------------------------
--------M-----PRR--RS---------H---RGSSGA--GGR----------------
-------------------G---------------RT----CSRTVRAELSFSVSQVERGL
-REGHYAQ-RLSRTAPVYLAAVIEYLTAKVLELAGN----EAQNNG-ERNITPLLLDMVVH
-NNRLLSTLFH-TTTISR---------------VAPGGD----------------------
+-------MARKR-----QRRRR---------------RKVTRSQRAELQFPVSRVDRFLR
+EGNYSR-RLSSSAPVFLAGVLEYLTSNILELAGEVA--HTTG-RKRIAPEHVCRVVQNNE
+QLHQLFKQGGTSVF-------------------------EPPEPDDN-------------
 ------------------------------------------------------------
 ------------------------------------------------------------
 ------------------------------------------------------------
--------------------------------------------------------
->Pan|XP_001145032.1|H2A.B Pan_H2A.B_114690754
 ------------------------------------------------------------
--------M-----PRR--RR---------H---RGSSGA--GGR----------------
-------------------G---------------RT----CSRTVRAELSFSVSQVERSL
-REGQYAQ-RLSRTAPVYLAAVIEYLTAKVLELAGN----EAQNSG-ARNITPLLLDMVVH
-NDRLLSTLFN-TTTISQ---------------VAPGED----------------------
+-------------
+>H2A.L_Mus_musculus_NP_083864.1 NP_083864.1 type: H2A, variant: H2A.L, organism: Mus musculus
 ------------------------------------------------------------
+-------MAKKM-----QRRRR---------------QKRTRSQRGEL--PLSLVDRFLR
+EEFHSS-RLSSSALSFLTSVLEYLTSNILELAGEVA--HTTG-RKRVTPEDVRLVVQNNE
+QLRQLFKPGGTSVN------------------------EDDN------------------
 ------------------------------------------------------------
 ------------------------------------------------------------
--------------------------------------------------------
->Homo|NP_542451.1|H2A.B Homo_H2A.B_63029935
 ------------------------------------------------------------
--------M-----PRRRRRR----------------GSSGAGGR----------------
-------------------G---------------RT----CSRTVRAELSFSVSQVERSL
-REGHYAQ-RLSRTAPVYLAAVIEYLTAKVLELAGN----EAQNSG-ERNITPLLLDMVVH
-NDRLLSTLFN-TTTISQ---------------VAPGED----------------------
 ------------------------------------------------------------
+-------------
+>H2A.P_Macaca_mulatta_EHH30639.1 EHH30639.1 type: H2A, variant: H2A.P, organism: Macaca mulatta
 ------------------------------------------------------------
+-------MSEKNNRKNSSANNN---------------QIQDR-SRNELRVPMSFVDRVVQ
+DEQDAQ-SQSSSTINILLTLLDCLADYIMEQVGLEA--INNG-RMRNTSQDGEREGDNHH
+EPHRTESDGTRFVF------------------------DEMPKSGKND------------
 ------------------------------------------------------------
--------------------------------------------------------
->Homo|NP_001017991|H2A.B
 ------------------------------------------------------------
--------M-----PRRRRRR----------------GSSGAGGR----------------
-------------------G---------------RT----CSRTVRAELSFSVSQVERSL
-REGHYAQ-RLSRTAPVYLAAVIEYLTAKVLELAGN----EAQNSG-ERNITPLLLDMVVH
-NDRLLSTLFN-TTTISQ---------------VAPGED----------------------
 ------------------------------------------------------------
 ------------------------------------------------------------
+-------------
+>H2A.P_Pan_troglodytes_XP_003317470.1 XP_003317470.1 type: H2A, variant: H2A.P, organism: Pan troglodytes
 ------------------------------------------------------------
--------------------------------------------------------
->Homo|NP_001017990.1|H2A.B Homo_H2A.B_63029941
+-------MSEKKNCKNSSTNNN---------------QTQDP-SRNELQVPMSFVDRVVQ
+DERDVQ-SQSSSTINTLLTLLDCLADYIMERVGLEA--SNNG-SMRNTSQDREREVDNNR
+EPHSAESDVTRFLF------------------------DEMPKSRKND------------
 ------------------------------------------------------------
--------M-----PRRRRRR----------------GSSGAGGR----------------
-------------------G---------------RT----CSRTVRAELSFSVSQVERSL
-REGHYAQ-RLSRTAPVYLAAVIEYLTAKVPELAGN----EAQNSG-ERNITPLLLDMVVH
-NDRLLSTLFN-TTTISQ---------------VAPGED----------------------
 ------------------------------------------------------------
 ------------------------------------------------------------
 ------------------------------------------------------------
--------------------------------------------------------
->Giardia|XP_001704715.1|H2A.X Giardia_H2A.X_159108895
+-------------
+>H2A.P_Heterocephalus_glaber_EHB10562.1 EHB10562.1 type: H2A, variant: H2A.P, organism: Heterocephalus glaber
 ------------------------------------------------------------
--------M-----STK--------------------PVK---DN----------------
-------------------S---------------KM----KSRSARAGISFPIGRIHRHL
-REGRYAE-RISSDAPVYLAAVLENVVAEVFREACN-----HRDKKSQKRIVPNHILTALR
-KDKELATIFA-NVTIREGGVARSAKEG--------REGKGSH------------------
----RSQDL----------------------------------------------------
+------MMCEQKSQYGSYKDNN---------------QQEDPASRPEQQLPVSDIYCILH
+EE-YNP-YF-SSTSDLLLAMLESLTDYILTLVGSEG---NNV-GMPTNPQDGEREMDNNH
+EHPPIIPDVSFSFS------------------------DEMPGSRKKG------------
 ------------------------------------------------------------
 ------------------------------------------------------------
--------------------------------------------------------
->Ixodes|XP_002403551.1|macroH2A Ixodes_macroH2A_241122402
 ------------------------------------------------------------
--------M-----SAR--------------------GGK---KR----------------
-------------------A---------------KV----VSKSTKAGVLFPVGRMRRYL
-KKGTHHF-RIGAGAPVYMAAVIEYLSGEAISCQDS----SPRDPL-LSALTKRKCCSG-R
-PNLFFLQLLK-GVTIASGGVLPRILPE-----LLARRKGGRFKTVALAKKPVAAAIAKEK
-AVPPKEKAKLAKGKVCRKSSHCHVPLGDRGIILSLWPTAPQGEHFTLVKHKTGLSLSVQL
-TVIQGDMASVTADAAIHPTNASLSLSGEVGQVLEKAGGKEFVQEVKDLFSAHGPLESAGA
-VICPGHQFPAKFVIHCNVPSGS------SEPLEKCVRNCLALADEKNIRVLAVPPLATHS
-VASQKQQAAQTILKAISNYFVNVMSSSLKQIYFVLSDMESIGIYTSELAKLDS--
->Trypanosoma|XP_845905.1|canonical_H2A Trypanosoma_canonical_H2A_72391222
 ------------------------------------------------------------
--------MATPKQAVKKASK----------------GGS---------------------
------------------------------------------SRSVKAGLIFPVGRVGTLL
-RRGQYAR-RIGASGAVYMAAVLEYLTAELLELSVK---AAAQQTKKTKRLTPRTVTLAVR
-HDDDLGALLR-NVTMSRGGVMPSLNKA-----LAKKQKSGKHAK----------------
----ATPSV----------------------------------------------------
+-------------
+>H2A.P_Cricetulus_griseus_XP_003508203.1 XP_003508203.1 type: H2A, variant: H2A.P, organism: Cricetulus griseus
 ------------------------------------------------------------
+-------MSGKKNQGKSCSDNK---------------KMEDPSSKPEVQIPVNYVYHLLQ
+EEQYTP-CLGSTTSDFLLAMLDYITDYILEVVGSEA---NIN-SQQDIPQDRERQGDNDH
+DHSHAFKNAPFSLF------------------------DEMPGPRRNG------------
 ------------------------------------------------------------
--------------------------------------------------------
->Dictyostelium|XP_641587.1|H2A.X Dictyostelium_H2A.X_66814816
 ------------------------------------------------------------
--------MSETKPASSKPAAAAKPKKVIPR---VSRTGE---PK----------------
-------------------S---------------KP----ESRSARAGITFPVSRVDRLL
-REGRFAP-RVESTAPVYLAAVLEYLVFEILELAHN----TCSISK-KTRITPQHINWAVG
-NDLELNSLFQ-HVTIAYGGVLPTPQQSTGEKKKKPSKKAAEG------------------
----SSQIY----------------------------------------------------
 ------------------------------------------------------------
 ------------------------------------------------------------
--------------------------------------------------------
->Dictyostelium|XP_637656.1|canonical_H2A Dictyostelium_canonical_H2A_66807867
+-------------
+>H2A.P_Mus_musculus_NP_080372.1 NP_080372.1 type: H2A, variant: H2A.P, organism: Mus musculus
 ------------------------------------------------------------
--------M-----TES--ET----------------TSKKVNKR----------------
-------------------V---------------KP----VPKSTKAGLIFPVGRIHRML
-KNKVPLK-RVSILSSVYLAAILEYLASEVLELTISQVSIQSKEYHNVRRISPRHLLLAIK
-TDEELDNLIRVSTTIAGGGVIPYIHEVLKKVEQKPTHPQQKQ------------------
----TIKSI----------------------------------------------------
+-------MSEKKSQEKPCSDNN---------------QIEDPSSRPEVQVPVNYVYRILQ
+EEQYTP-CIGSTTSDFLLAMLDYLTDYILEVVGSEA---NIN-NQQNISQDRERQRDNDR
+EPSRGFKNAPFSLF------------------------DEMPGPRRNG------------
 ------------------------------------------------------------
 ------------------------------------------------------------
--------------------------------------------------------
->Dictyostelium|XP_637656.1|H2A.Z Dictyostelium_H2A.Z_66807867
 ------------------------------------------------------------
--------M-----TES--ET----------------TSKKVNKR----------------
-------------------V---------------KP----VPKSTKAGLIFPVGRIHRML
-KNKVPLK-RVSILSSVYLAAILEYLASEVLELTISQVSIQSKEYHNVRRISPRHLLLAIK
-TDEELDNLIRVSTTIAGGGVIPYIHEVLKKVEQKPTHPQQKQ------------------
----TIKSI----------------------------------------------------
 ------------------------------------------------------------
+-------------
+>H2A.P_Rattus_norvegicus_NP_001128070.1 NP_001128070.1 type: H2A, variant: H2A.P, organism: Rattus norvegicus
 ------------------------------------------------------------
--------------------------------------------------------
->Trypanosoma|XP_846259.1|H2A.Z Trypanosoma_H2A.Z_72391930
-------------------------------MSLTGDDAVPQAPLVGGVAMSPEQASALTG
-GKLGGKAVGPAHGKGKGKGK---------GKRGGKTGGK--AGR----------------
-------------------R---------------DK----MTRAARADLNFPVGRIHSRL
-KDGLNRKQRCGASAAIYCAALLEYLTSEVIELAGA----AAKAQK-TERIKPRHLLLAIR
-GDEELNQIV--NATIARGGVVPFVHKSLEKKIIKKSKRGS--------------------
+-------MSGKKSQEKACSDNK---------------QTEDPSSRPEVQVPVNYVYRLLQ
+EEQYTP-CLGSTTSDFLLAMLDYLTDYILEVVGSEA---NIN-SQQNISQDRERQRENDR
+EPPQAFKNAPFSLF------------------------DEMPGPRRNG------------
 ------------------------------------------------------------
 ------------------------------------------------------------
 ------------------------------------------------------------
--------------------------------------------------------
->Saccharomyces|NP_014631.1|H2A.Z Saccharomyces_H2A.Z_6324562
 ------------------------------------------------------------
--------M-----SGKAHGG---------K---GKSGAK--DSG----------------
-------------------S--------------LRS----QSSSARAGLQFPVGRIKRYL
-KRHATGRTRVGSKAAIYLTAVLEYLTAEVLELAGN----AAKDLK-VKRITPRHLQLAIR
-GDDELDSLI--RATIASGGVLPHINKA-----LLLKVEK---------------------
----KGSKK----------------------------------------------------
+-------------
+>H2A.P_Sus_scrofa_XP_003135058.1 XP_003135058.1 type: H2A, variant: H2A.P, organism: Sus scrofa
 ------------------------------------------------------------
+-------MSGKQSPEGSYEAPT---------------HL----TTTEPQVPVSFVDHLLQ
+EDQYVH-TLSSSTTHFLFSVLEYLTDYILDLVDTKA---NTG-RMQMTPQDVERAVDSNA
+EPHRQVKDTAFALF------------------------DEMPGSRRNG------------
 ------------------------------------------------------------
--------------------------------------------------------
->Perkinsus|XP_002776752.1|H2A.Z Perkinsus_H2A.Z_294899805
-----------------------------------------------MSTRKQTDVSLPVP
-VVTQLAGGKGIKGAGLQGGK----------------GGK---GG----------------
-------------------KGAKVHGGKGKIGGKGSS----ITRSARAGLQFPVGRVRRYL
-KDRATANCRVGSTAAVYTAAILEYLTAEVLELAGN----AAKDQK-VKRITPRHLHLAIR
-GDDELDVLI--RATIAGGGVVPYIHQS------LTVKTPYHK------------------
----KKRVM----------------------------------------------------
 ------------------------------------------------------------
 ------------------------------------------------------------
--------------------------------------------------------
->Perkinsus|XP_002784054.1|H2A.Z Perkinsus_H2A.Z_294944035
-----------------------------------------------MSDLKKTDINKSVP
-VVTQLAGGKGIKGAGLQGGK----------------GGK---GG----------------
-------------------KGAKVHGGKGKMGGKGAS----MTRSARAGLQFPVGRVRRYL
-KDRATANCRVGSTAAVYTAAILEYLTAEVLELAGN----AAKDQK-VKRITPRHLHLAIR
-GDDELDVLI--RATIAGGGVVPYIHQS------LTAKAPYHK------------------
----KKRVM----------------------------------------------------
 ------------------------------------------------------------
+-------------
+>H2A.P_Canis_lupus_familiaris_XP_005641297.1 XP_005641297.1 type: H2A, variant: H2A.P, organism: Canis lupus familiaris
+-----------------------------------------------------------M
+EPNPANIMSGNKNHESSNQTQA---------------HL----VTTELQFPVSYVDRLLQ
+EDQRTH-CLSSTSTEFLLAMLDSLTDYILERVGTEA---NNN-NMQTAPQDVERAVGSNR
+EPQQCLKDTAFTLF------------------------DEMPRSRRNG------------
 ------------------------------------------------------------
--------------------------------------------------------
->Perkinsus|XP_002784055.1|H2A.Z Perkinsus_H2A.Z_294944037
----------------------------MSDLKKTDINKSVPVVTQLGRLLDVASLSTPSS
-SLFCLAGGKGIKGAGLQGGK----------------GGK---GG----------------
-------------------KGAKVHGGKGKIGGKGTS----MTRSARAGLQFPVGRVRRYL
-KDRATANCRVGSTAAVYTAAILEYLTAEVLELAGN----AAKDQK-VKRITPRHLHLAIR
-GDDELDVLI--RATIAGGGVVPYIHQS------LTAKAPYHK------------------
----KKRVM----------------------------------------------------
 ------------------------------------------------------------
 ------------------------------------------------------------
--------------------------------------------------------
->Schizosaccharomyces|NP_595630.3|H2A.Z Schizosaccharomyces_H2A.Z_429240082
 ------------------------------------------------------------
--------M-----SGG--GK---------G---KHVGGK--GGS----------------
-------------------K---------------IGERGQMSHSARAGLQFPVGRVRRFL
-KAKTQNNMRVGAKSAVYSAAVLEYLTAEVLELAGN----AAKDLK-VKRITPRHLQLAIR
-GDEELDTLI--RATIAGGGVLPHINKQ-----LLIRTKEKYPEEEEII------------
+-------------
+>H2A.P_Ailuropoda_melanoleuca_XP_002913536.1 XP_002913536.1 type: H2A, variant: H2A.P, organism: Ailuropoda melanoleuca
 ------------------------------------------------------------
+-------MSGKKSHESSYQTQA---------------HL----ITTELQVPVSYVDRLLQ
+ENQYNH-PLSSSTTDFLLTMLDYLTDYILDVVGTEA---NNS-NMPTAPQDVERAVDSSG
+EPYHRSKDTAFTLF------------------------DEMPGSRRNG------------
 ------------------------------------------------------------
 ------------------------------------------------------------
--------------------------------------------------------
->Arabidopsis|NP_193093.1|H2A.Z Arabidopsis_H2A.Z_15236314
 ------------------------------------------------------------
-------MV-----CNTNILK----------------DVS---TK----------------
-----------------------------------ISAFENVRMIMVEGEMFQVARIHKQL
-KNRVSAHSSVGATDVVYMTSILEYLTTEVLQLAEN----TSKDLK-VKRITPRHLQLAIR
-GDEELDTLI--KGTIIGGSVIPHIH-----------------------------------
 ------------------------------------------------------------
+-------------
+>H2A.W_Arabidopsis_thaliana_NP_198119.1 NP_198119.1 type: H2A, variant: H2A.W, organism: Arabidopsis thaliana
+------------------------------------------------------MESSQ-
+-ATTK-PTRGAGGRK--GGDRK---------------KSVSKSVKAGLQFPVGRIARYLK
+KGRYAL-RYGSGAPVYLAAVLEYLAAEVLELAGNAA--RDNK-KNRINPRHLCLAIRNDE
+ELGRLLHGVTIASG------------------------GVLPNINPVLLPKKSTASSS--
+------QAEKASATKSPKKA----------------------------------------
 ------------------------------------------------------------
 ------------------------------------------------------------
--------------------------------------------------------
->Tetrahymena|CAA33554.1|H2A.Z Tetrahymena_H2A.Z_10823
 ------------------------------------------------------------
--------M-----AGGKGGK----------------GGKGGKGG----------------
---------------KVGGA---------------KNKKTPQSRSYKAGLQFPVGRIHRFL
-KGRVSAKNRVGATAAVYAAAILEYLTAEVLELAGN----ASKDFK-VRRITPRHLLLAIR
-GDEELDILI--KATIAGGGVIPHIHKA-----LLGKHSTKNRSSAK--------------
----TAEPR----------------------------------------------------
+-------------
+>H2A.W_Arabidopsis_thaliana_NP_200795.1 NP_200795.1 type: H2A, variant: H2A.W, organism: Arabidopsis thaliana
+------------------------------------------------------MESTG-
+----K-VKKAFGGRKPPGAPKT---------------KSVSKSMKAGLQFPVGRITRFLK
+KGRYAQ-RLGGGAPVYMAAVLEYLAAEVLELAGNAA--RDNK-KSRIIPRHLLLAIRNDE
+ELGKLLSGVTIAHG------------------------GVLPNINSVLLPKKSATKPA--
+---EEKATKS--PVKSPKKA----------------------------------------
 ------------------------------------------------------------
 ------------------------------------------------------------
--------------------------------------------------------
->Toxoplasma|XP_002371743.1|H2A.Z Toxoplasma_H2A.Z_237844891
 ------------------------------------------------------------
-------MDGAGKVGGKVGGKVGGKVGGMGK------GGKGKSGS----------------
-------------------G---------------KGKKAPLSRAARAGLQFPVGRVHRML
-KSRISSEGRVGSTAAVYASAILEYLTAEVLELAGN----ASKDLK-VKRITPRHLQLAIR
-GDEELDTLI--KATIAGGGVIPHIHKS-----LMTKGPSTQPM-----------------
----KKAKK----------------------------------------------------
+-------------
+>H2A.W_Zea_mays_NP_001278724.1 NP_001278724.1 type: H2A, variant: H2A.W, organism: Zea mays
+------------------------------------------------------MD----
+-AGAKVVKKAAAGRRGGGGPKK---------------KPVSRSVKAGLQFPVGRIGRYLK
+QGRYSQ-RVGTGAPVYLAAVLEYLAAELLELAGNAA--RDNK-KNRIIPRHVLLAIRNDE
+ELGKLLAGVTIAHG------------------------GVLPNINPVLLPKKTAVAAAKE
+G-KEKKSPKKAAAAKSPKKVAAS-------------------------------------
 ------------------------------------------------------------
 ------------------------------------------------------------
--------------------------------------------------------
->Cryptosporidium|XP_626045.1|H2A.Z Cryptosporidium_H2A.Z_66357734
 ------------------------------------------------------------
--------MDGATSSGKIGGK---------V------GGK--VGGKGKAGSGKGS------
------------------KK---------------QP----TSRAARAGLQFPVGRIQRML
-KHRIPGDCRVGSTASVYAAAILEYLTAEVLELAGN----ASKDLK-VKRITPRHLQLAIR
-GDEELDSLI--KATIAGGGVIPHIEKSLMGKALIGKKGKKGNMSP---------------
+-------------
+>H2A.W_Zea_mays_NP_001141182.1 NP_001141182.1 type: H2A, variant: H2A.W, organism: Zea mays
+------------------------------------------------------MDVSG-
+-AGGK-AKKGAAGRKA-GGPTK---------------KSVSRSSRAGLQFPVSRVGRYLK
+KGRYAQ-RVGTGAPVYLAAVLEYLAAEVLELAGNAA--RDNK-KTRIIPRHVLLAIRNDE
+ELGKLLAGVTIAHG------------------------GVLPNIHTVLLPKKVAEKAA--
+-----KEPKK--AAKSPKKA----------------------------------------
 ------------------------------------------------------------
 ------------------------------------------------------------
 ------------------------------------------------------------
--------------------------------------------------------
->Zea|NP_001141633.1|H2A.Z Zea_H2A.Z_226532207
+-------------
+>H2A.W_Zea_mays_NP_001183439.1 NP_001183439.1 type: H2A, variant: H2A.W, organism: Zea mays
+------------------------------------------------------MDASG-
+-AGSK-GKKGAAGRKA-GGPRK---------------KSVTRSVKAGLQFPVGRIGRYLK
+KGRYAQ-RVGTGAPVYLAAVLEYLAAEVLELAGNAA--KDNK-KTRIIPRHVLLAIRNDE
+ELGKLLAGVTIAHG------------------------GVLPNIHSVLLPKKAAEKAASG
+GSKEPKSPKK--GAKSPKKA----------------------------------------
 ------------------------------------------------------------
--------M-----AGK--------------------GGKGLLAA----------------
-------------------KTTAAKSTDKDKDRKKAP----VSRSSRAGLQFPVGRIHRQL
-KSRASAHGRVGATAAVYSAAILEYLTAEVLELAGN----ASKDLK-VKRITPRHLQLAIR
-GDEELDTLI--KGTIAGGGVIPHIHKS-----LINKTAKE--------------------
 ------------------------------------------------------------
 ------------------------------------------------------------
+-------------
+>H2A.W_Zea_mays_NP_001105357.1 NP_001105357.1 type: H2A, variant: H2A.W, organism: Zea mays
+------------------------------------------------------MDSTGT
+GAGGK-GKKGAAGRKV-GGPRK---------------KSVSRSVKAGLQFPVGRIGRYLK
+KGRYAQ-XVGTGAPVYLAAVLEYLAAEVLELAGNAA--RDNK-KTRIIPRHVLLAIRNDE
+ELGKLLGGVTIAHG------------------------GVLPNINPVLLPKKTAEKASSG
+GSKEAKSPKK--AAKSPKKA----------------------------------------
 ------------------------------------------------------------
--------------------------------------------------------
->Oryza|NP_001051232.1|H2A.Z Oryza_H2A.Z_115455263
 ------------------------------------------------------------
--------M-----AGKG-GK---------G------LLA---AK---------TTA----
---AKSAEKDKGK------K---------------AP----VSRSSRAGLQFPVGRIHRQL
-KQRTQANGRVGATAAVYSAAILEYLTAEVLELAGN----ASKDLK-VKRITPRHLQLAIR
-GDEELDTLIK-G-TIAGGGVIPHIHKS-----LINKSSKE--------------------
 ------------------------------------------------------------
+-------------
+>H2A.W_Zea_mays_NP_001183510.1 NP_001183510.1 type: H2A, variant: H2A.W, organism: Zea mays
+------------------------------------------------------MDASAA
+GAGGK-AKKGAAGRKA-GGPRK---------------KSVTRSVKAGLQFPVGRIGRYLK
+KGRYAQ-RVGTGAPVYLAAVLEYLAAEVLELAGNAA--KDNK-KTRIIPRHVLLAIRNDE
+ELGKLLSGVTIAHG------------------------GVLPNINPVLLPKKTAEKAA--
+-AKEAKSPKK--AAKSPKKA----------------------------------------
 ------------------------------------------------------------
 ------------------------------------------------------------
--------------------------------------------------------
->Zea|NP_001136523.1|H2A.Z Zea_H2A.Z_219362481
 ------------------------------------------------------------
--------M-----AGK-GGK---------G------LLA---AK---------TTAAKSA
-EK----------------D---------------KGKKAPISRSSRAGLQFPVGRIHRQL
-KQRTQANGRVGATAAVYSAAILEYLTAEVLELAGN----ASKDLK-VKRITPRHLQLAIR
-GDEELDTLI--KGTIAGGGVIPHIHKS-----LINKSSKE--------------------
+-------------
+>H2A.W_Zea_mays_NP_001183143.1 NP_001183143.1 type: H2A, variant: H2A.W, organism: Zea mays
+------------------------------------------------------MDASG-
+-AGSK-AKKGAAGRKA-GGPRK---------------KSVSRSVKAGLQFPVGRIGRYLK
+KGRYAQ-RVGTGAPVYLAAVLEYLAAEVLELAGNAA--KDNK-KTRIVPRHVLLAIRNDV
+ELGKLLAGVTIAHG------------------------GVLPNINPVLLPKKVAEKASSG
+GSKESKSPKK--AAKSPKKAAKSPKKA---------------------------------
 ------------------------------------------------------------
 ------------------------------------------------------------
 ------------------------------------------------------------
--------------------------------------------------------
->Arabidopsis|NP_181415.1|H2A.Z Arabidopsis_H2A.Z_15224957
+-------------
+>H2A.W_Zea_mays_NP_001281214.1 NP_001281214.1 type: H2A, variant: H2A.W, organism: Zea mays
+------------------------------------------------------MDATGT
+GAGGK-AKKGAAGRKA-GGPRK---------------KSVTRSVKAGLQFPVGRIGRYLK
+KGRYAQ-RVGSGAPVYLAAVLEYLAAEVLELAGNAA--KDNK-KTRIVPRHVLLAIRNDE
+ELGKLLTGVTIAHG------------------------GVLPNINPVLLPKKTAEKASSG
+GSKEAKSPKK--AAKSPKKA----------------------------------------
 ------------------------------------------------------------
--------M-----AGKG-GK---------G------LLA---AK---------TTA----
---A-AANKDSVK------K---------------KS----ISRSSRAGIQFPVGRIHRQL
-KQRVSAHGRVGATAAVYTASILEYLTAEVLELAGN----ASKDLK-VKRITPRHLQLAIR
-GDEELDTLIK-G-TIAGGGVIPHIHKS-----LVNKVTKD--------------------
 ------------------------------------------------------------
 ------------------------------------------------------------
-------------------------------------------------------------
--------------------------------------------------------
->Arabidopsis|NP_191019.1|H2A.Z Arabidopsis_H2A.Z_15232536
-------------------------------------------------------------
--------M-----AGK-GGK---------G------LVA---AK---------TMAANKD
-KDKDK-------------K---------------KP----ISRSARAGIQFPVGRIHRQL
-KTRVSAHGRVGATAAVYTASILEYLTAEVLELAGN----ASKDLK-VKRITPRHLQLAIR
-GDEELDTLI--KGTIAGGGVIPHIHKS-----LINKTTKE--------------------
-------------------------------------------------------------
-------------------------------------------------------------
-------------------------------------------------------------
--------------------------------------------------------
->Arabidopsis|NP_175683.1|H2A.Z Arabidopsis_H2A.Z_15219078
-------------------------------------------------------------
--------M-----SGK--GA---------K---GLIMGK--PSG----------------
---------SDKDKDKK------------------KP----ITRSSRAGLQFPVGRVHRLL
-KTRSTAHGRVGATAAVYTAAILEYLTAEVLELAGN----ASKDLK-VKRISPRHLQLAIR
-GDEELDTLI--KGTIAGGGVIPHIHKS-----LINKSAKE--------------------
-------------------------------------------------------------
-------------------------------------------------------------
-------------------------------------------------------------
--------------------------------------------------------
->Nematostella|EDO46289.1|H2A.Z Nematostella_H2A.Z_156225472
-------------------------------------------------------------
--------M-----AGGKAGK----------------DSK---AK----------------
-------------------A---------------KA----VSRSARAGLQFPVGRIHRHL
-KNRTTSHGRVGATAAVYSAAILEYLTAEVLELAGN----ASKDLK-VKRITPRHLQLAIR
-GDEELDSLI--KATIAGGGVIPHIHKS-----LIGKKGANKPT-----------------
-------------------------------------------------------------
-------------------------------------------------------------
-------------------------------------------------------------
--------------------------------------------------------
->Trichoplax|XP_002111498.1|H2A.Z Trichoplax_H2A.Z_196003262
-------------------------------------------------------------
--------M-----AGGKAGK----------------DSK---TK----------------
-------------------A---------------KA----VSRSARAGLQFPVGRIHRHL
-KNRTTSHGRVGATAAVYSAAILEYLTAEVLELAGN----ASKDLK-VKRITPRHLQLAIR
-GDEELDSLI--KATIAGGGVIPHIHKS-----LIGKKGANKPN-----------------
-------------------------------------------------------------
-------------------------------------------------------------
-------------------------------------------------------------
--------------------------------------------------------
->Drosophila|NP_524519.1|H2A.Z Drosophila_H2A.Z_17738227
-------------------------------------------------------------
--------M-----AGGKAGK---------D------SGK---AK----------------
-------------------A---------------KA----VSRSARAGLQFPVGRIHRHL
-KSRTTSHGRVGATAAVYSAAILEYLTAEVLELAGN----ASKDLK-VKRITPRHLQLAIR
-GDEELDSLI--KATIAGGGVIPHIHKS-----LIGKKEETVQDP----------------
----QRKGNVILSQAY---------------------------------------------
-------------------------------------------------------------
-------------------------------------------------------------
--------------------------------------------------------
->Gallus|NP_001026545.1|H2A.Z Gallus_H2A.Z_71897327
-------------------------------------------------------------
--------M-----AGGKAGK---------D------SGK---TK----------------
-------------------T---------------KA----VSRSQRAGLQFPVGRIHRHL
-KSRTTSHGRVGATAAVYSAAILEYLTAEVLELAGN----ASKDLK-VKRITPRHLQLAIR
-GDEELDSLI--KATIAGGGVIPHIHKS-----LIGKKGQQKTV-----------------
-------------------------------------------------------------
-------------------------------------------------------------
-------------------------------------------------------------
--------------------------------------------------------
->Danio|NP_001036788.1|H2A.Z Danio_H2A.Z_112807244
-------------------------------------------------------------
--------M-----AGGKAGK---------D------SGK---AK----------------
-------------------T---------------KA----VSRSQRAGLQFPVGRIHRHL
-KTRTTSHGRVGATAAVYSAAILEYLTAEVLELAGN----ASKDLK-VKRITPRHLQLAIR
-GDEELDSLI--KATIAGGGVIPHIHKS-----LIGKKGQQKTV-----------------
-------------------------------------------------------------
-------------------------------------------------------------
-------------------------------------------------------------
--------------------------------------------------------
->Homo|NP_002097.1|H2A.Z Homo_H2A.Z_4504255
-------------------------------------------------------------
--------M-----AGGKAGK---------D------SGK---AK----------------
-------------------T---------------KA----VSRSQRAGLQFPVGRIHRHL
-KSRTTSHGRVGATAAVYSAAILEYLTAEVLELAGN----ASKDLK-VKRITPRHLQLAIR
-GDEELDSLI--KATIAGGGVIPHIHKS-----LIGKKGQQKTV-----------------
-------------------------------------------------------------
-------------------------------------------------------------
-------------------------------------------------------------
--------------------------------------------------------
->Homo|NP_958844|H2A.Z
-------------------------------------------------------------
--------M----------------------------------------------------
---------------------------------------------------FPVGRIHRHL
-KTRTTSHGRVGATAAVYSAAILEYLTAEVLELAGN----ASKDLK-VKRITPRHLQLAIR
-GDEELDSLI--KATIAGGGVIPHIHKS-----LIGKKGQQKTA-----------------
-------------------------------------------------------------
-------------------------------------------------------------
-------------------------------------------------------------
--------------------------------------------------------
->Homo|NP_619541|H2A.Z
-------------------------------------------------------------
--------M-----AGGKAGK---------D------SGK---AK----------------
-------------------A---------------KA----VSRSQRAGLQFPVGRIHRHL
-KTRTTSHGRVGATAAVYSAAILEYLTAEVLELAGN----ASKDLK-VKRITPRHLQLAIR
-GDEELDSLI--KATIAGG----------------EKRRCS--------------------
-------------------------------------------------------------
-------------------------------------------------------------
-------------------------------------------------------------
--------------------------------------------------------
->Homo|NP_958925|H2A.Z
-------------------------------------------------------------
--------M-----AGGKAGK---------D------SGK---AK----------------
-------------------A---------------KA----VSRSQRAGLQ----------
-----------------------------VLELAGN----ASKDLK-VKRITPRHLQLAIR
-GDEELDSLI--KATIAGGGVIPHIHKS-----LIGKKGQQKTA-----------------
-------------------------------------------------------------
-------------------------------------------------------------
-------------------------------------------------------------
--------------------------------------------------------
->Danio|NP_705930.1|H2A.Z Danio_H2A.Z_24111226
-------------------------------------------------------------
--------M-----AGGKAGK---------D------SGK---AK----------------
-------------------A---------------KA----VSRSQRAGLQFPVGRIHRHL
-KTRTTSHGRVGATAAVYSAAILEYLTAEVLELAGN----ASKDLK-VKRITPRHLQLAIR
-GDEELDSLI--KATIAGGGVIPHIHKS-----LIGKKGQQKTA-----------------
-------------------------------------------------------------
-------------------------------------------------------------
-------------------------------------------------------------
--------------------------------------------------------
->Gallus|P02272.2|H2A.Z Gallus_H2A.Z_121988
-------------------------------------------------------------
--------M-----AGGKAGK---------D------SGK---AK----------------
-------------------A---------------KA----VSRSQRAGLQFPVGRIHRHL
-KTRTTSHGRVGATAAVYSAAILEYLTAEVLELAGN----ASKDLK-VKRITPRHLQLAIR
-GDEELDSLI--KATIAGGGVIPHIHKS-----LIGKKGQQKTA-----------------
-------------------------------------------------------------
-------------------------------------------------------------
-------------------------------------------------------------
--------------------------------------------------------
->Homo|NP_036544.1|H2A.Z Homo_H2A.Z_6912616
-------------------------------------------------------------
--------M-----AGGKAGK---------D------SGK---AK----------------
-------------------A---------------KA----VSRSQRAGLQFPVGRIHRHL
-KTRTTSHGRVGATAAVYSAAILEYLTAEVLELAGN----ASKDLK-VKRITPRHLQLAIR
-GDEELDSLI--KATIAGGGVIPHIHKS-----LIGKKGQQKTA-----------------
-------------------------------------------------------------
-------------------------------------------------------------
-------------------------------------------------------------
--------------------------------------------------------
->Homo|NP_958924|H2A.Z
-------------------------------------------------------------
--------M-----AGGKAGK---------D------SGK---AK----------------
-------------------A---------------KA----VSRSQRAGLQFPVGRIHRHL
-KTRTTSHGRVGATAAVYSAAILEYLTAEV-------------------------------
-------------------------------------------------------------
-------------------------------------------------------------
-------------------------------------------------------------
-------------------------------------------------------------
--------------------------------------------------------
->Trichoplax|XP_002111582.1|macroH2A Trichoplax_macroH2A_196003430
-------------------------------------------------------------
--------M-----SGR--------------------GGK---AR----------------
-------------------K---------------KP----SSRSARAGLQFPVGRMHRRL
-KSSTHHL-RIGSGAPVYLAACIEYLTAEILELAGN----AARDNK-KLRIIPRHIQLAIG
-NDEELHKLLS-DVTIASGGVLPHVHTE-----LLSKKAKGGGASVAAAAAPKKSKVRVSR
-VGKSTPAK----------------SNFSKKSGSSTKAFKNSEVTILSEKQLFLGQKLIVT
-KGDITKI---STDGIVHPTSSNFSHAGMIGGALSSAGGKQYMDGVAKVEQETGSLPVAGV
-TGSPAANLSAQEVIHVHSPSWGSTD--CQGNLEKAVRNILDYADKKGMKSVAIPSIGSGS
-NNFPKLTAAQIILRSIAKYFVGVMSSSLKEVYFVLWDEESINIYTSELNKLDVSG
->Nematostella|XP_001637578.1|macroH2A Nematostella_macroH2A_156396795
-------------------------------------------------------------
--------M-----SAR--------------------GGK-AAKR----------------
-------------------A---------------KA----VSRSAKAGLQFPVSRVHRYL
-RKCTHHY-RISAAAPVYQAAVMEYLTAEILELAGN----AARDNK-KTRIIPRHILLAVA
-NDEELHKLLK-GVTIASGGVLPNIHPE-----LLKKRKGGKLVSPEELKSKKPKPAPPPS
-PKKPVSSK---------------------KGRGKADKGPGDGFSVLSEKTLFLGQKLTVV
-QGDIAAI---DADAVVLPTNAKFKLEGEVGEALKKAGGKEFKDEIKKLSEDNGDLALLDA
-AICDGHNFPAAYVISLHSPVYSEDSTTASDDLEKAVKNVLTIADEKNLKILAIPSIGTGS
-NKYPKDLAAQVTLKAISNYFVSAMASSLKQIYFVLSDPENIGMYTMELARLDS--
->Tetrahymena|AAC37292.1|canonical_H2A Tetrahymena_canonical_H2A_310872
-------------------------------------------------------------
--------M-----STT--GK----------------GGK---AK----------------
------------GKT---AS---------------SK---QVSRSARAGLQFPVGRISRFL
-KNGRYSE-RIGTGAPVYLAAVLEYLAAEVLELAGN----AAKDNK-KTRIVPRHILLAIR
-NDEELNKLMA-NTTIADGGVLPNINPM-----LLPSKTKKS-------------------
----TEPEH----------------------------------------------------
-------------------------------------------------------------
-------------------------------------------------------------
--------------------------------------------------------
->Tetrahymena|AAC37291.1|H2A.X Tetrahymena_H2A.X_310870
-------------------------------------------------------------
------MST-----TGK--------------------GGK---AK----------------
------------GKTAS--S---------------KQ----VSRSARAGLQFPVGRISRFL
-KHGRYSE-RVGTGAPVYLAAVLEYLAAEVLELAGN----AAKDNK-KTRIVPRHILLAIR
-NDEELNKLMA-NTTIADGGVLPNINPM-----LLPSKSKKT-------------------
----ESRGQASQDL-----------------------------------------------
-------------------------------------------------------------
-------------------------------------------------------------
--------------------------------------------------------
->Arabidopsis|NP_198119.1|H2A.W Arabidopsis_H2A.W_15241016
-------------------------------------------------------------
--------MESSQATTKPTRG---------A------GGRKGGDR----------------
-------------------K---------------KS----VSKSVKAGLQFPVGRIARYL
-KKGRYAL-RYGSGAPVYLAAVLEYLAAEVLELAGN----AARDNK-KNRINPRHLCLAIR
-NDEELGRLLH-GVTIASGGVLPNINPV-----LLPKKSTASSSQAEKASAT---------
----KSPKKA---------------------------------------------------
-------------------------------------------------------------
-------------------------------------------------------------
--------------------------------------------------------
->Arabidopsis|NP_200795.1|H2A.W Arabidopsis_H2A.W_15238549
-------------------------------------------------------------
--------MESTGKVKKAFGG-------------RKPPGA---PK----------------
-------------------T---------------KS----VSKSMKAGLQFPVGRITRFL
-KKGRYAQ-RLGGGAPVYMAAVLEYLAAEVLELAGN----AARDNK-KSRIIPRHLLLAIR
-NDEELGKLLS-GVTIAHGGVLPNINSV-----LLPKKSATKPAEEKATKSPV--------
----KSPKKA---------------------------------------------------
-------------------------------------------------------------
-------------------------------------------------------------
--------------------------------------------------------
->Zea|NP_001278724.1|H2A.W Zea_H2A.W_620597319
-------------------------------------------------------------
-------MD-----AGAKVVK---------K---AAAGRR---GG----------------
------------GGP---KK---------------KP----VSRSVKAGLQFPVGRIGRYL
-KQGRYSQ-RVGTGAPVYLAAVLEYLAAELLELAGN----AARDNK-KNRIIPRHVLLAIR
-NDEELGKLLA-GVTIAHGGVLPNINPV-----LLPKKTAVAAAKEG-----KEKKSPKKA
-AAAKSPKKVAAS------------------------------------------------
-------------------------------------------------------------
-------------------------------------------------------------
--------------------------------------------------------
->Beta|XP_010685819.1|canonical_H2A Beta_canonical_H2A_731349093
-------------------------------------------------------------
--------M-----DSTAGGKAKKGAGGRKG------GGP---KK----------------
-----------------------------------KP----VSRSVKAGLQFPVGRIGRYL
-KKGRYAQ-RVGTGAPVYLAAVLEYLAAEVLELAGN----AARDNK-KNRIIPRHVLLAVR
-NDDELGKLLS-GVTIAHGGVLPNINPV-----LLPKKAGGDKATKEPKSPSKAT------
----KSPKKA---------------------------------------------------
-------------------------------------------------------------
-------------------------------------------------------------
--------------------------------------------------------
->Zea|NP_001141182.1|H2A.W Zea_H2A.W_226492688
-------------------------------------------------------------
--------MDVSGAGGK--AK--------KGAAGRKAGGP---TK----------------
-----------------------------------KS----VSRSSRAGLQFPVSRVGRYL
-KKGRYAQ-RVGTGAPVYLAAVLEYLAAEVLELAGN----AARDNK-KTRIIPRHVLLAIR
-NDEELGKLLA-GVTIAHGGVLPNIHTV-----LLPKKVAEKAAKEPKKAA----------
----KSPKKA---------------------------------------------------
-------------------------------------------------------------
-------------------------------------------------------------
--------------------------------------------------------
->Zea|NP_001183439.1|H2A.W Zea_H2A.W_308081862
-------------------------------------------------------------
-------MDASG--AGSK-GK---------K---GAAGRK---AG----------------
------------GP---R-K---------------KS----VTRSVKAGLQFPVGRIGRYL
-KKGRYAQ-RVGTGAPVYLAAVLEYLAAEVLELAGN----AAKDNK-KTRIIPRHVLLAIR
-NDEELGKLLA-GVTIAHGGVLPNIHSV-----LLPKKAAEKA----ASGGSKEPKSPKK-
--GAKSPKKA---------------------------------------------------
-------------------------------------------------------------
-------------------------------------------------------------
--------------------------------------------------------
->Zea|NP_001105357.1|H2A.W Zea_H2A.W_162458988
-------------------------------------------------------------
------MDS-----TGTGAGG---------KGKKGAAGRKVGGPR----------------
-------------------K---------------KS----VSRSVKAGLQFPVGRIGRYL
-KKGRYAQ-XVGTGAPVYLAAVLEYLAAEVLELAGN----AARDNK-KTRIIPRHVLLAIR
-NDEELGKLLG-GVTIAHGGVLPNINPV-----LLPKKTAEKASSGGSKEAKSPKKAA---
----KSPKKA---------------------------------------------------
-------------------------------------------------------------
-------------------------------------------------------------
--------------------------------------------------------
->Zea|NP_001183510.1|H2A.W Zea_H2A.W_308080088
-------------------------------------------------------------
-------MDASAAGAGGKAKK---------GAAGRKAGGP---RK----------------
-----------------------------------KS----VTRSVKAGLQFPVGRIGRYL
-KKGRYAQ-RVGTGAPVYLAAVLEYLAAEVLELAGN----AAKDNK-KTRIIPRHVLLAIR
-NDEELGKLLS-GVTIAHGGVLPNINPV-----LLPKKTAEKAAAKEAKSPKKAA------
----KSPKKA---------------------------------------------------
-------------------------------------------------------------
-------------------------------------------------------------
--------------------------------------------------------
->Zea|NP_001183143.1|H2A.W Zea_H2A.W_308080448
-------------------------------------------------------------
--------M-----DASGAGS---------KAKKGAAGRKAGGPR----------------
-------------------K---------------KS----VSRSVKAGLQFPVGRIGRYL
-KKGRYAQ-RVGTGAPVYLAAVLEYLAAEVLELAGN----AAKDNK-KTRIVPRHVLLAIR
-NDVELGKLLA-GVTIAHGGVLPNINPV-----LLPKKVAEKASSGGSKESKSPKKAAKSP
-KKAAKSPKKA--------------------------------------------------
-------------------------------------------------------------
-------------------------------------------------------------
--------------------------------------------------------
->Zea|NP_001281214.1|H2A.W Zea_H2A.W_659928085
-------------------------------------------------------------
------MDA-----TGTGAGG---------K---AKKGAA--GRK----------------
------------AGGPR--K---------------KS----VTRSVKAGLQFPVGRIGRYL
-KKGRYAQ-RVGSGAPVYLAAVLEYLAAEVLELAGN----AAKDNK-KTRIVPRHVLLAIR
-NDEELGKLLT-GVTIAHGGVLPNINPV-----LLPKKTAEKA-------------SSGGS
-KEAKSPKKAAKSPKKA--------------------------------------------
-------------------------------------------------------------
-------------------------------------------------------------
--------------------------------------------------------
->Cryptosporidium|XP_627120.1|H2A.X Cryptosporidium_H2A.X_66359884
-------------------------------------------------------------
--------M-----SGKVTSS---------G---GRGGGK--KTT----------------
-------------------R---------------KT----MSNSAKAGLQFPVGRVARYL
-KKGRYAK-RIGAAAPVYLAAVLEYLCAELLELAGN----AARDAK-KTRITPRQIQLAVR
-NDEELSKFLG-NVTIASGGVLPNIPTV-----LLPKKSKSKQG-----------------
----NSQEF----------------------------------------------------
-------------------------------------------------------------
-------------------------------------------------------------
--------------------------------------------------------
->Perkinsus|EER16127.1|canonical_H2A Perkinsus_canonical_H2A_239897365
-------------------------------------------------------------
--------M-----SGK--GK---------G---AVLEGM---HK----------------
-----------------------------------DK----KTRSAKAGLQFPVGRIARYM
-KHGRYAK-RVGAGAPVYLAAVLEYLVAEILELAGN----AARDHK-KTRINPRHIQLAVR
-NDDELNEFLS-NVTIASGGVLPNIHTS-----LLPKKSTKKSMEY---------------
-------------------------------------------------------------
-------------------------------------------------------------
-------------------------------------------------------------
--------------------------------------------------------
->Perkinsus|XP_002784006.1|H2A.X Perkinsus_H2A.X_294943912
-------------------------------------------------------------
--------M-----SGK--GK----------------GGRGKAGK----------------
-----------------------------------KSGSGAKSRSAKAGLQFPVGRIARYL
-KKGRYAK-RVGSGAPVYLAAVLEYLVAEILELAGN----AARDHK-KTRIIPRHIQLAVR
-NDEELNKFLA-GVTLASGGVLPNIHTT-----LLPKKSKGKSFT----------------
----ASQEI----------------------------------------------------
-------------------------------------------------------------
-------------------------------------------------------------
--------------------------------------------------------
->Toxoplasma|XP_002365290.1|H2A.X Toxoplasma_H2A.X_237831985
-------------------------------------------------------------
--------M-----SAK--GA----------------GGR---KK----------------
------------TSS---GK---------------KV-----SRSAKAGLQFPVSRIGRYL
-KKGRYAK-RVGVGAPVYLAAVLEYLCAEILELAGN----AARDHK-KTRIIPRHIQLAVR
-NDEELSKFLG-GVTIANGGVMPHVHAV-----LLPKHSKS--------------------
----KGKHGVSQEF-----------------------------------------------
-------------------------------------------------------------
-------------------------------------------------------------
--------------------------------------------------------
->Toxoplasma|XP_002365268.1|canonical_H2A Toxoplasma_canonical_H2A_237831941
-------------------------------------------------------------
--------M-----SAK--GK----------------GGR---AK----------------
------------KS-----G---------------KS----SSKSAKAGLQFPVGRIGRYL
-KKGRYAK-RVGAGAPVYMAAVLEYLCAEILELAGN----AARDHK-KTRIIPRHIQLAVR
-NDEELSKFLG-GVTIASGGVMPNVHSV-----LLPKKSKGKKSQ----------------
-------------------------------------------------------------
-------------------------------------------------------------
-------------------------------------------------------------
--------------------------------------------------------
->Arabidopsis|NP_175868.1|H2A.X Arabidopsis_H2A.X_15221875
-------------------------------------------------------------
-------MS-----SGA--GS---------G---TTKGGR---GK----------------
------------PK----AT---------------KS----VSRSSKAGLQFPVGRIARFL
-KAGKYAE-RVGAGAPVYLSAVLEYLAAEVLELAGN----AARDNK-KTRIVPRHIQLAVR
-NDEELSKLLG-SVTIANGGVLPNIHQT-----LLPSKVG---------------------
----KNKGDIGSASQEF--------------------------------------------
-------------------------------------------------------------
-------------------------------------------------------------
--------------------------------------------------------
->Arabidopsis|NP_172363.1|H2A.X Arabidopsis_H2A.X_15223948
-------------------------------------------------------------
-------MS-----TGA--GS---------G---TTKGGR---GK----------------
------------PKA----T---------------KS----VSRSSKAGLQFPVGRIARFL
-KSGKYAE-RVGAGAPVYLSAVLEYLAAEVLELAGN----AARDNK-KTRIVPRHIQLAVR
-NDEELSKLLG-SVTIANGGVLPNIHQT-----LLPSKVGKNK------------------
----GDIGSASQEF-----------------------------------------------
-------------------------------------------------------------
-------------------------------------------------------------
--------------------------------------------------------
->Zea|XP_008644553.1|H2A.X Zea_H2A.X_670405864
-------------------------------------------------------------
--------M-----SST--GG----------------GGR---GK----------------
-------------------A---------------KPATKSVSRSSKAGLQFPVGRIARYL
-KAGKYAE-RVGAGAPVYLSAVLEYLAAEVLELAGN----AARDNK-KNRIVPRHIQLAVR
-NDEELSKLLG-TVTIAAGGVMPNIHQT-----LLPKKAGQKGDIGS--------------
----ASQEF----------------------------------------------------
-------------------------------------------------------------
-------------------------------------------------------------
--------------------------------------------------------
->Oryza|NP_001066920.1|H2A.X Oryza_H2A.X_115488866
-------------------------------------------------------------
--------M-----SSA--GG---------G------GGR---GK----------------
------------SK----GS---------------KS----VSRSSKAGLQFPVGRIARYL
-KAGKYAE-RVGAGAPVYLSAVLEYLAAEVLELAGN----AARDNK-KNRIVPRHIQLAVR
-NDEELSRLLG-AVTIAAGGVLPNIHQT-----LLPKK-GG--------------------
----KDKADIGSASQEF--------------------------------------------
-------------------------------------------------------------
-------------------------------------------------------------
--------------------------------------------------------
->Zea|XP_008662624.1|H2A.X Zea_H2A.X_670444449
-------------------------------------------------------------
--------M-----SSG--------------------GGR---GK----------------
------------PKG----S---------------KA----LSRSTKAGLQFPVGRIARYL
-KAGKYAE-RVGGGAPVYLSAVLEYLAAEVLELAGN----AARDNK-KNRIVPRHIQLAVR
-NDEELSKLLG-AVTIAAGGVLPNIHQT-----LLPKKAGGKG------------------
----KADIGSASQEF----------------------------------------------
-------------------------------------------------------------
-------------------------------------------------------------
--------------------------------------------------------
->Oryza|NP_001066688.1|canonical_H2A Oryza_canonical_H2A_115488402
-------------------------------------------------------------
--------M-----AGR--GK-------------AIGAGA---AK----------------
-----------------------------------KA----TSRSSKAGLQFPVGRIARFL
-KAGKYAE-RVGAGAPVYLAAVLEYLAAEVLELAGN----AARDNK-KTRIVPRHIQLAVR
-NDEELTKLLG-GATIASGGVMPNIHQH-----LLPKKAGSSKASHA--------------
----DDDDN----------------------------------------------------
-------------------------------------------------------------
-------------------------------------------------------------
--------------------------------------------------------
->Zea|NP_001141988.1|canonical_H2A Zea_canonical_H2A_226504426
-------------------------------------------------------------
--------M-----AGR--GK-------------AIGAGA---AK----------------
-----------------------------------KA----TSRSSKAGLQFPVGRIARFL
-KAGKYAE-RVGAGAPVYLAAVLEYLAAEVLELAGN----AARDNK-KTRIVPRHIQLAVR
-NDEELTKLLG-GATIASGGVMPNIHQH-----LLPKKAASSKASV---------------
----DDDDN----------------------------------------------------
-------------------------------------------------------------
-------------------------------------------------------------
--------------------------------------------------------
->Zea|NP_001132837.1|canonical_H2A Zea_canonical_H2A_212723398
-------------------------------------------------------------
--------M-----AGR--GK-------------AIGSGA---AK----------------
-----------------------------------KA----TSRSSKAGLQFPVGRIARFL
-KAGKYAE-RVGAGAPVYLAAVLEYLAAEVLELAGN----AARDNK-KTRIVPRHIQLAVR
-NDEELSRLLG-TVTIASGGVMPNIHNL-----LLPKKAGGGSAK----------------
----AAAGDED--------------------------------------------------
-------------------------------------------------------------
-------------------------------------------------------------
--------------------------------------------------------
->Arabidopsis|NP_175517.1|canonical_H2A Arabidopsis_canonical_H2A_15223708
-------------------------------------------------------------
--------M-----AGR--GK-------------TLGSGS---AK----------------
-----------------------------------KA----TTRSSKAGLQFPVGRIARFL
-KKGKYAE-RVGAGAPVYLAAVLEYLAAEVLELAGN----AARDNK-KTRIVPRHIQLAVR
-NDEELSKLLG-DVTIANGGVMPNIHNL-----LLPKKTGASKP-----------------
----SAEDD----------------------------------------------------
-------------------------------------------------------------
-------------------------------------------------------------
--------------------------------------------------------
->Arabidopsis|NP_188703.1|canonical_H2A Arabidopsis_canonical_H2A_15232330
-------------------------------------------------------------
--------M-----AGR--GK-------------TLGSGV---AK----------------
-----------------------------------KS----TSRSSKAGLQFPVGRIARFL
-KNGKYAT-RVGAGAPVYLAAVLEYLAAEVLELAGN----AARDNK-KTRIVPRHIQLAVR
-NDEELSKLLG-DVTIANGGVMPNIHSL-----LLPKKAGASKP-----------------
----SADED----------------------------------------------------
-------------------------------------------------------------
-------------------------------------------------------------
--------------------------------------------------------
->Arabidopsis|NP_001190852.1|canonical_H2A Arabidopsis_canonical_H2A_334186954
-------------------------------------------------------------
--------M-----AGR--GK-------------QLGSGA---AK----------------
-----------------------------------KS----TSRSSKAGLQFPVGRIARFL
-KAGKYAE-RVGAGAPVYLAAVLEYLAAEVLELAGN----AARDNK-KTRIVPRHIQLAVR
-NDEELSKLLG-DVTIANGGVMPNIHNL-----LLPKKAGSSK------------------
----PTEED----------------------------------------------------
-------------------------------------------------------------
-------------------------------------------------------------
--------------------------------------------------------
->Arabidopsis|NP_200275.1|canonical_H2A Arabidopsis_canonical_H2A_15239697
-------------------------------------------------------------
--------M-----AGR--GK---------T---LGSGGA----K----------------
-----------------------------------KA----TSRSSKAGLQFPVGRIARFL
-KAGKYAE-RVGAGAPVYLAAVLEYLAAEVLELAGN----AARDNK-KTRIVPRHIQLAVR
-NDEELSKLLG-DVTIANGGVMPNIHNL-----LLPKKAGAS-------------------
----KPQED----------------------------------------------------
-------------------------------------------------------------
-------------------------------------------------------------
--------------------------------------------------------
->Saccharomyces|NP_010511.3|H2A.X Saccharomyces_H2A.X_398366187
-------------------------------------------------------------
--------M-----SGGKGGK---------A------GSA---AK----------------
-----------------------------------AS----QSRSAKAGLTFPVGRVHRLL
-RRGNYAQ-RIGSGAPVYLTAVLEYLAAEILELAGN----AARDNK-KTRIIPRHLQLAIR
-NDDELNKLLG-NVTIAQGGVLPNIHQN-----LLPKKSAKAT------------------
----KASQEL---------------------------------------------------
-------------------------------------------------------------
-------------------------------------------------------------
--------------------------------------------------------
->Saccharomyces|NP_009552.1|H2A.X Saccharomyces_H2A.X_6319470
-------------------------------------------------------------
--------M-----SGGKGGK---------A------GSA---AK----------------
-----------------------------------AS----QSRSAKAGLTFPVGRVHRLL
-RRGNYAQ-RIGSGAPVYLTAVLEYLAAEILELAGN----AARDNK-KTRIIPRHLQLAIR
-NDDELNKLLG-NVTIAQGGVLPNIHQN-----LLPKKSAKTA------------------
----KASQEL---------------------------------------------------
-------------------------------------------------------------
-------------------------------------------------------------
--------------------------------------------------------
->Ustilago|XP_011387544.1|canonical_H2A Ustilago_canonical_H2A_758974979
-------------------------------------------------------------
--------M-----SSG--GK---------S------GGK---AG----------------
------------DA----SS---------------KA----QSRSAKAGLQFPVGRIHRLL
-RKGNYAQ-RVGAGAPVYLAAVLEYLAAEILELAGN----AARDNK-KSRIIPRHLQLAIR
-NDEELNKLLG-GVTISQGGVLPFIQSE-----LLPAKSGKPK------------------
----KAGGSQDI-------------------------------------------------
-------------------------------------------------------------
-------------------------------------------------------------
--------------------------------------------------------
->Ustilago|XP_011387544.1|H2A.X Ustilago_H2A.X_758974979
-------------------------------------------------------------
--------M-----SSG--GK---------S------GGK---AG----------------
------------DA----SS---------------KA----QSRSAKAGLQFPVGRIHRLL
-RKGNYAQ-RVGAGAPVYLAAVLEYLAAEILELAGN----AARDNK-KSRIIPRHLQLAIR
-NDEELNKLLG-GVTISQGGVLPFIQSE-----LLPAKSGKPK------------------
----KAGGSQDI-------------------------------------------------
-------------------------------------------------------------
-------------------------------------------------------------
--------------------------------------------------------
->Schizosaccharomyces|NP_594421.1|H2A.X Schizosaccharomyces_H2A.X_19115333
-------------------------------------------------------------
--------M-----SG---GK---------S------GGK---AA----------------
-------------V----AK---------------SA----QSRSAKAGLAFPVGRVHRLL
-RKGNYAQ-RVGAGAPVYLAAVLEYLAAEILELAGN----AARDNK-KTRIIPRHLQLAIR
-NDEELNKLLG-HVTIAQGGVVPNINAH-----LLPKQSGKGK------------------
----PSQEL----------------------------------------------------
-------------------------------------------------------------
-------------------------------------------------------------
--------------------------------------------------------
->Trichoplax|XP_002116274.1|H2A.X Trichoplax_H2A.X_196012824
-------------------------------------------------------------
--------M-----SGR--GK----------------GGK---AR----------------
-------------------N---------------KA----KSRSTRAGLQFPVGRVHRML
-RKGNYAE-RVGAGAPVYLAAVMEYLAAEILELAGN----AARDNK-KQRIVPRHLQLAIR
-NDEELNKLLS-GVTIAQGGVLPNIQAV-----LLPKKSKVPI------------------
----AGSKKGSSQSQEY--------------------------------------------
-------------------------------------------------------------
-------------------------------------------------------------
--------------------------------------------------------
->Mus|NP_783589.1|H2A.1 Mus_H2A.1_28316756
-------------------------------------------------------------
--------M-----SGP--TK---------R------GGK---AR----------------
-------------------A---------------KV----KSRSSRAGLQFPVGRVHRLL
-RQGNYAQ-RIGAGAPVYLAAVLEYLTAEVLELAGN----AARDNK-KTRITPRHLQLAIR
-NDEELNKLLG-RVTIAQGGVLPNIQAV-----LLPKKTESH-------------------
----KSQTK----------------------------------------------------
-------------------------------------------------------------
-------------------------------------------------------------
--------------------------------------------------------
->Caenorhabditis|NP_505463.1|canonical_H2A Caenorhabditis_canonical_H2A_17562014
-------------------------------------------------------------
--------M-----SGR--GK----------------GGK---AK----------------
-------------T----GG---------------KA----KSRSSRAGLQFPVGRLHRIL
-RKGNYAQ-RVGAGAPVYLAAVLEYLAAEVLELAGN----AARDNK-KTRIAPRHLQLAVR
-NDEELNKLLA-GVTIAQGGVLPNIQAV-----LLPKKTAGDKE-----------------
-------------------------------------------------------------
-------------------------------------------------------------
-------------------------------------------------------------
--------------------------------------------------------
->Nematostella|EDO48405.1|canonical_H2A Nematostella_canonical_H2A_156227602
-------------------------------------------------------------
--------M-----SGR--GK----------------GKA---KG----------------
-------------------T---------------KS----KTRSSRAGLQFPVGRIHRHL
-RKGNYAE-RVGAGAPVYMAAVLEYLSAEILELAGN----AARDNK-KTRIIPRHLQLAVR
-NDEELNRLLH-GVTIAQGGVLPNIQAV-----LLPKKTEK--------------------
----KAKA-----------------------------------------------------
-------------------------------------------------------------
-------------------------------------------------------------
--------------------------------------------------------
->Apis|XP_624700.1|H2A.X Apis_H2A.X_66506394
-------------------------------------------------------------
--------M-----SGR--GK----------------GGK---AK----------------
-------------------G---------------KA----KTRSSRAGLQFPVGRIHRLL
-RKGNYAE-RVGAGAPVYLAAVMEYLAAEVLELAGN----AARDNK-KTRIIPRHLQLAIR
-NDEELNKLLS-GVTIAQGGVLPNIQAV-----LLPKKTGTGG------------------
----SGKGDKASQEY----------------------------------------------
-------------------------------------------------------------
-------------------------------------------------------------
--------------------------------------------------------
->Ixodes|EEC09557.1|canonical_H2A Ixodes_canonical_H2A_215500063
-------------------------------------------------------------
--------M-----SGR--GK----------------GGK---VK----------------
-------------------G---------------KS----KTRSSRAGLQFPVGRIHRLL
-RKGNYAE-RVGAGAPVYLAAVLEYLAAEVLELAGN----AARDNK-KTRIIPRHLQLAIR
-NDEELNKLLS-GVTIAQGGVLPNIQAV-----LLPKKTEKKS------------------
-------------------------------------------------------------
-------------------------------------------------------------
-------------------------------------------------------------
--------------------------------------------------------
->Apis|XP_001119899.1|canonical_H2A Apis_canonical_H2A_110764935
-------------------------------------------------------------
--------M-----SGR--GK----------------GGK---AK----------------
-------------------A---------------KA----KSRSNRAGLQFPVGRIHRLL
-RKGNYAE-RVGAGAPVYLAAVMEYLAAEVLELAGN----AARDNK-KTRIIPRHLQLAIR
-NDEELNKLLS-GVTIAQGGVLPNIQAV-----LLPKKTEKKA------------------
-------------------------------------------------------------
-------------------------------------------------------------
-------------------------------------------------------------
--------------------------------------------------------
->Drosophila|NP_724343.1|canonical_H2A Drosophila_canonical_H2A_24585673
-------------------------------------------------------------
--------M-----SGR--GK----------------GGK---VK----------------
-------------------G---------------KA----KSRSNRAGLQFPVGRIHRLL
-RKGNYAE-RVGAGAPVYLAAVMEYLAAEVLELAGN----AARDNK-KTRIIPRHLQLAIR
-NDEELNKLLS-GVTIAQGGVLPNIQAV-----LLPKKTEKKA------------------
-------------------------------------------------------------
-------------------------------------------------------------
-------------------------------------------------------------
--------------------------------------------------------
->Monodelphis|XP_001370540.1|H2A.X Monodelphis_H2A.X_126326560
-------------------------------------------------------------
--------M-----SGR--GK---------T------GGK---AR----------------
-------------------A---------------KA----KSRSSRAGLQFPVGRVHRLL
-RKGHYAE-RVGAGAPVYLAAVLEYLTAEILELAGN----AARDNK-KTRIIPRHLQLAIR
-NDEELNKLLG-GVTIAQGGVLPNIQAV-----LLPKKSGAITGP----------------
----KAPGSGGSKKSTQASQEY---------------------------------------
-------------------------------------------------------------
-------------------------------------------------------------
--------------------------------------------------------
->Mus|NP_034566.1|H2A.X Mus_H2A.X_7106331
-------------------------------------------------------------
--------M-----SGR--GK---------T------GGK---AR----------------
-------------------A---------------KA----KSRSSRAGLQFPVGRVHRLL
-RKGHYAE-RVGAGAPVYLAAVLEYLTAEILELAGN----AARDNK-KTRIIPRHLQLAIR
-NDEELNKLLG-GVTIAQGGVLPNIQAV-----LLPKKSSATVGPKA--------------
----PAVGKKASQASQEY-------------------------------------------
-------------------------------------------------------------
-------------------------------------------------------------
--------------------------------------------------------
->Homo|NP_002096.1|H2A.X Homo_H2A.X_4504253
-------------------------------------------------------------
--------M-----SGR--GK---------T------GGK---AR----------------
-------------------A---------------KA----KSRSSRAGLQFPVGRVHRLL
-RKGHYAE-RVGAGAPVYLAAVLEYLTAEILELAGN----AARDNK-KTRIIPRHLQLAIR
-NDEELNKLLG-GVTIAQGGVLPNIQAV-----LLPKKTSATVGPKA--------------
----PSGGKKATQASQEY-------------------------------------------
-------------------------------------------------------------
-------------------------------------------------------------
--------------------------------------------------------
->Rattus|NP_001102761.1|H2A.X Rattus_H2A.X_157817664
-------------------------------------------------------------
--------M-----SGR--GK---------T------GGK---AR----------------
-------------------A---------------KA----KSRSSRAGLQFPVGRVHRLL
-RKGHYAE-RVGAGAPVYLAAVLEYLTAEILELAGN----AARDNK-KTRIIPRHLQLAIR
-NDEELNKLLG-GVTIAQGGVLPNIQAV-----LLPKKTSATVGPKA--------------
----PAGGKKASQASQEY-------------------------------------------
-------------------------------------------------------------
-------------------------------------------------------------
--------------------------------------------------------
->Bos|NP_001073248.1|H2A.X Bos_H2A.X_119331192
-------------------------------------------------------------
--------M-----SGR--GK---------T------GGK---AR----------------
-------------------A---------------KA----KSRSSRAGLQFPVGRVHRLL
-RKGHYAE-RVGAGAPVYLAAVLEYLTAEILELAGN----AARDNK-KTRIIPRHLQLAIR
-NDEELNKLLG-GVTIAQGGVLPNIQAV-----LLPKKTSATVGPKA--------------
----PAGGKKATQASQEY-------------------------------------------
-------------------------------------------------------------
-------------------------------------------------------------
--------------------------------------------------------
->Callithrix|XP_008992112.1|canonical_H2A Callithrix_canonical_H2A_675650858
-------------------------------------------------------------
--------M-----SGR--GK---------Q------GGK---VR----------------
-------------------A---------------KA----KSRSSRAGLQFPVGRIHRLL
-RKGKYAD-RIGAGAPVYLAAVLEYLTAEILELAGN----ASRDNK-KTRIIPRHLQLAIR
-NDEELNKLLG-GVTIAQGGVLPNIQAV-----LLPKKTESHH------------------
---HKSQSK----------------------------------------------------
-------------------------------------------------------------
-------------------------------------------------------------
--------------------------------------------------------
->Homo|NP_734466.1|H2A.1 Homo_H2A.1_25092737
-------------------------------------------------------------
--------M-----SGR--GK---------Q------GGK---AR----------------
-------------------A---------------KS----KSRSSRAGLQFPVGRIHRLL
-RKGNYAE-RIGAGAPVYLAAVLEYLTAEILELAGN----ASRDNK-KTRIIPRHLQLAIR
-NDEELNKLLG-GVTIAQGGVLPNIQAV-----LLPKKTESHH------------------
---HKAQSK----------------------------------------------------
-------------------------------------------------------------
-------------------------------------------------------------
--------------------------------------------------------
->Xenopus|NP_001087948.1|canonical_H2A Xenopus_canonical_H2A_147898582
-------------------------------------------------------------
--------M-----SGR--GK---------Q------GGK---TR----------------
-------------------A---------------KA----KTRSSRAGLQFPVGRVHRLL
-RKGNYAE-RVGAGAPVYLAAVLEYLTAEILELAGN----AARDNK-KTRIIPRHLQLAVR
-NDEELNKLLG-RVTIAQGGVLPNIQSV-----LLPKKTESSK------------------
----SAKSK----------------------------------------------------
-------------------------------------------------------------
-------------------------------------------------------------
--------------------------------------------------------
->Homo|NP_808760|H2A.J
-------------------------------------------------------------
--------M-----SGR--GK---------Q------GGK---VR----------------
-------------------A---------------KA----KSRSSRAGLQFPVGRVHRLL
-RKGNYAE-RVGAGAPVYLAAVLEYLTAEILELAGN----AARDNK-KTRIIPRHLQLAIR
-NDEELNKLLG-KVTIAQGGVLPNIQAV-----LLPKKTESQ-------------------
----KTKSK----------------------------------------------------
-------------------------------------------------------------
-------------------------------------------------------------
--------------------------------------------------------
->Homo|NP_003508|canonical_H2A
-------------------------------------------------------------
--------M-----SGR--GK---------Q------GGK---AR----------------
-------------------A---------------KA----KSRSSRAGLQFPVGRVHRLL
-RKGNYAE-RVGAGAPVYMAAVLEYLTAEILELAGN----AARDNK-KTRIIPRHLQLAIR
-NDEELNKLLG-KVTIAQGGVLPNIQAV-----LLPKKTESH-------------------
----KAKSK----------------------------------------------------
-------------------------------------------------------------
-------------------------------------------------------------
--------------------------------------------------------
->Cavia|XP_003478913.1|canonical_H2A Cavia_canonical_H2A_348586313
-------------------------------------------------------------
--------M-----SGR--GK---------Q------GGK---AR----------------
-------------------A---------------KA----KSRSSRAGLQFPVGRVHRLL
-RKGNYAE-RVGAGAPVYMAAVLEYLTAEILELAGN----AARDNK-KTRIIPRHLQLAIR
-NDEELNKLLG-KVTIAQGGVLPNIQAV-----LLPKKTESHH------------------
----KAKGK----------------------------------------------------
-------------------------------------------------------------
-------------------------------------------------------------
--------------------------------------------------------
->Homo|NP_003507|canonical_H2A
-------------------------------------------------------------
--------M-----SGR--GK---------Q------GGK---AR----------------
-------------------A---------------KA----KSRSSRAGLQFPVGRVHRLL
-RKGNYAE-RVGAGAPVYMAAVLEYLTAEILELAGN----AARDNK-KTRIIPRHLQLAIR
-NDEELNKLLG-KVTIAQGGVLPNIQAV-----LLPKKTESHH------------------
----KAKGK----------------------------------------------------
-------------------------------------------------------------
-------------------------------------------------------------
--------------------------------------------------------
->Homo|NP_001035807|canonical_H2A
-------------------------------------------------------------
--------M-----SGR--GK---------Q------GGK---AR----------------
-------------------A---------------KA----KSRSSRAGLQFPVGRVHRLL
-RKGNYAE-RVGAGAPVYMAAVLEYLTAEILELAGN----AARDNK-KTRIIPRHLQLAIR
-NDEELNKLLG-KVTIAQGGVLPNIQAV-----LLPKKTESHH------------------
----KAKGK----------------------------------------------------
-------------------------------------------------------------
-------------------------------------------------------------
--------------------------------------------------------
->Monodelphis|XP_007485414.1|canonical_H2A Monodelphis_canonical_H2A_612000617
-------------------------------------------------------------
--------M-----SGR--GK---------Q------GGK---AR----------------
-------------------A---------------KA----KSRSSRAGLQFPVGRVHRLL
-RKGNYAE-RVGAGAPVYMAAVLEYLTAEILELAGN----AARDNK-KTRIIPRHLQLAIR
-NDEELNKLLG-KVTIAQGGVLPNIQAV-----LLPKKTESHH------------------
----KTKGK----------------------------------------------------
-------------------------------------------------------------
-------------------------------------------------------------
--------------------------------------------------------
->Gallus|NP_001072943.1|canonical_H2A Gallus_canonical_H2A_118405202
-------------------------------------------------------------
--------M-----SGR--GK---------Q------GGK---AR----------------
-------------------A---------------KA----KSRSSRAGLQFPVGRVHRLL
-RKGNYAE-RVGAGAPVYLAAVLEYLTAEILELAGN----AARDNK-KTRIIPRHLQLAIR
-NDEELNKLLG-KVTIAQGGVLPNIQAV-----LLPKKTDSH-------------------
----KAKAK----------------------------------------------------
-------------------------------------------------------------
-------------------------------------------------------------
--------------------------------------------------------
->Ailuropoda|XP_011215280.1|canonical_H2A Ailuropoda_canonical_H2A_752439274
-------------------------------------------------------------
--------M-----SGR--GK---------Q------GGK---AR----------------
-------------------A---------------KA----KSRSSRAGLQFPVGRVHRLL
-RKGNYAE-RVGAGAPVYLAAVLEYLTAEILELAGN----AARDNK-KTRIIPRHLQLAIR
-NDEELNKLLG-RVTIAQGGVLPNIQAV-----LLPKKTESHH------------------
----KAKGK----------------------------------------------------
-------------------------------------------------------------
-------------------------------------------------------------
--------------------------------------------------------
->Bos|NP_001192525.1|canonical_H2A Bos_canonical_H2A_329663492
-------------------------------------------------------------
--------M-----SGR--GK---------Q------GGK---AR----------------
-------------------A---------------KA----KSRSSRAGLQFPVGRVHRLL
-RKGNYAE-RVGAGAPVYLAAVLEYLTAEILELAGN----AARDNK-KTRIIPRHLQLAIR
-NDEELNKLLG-RVTIAQGGVLPNIQAV-----LLPKKTESHH------------------
----KAKGK----------------------------------------------------
-------------------------------------------------------------
-------------------------------------------------------------
--------------------------------------------------------
->Canis|XP_005640150.1|canonical_H2A Canis_canonical_H2A_545554572
-------------------------------------------------------------
--------M-----SGR--GK---------Q------GGK---AR----------------
-------------------A---------------KA----KSRSSRAGLQFPVGRVHRLL
-RKGNYAE-RVGAGAPVYLAAVLEYLTAEILELAGN----AARDNK-KTRIIPRHLQLAIR
-NDEELNKLLG-RVTIAQGGVLPNIQAV-----LLPKKTESHH------------------
----KAKGK----------------------------------------------------
-------------------------------------------------------------
-------------------------------------------------------------
--------------------------------------------------------
->Nomascus|XP_004088806.1|canonical_H2A Nomascus_canonical_H2A_441622123
-------------------------------------------------------------
--------M-----SGR--GK---------Q------GGK---AR----------------
-------------------A---------------KA----KSRSSRAGLQFPVGRVHRLL
-RKGNYAE-RVGAGAPVYLAAVLEYLTAEILELAGN----AARDNK-KTRIIPRHLQLAIR
-NDEELNKLLG-RVTIAQGGVLPNIQAV-----LLPKKTESHH------------------
----KAKGK----------------------------------------------------
-------------------------------------------------------------
-------------------------------------------------------------
--------------------------------------------------------
->Homo|NP_003503|canonical_H2A
-------------------------------------------------------------
--------M-----SGR--GK---------Q------GGK---AR----------------
-------------------A---------------KA----KSRSSRAGLQFPVGRVHRLL
-RKGNYAE-RVGAGAPVYLAAVLEYLTAEILELAGN----AARDNK-KTRIIPRHLQLAIR
-NDEELNKLLG-RVTIAQGGVLPNIQAV-----LLPKKTESHH------------------
----KAKGK----------------------------------------------------
-------------------------------------------------------------
-------------------------------------------------------------
--------------------------------------------------------
->Cricetulus|XP_007634672.1|canonical_H2A Cricetulus_canonical_H2A_625285905
-------------------------------------------------------------
--------M-----SGR--GK---------Q------GGK---AR----------------
-------------------A---------------KA----KTRSSRAGLQFPVGRVHRLL
-RKGNYSE-RVGAGAPVYLAAVLEYLTAEILELAGN----AARDNK-KTRIIPRHLQLAIR
-NDEELNKLLG-RVTIAQGGVLPNIQAV-----LLPKKTESHH------------------
----KAKGK----------------------------------------------------
-------------------------------------------------------------
-------------------------------------------------------------
--------------------------------------------------------
->Homo|NP_066390.1|canonical_H2A Homo_canonical_H2A_10645195
-------------------------------------------------------------
--------M-----SGR--GK---------Q------GGK---AR----------------
-------------------A---------------KA----KTRSSRAGLQFPVGRVHRLL
-RKGNYSE-RVGAGAPVYLAAVLEYLTAEILELAGN----AARDNK-KTRIIPRHLQLAIR
-NDEELNKLLG-RVTIAQGGVLPNIQAV-----LLPKKTESHH------------------
----KAKGK----------------------------------------------------
-------------------------------------------------------------
-------------------------------------------------------------
--------------------------------------------------------
->Macaca|NP_001180653.1|canonical_H2A Macaca_canonical_H2A_302565564
-------------------------------------------------------------
--------M-----SGR--GK---------Q------GGK---AR----------------
-------------------A---------------KA----KTRSSRAGLQFPVGRVHRLL
-RKGNYSE-RVGAGAPVYLAAVLEYLTAEILELAGN----AARDNK-KTRIIPRHLQLAIR
-NDEELNKLLG-RVTIAQGGVLPNIQAV-----LLPKKTESHH------------------
----KAKGK----------------------------------------------------
-------------------------------------------------------------
-------------------------------------------------------------
--------------------------------------------------------
->Mus|NP_835489.1|canonical_H2A Mus_canonical_H2A_30061393
-------------------------------------------------------------
--------M-----SGR--GK---------Q------GGK---AR----------------
-------------------A---------------KA----KTRSSRAGLQFPVGRVHRLL
-RKGNYSE-RVGAGAPVYLAAVLEYLTAEILELAGN----AARDNK-KTRIIPRHLQLAIR
-NDEELNKLLG-RVTIAQGGVLPNIQAV-----LLPKKTESHH------------------
----KAKGK----------------------------------------------------
-------------------------------------------------------------
-------------------------------------------------------------
--------------------------------------------------------
->Homo|NP_003504|canonical_H2A
-------------------------------------------------------------
--------M-----SGR--GK---------Q------GGK---AR----------------
-------------------A---------------KA----KTRSSRAGLQFPVGRVHRLL
-RKGNYSE-RVGAGAPVYLAAVLEYLTAEILELAGN----AARDNK-KTRIIPRHLQLAIR
-NDEELNKLLG-RVTIAQGGVLPNIQAV-----LLPKKTESHH------------------
----KAKGK----------------------------------------------------
-------------------------------------------------------------
-------------------------------------------------------------
--------------------------------------------------------
->Rattus|NP_068612.2|canonical_H2A Rattus_canonical_H2A_75832135
-------------------------------------------------------------
--------M-----SGR--GK---------Q------GGK---AR----------------
-------------------A---------------KA----KSRSSRAGLQFPVGRVHRLL
-RKGNYSE-RVGAGAPVYLAAVLEYLTAEILELAGN----AARDNK-KTRIIPRHLQLAIR
-NDEELNKLLG-RVTIAQGGVLPNIQAV-----LLPKKTESHH------------------
----KAKGK----------------------------------------------------
-------------------------------------------------------------
-------------------------------------------------------------
--------------------------------------------------------
->Homo|NP_254280|canonical_H2A
-------------------------------------------------------------
--------M-----SGR--GK---------Q------GGK---AR----------------
-------------------A---------------KA----KSRSSRAGLQFPVGRVHRLL
-RKGNYSE-RVGAGAPVYLAAVLEYLTAEILELAGN----AARDNK-KTRIIPRHLQLAIR
-NDEELNKLLG-RVTIAQGGVLPNIQAV-----LLPKKTESHH------------------
----KAKGK----------------------------------------------------
-------------------------------------------------------------
-------------------------------------------------------------
--------------------------------------------------------
->Homo|NP_066544|canonical_H2A
-------------------------------------------------------------
--------M-----SGR--GK---------Q------GGK---AR----------------
-------------------A---------------KA----KTRSSRAGLQFPVGRVHRLL
-RKGNYAE-RVGAGAPVYLAAVLEYLTAEILELAGN----AARDNK-KTRIIPRHLQLAIR
-NDEELNKLLG-KVTIAQGGVLPNIQAV-----LLPKKTESHH------------------
----KTK------------------------------------------------------
-------------------------------------------------------------
-------------------------------------------------------------
--------------------------------------------------------
->Heterocephalus|XP_004847876.1|canonical_H2A Heterocephalus_canonical_H2A_512971505
-------------------------------------------------------------
--------M-----SGR--GK---------Q------GGK---AR----------------
-------------------A---------------KA----KTRSSRAGLQFPVGRVHRLL
-RKGNYAE-RVGAGAPVYLAAVLEYLTAEILELAGN----AARDNK-KTRIIPRHLQLAIR
-NDEELNKLLG-KVTIAQGGVLPNIQAV-----LLPKKTESHH------------------
----KAKGK----------------------------------------------------
-------------------------------------------------------------
-------------------------------------------------------------
--------------------------------------------------------
->Loxodonta|XP_003422330.1|canonical_H2A Loxodonta_canonical_H2A_344307320
-------------------------------------------------------------
--------M-----SGR--GK---------Q------GGK---AR----------------
-------------------A---------------KA----KTRSSRAGLQFPVGRVHRLL
-RKGNYAE-RVGAGAPVYLAAVLEYLTAEILELAGN----AARDNK-KTRIIPRHLQLAIR
-NDEELNKLLG-KVTIAQGGVLPNIQAV-----LLPKKTESHH------------------
----KAKGK----------------------------------------------------
-------------------------------------------------------------
-------------------------------------------------------------
--------------------------------------------------------
->Oryctolagus|XP_008246690.1|canonical_H2A Oryctolagus_canonical_H2A_655885615
-------------------------------------------------------------
--------M-----SGR--GK---------Q------GGK---AR----------------
-------------------A---------------KA----KTRSSRAGLQFPVGRVHRLL
-RKGNYAE-RVGAGAPVYLAAVLEYLTAEILELAGN----AARDNK-KTRIIPRHLQLAIR
-NDEELNKLLG-KVTIAQGGVLPNIQAV-----LLPKKTESHH------------------
----KAKGK----------------------------------------------------
-------------------------------------------------------------
-------------------------------------------------------------
--------------------------------------------------------
->Pan|XP_009448979.1|canonical_H2A Pan_canonical_H2A_694915112
-------------------------------------------------------------
--------M-----SGR--GK---------Q------GGK---AR----------------
-------------------A---------------KA----KTRSSRAGLQFPVGRVHRLL
-RKGNYAE-RVGAGAPVYLAAVLEYLTAEILELAGN----AARDNK-KTRIIPRHLQLAIR
-NDEELNKLLG-KVTIAQGGVLPNIQAV-----LLPKKTESHH------------------
----KAKGKA---------------------------------------------------
-------------------------------------------------------------
-------------------------------------------------------------
--------------------------------------------------------
->Sus|XP_003356618.1|canonical_H2A Sus_canonical_H2A_335291892
-------------------------------------------------------------
--------M-----SGR--GK---------Q------GGK---AR----------------
-------------------A---------------KA----KTRSSRAGLQFPVGRVHRLL
-RKGNYAE-RVGAGAPVYLAAVLEYLTAEILELAGN----AARDNK-KTRIIPRHLQLAIR
-NDEELNKLLG-KVTIAQGGVLPNIQAV-----LLPKKTESHH------------------
----KAKGK----------------------------------------------------
-------------------------------------------------------------
-------------------------------------------------------------
--------------------------------------------------------
->Homo|NP_066408|canonical_H2A
-------------------------------------------------------------
--------M-----SGR--GK---------Q------GGK---AR----------------
-------------------A---------------KA----KTRSSRAGLQFPVGRVHRLL
-RKGNYAE-RVGAGAPVYLAAVLEYLTAEILELAGN----AARDNK-KTRIIPRHLQLAIR
-NDEELNKLLG-KVTIAQGGVLPNIQAV-----LLPKKTESHH------------------
----KAKGK----------------------------------------------------
-------------------------------------------------------------
-------------------------------------------------------------
--------------------------------------------------------
->Homo|NP_542163|canonical_H2A
-------------------------------------------------------------
--------M-----SGR--GK---------Q------GGK---AR----------------
-------------------A---------------KA----KTRSSRAGLQFPVGRVHRLL
-RKGNYAE-RVGAGAPVYLAAVLEYLTAEILELAGN----AARDNK-KTRIIPRHLQLAIR
-NDEELNKLLG-KVTIAQGGVLPNIQAV-----LLPKKTESHH------------------
----KAK------------------------------------------------------
-------------------------------------------------------------
-------------------------------------------------------------
--------------------------------------------------------
->Homo|NP_003500|canonical_H2A
-------------------------------------------------------------
--------M-----SGR--GK---------Q------GGK---AR----------------
-------------------A---------------KA----KTRSSRAGLQFPVGRVHRLL
-RKGNYAE-RVGAGAPVYLAAVLEYLTAEILELAGN----AARDNK-KTRIIPRHLQLAIR
-NDEELNKLLG-KVTIAQGGVLPNIQAV-----LLPKKTESHH------------------
----KAKGK----------------------------------------------------
-------------------------------------------------------------
-------------------------------------------------------------
--------------------------------------------------------
->Homo|NP_003501|canonical_H2A
-------------------------------------------------------------
--------M-----SGR--GK---------Q------GGK---AR----------------
-------------------A---------------KA----KTRSSRAGLQFPVGRVHRLL
-RKGNYAE-RVGAGAPVYLAAVLEYLTAEILELAGN----AARDNK-KTRIIPRHLQLAIR
-NDEELNKLLG-KVTIAQGGVLPNIQAV-----LLPKKTESHH------------------
----KAKGK----------------------------------------------------
-------------------------------------------------------------
-------------------------------------------------------------
--------------------------------------------------------
->Homo|NP_003502|canonical_H2A
-------------------------------------------------------------
--------M-----SGR--GK---------Q------GGK---AR----------------
-------------------A---------------KA----KTRSSRAGLQFPVGRVHRLL
-RKGNYAE-RVGAGAPVYLAAVLEYLTAEILELAGN----AARDNK-KTRIIPRHLQLAIR
-NDEELNKLLG-KVTIAQGGVLPNIQAV-----LLPKKTESHH------------------
----KAKGK----------------------------------------------------
-------------------------------------------------------------
-------------------------------------------------------------
--------------------------------------------------------
->Homo|NP_003505|canonical_H2A
-------------------------------------------------------------
--------M-----SGR--GK---------Q------GGK---AR----------------
-------------------A---------------KA----KTRSSRAGLQFPVGRVHRLL
-RKGNYAE-RVGAGAPVYLAAVLEYLTAEILELAGN----AARDNK-KTRIIPRHLQLAIR
-NDEELNKLLG-KVTIAQGGVLPNIQAV-----LLPKKTESHH------------------
----KAKGK----------------------------------------------------
-------------------------------------------------------------
-------------------------------------------------------------
--------------------------------------------------------
->Homo|NP_066409|canonical_H2A
-------------------------------------------------------------
--------M-----SGR--GK---------Q------GGK---AR----------------
-------------------A---------------KA----KTRSSRAGLQFPVGRVHRLL
-RKGNYSE-RVGAGAPVYLAAVLEYLTAEILELAGN----AARDNK-KTRIIPRHLQLAIR
-NDEELNKLLG-KVTIAQGGVLPNIQAV-----LLPKKTESHH------------------
----KAKGK----------------------------------------------------
-------------------------------------------------------------
-------------------------------------------------------------
--------------------------------------------------------
->Homo|NP_778235|canonical_H2A
-------------------------------------------------------------
--------M-----SGR--GK---------Q------GGK---AR----------------
-------------------A---------------KA----KSRSSRAGLQFPVGRVHRLL
-RKGNYAE-RVGAGAPVYLAAVLEYLTAEILELAGN----AARDNK-KTRIIPRHLQLAVR
-NDEELNKLLG-GVTIAQGGVLPNIQAV-----LLPKKTESHK------------------
----PGKNK----------------------------------------------------
-------------------------------------------------------------
-------------------------------------------------------------
--------------------------------------------------------
->Danio|XP_009296490.1|canonical_H2A Danio_canonical_H2A_688617969
-------------------------------------------------------------
--------M-----SGR--GK---------T------GGK---AR----------------
-------------------A---------------KA----KTRSSRAGLQFPVGRVHRLL
-RKGNYAE-RVGAGAPVYLAAVLEYLTAEILELAGN----AARDNK-KTRIIPRHLQLAVR
-NDEELNKLLG-GVTIAQGGVLPNIQAV-----LLPKKTEK--------------------
----AAKGK----------------------------------------------------
-------------------------------------------------------------
-------------------------------------------------------------
--------------------------------------------------------
->Danio|NP_957367.1|H2A.X Danio_H2A.X_41055102
-------------------------------------------------------------
--------M-----SGR--GK---------T------GGK---AR----------------
-------------------A---------------KA----KTRSSRAGLQFPVGRVHRLL
-RKGNYAE-RVGAGAPVYLAAVLEYLTAEILELAGN----AARDNK-KTRIIPRHLQLAVR
-NDEELNKLLG-GVTIAQGGVLPNIQAV-----LLPKKTGQAA------------------
----ASSGKSGKKGSSQSQEY----------------------------------------
-------------------------------------------------------------
-------------------------------------------------------------
--------------------------------------------------------
->Gallus|NP_990338.1|macroH2A Gallus_macroH2A_45384360
-------------------------------------------------------------
--------M-----SSR--------------------GGK---KK----------------
-------------------S---------------TK----TSRSAKAGVIFPVGRMLRYI
-KKGHPKY-RIGVGAPVYMAAVLEYLTAEILELAGN----AARDNK-KGRVTPRHILLAVA
-NDEELNQLLK-GVTIASGGVLPNIHPE-----LLAKKRGSKGKLEAIITPPPAKKAKSPS
-QKKTVSKKTGGKKGARKSKKKQGEVSKSASADSTTEGTPADGFTVLSTKSLFLGQKLNLI
-HSEISNLAGFEVEAIINPTNADIDLKDDLGSTLEKKGGKEFVEAVIELRKKNGPLDIAGA
-VVSAGHGLPAKFVIHCNSPGWGSDK--CEELLEKTVKNCLALADEKKLKSIAFPSIGSGR
-NGFPKQTAAQLILKAISSYFVSTMSSSIKTVYFVLFDSESIGIYVQEMAKLDAN-
->Homo|NP_613258.2|macroH2A Homo_macroH2A_93141018
-------------------------------------------------------------
--------M-----SSR--------------------GGK---KK----------------
-------------------S---------------TK----TSRSAKAGVIFPVGRMLRYI
-KKGHPKY-RIGVGAPVYMAAVLEYLTAEILELAGN----AARDNK-KGRVTPRHILLAVA
-NDEELNQLLK-GVTIASGGVLPNIHPE-----LLAKKRGSKGKLEAIITPPPAKKAKSPS
-QKKPVSKKAGGKKGARKSKKKQGEVSKAASADSTTEGTPADGFTVLSTKSLFLGQKLNLI
-HSEISNLAGFEVEAIINPTNADIDLKDDLGNTLEKKGGKEFVEAVLELRKKNGPLEVAGA
-AVSAGHGLPAKFVIHCNSPVWGADK--CEELLEKTVKNCLALADDKKLKSIAFPSIGSGR
-NGFPKQTAAQLILKAISSYFVSTMSSSIKTVYFVLFDSESIGIYVQEMAKLDAN-
->Homo|NP_001035248|macroH2A
-------------------------------------------------------------
--------M-----SSR--------------------GGK---KK----------------
-------------------S---------------TK----TSRSAKAGVIFPVGRMLRYI
-KKGHPKY-RIGVGAPVYMAAVLEYLTAEILELAGN----AARDNK-KGRVTPRHILLAVA
-NDEELNQLLK-GVTIASGGVLPNIHPE-----LLAKKRGSKGKLEAIITPPPAKKAKSPS
-QKKPVSKKAGGKKGARKSKK-QGEVSKAASADSTTEGTPADGFTVLSTKSLFLGQKLNLI
-HSEISNLAGFEVEAIINPTNADIDLKDDLGNTLEKKGGKEFVEAVLELRKKNGPLEVAGA
-AVSAGHGLPAKFVIHCNSPVWGADK--CEELLEKTVKNCLALADDKKLKSIAFPSIGSGR
-NGFPKQTAAQLILKAISSYFVSTMSSSIKTVYFVLFDSESIGIYVQEMAKLDAN-
->Gallus|AAC28846.1|macroH2A Gallus_macroH2A_3395780
-------------------------------------------------------------
--------M-----SSR--------------------GGK---KK----------------
-------------------S---------------TK----TSRSAKAGVIFPVGRMLRYI
-KKGHPKY-RIGVGAPVYMAAVLEYLTAEILELAGN----AARDNK-KGRVTPRHILLAVA
-NDEELNQLLK-GVTIASGGVLPNIHPE-----LLAKKRGSKGKLEAIITPPPAKKAKSPS
-QKKTVSKKTGGKKGARKSKKKQGEVSKSASADSTTEGTPADGFTVLSTKSLFLGQKLQVV
-QADIATI---DSDAVVHPTNSDFYTGGEVGSTLEKKGGKEFVEAVIELRKKNGPLDIAGA
-VVSAGHGLPAKFVIHCNSPGWGSDK--CEELLEKTVKNCLALADEKKLKSIAFPSIGSGR
-NGFPKQTAAQLILKAISSYFVSTMSSSIKTVYFVLFDSESIGIYVQEMAKLDAN-
->Homo|XP_005272189.1|macroH2A Homo_macroH2A_530380257
-------------------------------------------------------------
--------M-----SSR--------------------GGK---KK----------------
-------------------S---------------TK----TSRSAKAGVIFPVGRMLRYI
-KKGHPKY-RIGVGAPVYMAAVLEYLTAEILELAGN----AARDNK-KGRVTPRHILLAVA
-NDEELNQLLK-GVTIASGGVLPNIHPE-----LLAKKRGSKGKLEAIITPPPAKKAKSPS
-QKKPVSKKAGGKKGARKSKK-QGEVSKAASADSTTEGTPADGFTVLSTKSLFLGQKLQVV
-QADIASI---DSDAVVHPTNTDFYIGGEVGNTLEKKGGKEFVEAVLELRKKNGPLEVAGA
-AVSAGHGLPAKFVIHCNSPVWGADK--CEELLEKTVKNCLALADDKKLKSIAFPSIGSGR
-NGFPKQTAAQLILKAISSYFVSTMSSSIKTVYFVLFDSESIGIYVQEMAKLDAN-
->Homo|NP_613075|macroH2A
-------------------------------------------------------------
--------M-----SSR--------------------GGK---KK----------------
-------------------S---------------TK----TSRSAKAGVIFPVGRMLRYI
-KKGHPKY-RIGVGAPVYMAAVLEYLTAEILELAGN----AARDNK-KGRVTPRHILLAVA
-NDEELNQLLK-GVTIASGGVLPNIHPE-----LLAKKRGSKGKLEAIITPPPAKKAKSPS
-QKKPVSKKAGGKKGARKSKKKQGEVSKAASADSTTEGTPADGFTVLSTKSLFLGQKLQVV
-QADIASI---DSDAVVHPTNTDFYIGGEVGNTLEKKGGKEFVEAVLELRKKNGPLEVAGA
-AVSAGHGLPAKFVIHCNSPVWGADK--CEELLEKTVKNCLALADDKKLKSIAFPSIGSGR
-NGFPKQTAAQLILKAISSYFVSTMSSSIKTVYFVLFDSESIGIYVQEMAKLDAN-
->Danio|NP_001020673.1|macroH2A Danio_macroH2A_70887615
-------------------------------------------------------------
--------M-----SAR--------------------GGK---KK----------------
-------------------I---------------TK----LSRSARAGVIFPVGRMMRYL
-RTGTHKY-RIGMGAPVYMAAVIEYLAAEILELAGN----AARDNK-KGRITPRHIKLAVA
-NDEELNQLLR-GVTISNGGVLPRIHPE-----LLSKKRGGKVKVESQVAVPEKSAKRKPV
---KKPYKKSKGKPGRKPKKSTENDKEADA---NAMEDGPGEGFTILSAKSLFLGQKLSLT
-ESEISKIGTIKVEGIINPTNAEIDLKEGIGNALEKTGGKDFLETVKELRKSQGPLEVASV
-AVSQANGMAARFIIHCHVPQWGSDK--CEDQLEKTVKNCLSAAEEKKLKSVAFPSLPAGR
-NGFPKQTAAQLILKAISNHFVSATTSSLKNIYFVLFDSESIGIYLQEMAKMDAK-
->Gallus|NP_001264267.1|macroH2A Gallus_macroH2A_472824980
-------------------------------------------------------------
--------M-----SGR--------------------SGK---KK----------------
-------------------M---------------SK----LSRSSRAGVIFPVGRMMRYL
-KKGTYKY-RIGVGAPVYMAAVIEYLAAEILELAGN----AARDNK-KGRIAPRHILLAVA
-NDEELNQLLK-GVTIASGGVLPRIQPE-----LLAKKRGAKGKSETILSPAPEKKGRKSM
-VSKKSGKKAKSNKARTPKKNKQKDSEKEGASNSTSEDGPGDGFTILSSKSLVPGQKLSLT
-QSDISHIGSMKVEGIVHPTTAEIDLKEEIGKALEKAGGKEFLETVKELRKSQGPLEVAEA
-ALTQSSGLAAKFVIHCHIPQWGSDK--CEEQLEETIKNCLTAAEDKKLKSVAFPPFPSGR
-NCFPKQTAAQVTLRAISTHFDGTSSSSLKNIYFLLFDSESIGIYVQEMAKLDTK-
->Homo|NP_061119.1|macroH2A Homo_macroH2A_8923920
-------------------------------------------------------------
--------M-----SGR--------------------SGK---KK----------------
-------------------M---------------SK----LSRSARAGVIFPVGRLMRYL
-KKGTFKY-RISVGAPVYMAAVIEYLAAEILELAGN----AARDNK-KARIAPRHILLAVA
-NDEELNQLLK-GVTIASGGVLPRIHPE-----LLAKKRGTKGKSETILSPPPEKRGRKAT
-SGKKGGKKSKAAKPRTSKKSKPKDSDKEGTSNSTSEDGPGDGFTILSSKSLVLGQKLSLT
-QSDISHIGSMRVEGIVHPTTAEIDLKEDIGKALEKAGGKEFLETVKELRKSQGPLEVAEA
-AVSQSSGLAAKFVIHCHIPQWGSDK--CEEQLEETIKNCLSAAEDKKLKSVAFPPFPSGR
-NCFPKQTAAQVTLKAISAHFDDSSASSLKNVYFLLFDSESIGIYVQEMAKLDAK-
+-------------

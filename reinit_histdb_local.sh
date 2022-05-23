@@ -11,6 +11,13 @@ EOF
 #python manage.py sqlclear djangophylocore | python manage.py dbshell
 python manage.py migrate
 
+python manage.py makemigrations djangophylocore
+python manage.py migrate djangophylocore
+python manage.py makemigrations browse
+python manage.py migrate browse
+python manage.py makemigrations human_hist
+python manage.py migrate human_hist
+
 
 python manage.py buildncbi_fast
 python manage.py loadtaxonomy
@@ -24,6 +31,10 @@ python manage.py buildtaxonomytoc
 python manage.py buildhistoneclasses #python manage.py buildvarianttypes
 python manage.py buildfeatures #python manage.py buildvariantinfo -f
 python manage.py loadcurated
+
+python manage.py buildtrees -f
+python manage.py buildseedinfo -f
+python manage.py buildsunburst -f
 
 python manage.py buildhmms
 

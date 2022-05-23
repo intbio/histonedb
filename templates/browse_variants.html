@@ -1,6 +1,8 @@
 {% extends "base.html" %}
-{% load staticfiles %}
+{% load static %}
 {% load browse_filters %}
+{% load mptt_tags %}
+{% load static mptt_tags %}
 
 {% block set_filter_by_page %}
 $("#id_hist_type_label").hide();
@@ -85,24 +87,45 @@ $("#id_hist_type_drop_down_button").hide();
   var extra_seq_params_browse_curated_variants_{{ histone_type }} = $.extend(true, {}, extra_seq_params_browse_variants_{{ histone_type }});
   {% endwith %}
 </script>
-    <script type="text/javascript">
-    function variant_click(varid){
-        console.log(varid)
-        let element = document.getElementById("childrenul-"+varid);
-        let button = document.getElementById("childrenbutton-"+varid);
-        console.log(button.innerText)
-        let hidden = element.getAttribute("hidden");
-        console.log("clicked")
-        if (hidden) {
-            console.log("hidden")
-           element.removeAttribute("hidden");
-            button.innerText = "Hide variant groups";
-        } else {
-            console.log("unhidden")
-           element.setAttribute("hidden", "hidden");
-            button.innerText = "Show variant groups";
-        }
-      }
+<script type="text/javascript">
+function variant_click(varid){
+    console.log(varid)
+    let element = document.getElementById("childrenul-"+varid);
+    let button = document.getElementById("childrenbutton-"+varid);
+    console.log(button.innerText)
+    let hidden = element.getAttribute("hidden");
+    console.log("clicked")
+    if (hidden) {
+        console.log("hidden")
+       element.removeAttribute("hidden");
+        button.innerText = "Hide variant groups for " + varid;
+    } else {
+        console.log("unhidden")
+       element.setAttribute("hidden", "hidden");
+        button.innerText = "Show variant groups for " + varid;
+    }
+  }
+</script>
+<script type="text/javascript">
+    $(document).ready(function(){
+        var color=[
+            "#8dd3c7",
+            "#E6E600",
+            "#bebada",
+            "#fb8072",
+            "#80b1d3",
+            "#fdb462",
+            "#b3de69",
+            "#fccde5",
+            "#d9d9d9",
+            "#bc80bd",
+            "#ccebc5",
+            "#ffed6f",
+        ];
+        $('#variant_ul li a span').each(function(i){
+            $(this).css('backgroundColor',color[i]);
+        });
+    });
 </script>
 {% endblock %}
 
@@ -116,7 +139,7 @@ $("#id_hist_type_drop_down_button").hide();
       <div class="row">
         <div class="col-xs-12">
           <h1>
-            <a href="{% url 'browse.views.browse_types' %}"><span class="glyphicon glyphicon-home" /> </a> /
+            <a href="{% url 'browse:browse_types' %}"><span class="glyphicon glyphicon-home" /> </a> /
             Histone type: {{ histone_type }}
           </h1>
         </div>
@@ -162,38 +185,25 @@ $("#id_hist_type_drop_down_button").hide();
                   <div class="col-xs-12">
                     <h4 class="page-header">Histone Variants</h4>
                     <div class="list-group" style="height:100%;">
-                      <ul class="nav nav-list-main">
-                      {% for variant in variants %}
-                        <li>
-                          <a class="list-group-item"
-                           href="{% url 'browse.views.browse_variant' histone_type variant.id %}">
-                          <span class="badge variant-count-badge" style="background-color:{{ variant.color }};" title="# of sequences in curated set: {{ variant.num_curated }}
-# of sequences in total set: {{ variant.num_all }}">{{ variant.num_curated }} / {{ variant.num_all }}</span>
-                          <b>{{ variant.id|undspace }}</b> <br />
-                              <small>Alternate names: {% if variant.alternate_names or variant.alternate_names != "" %}{{ variant.alternate_names }}{% else %}<i>None</i>{% endif %}</small><br />
-                              <small>Taxonomic span: {{ variant.tax_span }}</small>
-                          </a>
-                          <ul id="childrenul-{{ variant.id }}" class="nav nav-list nav-left-ml" hidden="hidden">
-                          {% for child in variant.children %}
-                              <a class="list-group-item"
-                                 href="{% url 'browse.views.browse_variant' histone_type child.id %}" style="margin-left: 15px;">
-                                <span class="badge variant-count-badge" style="background-color:{{ child.color }};" title="# of sequences in curated set: {{ child.num_curated }}
-# of sequences in total set: {{ child.num_all }}">{{ child.num_curated }} / {{ child.num_all }}</span>
-                                <b>{{ child.id|undspace }}</b> <br />
-                                <small>Alternate names: {% if child.alternate_names or child.alternate_names != "" %}{{ child.alternate_names }}{% else %}<i>None</i>{% endif %}</small><br />
-                                <small>Taxonomic span: {{ child.tax_span }}</small>
-                              </a>
-                          {% endfor %}
-                          </ul>
-                          {% if variant.children %}
-{#                          <button class="nav-toggle-icon glyphicon glyphicon-chevron-right list-group-item left-side" onclick="variant_click('{{ variant.id }}');"></button>#}
-{#                          <button class="list-group-item left-side" onclick="variant_click('{{ variant.id }}');" style="margin-bottom: 0px;margin-left: 0px;left: -128px;right: 100px;margin-right: 0px;bottom: 81px;padding-right: 0px;padding-top: 30px;padding-bottom: 30px;padding-left: 0px;">Show variant groups</button>#}
-{#                          <button id="childrenbutton-{{ variant.id }}" class="list-group-item" onclick="variant_click('{{ variant.id }}');">Show variant groups</button>#}
-                          <button id="childrenbutton-{{ variant.id }}" onclick="variant_click('{{ variant.id }}');">Show variant groups</button>
-                          {% endif %}
-                        </li>
-                      {% endfor %}
-                      </ul>
+                        <ul id="variant_ul" class="nav nav-list-main">
+                            {% recursetree variants %}
+                                <li>
+                                    <a class="list-group-item" href="{% url 'browse:search' %}'browse:browse_variant' histone_type node.id %}">
+                                        <span class="badge variant-count-badge" style="background-color:{{ node.color }};" title="# of sequences in curated set: {{ node.num_curated }}
+# of sequences in total set: {{ node.num_sequences }}">{{ node.num_curated }} / {{ node.num_sequences }}</span>
+                                        <b>{{ node.id|undspace }}</b> <br />
+                                        <small>Alternate names: {% if node.alternate_names or node.alternate_names != "" %}{{ node.alternate_names }}{% else %}<i>None</i>{% endif %}</small><br />
+                                        <small>Taxonomic span: {{ node.taxonomic_span }}</small>
+                                    </a>
+                                    {% if not node.is_leaf_node %}
+                                        <ul id="childrenul-{{ node.id }}" class="children nav nav-list-main" hidden="hidden" style="padding-left: 10px">
+                                            {{ children }}
+                                        </ul>
+                                        <button id="childrenbutton-{{ node.id }}" class="list-group-item" onclick="variant_click('{{ node.id }}');">Show variant groups for {{node.id}}</button>
+                                    {% endif %}
+                                </li>
+                            {% endrecursetree %}
+                        </ul>
                     </div>
                   </div>
                 </div>

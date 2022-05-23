@@ -78,7 +78,7 @@ def simple_choice(field):
 def get_search_type(field, default_values={}):
     if fieldtype(field) in ["CharField", "ModelChoiceField"]:
         search_type = search_types[str]
-    elif fieldtype(field)in ["IntegerField", "FloatField"]:
+    elif fieldtype(field) in ["IntegerField", "FloatField"]:
         search_type = search_types[int]
     else:
         return "" 

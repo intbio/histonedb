@@ -1,16 +1,16 @@
 from django.core.management.base import BaseCommand, CommandError
 from browse.models import *
 
-import os
+import os, shutil, configparser, io, subprocess, logging, json
 from itertools import cycle
-import io
-import subprocess
-import logging
 
 from Bio import SeqIO
 from Bio import Phylo
 from Bio.Phylo import PhyloXML
 from Bio.Phylo import PhyloXMLIO
+
+config = configparser.ConfigParser()
+config.read('./histonedb.ini')
 
 import xml.etree.ElementTree as ET
 ET.register_namespace("", "http://www.phyloxml.org/1.10/phyloxml.xsd")
@@ -39,15 +39,99 @@ colors = [
     "#ccebc5",
     "#ffed6f",
     "#ffed6f", # !!!
+    "#ffed6f", # !!!
+    "#ffed6f", # !!!
+    "#ffed6f", # !!!
+    "#ffed6f", # !!!
+    "#ffed6f", # !!!
+    "#ffed6f", # !!!
+    "#ffed6f", # !!!
+    "#ffed6f", # !!!
+    "#ffed6f", # !!!
+    "#ffed6f", # !!!
+    "#ffed6f", # !!!
+    "#ffed6f", # !!!
+    "#ffed6f", # !!!
+    "#ffed6f", # !!!
+    "#ffed6f", # !!!
+    "#ffed6f", # !!!
+    "#ffed6f", # !!!
+    "#ffed6f", # !!!
+    "#ffed6f", # !!!
+    "#ffed6f", # !!!
+    "#ffed6f", # !!!
+    "#ffed6f", # !!!
+    "#ffed6f", # !!!
+    "#ffed6f", # !!!
+    "#ffed6f", # !!!
+    "#ffed6f", # !!!
+    "#ffed6f", # !!!
+    "#ffed6f", # !!!
+    "#ffed6f", # !!!
+    "#ffed6f", # !!!
+    "#ffed6f", # !!!
+    "#ffed6f", # !!!
+    "#ffed6f", # !!!
+    "#ffed6f", # !!!
+    "#ffed6f", # !!!
+    "#ffed6f", # !!!
+    "#ffed6f", # !!!
+    "#ffed6f", # !!!
+    "#ffed6f", # !!!
+    "#ffed6f", # !!!
+    "#ffed6f", # !!!
+    "#ffed6f", # !!!
+    "#ffed6f", # !!!
+    "#ffed6f", # !!!
+    "#ffed6f", # !!!
+    "#ffed6f", # !!!
+    "#ffed6f", # !!!
+    "#ffed6f", # !!!
+    "#ffed6f", # !!!
+    "#ffed6f", # !!!
+    "#ffed6f", # !!!
+    "#ffed6f", # !!!
+    "#ffed6f", # !!!
+    "#ffed6f", # !!!
+    "#ffed6f", # !!!
+    "#ffed6f", # !!!
+    "#ffed6f", # !!!
+    "#ffed6f", # !!!
+    "#ffed6f", # !!!
+    "#ffed6f", # !!!
+    "#ffed6f", # !!!
+    "#ffed6f", # !!!
+    "#ffed6f", # !!!
+    "#ffed6f", # !!!
+    "#ffed6f", # !!!
+    "#ffed6f", # !!!
+    "#ffed6f", # !!!
+    "#ffed6f", # !!!
+    "#ffed6f", # !!!
+    "#ffed6f", # !!!
+    "#ffed6f", # !!!
+    "#ffed6f", # !!!
+    "#ffed6f", # !!!
+    "#ffed6f", # !!!
+    "#ffed6f", # !!!
+    "#ffed6f", # !!!
+    "#ffed6f", # !!!
+    "#ffed6f", # !!!
+    "#ffed6f", # !!!
+    "#ffed6f", # !!!
+    "#ffed6f", # !!!
+    "#ffed6f", # !!!
+    "#ffed6f", # !!!
+    "#ffed6f", # !!!
 ]
 
 class Command(BaseCommand):
     help = 'Building data for variant trees using ClustalW2'
-    seed_directory = os.path.join("static", "browse", "seeds")
-    trees_path = os.path.join("static", "browse", "trees")
+    seed_directory = config['WEB_DATA']['seeds']
+    trees_path = config['WEB_DATA']['trees']
 
     # Logging info
-    logging.basicConfig(filename='log/buildtrees.log',
+    logging.basicConfig(filename=os.path.join(config['LOG']['database_log'], "buildtrees.log"),
                         format='%(asctime)s %(name)s %(levelname)-8s %(message)s',
                         level=logging.INFO,
                         datefmt='%Y-%m-%d %H:%M:%S')
@@ -65,30 +149,34 @@ class Command(BaseCommand):
         self.log.info('=======================================================')
         self.log.info('===                 buildtrees START                ===')
         self.log.info('=======================================================')
+
+        if options["force"]:
+            if os.path.exists(self.seed_directory) and os.path.isdir(self.seed_directory):
+                shutil.rmtree(self.seed_directory)
+            # shutil.copytree(os.path.join(config['DATA']['directory'], 'seeds'), self.seed_directory)
+            shutil.copytree(os.path.join(config['DATA']['directory'], 'draft_seeds'), self.seed_directory)
+
+        with open(config['DATA']['variants'], encoding='utf-8') as f:
+            self.variants_tree = json.load(f)['tree']
+
         self.make_trees(force=options["force"])
         self.add_features()
+
         self.log.info('=======================================================')
         self.log.info('===        buildtrees SUCCESSFULLY finished         ===')
         self.log.info('=======================================================')
 
-    def get_variants(self, core_type=None):
-        for i, (root, _, files) in enumerate(os.walk(self.seed_directory)):
-            if core_type and not os.path.basename(root) == core_type: continue
-            if i==0:
-                #Skip parent directory, only allow variant hmms to be built/searched
-                continue
-            for seed in files: 
-                if not seed.endswith(".fasta"): continue
-                if core_type is None:
-                    yield core_type, seed
-                else:
-                    yield seed[:-6]
+    def get_variants_list(self, type=None):
+        dl = self.variants_tree[type] if type else self.variants_tree
+        if isinstance(dl, dict):
+            keys_list = list(dl.keys())
+            for dv in dl.values():
+                keys_list += get_variants_list(dv)
+            return keys_list
+        return []
 
     def make_trees(self, force=False):
-        for i, (root, _, files) in enumerate(os.walk(self.seed_directory)):
-            if i==0: #skip base path
-                continue
-            hist_type = os.path.basename(root)
+        for hist_type in self.variants_tree.keys():
             self.log.info("Creating tree for {}".format(hist_type))
 
             final_tree_name = os.path.join(self.trees_path, "{}_no_features.xml".format(hist_type))
@@ -102,9 +190,8 @@ class Command(BaseCommand):
             combined_seed_file = os.path.join(self.trees_path, "{}.fasta".format(hist_type))
             combined_seed_aligned = os.path.join(self.trees_path, "{}_aligned.fasta".format(hist_type))
             with open(combined_seed_file, "w") as combined_seed:
-                for seed in files: 
-                    if not seed.endswith(".fasta"): continue
-                    for s in SeqIO.parse(os.path.join(self.seed_directory, hist_type, seed), "fasta"):
+                for hist_var in self.get_variants_list(hist_type):
+                    for s in SeqIO.parse(os.path.join(self.seed_directory, f"{hist_var}.fasta"), "fasta"):
                         s.seq = s.seq.ungap("-")
                         SeqIO.write(s, combined_seed, "fasta")
 
@@ -116,7 +203,7 @@ class Command(BaseCommand):
             Phylo.convert(tree, 'newick', final_tree_name, 'phyloxml')
     
     def add_features(self):
-        for hist_type in ["H2A", "H2B", "H3", "H1", "H4"]:
+        for hist_type in self.variants_tree.keys():
             self.log.info(hist_type)
             tree_path = os.path.join(self.trees_path, "{}_no_features.xml".format(hist_type))
             tree = ET.parse(tree_path)

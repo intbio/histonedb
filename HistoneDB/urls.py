@@ -7,5 +7,5 @@ urlpatterns = [
     url(r'', include('browse.urls')),
 ]
 
-urlpatterns += [url(r'^admin/', include(admin.site.urls))]
+urlpatterns += [url(r'^admin/', admin.site.urls)]
 urlpatterns += [url(r'human_hist/', include('human_hist.urls'))]
