@@ -1,13 +1,11 @@
 from django.core.management.base import BaseCommand, CommandError
 from browse.models import *
 
-import os, shutil, configparser, io, subprocess, logging, json
+import os, configparser, io, subprocess, logging, json, re
 from itertools import cycle
 
-from Bio import SeqIO
-from Bio import Phylo
-from Bio.Phylo import PhyloXML
-from Bio.Phylo import PhyloXMLIO
+from Bio import SeqIO, Phylo
+from Bio.Phylo import PhyloXML, PhyloXMLIO
 
 config = configparser.ConfigParser()
 config.read('./histonedb.ini')
@@ -15,115 +13,115 @@ config.read('./histonedb.ini')
 import xml.etree.ElementTree as ET
 ET.register_namespace("", "http://www.phyloxml.org/1.10/phyloxml.xsd")
 
-colors7 = [
-    "#000000",
-    "#66c2a5",
-    "#fc8d62",
-    "#8da0cb",
-    "#e78ac3",
-    "#a6d854",
-    "#ffd92f",
-    "#e5c494"]
+# colors7 = [
+#     "#000000",
+#     "#66c2a5",
+#     "#fc8d62",
+#     "#8da0cb",
+#     "#e78ac3",
+#     "#a6d854",
+#     "#ffd92f",
+#     "#e5c494"]
 
-colors = [
-    "#8dd3c7",
-    "#E6E600",
-    "#bebada",
-    "#fb8072",
-    "#80b1d3",
-    "#fdb462",
-    "#b3de69",
-    "#fccde5",
-    "#d9d9d9",
-    "#bc80bd",
-    "#ccebc5",
-    "#ffed6f",
-    "#ffed6f", # !!!
-    "#ffed6f", # !!!
-    "#ffed6f", # !!!
-    "#ffed6f", # !!!
-    "#ffed6f", # !!!
-    "#ffed6f", # !!!
-    "#ffed6f", # !!!
-    "#ffed6f", # !!!
-    "#ffed6f", # !!!
-    "#ffed6f", # !!!
-    "#ffed6f", # !!!
-    "#ffed6f", # !!!
-    "#ffed6f", # !!!
-    "#ffed6f", # !!!
-    "#ffed6f", # !!!
-    "#ffed6f", # !!!
-    "#ffed6f", # !!!
-    "#ffed6f", # !!!
-    "#ffed6f", # !!!
-    "#ffed6f", # !!!
-    "#ffed6f", # !!!
-    "#ffed6f", # !!!
-    "#ffed6f", # !!!
-    "#ffed6f", # !!!
-    "#ffed6f", # !!!
-    "#ffed6f", # !!!
-    "#ffed6f", # !!!
-    "#ffed6f", # !!!
-    "#ffed6f", # !!!
-    "#ffed6f", # !!!
-    "#ffed6f", # !!!
-    "#ffed6f", # !!!
-    "#ffed6f", # !!!
-    "#ffed6f", # !!!
-    "#ffed6f", # !!!
-    "#ffed6f", # !!!
-    "#ffed6f", # !!!
-    "#ffed6f", # !!!
-    "#ffed6f", # !!!
-    "#ffed6f", # !!!
-    "#ffed6f", # !!!
-    "#ffed6f", # !!!
-    "#ffed6f", # !!!
-    "#ffed6f", # !!!
-    "#ffed6f", # !!!
-    "#ffed6f", # !!!
-    "#ffed6f", # !!!
-    "#ffed6f", # !!!
-    "#ffed6f", # !!!
-    "#ffed6f", # !!!
-    "#ffed6f", # !!!
-    "#ffed6f", # !!!
-    "#ffed6f", # !!!
-    "#ffed6f", # !!!
-    "#ffed6f", # !!!
-    "#ffed6f", # !!!
-    "#ffed6f", # !!!
-    "#ffed6f", # !!!
-    "#ffed6f", # !!!
-    "#ffed6f", # !!!
-    "#ffed6f", # !!!
-    "#ffed6f", # !!!
-    "#ffed6f", # !!!
-    "#ffed6f", # !!!
-    "#ffed6f", # !!!
-    "#ffed6f", # !!!
-    "#ffed6f", # !!!
-    "#ffed6f", # !!!
-    "#ffed6f", # !!!
-    "#ffed6f", # !!!
-    "#ffed6f", # !!!
-    "#ffed6f", # !!!
-    "#ffed6f", # !!!
-    "#ffed6f", # !!!
-    "#ffed6f", # !!!
-    "#ffed6f", # !!!
-    "#ffed6f", # !!!
-    "#ffed6f", # !!!
-    "#ffed6f", # !!!
-    "#ffed6f", # !!!
-    "#ffed6f", # !!!
-    "#ffed6f", # !!!
-    "#ffed6f", # !!!
-    "#ffed6f", # !!!
-    "#ffed6f", # !!!
-]
+# colors = [
+#     "#8dd3c7",
+#     "#E6E600",
+#     "#bebada",
+#     "#fb8072",
+#     "#80b1d3",
+#     "#fdb462",
+#     "#b3de69",
+#     "#fccde5",
+#     "#d9d9d9",
+#     "#bc80bd",
+#     "#ccebc5",
+#     "#ffed6f",
+#     "#ffed6f", # !!!
+#     "#ffed6f", # !!!
+#     "#ffed6f", # !!!
+#     "#ffed6f", # !!!
+#     "#ffed6f", # !!!
+#     "#ffed6f", # !!!
+#     "#ffed6f", # !!!
+#     "#ffed6f", # !!!
+#     "#ffed6f", # !!!
+#     "#ffed6f", # !!!
+#     "#ffed6f", # !!!
+#     "#ffed6f", # !!!
+#     "#ffed6f", # !!!
+#     "#ffed6f", # !!!
+#     "#ffed6f", # !!!
+#     "#ffed6f", # !!!
+#     "#ffed6f", # !!!
+#     "#ffed6f", # !!!
+#     "#ffed6f", # !!!
+#     "#ffed6f", # !!!
+#     "#ffed6f", # !!!
+#     "#ffed6f", # !!!
+#     "#ffed6f", # !!!
+#     "#ffed6f", # !!!
+#     "#ffed6f", # !!!
+#     "#ffed6f", # !!!
+#     "#ffed6f", # !!!
+#     "#ffed6f", # !!!
+#     "#ffed6f", # !!!
+#     "#ffed6f", # !!!
+#     "#ffed6f", # !!!
+#     "#ffed6f", # !!!
+#     "#ffed6f", # !!!
+#     "#ffed6f", # !!!
+#     "#ffed6f", # !!!
+#     "#ffed6f", # !!!
+#     "#ffed6f", # !!!
+#     "#ffed6f", # !!!
+#     "#ffed6f", # !!!
+#     "#ffed6f", # !!!
+#     "#ffed6f", # !!!
+#     "#ffed6f", # !!!
+#     "#ffed6f", # !!!
+#     "#ffed6f", # !!!
+#     "#ffed6f", # !!!
+#     "#ffed6f", # !!!
+#     "#ffed6f", # !!!
+#     "#ffed6f", # !!!
+#     "#ffed6f", # !!!
+#     "#ffed6f", # !!!
+#     "#ffed6f", # !!!
+#     "#ffed6f", # !!!
+#     "#ffed6f", # !!!
+#     "#ffed6f", # !!!
+#     "#ffed6f", # !!!
+#     "#ffed6f", # !!!
+#     "#ffed6f", # !!!
+#     "#ffed6f", # !!!
+#     "#ffed6f", # !!!
+#     "#ffed6f", # !!!
+#     "#ffed6f", # !!!
+#     "#ffed6f", # !!!
+#     "#ffed6f", # !!!
+#     "#ffed6f", # !!!
+#     "#ffed6f", # !!!
+#     "#ffed6f", # !!!
+#     "#ffed6f", # !!!
+#     "#ffed6f", # !!!
+#     "#ffed6f", # !!!
+#     "#ffed6f", # !!!
+#     "#ffed6f", # !!!
+#     "#ffed6f", # !!!
+#     "#ffed6f", # !!!
+#     "#ffed6f", # !!!
+#     "#ffed6f", # !!!
+#     "#ffed6f", # !!!
+#     "#ffed6f", # !!!
+#     "#ffed6f", # !!!
+#     "#ffed6f", # !!!
+#     "#ffed6f", # !!!
+#     "#ffed6f", # !!!
+#     "#ffed6f", # !!!
+#     "#ffed6f", # !!!
+#     "#ffed6f", # !!!
+#     "#ffed6f", # !!!
+# ]
 
 class Command(BaseCommand):
     help = 'Building data for variant trees using ClustalW2'
@@ -150,12 +148,6 @@ class Command(BaseCommand):
         self.log.info('===                 buildtrees START                ===')
         self.log.info('=======================================================')
 
-        if options["force"]:
-            if os.path.exists(self.seed_directory) and os.path.isdir(self.seed_directory):
-                shutil.rmtree(self.seed_directory)
-            # shutil.copytree(os.path.join(config['DATA']['directory'], 'seeds'), self.seed_directory)
-            shutil.copytree(os.path.join(config['DATA']['directory'], 'draft_seeds'), self.seed_directory)
-
         with open(config['DATA']['variants'], encoding='utf-8') as f:
             self.variants_tree = json.load(f)['tree']
 
@@ -166,20 +158,21 @@ class Command(BaseCommand):
         self.log.info('===        buildtrees SUCCESSFULLY finished         ===')
         self.log.info('=======================================================')
 
-    def get_variants_list(self, type=None):
-        dl = self.variants_tree[type] if type else self.variants_tree
+    def get_variants_list(self, dl=None, hist_type=None):
+        if not dl: dl = self.variants_tree
+        if hist_type: dl = dl[hist_type]
         if isinstance(dl, dict):
             keys_list = list(dl.keys())
             for dv in dl.values():
-                keys_list += get_variants_list(dv)
+                keys_list += self.get_variants_list(dl=dv)
             return keys_list
         return []
 
     def make_trees(self, force=False):
         for hist_type in self.variants_tree.keys():
-            self.log.info("Creating tree for {}".format(hist_type))
+            self.log.info(f"Creating tree for {hist_type}")
 
-            final_tree_name = os.path.join(self.trees_path, "{}_no_features.xml".format(hist_type))
+            final_tree_name = os.path.join(self.trees_path, f"{hist_type}_no_features.xml")
             if not force and os.path.isfile(final_tree_name):
                 continue
 
@@ -187,25 +180,27 @@ class Command(BaseCommand):
                 os.makedirs(self.trees_path)
 
             #Combine all variants for a core histone type into one unaligned fasta file
-            combined_seed_file = os.path.join(self.trees_path, "{}.fasta".format(hist_type))
-            combined_seed_aligned = os.path.join(self.trees_path, "{}_aligned.fasta".format(hist_type))
+            combined_seed_file = os.path.join(self.trees_path, f"{hist_type}.fasta")
+            combined_seed_aligned = os.path.join(self.trees_path, f"{hist_type}_aligned.fasta")
             with open(combined_seed_file, "w") as combined_seed:
-                for hist_var in self.get_variants_list(hist_type):
+                for hist_var in self.get_variants_list(hist_type=hist_type):
+                    # if not os.path.exists(f"{os.path.join(self.seed_directory, f'{hist_var}.fasta')}.fasta"): continue  ## This is for training because there is no some sequences yet
+                    if hist_var=='macroH2A.2_(Homo_sapiens)': continue  ## This is for training because there is no some sequences yet
                     for s in SeqIO.parse(os.path.join(self.seed_directory, f"{hist_var}.fasta"), "fasta"):
                         s.seq = s.seq.ungap("-")
                         SeqIO.write(s, combined_seed, "fasta")
 
             #Create trees and convert them to phyloxml
-            tree = os.path.join(self.trees_path, "{}_aligned.ph".format(hist_type))
+            tree = os.path.join(self.trees_path, f"{hist_type}_aligned.ph")
             subprocess.call(["muscle", "-in", combined_seed_file, '-out', combined_seed_aligned])
-            self.log.info(" ".join(["clustalw", "-infile={}".format(combined_seed_aligned), "-outfile={}".format(final_tree_name), '-tree']))
-            subprocess.call(["clustalw", "-infile={}".format(combined_seed_aligned), "-outfile={}".format(final_tree_name), '-tree'])
+            self.log.info(" ".join(["clustalw", f"-infile={combined_seed_aligned}", f"-outfile={final_tree_name}", '-tree']))
+            subprocess.call(["clustalw", f"-infile={combined_seed_aligned}", f"-outfile={final_tree_name}", '-tree'])
             Phylo.convert(tree, 'newick', final_tree_name, 'phyloxml')
     
     def add_features(self):
         for hist_type in self.variants_tree.keys():
             self.log.info(hist_type)
-            tree_path = os.path.join(self.trees_path, "{}_no_features.xml".format(hist_type))
+            tree_path = os.path.join(self.trees_path, f"{hist_type}_no_features.xml")
             tree = ET.parse(tree_path)
             parent_map = {c: p for p in tree.getiterator() for c in p}
 
@@ -227,15 +222,19 @@ class Command(BaseCommand):
 
                 styles = ET.Element("styles")
 
-                variants = list(Variant.objects.filter(hist_type__id=hist_type).order_by("id").values_list("id", flat=True))
+                # variants = list(Variant.objects.filter(hist_type__id=hist_type).order_by("id").values_list("id", flat=True))
+                variants = Variant.objects.filter(hist_type__id=hist_type).order_by("id").values_list("id", "color")
 
-                for i, variant in enumerate(variants):
-                    color = colors[i]
-                    background = ET.Element("{}".format(variant.replace(".","")), attrib={"fill":color, "stroke":color})
+                # for i, variant in enumerate(variants):
+                for variant, color in variants:
+                    # color = colors[i]
+                    # background = ET.Element(f'{variant.replace(".","")}', attrib={"fill":color, "stroke":color})
+                    background = ET.Element('{}'.format(re.sub(r"[\(\).?]", "", variant)), attrib={"fill":color, "stroke":color})
                     if not variant.startswith(hist_type):
                         #Remove descriptor
                         start, name = variant[:variant.find(hist_type)], variant[variant.find(hist_type):]
-                        if len(start) > 3 and start != "canonical_":
+                        # if len(start) > 3 and start != "c":
+                        if len(start) > 3:
                             start = start[0:3]
                         name = start+name
                     else:
@@ -243,7 +242,8 @@ class Command(BaseCommand):
                     self.log.info("Adding {}".format(name))
                     #uncomment following line to remove names
                     # name=''
-                    label = ET.Element("markgroup{}".format(variant.replace(".","")), attrib={"fill":"#000", "stroke":"#000", "opacity":"0.7", "label":name.replace("canonical","ca").replace("_"," "), "labelStyle":"sectorHighlightText"})
+                    # label = ET.Element("markgroup{}".format(variant.replace(".","")), attrib={"fill":"#000", "stroke":"#000", "opacity":"0.7", "label":name.replace("canonical","ca").replace("_"," "), "labelStyle":"sectorHighlightText"})
+                    label = ET.Element("markgroup{}".format(re.sub(r"[\(\).?]", "", variant)), attrib={"fill":"#000", "stroke":"#000", "opacity":"0.7", "label":name.replace("_"," "), "labelStyle":"sectorHighlightText"})
                     styles.append(background)
                     styles.append(label)
                 #Let's add default markgroup with no label
@@ -276,18 +276,19 @@ class Command(BaseCommand):
                         self.log.info(name.text)
                     
                         try:
-                            genus, gi, partial_variant = name.text.split("|")
+                            genus, accession, partial_variant = name.text.split("|")
                         except ValueError:
                             remove.append(clade)
                             continue
 
-                        if "canonical" in partial_variant:
+                        # if "canonical" in partial_variant:
+                        if partial_variant[0]=="c":
                             # partial_variant = partial_variant.replace("_", "")
                             # if we uncomment this line the SVG of the tree is screwed up, Alexey, 12/30/15
                             self.log.info("Partial variant")
-                            self.log.info(" ".join([genus, gi, partial_variant]))
+                            self.log.info(" ".join([genus, accession, partial_variant]))
 
-                        for variant in variants:
+                        for variant, _ in variants:
                             if variant in partial_variant:
                                 break
                         else:
@@ -301,7 +302,8 @@ class Command(BaseCommand):
                                 for c in clade_hist:
                                     chart = ET.Element("chart")
                                     group = ET.Element("group")
-                                    group.text = "markgroup{}".format(old_var.replace(".", ""))
+                                    # group.text = "markgroup{}".format(old_var.replace(".", ""))
+                                    group.text = "markgroup{}".format(re.sub(r"[\(\).?]", "", old_var))
                                     chart.append(group)
                                     c.append(chart)
                             else:
@@ -317,16 +319,17 @@ class Command(BaseCommand):
                         clade_hist.append(clade)
                         ############
 
-                        name.attrib = {"bgStyle": variant.replace(".", "")}
+                        # name.attrib = {"bgStyle": variant.replace(".", "")}
+                        name.attrib = {"bgStyle": re.sub(r"[\(\).?]", "", variant)}
 
                         name.text = genus
 
 
                         annotation = ET.Element("annotation")
                         desc = ET.Element("desc")
-                        desc.text = "Variant {} from {} ({})".format(variant, genus, gi)
+                        desc.text = "Variant {} from {} ({})".format(variant, genus, accession)
                         uri = ET.Element("uri")
-                        uri.text = "variant/{}/{}".format(variant,gi)
+                        uri.text = "variant/{}/{}".format(variant,accession)
                         annotation.append(desc)
                         annotation.append(uri)
                         clade.append(annotation)
@@ -341,7 +344,8 @@ class Command(BaseCommand):
                     for c in clade_hist:
                         chart = ET.Element("chart")
                         group = ET.Element("group")
-                        group.text = "markgroup{}".format(old_var.replace(".", ""))
+                        # group.text = "markgroup{}".format(old_var.replace(".", ""))
+                        group.text = "markgroup{}".format(re.sub(r"[\(\).?]", "", old_var))
                         chart.append(group)
                         c.append(chart)
                 else:

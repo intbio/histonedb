@@ -1,4 +1,4 @@
-import os, configparser, logging
+import os, configparser, logging, json, shutil
 
 from django.core.management.base import BaseCommand, CommandError
 from django.conf import settings
@@ -18,6 +18,7 @@ config.read('./histonedb.ini')
 class Command(BaseCommand):
     help = 'Reset sequence features'
     seed_directory = config['WEB_DATA']['seeds']
+    # seed_directory = os.path.join(settings.STATIC_ROOT_AUX, "browse", "seeds_oldversion")
 
     # Logging info
     logging.basicConfig(filename=os.path.join(config['LOG']['database_log'], "buildseedinfo.log"),
@@ -39,51 +40,39 @@ class Command(BaseCommand):
         self.log.info('===               buildseedinfo START               ===')
         self.log.info('=======================================================')
 
-        with open(config['DATA']['variants'], encoding='utf-8') as f:
-            self.variants_tree = json.load(f)['tree']
+        if options["force"]:
+            if os.path.exists(self.seed_directory) and os.path.isdir(self.seed_directory):
+                shutil.rmtree(self.seed_directory)
+            # shutil.copytree(os.path.join(config['DATA']['directory'], 'seeds'), self.seed_directory)
+            shutil.copytree(os.path.join(config['DATA']['directory'], 'draft_seeds'), self.seed_directory)
 
         save_dir = os.path.join("tmp", "HistoneDB")
         if not os.path.exists(save_dir):
             os.makedirs(save_dir)
-        for variant, seed in self.get_seeds():
+        for variant, seed_variant in self.get_variants():
             #PDF currently contaminates the dir with many files.
             #if not os.path.exists("{}.pdf".format(seed[:-6])) or options["force"]:
                 #Write PDF
                 #write_alignments([seed], seed[:-6], save_dir=os.path.dirname(seed))
 
-            if not os.path.exists("{}.gff".format(seed[:-6])) or options["force"]:
+            if variant=='cH3': variant='cH3_(Metazoa)' ## This is for training because there is no cH3 yet
+            seed = os.path.join(self.seed_directory, seed_variant)
+            if not os.path.exists(f"{seed}.gff") or options["force"]:
                 #Write GFF
-                self.log.info("writing gff for {} to {}.gff".format(variant, seed[:-6]))
-                # print "writing gff"
-                with open("{}.gff".format(seed[:-6]), "w") as gff:
-                    # print "   ", variant
-                    # print "{}.gff".format(seed[:-6])
-                    msa = MultipleSeqAlignment(list(SeqIO.parse(seed, "fasta")))
+                self.log.info(f"writing gff for {variant} to {seed}.gff")
+                with open(f"{seed}.gff", "w") as gff:
+                    if not os.path.exists(f"{seed}.fasta"): continue  ## This is for training because there is no some sequences yet
+                    seqs = list(SeqIO.parse(f'{seed}.fasta', "fasta"))
+                    if len(seqs) < 1: continue  ## This is for training because there is no some sequences yet
+                    msa = MultipleSeqAlignment(seqs)
                     self.log.info("Making features for variant: %s", variant)
-                    print(get_features_in_aln(msa, variant, save_dir=os.path.dirname(seed)), file=gff)
+                    print(get_features_in_aln(msa, variant, save_dir=self.seed_directory), file=gff)
 
             #Set reviewed to True
             not_found = {}
-            for num_seq, s in enumerate(SeqIO.parse(seed, "fasta")):
-                fields = s.id.split("|")
+            for num_seq, s in enumerate(SeqIO.parse(f'{seed}.fasta', "fasta")):
+                fields = s.description.split()
                 id = fields[1]
-                #     #Historically type seed gi was first index, but now we are changing it to last for better view
-                #     #In seed alignmnets of variants fist argument is taxonomy name, second gi.
-                #     #so we just try everything
-                #     id = int(fields[0])
-                #     continue
-                # except ValueError:
-                #     try:
-                #         #Variant seed is second index
-                #         id = int(fields[1])
-                #     except ValueError:
-                #         try:
-                #             id=int(fields[2])
-                #         except ValueError:
-                #             try:
-                #                 not_found[seed[:-6]].append(s.id)
-                #             except KeyError:
-                #                 not_found[seed[:-6]] = [s.id]
                 try:
                     s = Sequence.objects.get(id=str(id), variant__id=variant)
                     s.reviewed = True
@@ -99,11 +88,16 @@ class Command(BaseCommand):
         self.log.info('===       buildseedinfo SUCCESSFULLY finished       ===')
         self.log.info('=======================================================')
 
-    def get_seeds(self):
-        for i, (root, _, files) in enumerate(os.walk(self.seed_directory)):
-            for seed in files: 
-                if not seed.endswith(".fasta"): continue
-                variant = os.path.basename(seed)[:-6]
-                if i == 0:
-                    variant = "canonical_{}".format(variant) if variant != "H1" else "generic_{}".format(variant)
-                yield variant, os.path.join(root, seed)
+    def get_variants(self, dl=None, hist_type=True):
+        if not dl:
+            with open(config['DATA']['variants'], encoding='utf-8') as f:
+                dl = json.load(f)['tree']
+        if isinstance(dl, dict):
+            if hist_type:
+                variants = [(f'generic_{hist}', hist) if hist=='H1' else (f'c{hist}', hist) for hist in dl.keys()]
+            else:
+                variants = [(variant, variant) for variant in dl.keys()]
+            for dv in dl.values():
+                variants += self.get_variants(dl=dv, hist_type=False)
+            return variants
+        return []

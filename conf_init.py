@@ -26,6 +26,7 @@ config['LOG'] = {'prediction_log': os.path.join("prediction_app", "log"),
 STATIC_DIRECTORY = os.path.join("static")
 config['WEB_DATA'] = {'static_directory': STATIC_DIRECTORY,
                       'seeds': os.path.join(STATIC_DIRECTORY, "browse", 'seeds'),
+                      'template_sequences': os.path.join(STATIC_DIRECTORY, "browse", 'template_sequences'),
                       'trees': os.path.join(STATIC_DIRECTORY, "browse", 'trees'),
                       'sunbursts': os.path.join(STATIC_DIRECTORY, "browse", 'sunbursts')}
 
