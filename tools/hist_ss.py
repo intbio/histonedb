@@ -8,17 +8,10 @@ by algining it to reference sequences.
 
 """
 #Standard Library
-import argparse
-import csv
-import collections
-import os
-import re
-import subprocess
-import sys
-import uuid
+import argparse, csv, collections
+import os, re, subprocess, sys, uuid, logging, configparser
 import pickle as pickle
 from io import BytesIO
-import logging
 
 #Required libraires
 #import pylab
@@ -30,11 +23,7 @@ from django.conf import settings
 from browse.models import Feature, Sequence
 
 #BioPython
-from Bio import AlignIO
-from Bio import Entrez
-from Bio import ExPASy
-from Bio import SeqIO
-from Bio import SwissProt
+from Bio import AlignIO, Entrez, ExPASy, SeqIO, SwissProt
 from Bio.Align import MultipleSeqAlignment
 from Bio.Align.AlignInfo import SummaryInfo
 from Bio.Align.Applications import MuscleCommandline
@@ -51,6 +40,9 @@ Entrez.email = "l.singh@intbio.org"
 
 # Logging info
 log = logging.getLogger(__name__)
+
+config = configparser.ConfigParser()
+config.read('./histonedb.ini')
 
 def get_variant_features(sequence, variants=None, save_dir="", save_not_found=False, save_gff=True, only_general=False):
     """Get the features of a sequence based on its variant.
@@ -86,17 +78,17 @@ def get_variant_features(sequence, variants=None, save_dir="", save_not_found=Fa
         templates = [variant.id, "General{}".format(variant.hist_type.id)] if not only_general else ["General{}".format(variant.hist_type.id)]
         for template_variant in templates:
             try:
-                features = Feature.objects.filter(template__variant=template_variant)
+                features = Feature.objects.filter(variant=template_variant)
             except:
                 continue
             #Find features with the same taxonomy
-            tax_features = features.filter(template__taxonomy=sequence.taxonomy)
+            tax_features = features.filter(taxonomy=sequence.taxonomy)
             if len(tax_features) == 0:
                 #Find features with closest taxonomy => rank class
-                tax_features = features.filter(template__taxonomy__parent__parent__parent=sequence.taxonomy.parent.parent.parent)
+                tax_features = features.filter(taxonomy__parent__parent__parent=sequence.taxonomy.parent.parent.parent)
             if len(tax_features) == 0:
                 #Nothing, use unidentified which is the standard
-                tax_features = features.filter(template__taxonomy__name="undefined")
+                tax_features = features.filter(taxonomy__name="undefined")
             features = tax_features
             for updated_feature in transfer_features_from_template_to_query(features, query_file, save_dir=save_dir, save_not_found=save_not_found):
                 variant_features.add(updated_feature)
@@ -129,8 +121,10 @@ def transfer_features_from_template_to_query(template_features, query_file, save
         return
 
     n2=str(uuid.uuid4())
-    template = template_features.first().template
-    template_file = template.path()
+    # template = template_features.first().template
+    # template_file = template.path()
+    template_name = template_features.first().template_name()
+    template_file = os.path.join(config['WEB_DATA']['template_sequences'], f"{template_name}.fasta")
     needle_results = os.path.join(save_dir, "needle_{}.txt".format(n2))
     cmd = os.path.join(os.path.dirname(sys.executable), "needle")
 
@@ -143,14 +137,16 @@ def transfer_features_from_template_to_query(template_features, query_file, save
         gapopen=10,
         gapextend=1, 
         outfile=needle_results)
+    # assert template_name != 'GeneralH2A_root'
     stdout, stderr = needle_cline()
 
     align = AlignIO.read(needle_results, "emboss")
     # print align.format("fasta")
     core_histone = align[0]
     query = align[1]
-    
-    corresponding_hist = list(range(len(template.get_sequence())))
+
+    template_sequence = next(SeqIO.parse(template_file, "fasta"))
+    corresponding_hist = list(range(len(template_sequence)))
     k=0
     for i, core_histone_postion in enumerate(core_histone):
         if core_histone_postion == "-":
@@ -218,6 +214,7 @@ def get_features_in_aln(alignment, variant, save_dir="", save_gff=True):
     a=SummaryInfo(alignment)
     cons=a.dumb_consensus(threshold=0.1, ambiguous='X')
     # print('DEBUG::{}'.format(variant))
+    # print(f'\nDEBUG::{str(cons)}')
     seq = Sequence(id="Consensus", variant_id=variant, taxonomy_id=1, sequence=str(cons))
     updated_features = get_variant_features(seq, save_dir=save_dir, save_gff=save_gff)
     return updated_features

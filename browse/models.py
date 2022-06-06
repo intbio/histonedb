@@ -99,6 +99,7 @@ class Variant(MPTTModel):
     description    = models.ForeignKey(HistoneDescription, on_delete=models.CASCADE)
     publications   = models.ManyToManyField(Publication)
     parent         = TreeForeignKey('self', related_name='children', null=True, blank=True, on_delete=models.CASCADE)
+    color          = models.CharField(max_length=25, default="#ffed6f")
 
     class MPTTMeta:
         order_insertion_by = ['id']
@@ -189,6 +190,9 @@ class Sequence(models.Model):
             return (self.id == other.id)
         else:
             return False
+
+    def __hash__(self):
+        return super().__hash__()
 
     def __str__(self):
         return self.format()  # "{} [Varaint={}; Organism={}]".format(self.id, self.full_variant_name, self.taxonomy.name)
@@ -393,7 +397,9 @@ extension\tffff66
 
 class Feature(models.Model):
     id = models.CharField(max_length=255, primary_key=True)
-    template = models.ForeignKey(TemplateSequence, null=True, on_delete=models.CASCADE)
+    # template = models.ForeignKey(TemplateSequence, null=True, on_delete=models.CASCADE)
+    variant = models.CharField(max_length=255)  # Not a foreign key; Maybe it is "General". It is just used to specify path
+    taxonomy = models.ForeignKey(Taxonomy, on_delete=models.CASCADE)
     start = models.IntegerField()
     end = models.IntegerField()
     name = models.CharField(max_length=600)
@@ -407,6 +413,9 @@ class Feature(models.Model):
     def __str__(self):
         """Returns Jalview GFF format"""
         return self.gff(str(self.template))
+
+    def template_name(self):
+        return "{}_{}".format(self.variant, self.taxonomy.name)
 
     def gff(self, sequence_label=None, featureType="{}"):
         tmp = ""

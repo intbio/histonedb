@@ -32,8 +32,8 @@ python manage.py buildhistoneclasses #python manage.py buildvarianttypes
 python manage.py buildfeatures #python manage.py buildvariantinfo -f
 python manage.py loadcurated
 
-python manage.py buildtrees -f
 python manage.py buildseedinfo -f
+python manage.py buildtrees -f
 python manage.py buildsunburst -f
 
 python manage.py buildhmms

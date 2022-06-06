@@ -1,11 +1,8 @@
-import sys
-import json
+import sys, json, configparser
 from  more_itertools import unique_everseen
 
 from django.shortcuts import render
-from django.http import HttpResponse
-from django.http import HttpResponseRedirect
-from django.http import JsonResponse
+from django.http import HttpResponse, HttpResponseRedirect, JsonResponse
 from django.shortcuts import redirect
 from django.urls import reverse
 from django.shortcuts import get_list_or_404
@@ -25,11 +22,9 @@ from browse.aggregate_functions import GroupConcat
 from djangophylocore.models import *
 
 #BioPython
-from Bio import SeqIO
+from Bio import SeqIO, Medline, Entrez
 from Bio.Seq import Seq
 from Bio.SeqRecord import SeqRecord
-from Bio import Medline
-from Bio import Entrez
 Entrez.email = "HistoneDB_user@ncbi.nlm.nih.gov"
 
 from django.db.models import Min, Max, Count, Q, Value, IntegerField, CharField, Case, When
@@ -61,6 +56,9 @@ colors = [
     "#ccebc5",
     "#ffed6f",
 ]
+
+config = configparser.ConfigParser()
+config.read('./histonedb.ini')
 
 def help(request):
     data = {
@@ -611,12 +609,12 @@ def get_aln_and_features(request, ids=None):
             else:
                 #let's load the corresponding canonical
                 try:
-                    if(("canonical" in str(seq.variant)) or ("generic" in str(seq.variant))):
+                    if((str(seq.variant))[0]=="c" or ("generic" in str(seq.variant))):
                         canonical=seq
                     elif(str(seq.variant.hist_type)=="H1"):
                         canonical=Sequence.objects.filter(variant_id='generic_'+str(seq.variant.hist_type),reviewed=True,taxonomy=seq.taxonomy)[0]
                     else:
-                        canonical=Sequence.objects.filter(variant_id='canonical_'+str(seq.variant.hist_type),reviewed=True,taxonomy=seq.taxonomy)[0]
+                        canonical=Sequence.objects.filter(variant_id='c'+str(seq.variant.hist_type),reviewed=True,taxonomy=seq.taxonomy)[0]
                 except:
                     try: #try H2A.X as a substitute for canonical
                         if(str(seq.variant.hist_type)=='H2A'):
