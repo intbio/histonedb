@@ -205,8 +205,8 @@ def browse_variant(request, histone_type, variant, accession=None):
        )
 
 #Distinct will not work here, because we order by "start", which is also included - see https://docs.djangoproject.com/en/dev/ref/models/querysets/#distinct
-    features_gen = Feature.objects.filter(template__variant="General{}".format(histone_type)).values_list("name", "description", "color").distinct()
-    features_var = Feature.objects.filter(template__variant=variant).values_list("name", "description", "color").distinct()
+    features_gen = Feature.objects.filter(variant="General{}".format(histone_type)).values_list("name", "description", "color").distinct()
+    features_var = Feature.objects.filter(variant=variant).values_list("name", "description", "color").distinct()
 
     features_gen=list(unique_everseen(features_gen))
     features_var=list(unique_everseen(features_var))
@@ -223,14 +223,13 @@ def browse_variant(request, histone_type, variant, accession=None):
     #     human_sequence = sequences.filter(taxonomy__name="homo sapiens").first()
     if not human_sequence:
         human_sequence = sequences.filter(reviewed=True).first()
-    print(human_sequence)
 
-    # if 'generic' in variant.id:
-    #     sequences = Sequence.objects.filter(variant__id=variant)
-    #     human_sequence = sequences.filter(reviewed=True).first()
+    if not human_sequence:
+        sequences = Sequence.objects.filter(variant__id=variant)
+        human_sequence = sequences.filter(reviewed=True).first()
 
     try:
-        publication_ids = ",".join(map(str, variant.publication_set.values_list("id", flat=True)))
+        publication_ids = ",".join(map(str, variant.publications.values_list("id", flat=True)))
         handle = Entrez.efetch(db="pubmed", id=publication_ids, rettype="medline", retmode="text")
         records = Medline.parse(handle)
         publications = ['{}. "{}" <i>{}</i>, {}. PMID: <a href="http://www.ncbi.nlm.nih.gov/pubmed/?term={}">{}</a>'.format(
@@ -242,7 +241,7 @@ def browse_variant(request, histone_type, variant, accession=None):
             record["PMID"],
            ) for record in records]
     except:
-        publications=["PMID: "+str(x) for x in variant.publication_set.values_list("id", flat=True)]
+        publications=["PMID: "+str(x) for x in variant.publications.values_list("id", flat=True)]
 
     data = {
         "hist_type": variant.hist_type.id,
@@ -253,7 +252,7 @@ def browse_variant(request, histone_type, variant, accession=None):
         "human_sequence": human_sequence.id,
         "publications": publications,
         "sunburst_url": static("browse/sunbursts/{}/{}.json".format(variant.hist_type.id, variant.id)),
-        "seed_url": reverse("browse.views.get_seed_aln_and_features", args=[variant.id]),
+        "seed_url": reverse("browse:get_seed_aln_and_features", args=[variant.id]),
         "colors": color_range,
         "score_min": scores["min"],
         "score_max": scores["max"],
@@ -895,18 +894,16 @@ def get_seed_aln_and_features(request, seed):
     from Bio.Align import MultipleSeqAlignment
     from Bio.Align.AlignInfo import SummaryInfo
 
-    seed_file = os.path.join(settings.STATIC_ROOT_AUX, "browse", "seeds")
     try:
-        histone = Histone.objects.get(id=seed)
-        seed_file = os.path.join(seed_file, "{}".format(histone.id))
+        variant = Histone.objects.get(id=seed)
     except Histone.DoesNotExist:
         try:
             variant = Variant.objects.get(id=seed)
-            seed_file = os.path.join(seed_file, variant.hist_type.id, "{}".format(variant.id))
             # the default names for canonical are with underscores, so we do not need to convert back. ALEXEY, 30/12/15
             # seed_file = os.path.join(seed_file, variant.hist_type.id, "{}".format(variant.id.replace("canonical", "canonical_")))
         except Variant.DoesNotExist:
             return HttpResponseNotFound('<h1>No histone variant with name {}</h1>'.format(seed))
+    seed_file = os.path.join(config['WEB_DATA']['seeds'], f"{variant.id}")
 
     download = request.GET.get("download", False) == "true"
 
@@ -927,7 +924,7 @@ def get_seed_aln_and_features(request, seed):
     if download:
         response['Content-Disposition'] = 'attachment; filename="{}.{}"'.format(seed, format)
 
-    sequences = SeqIO.parse("{}.fasta".format(seed_file), "fasta")
+    sequences = SeqIO.parse(f'{seed_file}.fasta', "fasta")
 
     if consensus:
         sequences = [s for i, s in enumerate(sequences) if consensus == "all" or (consensus == "limit" and i < limit)]
@@ -941,7 +938,7 @@ def get_seed_aln_and_features(request, seed):
             if not consensus or consensus == "limit" or (limit > 0 and i < limit):
                 yield seq
 
-    with open("{}.gff".format(seed_file)) as feature_file:
+    with open(f"{seed_file}.gff") as feature_file:
         features = feature_file.read()
 
     if format == "fasta":

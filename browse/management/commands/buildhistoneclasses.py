@@ -179,6 +179,7 @@ class Command(BaseCommand):
         """Create variants (including generics for each histone type) listed in variants_list.json"""
         if variants=="null": return
         for i, variant in enumerate(variants.keys()):
+            # variant = var.replace('(', '').replace(')', '').replace('?', '').replace(' ', '_')
             color = colors[i] if not parent else parent.color
             # print(color)
             obj = self.create_description(hclass=variant)

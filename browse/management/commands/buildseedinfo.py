@@ -55,7 +55,8 @@ class Command(BaseCommand):
                 #Write PDF
                 #write_alignments([seed], seed[:-6], save_dir=os.path.dirname(seed))
 
-            if variant=='cH3': variant='cH3_(Metazoa)' ## This is for training because there is no cH3 yet
+            # if variant=='cH3': variant='cH3_(Metazoa)' ## This is for training because there is no cH3 yet
+            if variant=='cH3': variant='cH3_Metazoa' ## This is for training because there is no cH3 yet
             seed = os.path.join(self.seed_directory, seed_variant)
             if not os.path.exists(f"{seed}.gff") or options["force"]:
                 #Write GFF

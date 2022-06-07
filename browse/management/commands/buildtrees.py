@@ -171,6 +171,7 @@ class Command(BaseCommand):
     def make_trees(self, force=False):
         for hist_type in self.variants_tree.keys():
             self.log.info(f"Creating tree for {hist_type}")
+            if hist_type=='H3': continue ## This is for training because there is no some sequences yet
 
             final_tree_name = os.path.join(self.trees_path, f"{hist_type}_no_features.xml")
             if not force and os.path.isfile(final_tree_name):
@@ -183,12 +184,19 @@ class Command(BaseCommand):
             combined_seed_file = os.path.join(self.trees_path, f"{hist_type}.fasta")
             combined_seed_aligned = os.path.join(self.trees_path, f"{hist_type}_aligned.fasta")
             with open(combined_seed_file, "w") as combined_seed:
-                for hist_var in self.get_variants_list(hist_type=hist_type):
-                    # if not os.path.exists(f"{os.path.join(self.seed_directory, f'{hist_var}.fasta')}.fasta"): continue  ## This is for training because there is no some sequences yet
-                    if hist_var=='macroH2A.2_(Homo_sapiens)': continue  ## This is for training because there is no some sequences yet
-                    for s in SeqIO.parse(os.path.join(self.seed_directory, f"{hist_var}.fasta"), "fasta"):
-                        s.seq = s.seq.ungap("-")
-                        SeqIO.write(s, combined_seed, "fasta")
+                # for hist_var in self.get_variants_list(hist_type=hist_type):
+                #     # if not os.path.exists(f"{os.path.join(self.seed_directory, f'{hist_var}.fasta')}.fasta"): continue  ## This is for training because there is no some sequences yet
+                #     if hist_var=='macroH2A.2_(Homo_sapiens)': continue  ## This is for training because there is no some sequences yet
+                #     for s in SeqIO.parse(os.path.join(self.seed_directory, f"{hist_var}.fasta"), "fasta"):
+                #         s.seq = s.seq.ungap("-")
+                #         SeqIO.write(s, combined_seed, "fasta")
+
+                # for hist_var in self.get_variants_list(hist_type=hist_type):
+                # if not os.path.exists(f"{os.path.join(self.seed_directory, f'{hist_var}.fasta')}.fasta"): continue  ## This is for training because there is no some sequences yet
+                # if hist_var=='macroH2A.2_(Homo_sapiens)': continue  ## This is for training because there is no some sequences yet
+                for s in SeqIO.parse(os.path.join(self.seed_directory, f"{hist_type}.fasta"), "fasta"):
+                    s.seq = s.seq.ungap("-")
+                    SeqIO.write(s, combined_seed, "fasta")
 
             #Create trees and convert them to phyloxml
             tree = os.path.join(self.trees_path, f"{hist_type}_aligned.ph")
@@ -199,6 +207,7 @@ class Command(BaseCommand):
     
     def add_features(self):
         for hist_type in self.variants_tree.keys():
+            if hist_type=='H3': continue ## This is for training because there is no some sequences yet
             self.log.info(hist_type)
             tree_path = os.path.join(self.trees_path, f"{hist_type}_no_features.xml")
             tree = ET.parse(tree_path)
