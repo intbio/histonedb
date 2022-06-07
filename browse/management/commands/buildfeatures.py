@@ -59,6 +59,8 @@ class Command(BaseCommand):
 
                 # template, created = TemplateSequence.objects.get_or_create(taxonomy=taxonomy, variant=variant)
                 # if not os.path.isfile(template.path()): #we need to rewrite it!!!
+                if not os.path.exists(self.template_sequences):
+                    os.makedirs(self.template_sequences)
                 SeqIO.write(
                         SeqRecord(Seq(sequence), id=f"{variant}_{taxonomy.name}"),
                         # template.path(),

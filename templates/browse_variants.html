@@ -167,7 +167,7 @@ function variant_click(varid){
                         <ul id="variant_ul" class="nav nav-list-main">
                             {% recursetree variants %}
                                 <li>
-                                    <a class="list-group-item" href="{% url 'browse:search' %}'browse:browse_variant' histone_type node.id %}">
+                                    <a class="list-group-item" href="{% url 'browse:browse_variant' histone_type node.id %}">
                                         <span class="badge variant-count-badge" style="background-color:{{ node.color }};" title="# of sequences in curated set: {{ node.num_curated }}
 # of sequences in total set: {{ node.num_sequences }}">{{ node.num_curated }} / {{ node.num_sequences }}</span>
                                         <b>{{ node.id|undspace }}</b> <br />
