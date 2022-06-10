@@ -4,6 +4,7 @@ from . import views
 app_name = "browse"
 
 urlpatterns = [
+    url(r'^tree_test/$', views.tree_test, name="tree_test"),
     url(r'^projects/HistoneDB2\.0/$', views.browse_types, name="browse_types"),
     url(r'^$', views.browse_types, name="browse_types"),
     url(r'^browse/$', views.browse_types, name="browse_types"),

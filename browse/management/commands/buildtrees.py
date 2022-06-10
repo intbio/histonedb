@@ -199,10 +199,10 @@ class Command(BaseCommand):
                     SeqIO.write(s, combined_seed, "fasta")
 
             #Create trees and convert them to phyloxml
-            tree = os.path.join(self.trees_path, f"{hist_type}_aligned.ph")
             subprocess.call(["muscle", "-in", combined_seed_file, '-out', combined_seed_aligned])
             self.log.info(" ".join(["clustalw", f"-infile={combined_seed_aligned}", f"-outfile={final_tree_name}", '-tree']))
             subprocess.call(["clustalw", f"-infile={combined_seed_aligned}", f"-outfile={final_tree_name}", '-tree'])
+            tree = os.path.join(self.trees_path, f"{hist_type}_aligned.ph")
             Phylo.convert(tree, 'newick', final_tree_name, 'phyloxml')
     
     def add_features(self):

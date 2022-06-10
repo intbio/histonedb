@@ -60,6 +60,9 @@ colors = [
 config = configparser.ConfigParser()
 config.read('./histonedb.ini')
 
+def tree_test(request):
+    return render(request, 'tree_test.html')
+
 def help(request):
     data = {
         "filter_form":AdvancedFilterForm(), 
