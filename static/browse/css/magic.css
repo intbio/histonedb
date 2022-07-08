@@ -1,0 +1,30 @@
+/* chages for bootsrap.min.css styles */
+
+@media (min-width:1200px) {
+ .container {
+  width:1570px
+ }
+}
+
+.list-group-item.left-side {
+  float: left;
+  width: 15%;
+}
+
+.list-group-item.right-side {
+  float: left;
+  width: 85%;
+}
+
+.split-items .list-group-item.left-side{
+  border-top-right-radius:0px;
+  border-bottom-right-radius:0px;
+}
+
+.split-items .list-group-item.right-side{
+  border-top-left-radius:0px;
+  border-bottom-left-radius:0px;
+  border-bottom-right-radius:0px;
+  border-top-right-radius:4px;
+  border-left: 0;
+}

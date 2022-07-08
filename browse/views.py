@@ -61,7 +61,12 @@ config = configparser.ConfigParser()
 config.read('./histonedb.ini')
 
 def tree_test(request):
-    return render(request, 'tree_test.html')
+    with open(os.path.join(config['WEB_DATA']['trees'], "H2A_aligned.ph"), 'r') as f:
+        tree_text = f.read().replace('\n', '')
+    data = {
+        'tree_text':tree_text
+    }
+    return render(request, 'tree_test.html', data)
 
 def help(request):
     data = {
@@ -127,6 +132,9 @@ def browse_variants(request, histone_type):
                                            num_sequences=Count('sequences'),
                                            num_curated=Count(Case(When(sequences__reviewed=True, then=1), output_field=IntegerField()))).all()
 
+    # variants_list = list(hist_type.variants.filter(parent_id=None).all().values_list("id"))
+    variants_list = [v[0] for v in hist_type.variants.filter(parent_id=None).all().values_list("id")]
+
     variants_query = str(variants.query)
     variants_num = variants.values_list("id", "num_sequences", "num_curated", "alternate_names", "taxonomic_span")
     # curated_variants = hist_type.variants.filter(parent_id=None).filter(Q(sequences__reviewed=True) | Q(sequences__reviewed__isnull=True)).annotate(num_sequences=Count('sequences')).order_by("id").all().values_list("num_sequences", flat=True)
@@ -143,8 +151,10 @@ def browse_variants(request, histone_type):
         "browse_section": "type",
         "name": histone_type,
         "variants": variants,
+        "variants_list": variants_list,
         "colors": colors,
-        "tree_url": "browse/trees/{}.xml".format(hist_type.id),
+        # "tree_url": "browse/trees/{}.xml".format(hist_type.id),
+        "tree_url": f"browse/trees/{hist_type.id}_aligned.ph",
         "seed_url": reverse("browse:get_seed_aln_and_features", args=[hist_type.id]),
         "filter_form": AdvancedFilterForm(),
     }
