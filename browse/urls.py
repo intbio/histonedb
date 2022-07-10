@@ -6,8 +6,9 @@ app_name = "browse"
 urlpatterns = [
     url(r'^tree_test/$', views.tree_test, name="tree_test"),
     url(r'^projects/HistoneDB2\.0/$', views.browse_types, name="browse_types"),
-    url(r'^$', views.browse_types, name="browse_types"),
-    url(r'^browse/$', views.browse_types, name="browse_types"),
+    url(r'^$', views.browse, name="browse"),
+    url(r'^browse/$', views.browse, name="browse"),
+    url(r'^browse_types/$', views.browse_types, name="browse_types"),
 
     url(r'^type/([a-zA-Z0-9]+)/$', views.browse_variants, name="browse_variants"),
     url(r'^type/([a-zA-Z0-9]+)/variant/([a-zA-Z0-9\._\(\)]+)/$', views.browse_variant, name="browse_variant"),

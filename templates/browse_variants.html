@@ -116,7 +116,7 @@ function variant_click(varid){
                     <h4 class="page-header">Histone Variants</h4>
                     <div class="list-group" style="height:100%;">
                         <ul id="variant_ul" class="nav nav-list-main">
-                            {% recursetree variants %}
+                            {% recursetree variants_info %}
 
                                 <li>
 {#                                    <img id="childrenbutton-{{ node.id }}" class="list-group-item left-side" onclick="variant_click('{{ node.id }}');" src="{% with 'browse/img/plus.png' as image_static %}{% static image_static %}{% endwith %}" width="2% "/>#}

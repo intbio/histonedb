@@ -5,7 +5,6 @@ from django.conf import settings
 
 urlpatterns = [
     url(r'', include('browse.urls')),
+    url(r'^admin/', admin.site.urls),
+    url(r'human_hist/', include('human_hist.urls')),
 ]
-
-urlpatterns += [url(r'^admin/', admin.site.urls)]
-urlpatterns += [url(r'human_hist/', include('human_hist.urls'))]

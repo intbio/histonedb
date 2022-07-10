@@ -12,37 +12,6 @@ from Bio import SeqIO
 from collections import defaultdict
 import os
 
-# class Histone(models.Model):
-#     id             = models.CharField(max_length=25, primary_key=True)
-#     taxonomic_span = models.CharField(max_length=100)
-#     description    = models.CharField(max_length=1000)
-#
-#     def __str__(self):
-#         return self.id
-#
-#     def get_absolute_url(self):
-#         from django.core.urlresolvers import reverse
-#         return reverse('browse.views.browse_variants', args=[str(self.id)])
-#
-# class Variant(models.Model):
-#     """Most variants map to
-#     H2A.X -> multiple species, same varaint
-#     H2A.10 -> one species, different varaint that are species speficific
-#     """
-#     id            = models.CharField(max_length=25, primary_key=True)
-#     hist_type     = models.ForeignKey(Histone, related_name="variants")
-#     taxonomic_span = models.CharField(max_length=100) #models.ForeignKey(Taxonomy)?
-#     description   = models.CharField(max_length=1000)
-#     hmmthreshold  = models.FloatField(null=True) # parameter used in hmmersearch during sequence annotation
-#     blastthreshold  = models.FloatField(null=True) # parameter used in blastthreshold during sequence annotation
-#     aucroc        = models.IntegerField(null=True) # another parameter - these paramters are calculated during testing phase of manage.py buildvariants
-#
-#     def __str__(self):
-#         return self.id
-#
-#     def get_absolute_url(self):
-#         from django.core.urlresolvers import reverse
-
 class Publication(models.Model):
     # id = models.IntegerField(primary_key=True)  # PubmedID
     id = models.CharField(max_length=45, primary_key=True)  # BibTeX_ID
@@ -109,36 +78,6 @@ class Variant(MPTTModel):
 
     def get_absolute_url(self):
         from django.core.urlresolvers import reverse
-
-# class HistoneClass(models.Model):
-#     """Most variants map to
-#     H2A.X -> multiple species, same varaint
-#     H2A.10 -> one species, different varaint that are species speficific
-#     """
-#     id = models.CharField(max_length=35, primary_key=True)
-#     # level = models.CharField(max_length=1000)
-#     rank = models.CharField(max_length=25) # type, variant, variant_group
-#     taxonomic_span = models.CharField(max_length=100)
-#     doublet = models.BooleanField(default=False)
-#     description = models.ForeignKey(ClassDescription, related_name="histone_class", on_delete=models.CASCADE)
-#     parent = models.ForeignKey('self', related_name='direct_children', null=True, on_delete=models.CASCADE)
-#
-#     def __str__(self):
-#         return self.id
-#
-#     def get_absolute_url(self):
-#         from django.core.urlresolvers import reverse
-#         #for histone types
-#         #return reverse('browse.views.browse_variants', args=[str(self.id)])
-#         return reverse('browse.views.browse_variant', args=[str(self.hist_type.id), str(self.id)])
-#
-#     @property
-#     def hist_type(self, variant=None):
-#         p = self.parent if variant is None else variant.parent
-#         assert (p is not None)
-#         if p.rank == 'type': return p
-#         else: return self.hist_type(p)
-
 
 class OldStyleVariant(models.Model):  # This is to handle other names for the same variants.like cenH3, CENPA, etc.
     updated_variant = models.ForeignKey(Variant, related_name="old_names", on_delete=models.CASCADE)
@@ -273,15 +212,6 @@ class HmmScore(models.Model):
     used_for_classification = models.BooleanField()
     regex = models.BooleanField()
 
-    # class Meta: # Check this constraint
-    #     constraints = [
-    #         models.CheckConstraint(check=models.Q(histone__rank='type'), name='histone_rank_type'),
-    #     ]
-
-    # def save(self, *args, **kwargs):
-    #     assert (self.histone.rank == 'type')
-    #     super(HmmScore, self).save(*args, **kwargs)
-
     def __str__(self):
         return "<{} histone={}; score={} >".format(self.sequence.id, self.histone.id, self.score)
 
@@ -313,15 +243,6 @@ class BlastScore(models.Model):
     # hit_sequence = models.ForeignKey(Sequence, related_name="aligned_scores", on_delete=models.CASCADE)
     used_for_classification = models.BooleanField(default=False)
     classification_type = models.CharField(max_length=25, default='max_evalue') # max_evalue, taxonomy_corrected, H2A.X_motif
-
-    # class Meta: # Check this constraint
-    #     constraints = [
-    #         models.CheckConstraint(check=models.Q(histone__rank__startswith='variant'), name='histone__rank__startswith_variant'),
-    #     ]
-
-    # def save(self, *args, **kwargs):
-    #     assert (self.variant.rank != 'type')
-    #     super(BlastScore, self).save(*args, **kwargs)
 
     def __str__(self):
         return "<{} variant={}; score={}; identity={}; used_for_classification={} >".format(self.sequence.id,

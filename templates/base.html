@@ -1,6 +1,8 @@
 {% load static %}
 {% load browse_filters %}
 {% load analytics_tags %}
+{% load mptt_tags %}
+{% load static mptt_tags %}
 
 <!DOCTYPE html>
 <html lang="en">
@@ -88,11 +90,40 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="{% url 'browse:browse_types' %}">HistoneDB 3.0</a>
+          <a class="navbar-brand" href="{% url 'browse:browse' %}">HistoneDB 3.0</a>
         </div>
         <div id="navbar" class="collapse navbar-collapse">
           <ul class="nav navbar-nav">
-            <li id="browse_navbar_button"><a href="{% url 'browse:browse_types' %}">Browse</a></li>
+            <li id="browse_navbar_button" class="dropdown">
+                <a class="dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Browse <span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                    {% for hist_type, queryset in variants.items %}
+                        <li class="dropdown-submenu">
+                            <a tabindex="-1" href="{% url 'browse:browse_variants' hist_type %}">{{ hist_type }}</a>
+                            <ul class="dropdown-menu">
+                                {% recursetree queryset %}
+                                    {% if not node.is_leaf_node %}
+                                    <li class="dropdown-submenu">
+                                        <a href="{% url 'browse:browse_variant' hist_type node.id %}">{{ node.id }}</a>
+                                            <ul class="children dropdown-menu">
+                                                {{ children }}
+                                            </ul>
+                                    </li>
+                                    {% else %}
+                                    <li><a href="{% url 'browse:browse_variant' hist_type node.id %}">{{ node.id }}</a></li>
+                                    {% endif %}
+                                {% endrecursetree %}
+                            </ul>
+                        </li>
+                    {% endfor %}
+                    <li role="separator" class="divider"></li>
+                    <li><a href="{% url 'browse:human' %}">Human histones</a></li>
+                    <li role="separator" class="divider"></li>
+                    <li><a href="#">Archaeal histones</a></li>
+                    <li role="separator" class="divider"></li>
+                    <li><a href="#">Viral histones</a></li>
+                </ul>
+            </li>
             {#<li id="search_navbar_button"><a href="#" id="show_advanced_search">Advanced Search</a></li>#}
             <li id="analyze_navbar_button"><a href="{% url 'browse:analyze' %}">Analyze Your Sequence</a></li>
 {#            <li id="blast_navbar_button"><a href="{% url 'browse:blast_sequences' %}">Blast</a></li>#}
@@ -123,10 +154,12 @@
         <div class="container">
           <div class="row">
             <div class="col-md-6">
-           <!---   <a href="http://ncbi.nlm.nih.gov"><img src="{% static 'browse/img/ncbi_nlm.png' %}" width="10%" class="pull-left"/ ></a> --->
+            <a href="https://intbio.org/"><img src="{% static 'browse/img/intbio.jpg' %}" width="5%"></a>
+            <a href="http://www.bio.msu.ru/"><img src="{% static 'browse/img/logo_biofak.png' %}" width="5%"></a>
+            <a href="https://intbio.org/">© Integrative Biology Group</a>
             </div>
             <div class="col-md-6 pull-right">
-            <!---  <a href="http://www.nih.gov"><img src="{% static 'browse/img/nih.png' %}" width="10%" class="pull-right"/ ></a> --->
+            <a href="https://www.msu.ru/en/index.html"><img src="{% static 'browse/img/msu.png' %}" width="5%" class="pull-right"/></a>
             </div>
           </div>
         </div>

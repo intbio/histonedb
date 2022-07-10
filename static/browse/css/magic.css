@@ -1,30 +1,110 @@
 /* chages for bootsrap.min.css styles */
 
-@media (min-width:1200px) {
- .container {
-  width:1570px
- }
+@media (min-width: 1200px) {
+    .container {
+        width: 1870px
+    }
 }
 
 .list-group-item.left-side {
-  float: left;
-  width: 15%;
+    float: left;
+    width: 15%;
 }
 
 .list-group-item.right-side {
-  float: left;
-  width: 85%;
+    float: left;
+    width: 85%;
 }
 
-.split-items .list-group-item.left-side{
-  border-top-right-radius:0px;
-  border-bottom-right-radius:0px;
+.split-items .list-group-item.left-side {
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
 }
 
-.split-items .list-group-item.right-side{
-  border-top-left-radius:0px;
-  border-bottom-left-radius:0px;
-  border-bottom-right-radius:0px;
-  border-top-right-radius:4px;
-  border-left: 0;
+.split-items .list-group-item.right-side {
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    border-top-right-radius: 4px;
+    border-left: 0;
+}
+
+.dropdown-submenu {
+    position: relative;
+}
+
+.dropdown-submenu > .dropdown-menu {
+    top: 0;
+    left: 100%;
+    margin-top: -6px;
+    margin-left: -1px;
+    -webkit-border-radius: 0 6px 6px 6px;
+    -moz-border-radius: 0 6px 6px 6px;
+    border-radius: 0 6px 6px 6px;
+}
+
+.dropdown-submenu:hover > .dropdown-menu {
+    display: block;
+}
+
+.dropdown-submenu > a:after {
+    display: block;
+    content: " ";
+    float: right;
+    width: 0;
+    height: 0;
+    border-color: transparent;
+    border-style: solid;
+    border-width: 5px 0 5px 5px;
+    border-left-color: #cccccc;
+    margin-top: 5px;
+    margin-right: -10px;
+}
+
+.dropdown-submenu:hover > a:after {
+    border-left-color: #ffffff;
+}
+
+.dropdown-submenu.pull-left {
+    float: none;
+}
+
+.dropdown-submenu.pull-left > .dropdown-menu {
+    left: -100%;
+    margin-left: 10px;
+    -webkit-border-radius: 6px 0 6px 6px;
+    -moz-border-radius: 6px 0 6px 6px;
+    border-radius: 6px 0 6px 6px;
+}
+
+@media (min-width: 768px) {
+  .row.equal {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+
+.browse-card .jumbotron {
+    padding: 10px 10px;
+    /*background-color: #ded6e5;*/
+
+    /*background-color: #333;*/
+    /*color: #9d9d9d;*/
+
+    /*background-color: #428bca;*/
+    /*color: #fff;*/
+
+    /*color: #428bca;*/
+}
+
+.jumbotron .img {
+    background-size: cover !important;
+    background-position: center !important;
+    color: #fff;
+    opacity: 0.2;
+    overflow: hidden;
+    position:absolute;
+    top:0;
+    left:0;
+    z-index:1;
 }

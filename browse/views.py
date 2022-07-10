@@ -60,6 +60,11 @@ colors = [
 config = configparser.ConfigParser()
 config.read('./histonedb.ini')
 
+render_data = {
+    "filter_form": AdvancedFilterForm(),
+    "variants": {hist_type.id: hist_type.variants.all() for hist_type in Histone.objects.all()},
+} # This data is for base template and it is necessary to add to the render data if template extends base.html
+
 def tree_test(request):
     with open(os.path.join(config['WEB_DATA']['trees'], "H2A_aligned.ph"), 'r') as f:
         tree_text = f.read().replace('\n', '')
@@ -70,57 +75,31 @@ def tree_test(request):
 
 def help(request):
     data = {
-        "filter_form":AdvancedFilterForm(), 
         "original_query":{},
         "current_query":{}
     }
+    data.update(render_data)
+    # assert False
     return render(request, 'help.html', data)
 
-def browse_types(request):
+def browse(request):
     """Home"""
     data = {
-        "filter_form":AdvancedFilterForm(), 
         "original_query":{},
         "current_query":{}
     }
+    data.update(render_data)
+    return render(request, 'browse.html', data)
+
+def browse_types(request):
+    """General browse"""
+    data = {
+        "original_query":{},
+        "current_query":{}
+    }
+    data.update(render_data)
     return render(request, 'browse_types.html', data)
 
-# def browse_variants(request, histone_type):
-#     try:
-#         hist_type = Histone.objects.get(id=histone_type)
-#     except:
-#         return "404"
-#
-#     variants = hist_type.variants.filter(parent_id=None).annotate(num_sequences=Count('sequences')).order_by("id").all().values_list("id", "num_sequences", "taxonomic_span")
-#     curated_variants = hist_type.variants.filter(parent_id=None).filter(Q(sequences__reviewed=True) | Q(sequences__reviewed__isnull=True)).annotate(num_sequences=Count('sequences')).order_by("id").all().values_list("num_sequences", flat=True)
-#     # curated_variants = hist_type.variants.filter(parent_id=None).filter(sequences__reviewed=True).annotate(num_sequences=Coalesce(Count('sequences'), 0)).order_by("id").all().values_list("num_sequences", flat=True)
-#     variants = [{'id': id, 'num_curated': num_curated, 'num_all': num_all,
-#                  'alternate_names': ", ".join(Variant.objects.get(id=id).old_names.values_list("name", flat=True)),
-#                  'tax_span': tax_span, 'color': color,
-#                  'children': get_variants_children(id)} \
-#                 for (id, num_all, tax_span), num_curated, color in zip(variants, curated_variants, colors)]
-#     children = Variant.objects.get(id=variants[0]['id']).direct_children.annotate(num_sequences=Count('sequences')).order_by(
-#         "id").all().values_list("id", "num_sequences", "taxonomic_span")
-#     curated_children = Variant.objects.get(id=variants[0]['id']).direct_children.filter(Q(sequences__reviewed=True) | Q(sequences__reviewed__isnull=True)).annotate(
-#         num_sequences=Count('sequences')).order_by("id").all().values_list("num_sequences", flat=True)
-#     # assert False
-#
-#
-#     data = {
-#         "histone_type": histone_type,
-#         "histone_description": hist_type.description,
-#         "browse_section": "type",
-#         "name": histone_type,
-#         "variants": variants,
-#         "tree_url": "browse/trees/{}.xml".format(hist_type.id),
-#         "seed_url": reverse("browse:get_seed_aln_and_features", args=[hist_type.id]),
-#         "filter_form": AdvancedFilterForm(),
-#     }
-#
-#     #Store sequences in session, accesed in get_sequence_table_data
-#     data["original_query"] = {"id_hist_type":histone_type}
-#
-#     return render(request, 'browse_variants.html', data)
 def browse_variants(request, histone_type):
     try:
         hist_type = Histone.objects.get(id=histone_type)
@@ -150,18 +129,18 @@ def browse_variants(request, histone_type):
         "histone_description": hist_type.description,
         "browse_section": "type",
         "name": histone_type,
-        "variants": variants,
+        "variants_info": variants,
         "variants_list": variants_list,
         "colors": colors,
         # "tree_url": "browse/trees/{}.xml".format(hist_type.id),
         "tree_url": f"browse/trees/{hist_type.id}_aligned.ph",
         "seed_url": reverse("browse:get_seed_aln_and_features", args=[hist_type.id]),
-        "filter_form": AdvancedFilterForm(),
     }
 
     #Store sequences in session, accesed in get_sequence_table_data
     data["original_query"] = {"id_hist_type":histone_type}
 
+    data.update(render_data)
     return render(request, 'browse_variants.html', data)
 
 def browse_variant_with_highlighted_sequence(request, histone_type, variant, accession):
@@ -272,7 +251,6 @@ def browse_variant(request, histone_type, variant, accession=None):
         "browse_section": "variant",
         "description": variant.description,
         "alternate_names": ", ".join(variant.old_names.values_list("name", flat=True)),
-        "filter_form": AdvancedFilterForm(),
         "go_to_curated": go_to_curated,
         "go_to_accession": go_to_accession,
         "highlight_human": highlight_human,
@@ -280,13 +258,14 @@ def browse_variant(request, histone_type, variant, accession=None):
 
     data["original_query"] = {"id_variant":variant.id}
 
+    data.update(render_data)
     return render(request, 'browse_variant.html', data)
 
 def browse_variant_clipped(request, variant, accession=None):
     return browse_variant(request, get_type_by_variant(variant), variant, accession)
 
 def search(request):
-    data = {"filter_form": AdvancedFilterForm()}
+    data = {}
 
     if request.method == "POST": 
         query = request.POST.copy()
@@ -310,19 +289,19 @@ def search(request):
 
     data["score_min"], data["score_max"] = result.get_score_range()
 
+    data.update(render_data)
     return render(request, 'search.html', data)
 
 def basket(request):
     data = {
-        "filter_form":AdvancedFilterForm(), 
         "original_query":{},
         "current_query":{}
     }
+    data.update(render_data)
     return render(request, 'basket.html', data)
 
 def analyze(request):
     data = {
-        "filter_form":AdvancedFilterForm(), 
         "original_query":{},
         "current_query":{}
     }
@@ -350,11 +329,11 @@ def analyze(request):
     else:
         data["analyze_form"] = AnalyzeFileForm(initial={"sequence":">Arabidopsis|NP_181415.1|H2A.Z Arabidopsis_H2A.Z_15224957\nMAGKGGKGLLAAKTTAA\nAANKDSVKKKSISRSSRAGIQFPVGRIHRQLKQRVSAHGRVGATAAVYTASI\nLEYLTAEVLELAGNASKDLKVKRITPRHLQLAIRGDEELDTLIKGTIAGGGVI\nPHIHKSLVNKVTKD"})
     # print data.get('result',0)
+    data.update(render_data)
     return render(request, 'analyze.html', data)
 
 def blast_sequences(request):
     data = {
-        "filter_form":AdvancedFilterForm(),
         "original_query":{},
         "current_query":{}
     }
@@ -383,6 +362,7 @@ def blast_sequences(request):
     else:
         data["analyze_form"] = AnalyzeFileForm(initial={"sequence":">Arabidopsis|NP_181415.1|H2A.Z Arabidopsis_H2A.Z_15224957\nMAGKGGKGLLAAKTTAA\nAANKDSVKKKSISRSSRAGIQFPVGRIHRQLKQRVSAHGRVGATAAVYTASI\nLEYLTAEVLELAGNASKDLKVKRITPRHLQLAIRGDEELDTLIKGTIAGGGVI\nPHIHKSLVNKVTKD\n>Trypanosoma|XP_846259.1|H2A.Z Trypanosoma_H2A.Z_72391930\nMSLTGDDAVPQAPLVGGVAMSPEQASALTGGKLGGKAVGPAHGKGKGKGKGK\nRGGKTGGKAGRRDKMTRAARADLNFPVGRIHSRLKDGLNRKQRCGASAAIYC\nAALLEYLTSEVIELAGAAAKAQKTERIKPRHLLLAIRGDEELNQIVNATIAR\nGGVVPFVHKSLEKKIIKKSKRGS"})
     # print data.get('result',0)
+    data.update(render_data)
     return render(request, 'blast_sequences.html', data)
 
 def human(request):
@@ -390,19 +370,19 @@ def human(request):
     # human_proteins = pd.read_csv(os.path.join(settings.BASE_DIR, "histone_proteins.csv")).fillna('')
     # human_proteins = human_proteins[['Histone type', 'Previous HGNC Symbol', 'Histone variant', 'HGNC Symbol']]
     data = {
-        "filter_form":AdvancedFilterForm(),
         "original_query":{},
         "current_query":{}
     }
+    data.update(render_data)
     return render(request, 'human.html', data)
 
 def statistics_test_delete(request):
     # data = {}
     # data = {
-    #     "filter_form": AdvancedFilterForm(),
     #     "original_query": {},
     #     "current_query": {}
     # }
+    # data.update(render_data)
     # return render(request, 'statistics.html', data)
     import matplotlib.pyplot as plt
     import numpy as np
@@ -467,7 +447,11 @@ def statistics(request):
     # with open(os.path.join(settings.STATIC_ROOT_AUX, "browse", "statistics", 'nr_small_per10_v4_20210622-152129', 'test_html_fig.pickle'), 'rb') as f:
     #     html_fig = pickle.load(f)
     # return render(request, 'statistics.html', {'figure': html_fig, 'general_stat': general_stat})
-    return render(request, 'statistics.html', {'general_stat': general_stat})
+    data = {'general_stat': general_stat}
+    data["original_query"] = {}
+    data.update(render_data)
+    # assert False
+    return render(request, 'statistics.html', data)
 
 
 def get_sequence_table_data(request):
