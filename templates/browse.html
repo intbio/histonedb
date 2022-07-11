@@ -17,15 +17,17 @@
 <div class="container" style="margin-top: 30px">
     <div class="col-sm-12 row equal">
         <div class="col-sm-6 browse-card">
-            <div class="jumbotron">
-              <div class="img" style="background: url({% static 'browse/img/nucleosome.png' %}); width: 80%; height: 80%;"></div>
-              <h2 class="text-center">Eukaryotes histones</h2>
-              <p class="text-center">Explore all histone sequences divided by variants and variant groups</p>
-            </div>
+            <!-- <a class="btn btn-default" href="{% url 'browse:browse_types' %}" role="button"> -->
+              <div class="jumbotron">
+                <div class="img" style="background: url({% static 'browse/img/nucleosome.png' %});"></div>
+                <h2 class="text-center">Eukaryotes histones</h2>
+                <p class="text-center">Explore all histone sequences divided by variants and variant groups</p>
+              </div>
+            <!-- </a> -->
         </div>
         <div class="col-sm-6 browse-card">
             <div class="jumbotron">
-              <div class="img" style="background: url({% static 'browse/img/human.png' %}); width: 80%; height: 80%;"></div>
+              <div class="img" style="background: url({% static 'browse/img/human.png' %});"></div>
               <h2 class="text-center">Human histones</h2>
               <p class="text-center">Explore human histone sequences and oncohistones</p>
             </div>
@@ -95,7 +97,11 @@
         </div>
         <div class="col-sm-6">
             <p class="text-center">Coming soon...</p>
-            <img src="{% static 'browse/img/human.png' %}" width="10%"/>
+            <div class="col-sm-13 row equal">
+              <div class="col-sm-4"></div>
+              <div class="col-sm-4"><img src="{% static 'browse/img/human.png' %}" width="60%"/></div>
+              <div class="col-sm-4"></div>
+            </div>
             <p class="text-center">To preview list of human histones click <a href="{% url 'browse:human' %}">here</a>.</p>
         </div>
     </div>

@@ -41,9 +41,6 @@ Entrez.email = "l.singh@intbio.org"
 # Logging info
 log = logging.getLogger(__name__)
 
-config = configparser.ConfigParser()
-config.read('./histonedb.ini')
-
 def get_variant_features(sequence, variants=None, save_dir="", save_not_found=False, save_gff=True, only_general=False):
     """Get the features of a sequence based on its variant.
 
@@ -124,7 +121,7 @@ def transfer_features_from_template_to_query(template_features, query_file, save
     # template = template_features.first().template
     # template_file = template.path()
     template_name = template_features.first().template_name()
-    template_file = os.path.join(config['WEB_DATA']['template_sequences'], f"{template_name}.fasta")
+    template_file = os.path.join(settings.STATIC_ROOT_AUX, "browse", 'template_sequences', f"{template_name}.fasta")
     needle_results = os.path.join(save_dir, "needle_{}.txt".format(n2))
     cmd = os.path.join(os.path.dirname(sys.executable), "needle")
 

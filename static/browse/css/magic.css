@@ -2,7 +2,7 @@
 
 @media (min-width: 1200px) {
     .container {
-        width: 1870px
+        width: 100%
     }
 }
 
@@ -80,12 +80,15 @@
 @media (min-width: 768px) {
   .row.equal {
     display: flex;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
+    /* margin-top: 15px; */
+    /* align-items: stretch; */
   }
 }
 
 .browse-card .jumbotron {
     padding: 10px 10px;
+    height: 75%;
     /*background-color: #ded6e5;*/
 
     /*background-color: #333;*/
@@ -98,6 +101,8 @@
 }
 
 .jumbotron .img {
+    width: 75%;
+    height: 75%;
     background-size: cover !important;
     background-position: center !important;
     color: #fff;
@@ -105,6 +110,5 @@
     overflow: hidden;
     position:absolute;
     top:0;
-    left:0;
     z-index:1;
 }

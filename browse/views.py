@@ -57,8 +57,8 @@ colors = [
     "#ffed6f",
 ]
 
-config = configparser.ConfigParser()
-config.read('./histonedb.ini')
+seeds_directory = os.path.join(settings.STATIC_ROOT_AUX, "browse", "seeds")
+trees_directory = os.path.join(settings.STATIC_ROOT_AUX, "browse", "trees")
 
 render_data = {
     "filter_form": AdvancedFilterForm(),
@@ -66,7 +66,7 @@ render_data = {
 } # This data is for base template and it is necessary to add to the render data if template extends base.html
 
 def tree_test(request):
-    with open(os.path.join(config['WEB_DATA']['trees'], "H2A_aligned.ph"), 'r') as f:
+    with open(os.path.join(trees_directory, "H2A_aligned.ph"), 'r') as f:
         tree_text = f.read().replace('\n', '')
     data = {
         'tree_text':tree_text
@@ -900,7 +900,7 @@ def get_seed_aln_and_features(request, seed):
             # seed_file = os.path.join(seed_file, variant.hist_type.id, "{}".format(variant.id.replace("canonical", "canonical_")))
         except Variant.DoesNotExist:
             return HttpResponseNotFound('<h1>No histone variant with name {}</h1>'.format(seed))
-    seed_file = os.path.join(config['WEB_DATA']['seeds'], f"{variant.id}")
+    seed_file = os.path.join(seeds_directory, f"{variant.id}")
 
     download = request.GET.get("download", False) == "true"
 
