@@ -131,7 +131,8 @@
 {#            <li id="human_navbar_button"><a href="{% url 'browse:human' %}">Human Histones</a></li>#}
             <li id="human_navbar_button"><a href="{% url 'browse:statistics' %}">General Statistics</a></li>
             <li id="help_navbar_button"><a href="{% url 'browse:help' %}">Help</a></li>
-            <form role="search" class="navbar-form navbar-right" action="{% url 'browse:search' %}" method="POST">{% csrf_token %}
+          </ul>
+          <form role="search" class="navbar-form navbar-right" action="{% url 'browse:search' %}" method="POST">{% csrf_token %}
               <input type="hidden" name="reset" id="reset_previous_searches" value="true" />
               <div class="input-group">
                 <input type="text" name="search" class="form-control" aria-label="..." placeholder="Search (H2A.Z.2.s1)">
@@ -140,8 +141,7 @@
                   <button class="btn btn-default" type="button" id="show_advanced_search">Advanced</button>
                 </span>
               </div>
-            </form>
-          </ul>
+          </form>
         </div><!--/.nav-collapse -->
       </div>
     </nav>
