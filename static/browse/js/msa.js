@@ -39,6 +39,7 @@ function createMSA(div_id, url, download_url, width, height, show_logo){
   opts.zoomer = {
     labelNameLength: 160,
     alignmentWidth: width,
+    autoResize: true,
     
   };
   if(height > 0){

@@ -113,6 +113,11 @@
     z-index:1;
 }
 
+#radioBtn .notActive{
+    color: #3276b1;
+    background-color: #fff;
+}
+
 /* code taken from https://observablehq.com/@d3/collapsible-tree */
 
 .node circle {
@@ -138,12 +143,12 @@
   stroke-width: 1.5px;
 }
 
-form {
+/* form {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   position: absolute;
   left: 10px;
   top: 10px;
-}
+} */
 
 label {
   display: block;
