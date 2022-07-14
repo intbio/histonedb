@@ -157,7 +157,21 @@ function variant_click(varid){
             {% include "sequences.html" with page_name="browse_variants_"|add:histone_type|rchar:"." %}
           </div>
           <div role="tabpanel" class="tab-pane" id="seed">
-            {% include "seed.html" with msa_id="browse" msa_url=seed_url|add:"?limit=500&consensus=limit" download_url=seed_url|add:"?download=true" %}
+            <div>
+{#                <div class="col-sm-1">#}
+{#                    <p>View:</p>#}
+{#                </div>#}
+{#                <div class="col-sm-11">#}
+                <div class="btn-group">
+                    <label class="radio-inline"><input type="radio" name="optradio" checked>Multiple Sequence Alignment</label>
+                    <label class="radio-inline"><input type="radio" name="optradio">Classification tree</label>
+                </div>
+{#                <div class="btn-group">#}
+{#                  <label class="btn btn-secondary" for="option1"><input type="radio" class="btn-check" name="options" id="option1" autocomplete="off" checked />Checked</label>#}
+{#                  <label class="btn btn-secondary" for="option2"><input type="radio" class="btn-check" name="options" id="option2" autocomplete="off" />Radio</label>#}
+{#                </div>#}
+                {% include "seed.html" with msa_id="browse" msa_url=seed_url|add:"?limit=500&consensus=limit" download_url=seed_url|add:"?download=true" %}
+            </div>
           </div>
         </div>
       </div>

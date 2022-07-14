@@ -4,7 +4,7 @@
 {% block includes %}
 <script src="https://d3js.org/d3.v7.min.js"></script>
 <!-- <script src="../js/msa.min.js"></script> -->
-<script src="../CURATED_SET/js/msa.min.js"></script>
+<script src="https://intbio.org/histonedb/CURATED_SET/js/msa.min.js"></script>
 <script type="text/javascript">
   $(function() { 
     $('#browse_navbar_button').addClass('active');
@@ -39,8 +39,9 @@
       
   //console.log(data);
   
-  var datah={"name": "root"};
-  
+  {#var datah={"name": "root"};#}
+  var datah={"name": "H2A"};
+
   function dict2tree(tree,d)
   {
   tree["children"]=[]
@@ -53,8 +54,9 @@
   }
   }
   
-  dict2tree(datah,data['tree']);
-  
+  {#dict2tree(datah,data['tree']);#}
+  dict2tree(datah,data['tree']['H2A']);
+
   const margin = { top: 10, right: 120, bottom: 10, left: 40 };
   const width = d3.width || 960;
   const root = d3.hierarchy(datah);
@@ -266,7 +268,9 @@
   
    var m = msa({
     el: rootDiv,
-   importURL: "../seeds/"+name+".fasta",
+   {#importURL: "../seeds/"+name+".fasta",#}
+   importURL: "CURATED_SET/seeds/"+name+".fasta",
+   {#importURL: "{% static 'browse/seeds/' %}"+name+".fasta",#}
    // seqs:seqs,
     all: true,
     vis: {
