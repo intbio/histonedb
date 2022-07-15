@@ -60,10 +60,13 @@ colors = [
 seeds_directory = os.path.join(settings.STATIC_ROOT_AUX, "browse", "seeds")
 trees_directory = os.path.join(settings.STATIC_ROOT_AUX, "browse", "trees")
 
-render_data = {
-    "filter_form": AdvancedFilterForm(),
-    "variants": {hist_type.id: hist_type.variants.all() for hist_type in Histone.objects.all()},
-} # This data is for base template and it is necessary to add to the render data if template extends base.html
+def get_const_data():
+    '''This data is for base template and it is necessary to add to the render data if template extends base.html'''
+
+    return {
+        "filter_form": AdvancedFilterForm(),
+        "variants": {hist_type.id: hist_type.variants.all() for hist_type in Histone.objects.all()},
+    }
 
 def tree_test(request):
     with open(os.path.join(trees_directory, "H2A_aligned.ph"), 'r') as f:
@@ -78,7 +81,7 @@ def help(request):
         "original_query":{},
         "current_query":{}
     }
-    data.update(render_data)
+    data.update(get_const_data())
     # assert False
     return render(request, 'help.html', data)
 
@@ -88,7 +91,7 @@ def browse(request):
         "original_query":{},
         "current_query":{}
     }
-    data.update(render_data)
+    data.update(get_const_data())
     return render(request, 'browse.html', data)
 
 def browse_types(request):
@@ -97,7 +100,7 @@ def browse_types(request):
         "original_query":{},
         "current_query":{}
     }
-    data.update(render_data)
+    data.update(get_const_data())
     return render(request, 'browse_types.html', data)
 
 def browse_variants(request, histone_type):
@@ -140,7 +143,7 @@ def browse_variants(request, histone_type):
     #Store sequences in session, accesed in get_sequence_table_data
     data["original_query"] = {"id_hist_type":histone_type}
 
-    data.update(render_data)
+    data.update(get_const_data())
     return render(request, 'browse_variants.html', data)
 
 def browse_variant_with_highlighted_sequence(request, histone_type, variant, accession):
@@ -258,7 +261,7 @@ def browse_variant(request, histone_type, variant, accession=None):
 
     data["original_query"] = {"id_variant":variant.id}
 
-    data.update(render_data)
+    data.update(get_const_data())
     return render(request, 'browse_variant.html', data)
 
 def browse_variant_clipped(request, variant, accession=None):
@@ -289,7 +292,7 @@ def search(request):
 
     data["score_min"], data["score_max"] = result.get_score_range()
 
-    data.update(render_data)
+    data.update(get_const_data())
     return render(request, 'search.html', data)
 
 def basket(request):
@@ -297,7 +300,7 @@ def basket(request):
         "original_query":{},
         "current_query":{}
     }
-    data.update(render_data)
+    data.update(get_const_data())
     return render(request, 'basket.html', data)
 
 def analyze(request):
@@ -329,7 +332,7 @@ def analyze(request):
     else:
         data["analyze_form"] = AnalyzeFileForm(initial={"sequence":">Arabidopsis|NP_181415.1|H2A.Z Arabidopsis_H2A.Z_15224957\nMAGKGGKGLLAAKTTAA\nAANKDSVKKKSISRSSRAGIQFPVGRIHRQLKQRVSAHGRVGATAAVYTASI\nLEYLTAEVLELAGNASKDLKVKRITPRHLQLAIRGDEELDTLIKGTIAGGGVI\nPHIHKSLVNKVTKD"})
     # print data.get('result',0)
-    data.update(render_data)
+    data.update(get_const_data())
     return render(request, 'analyze.html', data)
 
 def blast_sequences(request):
@@ -362,7 +365,7 @@ def blast_sequences(request):
     else:
         data["analyze_form"] = AnalyzeFileForm(initial={"sequence":">Arabidopsis|NP_181415.1|H2A.Z Arabidopsis_H2A.Z_15224957\nMAGKGGKGLLAAKTTAA\nAANKDSVKKKSISRSSRAGIQFPVGRIHRQLKQRVSAHGRVGATAAVYTASI\nLEYLTAEVLELAGNASKDLKVKRITPRHLQLAIRGDEELDTLIKGTIAGGGVI\nPHIHKSLVNKVTKD\n>Trypanosoma|XP_846259.1|H2A.Z Trypanosoma_H2A.Z_72391930\nMSLTGDDAVPQAPLVGGVAMSPEQASALTGGKLGGKAVGPAHGKGKGKGKGK\nRGGKTGGKAGRRDKMTRAARADLNFPVGRIHSRLKDGLNRKQRCGASAAIYC\nAALLEYLTSEVIELAGAAAKAQKTERIKPRHLLLAIRGDEELNQIVNATIAR\nGGVVPFVHKSLEKKIIKKSKRGS"})
     # print data.get('result',0)
-    data.update(render_data)
+    data.update(get_const_data())
     return render(request, 'blast_sequences.html', data)
 
 def human(request):
@@ -373,7 +376,7 @@ def human(request):
         "original_query":{},
         "current_query":{}
     }
-    data.update(render_data)
+    data.update(get_const_data())
     return render(request, 'human.html', data)
 
 def statistics_test_delete(request):
@@ -382,7 +385,7 @@ def statistics_test_delete(request):
     #     "original_query": {},
     #     "current_query": {}
     # }
-    # data.update(render_data)
+    # data.update(get_const_data())
     # return render(request, 'statistics.html', data)
     import matplotlib.pyplot as plt
     import numpy as np
@@ -449,7 +452,7 @@ def statistics(request):
     # return render(request, 'statistics.html', {'figure': html_fig, 'general_stat': general_stat})
     data = {'general_stat': general_stat}
     data["original_query"] = {}
-    data.update(render_data)
+    data.update(get_const_data())
     # assert False
     return render(request, 'statistics.html', data)
 
