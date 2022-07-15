@@ -27,7 +27,7 @@ def histonedb_classifier_api():
         data = classify_sequences.main(db=seq_filename)
 
 #        os.remove(os.path.join(config['PREDICTION']['directory'], seq_filename)
-    return jsonify(data)
+    return jsonify(list(data))
 
 
 if __name__ == "__main__":
