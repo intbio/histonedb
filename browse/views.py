@@ -67,7 +67,7 @@ def get_const_data():
         "filter_form": AdvancedFilterForm(),
         "variants": {hist_type.id: hist_type.variants.all() for hist_type in Histone.objects.all()},
     }
-
+# comment test
 def tree_test(request):
     with open(os.path.join(trees_directory, "H2A_aligned.ph"), 'r') as f:
         tree_text = f.read().replace('\n', '')
