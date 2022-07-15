@@ -1,13 +1,25 @@
 from flask import Flask, jsonify, request
-import os, configparser
+import os, configparser, logging
 from datetime import datetime
 
-import classify_sequences
+from classify_sequences import HistonedbPredictor
 
 app = Flask(__name__)
 
 config = configparser.ConfigParser()
-config.read('./histonedb.ini')
+config.read('./prediction.ini')
+
+# logging.basicConfig(filename=os.path.join(config['LOG']['prediction_log'], "classification.log"),
+#                     format='%(asctime)s %(name)s %(levelname)-8s %(message)s',
+#                     level=logging.INFO,
+#                     datefmt='%Y-%m-%d %H:%M:%S')
+logging.basicConfig(filename=os.path.join(os.path.join('log'), "classification.log"),
+                    format='%(asctime)s %(name)s %(levelname)-8s %(message)s',
+                    level=logging.INFO,
+                    datefmt='%Y-%m-%d %H:%M:%S')
+log = logging.getLogger(__name__)
+
+# PREDICTION_DIRECTORY = os.path.join('prediction_app', 'prediction')
 
 @app.route('/')
 def index():
@@ -24,7 +36,8 @@ def histonedb_classifier_api():
             # print(os.getcwd(), os.path, os.listdir())
             f.write(request_data)
         # data = [{'header': seq.split('\n', maxsplit=1)[0], 'seq': seq.split('\n', maxsplit=1)[1].replace('\n', '')} for seq in request_data.split('>')[1:]]
-        data = classify_sequences.main(db=seq_filename)
+        hp = HistonedbPredictor(config=config)
+        data = hp.predict(db=seq_filename)
 
 #        os.remove(os.path.join(config['PREDICTION']['directory'], seq_filename)
     return jsonify(list(data))

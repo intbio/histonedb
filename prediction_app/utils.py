@@ -75,8 +75,8 @@ class CustomList(list):
 
 log = logging.getLogger(__name__)
 
-config = configparser.ConfigParser()
-config.read('./histonedb.ini')
+# config = configparser.ConfigParser()
+# config.read('./histonedb.ini')
 
 def predict_types(sequences, hmmout, hmmdb, E=10, accession_retrieve=None):
     """
@@ -102,7 +102,7 @@ def predict_types(sequences, hmmout, hmmdb, E=10, accession_retrieve=None):
     log.info("Parsing search results...")
     return parse_hmm_search_out(hmmout=hmmout, accession_retrieve=accession_retrieve)
 
-def predict_variants(sequences, blastout, blastdb, E=.01, accession_retrieve=None):
+def predict_variants(sequences, blastout, blastdb, features_file, E=.01, accession_retrieve=None):
     """
     This method do a search among given sequences and classify by histone variants.
     All the results saves to the result_file, e.g.: needs correction
@@ -121,7 +121,7 @@ def predict_variants(sequences, blastout, blastdb, E=.01, accession_retrieve=Non
     # log.info("Predicting variants via BLAST")
     log.info("Running BLASTP for {} sequences...".format(len(sequences)))
     make_blastp(sequences, blastdb, blastout=blastout, E=E)
-    res = parse_blast_search_out(blast_file=blastout, accession_retrieve=accession_retrieve)
+    res = parse_blast_search_out(blast_file=blastout, features_file=features_file, accession_retrieve=accession_retrieve)
     h2ax_accessions_less_motif = [s.id for s in sequences if s.id in res.values('accession', lambda d: 'H2A.X' in d['variant'] and d['best']) and not check_features_H2AX(s.id, str(s.seq))]
     res.set_values('variant', 'H2A.X|generic', lambda d: d['accession'] in h2ax_accessions_less_motif and d['best'])
     h2az_accessions_with_motif = [s.id for s in sequences if s.id in res.values('accession', lambda d: 'H2A.Z' in d['variant'] and d['best']) and check_features_H2AX(s.id, str(s.seq))]
@@ -192,8 +192,8 @@ def get_best_hsp(hsps, align_longer=0):
             best_alignment_hsp = hsp
     return best_alignment_hsp
 
-def check_features_macroH2A(query_accession, hsp_hit_start, hsp_hit_end):
-    with open(config['DATA']['features'], encoding='utf-8') as feature_info_file:
+def check_features_macroH2A(query_accession, hsp_hit_start, hsp_hit_end, features_file):
+    with open(features_file, encoding='utf-8') as feature_info_file:
         feature_info = json.load(feature_info_file)
     group = list(filter(lambda x: x[1]=='M', enumerate(feature_info['H2A']['macroH2A']['feature1'])))
     feature_start, feature_end = group[0][0], group[-1][0]
@@ -208,7 +208,7 @@ def check_features_H2AX(query_accession, query):
     log.info(f'Checking {query_accession} for H2A.X-motif')
     return re.search(r'SQ[ED][YFLIA]$', query)
 
-def parse_blast_search_out(blast_file, accession_retrieve=None):
+def parse_blast_search_out(blast_file, features_file, accession_retrieve=None):
     """Parse blastFile file and return results as dict.
         Parameters:
         ___________
@@ -254,7 +254,8 @@ def parse_blast_search_out(blast_file, accession_retrieve=None):
         # If hsp contains macro domain?
         if 'macroH2A' in histone_variant and not check_features_macroH2A(query_accession=id,
                                                                          hsp_hit_start=best_alignments[0]['best_hsp'].sbjct_start, # get start and end of hit HSP
-                                                                         hsp_hit_end=best_alignments[0]['best_hsp'].sbjct_end):
+                                                                         hsp_hit_end=best_alignments[0]['best_hsp'].sbjct_end,
+                                                                         features_file=features_file):
             histone_variant = f'{histone_variant}|generic'
 
         accession = accession_retrieve("{} {}".format(id, description)) if accession_retrieve else id
