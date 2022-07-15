@@ -16,19 +16,75 @@
     <p class="text-center">Classification tree of histones and their variants</p>
   </div>
 </div>
-<!-- <div class="container"> -->
-  <!-- <h3>Click on node to collapse/expand branches. Click on node label to view info, sequence alignment and phylogeny. </h3>
-  <div id="tree"></div>
-  <h1>Multiple sequence alignment will appear below</h1>
-  <div id="menu"></div>
-  <div id="msa"></div> -->
-  <!-- <div class="col-sm-3">
-    
-  </div>
-  <div class="col-sm-9">
-
-  </div> -->
-<!-- </div> -->
+<div class="container">
+    <div class="panel-group" id="accordion">
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h4 class="panel-title">
+                    <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#type_H2A">Histone H2A</a>
+                </h4>
+            </div>
+            <div id="type_H2A" class="panel-collapse collapse in">
+                <div class="panel-body">
+                    <img class="img-responsive pull-left" src="{% static 'browse/img/H2A_front.png' %}" width="5%" />
+                    <a href="{% url 'browse:browse_variants' 'H2A' %}">H2A</a>
+                </div>
+            </div>
+        </div>
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h4 class="panel-title">
+                    <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#type_H2B">Histone H2B</a>
+                </h4>
+            </div>
+            <div id="type_H2B" class="panel-collapse collapse">
+                <div class="panel-body">
+                    <img class="img-responsive pull-left" src="{% static 'browse/img/H2B_front.png' %}" width="5%" />
+                    <a href="{% url 'browse:browse_variants' 'H2B' %}">H2B</a>
+                </div>
+            </div>
+        </div>
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h4 class="panel-title">
+                    <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#type_H3">Histone H3</a>
+                </h4>
+            </div>
+            <div id="type_H3" class="panel-collapse collapse">
+                <div class="panel-body">
+                    <img class="img-responsive pull-left" src="{% static 'browse/img/H3_front.png' %}" width="5%" />
+                    <a href="{% url 'browse:browse_variants' 'H3' %}">H3</a>
+                </div>
+            </div>
+        </div>
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h4 class="panel-title">
+                    <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#type_H4">Histone H4</a>
+                </h4>
+            </div>
+            <div id="type_H4" class="panel-collapse collapse">
+                <div class="panel-body">
+                    <img class="img-responsive pull-left" src="{% static 'browse/img/H4_front.png' %}" width="5%" />
+                    <a href="{% url 'browse:browse_variants' 'H4' %}">H4</a>
+                </div>
+            </div>
+        </div>
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h4 class="panel-title">
+                    <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#type_H1">Linker histone H1</a>
+                </h4>
+            </div>
+            <div id="type_H1" class="panel-collapse collapse">
+                <div class="panel-body">
+                    <img class="img-responsive pull-left" src="{% static 'browse/img/H1.png' %}" width="5%" />
+                    <a href="{% url 'browse:browse_variants' 'H1' %}">H1</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 
 {#<div class="container-fluid img-responsive">#}
 {#  <div class="row">#}
