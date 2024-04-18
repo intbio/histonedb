@@ -302,6 +302,14 @@ def human(request):
     }
     return render(request, 'human.html', data)
 
+def newcurated(request):
+    data = {
+        "filter_form":AdvancedFilterForm(),
+        "original_query":{},
+        "current_query":{}
+    }
+    return render(request, 'new_curated.html', data)
+
 
 def get_sequence_table_data(request):
     """Downloads the previous search and converts into json required by Bootstrap table
