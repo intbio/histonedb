@@ -18,6 +18,12 @@
 <script type="text/javascript" src="{% static 'browse/js/jquery.dataTables.min.js' %}"></script>
 <script type="text/javascript" src="{% static 'browse/js/dataTables.bootstrap.js' %}"></script>
 <script type="text/javascript" src="{% static 'browse/js/csv_to_html_table.js' %}"></script>
+
+<script type="text/javascript">
+    $(function() { 
+      $('#browse_navbar_button').addClass('active');
+    });
+</script>
 {% endblock %}
 
 {% block content %}
