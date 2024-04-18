@@ -1,0 +1,104 @@
+{% extends "base.html" %}
+{% load staticfiles %}
+
+{% block includes %}
+<link rel="stylesheet" type="text/css" href="{% static 'browse/css/msa0.4.6.css' %}" />
+<script src="{% static 'browse/js/xhr@latest.js' %}"></script>
+<script src="{% static 'browse/js/msa@0.4.6.js' %}"></script>
+<script src="{% static 'browse/js/biojs-io-fasta.js' %}"></script>
+<script src="{% static 'browse/js/biojs-io-gff.js' %}"></script>
+<script src="{% static 'browse/js/msa.js' %}"></script>
+
+<!-- Bootstrap core JavaScript
+================================================== -->
+<!-- Placed at the end of the document so the pages load faster -->
+<script type="text/javascript" src="{% static 'browse/js/jquery-2.1.3.min.js' %}"></script>
+<script type="text/javascript" src="{% static 'browse/js/bootstrap.min.js' %}"></script>
+<script type="text/javascript" src="{% static 'browse/js/jquery.csv.min.js' %}"></script>
+<script type="text/javascript" src="{% static 'browse/js/jquery.dataTables.min.js' %}"></script>
+<script type="text/javascript" src="{% static 'browse/js/dataTables.bootstrap.js' %}"></script>
+<script type="text/javascript" src="{% static 'browse/js/csv_to_html_table.js' %}"></script>
+
+<script type="text/javascript">
+  function format_variant(variant){
+        var variant_full = variant.replace(/ /g, '_')
+        var exclude_variants = ['', 'H1', 'H1.1', 'H1.2', 'H1.3', 'H1.4', 'H1.5', 'H10', 'H2.1', 'H2.2', 'H2A.2', 'H2A.J',
+                                'H2B.M', 'H2B.S', '?','H1.12'];
+        var variants_dict = {'cenH3_CENPA': 'cenH3',
+                             'TS_H2A.1': 'H2A.1',
+                             'TS_H2B.1': 'H2B.1',
+                             'canonical_H3.1': 'canonical_H3',
+                             'canonical_H3.2': 'canonical_H3',
+                             'canonical_H2A.1': 'canonical_H2A',
+                             'canonical_H2A.2': 'canonical_H2A',
+                             'clustered_H2A': 'canonical_H2A',
+                             'clustered_H2B': 'canonical_H2B',
+                             'clustered_H3.1': 'canonical_H3',
+                             'clustered_H3.2': 'canonical_H3',
+                             'clustered_H4': 'canonical_H4',
+                             'H2A.B.1': 'H2A.B',
+                             'H2A.B.2': 'H2A.B',
+                             'H2A.B.3': 'H2A.B',
+                             'H2A.Z.1': 'H2A.Z',
+                             'H2A.Z.2': 'H2A.Z',
+                             'H3.Y.1': 'H3.Y',
+                             'H3.Y.2': 'H3.Y',
+                             'macroH2A.1': 'macroH2A',
+                             'macroH2A.2': 'macroH2A'}
+        if (exclude_variants.includes(variant_full) || variant_full.search("^[a-zA-Z0-9\._]+$") < 0)
+            return variant;
+        else
+            if (variant_full in variants_dict)
+                return "<a href='/variant/" + variants_dict[variant_full] + "'>" + variant + "</a>";
+            else
+                return "<a href='/variant/" + variant_full + "'>" + variant + "</a>";
+    };
+    function format_type(histone_type){
+        if (histone_type)
+            return "<a href='/type/" + histone_type + "'>" + histone_type + "</a>";
+        else
+            return histone_type;
+    };
+    function format_pmid(pmids){
+        if (pmids) {
+            var pmids_list = pmids.split(" ");
+            var links_str = "<a href='https://www.ncbi.nlm.nih.gov/pubmed/" + pmids_list[0] + "'>" + pmids_list[0] + "</a>";
+            if (pmids_list[0].search("^[0-9]+$") < 0)
+                links_str = pmids_list[0];
+            for (i = 1; i < pmids_list.length; i++) {
+                if (pmids_list[i].search("^[0-9]+$") < 0)
+                    links_str += "; " + pmids_list[i];
+                else
+                    links_str += "; <a href='https://www.ncbi.nlm.nih.gov/pubmed/" + pmids_list[i] + "'>" + pmids_list[i] + "</a>";
+            }
+            return links_str;
+        }
+        else
+            return pmids;
+    };
+    CsvToHtmlTable.init({
+        csv_path: "https://intbio.org/histonedb/CURATED_SET/histones.csv",
+        element: 'table-container',
+        allow_download: true,
+        csv_options: {separator: ',', delimiter: '"'},
+        datatables_options: {"paging": false} ,
+        custom_formatting: [[1, format_type], [2, format_variant], [14, format_pmid]]
+    });
+</script>
+{% endblock %}
+
+{% block content %}
+<div class="container">
+  <div class="page-header">
+	  <h1>List of human histone proteins</h1>
+  </div>
+
+    <div class="container-fluid">
+
+      <div id='table-container'></div>
+
+    </div><!-- /.container -->
+</div>
+
+<!-- <script type="text/javascript" src="https://intbio.org/hist_gene_prot/disp_func.js"></script> -->
+{% endblock %}
