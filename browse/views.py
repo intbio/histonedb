@@ -310,6 +310,13 @@ def newcurated(request):
     }
     return render(request, 'new_curated.html', data)
 
+def viral(request):
+    data = {
+        "filter_form":AdvancedFilterForm(),
+        "original_query":{},
+        "current_query":{}
+    }
+    return render(request, 'viral.html', data)
 
 def get_sequence_table_data(request):
     """Downloads the previous search and converts into json required by Bootstrap table

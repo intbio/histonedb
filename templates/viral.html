@@ -1,0 +1,72 @@
+{% extends "base.html" %}
+{% load staticfiles %}
+
+{% block includes %}
+<link rel="stylesheet" type="text/css" href="{% static 'browse/css/msa0.4.6.css' %}" />
+<script src="{% static 'browse/js/xhr@latest.js' %}"></script>
+<script src="{% static 'browse/js/msa@0.4.6.js' %}"></script>
+<script src="{% static 'browse/js/biojs-io-fasta.js' %}"></script>
+<script src="{% static 'browse/js/biojs-io-gff.js' %}"></script>
+<script src="{% static 'browse/js/msa.js' %}"></script>
+
+<!-- Bootstrap core JavaScript
+================================================== -->
+<!-- Placed at the end of the document so the pages load faster -->
+<script type="text/javascript" src="{% static 'browse/js/jquery-2.1.3.min.js' %}"></script>
+<script type="text/javascript" src="{% static 'browse/js/bootstrap.min.js' %}"></script>
+<script type="text/javascript" src="{% static 'browse/js/jquery.csv.min.js' %}"></script>
+<script type="text/javascript" src="{% static 'browse/js/jquery.dataTables.min.js' %}"></script>
+<script type="text/javascript" src="{% static 'browse/js/dataTables.bootstrap.js' %}"></script>
+<script type="text/javascript" src="{% static 'browse/js/csv_to_html_table.js' %}"></script>
+{% endblock %}
+
+{% block content %}
+<div class="container">
+  <div class="page-header">
+	  <h1>List of histone proteins in viruses</h1>
+  </div>
+
+    <div class="container-fluid">
+
+      <div id='table-container'></div>
+
+    </div><!-- /.container -->
+</div>
+
+<script type="text/javascript">
+    function format_accession(accession){
+        if (accession)
+            return "<a href='https://www.ncbi.nlm.nih.gov/protein/" + accession + "'>" + accession + "</a>";
+        else
+            return accession;
+    };
+    function format_pmid(pmids){
+        if (pmids) {
+            var pmids_list = pmids.replace("(?)", '').split(" ");
+            var links_str = "<a href='https://www.ncbi.nlm.nih.gov/pubmed/" + pmids_list[0] + "'>" + pmids_list[0] + "</a>";
+            if (pmids_list[0].search("^[0-9]+$") < 0)
+                links_str = pmids_list[0];
+            for (i = 1; i < pmids_list.length; i++) {
+                if (pmids_list[i].search("^[0-9]+$") < 0)
+                    links_str += "; " + pmids_list[i];
+                else
+                    links_str += "; <a href='https://www.ncbi.nlm.nih.gov/pubmed/" + pmids_list[i] + "'>" + pmids_list[i] + "</a>";
+            }
+            return links_str;
+        }
+        else
+            return pmids;
+    };
+    CsvToHtmlTable.init({
+        csv_path: "https://intbio.org/histonedb/CURATED_SET/viral_histones.csv",
+        element: 'table-container',
+        allow_download: true,
+        csv_options: {separator: ',', delimiter: '"'},
+        datatables_options: {"paging": false, "columnDefs": [{ targets: [0, 1, 4, 5], visible: true},
+                                                            { targets: '_all', visible: false }]} ,
+        custom_formatting: [[0, format_accession], [5, format_pmid]]
+    });
+  </script>
+
+<!-- <script type="text/javascript" src="https://intbio.org/hist_gene_prot/disp_func.js"></script> -->
+{% endblock %}

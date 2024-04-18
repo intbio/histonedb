@@ -18,6 +18,7 @@ urlpatterns = [
     url(r'^basket/$', views.basket),
     url(r'^human/$', views.human),
     url(r'^newcurated/$', views.newcurated),
+    url(r'^viral/$', views.viral),
 
     #Parameters are stored as session variables a GET response
     url(r'^data/sequences/json$', views.get_sequence_table_data),
