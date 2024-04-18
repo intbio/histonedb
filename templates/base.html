@@ -96,6 +96,17 @@
             <li id="analyze_navbar_button"><a href="{% url 'browse.views.analyze' %}">Analyze Your Sequence</a></li>
             <li id="basket_navbar_button"><a href="{% url 'browse.views.basket' %}"><span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span> Basket <span class="badge badge-basket"></span></a></li>
             <li id="human_navbar_button"><a href="{% url 'browse.views.human' %}">Human Histones</a></li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                New curated lists
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="{% url 'browse.views.newcurated' %}">Eukaryote Histones</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="#">Archaeal Histones</a></li>
+                <li><a class="dropdown-item" href="{% url 'browse.views.viral' %}">Viral Histones</a></li>
+              </ul>
+            </li>
             <li id="help_navbar_button"><a href="{% url 'browse.views.help' %}">Help</a></li>
             <form role="search" class="navbar-form navbar-right" action="{% url 'browse.views.search' %}" method="POST">{% csrf_token %}
               <input type="hidden" name="reset" id="reset_previous_searches" value="true" />
