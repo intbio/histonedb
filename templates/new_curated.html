@@ -204,7 +204,7 @@
     };
       function format_pmid(pmids){
           if (pmids) {
-              var pmids_list = pmids.split(" ");
+              var pmids_list = pmids.replace("(?)", '').split(" ");
               var links_str = "<a href='https://www.ncbi.nlm.nih.gov/pubmed/" + pmids_list[0] + "'>" + pmids_list[0] + "</a>";
               if (pmids_list[0].search("^[0-9]+$") < 0)
                   links_str = pmids_list[0];
