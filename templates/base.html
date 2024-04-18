@@ -97,6 +97,20 @@
             <li id="basket_navbar_button"><a href="{% url 'browse.views.basket' %}"><span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span> Basket <span class="badge badge-basket"></span></a></li>
             <li id="human_navbar_button"><a href="{% url 'browse.views.human' %}">Human Histones</a></li>
             <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Dropdown
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item" href="#">Another action</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Something else here</a>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" href="#">Disabled</a>
+            </li>
+            <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                 New curated lists
               </a>
