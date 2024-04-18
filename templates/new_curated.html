@@ -34,6 +34,12 @@
 </div>
 
 <script type="text/javascript">
+    function format_accession(accession){
+        if (accession)
+            return "<a href='https://www.ncbi.nlm.nih.gov/protein/" + accession + "'>" + accession + "</a>";
+        else
+            return accession;
+      };
     function format_variant(variant){
           var variant_full = variant.replace(/ /g, '_')
           var exclude_variants = ['', 'H1', 'H1.1', 'H1.2', 'H1.3', 'H1.4', 'H1.5', 'H10', 'H2.1', 'H2.2', 'H2A.2', 'H2A.J',
@@ -58,7 +64,11 @@
                                'H3.Y.1': 'H3.Y',
                                'H3.Y.2': 'H3.Y',
                                'macroH2A.1': 'macroH2A',
-                               'macroH2A.2': 'macroH2A'}
+                               'macroH2A.2': 'macroH2A',
+                               'cH2A': 'canonical_H2A',
+                               'cH2B': 'canonical_H2B',
+                               'cH3': 'canonical_H3',
+                               'cH4': 'canonical_H4'}
           if (exclude_variants.includes(variant_full) || variant_full.search("^[a-zA-Z0-9\._]+$") < 0)
               return variant;
           else
