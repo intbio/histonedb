@@ -39,7 +39,7 @@
             return "<a href='https://www.ncbi.nlm.nih.gov/protein/" + accession + "'>" + accession + "</a>";
         else
             return accession;
-      };
+    };
     function format_variant(variant){
           var variant_full = variant.replace(/ /g, '_')
           var exclude_variants = ['', 'H1', 'H1.1', 'H1.2', 'H1.3', 'H1.4', 'H1.5', 'H10', 'H2.1', 'H2.2', 'H2A.2', 'H2A.J',
@@ -76,14 +76,14 @@
                   return "<a href='/variant/" + variants_dict[variant_full] + "'>" + variant + "</a>";
               else
                   return "<a href='/variant/" + variant_full + "'>" + variant + "</a>";
-      };
-      function format_type(histone_type){
-          if (histone_type)
-              return "<a href='/type/" + histone_type + "'>" + histone_type + "</a>";
-          else
-              return histone_type;
-      };
-      function format_hgnc(hgnc_symbol){
+    };
+    function format_type(histone_type){
+        if (histone_type)
+            return "<a href='/type/" + histone_type + "'>" + histone_type + "</a>";
+        else
+            return histone_type;
+    };
+    function format_hgnc(hgnc_symbol){
         var hgnc_dict = {'H1-0': 'HGNC:4714',
                          'H1-1': 'HGNC:4715',
                          'H1-2': 'HGNC:4716',
@@ -212,32 +212,38 @@
         else
             return hgnc_symbol;
     };
-      function format_pmid(pmids){
-          if (pmids) {
-              var pmids_list = pmids.replace("(?)", '').split(" ");
-              var links_str = "<a href='https://www.ncbi.nlm.nih.gov/pubmed/" + pmids_list[0] + "'>" + pmids_list[0] + "</a>";
-              if (pmids_list[0].search("^[0-9]+$") < 0)
-                  links_str = pmids_list[0];
-              for (i = 1; i < pmids_list.length; i++) {
-                  if (pmids_list[i].search("^[0-9]+$") < 0)
-                      links_str += "; " + pmids_list[i];
-                  else
-                      links_str += "; <a href='https://www.ncbi.nlm.nih.gov/pubmed/" + pmids_list[i] + "'>" + pmids_list[i] + "</a>";
-              }
-              return links_str;
-          }
-          else
-              return pmids;
-      };
-      CsvToHtmlTable.init({
-          csv_path: "https://intbio.org/histonedb/CURATED_SET/histones.csv",
-          element: 'table-container',
-          allow_download: true,
-          csv_options: {separator: ',', delimiter: '"'},
-          datatables_options: {"paging": false, "columnDefs": [{ targets: [0, 1, 2, 7, 8, 9, 10, 11, 12, 14], visible: true},
-                                                               { targets: '_all', visible: false }]} ,
-          custom_formatting: [[0, format_accession], [1, format_type], [2, format_variant], [7, format_hgnc], [14, format_pmid]]
-      });
+    function format_taxid(taxid){
+        if (taxid)
+            return "<a href='https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=" + taxid + "'>" + taxid + "</a>";
+        else
+            return taxid;
+    };
+    function format_pmid(pmids){
+        if (pmids) {
+            var pmids_list = pmids.replace("(?)", '').split(" ");
+            var links_str = "<a href='https://www.ncbi.nlm.nih.gov/pubmed/" + pmids_list[0] + "'>" + pmids_list[0] + "</a>";
+            if (pmids_list[0].search("^[0-9]+$") < 0)
+                links_str = pmids_list[0];
+            for (i = 1; i < pmids_list.length; i++) {
+                if (pmids_list[i].search("^[0-9]+$") < 0)
+                    links_str += "; " + pmids_list[i];
+                else
+                    links_str += "; <a href='https://www.ncbi.nlm.nih.gov/pubmed/" + pmids_list[i] + "'>" + pmids_list[i] + "</a>";
+            }
+            return links_str;
+        }
+        else
+            return pmids;
+    };
+    CsvToHtmlTable.init({
+        csv_path: "https://intbio.org/histonedb/CURATED_SET/histones.csv",
+        element: 'table-container',
+        allow_download: true,
+        csv_options: {separator: ',', delimiter: '"'},
+        datatables_options: {"paging": false, "columnDefs": [{ targets: [0, 1, 2, 7, 8, 9, 10, 11, 12, 14], visible: true},
+                                                            { targets: '_all', visible: false }]} ,
+        custom_formatting: [[0, format_accession], [1, format_type], [2, format_variant], [7, format_hgnc], [8, format_taxid], [14, format_pmid]]
+    });
   </script>
 
 <!-- <script type="text/javascript" src="https://intbio.org/hist_gene_prot/disp_func.js"></script> -->
