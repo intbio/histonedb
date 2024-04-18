@@ -95,10 +95,11 @@
             {#<li id="search_navbar_button"><a href="#" id="show_advanced_search">Advanced Search</a></li>#}
             <li id="analyze_navbar_button"><a href="{% url 'browse.views.analyze' %}">Analyze Your Sequence</a></li>
             <li id="basket_navbar_button"><a href="{% url 'browse.views.basket' %}"><span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span> Basket <span class="badge badge-basket"></span></a></li>
-            <li id="human_navbar_button"><a href="{% url 'browse.views.human' %}">Human Histones</a></li>
+            <!-- <li id="human_navbar_button"><a href="{% url 'browse.views.human' %}">Human Histones</a></li> -->
             <li class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">New curated lists <span class="caret"></span></a>
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Curated Histones <span class="caret"></span></a>
               <ul class="dropdown-menu">
+                <li id="human_navbar_button"><a href="{% url 'browse.views.human' %}">Human Histones</a></li>
                 <li><a href="{% url 'browse.views.newcurated' %}">Eukaryote Histones</a></li>
                 <li role="separator" class="divider"></li>
                 <li><a href="#">Archaeal Histones</a></li>
