@@ -32,6 +32,12 @@
         else
             return accession;
     };
+    function format_taxid(taxid){
+        if (taxid)
+            return "<a href='https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=" + taxid + "'>" + taxid + "</a>";
+        else
+            return taxid;
+    };
     function format_pmid(pmids){
         if (pmids) {
             var pmids_list = pmids.replace("(?)", '').split(" ");
@@ -50,13 +56,13 @@
             return pmids;
     };
     CsvToHtmlTable.init({
-        csv_path: "https://intbio.org/histonedb/CURATED_SET/curated_service/viral_histones.csv",
+        csv_path: "https://intbio.org/histonedb/CURATED_SET/curated_service/viral_histones_all.csv",
         element: 'table-container',
         allow_download: true,
         csv_options: {separator: ',', delimiter: '"'},
-        datatables_options: {"paging": false, "columnDefs": [{ targets: [0, 1, 4, 5], visible: true},
+        datatables_options: {"paging": false, "columnDefs": [{ targets: [0, 1, 4, 5, 6, 7, 8], visible: true},
                                                             { targets: '_all', visible: false }]} ,
-        custom_formatting: [[0, format_accession], [5, format_pmid]]
+        custom_formatting: [[0, format_accession], [5, format_pmid], [7, format_pmid]]
     });
   </script>
 
