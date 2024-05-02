@@ -56,13 +56,13 @@
             return pmids;
     };
     CsvToHtmlTable.init({
-        csv_path: "https://intbio.org/histonedb/CURATED_SET/curated_service/viral_histones_all.csv",
+        csv_path: "https://intbio.org/histonedb/CURATED_SET/curated_service/archaea_histones.csv",
         element: 'table-container',
         allow_download: true,
         csv_options: {separator: ',', delimiter: '"'},
-        datatables_options: {"paging": false, "columnDefs": [{ targets: [0, 1, 4, 5, 6, 7], visible: true},
+        datatables_options: {"paging": false, "columnDefs": [{ targets: [0, 2, 3, 4, 5, 6, 7, 8], visible: true},
                                                             { targets: '_all', visible: false }]} ,
-        custom_formatting: [[0, format_accession], [5, format_taxid], [7, format_pmid]]
+        custom_formatting: [[0, format_accession], [6, format_taxid], [8, format_pmid]]
     });
   </script>
 
