@@ -74,6 +74,14 @@ def muscle_p2p_aln(msa1,msa2, options=[],debug = False):
     msa = MultipleSeqAlignment(sequences)
     return msa
 
+def get_classification_variants(obj):
+    lst = []
+    for key in obj:
+        if isinstance(obj[key], dict):
+            lst.extend(get_classification_variants(obj[key]))
+        else:
+            lst.append(key)
+    return lst
 
 # def show_msa_with_features(self, hist_type=None, variant=None, subvariant=None, taxonomy_id=None, organism=None, phylum=None, taxonomy_class=None,
 #                              shading_modes=['charge_functional'], legend=False, title='', logo=False, hideseqs=False, splitN=20, setends=[],
@@ -181,6 +189,14 @@ class CuratedSet(object):
         for acc_count in c.most_common():
             if acc_count[1] == 1: continue
             else: yield acc_dict[acc_count[0]]
+            
+    def has_missed_variants(self):
+        """
+        :return: missed variants in data as list of str
+        """
+        # найти разность между множествами
+        missed_variants = set(get_classification_variants(self.variants_tree)) - set(self.data["variant"])
+        return missed_variants
 
     def create_fasta_seqrec(self):
         for i, row in self.data.iterrows():
@@ -190,7 +206,7 @@ class CuratedSet(object):
                 self.fasta_seqrec[row['accession']] = SeqRecord(Seq(row['sequence']),
                                                                 id=(row['variant']+"_").split("(")[0][:-1]+'_'+row['organism'].replace(' ','_')+('_' if len(row['hgnc_gene_name'])>0 else '')+row['hgnc_gene_name'].replace(' ','_')+'_'+row['accession'],
                                                                 description=f"{row['accession']} type: {row['type']}, variant: {row['variant']}, organism: {row['organism']}")
-
+                
     def get_count(self): return self.data.shape[0]
 
     def get_accessions_list(self): return list(self.data['accession'])
