@@ -211,22 +211,19 @@
                     }
                 },
                 "H3.3-like_(Plants)": {
-                    "TS H3.10": "null"
+                    "TS H3.10": "null",
+                    "H3_(Lilly???)": "null"
                 }
             },
             "H3.1-like_(Plants)": "null",
+            "H3.5_(Primates_or_Hominids?)": "null",
             "H3.6_(Mammals?)?": "null",
             "H3.7_(Mammals?)?": "null",
             "H3.8_(Mammals?)?": "null",
-            "H3.5_(Mammals?)": "null",
-            "H3.5_(Hominids?)": "null",
             "H3.P_(Moneuplotes?)": "null",
             "H3.V_(Trypanosomes?)": "null",
             "H3.B_(Giardia?)": "null",
-            "cenH3_(Eukarya)": "null",
-            "H3_(Viruses)": "null",
-            "H3-like_(Plants)": "null",
-            "H3_(Lilly???)": "null"
+            "cenH3_(Eukarya)": "null"
         },
         "H4": {
             "cH4": "null"
