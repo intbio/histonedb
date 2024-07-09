@@ -1,13 +1,10 @@
-import sys
-import json
+import sys, json, configparser
 from  more_itertools import unique_everseen
 
 from django.shortcuts import render
-from django.http import HttpResponse
-from django.http import HttpResponseRedirect
-from django.http import JsonResponse
+from django.http import HttpResponse, HttpResponseRedirect, JsonResponse
 from django.shortcuts import redirect
-from django.core.urlresolvers import reverse
+from django.urls import reverse
 from django.shortcuts import get_list_or_404
 from django.core.exceptions import ObjectDoesNotExist
 from django.templatetags.static import static
@@ -21,17 +18,16 @@ import pandas as pd
 
 #Django libraires
 from browse.models import *
+from browse.aggregate_functions import GroupConcat
 from djangophylocore.models import *
 
 #BioPython
-from Bio import SeqIO
+from Bio import SeqIO, Medline, Entrez
 from Bio.Seq import Seq
 from Bio.SeqRecord import SeqRecord
-from Bio import Medline
-from Bio import Entrez
 Entrez.email = "HistoneDB_user@ncbi.nlm.nih.gov"
 
-from django.db.models import Min, Max, Count, Q
+from django.db.models import Min, Max, Count, Q, Value, IntegerField, CharField, Case, When
 from django.db.models.functions import Coalesce
 
 #Set2 Brewer, used in variant colors
@@ -61,21 +57,50 @@ colors = [
     "#ffed6f",
 ]
 
+seeds_directory = os.path.join(settings.STATIC_ROOT_AUX, "browse", "seeds")
+trees_directory = os.path.join(settings.STATIC_ROOT_AUX, "browse", "trees")
+
+def get_const_data():
+    '''This data is for base template and it is necessary to add to the render data if template extends base.html'''
+
+    return {
+        "filter_form": AdvancedFilterForm(),
+        "variants": {hist_type.id: hist_type.variants.all() for hist_type in Histone.objects.all()},
+    }
+# comment test
+def tree_test(request):
+    with open(os.path.join(trees_directory, "H2A_aligned.ph"), 'r') as f:
+        tree_text = f.read().replace('\n', '')
+    data = {
+        'tree_text':tree_text
+    }
+    return render(request, 'tree_test.html', data)
+
 def help(request):
     data = {
-        "filter_form":AdvancedFilterForm(), 
         "original_query":{},
         "current_query":{}
     }
+    data.update(get_const_data())
+    # assert False
     return render(request, 'help.html', data)
 
-def browse_types(request):
+def browse(request):
     """Home"""
     data = {
-        "filter_form":AdvancedFilterForm(), 
         "original_query":{},
         "current_query":{}
     }
+    data.update(get_const_data())
+    return render(request, 'browse.html', data)
+
+def browse_types(request):
+    """General browse"""
+    data = {
+        "original_query":{},
+        "current_query":{}
+    }
+    data.update(get_const_data())
     return render(request, 'browse_types.html', data)
 
 def browse_variants(request, histone_type):
@@ -84,35 +109,41 @@ def browse_variants(request, histone_type):
     except:
         return "404"
 
-    variants = hist_type.variants.filter(parent_id=None).annotate(num_sequences=Count('sequences')).order_by("id").all().values_list("id", "num_sequences", "taxonomic_span")
-    curated_variants = hist_type.variants.filter(parent_id=None).filter(Q(sequences__reviewed=True) | Q(sequences__reviewed__isnull=True)).annotate(num_sequences=Count('sequences')).order_by("id").all().values_list("num_sequences", flat=True)
-    # curated_variants = hist_type.variants.filter(parent_id=None).filter(sequences__reviewed=True).annotate(num_sequences=Coalesce(Count('sequences'), 0)).order_by("id").all().values_list("num_sequences", flat=True)
-    variants = [{'id': id, 'num_curated': num_curated, 'num_all': num_all,
-                 'alternate_names': ", ".join(Variant.objects.get(id=id).old_names.values_list("name", flat=True)),
-                 'tax_span': tax_span, 'color': color,
-                 'children': get_variants_children(id)} \
-                for (id, num_all, tax_span), num_curated, color in zip(variants, curated_variants, colors)]
-    children = Variant.objects.get(id=variants[0]['id']).direct_children.annotate(num_sequences=Count('sequences')).order_by(
-        "id").all().values_list("id", "num_sequences", "taxonomic_span")
-    curated_children = Variant.objects.get(id=variants[0]['id']).direct_children.filter(Q(sequences__reviewed=True) | Q(sequences__reviewed__isnull=True)).annotate(
-        num_sequences=Count('sequences')).order_by("id").all().values_list("num_sequences", flat=True)
-    # assert False
+    # variants = hist_type.variants.filter(parent_id=None).annotate(num_sequences=Count('sequences')).order_by("id").all().values_list("id", "num_sequences", "taxonomic_span")
+    variants = hist_type.variants.annotate(alternate_names=GroupConcat('old_names__name', separator=', '),
+                                           num_sequences=Count('sequences'),
+                                           num_curated=Count(Case(When(sequences__reviewed=True, then=1), output_field=IntegerField()))).all()
 
+    # variants_list = list(hist_type.variants.filter(parent_id=None).all().values_list("id"))
+    variants_list = [v[0] for v in hist_type.variants.filter(parent_id=None).all().values_list("id")]
+
+    variants_query = str(variants.query)
+    variants_num = variants.values_list("id", "num_sequences", "num_curated", "alternate_names", "taxonomic_span")
+    # curated_variants = hist_type.variants.filter(parent_id=None).filter(Q(sequences__reviewed=True) | Q(sequences__reviewed__isnull=True)).annotate(num_sequences=Count('sequences')).order_by("id").all().values_list("num_sequences", flat=True)
+    # curated_variants = hist_type.variants.filter(parent_id=None).filter(sequences__reviewed=True).annotate(num_sequences=Coalesce(Count('sequences'), 0)).order_by("id").all().values_list("num_sequences", flat=True)
+    # variants = [{'id': id, 'num_curated': num_curated, 'num_all': num_all,
+    #              'alternate_names': ", ".join(Variant.objects.get(id=id).old_names.values_list("name", flat=True)),
+    #              'tax_span': tax_span, 'color': color} \
+    #             for (id, num_all, tax_span), num_curated, color in zip(variants, curated_variants, colors)]
+    # assert False
 
     data = {
         "histone_type": histone_type,
         "histone_description": hist_type.description,
         "browse_section": "type",
         "name": histone_type,
-        "variants": variants,
-        "tree_url": "browse/trees/{}.xml".format(hist_type.id),
-        "seed_url": reverse("browse.views.get_seed_aln_and_features", args=[hist_type.id]),
-        "filter_form": AdvancedFilterForm(),
+        "variants_info": variants,
+        "variants_list": variants_list,
+        "colors": colors,
+        # "tree_url": "browse/trees/{}.xml".format(hist_type.id),
+        "tree_url": f"browse/trees/{hist_type.id}_aligned.ph",
+        "seed_url": reverse("browse:get_seed_aln_and_features", args=[hist_type.id]),
     }
 
     #Store sequences in session, accesed in get_sequence_table_data
     data["original_query"] = {"id_hist_type":histone_type}
-    
+
+    data.update(get_const_data())
     return render(request, 'browse_variants.html', data)
 
 def browse_variant_with_highlighted_sequence(request, histone_type, variant, accession):
@@ -169,8 +200,8 @@ def browse_variant(request, histone_type, variant, accession=None):
        )
 
 #Distinct will not work here, because we order by "start", which is also included - see https://docs.djangoproject.com/en/dev/ref/models/querysets/#distinct
-    features_gen = Feature.objects.filter(template__variant="General{}".format(histone_type)).values_list("name", "description", "color").distinct()
-    features_var = Feature.objects.filter(template__variant=variant).values_list("name", "description", "color").distinct()
+    features_gen = Feature.objects.filter(variant="General{}".format(histone_type)).values_list("name", "description", "color").distinct()
+    features_var = Feature.objects.filter(variant=variant).values_list("name", "description", "color").distinct()
 
     features_gen=list(unique_everseen(features_gen))
     features_var=list(unique_everseen(features_var))
@@ -187,14 +218,13 @@ def browse_variant(request, histone_type, variant, accession=None):
     #     human_sequence = sequences.filter(taxonomy__name="homo sapiens").first()
     if not human_sequence:
         human_sequence = sequences.filter(reviewed=True).first()
-    print(human_sequence)
 
-    # if 'generic' in variant.id:
-    #     sequences = Sequence.objects.filter(variant__id=variant)
-    #     human_sequence = sequences.filter(reviewed=True).first()
+    if not human_sequence:
+        sequences = Sequence.objects.filter(variant__id=variant)
+        human_sequence = sequences.filter(reviewed=True).first()
 
     try:
-        publication_ids = ",".join(map(str, variant.publication_set.values_list("id", flat=True)))
+        publication_ids = ",".join(map(str, variant.publications.values_list("id", flat=True)))
         handle = Entrez.efetch(db="pubmed", id=publication_ids, rettype="medline", retmode="text")
         records = Medline.parse(handle)
         publications = ['{}. "{}" <i>{}</i>, {}. PMID: <a href="http://www.ncbi.nlm.nih.gov/pubmed/?term={}">{}</a>'.format(
@@ -206,7 +236,7 @@ def browse_variant(request, histone_type, variant, accession=None):
             record["PMID"],
            ) for record in records]
     except:
-        publications=["PMID: "+str(x) for x in variant.publication_set.values_list("id", flat=True)]
+        publications=["PMID: "+str(x) for x in variant.publications.values_list("id", flat=True)]
 
     data = {
         "hist_type": variant.hist_type.id,
@@ -217,14 +247,13 @@ def browse_variant(request, histone_type, variant, accession=None):
         "human_sequence": human_sequence.id,
         "publications": publications,
         "sunburst_url": static("browse/sunbursts/{}/{}.json".format(variant.hist_type.id, variant.id)),
-        "seed_url": reverse("browse.views.get_seed_aln_and_features", args=[variant.id]),
+        "seed_url": reverse("browse:get_seed_aln_and_features", args=[variant.id]),
         "colors": color_range,
         "score_min": scores["min"],
         "score_max": scores["max"],
         "browse_section": "variant",
         "description": variant.description,
         "alternate_names": ", ".join(variant.old_names.values_list("name", flat=True)),
-        "filter_form": AdvancedFilterForm(),
         "go_to_curated": go_to_curated,
         "go_to_accession": go_to_accession,
         "highlight_human": highlight_human,
@@ -232,13 +261,14 @@ def browse_variant(request, histone_type, variant, accession=None):
 
     data["original_query"] = {"id_variant":variant.id}
 
+    data.update(get_const_data())
     return render(request, 'browse_variant.html', data)
 
 def browse_variant_clipped(request, variant, accession=None):
     return browse_variant(request, get_type_by_variant(variant), variant, accession)
 
 def search(request):
-    data = {"filter_form": AdvancedFilterForm()}
+    data = {}
 
     if request.method == "POST": 
         query = request.POST.copy()
@@ -262,19 +292,19 @@ def search(request):
 
     data["score_min"], data["score_max"] = result.get_score_range()
 
+    data.update(get_const_data())
     return render(request, 'search.html', data)
 
 def basket(request):
     data = {
-        "filter_form":AdvancedFilterForm(), 
         "original_query":{},
         "current_query":{}
     }
+    data.update(get_const_data())
     return render(request, 'basket.html', data)
 
 def analyze(request):
     data = {
-        "filter_form":AdvancedFilterForm(), 
         "original_query":{},
         "current_query":{}
     }
@@ -302,11 +332,11 @@ def analyze(request):
     else:
         data["analyze_form"] = AnalyzeFileForm(initial={"sequence":">Arabidopsis|NP_181415.1|H2A.Z Arabidopsis_H2A.Z_15224957\nMAGKGGKGLLAAKTTAA\nAANKDSVKKKSISRSSRAGIQFPVGRIHRQLKQRVSAHGRVGATAAVYTASI\nLEYLTAEVLELAGNASKDLKVKRITPRHLQLAIRGDEELDTLIKGTIAGGGVI\nPHIHKSLVNKVTKD"})
     # print data.get('result',0)
+    data.update(get_const_data())
     return render(request, 'analyze.html', data)
 
 def blast_sequences(request):
     data = {
-        "filter_form":AdvancedFilterForm(),
         "original_query":{},
         "current_query":{}
     }
@@ -335,6 +365,7 @@ def blast_sequences(request):
     else:
         data["analyze_form"] = AnalyzeFileForm(initial={"sequence":">Arabidopsis|NP_181415.1|H2A.Z Arabidopsis_H2A.Z_15224957\nMAGKGGKGLLAAKTTAA\nAANKDSVKKKSISRSSRAGIQFPVGRIHRQLKQRVSAHGRVGATAAVYTASI\nLEYLTAEVLELAGNASKDLKVKRITPRHLQLAIRGDEELDTLIKGTIAGGGVI\nPHIHKSLVNKVTKD\n>Trypanosoma|XP_846259.1|H2A.Z Trypanosoma_H2A.Z_72391930\nMSLTGDDAVPQAPLVGGVAMSPEQASALTGGKLGGKAVGPAHGKGKGKGKGK\nRGGKTGGKAGRRDKMTRAARADLNFPVGRIHSRLKDGLNRKQRCGASAAIYC\nAALLEYLTSEVIELAGAAAKAQKTERIKPRHLLLAIRGDEELNQIVNATIAR\nGGVVPFVHKSLEKKIIKKSKRGS"})
     # print data.get('result',0)
+    data.update(get_const_data())
     return render(request, 'blast_sequences.html', data)
 
 def human(request):
@@ -342,19 +373,19 @@ def human(request):
     # human_proteins = pd.read_csv(os.path.join(settings.BASE_DIR, "histone_proteins.csv")).fillna('')
     # human_proteins = human_proteins[['Histone type', 'Previous HGNC Symbol', 'Histone variant', 'HGNC Symbol']]
     data = {
-        "filter_form":AdvancedFilterForm(),
         "original_query":{},
         "current_query":{}
     }
+    data.update(get_const_data())
     return render(request, 'human.html', data)
 
 def statistics_test_delete(request):
     # data = {}
     # data = {
-    #     "filter_form": AdvancedFilterForm(),
     #     "original_query": {},
     #     "current_query": {}
     # }
+    # data.update(get_const_data())
     # return render(request, 'statistics.html', data)
     import matplotlib.pyplot as plt
     import numpy as np
@@ -419,7 +450,11 @@ def statistics(request):
     # with open(os.path.join(settings.STATIC_ROOT_AUX, "browse", "statistics", 'nr_small_per10_v4_20210622-152129', 'test_html_fig.pickle'), 'rb') as f:
     #     html_fig = pickle.load(f)
     # return render(request, 'statistics.html', {'figure': html_fig, 'general_stat': general_stat})
-    return render(request, 'statistics.html', {'general_stat': general_stat})
+    data = {'general_stat': general_stat}
+    data["original_query"] = {}
+    data.update(get_const_data())
+    # assert False
+    return render(request, 'statistics.html', data)
 
 
 def get_sequence_table_data(request):
@@ -573,12 +608,12 @@ def get_aln_and_features(request, ids=None):
             else:
                 #let's load the corresponding canonical
                 try:
-                    if(("canonical" in str(seq.variant)) or ("generic" in str(seq.variant))):
+                    if((str(seq.variant))[0]=="c" or ("generic" in str(seq.variant))):
                         canonical=seq
                     elif(str(seq.variant.hist_type)=="H1"):
                         canonical=Sequence.objects.filter(variant_id='generic_'+str(seq.variant.hist_type),reviewed=True,taxonomy=seq.taxonomy)[0]
                     else:
-                        canonical=Sequence.objects.filter(variant_id='canonical_'+str(seq.variant.hist_type),reviewed=True,taxonomy=seq.taxonomy)[0]
+                        canonical=Sequence.objects.filter(variant_id='c'+str(seq.variant.hist_type),reviewed=True,taxonomy=seq.taxonomy)[0]
                 except:
                     try: #try H2A.X as a substitute for canonical
                         if(str(seq.variant.hist_type)=='H2A'):
@@ -859,18 +894,16 @@ def get_seed_aln_and_features(request, seed):
     from Bio.Align import MultipleSeqAlignment
     from Bio.Align.AlignInfo import SummaryInfo
 
-    seed_file = os.path.join(settings.STATIC_ROOT_AUX, "browse", "seeds")
     try:
-        histone = Histone.objects.get(id=seed)
-        seed_file = os.path.join(seed_file, "{}".format(histone.id))
+        variant = Histone.objects.get(id=seed)
     except Histone.DoesNotExist:
         try:
             variant = Variant.objects.get(id=seed)
-            seed_file = os.path.join(seed_file, variant.hist_type.id, "{}".format(variant.id))
             # the default names for canonical are with underscores, so we do not need to convert back. ALEXEY, 30/12/15
             # seed_file = os.path.join(seed_file, variant.hist_type.id, "{}".format(variant.id.replace("canonical", "canonical_")))
         except Variant.DoesNotExist:
             return HttpResponseNotFound('<h1>No histone variant with name {}</h1>'.format(seed))
+    seed_file = os.path.join(seeds_directory, f"{variant.id}")
 
     download = request.GET.get("download", False) == "true"
 
@@ -891,7 +924,7 @@ def get_seed_aln_and_features(request, seed):
     if download:
         response['Content-Disposition'] = 'attachment; filename="{}.{}"'.format(seed, format)
 
-    sequences = SeqIO.parse("{}.fasta".format(seed_file), "fasta")
+    sequences = SeqIO.parse(f'{seed_file}.fasta', "fasta")
 
     if consensus:
         sequences = [s for i, s in enumerate(sequences) if consensus == "all" or (consensus == "limit" and i < limit)]
@@ -905,7 +938,7 @@ def get_seed_aln_and_features(request, seed):
             if not consensus or consensus == "limit" or (limit > 0 and i < limit):
                 yield seq
 
-    with open("{}.gff".format(seed_file)) as feature_file:
+    with open(f"{seed_file}.gff") as feature_file:
         features = feature_file.read()
 
     if format == "fasta":

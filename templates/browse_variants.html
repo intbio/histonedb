@@ -1,6 +1,8 @@
 {% extends "base.html" %}
-{% load staticfiles %}
+{% load static %}
 {% load browse_filters %}
+{% load mptt_tags %}
+{% load static mptt_tags %}
 
 {% block set_filter_by_page %}
 $("#id_hist_type_label").hide();
@@ -18,105 +20,486 @@ $("#id_hist_type_drop_down_button").hide();
 <script src="{% static 'browse/js/biojs-io-fasta.js' %}"></script>
 <script src="{% static 'browse/js/biojs-io-gff.js' %}"></script>
 <script src="{% static 'browse/js/msa.js' %}"></script>
+<script type="module">
+import {Runtime, Inspector} from "{% static 'browse/js/runtime.js' %}";
+import define from "{% static 'browse/js/05775bc344fcf638@146.js' %}";
+var variants_list = {{ variants_list|safe }};
+var tree_url = "{% static tree_url %}";
+new Runtime().module(define, name => {
+  if (name === "chart") return new Inspector(document.querySelector("#tree"));
+  if (name === "viewof showLength") return new Inspector(document.querySelector("#showLength"));
+  return ["update"].includes(name);
+}, {{ variants_list|safe }}, "{% static tree_url %}");
+$(document).ready(function(){
+$('#mytabs a[href="#variant"]').tab('show')
+});
+</script>
+
 <script type="text/javascript">
-  $(function() { 
-    $('#browse_navbar_button').addClass('active'); 
-    // for bootstrap 3 use 'shown.bs.tab', for bootstrap 2 use 'shown' in the next line
-    $('a[data-toggle="tab"]').on('shown.bs.tab', function (e) {
-        // save the latest tab; use cookies if you like 'em better:
-        localStorage.setItem('lastPage', "{{ request.path }}");
-        localStorage.setItem('lastTab', $(this).attr('href'));
-
-        if($(e.target).attr('href') == "#variant" && $("#tree").html() == ""){
-          //Load phylogenetic tree
-          buildTree();
-        }
-    });
-
-    // go to the latest tab, if it exists:
-    var lastPage = localStorage.getItem('lastPage');
-    if(lastPage && lastPage == "{{ request.path }}"){
-      var lastTab = localStorage.getItem('lastTab');
-      if (lastTab) {
-          $('[href="' + lastTab + '"]').tab('show');
-      }
-      else{
-        $('[href="#variant"]').tab('show');
-      }
+function variant_click(varid){
+    console.log(varid)
+    let element = document.getElementById("childrenul-"+varid);
+    let button = document.getElementById("childrenbutton-"+varid);
+    console.log(button.innerText)
+    let hidden = element.getAttribute("hidden");
+    console.log("clicked")
+    if (hidden) {
+        console.log("hidden")
+       element.removeAttribute("hidden");
+        button.innerText = "Hide variant groups for " + varid;
+        {#button.innerText = "-";#}
+    } else {
+        console.log("unhidden")
+       element.setAttribute("hidden", "hidden");
+        button.innerText = "Show variant groups for " + varid;
+        {#button.innerText = "+";#}
     }
-    else{
-      $('[href="#variant"]').tab('show');
-    }
+  }
+</script>
 
+<script src="https://d3js.org/d3.v7.min.js"></script>
+<!-- <script src="../js/msa.min.js"></script> -->
+<script src="https://intbio.org/histonedb/CURATED_SET/js/msa.min.js"></script>
+<script >
+
+  //polyfill for at
+  function at(n) {
+      // ToInteger() abstract op
+      n = Math.trunc(n) || 0;
+      // Allow negative indexing from the end
+      if (n < 0) n += this.length;
+      // OOB access is guaranteed to return undefined
+      if (n < 0 || n >= this.length) return undefined;
+      // Otherwise, this is just normal property access
+      return this[n];
+  }
+  
+  const TypedArray = Reflect.getPrototypeOf(Int8Array);
+  for (const C of [Array, String, TypedArray]) {
+      Object.defineProperty(C.prototype, "at",
+                            { value: at,
+                              writable: true,
+                              enumerable: false,
+                              configurable: true });
+  }
+  //////
+  
+  
+  d3.json("https://intbio.org/histonedb/CURATED_SET/classification.json").then(function(data) {
+      
+  //console.log(data);
+  
+  {#var datah={"name": "root"};#}
+  var datah={"name": "{{ histone_type }}"};
+
+  function dict2tree(tree,d)
+  {
+  tree["children"]=[]
+  
+  for (var ind in d)
+  {
+  tree["children"].push({"name":ind})
+  if (typeof d[ind]  === "object") { 
+  dict2tree(tree["children"].at(-1),d[ind])}
+  }
+  }
+  
+  {#dict2tree(datah,data['tree']);#}
+  dict2tree(datah,data['tree']['{{ histone_type }}']);
+
+  const margin = { top: 10, right: 120, bottom: 10, left: 40 };
+  const width = d3.width || 960;
+  const root = d3.hierarchy(datah);
+  const dx = 10;
+  const dy = width / 8;
+  const tree = d3.tree().nodeSize([dx, dy]);
+  const diagonal = d3
+    .linkHorizontal()
+    .x((d) => d.y)
+    .y((d) => d.x);
+  
+  root.x0 = dy / 2;
+  root.y0 = 0;
+  root.descendants().forEach((d, i) => {
+    d.id = i;
+    d._children = d.children;
+    // if (d.depth && d.data.name.length !== 7) d.children = null;
   });
   
-  function buildTree(){
-    $.ajax({
-      url:"{% static tree_url %}",
-      dataType: "xml",
-      success: function(data) {
-        var dataObject = {
-          xml: data,
-          fileSource: true
-        };     
-
-        phylocanvas = new Smits.PhyloCanvas(
-          dataObject,
-          'tree',
-          600, 600,
-          'circular'
-        );
-
-        //init(); //unitip
-
-        treediv = $("#tree");
-        //treediv.width(800);
-        //treediv.height(800);
-      },
-      error: function(jqXHR, textStatus, errorThrown) {
-        console.log(textStatus);
-        console.log(errorThrown)
-      }
+  tree(root);
+  
+  const svg = d3
+    .create("svg")
+    .attr("viewBox", [-margin.left, -margin.top, width, dx])
+    .style("font", "10px sans-serif")
+    .style("user-select", "none");
+  
+  const gLink = svg
+    .append("g")
+    .attr("fill", "none")
+    .attr("stroke", "#555")
+    .attr("stroke-opacity", 0.4)
+    .attr("stroke-width", 1.5);
+  
+  const gNode = svg
+    .append("g")
+    .attr("cursor", "pointer")
+    .attr("pointer-events", "all");
+  
+  update(root);
+  
+  document.querySelector("#clasiification_tree").appendChild(svg.node());
+  
+  function update(source) {
+    const duration = d3.event && d3.event.altKey ? 2500 : 250;
+     //const duration = 10000;
+    const nodes = root.descendants().reverse();
+    const links = root.links();
+  
+    // Compute the new tree layout.
+    tree(root);
+    
+    let left = root;
+    let right = root;
+    root.eachBefore((node) => {
+      if (node.x < left.x) left = node;
+      if (node.x > right.x) right = node;
+    });
+  
+    const height = right.x - left.x + margin.top + margin.bottom;
+  
+    const transition = svg
+      .transition()
+      .duration(duration)
+      .attr("viewBox", [-margin.left, left.x - margin.top, width, height])
+      .tween(
+        "resize",
+        window.ResizeObserver ? null : () => () => svg.dispatch("toggle")
+      );
+  
+    // Update the nodes…
+    const node = gNode.selectAll("g").data(nodes, (d) => d.id);
+  
+    // Enter any new nodes at the parent's previous position.
+    const nodeEnter = node
+      .enter()
+      .append("g")
+      .attr("transform", (d) => `translate(${source.y0},${source.x0})`)
+      .attr("fill-opacity", 0)
+      .attr("stroke-opacity", 0)
+     // .on("click", (event, d) => {
+      //  d.children = d.children ? null : d._children;
+      //  update(d);
+      //})
+      ;
+  
+  
+  
+  function histcolor(d) {
+  let r = 0xF, g=0xF, b=0xF;
+  if(d.data.name.includes('H3')) { r= 0; g=0; b = 0xF ;}
+  if(d.data.name.includes('H4')) { r= 0; g=0xF; b = 0 ;}
+  if(d.data.name.includes('H2A')) { r= 0xF; g=0xF; b = 0 ;}
+  if(d.data.name.includes('H2B')) { r= 0xF; g=0; b = 0 ;}
+  if(d.data.name.includes('H1')) { r= 0xF; g=0; b = 0xF ;}
+  if(d.data.name.includes('Arch')) { r= 0; g=0xF; b = 0xF ;}
+  return d._children ? "#"+(r & 0x5).toString(16)+(g& 0x5).toString(16)+(b& 0x5).toString(16) :  "#"+(r& 0x9).toString(16)+(g& 0x9).toString(16)+(b& 0x9).toString(16)
+  }
+  
+    nodeEnter
+      .append("circle")
+      .attr("r", 2.5)
+      .attr("fill", (d) => histcolor(d) )
+      .attr("stroke-width", 10)
+      .on("click", (event, d) => {
+      d.children = d.children ? null : d._children;
+      update(d);
+      })
+      ;
+  
+    nodeEnter
+      .append("a")
+      .attr("xlink:href", (d)=>"javascript:upd_msa(\""+d.data.name+"\")")
+      .append("text")
+      .attr("dy", "0.31em")
+      .attr("x", (d) => (d._children ? -6 : 6))
+      .attr("text-anchor", (d) => (d._children ? "end" : "start"))
+      .text((d) => d.data.name)
+      .clone(true)
+      .lower()
+      .attr("stroke-linejoin", "round")
+      .attr("stroke-width", 3)
+      .attr("stroke", "white");
+  
+    // Transition nodes to their new position.
+    node
+      .merge(nodeEnter)
+      .transition(transition)
+      .attr("transform", (d) => `translate(${d.y},${d.x})`)
+      .attr("fill-opacity", 1)
+      .attr("stroke-opacity", 1);
+  
+    // Transition exiting nodes to the parent's new position.
+    node
+      .exit()
+      .transition(transition)
+      .remove()
+      .attr("transform", (d) => `translate(${source.y},${source.x})`)
+      .attr("fill-opacity", 0)
+      .attr("stroke-opacity", 0);
+  
+    // Update the links…
+    const link = gLink.selectAll("path").data(links, (d) => d.target.id);
+  
+    // Enter any new links at the parent's previous position.
+    const linkEnter = link
+      .enter()
+      .append("path")
+      .attr("stroke", (d) => histcolor(d.source))
+      .attr("d", (d) => {
+        const o = { x: source.x0, y: source.y0 };
+        return diagonal({ source: o, target: o });
+      });
+  
+    // Transition links to their new position.
+    link.merge(linkEnter).transition(transition).attr("d", diagonal);
+  
+    // Transition exiting nodes to the parent's new position.
+    link
+      .exit()
+      .transition(transition)
+      .remove()
+      .attr("d", (d) => {
+        const o = { x: source.x, y: source.y };
+        return diagonal({ source: o, target: o });
+      });
+  
+    // Stash the old positions for transition.
+    root.eachBefore((d) => {
+      d.x0 = d.x;
+      d.y0 = d.y;
     });
   }
-
-  {% with page_name="browse_variants_"|add:histone_type|rchar:"." %}
-  var extra_seq_params_browse_variants_{{ histone_type }} = {% autoescape off %}{{ original_query|jsonify }}{% endautoescape %};
-  var extra_seq_params_browse_curated_variants_{{ histone_type }} = $.extend(true, {}, extra_seq_params_browse_variants_{{ histone_type }});
-  {% endwith %}
-</script>
-    <script type="text/javascript">
-    function variant_click(varid){
-        console.log(varid)
-        let element = document.getElementById("childrenul-"+varid);
-        let button = document.getElementById("childrenbutton-"+varid);
-        console.log(button.innerText)
-        let hidden = element.getAttribute("hidden");
-        console.log("clicked")
-        if (hidden) {
-            console.log("hidden")
-           element.removeAttribute("hidden");
-            button.innerText = "Hide variant groups";
-        } else {
-            console.log("unhidden")
-           element.setAttribute("hidden", "hidden");
-            button.innerText = "Show variant groups";
-        }
+   });
+  
+  var rootDiv = document.getElementById("msa");
+  var menuDiv = document.getElementById("menu");
+  
+  
+  
+  
+  function upd_msa(name) {
+  
+  // var seqs;
+  
+  
+  // var xhr = msa.io.xhr;
+  // var gffParser = msa.io.gff;
+  
+  // xhr("../seeds/"+name+".gff3", function(err, request, body) {
+  //   var features = gffParser.parseSeqs(body);
+  //   m.seqs.addFeatures(features);
+  
+  // xhr("../seeds/"+name+".fasta", function(err, request, body) {
+  // seqs =  msa.io.fasta.parse(body);
+  // m.seqs.add(seqs);
+  // m.seqs.add(seq2);
+  // m.render();
+  // });
+  
+  // });
+  
+  
+  
+  
+  
+  //Add consensus
+  
+  
+   var m = msa({
+    el: rootDiv,
+   {#importURL: "../seeds/"+name+".fasta",#}
+   importURL: "CURATED_SET/seeds/"+name+".fasta",
+   {#importURL: "{% static 'browse/seeds/' %}"+name+".fasta",#}
+   // seqs:seqs,
+    all: true,
+    vis: {
+      labelId: false,
+      conserv: false,
+      seqlogo: false //should be false, we trigger it below manually.
+    },
+    zoomer: {
+    labelNameLength:350,
+    alignmentHeight:  "auto" 
+  },
+     
+     conf: {
+      debug: false,
+      dropImport: true//,
+     // manualRendering:true
+    }
+  //colorscheme: {scheme: "pid"}
+  });
+  
+  
+  
+  //m.g.zoomer.set("alignmentHeight", 5);
+  
+  var fun={}
+  
+  fun.init = function(){
+    // you have here access to the conservation or the sequence object
+    this.cons = this.opt.conservation();
+    this.consensus= this.opt.consensus();
+    this.frequency= this.opt.frequency();
+    this.consensus80="";
+    this.frequency.forEach((it,i) => {
+      let aa="*";
+      for(let i2 in it) {
+       if (it[i2] >=0.8) {
+        aa=i2;}
       }
+      this.consensus80+=aa;
+    });
+  
+    this.consensus50="";
+    this.frequency.forEach((it,i) => {
+      let aa="*";
+      for(let i2 in it) {
+       if (it[i2] >=0.5) {
+        aa=i2;}
+      }
+      this.consensus50+=aa;
+    });
+  }
+  
+  function aasimilar(aa1,aa2) {
+  const groups = {pos:"KRH", neg:"ED", aliph:"VLAIM",oh:"TS", small:"SAG",aroma:"FWY"}
+  
+  for(let i in groups) {
+    if(groups[i].includes(aa1) && groups[i].includes(aa2)) {return true;}
+  }
+  return false;
+  }
+  
+  fun.run = function(letter,opts){
+  
+    if(letter == "-") {return "#fff";}
+    if (letter == this.consensus80[opts.pos]) {return "#74b";}
+    if (letter == this.consensus50[opts.pos]) {return "#08c";} 
+    if (aasimilar(letter,this.consensus80[opts.pos]) || aasimilar(letter,this.consensus50[opts.pos]) ) {return "#f09";}
+    else {return "#fff";} 
+  };
+  
+  m.g.colorscheme.addDynScheme("fscheme", fun);
+  m.g.colorscheme.set("scheme", "fscheme");
+  //m.render();
+  
+  
+  
+  
+  // the menu is independent to the MSA container
+  var menuOpts = {};
+  menuOpts.el = menuDiv;
+  menuOpts.msa = m;
+  //menuOpts.menu = "small";
+  var defMenu = new msa.menu.defaultmenu(menuOpts);
+  m.addView("menu", defMenu);
+  
+  var xhr = msa.io.xhr;
+  var gffParser = msa.io.gff;
+  
+  //Now we will add consensus with features
+  //first we need to get features and load them.
+  xhr("../seeds/"+name+".gff3", function(err, request, body) {
+    var features = gffParser.parseSeqs(body);
+    m.seqs.addFeatures(features);
+  
+  //Nex in this asyn call we will wait till msa has loaded all sequences and add consensus
+  waitForSeqs();
+  
+      });
+  
+  function waitForSeqs(){
+      if(m.seqs.length > 0){
+          //variable exists, do what you want
+          var seqc = {
+            seq: m.g.stats._consensus,
+            id: "10c",
+            ids: ["Consensus"], //This is important for tree not to hide it. Tree shoud have a root node named consensus.
+            name: "Consensus",
+            label:"Consensus"
+          }
+          m.seqs.unshift(seqc);
+    //After that we add a tree
+   m.importURL("../seeds/"+name+".tree", function(){
+   console.log("tree loaded");
+   //Trigger SeqLogo from menu, see msa.js:24482 why we need to do this hack!
+   console.log(defMenu.views["40_vis"]._nodes[3].callback());
+  });
+    //m.render();
+   
+  }
+      else{
+          setTimeout(waitForSeqs, 100);
+      }
+  }
+  
+  // call render at the end to display the whole MSA
+  //m.render();
+  
+  
+  
+  
+  
+  
+  
+  }
+  
+  
+  </script>
+
+<!-- <script type="text/javascript">
+  $('#radioBtn a').on('click', function(){
+    var sel = $(this).data('title');
+    var tog = $(this).data('toggle');
+    $('#'+tog).prop('value', sel);
+    
+    $('a[data-toggle="'+tog+'"]').not('[data-title="'+sel+'"]').removeClass('active').addClass('notActive');
+    $('a[data-toggle="'+tog+'"][data-title="'+sel+'"]').removeClass('notActive').addClass('active');
+})
+</script> -->
+
+<script type="text/javascript">
+  function show_msa_view(){
+    $('#msa_view').show();
+    $('#classification_tree_view').hide();
+    
+    $('#ct_radioBtn').removeClass('active').addClass('notActive');
+    $('#msa_radioBtn').removeClass('notActive').addClass('active');
+  }
+  function show_ctree_view(){
+    $('#classification_tree_view').show();
+    $('#msa_view').hide();
+    
+    $('#msa_radioBtn').removeClass('active').addClass('notActive');
+    $('#ct_radioBtn').removeClass('notActive').addClass('active');
+  }
 </script>
 {% endblock %}
 
 {% block content %}
 <div class="container" style="margin-top:30px;">
   <div class="row">
-    <div class="col-xs-3">
+    <div class="col-xs-2"></div>
+    <div class="col-xs-2">
       <img src="{% with 'browse/img/'|add:histone_type|add:"_cropped"|add:'.png' as image_static %}{% static image_static %}{% endwith %}" width="75%" />
     </div>
-    <div class="col-xs-9">
+    <div class="col-xs-8">
       <div class="row">
         <div class="col-xs-12">
           <h1>
-            <a href="{% url 'browse.views.browse_types' %}"><span class="glyphicon glyphicon-home" /> </a> /
+            <a href="{% url 'browse:browse_types' %}"><span class="glyphicon glyphicon-home" /> </a> /
             Histone type: {{ histone_type }}
           </h1>
         </div>
@@ -128,7 +511,7 @@ $("#id_hist_type_drop_down_button").hide();
     <div class="col-xs-12">
       <div class="container">
         <!-- Nav tabs -->
-        <ul class="nav nav-tabs" role="tablist">
+        <ul class="nav nav-tabs" role="tablist" id="mytabs">
           <li role="presentation"><a href="#variant" aria-controls="variant" role="tab" data-toggle="tab">Summary</a></li>
           <li role="presentation"><a href="#curated" aria-controls="curated" role="tab" data-toggle="tab">Curated Sequences</a></li>
           <li role="presentation"><a href="#seed" aria-controls="seed" role="tab" data-toggle="tab">Curated Alignments</a></li>
@@ -157,49 +540,41 @@ $("#id_hist_type_drop_down_button").hide();
               </div>
             </div>
             <div class="row">
-              <div class="col-xs-4">
+              <div class="col-xs-3">
                 <div class="row center-block">
                   <div class="col-xs-12">
                     <h4 class="page-header">Histone Variants</h4>
                     <div class="list-group" style="height:100%;">
-                      <ul class="nav nav-list-main">
-                      {% for variant in variants %}
-                        <li>
-                          <a class="list-group-item"
-                           href="{% url 'browse.views.browse_variant' histone_type variant.id %}">
-                          <span class="badge variant-count-badge" style="background-color:{{ variant.color }};" title="# of sequences in curated set: {{ variant.num_curated }}
-# of sequences in total set: {{ variant.num_all }}">{{ variant.num_curated }} / {{ variant.num_all }}</span>
-                          <b>{{ variant.id|undspace }}</b> <br />
-                              <small>Alternate names: {% if variant.alternate_names or variant.alternate_names != "" %}{{ variant.alternate_names }}{% else %}<i>None</i>{% endif %}</small><br />
-                              <small>Taxonomic span: {{ variant.tax_span }}</small>
-                          </a>
-                          <ul id="childrenul-{{ variant.id }}" class="nav nav-list nav-left-ml" hidden="hidden">
-                          {% for child in variant.children %}
-                              <a class="list-group-item"
-                                 href="{% url 'browse.views.browse_variant' histone_type child.id %}" style="margin-left: 15px;">
-                                <span class="badge variant-count-badge" style="background-color:{{ child.color }};" title="# of sequences in curated set: {{ child.num_curated }}
-# of sequences in total set: {{ child.num_all }}">{{ child.num_curated }} / {{ child.num_all }}</span>
-                                <b>{{ child.id|undspace }}</b> <br />
-                                <small>Alternate names: {% if child.alternate_names or child.alternate_names != "" %}{{ child.alternate_names }}{% else %}<i>None</i>{% endif %}</small><br />
-                                <small>Taxonomic span: {{ child.tax_span }}</small>
-                              </a>
-                          {% endfor %}
-                          </ul>
-                          {% if variant.children %}
-{#                          <button class="nav-toggle-icon glyphicon glyphicon-chevron-right list-group-item left-side" onclick="variant_click('{{ variant.id }}');"></button>#}
-{#                          <button class="list-group-item left-side" onclick="variant_click('{{ variant.id }}');" style="margin-bottom: 0px;margin-left: 0px;left: -128px;right: 100px;margin-right: 0px;bottom: 81px;padding-right: 0px;padding-top: 30px;padding-bottom: 30px;padding-left: 0px;">Show variant groups</button>#}
-{#                          <button id="childrenbutton-{{ variant.id }}" class="list-group-item" onclick="variant_click('{{ variant.id }}');">Show variant groups</button>#}
-                          <button id="childrenbutton-{{ variant.id }}" onclick="variant_click('{{ variant.id }}');">Show variant groups</button>
-                          {% endif %}
-                        </li>
-                      {% endfor %}
-                      </ul>
+                        <ul id="variant_ul" class="nav nav-list-main">
+                            {% recursetree variants_info %}
+
+                                <li>
+{#                                    <img id="childrenbutton-{{ node.id }}" class="list-group-item left-side" onclick="variant_click('{{ node.id }}');" src="{% with 'browse/img/plus.png' as image_static %}{% static image_static %}{% endwith %}" width="2% "/>#}
+                                    <a class="list-group-item right-side" href="{% url 'browse:browse_variant' histone_type node.id %}">
+                                        <span class="badge variant-count-badge" style="background-color:{{ node.color }};" title="# of sequences in curated set: {{ node.num_curated }}
+# of sequences in total set: {{ node.num_sequences }}">{{ node.num_curated }} / {{ node.num_sequences }}</span>
+                                        <b>{{ node.id|undspace }}</b> <br />
+                                        <small>Alternate names: {% if node.alternate_names or node.alternate_names != "" %}{{ node.alternate_names }}{% else %}<i>None</i>{% endif %}</small><br />
+                                        <small>Taxonomic span: {{ node.taxonomic_span }}</small>
+
+                                    </a>
+
+                                    {% if not node.is_leaf_node %}
+                                        <ul id="childrenul-{{ node.id }}" class="children nav nav-list-main" hidden="hidden" style="padding-left: 10px">
+                                            {{ children }}
+                                        </ul>
+                                        <button id="childrenbutton-{{ node.id }}" class="list-group-item" onclick="variant_click('{{ node.id }}');">Show variant groups for {{node.id}}</button>
+                                    {% endif %}
+                                </li>
+                            {% endrecursetree %}
+                        </ul>
                     </div>
                   </div>
                 </div>
               </div>
-              <div class="col-xs-8">
+              <div class="col-xs-9">
                 <h4 class="page-header">Phylogenetic tree of variants (curated sequences)</h4>
+                <div id="showLength"></div>
                 <div id="tree"></div>
                 Above, alignments of curated sequences from all {{ histone_type }} variants have been combined to construct the phylogenetic tree. Most of the variants cluster in separate clades. Click on the taxa name to learn more about its variant.
               </div>
@@ -212,7 +587,29 @@ $("#id_hist_type_drop_down_button").hide();
             {% include "sequences.html" with page_name="browse_variants_"|add:histone_type|rchar:"." %}
           </div>
           <div role="tabpanel" class="tab-pane" id="seed">
-            {% include "seed.html" with msa_id="browse" msa_url=seed_url|add:"?limit=500&consensus=limit" download_url=seed_url|add:"?download=true" %}
+            <div>
+                <div class="col-sm-12" style="padding-top: 5px;">
+                  <div class="form-group pull-right">
+                      <div class="input-group">
+                        <div id="radioBtn" class="btn-group">
+                          <a id="msa_radioBtn" onclick="show_msa_view()" class="btn btn-primary btn-sm active" data-toggle="msa_view" data-title="MSA">Multiple Sequence Alignment</a>
+                          <a id="ct_radioBtn" onclick="show_ctree_view()" class="btn btn-primary btn-sm notActive" data-toggle="classification_tree_view" data-title="CT">Classification tree</a>
+                        </div>
+                        <!-- <input type="hidden" name="happy" id="happy"> -->
+                      </div>
+                  </div>
+                </div>
+                <div id="classification_tree_view" hidden>
+                  <h3>Click on node to collapse/expand branches. Click on node label to view info, sequence alignment and phylogeny. </h3>
+                  <div id="clasiification_tree"></div>
+                  <h1>Multiple sequence alignment will appear below</h1>
+                  <div id="menu"></div>
+                  <div id="msa"></div>
+                </div>
+                <div id="msa_view">
+                  {% include "seed.html" with msa_id="browse" msa_url=seed_url|add:"?limit=500&consensus=limit" download_url=seed_url|add:"?download=true" %}
+                </div>
+            </div>
           </div>
         </div>
       </div>

@@ -1,0 +1,148 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block includes %}
+<script type="text/javascript">
+
+</script>
+{% endblock %}
+
+{% block content %}
+<div class="jumbotron" style="padding: 10px 10px;">
+  <div class="container">
+    <h1 class="text-center">HistoneDB 3.0 – histone variation in human, eukaryotes and archea</h1>
+    <p class="text-center">This histone database can be used to explore the diversity of histone proteins and their sequence variants in many organisms including human. To get started, choose from the options below.</p>
+  </div>
+</div>
+<div class="container" style="margin-top: 30px">
+    <div class="col-sm-12 row equal">
+        <div class="col-sm-6 browse-card">
+            <!-- <a class="btn btn-default" href="{% url 'browse:browse_types' %}" role="button"> -->
+              <div class="jumbotron">
+                <div class="img" style="background: url({% static 'browse/img/nucleosome.png' %});"></div>
+                <h2 class="text-center">Eukaryotes histones</h2>
+                <p class="text-center">Explore all histone sequences divided by variants and variant groups</p>
+              </div>
+            <!-- </a> -->
+        </div>
+        <div class="col-sm-6 browse-card">
+            <div class="jumbotron">
+              <div class="img" style="background: url({% static 'browse/img/human.png' %});"></div>
+              <h2 class="text-center">Human histones</h2>
+              <p class="text-center">Explore human histone sequences and oncohistones</p>
+            </div>
+        </div>
+    </div>
+    <div class="col-sm-12 row equal">
+        <div class="col-sm-6">
+            <div class="container-fluid img-responsive">
+              <div class="row equal">
+                <div class="col-xs-4">
+                  <a href="{% url 'browse:browse_variants' 'H3' %}">
+                    <div class="row">
+                      <div class="col-xs-1 col-md-offset-9"><h2>H3</h2></div>
+                    </div>
+                    <div class="row">
+                      <div class="col-xs-12">
+                        <img class="img-responsive pull-right" src="{% static 'browse/img/H3_front.png' %}" width="35%" />
+                      </div>
+                    </div>
+                  </a>
+                  <a href="{% url 'browse:browse_variants' 'H2A' %}">
+                    <div class="row">
+                      <div class="col-xs-1 col-md-offset-9"><h2>H2A</h2></div>
+                    </div>
+                    <div class="row">
+                      <div class="col-xs-12"><img class="img-responsive pull-right" src="{% static 'browse/img/H2A_front.png' %}" width="35%" /></div>
+                    </div>
+                  </a>
+                </div>
+                <div class="col-xs-4">
+                  <div class="vcenter center-block" style="position: relative; left: 0; top: 0;">
+                    <img class="img-responsive center-block" src="{% static 'browse/img/nucleosome.png' %}" style="position: relative; top: 0; left: 0; padding-top: 55px;"/>
+                    <a href="{% url 'browse:browse_variants' 'H1' %}">
+                        <div style="position: absolute; top: -20px; left: 50%;"><h3>H1</h3></div>
+                        <div style="position: absolute; top: 30px; left: 40%;"><img class="img-responsive" src="{% static 'browse/img/H1.png' %}" width="50%"></div>
+                    </a>
+
+{#                    The Nucleosome Core Particle (PDB: <a href="http://www.ncbi.nlm.nih.gov/Structure/mmdb/mmdbsrv.cgi?uid=1AOI">1AOI</a>) is comprised of H2A, H2B, H3, and H4 core histones types, wrapping ~147 bp of DNA. H2A-H2B form a dimer and H3-H4 form a tetramer.#}
+                  </div>
+                </div>
+                <div class="col-xs-4">
+                  <div class="row">
+                    <a href="{% url 'browse:browse_variants' 'H4' %}">
+                      <div class="row">
+                        <div class="col-xs-1 col-md-offset-2"><h2>H4</h2></div>
+                      </div>
+                      <div class="row">
+                        <div class="col-xs-12">
+                          <img class="img-responsive pull-left" src="{% static 'browse/img/H4_front.png' %}" width="35%" />
+                        </div>
+                      </div>
+                    </a>
+                    <a href="{% url 'browse:browse_variants' 'H2B' %}">
+                      <div class="row">
+                        <div class="col-xs-1 col-md-offset-2"><h2>H2B</h2></div>
+                      </div>
+                      <div class="row">
+                        <div class="col-xs-12">
+                          <img class="img-responsive pull-left" src="{% static 'browse/img/H2B_front.png' %}" width="35%" />
+                        </div>
+                      </div>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+        </div>
+        <div class="col-sm-6">
+            <p class="text-center">Coming soon...</p>
+            <div class="col-sm-13 row equal">
+              <div class="col-sm-4"></div>
+              <div class="col-sm-4"><img src="{% static 'browse/img/human.png' %}" width="60%"/></div>
+              <div class="col-sm-4"></div>
+            </div>
+            <p class="text-center">To preview list of human histones click <a href="{% url 'browse:human' %}">here</a>.</p>
+        </div>
+    </div>
+    <div class="col-sm-12 row equal">
+        <div class="col-sm-6">
+            <p class="text-right"><a class="btn btn-default btn-md" href="{% url 'browse:browse_types' %}" role="button">Learn more</a></p>
+        </div>
+        <div class="col-sm-6">
+            <div class="text-right"><a class="btn btn-default btn-md" href="#" role="button">Learn more</a></div>
+        </div>
+    </div>
+
+    <div class="col-sm-12 row equal">
+        <div class="col-sm-6 browse-card">
+            <div class="jumbotron">
+              <h2 class="text-center">Archaeal histones</h2>
+              <p class="text-center">Explore archaeal histone sequences</p>
+            </div>
+        </div>
+        <div class="col-sm-6 browse-card">
+            <div class="jumbotron">
+              <h2 class="text-center">Viral histones</h2>
+              <p class="text-center">Explore viral histone sequences</p>
+            </div>
+        </div>
+    </div>
+    <div class="col-sm-12 row equal">
+        <div class="col-sm-6">
+            <p class="text-center">Coming soon...</p>
+        </div>
+        <div class="col-sm-6">
+            <p class="text-center">Coming soon...</p>
+        </div>
+    </div>
+    <div class="col-sm-12 row equal">
+        <div class="col-sm-6">
+            <p class="text-right"><a class="btn btn-default btn-md" href="#" role="button">Learn more</a></p>
+        </div>
+        <div class="col-sm-6">
+            <p class="text-right"><a class="btn btn-default btn-md" href="#" role="button">Learn more</a></p>
+        </div>
+    </div>
+</div>
+{% endblock %}

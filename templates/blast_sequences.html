@@ -1,5 +1,5 @@
 {% extends "base.html" %}
-{% load staticfiles %}
+{% load static %}
 {% load browse_filters %}
 
 {% block includes %}
@@ -32,7 +32,7 @@
             {% if error %}
                 <div class="alert alert-danger" role="alert">{{ error }}</div>
             {% endif %}
-            <form role="search" action="{% url 'browse.views.blast_sequences' %}" id="analyze_form"
+            <form role="search" action="{% url 'browse:blast_sequences %}" id="analyze_form"
                   enctype="multipart/form-data" method="POST">
                 {% csrf_token %}
                 {% for field in analyze_form %}
@@ -71,7 +71,7 @@
           You can tick mark the sequences and use toolbar to view MSA, export or add to basket. Use search to find particular entries.
       </div>
             <div style="height: 110px;">
-          <div class="container" style="text-align:center">Keys: red - identical residues, blue - different residues (if more than one sequence). For feature legend see <a id="info_page_link" href="{% url 'browse.views.browse_variant' 'ALL' result.3 %}" target="_blank">info page of the corresponding variant</a>.</div>
+          <div class="container" style="text-align:center">Keys: red - identical residues, blue - different residues (if more than one sequence). For feature legend see <a id="info_page_link" href="{% url 'browse:browse_variant' 'ALL' result.3 %}" target="_blank">info page of the corresponding variant</a>.</div>
 
 
           <div id="quick_msa-analyze_sequences">Sequence preview and annotation... LOADING<br><br><br><br><br><br></div>
@@ -79,7 +79,7 @@
 
             <script type="text/javascript">
                 $(function () {
-                    createMSA("quick_msa-analyze_sequences", "{% url 'browse.views.get_aln_and_features' %}?upload=true&id={{ result.2 }}", "", 975, 75, false);
+                    createMSA("quick_msa-analyze_sequences", "{% url 'browse:get_aln_and_features' %}?upload=true&id={{ result.2 }}", "", 1375, 75, false);
                     $('#sequence_table_analyze_sequences tr[data-index="0"]').addClass('success');
                 });
             </script>

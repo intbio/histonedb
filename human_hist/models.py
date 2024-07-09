@@ -1,4 +1,6 @@
 from django.db import models
+from django.core.validators import validate_comma_separated_integer_list
+
 from browse.models import *
 
 
@@ -25,7 +27,8 @@ class Histone_Human_genes(models.Model):
     expr_pattern = models.CharField(max_length=25)
     biotype = models.CharField(max_length=25)
     bona_fidecanonical = models.CharField(max_length=25)
-    pmids = models.CommaSeparatedIntegerField(max_length=250)
+    # pmids = models.CommaSeparatedIntegerField(max_length=250)
+    pmids = models.CharField(max_length=250, validators=[validate_comma_separated_integer_list])
 
     def __unicode__(self):
         return self.id

@@ -1,0 +1,70 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block includes %}
+<script src="{% static 'browse/js/05775bc344fcf638@146.js' %}"></script>
+<script type="module">
+import * as d3 from "https://cdn.skypack.dev/d3@6";
+
+function parseNewick(a){for(var e=[],r={},s=a.split(/\s*(;|\(|\)|,|:)\s*/),t=0;t<s.length;t++){var n=s[t];switch(n){case"(":var c={};r.branchset=[c],e.push(r),r=c;break;case",":var c={};e[e.length-1].branchset.push(c),r=c;break;case")":r=e.pop();break;case":":break;default:var h=s[t-1];")"==h||"("==h||","==h?r.name=n:":"==h&&(r.length=parseFloat(n))}}return r}
+var data = '{{ tree_text }}';
+var outerRadius = _outerRadius(_width());
+var innerRadius = _innerRadius(outerRadius);
+var color = _color(d3);
+var linkStep = _linkStep();
+var chart = _chart(d3, parseNewick(data), _cluster(d3, innerRadius),
+    _setRadius(), innerRadius, _maxLength(d3), _setColor(color), outerRadius, _width(), _legend(color, outerRadius),
+    _linkExtensionConstant(linkStep, innerRadius), _linkConstant(linkStep), _linkExtensionVariable(linkStep, innerRadius),
+    _linkVariable(linkStep));
+document.querySelector("#tree").appendChild(chart);
+
+function Ot(e, t) {
+    return function (n) {
+        var r, i, o, a, s, c, l, u, d = n[0], f = [], h = null, p = -1;
+        for (s = 1, c = arguments.length; s < c; ++s) {
+            if ((r = arguments[s]) instanceof Node) f[++p] = r, d += "\x3c!--o:" + p + "--\x3e"; else if (Array.isArray(r)) {
+                for (l = 0, u = r.length; l < u; ++l) (i = r[l]) instanceof Node ? (null === h && (f[++p] = h = document.createDocumentFragment(), d += "\x3c!--o:" + p + "--\x3e"), h.appendChild(i)) : (h = null, d += i);
+                h = null
+            } else d += r;
+            d += n[s]
+        }
+        if (h = e(d), ++p > 0) {
+            for (o = new Array(p), a = document.createTreeWalker(h, NodeFilter.SHOW_COMMENT, null, !1); a.nextNode();) i = a.currentNode, /^o:/.test(i.nodeValue) && (o[+i.nodeValue.slice(2)] = i);
+            for (s = 0; s < p; ++s) (i = o[s]) && i.parentNode.replaceChild(f[s], i)
+        }
+        return 1 === h.childNodes.length ? h.removeChild(h.firstChild) : 11 === h.nodeType ? ((i = t()).appendChild(h), i) : h
+    }
+}
+var St = Ot((function (e) {
+    var t = document.createElement("template");
+    return t.innerHTML = e.trim(), document.importNode(t.content, !0)
+}), (function () {
+    return document.createElement("span")
+}));
+document.querySelector("#showLength").appendChild(_showLength(St));
+
+_update(chart, )
+
+</script>
+{#<script type="module">#}
+{#import {Runtime, Inspector} from "{% static 'browse/js/runtime.js' %}";#}
+{#import define from "{% static 'browse/js/05775bc344fcf638@146.js' %}";#}
+{#new Runtime().module(define, name => {#}
+{#  if (name === "chart") return new Inspector(document.querySelector("#tree"));#}
+{#  if (name === "viewof showLength") return new Inspector(document.querySelector("#showLength"));#}
+{#  return ["update"].includes(name);#}
+{#});#}
+{#</script>#}
+{% endblock %}
+
+{% block content %}
+<div id="showLength">
+{#<form style="font: 12px var(--sans-serif); display: flex; flex-direction: column; justify-content: center; min-height: 33px;">#}
+{#    <label style="display: flex; align-items: center;">#}
+{#        <input type="checkbox" name="i">#}
+{#        <span style="margin-left: 0.5em;">Show branch length</span>#}
+{#    </label>#}
+{#</form>#}
+</div>
+<div id="tree"></div>
+{% endblock %}

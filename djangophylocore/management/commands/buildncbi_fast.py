@@ -1,5 +1,5 @@
 #UNDER DEVELOPMENT
-from django.core.management.base import NoArgsCommand
+from django.core.management.base import BaseCommand
 from optparse import make_option
 
 import os
@@ -58,7 +58,7 @@ def loop1(line):
     return(int(id))
 
 
-class Command(NoArgsCommand):
+class Command(BaseCommand):
     help = "Download and build the ncbi database"
     requires_system_checks = False
 
@@ -70,7 +70,7 @@ class Command(NoArgsCommand):
 
         #
  
-    def handle_noargs(self, **options):
+    def handle(self, *args, **options):
         global DUMP_PATH
         verbose = options.get("verbose", True)
         if verbose:

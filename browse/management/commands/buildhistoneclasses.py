@@ -7,6 +7,34 @@ from djangophylocore.models import Taxonomy
 import json, os, logging, configparser
 from datetime import datetime
 from bibtexparser.bparser import BibTexParser
+from colour import Color
+# import matplotlib as mlt #import to_hex
+# from matplotlib import colors #import to_hex
+
+colors = [
+    "#8dd3c7",
+    "#E6E600",
+    "#bebada",
+    "#fb8072",
+    "#80b1d3",
+    "#fdb462",
+    "#b3de69",
+    "#fccde5",
+    "#d9d9d9",
+    "#bc80bd",
+    "#ccebc5",
+    "#ffed6f",
+    "#ddc497",
+]
+def color_variant(hex_color, brightness_offset=1):
+    """ takes a color like #87c95f and produces a lighter or darker variant """
+    if len(hex_color) != 7:
+        raise Exception("Passed %s into color_variant(), needs to be in #87c95f format." % hex_color)
+    rgb_hex = [hex_color[x:x+2] for x in [1, 3, 5]]
+    new_rgb_int = [int(hex_value, 16) + brightness_offset for hex_value in rgb_hex]
+    new_rgb_int = [min([255, max([0, i])]) for i in new_rgb_int] # make sure new values are between 0 and 255
+    # hex() produces "0x88", we want just "88"
+    return "#" + "".join([hex(i)[2:] for i in new_rgb_int])
 
 config = configparser.ConfigParser()
 config.read('./histonedb.ini')
@@ -126,14 +154,38 @@ class Command(BaseCommand):
 
             self.create_histone_variants(variants=self.variants_json['tree'][htype], hist_type=htype)
 
+            # generate different colors for variant_groups
+            # c = (0, 0, 0)
+            # hvars = Variant.objects.filter(hist_type_id=htype)
+            # step = 64/len(hvars)
+            # # print(htype)
+            # # print(len(hvars))
+            # # print(1/len(hvars))
+            # # print(step)
+            # for hvar in hvars:
+            #     # print(c)
+            #     # print(Color(rgb=c).hex_l)
+            #     hvar.color = Color(rgb=c).hex_l
+            #     hvar.save()
+            #     # print(hvar.color)
+            #     if c[1]+step>1 and c[2]+step>1:
+            #         c = (min(c[0]+step, 1), 0, 0)
+            #     elif c[2]+step>1:
+            #         c = (c[0], min(c[1] + step, 1), 0)
+            #     else:
+            #         c = (c[0], c[1], min(c[2] + step, 1))
+
     def create_histone_variants(self, variants, hist_type, parent=None):
         """Create variants (including generics for each histone type) listed in variants_list.json"""
         if variants=="null": return
-        for variant in variants.keys():
+        for i, variant in enumerate(variants.keys()):
+            # variant = var.replace('(', '').replace(')', '').replace('?', '').replace(' ', '_')
+            color = colors[i] if not parent else parent.color
+            # print(color)
             obj = self.create_description(hclass=variant)
             obj = Variant.objects.create(id=variant, hist_type_id=hist_type,
                                          taxonomic_span=self.variants_json['info'][variant]['taxonomic_span'],
-                                         doublet=False, description=obj, parent_id=parent)
+                                         doublet=False, description=obj, parent=parent, color=color)
             self.log.info("Created {} variant model in database".format(obj.id))
 
             # self.add_publications(hclass_obj=obj)
@@ -158,4 +210,4 @@ class Command(BaseCommand):
                         "ALTER TABLE browse_feature CONVERT TO CHARACTER SET utf8 COLLATE     utf8_general_ci;")
                     alt_variant.save()
 
-            self.create_histone_variants(variants=variants[variant], hist_type=hist_type, parent=variant)
+            self.create_histone_variants(variants=variants[variant], hist_type=hist_type, parent=obj)

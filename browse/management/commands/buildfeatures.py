@@ -6,7 +6,7 @@ from Bio import SeqIO
 from Bio.Seq import Seq
 from Bio.SeqRecord import SeqRecord
 
-from browse.models import TemplateSequence, Feature
+from browse.models import Feature
 from djangophylocore.models import Taxonomy
 
 config = configparser.ConfigParser()
@@ -14,6 +14,7 @@ config.read('./histonedb.ini')
 
 class Command(BaseCommand):
     help = 'Reset sequence features'
+    template_sequences = config['WEB_DATA']['template_sequences']
 
     # Logging info
     logging.basicConfig(filename=os.path.join(config['LOG']['database_log'], "buildfeatures.log"),
@@ -56,11 +57,14 @@ class Command(BaseCommand):
                 except Taxonomy.DoesNotExist:
                     taxonomy = Taxonomy.objects.get(name="root")
 
-                template, created = TemplateSequence.objects.get_or_create(taxonomy=taxonomy, variant=variant)
+                # template, created = TemplateSequence.objects.get_or_create(taxonomy=taxonomy, variant=variant)
                 # if not os.path.isfile(template.path()): #we need to rewrite it!!!
+                if not os.path.exists(self.template_sequences):
+                    os.makedirs(self.template_sequences)
                 SeqIO.write(
-                        SeqRecord(Seq(sequence), id=str(template)),
-                        template.path(),
+                        SeqRecord(Seq(sequence), id=f"{variant}_{taxonomy.name}"),
+                        # template.path(),
+                        os.path.join(self.template_sequences, f"{variant}_{taxonomy.name}.fasta"),
                         "fasta"
                )
                 used_features = {}
@@ -70,8 +74,10 @@ class Command(BaseCommand):
                         if not feature_name in [" ", "="]:
                             name = info["feature_info"][feature_name]["name"]
                             feature = Feature(
-                                id          = "{}_{}{}".format(template, name, " "+str(used_features.get(name, ""))),
-                                template    = template,
+                                id          = "{}_{}{}".format(variant, name, " "+str(used_features.get(name, ""))),
+                                # template    = template,
+                                variant     = variant,
+                                taxonomy    = taxonomy,
                                 start       = int(group[0][0]),
                                 end         = int(group[-1][0]),
                                 name        = name,
