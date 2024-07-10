@@ -16,6 +16,13 @@ urlpatterns = [
     # url(r'^type/([a-zA-Z0-9]+)/variant/([a-zA-Z0-9\._]+)/(\d+)$', views.browse_variant_with_highlighted_sequence, name="browse_variant_with_highlighted_sequence"),
     url(r'^type/([a-zA-Z0-9]+)/variant/([a-zA-Z0-9\._\(\)]+)/([a-zA-Z0-9\._]+)/$', views.browse_variant_with_highlighted_sequence, name="browse_variant_with_highlighted_sequence"),
 
+    url(r'^addnewtype/$')
+    url(r'^addnewvariant/$')
+    url(r'^edittype/$')
+    url(r'^editvariant/$')
+    url(r'^deltype/$')
+    url(r'^delvariant/$')
+
     url(r'^search/$', views.search, name="search"),
     url(r'^analyze/$', views.analyze, name="analyze"),
     url(r'^blast_sequences/$', views.blast_sequences, name="blast_sequences"),
