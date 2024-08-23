@@ -2603,7 +2603,7 @@
         "H2B.V": {
             "level": "variant_group",
             "description": {
-                "summary": "H2B.V is a histone variant characterized so far in Trypanosoma brucei. It shares ~38% sequence identity with major H2B. H2B.V is essential for viability. H2A.Z and H2B.V colocalize throughout the cell cycle and exhibit nearly identical genomic distribution. Data strongly suggest that H2A.Z and H2B.V function together within a single nucleosome [lowell_histone_2005]. H2BV possibly H3 K4 and K76 trimethylation in Trypanosoma brucei [mandava_trypanosome_2008].",
+                "summary": "H2B.V is a histone variant characterized so far in Trypanosoma brucei. It shares ~38% sequence identity with major H2B. H2B.V is essential for viability. H2A.Z and H2B.V colocalize throughout the cell cycle and exhibit nearly identical genomic distribution. Data strongly suggest that H2A.Z and H2B.V function together within a single nucleosome [lowell_histone_2005]. H2BV possibly regulates H3 K4 and K76 trimethylation in Trypanosoma brucei [mandava_trypanosome_2008].",
                 "taxonomy": "Trypanosoma",
                 "genes": "null",
                 "evolution": "null",
