@@ -1,19 +1,25 @@
 # requirements_webserver + more
+Flask
+pydot
+pygraphviz
+bibtexparser==1.2.0
 biopython==1.74
+joblib==0.14.1
+tqdm==4.43.0
 colour==0.1.5
 decorator==4.4.2
 dj-database-url==0.5.0
-Django==1.8.19
+Django==3.2.13
 django-debug-toolbar==1.3.2
-django-extensions==2.2.8
-django-filter==0.10.0
-django-filters==0.2.1
+django-extensions==2.1.0
+django-filter==21.1
+django-mptt==0.13.4
 django-google-analytics-id==1.0.1
 gunicorn>=19.5.0
 matplotlib==1.4.3
 mock==3.0.5
 more-itertools==5.0.0
-mysqlclient
+mysqlclient==2.0
 networkx==1.10
 nose==1.3.7
 numpy==1.16.6
@@ -30,6 +36,3 @@ seaborn==0.6.0
 six==1.11.0
 sklearn==0.0
 sqlparse==0.3.1
-#whitenoise
-# ERROR: Package 'whitenoise' requires a different Python: 2.7.0 not in '>=3.5, <4'
-# Note: MySql-python changed to (PyMySQL + mysqlclient) and removed wsgiref (as it is already inculuded in python 3) for python3
