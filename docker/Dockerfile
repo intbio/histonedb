@@ -33,7 +33,8 @@ RUN yes | pip3 install git+https://github.com/baskoopmans/django-filters.git
 
 #Compiling HMMER - v. 3.1b2 is critical. 3.3 while analyzing nr db will truncate the fasta record headers to one sequence id.
 #While in nr they are concatenated for multiple identical sequences and separated as of 5 March 2020 by '\x01' character.
-RUN wget http://eddylab.org/software/hmmer/hmmer-3.1b2.tar.gz && tar zxf hmmer-3.1b2.tar.gz && cd hmmer-3.1b2 && ./configure && make && make install && cd easel; make install
+RUN wget http://eddylab.org/software/hmmer/hmmer-3.1b2.tar.gz && tar zxf hmmer-3.1b2.tar.gz && cd hmmer-3.1b2 && ./configure --prefix=/usr && make && make install && cd easel; make install
+#RUN wget http://eddylab.org/software/hmmer/hmmer-3.1b2.tar.gz && tar zxf hmmer-3.1b2.tar.gz && cd hmmer-3.1b2 && ./configure && make && make install && cd easel; make install
 
 # DB tweaks
 RUN mkdir /var/run/mysqld

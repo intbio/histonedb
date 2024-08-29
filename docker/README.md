@@ -21,6 +21,9 @@ Create project directory and directories where to mount project code and databas
 mkdir project_dir
 cd project_dir
 git clone https://github.com/intbio/histonedb.git
+cd histonedb
+git checkout curated_histonedb
+cd ../
 mkdir db
 cd ..
 ```
@@ -32,7 +35,7 @@ Then you can run HistoneDB via two ways.
 - Run as a service in docker, this will run apache and attempt to start mysqld
 ```
 docker stop histdb; docker rm histdb # optional if container exists and is running
-docker run --name histdb -d -p 8080:10081 -v `pwd`/project_dir/histonedb:/var/www/histonedb -v `pwd`/project_dir/db:/var/lib/mysql intbio/histonedb:0.2.1
+docker run --name histdb -d -p 8080:10085 -v `pwd`/project_dir/histonedb:/var/www/histonedb -v `pwd`/project_dir/db:/var/lib/mysql intbio/histonedb:0.3.0
 ```
 
 - Check the website is available at http://localhost:8080
@@ -42,7 +45,9 @@ docker run --name histdb -d -p 8080:10081 -v `pwd`/project_dir/histonedb:/var/ww
 ```docker exec -it histdb bash```
 
 - Next in reinit_histdb_local.sh adjust the database you would want to build HistoneDB from (swissprot, nr, etc.)
-
+  
+```sed -i   's/sleep 5/sleep 10/g' db_gen.sh ``` # turned out 5 secs are not always enough for DB initialization
+  
 ```bash db_gen.sh -mysql_db_reinit -histdb_reinit```
 
 - To stop the container run
@@ -53,9 +58,9 @@ docker run --name histdb -d -p 8080:10081 -v `pwd`/project_dir/histonedb:/var/ww
 
 - Build singularity container
 
-```singularity build --sandbox cont docker://intbio/histonedb:0.2.1```
+```singularity build --sandbox cont docker://intbio/histonedb:0.3.0```
 
-- Run apache on prot 10081 and attempt to start mysqld
+- Run apache on prot 10085 and attempt to start mysqld
 
 ```singularity instance start --writable --bind project_dir/histonedb:/var/www/histonedb,project_dir/db:/var/lib/mysql cont histdb```
 
@@ -103,6 +108,6 @@ The running port of web server willbe 10081
 
 - Imaging
 ```
-docker image build -t intbio/histonedb:0.2.0 .
-docker push intbio/histonedb:0.2.0
+docker image build -t intbio/histonedb:0.3.0 .
+docker push intbio/histonedb:0.3.0
 ```
