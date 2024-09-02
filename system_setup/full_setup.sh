@@ -7,6 +7,7 @@ sudo sed -i '$a interactive_timeout = 31536000' /etc/mysql/mysql.conf.d/mysqld.c
 echo 'System setup complete.'
 
 # Python Requirements Setup
+cd ../
 virtualenv -p python3.7 venv_histdb_py37
 source venv_histdb_py37/bin/activate
 echo 'Virtualenv created and set to venv_histdb_py37.'
