@@ -16,7 +16,7 @@ django-filter==21.1
 django-mptt==0.13.4
 django-google-analytics-id==1.0.1
 gunicorn>=19.5.0
-matplotlib==1.4.3
+matplotlib==3.2.1
 mock==3.0.5
 more-itertools==5.0.0
 mysqlclient==2.0

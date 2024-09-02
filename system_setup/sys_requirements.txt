@@ -27,4 +27,6 @@ sudo apt-get install libapache2-mod-wsgi-py3
 
 sudo apt install virtualenv
 
+sudo apt install graphviz graphviz-dev
+
 
