@@ -1,6 +1,7 @@
 #!/bin/bash
 # please, run this file from histonedb directory
 
+
 parentdir="$(dirname "$PWD")"
 # parentdir="$(dirname "$parentdir")"
 sed -i 's#MY_PROJECT_DIRECTORY#'$parentdir'#g' system_setup/apache_setup/wsgi.conf
