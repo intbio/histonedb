@@ -1,0 +1,7 @@
+# server info
+server_name=histonedb-dev.bioeng.ru
+srever_port=22
+ssh_password=PSYdonia16
+ssh_username=l_singh
+db_adress=localhost
+db_port=3306

@@ -268,7 +268,7 @@
             "H3.4_(Mammalia)": {
                 "H3.4_(Homo_sapiens)": "null"
             },
-            "H3.5_(Primates_or_Hominids?)": {
+            "H3.5_(Hominidae)": {
                 "H3.5_(Homo_sapiens)": "null"
             },
             "H3.6_(Mammals?)?": "null",
@@ -276,7 +276,7 @@
             "H3.8_(Mammals?)?": "null",
             "H3.B_(Giardia?)": "null",
             "H3.P_(Moneuplotes?)": "null",
-            "H3.V_(Trypanosomes?)": "null"
+            "H3.V_(Trypanosomatidae)": "null"
         },
         "H4": {
             "cH4": {
@@ -4846,6 +4846,29 @@
                 "ueda_testis-specific_2017"
             ]
         },
+        "H3.5_(Hominidae)": {
+            "level": "variant_group",
+            "description": {
+                "summary": "H3.5 is a hominid-specific histone H3 variant expressed in the seminiferous tubules of human testes, encoded on chromosome 12p11.21 region of human chromosome 12. H3.3 is the most similar variant to H3.5 (approximately 96% identity). H3.5 has two copies of the ARKST motif and 5 amino acids differences comparing to H3.3 [schenk_h35_2011, ederveen_human_2011]. H3.5 likely evolved from H3F3B gene duplication and is associated with euchromatin and actively transcribed genes [schenk_h35_2011]. Nucleosomes containing histone variant H3.5 are less stable than H3.1 and H3.3 nucleosomes, but more stable than H3.4 nucleosome [urahama_histone_2016]. Notable, amino acid L in position 103 of H3.5 (amino acid F at the corresponding position in H3.3) reduces the number of hydrophobic bonds with histone H4 leading to instability of nucleosome [urahama_histone_2016]. H3.5 localizes primarely at exons, 5'UTR, 3'UTR, promoters and introns. Although it enreached around transcription start sites (TSSs), H3.5 distribution is independent of gene expression levels [urahama_histone_2016]. Clinical data indicate that H3.5 mRNA levels are significantly lower in patients with nonobstructive azoospermia compared to those with obstructive azoospermia or normal individuals, suggesting H3.5's role in normal spermatogenesis and its regulation by gonadotropins [ding_primate-specific_2021].",
+                "taxonomy": "null",
+                "genes": "null",
+                "evolution": "null",
+                "expression": "null",
+                "knock-out": "null",
+                "function": "null",
+                "sequence": "null",
+                "localization": "null",
+                "deposition": "null",
+                "structure": "null",
+                "interactions": "null",
+                "disease": "null",
+                "caveats": "null"
+            },
+            "taxonomic_span": "null",
+            "taxonomic_span_id": "null",
+            "alternate_names": [],
+            "publications": []
+        },
         "H3.5_(Homo_sapiens)": {
             "level": "variant",
             "description": {
@@ -4866,29 +4889,6 @@
             },
             "taxonomic_span": "Homo sapiens",
             "taxonomic_span_id": "9606",
-            "alternate_names": [],
-            "publications": []
-        },
-        "H3.5_(Primates_or_Hominids?)": {
-            "level": "variant_group",
-            "description": {
-                "summary": "null",
-                "taxonomy": "null",
-                "genes": "null",
-                "evolution": "null",
-                "expression": "null",
-                "knock-out": "null",
-                "function": "null",
-                "sequence": "null",
-                "localization": "null",
-                "deposition": "null",
-                "structure": "null",
-                "interactions": "null",
-                "disease": "null",
-                "caveats": "null"
-            },
-            "taxonomic_span": "null",
-            "taxonomic_span_id": "null",
             "alternate_names": [],
             "publications": []
         },
@@ -5007,10 +5007,10 @@
             "alternate_names": [],
             "publications": []
         },
-        "H3.V_(Trypanosomes?)": {
+        "H3.V_(Trypanosomatidae)": {
             "level": "variant_group",
             "description": {
-                "summary": "null",
+                "summary": "H3.V is a histone variant characterized so far in some trypanosomatids. It shares ~45-60% sequence identity with canonical H3. H3.V is not essential for viability. Although H3.V associated with the mitotic spindle and enriched at telomeres it is not essential for mini-chromosome segregation, telomere maintenance or transcriptional silencing at the telomere-proximal expression sites [lowell_variant_2004,  anderson_kinetoplastid-specific_2013]. While the general structure of H3.V resembles that of CenH3, it does not possess the specific sequence features required to be classified as a CenH3 variant [lowell_variant_2004]. H3.V plays a critical role in the regulation of antigenic variation. Together with H4.V they are involved in the positioning and expression of variant surface glycoprotein (VSG) genes, which the parasite Trypanosoma brucei switches to avoid immune detection [muller_genome_2018, schulz_base_2016]. H3.V is important for transcription termination and expression of downstream genes. The trypanosomatid-specific hyper-modified DNA base J  and H3.V collaboratively influence the termination process resulting in read-through transcription and increased expression of downstream genes [siegel_four_2009, reynolds_histone_2016, schulz_base_2016, mcdonald_localization_2022].",
                 "taxonomy": "null",
                 "genes": "null",
                 "evolution": "null",
