@@ -1,0 +1,21 @@
+##gff-version 3
+##sequence-region Consensus 1 138
+Consensus	feature	misc	15	125	.	.	.	Color=#DDD;Name=core
+Consensus	feature	helix	15	27	.	.	.	Color=#F77;Name=alpha1ext
+Consensus	feature	helix	31	42	.	.	.	Color=#F77;Name=alpha1
+Consensus	feature	helix	51	80	.	.	.	Color=#F77;Name=alpha2
+Consensus	feature	helix	87	96	.	.	.	Color=#F77;Name=alpha3
+Consensus	feature	misc	97	104	.	.	.	Color=#DDD;Name=alpha3ext
+Consensus	feature	loop	44	50	.	.	.	Color=#FF4;Name=loopL1
+Consensus	feature	loop	81	85	.	.	.	Color=#FF4;Name=loopL2
+Consensus	feature	sheet	47	47	.	.	.	Color=#1B3;Name=beta1
+Consensus	feature	sheet	84	85	.	.	.	Color=#1B3;Name=beta2
+Consensus	feature	sheet	107	109	.	.	.	Color=#1B3;Name=beta3
+Consensus	feature	misc	87	125	.	.	.	Color=#DDD;Name=docking_domain
+Consensus	feature	frameblock	47	47	.	.	.	Color=#FA3;Name=mgarg1
+Consensus	feature	frameblock	84	84	.	.	.	Color=#FA3;Name=mgarg2
+Consensus	feature	frameblock	61	61	.	.	.	Color=#FA3;Name=acidicpatch1
+Consensus	feature	frameblock	66	66	.	.	.	Color=#FA3;Name=acidicpatch2
+Consensus	feature	frameblock	69	69	.	.	.	Color=#FA3;Name=acidicpatch3
+Consensus	feature	frameblock	97	97	.	.	.	Color=#FA3;Name=acidicpatch4
+Consensus	feature	frameblock	99	99	.	.	.	Color=#FA3;Name=acidicpatch5

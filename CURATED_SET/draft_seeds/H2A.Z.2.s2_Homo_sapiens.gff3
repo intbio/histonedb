@@ -1,0 +1,16 @@
+##gff-version 3
+##sequence-region Consensus 1 128
+Consensus	feature	misc	19	121	.	.	.	Color=#DDD;Name=core
+Consensus	feature	helix	19	25	.	.	.	Color=#F77;Name=alpha1ext
+Consensus	feature	helix	29	40	.	.	.	Color=#F77;Name=alpha1
+Consensus	feature	helix	50	77	.	.	.	Color=#F77;Name=alpha2
+Consensus	feature	helix	83	93	.	.	.	Color=#F77;Name=alpha3
+Consensus	feature	misc	94	101	.	.	.	Color=#DDD;Name=alpha3ext
+Consensus	feature	loop	41	49	.	.	.	Color=#FF4;Name=loopL1
+Consensus	feature	loop	78	82	.	.	.	Color=#FF4;Name=loopL2
+Consensus	feature	sheet	46	47	.	.	.	Color=#1B3;Name=beta1
+Consensus	feature	sheet	81	82	.	.	.	Color=#1B3;Name=beta2
+Consensus	feature	sheet	103	105	.	.	.	Color=#1B3;Name=beta3
+Consensus	feature	misc	84	121	.	.	.	Color=#DDD;Name=docking_domain
+Consensus	feature	frameblock	46	46	.	.	.	Color=#FA3;Name=mgarg1
+Consensus	feature	frameblock	81	81	.	.	.	Color=#FA3;Name=mgarg2
