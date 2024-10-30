@@ -1,4 +1,4 @@
->Drosophila|NP_724342.1|cH2B_(Animals) organism=Drosophila melanogaster phylum=Arthropoda class=Insecta
+>cH2B_(Animals)_Drosophila_melanogaster_NP_724342.1 organism=Drosophila melanogaster phylum=Arthropoda class=Insecta
 --------------------------MP-P-----------------------------K
 T-----------------------------------------------------------
 ------------------------------------------------------------
@@ -7,7 +7,7 @@ T-----------------------------------------------------------
 PDTGISSKAMSIM-----------------NSFVNDIFERIAAEASRLAHYN----KRST
 ITSREIQTAVRLLLPGELAKHAVSEGTKAVTKYTSSK-----------------------
 ----------------------------------------
->Psammechinus|AAA30025.1|cH2B_(Animals) organism=Psammechinus miliaris phylum=Echinodermata class=Echinoidea
+>cH2B_(Animals)_Psammechinus_miliaris_AAA30025.1 organism=Psammechinus miliaris phylum=Echinodermata class=Echinoidea
 -----------------------M--APTA-----------------------------Q
 V-----------------------------------------------------------
 ------------------------------------------------------------
@@ -16,7 +16,7 @@ V-----------------------------------------------------------
 PDTGISSRAMIIM-----------------NSFVNDIFERIAGESSRLAQYN----KKST
 ISSREIQTAVRLILPGELAKHAVSEGTKAVTKYTTSK-----------------------
 ----------------------------------------
->Strongylocentrotus|NP_999710.2|cH2B_(Animals) organism=Strongylocentrotus purpuratus phylum=Echinodermata class=Echinoidea
+>cH2B_(Animals)_Strongylocentrotus_purpuratus_NP_999710.2 organism=Strongylocentrotus purpuratus phylum=Echinodermata class=Echinoidea
 -----------------------M--APTA-----------------------------Q
 V-----------------------------------------------------------
 ------------------------------------------------------------
@@ -25,7 +25,7 @@ V-----------------------------------------------------------
 PDTGISSRAMVIM-----------------NSXVBDIFERIAGESSRLAQYN----KKXT
 XSSREIQTAVRLILPGELAKHAVSEGTKAVTKYTTSK-----------------------
 ----------------------------------------
->Caenorhabditis|NP_505464.1|cH2B_(Animals) organism=Caenorhabditis elegans phylum=Nematoda class=Chromadorea
+>cH2B_(Animals)_Caenorhabditis_elegans_NP_505464.1 organism=Caenorhabditis elegans phylum=Nematoda class=Chromadorea
 -----------------------M--AP-P-----------------------------K
 P-----------------------------------------------------------
 ------------------------------------------------------------
@@ -34,7 +34,7 @@ P-----------------------------------------------------------
 PDTGVSSKAMSIM-----------------NSFVNDVFERIASEASRLAHYN----KRST
 ISSREIQTAVRLILPGELAKHAVSEGTKAVTKYTSSK-----------------------
 ----------------------------------------
->Xenopus|NP_001086753.1|cH2B_(Vertebrata) organism=Xenopus laevis phylum=Chordata class=Amphibia
+>cH2B_(Vertebrata)_Xenopus_laevis_NP_001086753.1 organism=Xenopus laevis phylum=Chordata class=Amphibia
 -------------------MPE-P--AKSA-----------------------------P
 A-----------------------------------------------------------
 ------------------------------------------------------------
@@ -43,7 +43,7 @@ A-----------------------------------------------------------
 PDTGISSKAMSIM-----------------NSFVNDVFERIAGEASRLAHYN----KRST
 ITSREIQTAVRLLLPGELAKHAVSEGTKAVTKYTSAK-----------------------
 ----------------------------------------
->Gallus|NP_001073188.1|cH2B_(Vertebrata) organism=Gallus gallus phylum=Chordata class=Aves
+>cH2B_(Vertebrata)_Gallus_gallus_NP_001073188.1 organism=Gallus gallus phylum=Chordata class=Aves
 -------------------MPE-P--AKSA-----------------------------P
 A-----------------------------------------------------------
 ------------------------------------------------------------
@@ -52,7 +52,7 @@ A-----------------------------------------------------------
 PDTGISSKAMGIM-----------------NSFVNDIFERIAGEASRLAHYN----KRST
 ITSREIQTAVRLLLPGELAKHAVSEGTKAVTKYTSSK-----------------------
 ----------------------------------------
->Ailuropoda|XP_011216221.1|cH2B_(Mammalia) organism=Ailuropoda melanoleuca phylum=Chordata class=Mammalia
+>cH2B_(Mammalia)_Ailuropoda_melanoleuca_XP_011216221.1 organism=Ailuropoda melanoleuca phylum=Chordata class=Mammalia
 -------------------MPD-P--AKSA-----------------------------P
 A-----------------------------------------------------------
 ------------------------------------------------------------
@@ -61,7 +61,7 @@ A-----------------------------------------------------------
 PDTGISSKAMGIM-----------------NSFVNDIFERIAGEASRLAHYN----KRST
 ITSREIQTAVRLLLPGELAKHAVSEGTKAVTKYTSSK-----------------------
 ----------------------------------------
->Bos|NP_001032546.1|cH2B_(Mammalia) organism=Bos taurus phylum=Chordata class=Mammalia
+>cH2B_(Mammalia)_Bos_taurus_NP_001032546.1 organism=Bos taurus phylum=Chordata class=Mammalia
 -------------------MPE-P--AKSA-----------------------------P
 A-----------------------------------------------------------
 ------------------------------------------------------------
@@ -70,7 +70,7 @@ A-----------------------------------------------------------
 PDTGISSKAMGIM-----------------NSFVNDIFERIAGEASRLAHYN----KRST
 ITSREIQTAVRLLLPGELAKHAVSEGTKAVTKYTSSK-----------------------
 ----------------------------------------
->Canis|XP_005640164.1|cH2B_(Mammalia) organism=Canis lupus familiaris phylum=Chordata class=Mammalia
+>cH2B_(Mammalia)_Canis_lupus_familiaris_XP_005640164.1 organism=Canis lupus familiaris phylum=Chordata class=Mammalia
 -------------------MPELT--SKGT-----------------------------T
 I-----------------------------------------------------------
 ------------------------------------------------------------
@@ -79,7 +79,7 @@ I-----------------------------------------------------------
 PDTGISSKAMGIM-----------------NSFVNDIFERIAGEASRLAHYN----KRST
 ITSREIQTAVRLLLPGELAKHAVSEGTKAVTKYTSSK-----------------------
 ----------------------------------------
->Cavia|XP_013006892.1|cH2B_(Mammalia) organism=Cavia porcellus phylum=Chordata class=Mammalia
+>cH2B_(Mammalia)_Cavia_porcellus_XP_013006892.1 organism=Cavia porcellus phylum=Chordata class=Mammalia
 -------------------MPE-P--AKSA-----------------------------P
 A-----------------------------------------------------------
 ------------------------------------------------------------
@@ -88,7 +88,7 @@ A-----------------------------------------------------------
 PDTGISSKAMGIM-----------------NSFVNDIFERIAGEASRLAHYN----KRST
 ITSREIQTAVRLLLPGELAKHAVSEGTKAVTKYTSSK-----------------------
 ----------------------------------------
->Cricetulus|XP_007634673.1|cH2B_(Mammalia) organism=Cricetulus griseus phylum=Chordata class=Mammalia
+>cH2B_(Mammalia)_Cricetulus_griseus_XP_007634673.1 organism=Cricetulus griseus phylum=Chordata class=Mammalia
 -------------------MPE-P--AKSA-----------------------------P
 A-----------------------------------------------------------
 ------------------------------------------------------------
@@ -97,7 +97,7 @@ A-----------------------------------------------------------
 PDTGISSKAMGIM-----------------NSFVNDIFERIAGEASRLAHYN----KRST
 ITSREIQTAVRLLLPGELAKHAVSEGTKAVTKYTSAK-----------------------
 ----------------------------------------
->Equus|XP_005610255.1|cH2B_(Mammalia) organism=Equus caballus phylum=Chordata class=Mammalia
+>cH2B_(Mammalia)_Equus_caballus_XP_005610255.1 organism=Equus caballus phylum=Chordata class=Mammalia
 -------------------MPE-P--AKSA-----------------------------P
 A-----------------------------------------------------------
 ------------------------------------------------------------
@@ -106,7 +106,7 @@ A-----------------------------------------------------------
 PDTGISSKAMGIM-----------------NSFVNDIFERIAGEASRLAHYN----KRST
 ITSREIQTAVRLLLPGELAKHAVSEGTKAVTKYTSSK-----------------------
 ----------------------------------------
->Heterocephalus|XP_012928647.1|cH2B_(Mammalia) organism=Heterocephalus glaber phylum=Chordata class=Mammalia
+>cH2B_(Mammalia)_Heterocephalus_glaber_XP_012928647.1 organism=Heterocephalus glaber phylum=Chordata class=Mammalia
 -------------------MPE-P--AKSA-----------------------------P
 A-----------------------------------------------------------
 ------------------------------------------------------------
@@ -115,7 +115,7 @@ A-----------------------------------------------------------
 PDTGISSKAMGIM-----------------NSFVNDIFERIAGEASRLAHYN----KRST
 ITSREIQTAVRLLLPGELAKHAVSEGTKAVTKYTSSK-----------------------
 ----------------------------------------
->Loxodonta|XP_003422331.1|cH2B_(Mammalia) organism=Loxodonta africana phylum=Chordata class=Mammalia
+>cH2B_(Mammalia)_Loxodonta_africana_XP_003422331.1 organism=Loxodonta africana phylum=Chordata class=Mammalia
 -------------------MPE-P--AKSA-----------------------------P
 A-----------------------------------------------------------
 ------------------------------------------------------------
@@ -124,7 +124,7 @@ A-----------------------------------------------------------
 PDTGISSKAMGIM-----------------NSFVNDIFERIAGEASRLAHYN----KRST
 ITSREIQTAVRLLLPGELAKHAVSEGTKAVTKYTSAK-----------------------
 ----------------------------------------
->Macaca|XP_011741102.1|cH2B_(Mammalia) organism=Macaca nemestrina phylum=Chordata class=Mammalia
+>cH2B_(Mammalia)_Macaca_nemestrina_XP_011741102.1 organism=Macaca nemestrina phylum=Chordata class=Mammalia
 -------------------MPE-P--AKSA-----------------------------P
 A-----------------------------------------------------------
 ------------------------------------------------------------
@@ -133,7 +133,7 @@ A-----------------------------------------------------------
 PDTGISSKAMGIM-----------------NSFVNDIFERIAGEASRLAHYN----KRST
 ITSREIQTAVRLLLPGELAKHAVSEGTKAVTKYTSSK-----------------------
 ----------------------------------------
->Monodelphis|XP_007485418.1|cH2B_(Mammalia) organism=Monodelphis domestica phylum=Chordata class=Mammalia
+>cH2B_(Mammalia)_Monodelphis_domestica_XP_007485418.1 organism=Monodelphis domestica phylum=Chordata class=Mammalia
 -------------------MPE-P--GKSA-----------------------------P
 A-----------------------------------------------------------
 ------------------------------------------------------------
@@ -142,7 +142,7 @@ A-----------------------------------------------------------
 PDTGISSKAMGIM-----------------NSFVNDIFERIASEASRLAHYN----KRST
 ITSREIQTAVRLLLPGELAKHAVSEGTKAVTKYTSSK-----------------------
 ----------------------------------------
->Mus|NP_783594.1|cH2B_(Mammalia) organism=Mus musculus phylum=Chordata class=Mammalia
+>cH2B_(Mammalia)_Mus_musculus_NP_783594.1 organism=Mus musculus phylum=Chordata class=Mammalia
 -------------------MPEVA--VKGA-----------------------------T
 I-----------------------------------------------------------
 ------------------------------------------------------------
@@ -151,7 +151,7 @@ I-----------------------------------------------------------
 PDTGISSKAMSIM-----------------NSFVTDIFERIASEASRLAHYN----KRST
 ITSREIQTAVRLLLPGELAKHAVSEGTKAVTKYTSSK-----------------------
 ----------------------------------------
->Oryctolagus|XP_008246696.1|cH2B_(Mammalia) organism=Oryctolagus cuniculus phylum=Chordata class=Mammalia
+>cH2B_(Mammalia)_Oryctolagus_cuniculus_XP_008246696.1 organism=Oryctolagus cuniculus phylum=Chordata class=Mammalia
 -------------------MPE-P--AKSA-----------------------------P
 A-----------------------------------------------------------
 ------------------------------------------------------------
@@ -160,7 +160,7 @@ A-----------------------------------------------------------
 PDTGISSKAMGIM-----------------NSFVNDIFERIAGEASRLAHYN----KRST
 ITSREIQTAVRLLLPGELAKHAVSEGTKAVTKYTSSK-----------------------
 ----------------------------------------
->Rattus|HISTDB_cH2B_1_0|cH2B_(Mammalia) organism=Rattus norvegicus phylum=Chordata class=Mammalia
+>cH2B_(Mammalia)_Rattus_norvegicus_HISTDB_cH2B_1_0 organism=Rattus norvegicus phylum=Chordata class=Mammalia
 -------------------MPEVS--AKGT-----------------------------T
 I-----------------------------------------------------------
 ------------------------------------------------------------
@@ -169,7 +169,7 @@ I-----------------------------------------------------------
 PDTGISSKAMSIM-----------------NSFVTDIFERIAGEASRLAHYN----KRST
 ITSREIQTAVRLLLPGELAKHAVSEGTKAVTKYTSSK-----------------------
 ----------------------------------------
->Rattus|NP_072169.1|cH2B_(Mammalia) organism=Rattus norvegicus phylum=Chordata class=Mammalia
+>cH2B_(Mammalia)_Rattus_norvegicus_NP_072169.1 organism=Rattus norvegicus phylum=Chordata class=Mammalia
 -------------------MPEVS--AKGT-----------------------------T
 I-----------------------------------------------------------
 ------------------------------------------------------------
@@ -178,7 +178,7 @@ I-----------------------------------------------------------
 PDTGISSKAMSIM-----------------NSFVTDIFERIAGEASRLAHYN----KRST
 ITSREIQTAVRLLLPGELAKHAVSEGTKAVTKYTSSK-----------------------
 ----------------------------------------
->Rattus|NP_072173.2|cH2B_(Mammalia) organism=Rattus norvegicus phylum=Chordata class=Mammalia
+>cH2B_(Mammalia)_Rattus_norvegicus_NP_072173.2 organism=Rattus norvegicus phylum=Chordata class=Mammalia
 -------------------MPE-P--AKSA-----------------------------P
 A-----------------------------------------------------------
 ------------------------------------------------------------
@@ -187,7 +187,7 @@ A-----------------------------------------------------------
 PDTGISSKAMGIM-----------------NSFVNDIFERIAGEASRLAHYN----KRST
 ITSREIQTAVRLLLPGELAKHAVSEGTKAVTKYTSSK-----------------------
 ----------------------------------------
->Sus|XP_005665716.1|cH2B_(Mammalia) organism=Sus scrofa phylum=Chordata class=Mammalia
+>cH2B_(Mammalia)_Sus_scrofa_XP_005665716.1 organism=Sus scrofa phylum=Chordata class=Mammalia
 -------------------MPD-P--AKSA-----------------------------P
 A-----------------------------------------------------------
 ------------------------------------------------------------
@@ -196,7 +196,7 @@ A-----------------------------------------------------------
 PDTGISSKAMGIM-----------------NSFVNDIFERIAGEASRLAHYN----KRST
 ITSREIQTAVRLLLPGELAKHAVSEGTKAVTKYTSSK-----------------------
 ----------------------------------------
->Homo|NP_003511.1|cH2B.10_(Homo_sapiens) organism=Homo sapiens phylum=Chordata class=Mammalia
+>cH2B.10_(Homo_sapiens)_Homo_sapiens_NP_003511.1 organism=Homo sapiens phylum=Chordata class=Mammalia
 -------------------MPE-P--SKSA-----------------------------P
 A-----------------------------------------------------------
 ------------------------------------------------------------
@@ -205,7 +205,7 @@ A-----------------------------------------------------------
 PDTGISSKAMGIM-----------------NSFVNDIFERIAGEASRLAHYN----KRST
 ITSREIQTAVRLLLPGELAKHAVSEGTKAVTKYTSSK-----------------------
 ----------------------------------------
->Homo|NP_003518.2|cH2B.11_(Homo_sapiens) organism=Homo sapiens phylum=Chordata class=Mammalia
+>cH2B.11_(Homo_sapiens)_Homo_sapiens_NP_003518.2 organism=Homo sapiens phylum=Chordata class=Mammalia
 -------------------MPD-P--AKSA-----------------------------P
 A-----------------------------------------------------------
 ------------------------------------------------------------
@@ -214,7 +214,7 @@ A-----------------------------------------------------------
 PDTGISSKAMGIM-----------------NSFVNDIFERIAGEASRLAHYN----KRST
 ITSREIQTAVRLLLPGELAKHAVSEGTKAVTKYTSSK-----------------------
 ----------------------------------------
->Homo|NP_001019770.1|cH2B.12_(Homo_sapiens) organism=Homo sapiens phylum=Chordata class=Mammalia
+>cH2B.12_(Homo_sapiens)_Homo_sapiens_NP_001019770.1 organism=Homo sapiens phylum=Chordata class=Mammalia
 -------------------MPD-P--AKSA-----------------------------P
 A-----------------------------------------------------------
 ------------------------------------------------------------
@@ -223,7 +223,7 @@ A-----------------------------------------------------------
 PDTGISSKAMGIM-----------------NSFVNDIFERIAGEASRLAHYN----KRST
 ITSREIQTAVRLLLPGELAKHAVSEGTKAVTKYTSSK-----------------------
 ----------------------------------------
->Homo|NP_001154806.1|cH2B.12_(Homo_sapiens) organism=Homo sapiens phylum=Chordata class=Mammalia
+>cH2B.12_(Homo_sapiens)_Homo_sapiens_NP_001154806.1 organism=Homo sapiens phylum=Chordata class=Mammalia
 -------------------MPD-P--AKSA-----------------------------P
 A-----------------------------------------------------------
 ------------------------------------------------------------
@@ -232,7 +232,7 @@ A-----------------------------------------------------------
 PDTGISSKAMGIM-----------------NSFVNDIFERIAGEASRLAHYN----KRST
 ITSREIQTAVRLLLPGELAKHAVSEGTKAVTKYTSSKLIGPILWK---------------
 ----------------------------------------
->Homo|NP_003519.1|cH2B.13_(Homo_sapiens) organism=Homo sapiens phylum=Chordata class=Mammalia
+>cH2B.13_(Homo_sapiens)_Homo_sapiens_NP_003519.1 organism=Homo sapiens phylum=Chordata class=Mammalia
 -------------------MPE-P--AKSA-----------------------------P
 A-----------------------------------------------------------
 ------------------------------------------------------------
@@ -241,7 +241,7 @@ A-----------------------------------------------------------
 PDTGISSKAMGIM-----------------NSFVNDIFERIAGEASRLAHYN----KRST
 ITSREIQTAVRLLLPGELAKHAVSEGTKAVTKYTSSK-----------------------
 ----------------------------------------
->Homo|NP_778225.1|cH2B.14_(Homo_sapiens) organism=Homo sapiens phylum=Chordata class=Mammalia
+>cH2B.14_(Homo_sapiens)_Homo_sapiens_NP_778225.1 organism=Homo sapiens phylum=Chordata class=Mammalia
 -------------------MPD-P--SKSA-----------------------------P
 A-----------------------------------------------------------
 ------------------------------------------------------------
@@ -250,7 +250,7 @@ A-----------------------------------------------------------
 PDTGISSKAMGIM-----------------NSFVNDIFERIASEASRLAHYN----KRST
 ITSREVQTAVRLLLPGELAKHAVSEGTKAVTKYTSSK-----------------------
 ----------------------------------------
->Homo|NP_733759.1|cH2B.1_(Homo_sapiens) organism=Homo sapiens phylum=Chordata class=Mammalia
+>cH2B.1_(Homo_sapiens)_Homo_sapiens_NP_733759.1 organism=Homo sapiens phylum=Chordata class=Mammalia
 -------------------MPEVS--SKGA-----------------------------T
 I-----------------------------------------------------------
 ------------------------------------------------------------
@@ -259,7 +259,7 @@ I-----------------------------------------------------------
 PDTGISSKAMSIM-----------------NSFVTDIFERIASEASRLAHYS----KRST
 ISSREIQTAVRLLLPGELAKHAVSEGTKAVTKYTSSK-----------------------
 ----------------------------------------
->Homo|NP_066406.1|cH2B.2_(Homo_sapiens) organism=Homo sapiens phylum=Chordata class=Mammalia
+>cH2B.2_(Homo_sapiens)_Homo_sapiens_NP_066406.1 organism=Homo sapiens phylum=Chordata class=Mammalia
 -------------------MPE-P--SKSA-----------------------------P
 A-----------------------------------------------------------
 ------------------------------------------------------------
@@ -268,7 +268,7 @@ A-----------------------------------------------------------
 PDTGISSKAMGIM-----------------NSFVNDIFERIAGEASRLAHYN----KRST
 ITSREIQTAVRLLLPGELAKHAVSEGTKAVTKYTSSK-----------------------
 ----------------------------------------
->Homo|NP_003509.1|cH2B.3_(Homo_sapiens) organism=Homo sapiens phylum=Chordata class=Mammalia
+>cH2B.3_(Homo_sapiens)_Homo_sapiens_NP_003509.1 organism=Homo sapiens phylum=Chordata class=Mammalia
 -------------------MPE-P--AKSA-----------------------------P
 A-----------------------------------------------------------
 ------------------------------------------------------------
@@ -277,7 +277,7 @@ A-----------------------------------------------------------
 PDTGISSKAMGIM-----------------NSFVNDIFERIAGEASRLAHYN----KRST
 ITSREIQTAVRLLLPGELAKHAVSEGTKAVTKYTSSK-----------------------
 ----------------------------------------
->Homo|NP_003513.1|cH2B.3_(Homo_sapiens) organism=Homo sapiens phylum=Chordata class=Mammalia
+>cH2B.3_(Homo_sapiens)_Homo_sapiens_NP_003513.1 organism=Homo sapiens phylum=Chordata class=Mammalia
 -------------------MPE-P--AKSA-----------------------------P
 A-----------------------------------------------------------
 ------------------------------------------------------------
@@ -286,7 +286,7 @@ A-----------------------------------------------------------
 PDTGISSKAMGIM-----------------NSFVNDIFERIAGEASRLAHYN----KRST
 ITSREIQTAVRLLLPGELAKHAVSEGTKAVTKYTSSK-----------------------
 ----------------------------------------
->Homo|NP_003514.2|cH2B.3_(Homo_sapiens) organism=Homo sapiens phylum=Chordata class=Mammalia
+>cH2B.3_(Homo_sapiens)_Homo_sapiens_NP_003514.2 organism=Homo sapiens phylum=Chordata class=Mammalia
 -------------------MPE-P--AKSA-----------------------------P
 A-----------------------------------------------------------
 ------------------------------------------------------------
@@ -295,7 +295,7 @@ A-----------------------------------------------------------
 PDTGISSKAMGIM-----------------NSFVNDIFERIAGEASRLAHYN----KRST
 ITSREIQTAVRLLLPGELAKHAVSEGTKAVTKYTSSK-----------------------
 ----------------------------------------
->Homo|NP_003516.1|cH2B.3_(Homo_sapiens) organism=Homo sapiens phylum=Chordata class=Mammalia
+>cH2B.3_(Homo_sapiens)_Homo_sapiens_NP_003516.1 organism=Homo sapiens phylum=Chordata class=Mammalia
 -------------------MPE-P--AKSA-----------------------------P
 A-----------------------------------------------------------
 ------------------------------------------------------------
@@ -304,7 +304,7 @@ A-----------------------------------------------------------
 PDTGISSKAMGIM-----------------NSFVNDIFERIAGEASRLAHYN----KRST
 ITSREIQTAVRLLLPGELAKHAVSEGTKAVTKYTSSK-----------------------
 ----------------------------------------
->Homo|NP_003517.2|cH2B.3_(Homo_sapiens) organism=Homo sapiens phylum=Chordata class=Mammalia
+>cH2B.3_(Homo_sapiens)_Homo_sapiens_NP_003517.2 organism=Homo sapiens phylum=Chordata class=Mammalia
 -------------------MPE-P--AKSA-----------------------------P
 A-----------------------------------------------------------
 ------------------------------------------------------------
@@ -313,7 +313,7 @@ A-----------------------------------------------------------
 PDTGISSKAMGIM-----------------NSFVNDIFERIAGEASRLAHYN----KRST
 ITSREIQTAVRLLLPGELAKHAVSEGTKAVTKYTSSK-----------------------
 ----------------------------------------
->Homo|NP_066407.1|cH2B.4_(Homo_sapiens) organism=Homo sapiens phylum=Chordata class=Mammalia
+>cH2B.4_(Homo_sapiens)_Homo_sapiens_NP_066407.1 organism=Homo sapiens phylum=Chordata class=Mammalia
 -------------------MPE-P--TKSA-----------------------------P
 A-----------------------------------------------------------
 ------------------------------------------------------------
@@ -322,7 +322,7 @@ A-----------------------------------------------------------
 PDTGISSKAMGIM-----------------NSFVNDIFERIAGEASRLAHYN----KRST
 ITSREIQTAVRLLLPGELAKHAVSEGTKAVTKYTSSK-----------------------
 ----------------------------------------
->Homo|NP_003515.1|cH2B.5_(Homo_sapiens) organism=Homo sapiens phylum=Chordata class=Mammalia
+>cH2B.5_(Homo_sapiens)_Homo_sapiens_NP_003515.1 organism=Homo sapiens phylum=Chordata class=Mammalia
 -------------------MPD-P--AKSA-----------------------------P
 A-----------------------------------------------------------
 ------------------------------------------------------------
@@ -331,7 +331,7 @@ A-----------------------------------------------------------
 PDTGISSKAMGIM-----------------NSFVNDIFERIAGEASRLAHYN----KRST
 ITSREIQTAVRLLLPGELAKHAVSEGTKAVTKYTSSK-----------------------
 ----------------------------------------
->Homo|NP_066402.2|cH2B.6_(Homo_sapiens) organism=Homo sapiens phylum=Chordata class=Mammalia
+>cH2B.6_(Homo_sapiens)_Homo_sapiens_NP_066402.2 organism=Homo sapiens phylum=Chordata class=Mammalia
 -------------------MPE-P--AKSA-----------------------------P
 A-----------------------------------------------------------
 ------------------------------------------------------------
@@ -340,7 +340,7 @@ A-----------------------------------------------------------
 PDTGISSKAMGIM-----------------NSFVNDIFERIAGEASRLAHYN----KRST
 ITSREIQTAVRLLLPGELAKHAVSEGTKAVTKYTSAK-----------------------
 ----------------------------------------
->Homo|NP_001299582.1|cH2B.7_(Homo_sapiens) organism=Homo sapiens phylum=Chordata class=Mammalia
+>cH2B.7_(Homo_sapiens)_Homo_sapiens_NP_001299582.1 organism=Homo sapiens phylum=Chordata class=Mammalia
 -------------------MPE-P--AKSA-----------------------------P
 A-----------------------------------------------------------
 ------------------------------------------------------------
@@ -349,7 +349,7 @@ A-----------------------------------------------------------
 PDTGISSKAMGIM-----------------NSFVNDIFERIAGEASRLAHYN----KRST
 ITSREIQTAVRLLLPGELAKHAVSEGTKAVTKYTSAK-----------------------
 ----------------------------------------
->Homo|NP_003510.1|cH2B.8_(Homo_sapiens) organism=Homo sapiens phylum=Chordata class=Mammalia
+>cH2B.8_(Homo_sapiens)_Homo_sapiens_NP_003510.1 organism=Homo sapiens phylum=Chordata class=Mammalia
 -------------------MPE-L--AKSA-----------------------------P
 A-----------------------------------------------------------
 ------------------------------------------------------------
@@ -358,7 +358,7 @@ A-----------------------------------------------------------
 PDTGISSKAMGIM-----------------NSFVNDIFERIASEASRLAHYN----KRST
 ITSREIQTAVRLLLPGELAKHAVSEGTKAVTKYTSSK-----------------------
 ----------------------------------------
->Homo|NP_003512.1|cH2B.9_(Homo_sapiens) organism=Homo sapiens phylum=Chordata class=Mammalia
+>cH2B.9_(Homo_sapiens)_Homo_sapiens_NP_003512.1 organism=Homo sapiens phylum=Chordata class=Mammalia
 -------------------MPE-P--VKSA-----------------------------P
 V-----------------------------------------------------------
 ------------------------------------------------------------
@@ -367,7 +367,7 @@ V-----------------------------------------------------------
 PDTGISSKAMGIM-----------------NSFVNDIFERIAGEASRLAHYN----KRST
 ITSREIQTAVRLLLPGELAKHAVSEGTKAVTKYTSSK-----------------------
 ----------------------------------------
->Mus|NP_783595.1|cH2B_(Mus_musculus) organism=Mus musculus phylum=Chordata class=Mammalia
+>cH2B_(Mus_musculus)_Mus_musculus_NP_783595.1 organism=Mus musculus phylum=Chordata class=Mammalia
 -------------------MPEPS---KSA-----------------------------P
 A-----------------------------------------------------------
 ------------------------------------------------------------
@@ -376,7 +376,7 @@ A-----------------------------------------------------------
 PDTGISSKAMGIM-----------------NSFVNDIFERIASEASRLAHYN----KRST
 ITSREIQTAVRLLLPGELAKHAVSEGTKAVTKYTSSK-----------------------
 ----------------------------------------
->Mus|CAA62299.1|cH2B.1_(Mus_musculus) organism=Mus musculus phylum=Chordata class=Mammalia
+>cH2B.1_(Mus_musculus)_Mus_musculus_CAA62299.1 organism=Mus musculus phylum=Chordata class=Mammalia
 -------------------MPEVA--VKGA-----------------------------T
 I-----------------------------------------------------------
 ------------------------------------------------------------
@@ -385,7 +385,7 @@ I-----------------------------------------------------------
 PDTGISSKAMSIM-----------------NSFVTDIFERIASEASRLAHYN----KRST
 ITSREIQTAVRLLLPGELAKHAVSEGTKAVTKYTSSK-----------------------
 ----------------------------------------
->Mus|NP_835502.1|cH2B.1_(Mus_musculus) organism=Mus musculus phylum=Chordata class=Mammalia
+>cH2B.1_(Mus_musculus)_Mus_musculus_NP_835502.1 organism=Mus musculus phylum=Chordata class=Mammalia
 -------------------MPEPA---KSA-----------------------------P
 A-----------------------------------------------------------
 ------------------------------------------------------------
@@ -394,7 +394,7 @@ A-----------------------------------------------------------
 PDTGISSKAMGIM-----------------NSFVNDIFERIASEASRLAHYN----KRST
 ITSREIQTAVRLLLPGELAKHAVSEGTKAVTKYTSSK-----------------------
 ----------------------------------------
->Mus|Q64524.3|cH2B.E_(Mus_musculus) organism=Mus musculus phylum=Chordata class=Mammalia
+>cH2B.E_(Mus_musculus)_Mus_musculus_Q64524.3 organism=Mus musculus phylum=Chordata class=Mammalia
 -------------------MPELA---KSA-----------------------------P
 A-----------------------------------------------------------
 ------------------------------------------------------------
@@ -403,7 +403,7 @@ A-----------------------------------------------------------
 PDTGISSKAMGIM-----------------NSFVNDIFERIANEASRLAHYN----KRST
 ITSREIQTSVRLLLPGELAKHAVSEGTKAVTKYTSAK-----------------------
 ----------------------------------------
->Saccharomyces|NP_009553.1|cH2B_(Fungi) organism=Saccharomyces cerevisiae S288C phylum=Ascomycota class=Saccharomycetes
+>cH2B_(Fungi)_Saccharomyces_cerevisiae_S288C_NP_009553.1 organism=Saccharomyces cerevisiae S288C phylum=Ascomycota class=Saccharomycetes
 -------------------MSSAA--EKKP-----------------------------A
 S-----------------------------------------------------------
 ------------------------------------------------------------
@@ -412,7 +412,7 @@ S-----------------------------------------------------------
 PDTGISQKSMSIL-----------------NSFVNDIFERIATEASKLAAYN----KKST
 ISAREIQTAVRLILPGELAKHAVSEGTRAVTKYSSSTQA---------------------
 ----------------------------------------
->Saccharomyces|NP_010510.3|cH2B_(Fungi) organism=Saccharomyces cerevisiae S288C phylum=Ascomycota class=Saccharomycetes
+>cH2B_(Fungi)_Saccharomyces_cerevisiae_S288C_NP_010510.3 organism=Saccharomyces cerevisiae S288C phylum=Ascomycota class=Saccharomycetes
 -------------------MSAKA--EKKP-----------------------------A
 S-----------------------------------------------------------
 ------------------------------------------------------------
@@ -421,7 +421,7 @@ S-----------------------------------------------------------
 PDTGISQKSMSIL-----------------NSFVNDIFERIATEASKLAAYN----KKST
 ISAREIQTAVRLILPGELAKHAVSEGTRAVTKYSSSTQA---------------------
 ----------------------------------------
->Chlamydomonas|XP_001690668.1|cH2B_(Chlorophyta) organism=Chlamydomonas reinhardtii phylum=Chlorophyta class=Chlorophyceae
+>cH2B_(Chlorophyta)_Chlamydomonas_reinhardtii_XP_001690668.1 organism=Chlamydomonas reinhardtii phylum=Chlorophyta class=Chlorophyceae
 -------------------MAPKK--DEKP----VTAEAGAEAPAKAEAKPKAEKAA-KK
 A-----------------------------------------------------------
 ------------------------------------------------------------
@@ -430,7 +430,7 @@ A-----------------------------------------------------------
 PDTGISSKAMSIM-----------------NSFINDIFEKVATEASKLSRYN----KKPT
 VTSREIQTAVRLVLPGELAKHAVSEGTKAVTKFTSG------------------------
 ----------------------------------------
->Chlamydomonas|XP_001691007.1|cH2B_(Chlorophyta) organism=Chlamydomonas reinhardtii phylum=Chlorophyta class=Chlorophyceae
+>cH2B_(Chlorophyta)_Chlamydomonas_reinhardtii_XP_001691007.1 organism=Chlamydomonas reinhardtii phylum=Chlorophyta class=Chlorophyceae
 -------------------MAPKK--DEKP----ATQEAAAEAPAKAEAKPKAEKAA-KK
 A-----------------------------------------------------------
 ------------------------------------------------------------
@@ -439,7 +439,7 @@ A-----------------------------------------------------------
 PDTGISSKAMSIM-----------------NSFINDIFEKVATEASKLSRYN----KKPT
 VTSREIQTAVRLVLPGELAKHAVSEGTKAVTKFTSG------------------------
 ----------------------------------------
->Chlamydomonas|XP_001691162.1|cH2B_(Chlorophyta) organism=Chlamydomonas reinhardtii phylum=Chlorophyta class=Chlorophyceae
+>cH2B_(Chlorophyta)_Chlamydomonas_reinhardtii_XP_001691162.1 organism=Chlamydomonas reinhardtii phylum=Chlorophyta class=Chlorophyceae
 -------------------MAPKK--DEKP----ATAEAGAEAPAKAEAKPKAEKAA-KK
 A-----------------------------------------------------------
 ------------------------------------------------------------
@@ -448,7 +448,7 @@ A-----------------------------------------------------------
 PDTGISSKAMSIM-----------------NSFINDIFEKVATEASKLSRYN----KKPT
 VTSREIQTAVRLVLPGELAKHAVSEGTKAVTKFTSG------------------------
 ----------------------------------------
->Chlamydomonas|XP_001691541.1|cH2B_(Chlorophyta) organism=Chlamydomonas reinhardtii phylum=Chlorophyta class=Chlorophyceae
+>cH2B_(Chlorophyta)_Chlamydomonas_reinhardtii_XP_001691541.1 organism=Chlamydomonas reinhardtii phylum=Chlorophyta class=Chlorophyceae
 -------------------MAPKK--DEKP----ATAEAGAEAPAKAEAKPKAEKAG-KK
 A-----------------------------------------------------------
 ------------------------------------------------------------
@@ -457,7 +457,7 @@ A-----------------------------------------------------------
 PDTGISSKAMSIM-----------------NSFINDIFEKVATEASKLSRYN----KKPT
 VTSREIQTAVRLVLPGELAKHAVSEGTKAVTKFTSG------------------------
 ----------------------------------------
->Chlamydomonas|XP_001691693.1|cH2B_(Chlorophyta) organism=Chlamydomonas reinhardtii phylum=Chlorophyta class=Chlorophyceae
+>cH2B_(Chlorophyta)_Chlamydomonas_reinhardtii_XP_001691693.1 organism=Chlamydomonas reinhardtii phylum=Chlorophyta class=Chlorophyceae
 -------------------MAPKK--DEKS----ATQEAGAEAPAKAEAKPKAEKAA-KK
 A-----------------------------------------------------------
 ------------------------------------------------------------
@@ -466,7 +466,7 @@ A-----------------------------------------------------------
 PDTGISSKAMSIM-----------------NSFINDIFEKVATEASKLSRYN----KKPT
 VTSREIQTAVRLVLPGELAKHAVSEGTKAVTKFTSG------------------------
 ----------------------------------------
->Chlamydomonas|XP_001692948.1|cH2B_(Chlorophyta) organism=Chlamydomonas reinhardtii phylum=Chlorophyta class=Chlorophyceae
+>cH2B_(Chlorophyta)_Chlamydomonas_reinhardtii_XP_001692948.1 organism=Chlamydomonas reinhardtii phylum=Chlorophyta class=Chlorophyceae
 -------------------MAPKK--DEKK---DAAAPEAAEPKAEKESKPKADKAA-KK
 A-----------------------------------------------------------
 ------------------------------------------------------------
@@ -475,7 +475,7 @@ A-----------------------------------------------------------
 PDTGISSKAMSIM-----------------NSFINDIFEKVATEASKLSRYN----KKPT
 VTSREIQTAVRLVLPGELAKHAVSEGTKAVTKFTSG------------------------
 ----------------------------------------
->Chlamydomonas|XP_001693071.1|cH2B_(Chlorophyta) organism=Chlamydomonas reinhardtii phylum=Chlorophyta class=Chlorophyceae
+>cH2B_(Chlorophyta)_Chlamydomonas_reinhardtii_XP_001693071.1 organism=Chlamydomonas reinhardtii phylum=Chlorophyta class=Chlorophyceae
 -------------------MAPKK--DEKK---DAAAPEAAEPKAEKESKPKADKAA-KK
 A-----------------------------------------------------------
 ------------------------------------------------------------
@@ -484,7 +484,7 @@ A-----------------------------------------------------------
 PDTGISSKAMSIM-----------------NSFINDIFEKVATEASKLSRYN----KKPT
 VTSREIQTAVRLVLPGELAKHAVSEGTKAVTKFTSG------------------------
 ----------------------------------------
->Chlamydomonas|XP_001693722.1|cH2B_(Chlorophyta) organism=Chlamydomonas reinhardtii phylum=Chlorophyta class=Chlorophyceae
+>cH2B_(Chlorophyta)_Chlamydomonas_reinhardtii_XP_001693722.1 organism=Chlamydomonas reinhardtii phylum=Chlorophyta class=Chlorophyceae
 -------------------MAPKK--DEKPATRAATQEAGAEATAKAEAKPKAEKAA-KK
 A-----------------------------------------------------------
 ------------------------------------------------------------
@@ -493,7 +493,7 @@ A-----------------------------------------------------------
 PDTGISSKAMSIM-----------------NSFINDIFEKVATEASKLSRYN----KKPT
 VTSREIQTAVRLVLPGELAKHAVSEGTKAVTKFTSG------------------------
 ----------------------------------------
->Chlamydomonas|XP_001696245.1|cH2B_(Chlorophyta) organism=Chlamydomonas reinhardtii phylum=Chlorophyta class=Chlorophyceae
+>cH2B_(Chlorophyta)_Chlamydomonas_reinhardtii_XP_001696245.1 organism=Chlamydomonas reinhardtii phylum=Chlorophyta class=Chlorophyceae
 -------------------MAPKK--DEKP----ATAEAGAEAPAKAEAKPKAEKAA-KK
 A-----------------------------------------------------------
 ------------------------------------------------------------
@@ -502,7 +502,7 @@ A-----------------------------------------------------------
 PDTGISSKAMSIM-----------------NSFINDIFEKVATEASKLSRYN----KKPT
 VTSREIQTAVRLVLPGELAKHAVSEGTKAVTKFTSG------------------------
 ----------------------------------------
->Chlamydomonas|XP_001696283.1|cH2B_(Chlorophyta) organism=Chlamydomonas reinhardtii phylum=Chlorophyta class=Chlorophyceae
+>cH2B_(Chlorophyta)_Chlamydomonas_reinhardtii_XP_001696283.1 organism=Chlamydomonas reinhardtii phylum=Chlorophyta class=Chlorophyceae
 -------------------MAPKK--DEKP----ATAEAGAEAPAKADAKPKAEKAA-KK
 A-----------------------------------------------------------
 ------------------------------------------------------------
@@ -511,7 +511,7 @@ A-----------------------------------------------------------
 PDTGISSKAMSIM-----------------NSFINDIFEKVATEASKLSRYN----KKPT
 VTSREIQTAVRLVLPGELAKHAVSEGTKAVTKFTSG------------------------
 ----------------------------------------
->Chlamydomonas|XP_001696556.1|cH2B_(Chlorophyta) organism=Chlamydomonas reinhardtii phylum=Chlorophyta class=Chlorophyceae
+>cH2B_(Chlorophyta)_Chlamydomonas_reinhardtii_XP_001696556.1 organism=Chlamydomonas reinhardtii phylum=Chlorophyta class=Chlorophyceae
 -------------------MAPKK--DEKP----ATAEAGAEAPAKAEAKPKAEKAA-KK
 A-----------------------------------------------------------
 ------------------------------------------------------------
@@ -520,7 +520,7 @@ A-----------------------------------------------------------
 PDTGISSKAMSIM-----------------NSFINDIFEKVATEASKLSRYN----KKPT
 VTSREIQTAVRLVLPGELAKHAVSEGTKAVTKFTSG------------------------
 ----------------------------------------
->Chlamydomonas|XP_001700194.1|cH2B_(Chlorophyta) organism=Chlamydomonas reinhardtii phylum=Chlorophyta class=Chlorophyceae
+>cH2B_(Chlorophyta)_Chlamydomonas_reinhardtii_XP_001700194.1 organism=Chlamydomonas reinhardtii phylum=Chlorophyta class=Chlorophyceae
 -------------------MAPKA--AEKA------------------------------
 ------------------------------------------------------------
 ------------------------------------------------------------
@@ -529,7 +529,7 @@ VTSREIQTAVRLVLPGELAKHAVSEGTKAVTKFTSG------------------------
 PDTGISSKAMSIM-----------------NSFINDIFDKMANEAVRLAQYN----KKPT
 LTSREIQTAVRLVLPGELAKHAVSEGTKAVTKFTST------------------------
 ----------------------------------------
->Chlamydomonas|XP_001700403.1|cH2B_(Chlorophyta) organism=Chlamydomonas reinhardtii phylum=Chlorophyta class=Chlorophyceae
+>cH2B_(Chlorophyta)_Chlamydomonas_reinhardtii_XP_001700403.1 organism=Chlamydomonas reinhardtii phylum=Chlorophyta class=Chlorophyceae
 -------------------MAPKK--DEKP----ATQEAGAEAPAKAEAKPKAEKAA-KK
 A-----------------------------------------------------------
 ------------------------------------------------------------
@@ -538,7 +538,7 @@ A-----------------------------------------------------------
 PDTGISSKAMSIM-----------------NSFINDIFEKVATEASKLSRYN----KKPT
 VTSREIQTAVRLVLPGELAKHAVSEGTKAVTKFTSG------------------------
 ----------------------------------------
->Chlamydomonas|XP_001700461.1|cH2B_(Chlorophyta) organism=Chlamydomonas reinhardtii phylum=Chlorophyta class=Chlorophyceae
+>cH2B_(Chlorophyta)_Chlamydomonas_reinhardtii_XP_001700461.1 organism=Chlamydomonas reinhardtii phylum=Chlorophyta class=Chlorophyceae
 -------------------MAPKK--DEKP----ATQEAGAEAPAKAEAKPKAEKAA-KK
 A-----------------------------------------------------------
 ------------------------------------------------------------
@@ -547,7 +547,7 @@ A-----------------------------------------------------------
 PDTGISSKAMSIM-----------------NSFINDIFEKVATEASKLSRYN----KKPT
 VTSREIQTAVRLVLPGELAKHAVSEGTKAVTKFTSG------------------------
 ----------------------------------------
->Chlamydomonas|XP_001702223.2|cH2B_(Chlorophyta) organism=Chlamydomonas reinhardtii phylum=Chlorophyta class=Chlorophyceae
+>cH2B_(Chlorophyta)_Chlamydomonas_reinhardtii_XP_001702223.2 organism=Chlamydomonas reinhardtii phylum=Chlorophyta class=Chlorophyceae
 -------------------MAPKK--DEKP----ATQEAAAEAPAKAEAKPKAEKAA-KK
 A-----------------------------------------------------------
 ------------------------------------------------------------
@@ -556,7 +556,7 @@ A-----------------------------------------------------------
 PDTGISSKAMSIM-----------------NSFINDIFEKVATEASKLSRYN----KKPT
 VTSREIQTAVRLVLPGELAKHAVSEGTKAVTKFTSG------------------------
 ----------------------------------------
->Chlamydomonas|XP_042914553.1|cH2B_(Chlorophyta) organism=Chlamydomonas reinhardtii phylum=Chlorophyta class=Chlorophyceae
+>cH2B_(Chlorophyta)_Chlamydomonas_reinhardtii_XP_042914553.1 organism=Chlamydomonas reinhardtii phylum=Chlorophyta class=Chlorophyceae
 -------------------MAPKK--DEKP----PTQEAGAEAPAKAEAKPKAEKAA-KK
 A-----------------------------------------------------------
 ------------------------------------------------------------
@@ -565,7 +565,7 @@ A-----------------------------------------------------------
 PDTGISSKAMSIM-----------------NSFINDIFEKVATEASKLSRYN----KKPT
 VTSREIQTAVRLVLPGELAKHAVSEGTKAVTKFTSG------------------------
 ----------------------------------------
->Chlamydomonas|XP_042914596.1|cH2B_(Chlorophyta) organism=Chlamydomonas reinhardtii phylum=Chlorophyta class=Chlorophyceae
+>cH2B_(Chlorophyta)_Chlamydomonas_reinhardtii_XP_042914596.1 organism=Chlamydomonas reinhardtii phylum=Chlorophyta class=Chlorophyceae
 -------------------MAPKR--DEKP----ATQEAGAEAPAKAEAKPKAEKAA-KK
 A-----------------------------------------------------------
 ------------------------------------------------------------
@@ -574,7 +574,7 @@ A-----------------------------------------------------------
 PDTGISSKAMSIM-----------------NSFINDIFEKVATEASKLSRYN----KKPT
 VTSREIQTAVRLVLPGELAKHAVSEGTKAVTKFTSG------------------------
 ----------------------------------------
->Chlamydomonas|XP_042923653.1|cH2B_(Chlorophyta) organism=Chlamydomonas reinhardtii phylum=Chlorophyta class=Chlorophyceae
+>cH2B_(Chlorophyta)_Chlamydomonas_reinhardtii_XP_042923653.1 organism=Chlamydomonas reinhardtii phylum=Chlorophyta class=Chlorophyceae
 -------------------MAPKK--DEKP--------------------PKAEKAA-KK
 A-----------------------------------------------------------
 ------------------------------------------------------------
@@ -583,7 +583,7 @@ A-----------------------------------------------------------
 PDTGISSKAMSIM-----------------NSFINDIFEKVATEASKLSRYN----KKPT
 VTSREIQTAVRLVLPGELAKHAVSEGTKAVTKFTSG------------------------
 ----------------------------------------
->Volvox|XP_002946193.1|cH2B_(Chlorophyta) organism=Volvox carteri f. nagariensis phylum=Chlorophyta class=Chlorophyceae
+>cH2B_(Chlorophyta)_Volvox_carteri_f._nagariensis_XP_002946193.1 organism=Volvox carteri f. nagariensis phylum=Chlorophyta class=Chlorophyceae
 -------------------MAPKNVKEEKA-----EEKAEAGAAAKAEAKAKAAKPA-KK
 E-----------------------------------------------------------
 ------------------------------------------------------------
@@ -592,7 +592,7 @@ E-----------------------------------------------------------
 PDTGISSKAMSIM-----------------NSFINDIFEKVATEASKLSRYN----KKPT
 VTSREIQTAVRLVLPGELAKHAVSEGTKAVTKFTSS------------------------
 ----------------------------------------
->Volvox|XP_002946194.1|cH2B_(Chlorophyta) organism=Volvox carteri f. nagariensis phylum=Chlorophyta class=Chlorophyceae
+>cH2B_(Chlorophyta)_Volvox_carteri_f._nagariensis_XP_002946194.1 organism=Volvox carteri f. nagariensis phylum=Chlorophyta class=Chlorophyceae
 -------------------MAPKNVKEEKV---EEKAEAGAAAKAKAEAKAKAAKPA-KK
 E-----------------------------------------------------------
 ------------------------------------------------------------
@@ -601,7 +601,7 @@ E-----------------------------------------------------------
 PDTGISSKAMSIM-----------------NSFINDIFEKVATEASKLSRYN----KKPT
 VTSREIQTAVRLVLPGELAKHAVSEGTKAVTKFTSS------------------------
 ----------------------------------------
->Volvox|XP_002946213.1|cH2B_(Chlorophyta) organism=Volvox carteri f. nagariensis phylum=Chlorophyta class=Chlorophyceae
+>cH2B_(Chlorophyta)_Volvox_carteri_f._nagariensis_XP_002946213.1 organism=Volvox carteri f. nagariensis phylum=Chlorophyta class=Chlorophyceae
 -------------------MAPKG--KKADAAGAEAKPDPSELKAEPVSEGKADAKP-KK
 E-----------------------------------------------------------
 ------------------------------------------------------------
@@ -610,7 +610,7 @@ E-----------------------------------------------------------
 PDTGISSKAMSIM-----------------NSFINDIFEKVATEASRLSRYN----KKPT
 VTSREIQTAVRLVLPGELAKHAVSEGTKAVTKFTAS------------------------
 ----------------------------------------
->Volvox|XP_002947412.1|cH2B_(Chlorophyta) organism=Volvox carteri f. nagariensis phylum=Chlorophyta class=Chlorophyceae
+>cH2B_(Chlorophyta)_Volvox_carteri_f._nagariensis_XP_002947412.1 organism=Volvox carteri f. nagariensis phylum=Chlorophyta class=Chlorophyceae
 -------------------MAPKK--EEKP-----ASQAAEAPEVKAEAKPKAVKAPKKK
 E-----------------------------------------------------------
 ------------------------------------------------------------
@@ -619,7 +619,7 @@ E-----------------------------------------------------------
 PDTGISSKAMSIM-----------------NSFINDIFEKVATEASKLSRYN----KKPT
 VTSREIQTAVRLVLPGELAKHAVSEGTKAVTKFTSA------------------------
 ----------------------------------------
->Volvox|XP_002947842.1|cH2B_(Chlorophyta) organism=Volvox carteri f. nagariensis phylum=Chlorophyta class=Chlorophyceae
+>cH2B_(Chlorophyta)_Volvox_carteri_f._nagariensis_XP_002947842.1 organism=Volvox carteri f. nagariensis phylum=Chlorophyta class=Chlorophyceae
 -------------------MAPKK--DEKT------ASQPADAEPKAEAKPKETKV--KK
 E-----------------------------------------------------------
 ------------------------------------------------------------
@@ -628,7 +628,7 @@ E-----------------------------------------------------------
 PDTGISSKAMSIM-----------------NSFINDIFEKVATEASRLSRYN----KKPT
 VTSREIQTAVRLVLPGELAKHAVSEGTKAVTKFTSA------------------------
 ----------------------------------------
->Volvox|XP_002948133.1|cH2B_(Chlorophyta) organism=Volvox carteri f. nagariensis phylum=Chlorophyta class=Chlorophyceae
+>cH2B_(Chlorophyta)_Volvox_carteri_f._nagariensis_XP_002948133.1 organism=Volvox carteri f. nagariensis phylum=Chlorophyta class=Chlorophyceae
 --------------------MAKK--DEKT-----ASQPADAAEPKADAKPKAAKV--KK
 E-----------------------------------------------------------
 ------------------------------------------------------------
@@ -637,7 +637,7 @@ E-----------------------------------------------------------
 PDTGISSKAMSIM-----------------NSFINDIFEKVATESSRLSRYN----KKPT
 VTSREIQTAVRLVLPGELAKHAVSEGTKAVTKFTSA------------------------
 ----------------------------------------
->Volvox|XP_002948276.1|cH2B_(Chlorophyta) organism=Volvox carteri f. nagariensis phylum=Chlorophyta class=Chlorophyceae
+>cH2B_(Chlorophyta)_Volvox_carteri_f._nagariensis_XP_002948276.1 organism=Volvox carteri f. nagariensis phylum=Chlorophyta class=Chlorophyceae
 -------------------MAPKK--DEKT-----ASQPADAAEPKADAKPKAAKV--KK
 E-----------------------------------------------------------
 ------------------------------------------------------------
@@ -646,7 +646,7 @@ E-----------------------------------------------------------
 PDTGISSKAMSVM-----------------NSFINDIFEKVATEASRLSRYN----KKPT
 VTSREIQTAVRLVLPGELAKHAVSEGTKAVTKFTSA------------------------
 ----------------------------------------
->Volvox|XP_002948472.1|cH2B_(Chlorophyta) organism=Volvox carteri f. nagariensis phylum=Chlorophyta class=Chlorophyceae
+>cH2B_(Chlorophyta)_Volvox_carteri_f._nagariensis_XP_002948472.1 organism=Volvox carteri f. nagariensis phylum=Chlorophyta class=Chlorophyceae
 -------------------MAPKA--AEKA------------------------------
 ------------------------------------------------------------
 ------------------------------------------------------------
@@ -655,7 +655,7 @@ VTSREIQTAVRLVLPGELAKHAVSEGTKAVTKFTSA------------------------
 PDTGISSKAMSIM-----------------NSFINDIFDKMANEAVRLAQYN----KKPT
 LTSREIQTAVRLVLPGELAKHAVSEGTKAVTKFTSS------------------------
 ----------------------------------------
->Volvox|XP_002951705.1|cH2B_(Chlorophyta) organism=Volvox carteri f. nagariensis phylum=Chlorophyta class=Chlorophyceae
+>cH2B_(Chlorophyta)_Volvox_carteri_f._nagariensis_XP_002951705.1 organism=Volvox carteri f. nagariensis phylum=Chlorophyta class=Chlorophyceae
 -------------------MAPKK--DEKA-----AAPAADAPEVKVEAKPKKARVP-KK
 E-----------------------------------------------------------
 ------------------------------------------------------------
@@ -664,7 +664,7 @@ E-----------------------------------------------------------
 PDTGISSKAMSIM-----------------NSFINDIFEKVATEASKLSRYN----KKPT
 VTSREIQTAVRLVLPGELAKHAVSEGTKAVTKFTSS------------------------
 ----------------------------------------
->Volvox|XP_002955481.1|cH2B_(Chlorophyta) organism=Volvox carteri f. nagariensis phylum=Chlorophyta class=Chlorophyceae
+>cH2B_(Chlorophyta)_Volvox_carteri_f._nagariensis_XP_002955481.1 organism=Volvox carteri f. nagariensis phylum=Chlorophyta class=Chlorophyceae
 -------------------MAPKNVKEEKQ-------EKAEAVEPKAEAKPKKEKAP-KK
 E-----------------------------------------------------------
 ------------------------------------------------------------
@@ -673,7 +673,7 @@ E-----------------------------------------------------------
 PDTGISSKAMSIM-----------------NSFINDIFEKVATEASKLSRYN----KKPT
 VTSREIQTAVRLVLPGELAKHAVSEGTKAVTKFTSA------------------------
 ----------------------------------------
->Volvox|XP_002956800.1|cH2B_(Chlorophyta) organism=Volvox carteri f. nagariensis phylum=Chlorophyta class=Chlorophyceae
+>cH2B_(Chlorophyta)_Volvox_carteri_f._nagariensis_XP_002956800.1 organism=Volvox carteri f. nagariensis phylum=Chlorophyta class=Chlorophyceae
 -------------------MAPKTK-EEKP--------ASEAVEPKAEAKPKAEKAPKKK
 E-----------------------------------------------------------
 ------------------------------------------------------------
@@ -682,7 +682,7 @@ AAGDAA--EGDKK--KKKAK----VAKSE---------------TYKLYIYKVLKQV--H
 PDTGISSKAMSIM-----------------NSFINDIFEKVATEASKLSRYN----KKPT
 VTSREIQTAVRLVLPGELAKHAVSEGTKAVTKFTSA------------------------
 ----------------------------------------
->Micromonas|XP_002501781.1|cH2B_(Chlorophyta) organism=Micromonas commoda phylum=Chlorophyta class=Mamiellophyceae
+>cH2B_(Chlorophyta)_Micromonas_commoda_XP_002501781.1 organism=Micromonas commoda phylum=Chlorophyta class=Mamiellophyceae
 --------------------------MAKP------------------------------
 ------------------------------------------------------------
 ------------------------------------------------------------
@@ -691,7 +691,7 @@ VTSREIQTAVRLVLPGELAKHAVSEGTKAVTKFTSA------------------------
 PDTGISSKAMSIM-----------------NSFINDIFEKIATEASKLARYN----KKPT
 VTSREIQTAVRLILPGELAKHAVSEGTKAVTKFTSN------------------------
 ----------------------------------------
->Micromonas|XP_002503973.1|cH2B_(Chlorophyta) organism=Micromonas commoda phylum=Chlorophyta class=Mamiellophyceae
+>cH2B_(Chlorophyta)_Micromonas_commoda_XP_002503973.1 organism=Micromonas commoda phylum=Chlorophyta class=Mamiellophyceae
 --------------------------MAKP------------------------------
 ------------------------------------------------------------
 ------------------------------------------------------------
@@ -700,7 +700,7 @@ VTSREIQTAVRLILPGELAKHAVSEGTKAVTKFTSN------------------------
 PDTGISSKAMSIM-----------------NSFINDIFEKIATEASKLARYN----KKPT
 VTSREIQTAVRLILPGELAKHAVSEGTKAVTKFTSN------------------------
 ----------------------------------------
->Micromonas|XP_003055512.1|cH2B_(Chlorophyta) organism=Micromonas pusilla CCMP1545 phylum=Chlorophyta class=Mamiellophyceae
+>cH2B_(Chlorophyta)_Micromonas_pusilla_CCMP1545_XP_003055512.1 organism=Micromonas pusilla CCMP1545 phylum=Chlorophyta class=Mamiellophyceae
 --------------------------MAKP------------------------------
 ------------------------------------------------------------
 ------------------------------------------------------------
@@ -709,7 +709,7 @@ VTSREIQTAVRLILPGELAKHAVSEGTKAVTKFTSN------------------------
 PDTGISSKAMSIM-----------------NSFINDIFEKIATEASKLARYN----KKPT
 VTSREIQTAVRLILPGELAKHAVSEGTKAVTKFTSA------------------------
 ----------------------------------------
->Ostreococcus|XP_001419128.1|cH2B_(Chlorophyta) organism=Ostreococcus lucimarinus CCE9901 phylum=Chlorophyta class=Mamiellophyceae
+>cH2B_(Chlorophyta)_Ostreococcus_lucimarinus_CCE9901_XP_001419128.1 organism=Ostreococcus lucimarinus CCE9901 phylum=Chlorophyta class=Mamiellophyceae
 ------------------------------------------------------------
 ------------------------------------------------------------
 ------------------------------------------------------------
@@ -718,7 +718,7 @@ VTSREIQTAVRLILPGELAKHAVSEGTKAVTKFTSA------------------------
 PDTGISSKAMSIM-----------------NSFINDIFEKIATEAAKLARYN----KKPT
 VTSREIQTAVRLILPGELAKHAVSEGTKAVTKFTSA------------------------
 ----------------------------------------
->Coccomyxa|XP_005643326.1|cH2B_(Chlorophyta) organism=Coccomyxa subellipsoidea C-169 phylum=Chlorophyta class=Trebouxiophyceae
+>cH2B_(Chlorophyta)_Coccomyxa_subellipsoidea_C-169_XP_005643326.1 organism=Coccomyxa subellipsoidea C-169 phylum=Chlorophyta class=Trebouxiophyceae
 -------------------MAPKG-----------------------------------S
 Q-----------------------------------------------------------
 ------------------------------------------------------------
@@ -727,7 +727,7 @@ Q-----------------------------------------------------------
 PYTGISSWAISIL-----------------NAFVTDTFGKMATETAQLARYN----KKPT
 VASGKIQTALRLILPGKLAKHTVSEGSKAVTESTSAAITP--------------------
 ----------------------------------------
->Coccomyxa|XP_005643701.1|cH2B_(Chlorophyta) organism=Coccomyxa subellipsoidea C-169 phylum=Chlorophyta class=Trebouxiophyceae
+>cH2B_(Chlorophyta)_Coccomyxa_subellipsoidea_C-169_XP_005643701.1 organism=Coccomyxa subellipsoidea C-169 phylum=Chlorophyta class=Trebouxiophyceae
 -------------------MAPKA--E---------------------------------
 ------------------------------------------------------------
 ------------------------------------------------------------
@@ -736,7 +736,7 @@ VASGKIQTALRLILPGKLAKHTVSEGSKAVTESTSAAITP--------------------
 PDTGISSRAISIL-----------------NSFITDIFEKIATETAQLARYN----KKPT
 VTSREIQTAVRLILPGELAKHAVSEGTKAVTKFTSA------------------------
 ----------------------------------------
->Arabidopsis|Q9FFC0.3|cH2B_(Embryophyta) organism=Arabidopsis thaliana phylum=Streptophyta class=Magnoliopsida
+>cH2B_(Embryophyta)_Arabidopsis_thaliana_Q9FFC0.3 organism=Arabidopsis thaliana phylum=Streptophyta class=Magnoliopsida
 --------------------MAKA--DKKP------AEKK-----PAEKTPAAEPAAAAE
 K-----------------------------------------------------------
 ------------------------------------------------------------
@@ -745,7 +745,7 @@ K-----------------------------------------------------------
 PDIGISSKAMGIM-----------------NSFINDIFEKLAGESSKLARYN----KKPT
 ITSREIQTAVRLVLPGELAKHAVSEGTKAVTKFTSS------------------------
 ----------------------------------------
->Arabidopsis|Q9LQQ4.3|cH2B_(Embryophyta) organism=Arabidopsis thaliana phylum=Streptophyta class=Magnoliopsida
+>cH2B_(Embryophyta)_Arabidopsis_thaliana_Q9LQQ4.3 organism=Arabidopsis thaliana phylum=Streptophyta class=Magnoliopsida
 -------------------MAPRA--EKKP------AEKKTAAERPVEENKAAEK-APAE
 K-----------------------------------------------------------
 ------------------------------------------------------------
@@ -754,7 +754,7 @@ K-----------------------------------------------------------
 PDIGISSKAMGIM-----------------NSFINDIFEKLAQESSKLARYN----KKPT
 ITSREIQTAVRLVLPGELAKHAVSEGTKAVTKFTSS------------------------
 ----------------------------------------
->Arabidopsis|Q9LZ45.3|cH2B_(Embryophyta) organism=Arabidopsis thaliana phylum=Streptophyta class=Magnoliopsida
+>cH2B_(Embryophyta)_Arabidopsis_thaliana_Q9LZ45.3 organism=Arabidopsis thaliana phylum=Streptophyta class=Magnoliopsida
 -------------------MAPKA--EKKP------AEKA-----PA-------------
 ------------------------------------------------------------
 ------------------------------------------------------------
@@ -763,7 +763,7 @@ ITSREIQTAVRLVLPGELAKHAVSEGTKAVTKFTSS------------------------
 PDIGISGKAMGIM-----------------NSFINDIFEKLAQESSRLARYN----KKPT
 ITSREIQTAVRLVLPGELAKHAVSEGTKAVTKFTSS------------------------
 ----------------------------------------
->Arabidopsis|Q9LZT0.3|cH2B_(Embryophyta) organism=Arabidopsis thaliana phylum=Streptophyta class=Magnoliopsida
+>cH2B_(Embryophyta)_Arabidopsis_thaliana_Q9LZT0.3 organism=Arabidopsis thaliana phylum=Streptophyta class=Magnoliopsida
 -------------------MAPKA--EKKP------AEKK-----PVEEKSKAEK-APAE
 K-----------------------------------------------------------
 ------------------------------------------------------------
@@ -772,7 +772,7 @@ K-----------------------------------------------------------
 PDIGISSKAMGIM-----------------NSFINDIFEKLASESSKLARYN----KKPT
 ITSREIQTAVRLVLPGELAKHAVSEGTKAVTKFTSS------------------------
 ----------------------------------------
->Trypanosoma|XP_823266.1|cH2B_(Protists) organism=Trypanosoma brucei brucei TREU927 phylum=Euglenozoa class=Kinetoplastea
+>cH2B_(Protists)_Trypanosoma_brucei_brucei_TREU927_XP_823266.1 organism=Trypanosoma brucei brucei TREU927 phylum=Euglenozoa class=Kinetoplastea
 --------------------------MATP-----------------------------K
 S-----------------------------------------------------------
 ------------------------------------------------------------
@@ -781,7 +781,7 @@ S-----------------------------------------------------------
 SQMSMTSRTMKIV-----------------NSFVNDLFERIAAEAATIVRVN----RKRT
 LGARELQTAVRLVLPADLAKHAMAEGTKAVSHASS-------------------------
 ----------------------------------------
->Psammechinus|AAB48832.1|CS_H2B_(Echinoidea) organism=Psammechinus miliaris phylum=Echinodermata class=Echinoidea
+>CS_H2B_(Echinoidea)_Psammechinus_miliaris_AAB48832.1 organism=Psammechinus miliaris phylum=Echinodermata class=Echinoidea
 -------------------MPAKG-----------------------------------A
 A-----------------------------------------------------------
 ------------------------------------------------------------
@@ -790,7 +790,7 @@ A-----------------------------------------------------------
 PDTGISSKAMSIM-----------------NSFVNDIFERIAAEASRLAQYN----KKST
 ISSREVQTAVRLLLPGELAKHAVSEGTKAVTKYTTSR-----------------------
 ----------------------------------------
->Strongylocentrotus|P02289.2|early_H2B_(Echinoidea) organism=Strongylocentrotus purpuratus phylum=Echinodermata class=Echinoidea
+>early_H2B_(Echinoidea)_Strongylocentrotus_purpuratus_P02289.2 organism=Strongylocentrotus purpuratus phylum=Echinodermata class=Echinoidea
 -------------------MAPTA-----------------------------------Q
 V-----------------------------------------------------------
 ------------------------------------------------------------
@@ -799,7 +799,7 @@ V-----------------------------------------------------------
 PDTGISSRAMVIM-----------------NSFVNDIFERIAGESSRLAQYN----KKST
 ISSREIQTAVRLILPGELAKHAVSEGTKAVTKYTTSK-----------------------
 ----------------------------------------
->Lilium|CUT18445.1|gH2B organism=Lilium davidii var. unicolor phylum=Streptophyta class=Magnoliopsida
+>gH2B_Lilium_davidii_var._unicolor_CUT18445.1 organism=Lilium davidii var. unicolor phylum=Streptophyta class=Magnoliopsida
 -------------------MAPKSEKKPAEKKPVAEKPAAEEEKKSAPAPAAAEKKPAEK
 K-----------------------------------------------------------
 ------------------------------------------------------------
@@ -808,7 +808,7 @@ K-----------------------------------------------------------
 ------------------------------------------------------------
 ------------------------------------------------------------
 ----------------------------------------
->Lilium|CUT18446.1|gH2B organism=Lilium davidii var. unicolor phylum=Streptophyta class=Magnoliopsida
+>gH2B_Lilium_davidii_var._unicolor_CUT18446.1 organism=Lilium davidii var. unicolor phylum=Streptophyta class=Magnoliopsida
 ---------------------------------------------------------AEK
 K-----------------------------------------------------------
 ------------------------------------------------------------
@@ -817,7 +817,7 @@ K-----------------------------------------------------------
 PDIGISSKAMGIM-----------------NSFINDLFEKMAQESARLARYN----KKNT
 ITSREIQTSVRLVLPGELAKHAVSEGTKAVTKFTSA------------------------
 ----------------------------------------
->Lilium|CUT18447.1|gH2B organism=Lilium davidii var. unicolor phylum=Streptophyta class=Magnoliopsida
+>gH2B_Lilium_davidii_var._unicolor_CUT18447.1 organism=Lilium davidii var. unicolor phylum=Streptophyta class=Magnoliopsida
 -------------------MAPKAEKKPAAKKPAATPPPEEEKE---VVPPP----PAEK
 K-----------------------------------------------------------
 ------------------------------------------------------------
@@ -826,7 +826,7 @@ K-----------------------------------------------------------
 PDIGISSKAMGIM-----------------NSFINDIFEKLAQESARLARYN----KKPT
 ITSREIQTSVRLVLPGELAKHAVSEGTKAVTKFTSA------------------------
 ----------------------------------------
->Lilium|CUT18448.1|gH2B organism=Lilium davidii var. unicolor phylum=Streptophyta class=Magnoliopsida
+>gH2B_Lilium_davidii_var._unicolor_CUT18448.1 organism=Lilium davidii var. unicolor phylum=Streptophyta class=Magnoliopsida
 ---------------------------------AATPPPEEEKE---VVPPPAEKKPAEK
 K-----------------------------------------------------------
 ------------------------------------------------------------
@@ -835,7 +835,7 @@ K-----------------------------------------------------------
 PDIGISSKAMGIM-----------------NSFINDIFEKLAQESARLARYN----KKPT
 ITSREIQTSVRLVLPGELAKHAVSEGTKAVTKFTSA------------------------
 ----------------------------------------
->Lilium|CUT18449.1|gH2B organism=Lilium davidii var. unicolor phylum=Streptophyta class=Magnoliopsida
+>gH2B_Lilium_davidii_var._unicolor_CUT18449.1 organism=Lilium davidii var. unicolor phylum=Streptophyta class=Magnoliopsida
 -------------------MPPR-------------------RKKTAAGAAAGGKAAAAA
 V-----------------------------------------------------------
 ------------------------------------------------------------
@@ -844,7 +844,7 @@ V-----------------------------------------------------------
 PELGISEKSTMIM-----------------NNFVAHNFQNIAKEASILAYYS----KKRT
 ITVDELKAAVAMVLPNLLADYANRDGEKAVSNFEGEASAKKSQGRKRGRGQQA-------
 ----------------------------------------
->Lilium|CUT18450.1|gH2B organism=Lilium davidii var. unicolor phylum=Streptophyta class=Magnoliopsida
+>gH2B_Lilium_davidii_var._unicolor_CUT18450.1 organism=Lilium davidii var. unicolor phylum=Streptophyta class=Magnoliopsida
 -------------------MAPK--KKPSKLVGTVTKTRKVTETQTLKVSLTKGLKPEDQ
 QTTTNKFEVSVTGKQSKTQPLIV-------------------------------------
 ------------------------------------------------------------
@@ -853,7 +853,7 @@ QTTTNKFEVSVTGKQSKTQPLIV-------------------------------------
 PDMTVSSKAMMVM-----------------EGMMQDMFERLVTEAVRLVQYM----KKAT
 LTCREIQTAVMLVLPGELGKHAVSEGAKAITNYMAAVGSGNGGAA---------------
 ----------------------------------------
->Lilium|CUT18451.1|gH2B organism=Lilium davidii var. unicolor phylum=Streptophyta class=Magnoliopsida
+>gH2B_Lilium_davidii_var._unicolor_CUT18451.1 organism=Lilium davidii var. unicolor phylum=Streptophyta class=Magnoliopsida
 -------------------MAPKAEKKPAAKKPAATPPPEEEKE---VVPPP----PAEK
 K-----------------------------------------------------------
 ------------------------------------------------------------
@@ -862,7 +862,7 @@ K-----------------------------------------------------------
 PDIGISSKAMGIM-----------------NSFINDIFEKLAQESARLARYN----KKPT
 ITSREIQTSVRLVLPGELAKHAVSEGTKAVTKFTSG------------------------
 ----------------------------------------
->Lilium|CUT18452.1|gH2B organism=Lilium davidii var. unicolor phylum=Streptophyta class=Magnoliopsida
+>gH2B_Lilium_davidii_var._unicolor_CUT18452.1 organism=Lilium davidii var. unicolor phylum=Streptophyta class=Magnoliopsida
 -------------------MAPKSEKKPAEKKPVAEKPAAEEEKKAAPAAAPAEKKAAEK
 K-----------------------------------------------------------
 ------------------------------------------------------------
@@ -871,7 +871,7 @@ K-----------------------------------------------------------
 ------------------------------------------------------------
 ------------------------------------------------------------
 ----------------------------------------
->Latimeria|XP_006007163.1|H2B.K organism=Latimeria chalumnae phylum=Chordata class=
+>H2B.K_Latimeria_chalumnae_XP_006007163.1 organism=Latimeria chalumnae phylum=Chordata class=
 -------------------MTNDPGK----------------------------------
 ------------------------------------------------------------
 ------------------------------------------------------------
@@ -880,7 +880,7 @@ K-----------------------------------------------------------
 PDTGISSKAMSIM-----------------NSFVNDVFERIATEASRLAQYN----KRST
 ITSREVQTAVRLLLPGELAKHAVSEGTKAVTKYTSSK-----------------------
 ----------------------------------------
->Danio|NP_001002724.1|H2B.K organism=Danio rerio phylum=Chordata class=Actinopteri
+>H2B.K_Danio_rerio_NP_001002724.1 organism=Danio rerio phylum=Chordata class=Actinopteri
 -------------------MSNEGAK----------------------------------
 ------------------------------------------------------------
 ------------------------------------------------------------
@@ -889,7 +889,7 @@ ITSREVQTAVRLLLPGELAKHAVSEGTKAVTKYTSSK-----------------------
 PDTGISSRAMSIM-----------------NSFVNDVFERIATEASRLAHYN----KRST
 ITSREVQTAVRLLLPGELAKHAVSEGTKAVTKYTSSK-----------------------
 ----------------------------------------
->Gallus|XP_423715.4|H2B.K organism=Gallus gallus phylum=Chordata class=Aves
+>H2B.K_Gallus_gallus_XP_423715.4 organism=Gallus gallus phylum=Chordata class=Aves
 -------------------MSAESGR----------------------------------
 ------------------------------------------------------------
 ------------------------------------------------------------
@@ -898,7 +898,7 @@ ITSREVQTAVRLLLPGELAKHAVSEGTKAVTKYTSSK-----------------------
 PDTGISSKAMSIM-----------------NSFVNDIFERLAVEASRLAQYN----HRST
 ITSREVQTAVRLLLPGELAKHAVSEGTKAVTKYTSSK-----------------------
 ----------------------------------------
->Taeniopygia|XP_002190629.1|H2B.K organism=Taeniopygia guttata phylum=Chordata class=Aves
+>H2B.K_Taeniopygia_guttata_XP_002190629.1 organism=Taeniopygia guttata phylum=Chordata class=Aves
 -------------------MSSERLK----------------------------------
 ------------------------------------------------------------
 ------------------------------------------------------------
@@ -907,7 +907,7 @@ ITSREVQTAVRLLLPGELAKHAVSEGTKAVTKYTSSK-----------------------
 PDLAISSKAMSIM-----------------NSFVNDMLERLAAEASRLARYR----CHTT
 VSSREVQAAARQLLPGQLAQHAVSEGTKAVTKYTTSK-----------------------
 ----------------------------------------
->Ailuropoda|XP_019651116.1|H2B.K organism=Ailuropoda melanoleuca phylum=Chordata class=Mammalia
+>H2B.K_Ailuropoda_melanoleuca_XP_019651116.1 organism=Ailuropoda melanoleuca phylum=Chordata class=Mammalia
 -------------------MSAEHGRQQQP-----------G------------------
 ------------------------------------------------------------
 ------------------------------------------------------------
@@ -916,7 +916,7 @@ VSSREVQAAARQLLPGQLAQHAVSEGTKAVTKYTTSK-----------------------
 PDIGISSKAMSIM-----------------NSFVNDVFERLAGEAARLAQYS----GRTT
 LTSREVQTAVRLLLPGELAKHAVSEGTKAVTKYTSSK-----------------------
 ----------------------------------------
->Bos|XP_010799227.1|H2B.K organism=Bos taurus phylum=Chordata class=Mammalia
+>H2B.K_Bos_taurus_XP_010799227.1 organism=Bos taurus phylum=Chordata class=Mammalia
 -------------------MSAEHGQLQQS-----------G------------------
 ------------------------------------------------------------
 ------------------------------------------------------------
@@ -925,7 +925,7 @@ LTSREVQTAVRLLLPGELAKHAVSEGTKAVTKYTSSK-----------------------
 PDIGISSKAMSIV-----------------NLFVNDLFERLAGKAAWLAQYS----GRTT
 LTSREVQTAVRLLLPGELAKHAVSEGTKAVTKYTSSK-----------------------
 ----------------------------------------
->Bos|XP_024846715.1|H2B.K organism=Bos taurus phylum=Chordata class=Mammalia
+>H2B.K_Bos_taurus_XP_024846715.1 organism=Bos taurus phylum=Chordata class=Mammalia
 -------------------MSAEHGQLQQS-----------G------------------
 ------------------------------------------------------------
 ------------------------------------------------------------
@@ -934,7 +934,7 @@ LTSREVQTAVRLLLPGELAKHAVSEGTKAVTKYTSSK-----------------------
 PDIGISSKAMSIM-----------------NSFVNDLFERLAGEAARLAQYS----GRTT
 LTSREVQTAVRLLLPGELAKHAVSEGTKAVTKYTSSK-----------------------
 ----------------------------------------
->Bos|XP_059747847.1|H2B.K organism=Bos taurus phylum=Chordata class=Mammalia
+>H2B.K_Bos_taurus_XP_059747847.1 organism=Bos taurus phylum=Chordata class=Mammalia
 MMDTRSSKLVCHNILRTRRMSAEHGQLQQS-----------G------------------
 ------------------------------------------------------------
 ------------------------------------------------------------
@@ -943,7 +943,7 @@ MMDTRSSKLVCHNILRTRRMSAEHGQLQQS-----------G------------------
 PDIGISSKAMSIM-----------------NSFVNDLFERLAGEAARLAQYS----GRTT
 LTSREVQTAVRLLLPGELAKHAVSEGTKAVTKYTSSK-----------------------
 ----------------------------------------
->Canis|HISTDB_H2B_K_1|H2B.K organism=Canis lupus familiaris phylum=Chordata class=Mammalia
+>H2B.K_Canis_lupus_familiaris_HISTDB_H2B_K_1 organism=Canis lupus familiaris phylum=Chordata class=Mammalia
 -------------------MGTEHGQQPQS-----------G------------------
 ------------------------------------------------------------
 ------------------------------------------------------------
@@ -952,7 +952,7 @@ LTSREVQTAVRLLLPGELAKHAVSEGTKAVTKYTSSK-----------------------
 PDIGIFSKAMSIM-----------------NSFVNDVFERLAGKAAQLAQYL----GQTT
 LTSWEVQTAVRWLLPGELAKHAISEGTKAITKYTGSK-----------------------
 ----------------------------------------
->Canis|XP_022259586.1|H2B.K organism=Canis lupus familiaris phylum=Chordata class=Mammalia
+>H2B.K_Canis_lupus_familiaris_XP_022259586.1 organism=Canis lupus familiaris phylum=Chordata class=Mammalia
 -------------------MGAEHGQQPQS-----------G------------------
 ------------------------------------------------------------
 ------------------------------------------------------------
@@ -961,7 +961,7 @@ LTSWEVQTAVRWLLPGELAKHAISEGTKAITKYTGSK-----------------------
 PDIGISSKAMSIM-----------------NSFVNDVFERLAGEAARLAQYS----GRTT
 LTSREVQTAVRLLLPGELAKHAVSEGTKAVTKYTSSK-----------------------
 ----------------------------------------
->Ceratotherium|XP_014643104.1|H2B.K organism=Ceratotherium simum simum phylum=Chordata class=Mammalia
+>H2B.K_Ceratotherium_simum_simum_XP_014643104.1 organism=Ceratotherium simum simum phylum=Chordata class=Mammalia
 -------------------MSTEHGQQHHP-----------G------------------
 ------------------------------------------------------------
 ------------------------------------------------------------
@@ -970,7 +970,7 @@ LTSREVQTAVRLLLPGELAKHAVSEGTKAVTKYTSSK-----------------------
 PDIGISSKAMSIM-----------------NSFVNDVFERLAGEAARLAQYS----GRTT
 LTSREVQTAVRLLLPGELAKHAVSEGTKAVTKYTSSK-----------------------
 ----------------------------------------
->Equus|XP_005609614.1|H2B.K organism=Equus caballus phylum=Chordata class=Mammalia
+>H2B.K_Equus_caballus_XP_005609614.1 organism=Equus caballus phylum=Chordata class=Mammalia
 -------------------MSTEHGQQHQS-----------G------------------
 ------------------------------------------------------------
 ------------------------------------------------------------
@@ -979,7 +979,7 @@ LTSREVQTAVRLLLPGELAKHAVSEGTKAVTKYTSSK-----------------------
 PDIGISSKAMSIM-----------------NSFVNDVFERLAGEAAQLAQYS----GRTT
 LTSREVQTAVRLLLPGELAKHAVSEGTKAVTKYTSSK-----------------------
 ----------------------------------------
->Felis|XP_019681595.1|H2B.K organism=Felis catus phylum=Chordata class=Mammalia
+>H2B.K_Felis_catus_XP_019681595.1 organism=Felis catus phylum=Chordata class=Mammalia
 -------------------MSAEHGQQQQS-----------G------------------
 ------------------------------------------------------------
 ------------------------------------------------------------
@@ -988,7 +988,7 @@ LTSREVQTAVRLLLPGELAKHAVSEGTKAVTKYTSSK-----------------------
 PDIGISSKAMSIM-----------------NSFVNDVFERLAGEAARLAQYS----GRTT
 LTSREVQTAVRLLLPGELAKHAVSEGTKAVTKYTSSK-----------------------
 ----------------------------------------
->Loxodonta|XP_023403847.1|H2B.K organism=Loxodonta africana phylum=Chordata class=Mammalia
+>H2B.K_Loxodonta_africana_XP_023403847.1 organism=Loxodonta africana phylum=Chordata class=Mammalia
 -------------------MSAELGQQQQQ--------QQSG------------------
 ------------------------------------------------------------
 ------------------------------------------------------------
@@ -997,7 +997,7 @@ LTSREVQTAVRLLLPGELAKHAVSEGTKAVTKYTSSK-----------------------
 PDISISSKAMSIM-----------------NSFVNDVFERLAGEATRLAQYS----GRTT
 LTSREVQTAARLLLPGELAKHAVSEGTKAVTKYISSK-----------------------
 ----------------------------------------
->Ornithorhynchus|HISTDB_H2B_K_2|H2B.K organism=Ornithorhynchus anatinus phylum=Chordata class=Mammalia
+>H2B.K_Ornithorhynchus_anatinus_HISTDB_H2B_K_2 organism=Ornithorhynchus anatinus phylum=Chordata class=Mammalia
 -------------------MSPEGGQQQQQ------------------------------
 ------------------------------------------------------------
 ------------------------------------------------------------
@@ -1006,7 +1006,7 @@ LTSREVQTAARLLLPGELAKHAVSEGTKAVTKYISSK-----------------------
 PDTGISSKAMSIM-----------------NSFVNDVFEQLAGEAARLAQYL----GRST
 LTSREVQTAVRLLLPGELAKHAVSEGTKAVTKYTSSK-----------------------
 ----------------------------------------
->Oryctolagus|XP_002715119.2|H2B.K organism=Oryctolagus cuniculus phylum=Chordata class=Mammalia
+>H2B.K_Oryctolagus_cuniculus_XP_002715119.2 organism=Oryctolagus cuniculus phylum=Chordata class=Mammalia
 -------------------MSAERGQQQQQ----------AS------------------
 ------------------------------------------------------------
 ------------------------------------------------------------
@@ -1015,7 +1015,7 @@ LTSREVQTAVRLLLPGELAKHAVSEGTKAVTKYTSSK-----------------------
 PDIGISARAMSIM-----------------NSFVNDVFERLAGEAAQLAQYS----GRST
 LTSREVQTAVRLLLPGELAKHAVSEGTKAVTKYTSSK-----------------------
 ----------------------------------------
->Ovis|HISTDB_H2B_K_0|H2B.K organism=Ovis aries phylum=Chordata class=Mammalia
+>H2B.K_Ovis_aries_HISTDB_H2B_K_0 organism=Ovis aries phylum=Chordata class=Mammalia
 -------------------MSAEHGQLQQA-----------G------------------
 ------------------------------------------------------------
 ------------------------------------------------------------
@@ -1024,7 +1024,7 @@ LTSREVQTAVRLLLPGELAKHAVSEGTKAVTKYTSSK-----------------------
 PDIGISSKAMSIM-----------------NSFVNDLFERLAGEAARLAQYS----GRTT
 LTSREVQTAVRLLLPGELAKHAVSEGTKAVTKYTSSK-----------------------
 ----------------------------------------
->Ovis|XP_027824938.1|H2B.K organism=Ovis aries phylum=Chordata class=Mammalia
+>H2B.K_Ovis_aries_XP_027824938.1 organism=Ovis aries phylum=Chordata class=Mammalia
 -------------------MSAEHGQLQQS-----------G------------------
 ------------------------------------------------------------
 ------------------------------------------------------------
@@ -1033,7 +1033,7 @@ LTSREVQTAVRLLLPGELAKHAVSEGTKAVTKYTSSK-----------------------
 PDIGISSKAMSIM-----------------NSFVNDLFERLAGEAARLAQYS----GRTT
 LTSREVQTAVRLLLPGELAKHAVSEGTKAVTKYTSSK-----------------------
 ----------------------------------------
->Sus|XP_013846203.1|H2B.K organism=Sus scrofa phylum=Chordata class=Mammalia
+>H2B.K_Sus_scrofa_XP_013846203.1 organism=Sus scrofa phylum=Chordata class=Mammalia
 -------------------MSSAHGQQQQQQQQQQQQQQQGG------------------
 ------------------------------------------------------------
 ------------------------------------------------------------
@@ -1042,7 +1042,7 @@ LTSREVQTAVRLLLPGELAKHAVSEGTKAVTKYTSSK-----------------------
 PDIGISSKAMSIM-----------------NSFVNDVFERLAGEAARLAQYS----GRTT
 LTSREVQTAVRLLLPGELAKHAVSEGTKAVTKYTSSK-----------------------
 ----------------------------------------
->Homo|NP_001356054.2|H2B.K_(Homo_sapiens) organism=Homo sapiens phylum=Chordata class=Mammalia
+>H2B.K_(Homo_sapiens)_Homo_sapiens_NP_001356054.2 organism=Homo sapiens phylum=Chordata class=Mammalia
 -------------------MSAEYGQRQQP-----------G------------------
 ------------------------------------------------------------
 ------------------------------------------------------------
@@ -1051,7 +1051,7 @@ LTSREVQTAVRLLLPGELAKHAVSEGTKAVTKYTSSK-----------------------
 PDIGISAKAMSIM-----------------NSFVNDVFEQLACEAARLAQYS----GRTT
 LTSREVQTAVRLLLPGELAKHAVSEGTKAVTKYTSSK-----------------------
 ----------------------------------------
->Ailuropoda|XP_002921383.1|H2B.L organism=Ailuropoda melanoleuca phylum=Chordata class=Mammalia
+>H2B.L_Ailuropoda_melanoleuca_XP_002921383.1 organism=Ailuropoda melanoleuca phylum=Chordata class=Mammalia
 -------------------MARSITKKNKR------------------------------
 ------------------------------------------------------------
 ------------------------------------------------------------
@@ -1060,7 +1060,7 @@ LTSREVQTAVRLLLPGELAKHAVSEGTKAVTKYTSSK-----------------------
 PQRSISSRTLDVM-----------------NTLIKDIFERISVEARSLMCFR----NRCT
 LTPEDIQKAVYLLLPGKLAKYAVAFGSEAVQRYVQS------------------------
 ----------------------------------------
->Bos|NP_991343.1|H2B.L organism=Bos taurus phylum=Chordata class=Mammalia
+>H2B.L_Bos_taurus_NP_991343.1 organism=Bos taurus phylum=Chordata class=Mammalia
 -------------------MARNVTKRNKR------------------------------
 ------------------------------------------------------------
 ------------------------------------------------------------
@@ -1069,7 +1069,7 @@ LTPEDIQKAVYLLLPGKLAKYAVAFGSEAVQRYVQS------------------------
 PQKGISSRTIDII-----------------NTMINDMFERISTEACNLMYYR----KRCT
 LTPEDIEKAVYLLLPEKLAKYAVAFGKEAVQRYVRS------------------------
 ----------------------------------------
->Cavia|XP_003461969.1|H2B.L organism=Cavia porcellus phylum=Chordata class=Mammalia
+>H2B.L_Cavia_porcellus_XP_003461969.1 organism=Cavia porcellus phylum=Chordata class=Mammalia
 -------------------MVKSVIKPRRY------------------------------
 ------------------------------------------------------------
 ------------------------------------------------------------
@@ -1078,7 +1078,7 @@ LTPEDIEKAVYLLLPEKLAKYAVAFGKEAVQRYVRS------------------------
 PERAISSCTVNIM-----------------NTLIDDIFERISEEAHHLMCSQ----KRCT
 LTPKDIQKAVYLLLPRKLAKYAVAFGDGAVDRYVHS------------------------
 ----------------------------------------
->Cricetulus|XP_003515979.1|H2B.L organism=Cricetulus griseus phylum=Chordata class=Mammalia
+>H2B.L_Cricetulus_griseus_XP_003515979.1 organism=Cricetulus griseus phylum=Chordata class=Mammalia
 -------------------MAKSIIKRYQF------------------------------
 ------------------------------------------------------------
 ------------------------------------------------------------
@@ -1087,7 +1087,7 @@ LTPKDIQKAVYLLLPRKLAKYAVAFGDGAVDRYVHS------------------------
 PMRGLSSNTVDIM-----------------NTLINDLFERIATEACQLMYFR----KRCT
 LTLEDIQKAVYLLVPKKLAKSAVTFGSKAVHRFIHS------------------------
 ----------------------------------------
->Equus|XP_001504072.2|H2B.L organism=Equus caballus phylum=Chordata class=Mammalia
+>H2B.L_Equus_caballus_XP_001504072.2 organism=Equus caballus phylum=Chordata class=Mammalia
 -------------------MARDSTKKSRC------------------------------
 ------------------------------------------------------------
 ------------------------------------------------------------
@@ -1096,7 +1096,7 @@ LTLEDIQKAVYLLVPKKLAKSAVTFGSKAVHRFIHS------------------------
 PQRGISARTLDTM-----------------NILINNIFERISTEACSMMYFR----NRCT
 LTPQDVQKAVYSLFPGKLAKYAVAFGSEAVQRYLHS------------------------
 ----------------------------------------
->Heterocephalus|XP_004885290.1|H2B.L organism=Heterocephalus glaber phylum=Chordata class=Mammalia
+>H2B.L_Heterocephalus_glaber_XP_004885290.1 organism=Heterocephalus glaber phylum=Chordata class=Mammalia
 -------------------MVRSIIKQYGY------------------------------
 ------------------------------------------------------------
 ------------------------------------------------------------
@@ -1105,7 +1105,7 @@ LTPQDVQKAVYSLFPGKLAKYAVAFGSEAVQRYLHS------------------------
 PQRHISSRTLDMM-----------------NALINNIFERIATEAHHLMCSR----NRCT
 LAPEDIQRAVYLLLPGKLAKYAMAFGDEAVHRYVHS------------------------
 ----------------------------------------
->Loxodonta|XP_003407998.1|H2B.L organism=Loxodonta africana phylum=Chordata class=Mammalia
+>H2B.L_Loxodonta_africana_XP_003407998.1 organism=Loxodonta africana phylum=Chordata class=Mammalia
 -------------------MARSIIKKYRY------------------------------
 ------------------------------------------------------------
 ------------------------------------------------------------
@@ -1114,7 +1114,7 @@ LAPEDIQRAVYLLLPGKLAKYAMAFGDEAVHRYVHS------------------------
 PQRGISSRTLDVM-----------------NTLINNIFKCIATEACNLMYFR----NRCT
 LTPEDIQRAVYVRLPGKLAKHAVAFGSEAVNRYVHS------------------------
 ----------------------------------------
->Macaca|XP_001095287.1|H2B.L organism=Macaca mulatta phylum=Chordata class=Mammalia
+>H2B.L_Macaca_mulatta_XP_001095287.1 organism=Macaca mulatta phylum=Chordata class=Mammalia
 -------------------MARSSTKKHKY------------------------------
 ------------------------------------------------------------
 ------------------------------------------------------------
@@ -1123,7 +1123,7 @@ LTPEDIQRAVYVRLPGKLAKHAVAFGSEAVNRYVHS------------------------
 SHRGTSSRTLDLM-----------------NTLINNFFQHISMKAYRLMYFR----NRCT
 LTPEDILKAAYLLLPQKTANYAVAFGSEVFRRYVHS------------------------
 ----------------------------------------
->Monodelphis|XP_001366286.1|H2B.L organism=Monodelphis domestica phylum=Chordata class=Mammalia
+>H2B.L_Monodelphis_domestica_XP_001366286.1 organism=Monodelphis domestica phylum=Chordata class=Mammalia
 -------------------MTKAV--RSNE------------------------------
 ------------------------------------------------------------
 ------------------------------------------------------------
@@ -1132,7 +1132,7 @@ LTPEDILKAAYLLLPQKTANYAVAFGSEVFRRYVHS------------------------
 PNQGLTYKTTEIM-----------------NSMINNILERIAEEAGNLLCYK----RHLT
 LGHQDIQMAVYRLLPDELAKHAVAFGTRAVTTYNDSK-----------------------
 ----------------------------------------
->Mus|NP_081340.1|H2B.L organism=Mus musculus phylum=Chordata class=Mammalia
+>H2B.L_Mus_musculus_NP_081340.1 organism=Mus musculus phylum=Chordata class=Mammalia
 -------------------MAKPTFKRQCY------------------------------
 ------------------------------------------------------------
 ------------------------------------------------------------
@@ -1141,7 +1141,7 @@ LGHQDIQMAVYRLLPDELAKHAVAFGTRAVTTYNDSK-----------------------
 PNRGISSYSVDIM-----------------NILINDIFERIATEACQQMFLR----KRCT
 LTPGDIQQAVHLLLPKKLATLAVTFGSKAVHRFIHS------------------------
 ----------------------------------------
->Sus|XP_003134084.1|H2B.L organism=Sus scrofa phylum=Chordata class=Mammalia
+>H2B.L_Sus_scrofa_XP_003134084.1 organism=Sus scrofa phylum=Chordata class=Mammalia
 -------------------MARYITKKNRC------------------------------
 ------------------------------------------------------------
 ------------------------------------------------------------
@@ -1150,7 +1150,7 @@ LTPGDIQQAVHLLLPKKLATLAVTFGSKAVHRFIHS------------------------
 PQSGISSRTLDMM-----------------NTVINDIFERISMEASNLMYFR----NRCT
 LTPEDVQKAVYLLLPRKLAKHAVAFGSDAVHRYVHS------------------------
 ----------------------------------------
->Ailuropoda|HISTDB_H2B_N_3|H2B.N organism=Ailuropoda melanoleuca phylum=Chordata class=Mammalia
+>H2B.N_Ailuropoda_melanoleuca_HISTDB_H2B_N_3 organism=Ailuropoda melanoleuca phylum=Chordata class=Mammalia
 -------------------MYYVCLHDPRF------------------------------
 ------------------------------------------------------------
 ------------------------------------------------------------
@@ -1159,7 +1159,7 @@ KYECAN--SAL------RHK----RKKKE---------------VYFSYMGKILKQT--H
 PDFSGCSWILDAL-----------------GSLEDWLLEWVSLEAVRLSFYN----HRRA
 VTSREILGAVKQRSFRKSFCINKVF-----------------------------------
 ----------------------------------------
->Bos|XP_059734412.1|H2B.N organism=Bos taurus phylum=Chordata class=Mammalia
+>H2B.N_Bos_taurus_XP_059734412.1 organism=Bos taurus phylum=Chordata class=Mammalia
 -------------------MYFICLHGLQF------------------------------
 ------------------------------------------------------------
 ------------------------------------------------------------
@@ -1168,7 +1168,7 @@ KDEWVH--SATG-----KKR----RKKKE---------------TYFNYMGKLLKQV--H
 PDFSGCSWILDAL-----------------RVLEDWQLEWVSLEAVRLSLYN----HRRT
 ITSREILEAVKQRCSQKSLGINEVDLHGSVVEMIALVQKQKIGSFGGLS-----------
 ----------------------------------------
->Bos|XP_059746706.1|H2B.N organism=Bos taurus phylum=Chordata class=Mammalia
+>H2B.N_Bos_taurus_XP_059746706.1 organism=Bos taurus phylum=Chordata class=Mammalia
 -------------------MHFICLHGLQF------------------------------
 ------------------------------------------------------------
 ------------------------------------------------------------
@@ -1177,7 +1177,7 @@ KDEWVC--SATG-----KKR----RKKKE---------------AYFNYMEKLLKQV--H
 PDFSGCSWILDAL-----------------RVLEDWQLEWVSLEAVRLSFYN----HRRT
 ITTKEILKAVKQRCSQKSLGINEVDLHGSVVEMIALVQKQKIGSFGGLS-----------
 ----------------------------------------
->Canis|HISTDB_H2B_N_2|H2B.N organism=Canis lupus familiaris phylum=Chordata class=Mammalia
+>H2B.N_Canis_lupus_familiaris_HISTDB_H2B_N_2 organism=Canis lupus familiaris phylum=Chordata class=Mammalia
 -------------------MYYICLHGLRF------------------------------
 ------------------------------------------------------------
 ------------------------------------------------------------
@@ -1186,7 +1186,7 @@ KYEWAN--SAL------RKK----RKKKE---------------VYFSYMGKILKQT--H
 PDFSGCSWILDAL-----------------GSLEDWLLEQVSLEAVRLSFYN----HRRA
 VTSREILGAIKQRSFLKSFCVNEVF-----------------------------------
 ----------------------------------------
->Ceratotherium|HISTDB_H2B_N_1|H2B.N organism=Ceratotherium simum phylum=Chordata class=Mammalia
+>H2B.N_Ceratotherium_simum_HISTDB_H2B_N_1 organism=Ceratotherium simum phylum=Chordata class=Mammalia
 -------------------MYFICLRGLRF------------------------------
 ------------------------------------------------------------
 ------------------------------------------------------------
@@ -1195,7 +1195,7 @@ KYEWTS--SAIGK----KRR----RKKKE---------------AYFSYMGKILEQIAHY
 RKLSRLCLILVPFLPRPTQTSVGAPGSWMHWALEAWRLEWVSLEAVRLSFCN----HRRA
 VTSREILEAVKRRSSWKSF-----------------------------------------
 ----------------------------------------
->Dasypus|XP_058139847.1|H2B.N organism=Dasypus novemcinctus phylum=Chordata class=Mammalia
+>H2B.N_Dasypus_novemcinctus_XP_058139847.1 organism=Dasypus novemcinctus phylum=Chordata class=Mammalia
 -------------------MYYVCLDSLKF------------------------------
 ------------------------------------------------------------
 ------------------------------------------------------------
@@ -1204,7 +1204,7 @@ KYEWAR--SAFGKRRRRRWR----RKKKE---------------VYFSYMRKILKQV--H
 ADFSGCSWVLDAL-----------------GSLDDWRLEWVSLEAVRLSFYN----HRRA
 VTSREILEAVKQRLSWKSF-----------------------------------------
 ----------------------------------------
->Loxodonta|HISTDB_H2B_N_4|H2B.N organism=Loxodonta africana phylum=Chordata class=Mammalia
+>H2B.N_Loxodonta_africana_HISTDB_H2B_N_4 organism=Loxodonta africana phylum=Chordata class=Mammalia
 -------------------MYYVCLGGLKF------------------------------
 ------------------------------------------------------------
 ------------------------------------------------------------
@@ -1213,7 +1213,7 @@ KYEWAN--SAFEKKRR-RRR----RKKKE---------------AHFCYMGKILKQT--H
 PDFSGCSWVLEAL-----------------GCLDDWQLEWVSLEAVRLSFYK----HRRA
 ITSREILEAMKQRSPRRSF-----------------------------------------
 ----------------------------------------
->Monodelphis|XP_007485268.2|H2B.N organism=Monodelphis domestica phylum=Chordata class=Mammalia
+>H2B.N_Monodelphis_domestica_XP_007485268.2 organism=Monodelphis domestica phylum=Chordata class=Mammalia
 ---------------------------MKI------------------------------
 ------------------------------------------------------------
 ------------------------------------------------------------
@@ -1222,7 +1222,7 @@ RRGYMR--TVSG-------------KKKD---------------FYFSYIAKILKQV--H
 QDFSGYSWVLDAL-----------------WSLDYYLFEQATLEAVRLSFYN----HRRV
 VTSREMLETLSKVPLEGWM-----------------------------------------
 ----------------------------------------
->Monodelphis|XP_007485606.1|H2B.N organism=Monodelphis domestica phylum=Chordata class=Mammalia
+>H2B.N_Monodelphis_domestica_XP_007485606.1 organism=Monodelphis domestica phylum=Chordata class=Mammalia
 ---------------------MEVGTEMKI------------------------------
 ------------------------------------------------------------
 ------------------------------------------------------------
@@ -1231,7 +1231,7 @@ RRGYMR--TVSG-------------KKKD---------------FYFSYIAKILKQV--H
 QDFSGYSWVLDAL-----------------WSLDYYLFEQATLEAVRLSFYN----HRRV
 VTSREMLEALNKVPLEGWM-----------------------------------------
 ----------------------------------------
->Monodelphis|XP_007485607.1|H2B.N organism=Monodelphis domestica phylum=Chordata class=Mammalia
+>H2B.N_Monodelphis_domestica_XP_007485607.1 organism=Monodelphis domestica phylum=Chordata class=Mammalia
 -------------------ME---GTEMKI------------------------------
 ------------------------------------------------------------
 ------------------------------------------------------------
@@ -1240,7 +1240,7 @@ RRGYMR--TVSG-------------KKKD---------------FYFSYIAKILKQV--H
 QDFSGYSWVLDAL-----------------WSLDYYLFEQATLEAVRLSFYN----HRRV
 VTSREMLEALNKVPLEGWM-----------------------------------------
 ----------------------------------------
->Ornithorhynchus|HISTDB_H2B_N_5|H2B.N organism=Ornithorhynchus anatinus phylum=Chordata class=Mammalia
+>H2B.N_Ornithorhynchus_anatinus_HISTDB_H2B_N_5 organism=Ornithorhynchus anatinus phylum=Chordata class=Mammalia
 -------------MGGPLGPGFLSLLETETKSPAVA------------------------
 ------------------------------------------------------------
 ------------------------------------------------------------
@@ -1249,7 +1249,7 @@ EYRCVR--TSLS-------------KKKE---------------AYSSYIAHVLKQT--Q
 PEPRGWGRAEGNL-----------------ESRDGQLLERVAGEAVRLTLLQ----AAKT
 VTSRVVRGALELVLAELVEE----------------------------------------
 ----------------------------------------
->Ovis|HISTDB_H2B_N_0|H2B.N organism=Ovis aries phylum=Chordata class=Mammalia
+>H2B.N_Ovis_aries_HISTDB_H2B_N_0 organism=Ovis aries phylum=Chordata class=Mammalia
 -------------------MHFICLHGLQF------------------------------
 ------------------------------------------------------------
 ------------------------------------------------------------
@@ -1258,7 +1258,7 @@ KDEWVH--SATG-----KKR----RKKKE---------------AYFNYMGKLLKQG--H
 PDFSGCSWILDAL-----------------RALEDWQLEWVSLEAVRLSLYN----HRRT
 VTSREILEAVQQRCSQKTLGINEVALHGSVVEMIALVQKQKIGSFGGLS-----------
 ----------------------------------------
->Ovis|XP_060251208.1|H2B.N organism=Ovis aries phylum=Chordata class=Mammalia
+>H2B.N_Ovis_aries_XP_060251208.1 organism=Ovis aries phylum=Chordata class=Mammalia
 -------------------MHFICLHGLQF------------------------------
 ------------------------------------------------------------
 ------------------------------------------------------------
@@ -1267,7 +1267,7 @@ KDEWVH--SATG-----KKR----RKKKE---------------AYFNYMGKLLKQG--H
 PDFSGCSWILDAL-----------------RALEDWQLEWISLEAVRLSLYN----HRRT
 VTSREILEAVQQRCSQKTLGINEVALHGSVVEMIALVQKQKIGSFGGLS-----------
 ----------------------------------------
->Homo|NP_001388269.1|H2B.N_(Homo_sapiens) organism=Homo sapiens phylum=Chordata class=Mammalia
+>H2B.N_(Homo_sapiens)_Homo_sapiens_NP_001388269.1 organism=Homo sapiens phylum=Chordata class=Mammalia
 -------------------MYFICLNDLRF------------------------------
 ------------------------------------------------------------
 ------------------------------------------------------------
@@ -1276,7 +1276,7 @@ KHEWAN--SATGKKRRWRKK-----RRKE---------------AYFSYMGKILKQI--H
 PDFSGRSWVLYAL-----------------GALNAWQLEWVSLEAFRLSFYN----HRRA
 ITGREILGAVKQRSSQKSF-----------------------------------------
 ----------------------------------------
->Ornithorhynchus|XP_001511074.1|H2B.O organism=Ornithorhynchus anatinus phylum=Chordata class=Mammalia
+>H2B.O_Ornithorhynchus_anatinus_XP_001511074.1 organism=Ornithorhynchus anatinus phylum=Chordata class=Mammalia
 ------------------------------------------------------------
 ------------------------------------------------------------
 ------------------------------------------------------------
@@ -1285,7 +1285,7 @@ ITGREILGAVKQRSSQKSF-----------------------------------------
 PLTSISTKAVGIM-----------------DSFINDIFERIASEASRLARYN----KRST
 ITSREIQTAVLLTLPGELARHAVSEGTKAITKYTS-------------------------
 ----------------------------------------
->Ornithorhynchus|XP_001521160.2|H2B.O organism=Ornithorhynchus anatinus phylum=Chordata class=Mammalia
+>H2B.O_Ornithorhynchus_anatinus_XP_001521160.2 organism=Ornithorhynchus anatinus phylum=Chordata class=Mammalia
 ------------------------------------------------------------
 ------------------------------------------------------------
 ------------------------------------------------------------
@@ -1294,7 +1294,7 @@ ITSREIQTAVLLTLPGELARHAVSEGTKAITKYTS-------------------------
 PLTSISTKAVGIV-----------------DSFI-DIFKRITSDASHLARYN----KCST
 ITSREIQTAVQLMLPGELDRYAGSEGTKAITKYTT-------------------------
 ----------------------------------------
->Ornithorhynchus|XP_028926523.1|H2B.O organism=Ornithorhynchus anatinus phylum=Chordata class=Mammalia
+>H2B.O_Ornithorhynchus_anatinus_XP_028926523.1 organism=Ornithorhynchus anatinus phylum=Chordata class=Mammalia
 ------------------------------------------------------------
 ------------------------------------------------------------
 ------------------------------------------------------------
@@ -1303,7 +1303,7 @@ ITSREIQTAVQLMLPGELDRYAGSEGTKAITKYTT-------------------------
 PLTSISTKAVGIM-----------------DSFINDIFDRIASEASRLARYT----KRST
 IASREIQTAVLLTLPGELARHAVSEGTKAITKYTS-------------------------
 ----------------------------------------
->Chara|GBG59214.1|H2B.S organism=Chara braunii phylum=Streptophyta class=Charophyceae
+>H2B.S_Chara_braunii_GBG59214.1 organism=Chara braunii phylum=Streptophyta class=Charophyceae
 -------------------MAEGGYPLEA----VAGDICG-TSMDPLDPSGTVRRRS-PR
 GDGPDDQGVGRDQQ--------------------------------SDQMHLPAEEQRKS
 DTQSVVLSRQSTPQQAESAKLPAN---YPEVEIGADRKASKRSKTQ--------------
@@ -1312,7 +1312,7 @@ KKESGSRPEGKNK----GRR----RRKRT-------TLIVPSGRTYKIYIYKVLKEI--H
 PELAISSQGMSIM-----------------NSFMVDVCERIAAEASRLSRHA----KRAT
 LSSRDIQSAVQLCLPGELAVNAMSEAKKAVIKFI-RHGKASERRNIIIKSNRFYLINKMI
 VI--------------------------------------
->Chara|GBG60584.1|H2B.S organism=Chara braunii phylum=Streptophyta class=Charophyceae
+>H2B.S_Chara_braunii_GBG60584.1 organism=Chara braunii phylum=Streptophyta class=Charophyceae
 -------------MWNLLRMPPGQWSSRS----AASSLPRQNGVVGVRRGRSAAVVV-LE
 DSGDGDANGIGIGTGIANGNGNG-----------------------KDMNRRMEKGGALG
 TSTATGMMKESSAKKKGGGSGSGA---GSELGSEPGSEPGTGPGAGRHK-----------
@@ -1321,7 +1321,7 @@ TPKKKERVTRAKKKAISGSR----RTARK---------TNAFQPSFATHIRRVLKQV--H
 PNLSITCDGIDIM-----------------NDFLIDIFERIAGEAALLIRVH----KRCT
 LTCREIMAAVQLVLGGELSKHAIHLATEVLTLFS-Q------------------------
 ----------------------------------------
->Amaranthus|HISTDB_H2B_S_7|H2B.S organism=Amaranthus hypochondriacus phylum=Streptophyta class=Magnoliopsida
+>H2B.S_Amaranthus_hypochondriacus_HISTDB_H2B_S_7 organism=Amaranthus hypochondriacus phylum=Streptophyta class=Magnoliopsida
 -------------------MAPKK---------TARKVVK--TTKIVEETVEVVSIP-GS
 QSQQNPTQI------------------------------------QTELISERKEEQSSI
 TTKSIPIQESDHDDQDE-------------------------------------------
@@ -1330,7 +1330,7 @@ PPRQVEPKPEPKG--------------KG---------EGGGE-GYKRYVFRVLKQV--H
 PGMGISSRAMIVI-----------------NNFMNDMFERIAEEGSRLNKQN----KKMT
 MSAREIQGAVKLVLPGELGKHAVAEGAKAVTNYV-NFGFHKK------------------
 ----------------------------------------
->Ananas|XP_020113371.1|H2B.S organism=Ananas comosus phylum=Streptophyta class=Magnoliopsida
+>H2B.S_Ananas_comosus_XP_020113371.1 organism=Ananas comosus phylum=Streptophyta class=Magnoliopsida
 -------------------MAPRKPRK------MVGAVVK-TTAKVVEETVKVAPVV-GV
 GDGDGDGDG---------------------------------------------AEEVEE
 AAVPLKDSKVVQVVVVGGEKGDGEVPEANDGRDEPEKRKEAMEVDENQAPKETGEESKRR
@@ -1339,7 +1339,7 @@ EKDRGGRSEGEAEEGKGRRR----RRRKRRFGSAGDAGSGGVG-GYKRYVFRVLKQV--H
 PELGASARAMQVL-----------------DMMMADMFQRLAEEAARLSKYT----GRAT
 LTSREIQNAVRLVLPGELGRHAVSEGTKAVTNYMASQSS---------------------
 ----------------------------------------
->Aquilegia|PIA54901.1|H2B.S organism=Aquilegia coerulea phylum=Streptophyta class=Magnoliopsida
+>H2B.S_Aquilegia_coerulea_PIA54901.1 organism=Aquilegia coerulea phylum=Streptophyta class=Magnoliopsida
 -------------------MAPKRSQKK-----VIGSLVR-KTNKVVEETVNITVVEKTK
 GAEAGNKET---------------------------------------------EQEETA
 ISTKDPVSTPGEKQQKEQPKKGVG---KQLKLEAPTQK----------------------
@@ -1348,7 +1348,7 @@ SAKEGEEKKGKKS-----------GRKRM---------LDTGE-TYNTYVYKVLKQV--H
 PDLGITFKGMMVL-----------------NGFMNDMFERLAREASKLTDYT----GKKT
 MSAREIQGAVRLVLPGELGKHAIVEGTKAITTYF-SNSS---------------------
 ----------------------------------------
->Arabidopsis|XP_002892444.1|H2B.S organism=Arabidopsis lyrata subsp. lyrata phylum=Streptophyta class=Magnoliopsida
+>H2B.S_Arabidopsis_lyrata_subsp._lyrata_XP_002892444.1 organism=Arabidopsis lyrata subsp. lyrata phylum=Streptophyta class=Magnoliopsida
 -------------------MAPRKPK-------VVSVTKK---KKVVEETIKVTV-T-EG
 EDPCVTTET-------------------------------------------ANDQETQD
 LTFSIPVGENVTTVEI--------------------------------------------
@@ -1357,7 +1357,7 @@ KTDTVEKKKKKKK-----------KKKRD---------DLAGD-EYRRYVYKVMKQV--H
 PDLGITSKAMTVV-----------------NMFMGDMFERIAQEAARLSDYT----KRKT
 LSSREIEAAVRLVLPGELSRHAVAEGSKAVSNYV-GYGSRKR------------------
 ----------------------------------------
->Arabidopsis|NP_172295.1|H2B.S organism=Arabidopsis thaliana phylum=Streptophyta class=Magnoliopsida
+>H2B.S_Arabidopsis_thaliana_NP_172295.1 organism=Arabidopsis thaliana phylum=Streptophyta class=Magnoliopsida
 -------------------MAPRKPK-------VVSVTKK---KKVVEETIKVTV-T-EE
 GDPCVITET-------------------------------------------ANDQETQD
 LTFSIPVGENVTTVEIPVEVPDER---SLPVGENVTTVKIPVDDRDESS---------PQ
@@ -1366,7 +1366,7 @@ KTDKVEKKQENKK----KKK----KKKRD---------DLAGD-EYRRYVYKVMKQV--H
 PDLGITSKAMTVV-----------------NMFMGDMFERIAQEAARLSDYT----KRRT
 LSSREIEAAVRLVLPGELSRHAVAEGSKAVSNFV-GYDSRKR------------------
 ----------------------------------------
->Boechera|HISTDB_H2B_S_1|H2B.S organism=Boechera stricta phylum=Streptophyta class=Magnoliopsida
+>H2B.S_Boechera_stricta_HISTDB_H2B_S_1 organism=Boechera stricta phylum=Streptophyta class=Magnoliopsida
 -------------------MAPRKPK-------VVSVTKK---KKVVEETVKVTV-T-EG
 GDPNATTEI------------------------------------------TENDQETQD
 LTFSIPVGENVTTVEI--------------------------------------------
@@ -1375,7 +1375,7 @@ KTKKVEKKQAKKK------K----KKKRD---------DLAGD-EYRRYVYKVMKQV--H
 PDLGITSKAMTVV-----------------NMFMGDMFERIAQEAARLGDYT----KRRT
 LSSREIEAAVRLVLPGELSRHAVAEGSKAISNYV-AYDSRKR------------------
 ----------------------------------------
->Brachypodium|XP_014757906.1|H2B.S organism=Brachypodium distachyon phylum=Streptophyta class=Magnoliopsida
+>H2B.S_Brachypodium_distachyon_XP_014757906.1 organism=Brachypodium distachyon phylum=Streptophyta class=Magnoliopsida
 -------------------MAPKRRVKK-----VVSSVVRKKTTKVVQETVQVSTAILPD
 DSAQPEPEVVVDVSTPATV---------------------------VKHVEVTSDVGDDQ
 ATAAGATAVNNKPPQSKSPDKPADDNQATAPAVPSLQSQETQTQDPNEKKKTPQQEIVVV
@@ -1384,7 +1384,7 @@ DEAAAPKKKKKKKKKKRKARRGG-GRRRG---PVGDMGMMGG--GYKRYVYRVLKQV--H
 PDMGASGRAMEVL-----------------DMMMGDMFERLADEAARLAKVA----GRAT
 LSSREVQNAVRLVLPGELAKHAISEGTKAVTSYM-SLA----------------------
 ----------------------------------------
->Brachypodium|HISTDB_H2B_S_5|H2B.S organism=Brachypodium stacei phylum=Streptophyta class=Magnoliopsida
+>H2B.S_Brachypodium_stacei_HISTDB_H2B_S_5 organism=Brachypodium stacei phylum=Streptophyta class=Magnoliopsida
 -------------------MAPKRRGKQ-----VVSSVVR-KTTKVVKETVQVSTAAIVA
 DDSTHPEYTEPEVVDMS----------TPATVVKHV----------EITTTSDGDQAADA
 GATTVNKSPDKQPAEANQAPQPAVASLQSQETQDPNEEAAAAEAPQTEKPQQEIVVVSTK
@@ -1393,7 +1393,7 @@ KEKAAAAPKKKKA-----------RRGRG---PVGDMGMMGG--GYKRYVYRVLKQV--H
 PDMGASGRAMEVL-----------------DMMMGDMFERLADEAARLAKVA----RRAT
 LSSREVQSAVRLVLPGELAKHAISEGTKAVTSYM-SLA----------------------
 ----------------------------------------
->Brassica|CAF1924216.1|H2B.S organism=Brassica napus phylum=Streptophyta class=Magnoliopsida
+>H2B.S_Brassica_napus_CAF1924216.1 organism=Brassica napus phylum=Streptophyta class=Magnoliopsida
 -------------------MAPKKSKK------VVSVTKK---KKVVEETIKVTV---TD
 GVPNVTTET---------------------------------------DTQETQELETQD
 LPLSIPVEEENVTRVEIPVDVGDD---RSPPPSETVTPASEGTVKETHK-----------
@@ -1402,7 +1402,7 @@ ETHKVEEKEGNKKKKMLKKR----NKNRS---------EVAGD-EYKRYVYKVMKQV--H
 PDLGISSKAMTVI-----------------NMFMGDMFERLAVEAAKLNDYS----KRRT
 LSSREIEAAVRLVLPGELSRHAVAEGSKAISNFV-AYGAKKR------------------
 ----------------------------------------
->Brassica|RID57103.1|H2B.S organism=Brassica rapa phylum=Streptophyta class=Magnoliopsida
+>H2B.S_Brassica_rapa_RID57103.1 organism=Brassica rapa phylum=Streptophyta class=Magnoliopsida
 -------------------MAPRKSKK------VVSVTKK---KKVVEETIKVTV---TD
 GVPNVTTNTDTQETQYL-----------------------------ETQELDTQELETQD
 LPFSLPLEEENVTRVEIPVDVGYD---RSPPPPETVAPASEGTVKETHK-----------
@@ -1411,7 +1411,7 @@ ETHKVEEKQGNKK-TTSKKR----KKNRS---------EVAGD-EYKRYVYKVMKQV--H
 PDLGISSKAMTVI-----------------NMFMGDMFERLAVEAAKLNDYS----KRRT
 LSSREIEAAVRLVLPGELSRHAVAEGSKAVSNFV-AYGAKKR------------------
 ----------------------------------------
->Capsella|HISTDB_H2B_S_0|H2B.S organism=Capsella grandiflora phylum=Streptophyta class=Magnoliopsida
+>H2B.S_Capsella_grandiflora_HISTDB_H2B_S_0 organism=Capsella grandiflora phylum=Streptophyta class=Magnoliopsida
 -------------------MAPRKPK-------VVSVTKK---KTVVEETVKVTVA--EG
 GDPNVTTEI------------------------------------------TENDQETQD
 LTFSIPVGENVTTVEVPVEVL---------------------------------------
@@ -1420,7 +1420,7 @@ KTNEVEKKQEKKK-----KK----NKKRD---------DLAGD-EYRRYVYKVLKQV--H
 PDLGITSKAMTVV-----------------NMFMGDMFERIAQEAARLSDYT----KRRT
 LSSREIESAVRLVLPGELSRHAVAEGSKAISNYV-SYDSRKL------------------
 ----------------------------------------
->Capsella|XP_006306103.1|H2B.S organism=Capsella rubella phylum=Streptophyta class=Magnoliopsida
+>H2B.S_Capsella_rubella_XP_006306103.1 organism=Capsella rubella phylum=Streptophyta class=Magnoliopsida
 -------------------MAPRKPK-------VVSVTKK---KTVVEETVKVTVA--EG
 GDPNVTTEI------------------------------------------TENDQETQD
 LTFSIPVGENVTTVEVPVEVL---------------------------------------
@@ -1429,7 +1429,7 @@ KTNEVEKKQEKKK-----KK----NKKRD---------DLAGD-EYRRYVYKVLKQV--H
 PDLGITSKAMTVV-----------------NMFMGDMFERIAQEAARLSDYT----KRRT
 LSSREIESAVRLVLPGELSRHAVAEGSKAISNYV-SYDSRKL------------------
 ----------------------------------------
->Carica|XP_021901556.1|H2B.S organism=Carica papaya phylum=Streptophyta class=Magnoliopsida
+>H2B.S_Carica_papaya_XP_021901556.1 organism=Carica papaya phylum=Streptophyta class=Magnoliopsida
 -------------------MAPKRS--------TRLLALK-TTQKIIEK-VEVSVVP-SS
 GREQEITDVAVQKSPVKVIPVEEKS---------------------RKTVRIPVEETPSL
 KTIPVKTPEKEQETID---------------DQEPVTTSEEVAADNEQE-----------
@@ -1438,7 +1438,7 @@ KEEKVEKRPSRRG-RPRRRR----KKKKG-------SDEGNYK-GYKRYVFKVLKQV--H
 PELAISSKAMVII-----------------NGFMNDMFERLADEAANLSRYS----HKAT
 LSSKEIQGAVRLVLPGELSKHATAEGSKAVTNYM-SFPLHNS------------------
 ----------------------------------------
->Citrus|ESR37664.1|H2B.S organism=Citrus clementina phylum=Streptophyta class=Magnoliopsida
+>H2B.S_Citrus_clementina_ESR37664.1 organism=Citrus clementina phylum=Streptophyta class=Magnoliopsida
 -------------------MPPRR---------SARVVLT---KKVVTETVEVSVVN-EK
 KKGKQEIAIHSEETLP------------------------------SKTITVEDKEEGKR
 TTVEVPIEEPEPPTEPEAEPSSSV---AAEAATPAKKEEKKTSIETSPE-----------
@@ -1447,7 +1447,7 @@ KTAQQEARAAHEKPGSKKRK----RRKRN---------EGTGE-EYKTYVFRVLKQV--H
 PGMAISSKAMTVI-----------------NNLMNDMFERIAGEAATLSKHC----HRTT
 MSSREIQGAVKLVLPGELGKHAVAEGTKAVTNYT-SYDAKRSKA----------------
 ----------------------------------------
->Citrus|KDO60308.1|H2B.S organism=Citrus sinensis phylum=Streptophyta class=Magnoliopsida
+>H2B.S_Citrus_sinensis_KDO60308.1 organism=Citrus sinensis phylum=Streptophyta class=Magnoliopsida
 -------------------MPPRR---------SARVVLT---KKVVEETVQVSVVNEKK
 KKGKREIAIHSEETLP------------------------------SKTITVEDKEEGKH
 TTVEVPIEEPEPPTEPEAEPSSSVAAEAATPAKKEEKKTSIETSPEPEHDVAA-------
@@ -1456,7 +1456,7 @@ KTAQQEARAAHEKPGSKKRK----RRKRN---------EGTGE-EYKTYVFRVLKQV--H
 PGMAISSKAMTVI-----------------NNLMNDMFERIAGEAATLSKHC----HRTT
 MSSREIQGAVKLVLPGELGKHAVAEGTKAVTNYT-SYDAKRSKA----------------
 ----------------------------------------
->Daucus|XP_017234272.1|H2B.S organism=Daucus carota subsp. sativus phylum=Streptophyta class=Magnoliopsida
+>H2B.S_Daucus_carota_subsp._sativus_XP_017234272.1 organism=Daucus carota subsp. sativus phylum=Streptophyta class=Magnoliopsida
 -------------------MAPKKSPKKK----AVGAVVK-TTTKVIQETVQVSV---IQ
 TKPKPQQET-------------------------------------------PQTENNKN
 GPKDIEIQDV--------------------------------------------------
@@ -1465,7 +1465,7 @@ KKTKKDSAQGATK-----------KRKRS------------VE-GYKRYVYKVLKQV--H
 PDIGISSKAMTIV-----------------NNLMTDMFERLADEAARLTKYT----KKMT
 LSSREIQGAVKLVLPGELGKHAVAEGAKAVTNYV-QYASGPSKP----------------
 ----------------------------------------
->Erythranthe|XP_012838320.1|H2B.S organism=Erythranthe guttata phylum=Streptophyta class=Magnoliopsida
+>H2B.S_Erythranthe_guttata_XP_012838320.1 organism=Erythranthe guttata phylum=Streptophyta class=Magnoliopsida
 -------------------MAPKKRPGR-----AKKTVVT--STKVVEETVKVVVTP-GG
 SGGEDDDNDNNESVEMI----------SSSTKQNTEN---------VEIFTSSPEKEHVL
 RTIPVEDKEEQIPAPD---IVPQE---QDEDETQPYSEPETASTPPRKEAP---------
@@ -1474,7 +1474,7 @@ FQEKAKEAGQEKKATTEKLRPK--RRRRS------VAGAGAGE-SYKRYVFKVMKQV--H
 PEMGISSKAMTIV-----------------NNLMTDMFERFAEEAARLQKYT----GRKT
 MSSREVQGAVKLVLPGELGKHAVAEGAKAVTNYV-SYVPKS-------------------
 ----------------------------------------
->Eutrema|XP_006417719.1|H2B.S organism=Eutrema salsugineum phylum=Streptophyta class=Magnoliopsida
+>H2B.S_Eutrema_salsugineum_XP_006417719.1 organism=Eutrema salsugineum phylum=Streptophyta class=Magnoliopsida
 -------------------MAPRREKK------VVSVTKK---KKVVEETLKVTV---TD
 GDPNVITET------------------------------------------QTQDEETQD
 LTFSIPVEENVTTVEI--------------------------------------------
@@ -1483,7 +1483,7 @@ EAHKVEKKQSKKK----KKK----MMKRG---------DLAGDHEYKRYVYKVMKQV--H
 PELGITSKAMSVI-----------------NTFMGDMFERIAEEAARLSDHT----KRRT
 LSSREIEAAVRLVLPGELSRHAVSEGAKAISNYV-AYGAKKR------------------
 ----------------------------------------
->Fragaria|XP_004295898.2|H2B.S organism=Fragaria vesca subsp. vesca phylum=Streptophyta class=Magnoliopsida
+>H2B.S_Fragaria_vesca_subsp._vesca_XP_004295898.2 organism=Fragaria vesca subsp. vesca phylum=Streptophyta class=Magnoliopsida
 -------------------MSPKRRS-------SSRLVVK-TTKQVVKETVEVSVVRSKK
 RQKKVNDDEQQEPVESTIAFETKKENQTEKIEVSVEKDPAKRAIESQEETQIAEEDKEPE
 EIRTIPVEVPGMETPEKLRGATLSVDKDEEPKEPSTVLDDKEPVSNDVVTETQLDSDETQ
@@ -1492,7 +1492,7 @@ SDDVKQTGDGEKK----DKK----RKRRS------PGNKREGGKGYKRYVYKVFKQV--H
 PELGMSAKAMVVL-----------------NNYMNDMFERLAGEAAKLTMYT----SRKT
 LSSREIQGAVKLVLPGELGKHAMAEGTKAVSNYLSKNAAMSHKS----------------
 ----------------------------------------
->Glycine|KAH1159328.1|H2B.S organism=Glycine max phylum=Streptophyta class=Magnoliopsida
+>H2B.S_Glycine_max_KAH1159328.1 organism=Glycine max phylum=Streptophyta class=Magnoliopsida
 -------------------MAPKR---------AEKLVVR-STKKVVESIVQVSV-V-GK
 RLTQVIPQA-------------------------------------------QKVSPNSD
 ITTENKAEQENNTHQDGGVQ----------------------------------------
@@ -1501,7 +1501,7 @@ KTAKEQNGKEKKR----GRK----KRNIE---------------GYQRYVYGVLKQV--H
 PEMGISSKCMTAL-----------------NNLMNDMFERLTFEVSKLTDYT----GHMT
 LSSREIQGVVRLVLPGELEKHAIAEGVKAVNNYT-SYDA---------------------
 ----------------------------------------
->Glycine|XP_003539797.1|H2B.S organism=Glycine max phylum=Streptophyta class=Magnoliopsida
+>H2B.S_Glycine_max_XP_003539797.1 organism=Glycine max phylum=Streptophyta class=Magnoliopsida
 -------------------MAPKR---------AEKLVVR-STKKVVESSVLVSVVGKRL
 TRGKKDTQT----------------------------------------TDGEEEVGSQE
 HLVVIPIQE-VTPQAQKDSPNSAI---TTENKAEQENNTQDGGV----------------
@@ -1510,7 +1510,7 @@ KTPKGKNGKEKKR-----------GRKKG---------RRSVE-GYQRYVYRVLKQV--H
 PEMGISSKCMTVL-----------------NNLMNDMFERLAFEASKLKDYT----GHMT
 LSSREIQGAVRLVLPGELGKHAIAEGVKAVNNYT-SYDA---------------------
 ----------------------------------------
->Gossypium|XP_012484989.1|H2B.S organism=Gossypium raimondii phylum=Streptophyta class=Magnoliopsida
+>H2B.S_Gossypium_raimondii_XP_012484989.1 organism=Gossypium raimondii phylum=Streptophyta class=Magnoliopsida
 -------------------MAPKR---------RAKVVVR-STKKIVKETVQVAVIDKTE
 GDNNGDQQQ-------------------------------------LDTVPLEDIEEAGE
 RVITEIPIQGSTEDK---------------------------------------------
@@ -1519,7 +1519,7 @@ KTEPVHEEEEPRKEEKKGKR----KRGKK--------KELVGHEGYKTYVFRVLKQV--H
 PGMAISSKAMSVI-----------------NSLMNDMFEKITNEATKLSQYT----DRKT
 LSSREIQGAVRLVLPGELGKHAVAEGSKAVTNYA-SYDIKRSKLV---------------
 ----------------------------------------
->Linum|HISTDB_H2B_S_8|H2B.S organism=Linum usitatissimum phylum=Streptophyta class=Magnoliopsida
+>H2B.S_Linum_usitatissimum_HISTDB_H2B_S_8 organism=Linum usitatissimum phylum=Streptophyta class=Magnoliopsida
 -------------------MAPRRRSAGR----VVGVVRS--TRKVVKETVEVSILAGDT
 QETTPEDNT-------------------------------------EDINLLDTEELIDV
 VTPEAGVKLQEDATTT------------STVRTIPVEDAGPEREEELVI-----------
@@ -1528,7 +1528,7 @@ KAPEKEKKVNKKK-----------RKSRF---------VEGGE-GYRRYVYKVMKQV--H
 PDMKISGVAMSII-----------------NSLMKDMFERIADEAATLSRYS----KRMT
 ISSKEIQDAVKLVLPGELGKHAVAEGSKAVANYA-SYSHNK-------------------
 ----------------------------------------
->Malus|XP_008359166.3|H2B.S organism=Malus domestica phylum=Streptophyta class=Magnoliopsida
+>H2B.S_Malus_domestica_XP_008359166.3 organism=Malus domestica phylum=Streptophyta class=Magnoliopsida
 -------------------MAPKR---------SAKMVVK-TTKRVVKEMVEVSVVK-TR
 RKKQQEDRP---------------------------------------LETISVENNDSN
 QTQNVEVSVGKEPLKTSIIPIETL---EQVIPIETQAENQTLKTQNAEVQVDREAEENPT
@@ -1537,7 +1537,7 @@ KTEEQASKKGEKKSEVKGGK----RREKR---------RSRGREEYKTYVYKVLKQV--H
 PGMGVSSKAMTVL-----------------NNLMNDMFEKLADEAARLTTYT----ARKT
 LSSREIQGAVKLVLTGELGRHAMAEGTKAVSTYV-SYGGGSSKS----------------
 ----------------------------------------
->Manihot|XP_021629190.1|H2B.S organism=Manihot esculenta phylum=Streptophyta class=Magnoliopsida
+>H2B.S_Manihot_esculenta_XP_021629190.1 organism=Manihot esculenta phylum=Streptophyta class=Magnoliopsida
 -------------------MAPKGKRGKKK---VLGTVLR-SSKRVIKETVKIAV---FE
 GDTQESTQE-------------------------------------------DQNGDTEE
 LPENEPLVVRTIPVEERV---------EEEEEAQTIEVSVKKPKEEKRK-----------
@@ -1546,7 +1546,7 @@ KRTQEEKGQEKKR-----RR----RRRRG---------VEEGGEGYKRYVFRVLKQV--H
 PELRISSMAMSVI-----------------NSLMKDMFERIADEAAKLSQHS----HKMT
 LSSREIQGAVKLVLPGELGRHAIAEGSKAVTNYM-SYEAKGSKA----------------
 ----------------------------------------
->Medicago|XP_013464866.1|H2B.S organism=Medicago truncatula phylum=Streptophyta class=Magnoliopsida
+>H2B.S_Medicago_truncatula_XP_013464866.1 organism=Medicago truncatula phylum=Streptophyta class=Magnoliopsida
 -------------------MAPKS---------AKKVVVR-STRKVVQESVQVSVVSSHK
 RSTRGNNKD-------------------------------------VEIDKDAGNATQQE
 HVRIIPVQEVTSQTKEDTNTNTNTTTVTSEDTTNQENT----------------------
@@ -1555,7 +1555,7 @@ RTKEGGNDGKGKR-----------KKKRG---------RRMGE-GYQRYVYRVLKQV--H
 PQMGISSQAMTIL-----------------NNLMNDMFEKLADEAAKLTAYT----KHMT
 LTSREIQGAVKLVLPGELGKHAIAEGAKAVTNYV-SYVA---------------------
 ----------------------------------------
->Musa|HISTDB_H2B_S_6|H2B.S organism=Musa acuminata phylum=Streptophyta class=Magnoliopsida
+>H2B.S_Musa_acuminata_HISTDB_H2B_S_6 organism=Musa acuminata phylum=Streptophyta class=Magnoliopsida
 -------------------MAPKR---------TSRVLKT--TKTVIEETVEVVVEA-KD
 AQGPKEDLG-------------------------------------------EGKEAEPE
 GRQQAEEEEPS-------------------------------------------------
@@ -1564,7 +1564,7 @@ KEAESITDKETQEEAAAVDK----RFSGG-----DGGEMDGTGRGYKRYVFRVLKHV--H
 PGMGISSRAMVVL-----------------DGMMGDMFERLAGEASRLSTYT----GKAT
 LSSREIQGAVRLVLPGELGKRAISEGTKAVSNYM-AADRHEQQ-----------------
 ----------------------------------------
->Nymphaea|XP_031483632.1|H2B.S organism=Nymphaea colorata phylum=Streptophyta class=Magnoliopsida
+>H2B.S_Nymphaea_colorata_XP_031483632.1 organism=Nymphaea colorata phylum=Streptophyta class=Magnoliopsida
 -------------------MGPRRSGR------LVGSVVK--ETKVVEETVKVVADV-DD
 LSSLEPSAI---------------------------------------------SAGIIR
 EIPVVEIKESKTPQKK------------VEPEAAPFP-----------------------
@@ -1573,7 +1573,7 @@ DQKKERKPQELNR----RRK----RLRRN---------EEGGVGAYRSYVYKVLKQV--H
 PELGISSKAMDVL-----------------NGFMGDMFERLAEEAATLQKHT----GRRT
 LSSREIQMAVRLVLPGELGKHAISEGSKAITNYY-RYPEKKRR-----------------
 ----------------------------------------
->Oryza|XP_015612586.1|H2B.S organism=Oryza sativa Japonica Group phylum=Streptophyta class=Magnoliopsida
+>H2B.S_Oryza_sativa_Japonica_Group_XP_015612586.1 organism=Oryza sativa Japonica Group phylum=Streptophyta class=Magnoliopsida
 -------------------MAPKQKE-------AANKKKKKKEVAVLVKTKTKVVQL-TT
 TTAELELEP---------------------------------------------------
 -TVTVQVDDNKTGAAA-----------DETPPVVPL------------------------
@@ -1582,7 +1582,7 @@ TTAELELEP---------------------------------------------------
 PDLGASAQTMDVL-----------------DMMMADMFERLADEASRLSKLS----GRLT
 LTSREVQSAVRLVLPADLANHAISEGTKAISNYL-S------------------------
 ----------------------------------------
->Panicum|PAN11031.1|H2B.S organism=Panicum hallii phylum=Streptophyta class=Magnoliopsida
+>H2B.S_Panicum_hallii_PAN11031.1 organism=Panicum hallii phylum=Streptophyta class=Magnoliopsida
 -------------------MAPKRRSGGK----VVGSVVK---TKVVQETVEVTTAFVAD
 GEPGQRATEDLALAPPAVDASGG-----------------------SRSRVVHIEVTTPD
 GDTTTGGSNAKQATSKRGRGGRR----EEEKPAPPAEEAAQEPPVAQSQETQDPNEEQEE
@@ -1591,7 +1591,7 @@ KRGGGGAGGGDKTKTTKAKKGG--RRRLGQASPGGDAGMGGVG-GYKRYVWRVLKQV--H
 PELGVSGNAMRVL-----------------DMMMADMFERLADEAARLSKVS----GRAT
 LSSREVQSAVRLVLPGELSRHAMSEGTKAISKYM-SYDA---------------------
 ----------------------------------------
->Panicum|HISTDB_H2B_S_3|H2B.S organism=Panicum virgatum phylum=Streptophyta class=Magnoliopsida
+>H2B.S_Panicum_virgatum_HISTDB_H2B_S_3 organism=Panicum virgatum phylum=Streptophyta class=Magnoliopsida
 -------------------MAPKRRGGGK----VVGSVVK---TKVVQETVEVTTAVVPD
 GEPEQRGTEALALAPPAVDVSG------------------------GSRRVVHIEVTTPD
 GDATTGGSNAKKQATSKRGRRGGR--REEEKPAPPAEEAAQEPPVAQSQETQDPNEEQEE
@@ -1600,7 +1600,7 @@ KRGGGDKARAKKG----GQR----RRRLGQASPGGDAGMGGVG-GYKRYVWRVLKQV--H
 PELGVSGLAMRVL-----------------DMMMADMFERLADEAARLSKAS----GRAT
 LSSREVQSAVRLVLPGELGRHAMSEGTKAISKYM-SYDA---------------------
 ----------------------------------------
->Phaseolus|XP_007132352.1|H2B.S organism=Phaseolus vulgaris phylum=Streptophyta class=Magnoliopsida
+>H2B.S_Phaseolus_vulgaris_XP_007132352.1 organism=Phaseolus vulgaris phylum=Streptophyta class=Magnoliopsida
 -------------------MAPKR---------AQKLVVR-STKKVVESSVQVSVVS-SS
 SRKRQTRGN--------------------------------------KDNIQTEEAVGEE
 KHVMVIPIQEGNPQAQKDSSTSAM---TNENKGEQENSVQDDGVQNEEK-----------
@@ -1609,7 +1609,7 @@ RFPKGSNGKEKKL----GKK----KGRRS------------AE-GYQRYVYRVLKQV--H
 PEMGISSKCMTIL-----------------NNLMNDMFERLAGEASKLKDYT----GHMT
 LSSREIQGAVKLVLPGELGKHAIAEGVKAVNNFT-SYDA---------------------
 ----------------------------------------
->Piper|HISTDB_H2B_S_10|H2B.S organism=Piper nigrum phylum=Streptophyta class=Magnoliopsida
+>H2B.S_Piper_nigrum_HISTDB_H2B_S_10 organism=Piper nigrum phylum=Streptophyta class=Magnoliopsida
 -------------------MASTRQGRRNTPEVVSTVVKKKTTRKVVNETTIAAVAV-VE
 SNEPPIVKT------------------------------------------VPVEEESSD
 SVINVE--AGKTPPKE-------------VPIARPRSDAAKGTNQRKDG-----------
@@ -1618,7 +1618,7 @@ KRRKGERKEGEKK----RKR----RKKRW-------SYNEEMS-GYSRYVFRVLKQV--H
 PDLAISSKAMAVL-----------------NAFVWDMFERLAGEAGKLADYT----RRAT
 LSSREIQDAVRLVLPGELGKHAISEGSKAVTNYV-TNDD---------------------
 ----------------------------------------
->Piper|HISTDB_H2B_S_9|H2B.S organism=Piper nigrum phylum=Streptophyta class=Magnoliopsida
+>H2B.S_Piper_nigrum_HISTDB_H2B_S_9 organism=Piper nigrum phylum=Streptophyta class=Magnoliopsida
 -------------------MASTRQGRRNTPEVVSTVVKKKTTRKVVNETTIAAVAV-VE
 SNEPPIVKT------------------------------------------VPVEEESSD
 SVINVE--AGKTPPKE-------------VPIARPRSDAAKGTNQRKDG-----------
@@ -1627,7 +1627,7 @@ KRRKGERKVEEKK----RKR----RKKRW-------SYNEEMS-GYSRYVFRVLKQV--H
 PDLAISSKAMAVL-----------------NAFVWDMFERLAGEAGKLADYT----RRAT
 LSSREIQDAVRLVLPGELGKHAISEGSKAVTNYVHALGSWRRPALQYGRHEEERRQRKCR
 QDRVTSVFGFGFEVLGLRISFLFATLRTAPGGRKHGVQPT
->Prunus|ONI00968.1|H2B.S organism=Prunus persica phylum=Streptophyta class=Magnoliopsida
+>H2B.S_Prunus_persica_ONI00968.1 organism=Prunus persica phylum=Streptophyta class=Magnoliopsida
 -------------------MAPKR---------STKTVVK-TTKQVVRETVQVSSVV-QS
 KRRKKQSEDSGDQTRKP----------VKTIK--------------TISIETQEENQTQN
 VEISEPLKTRRIPIQTEEENQILK---GQNAEAITTLTSDQKEAAAEEEEEGEGEKKEDQ
@@ -1636,7 +1636,7 @@ KSDEVKTQKGGKKSSEKKRK----RKRRE---------RGRGE-EYKIYVHRVLKQV--H
 PGMGVSSKGMTVL-----------------NNLMNDMFERLADEAARLTKYT----ARKT
 LSSREIQAAVKLVLPGELGRHAMAEGTKAVSTYVSNNNGRQSKS----------------
 ----------------------------------------
->Setaria|XP_022680431.1|H2B.S organism=Setaria italica phylum=Streptophyta class=Magnoliopsida
+>H2B.S_Setaria_italica_XP_022680431.1 organism=Setaria italica phylum=Streptophyta class=Magnoliopsida
 -------------------MAPKRRSSGK----VVGSVVK---TKVVQETVEVTTAIVAD
 GEPEQQLAPGALALAPRTGEV-------------------------SRSKVVHVEITTPD
 SDNTTGRSSAKQQPTAKRGRGGRR---EEEKPPAPAEEAAQEPPPQSLETQEPNEEEEEE
@@ -1645,7 +1645,7 @@ TTPQKQKKRGGGGGGGGKAKTGR-RRRLGEASPGGDAGMGGMG-GYKRYVWRVLKQV--H
 PELGVSGHAMRVL-----------------DMMMADMFERLADEAARLSKAA----GRAT
 LSSREVQSAVRLVLPGELGRHAMSEGTKAISKYM-SYDDA--------------------
 ----------------------------------------
->Setaria|XP_034583365.1|H2B.S organism=Setaria viridis phylum=Streptophyta class=Magnoliopsida
+>H2B.S_Setaria_viridis_XP_034583365.1 organism=Setaria viridis phylum=Streptophyta class=Magnoliopsida
 -------------------MAPKRRSSGK----VVGSVVK---TKVVQETVEVTTAIVAD
 GEPEQQLAPGALALAPRTGEV-------------------------SRSKVVHVEITTPD
 SDNTTGRSSAKQQPTAKRGRGGRR---EEEKPPAPAEEAAQEPPPQSLETQEPNEEEEED
@@ -1654,7 +1654,7 @@ TTPQKQKKRGGGGGGGGKAKTGR-RRRLGEASPGGDAGMGGMG-GYKRYVWRVLKQV--H
 PELGVSGHAMRVL-----------------DMMMADMFERLADEAARLSKAA----GRAT
 LSSREVQSAVRLVLPGELGRHAMSEGTKAISKYM-SYDDT--------------------
 ----------------------------------------
->Solanum|XP_004241294.1|H2B.S organism=Solanum lycopersicum phylum=Streptophyta class=Magnoliopsida
+>H2B.S_Solanum_lycopersicum_XP_004241294.1 organism=Solanum lycopersicum phylum=Streptophyta class=Magnoliopsida
 -------------------MAPKKRGGR-----VRATVVT--ARKVVEETVSVVVTP-VA
 GETETESQTLAEENQSF-----------------------------EILTPAPSEEPTPK
 RTINVQDISEGKKAPRRKPDPAQQ---VDEDETQPADEPEEMPSPPKKESGQKKTQKRKP
@@ -1663,7 +1663,7 @@ QKRKPDPAQKAKGGGERKKK----RAKVG-------GGVGPSE-GYRRYVFRVMKQV--H
 PDMGISSKAMTVL-----------------NNLMGDMFERIANEAAILTKYV----GRTT
 LASVDIQDAVKLVLPGELGKHAIAEGTNAVANYVTNVEKSKSKP----------------
 ----------------------------------------
->Solanum|XP_006347209.1|H2B.S organism=Solanum tuberosum phylum=Streptophyta class=Magnoliopsida
+>H2B.S_Solanum_tuberosum_XP_006347209.1 organism=Solanum tuberosum phylum=Streptophyta class=Magnoliopsida
 -------------------MAPKKRGGR-----ARATVVT--ARKVVEETVSVVVSGETE
 TESQTLTEENQSF---------------------------------EILTPLPYEEPTPK
 RTINVQDKSEGKKAQQRKPDPAQQ---VDEVETQPADEPEEMPSPPKKEAVRKKAQKRKP
@@ -1672,7 +1672,7 @@ DQKKAQKAKGGGG--ERKKK----RAKVG-------GGVGPSE-GYRRYVFRVMKQV--H
 PDMGISSKAMMIL-----------------NNLMGDMFERIANEAAILTKYA----GRAT
 LASVDIQDAVKLVLPGELGKHAIAEGTKAVANYVTSVEKSKSKP----------------
 ----------------------------------------
->Sorghum|XP_002462010.1|H2B.S organism=Sorghum bicolor phylum=Streptophyta class=Magnoliopsida
+>H2B.S_Sorghum_bicolor_XP_002462010.1 organism=Sorghum bicolor phylum=Streptophyta class=Magnoliopsida
 -------------------MAPKRRGNK-----VVGSVVK---TKVVQETVEVIVAD-DD
 DTAEAEQQMVPEALAVAPSAVDVS----------------------GSTVVHVVEVTTPD
 GGDNATGSNVKQPAVAKRGRGRRE--EEKEKQPAPPEDSVLVPQSQETQDPNEEEEDQED
@@ -1681,7 +1681,7 @@ AKAKAQPQQQAGGGGDAGKKRPKARRRLGQASAGGDAGMGGVG-GYKRYVWRVLKQV--H
 PDLGVSGHAMQVL-----------------DMMMADMFERLADEAARLSKAT----GRMT
 LTSREVQSAVRLVLPGDLGKHAIAEGTKAISKYM-SYA----------------------
 ----------------------------------------
->Spirodela|HISTDB_H2B_S_2|H2B.S organism=Spirodela polyrhiza phylum=Streptophyta class=Magnoliopsida
+>H2B.S_Spirodela_polyrhiza_HISTDB_H2B_S_2 organism=Spirodela polyrhiza phylum=Streptophyta class=Magnoliopsida
 -------------------M------------------VR-TTRKVVQETIEVSVVK-EK
 DATAGRKKVVEVKVQDTTEMPQP-----------------------QAEAFEGEREGEAA
 VEEKSAATGEKEAEEAGVQEKKEQ---RQPPQVETISREMVETAAAPEGEKHAVEKTRQR
@@ -1690,7 +1690,7 @@ EEAASGKEKEETKSAMRRRR----RKRAG-----RDVGGFGGKRGYKRYVFRVLKQV--H
 PELRVSSMAMTVL-----------------DSLVKDMFERLAGEASRLSKYS----GRAT
 LSTREIQAAVRLVLPRELGEHALAEGNKAVANFMTAATAKPSS-----------------
 ----------------------------------------
->Trifolium|XP_045802699.1|H2B.S organism=Trifolium pratense phylum=Streptophyta class=Magnoliopsida
+>H2B.S_Trifolium_pratense_XP_045802699.1 organism=Trifolium pratense phylum=Streptophyta class=Magnoliopsida
 -------------------MAPKRA--------NKKMVVR-STRKVVEESVQVSVVSSNK
 RSTRANKDN-------------------------------------EIDKDVGSDHDQRE
 EHVRIIPVQEVTPSAKEDSNASTT---TFT------------------------------
@@ -1699,7 +1699,7 @@ ENKKVKNKEGNYGKEKRKRK----RVRRM------------GE-GYQRYVYRVLKQV--H
 PDMGISFKAMTIL-----------------NNLMNDMFEKLADEAAKLTTYI----GHMT
 LSSREIQGAVKLVLPGELGKHAIAEGAKAVTNYISSYGA---------------------
 ----------------------------------------
->Vitis|XP_002272312.1|H2B.S organism=Vitis vinifera phylum=Streptophyta class=Magnoliopsida
+>H2B.S_Vitis_vinifera_XP_002272312.1 organism=Vitis vinifera phylum=Streptophyta class=Magnoliopsida
 -------------------MAPKRSGKT-----RSKVVVK-ATRKVVQQTVEVTVLA-SK
 QKPPREEQG----------------------------------------KKISKKDKAPE
 ELQREQVSADEEPPKELPTPVT--------------------------------------
@@ -1708,7 +1708,7 @@ EKKRGRRRRRRTS-----------GRRRK----------EGGE-GYKRYVYRVLKQV--H
 PGLGVSSKAMTVL-----------------SGFMNDMFERIAEEAAKLSKYT----GKTT
 LSAREIQGAVKLVLPGELQKHAMAEGTKAVSNYM-DYAAAGGHKQ---------------
 ----------------------------------------
->Zea|HISTDB_H2B_S_4|H2B.S organism=Zea mays phylum=Streptophyta class=Magnoliopsida
+>H2B.S_Zea_mays_HISTDB_H2B_S_4 organism=Zea mays phylum=Streptophyta class=Magnoliopsida
 -------------------MAPKRRGNK-----VVGSVVK---TKLVQETVEVIVAD-DD
 GLHAEKQQVPE-----------------------------------ALALAHPTVDVSGS
 TVVHVVEVTAKRGRGGGGGGGGGR---RNEGKPPPEEDSAAVPVPQSQE---------TQ
@@ -1717,7 +1717,7 @@ ATPTKKTKTQQPR-----RR----RQRLGQASSGGDAGMGGVG-GYRRYVWRVLKQV--H
 PDLGVSGHAMQVL-----------------DMMMADMFERLAEEAARLSKAT----GRAT
 LTSREVQSAVRLVLPGELGRHAISEGTKAISKYM-SYAA---------------------
 ----------------------------------------
->Zea|XP_008670031.1|H2B.S organism=Zea mays phylum=Streptophyta class=Magnoliopsida
+>H2B.S_Zea_mays_XP_008670031.1 organism=Zea mays phylum=Streptophyta class=Magnoliopsida
 -------------------MAPKRRGNK-----VVGSVVK---TKLVQETVEVIVAD-DD
 GLHAEKQQVPEA----------------------------------LALAHPTVDVSGST
 VVHVVEVTAKRGRGGGGGGGGGGR---RNEGKPPPEEDSAAVPVPQSQE---------TQ
@@ -1726,7 +1726,7 @@ ATPTKKTKTQQPR-----RR----RQRLGQASSGGDAGMGGVG-GYRRYVWRVLKQV--H
 PDLGVSGHAMQVL-----------------DMMMADMFERLAEEAARLSKAT----GRAT
 LTSREVQSAVRLVLPGELGRHAISEGTKAISKYM-SYAA---------------------
 ----------------------------------------
->Trypanosoma|AAO24603.1|H2B.V organism=Trypanosoma brucei brucei phylum=Euglenozoa class=Kinetoplastea
+>H2B.V_Trypanosoma_brucei_brucei_AAO24603.1 organism=Trypanosoma brucei brucei phylum=Euglenozoa class=Kinetoplastea
 -------------------MPPTKGG----------------------------------
 ------------------------------------------------------------
 ------------------------------------------------------------
@@ -1735,7 +1735,7 @@ KSSSSRKKSGARR-----------GKKQQ---------------RWDLYIHRTLRQV--Y
 KRGTLSKAAVRVL-----------------SSFIEDMYGKIQAEAVHVACIN----NVKT
 LTAREIQTSARLLLPPELAKHAMSEGTKAVAKYNASREEAYSKVL---------------
 ----------------------------------------
->Ailuropoda|XP_002925981.1|H2B.W organism=Ailuropoda melanoleuca phylum=Chordata class=Mammalia
+>H2B.W_Ailuropoda_melanoleuca_XP_002925981.1 organism=Ailuropoda melanoleuca phylum=Chordata class=Mammalia
 ------------------------------------------------------------
 --------------M---------------------------------------------
 ------------------------------------------------------------
@@ -1744,7 +1744,7 @@ NPKSPKQKQKQPR-----------RQCRRRCR---RCP-----NSFATYFPRVLKQV--H
 EGLSLSKKAVSVM-----------------DSFLKDIFEHIADEAAHLARSTKGSNKHST
 INSREIQTAVRLLLPGEIGKHTVSKATKAVIRFQ--------------RCE---------
 ----------------------------------------
->Bos|DAA13058.1|H2B.W organism=Bos taurus phylum=Chordata class=Mammalia
+>H2B.W_Bos_taurus_DAA13058.1 organism=Bos taurus phylum=Chordata class=Mammalia
 --------------------------MGIGGSILSETSSDSYEEDVITKETGISEIEPSE
 KEMAKVETSKPDPYD---------------------------------------------
 ------------------------------------------------------------
@@ -1753,7 +1753,7 @@ ETSKPDPYDAEPKKAKQKTAKG--RRRRRHCH---HDS----FSSFATYFPRVLRQI--H
 KGMSLSHDSVNIL-----------------DSFVKDTFERIAEEAGRLAGDN----KRRT
 ITTEDIEAAVRLLLPGKLGKYAVLKATKSLITYR--------------TCK---------
 ----------------------------------------
->Canis|XP_548517.2|H2B.W organism=Canis lupus familiaris phylum=Chordata class=Mammalia
+>H2B.W_Canis_lupus_familiaris_XP_548517.2 organism=Canis lupus familiaris phylum=Chordata class=Mammalia
 -------------------MIPGKPEEGKGSSEGPICDTEVACDVRKCSDYKGASAPQQP
 PLSVLLSCWEGEPHM---------------------------------------------
 ------------------------------------------------------------
@@ -1762,7 +1762,7 @@ EPETP--KRKKPR-----------RQCHRRCR---RSR----SDSFAIYFPRVLKQV--D
 EGLSLSQKAVSIM-----------------DSFVKDIFERIADEASRLARST----KRST
 ITSREIQTAVRLLLPGEIGKYAVSEATKALMRNQVGALEKQVKNVLSLGCG---------
 ----------------------------------------
->Macaca|NP_001180847.1|H2B.W organism=Macaca mulatta phylum=Chordata class=Mammalia
+>H2B.W_Macaca_mulatta_NP_001180847.1 organism=Macaca mulatta phylum=Chordata class=Mammalia
 ----------------------------MLRTQVPPLLRSTTAIVWSCRVMAAASA----
 --------------M---------------------------------------------
 ------------------------------------------------------------
@@ -1771,7 +1771,7 @@ NSTMAQKQSKQRK-----------RGRRGPCRCHANCR----GDSFATYFRRVLKQV--H
 QGLSLSREAVSVM-----------------DSLVHDILDRIATEAGRLARST----KRQT
 ITAWETRIAVRLLLPGEMGKLAESEGTKAVLRTSLYAVQQ--------QRK---------
 ----------------------------------------
->Oryctolagus|XP_002720211.1|H2B.W organism=Oryctolagus cuniculus phylum=Chordata class=Mammalia
+>H2B.W_Oryctolagus_cuniculus_XP_002720211.1 organism=Oryctolagus cuniculus phylum=Chordata class=Mammalia
 ------------------------------------------------------------
 --------------M---------------------------------------------
 ------------------------------------------------------------
@@ -1780,7 +1780,7 @@ ASSTP--KEKQPR-----------RRRRRR-----QGH----NYSFASYFPKVLKHV--H
 KGLSLSKEAKGVM-----------------DSIVRDVFERIAHEAASLVRYS----KHST
 LTSRDVQSAVRLLLPGQLHKHADVEGTKALLKFI--------------THP---------
 ----------------------------------------
->Homo|NP_001002916.4|H2B.W.1_(Homo_sapiens) organism=Homo sapiens phylum=Chordata class=Mammalia
+>H2B.W.1_(Homo_sapiens)_Homo_sapiens_NP_001002916.4 organism=Homo sapiens phylum=Chordata class=Mammalia
 ------------------------------------------------------------
 --------------M---------------------------------------------
 ------------------------------------------------------------
@@ -1789,7 +1789,7 @@ NSTTSQKQSKQRK-----------RGRHGPRRCHSNCR----GDSFATYFRRVLKQV--H
 QGLSLSREAVSVM-----------------DSLVHDILDRIATEAGHLARST----KRQT
 ITAWETRMAVRLLLPGQMGKLAESEGTKAVLRTSLYAIQQ--------QRK---------
 ----------------------------------------
->Homo|NP_001375393.1|H2B.W.2_(Homo_sapiens) organism=Homo sapiens phylum=Chordata class=Mammalia
+>H2B.W.2_(Homo_sapiens)_Homo_sapiens_NP_001375393.1 organism=Homo sapiens phylum=Chordata class=Mammalia
 ------------------------------------------------------------
 --------------M---------------------------------------------
 ------------------------------------------------------------
@@ -1798,7 +1798,7 @@ NSTKAQ---KQKR-----------RGCRGSRRRHANRRGDSFGDSFTPYFPRVLKQV--H
 QGLSLSQEAVSVM-----------------DSMIHDILDRIATEAGQLAHYT----KRVT
 ITSRDIQMAVRLLLPGKMGKLAEAQGTNAALRTSLCAIWQ--------QRK---------
 ----------------------------------------
->Vitrella|CEM32013.1|H2B.Z organism=Vitrella brassicaformis CCMP3155 phylum= class=
+>H2B.Z_Vitrella_brassicaformis_CCMP3155_CEM32013.1 organism=Vitrella brassicaformis CCMP3155 phylum= class=
 -------------------MPG--------------------------------------
 ------------------------------------------------------------
 ------------------------------------------------------------
@@ -1807,7 +1807,7 @@ TPAE---AGKKRR-----------RKRTE---------------SFALYIYKVLKQV--H
 PETGISKKSMSIM-----------------NSFINDIFDRMATEATNLIRFN----KKKT
 LSSREVQTSVRLMLPGELSKHAVSEGTKAVTKYTTAAGN---------------------
 ----------------------------------------
->Babesia|XP_001610608.1|H2B.Z organism=Babesia bovis T2Bo phylum=Apicomplexa class=Aconoidasida
+>H2B.Z_Babesia_bovis_T2Bo_XP_001610608.1 organism=Babesia bovis T2Bo phylum=Apicomplexa class=Aconoidasida
 -------------------MSG--------------------------------------
 ------------------------------------------------------------
 ------------------------------------------------------------
@@ -1816,7 +1816,7 @@ SL-----GIRYRR-----------KKRIE---------------SFSLYIYKVLKQV--H
 PETGVSKKSMSIM-----------------NSFINDIFDRMALEATRLIRYN----KKST
 LSSREIQTAVRLLLPGELSKHAVSEGTKAVTKYTTSGA----------------------
 ----------------------------------------
->Cytauxzoon|HISTDB_H2B_Z_0|H2B.Z organism=Cytauxzoon felis phylum=Apicomplexa class=Aconoidasida
+>H2B.Z_Cytauxzoon_felis_HISTDB_H2B_Z_0 organism=Cytauxzoon felis phylum=Apicomplexa class=Aconoidasida
 -------------------MSG--------------------------------------
 ------------------------------------------------------------
 ------------------------------------------------------------
@@ -1825,7 +1825,7 @@ TL-----GVRYRR-----------KKRIE---------------SFALYIYKVLKQV--H
 PETGVSKKSMSIM-----------------NSFINDIFDRLALEATRLIRYN----KKST
 LSSREIQTAVRLLLPGELSKHAVSEGTKAVTKYTTSGV----------------------
 ----------------------------------------
->Plasmodium|XP_678689.1|H2B.Z organism=Plasmodium berghei ANKA phylum=Apicomplexa class=Aconoidasida
+>H2B.Z_Plasmodium_berghei_ANKA_XP_678689.1 organism=Plasmodium berghei ANKA phylum=Apicomplexa class=Aconoidasida
 -------------------MSG--------------------------------------
 ------------------------------------------------------------
 ------------------------------------------------------------
@@ -1834,7 +1834,7 @@ TL-----GPRHKR-----------KRRTE---------------SFSLYIFKVLKQV--H
 PETGVTKKSMNIM-----------------NSFINDIFDRLVTEATRLIRYN----KKRT
 LSSREIQTAVRLLLPGELSKHAVSEGTKAVTKYTTSGA----------------------
 ----------------------------------------
->Plasmodium|XP_001349046.1|H2B.Z organism=Plasmodium falciparum 3D7 phylum=Apicomplexa class=Aconoidasida
+>H2B.Z_Plasmodium_falciparum_3D7_XP_001349046.1 organism=Plasmodium falciparum 3D7 phylum=Apicomplexa class=Aconoidasida
 -------------------MSG--------------------------------------
 ------------------------------------------------------------
 ------------------------------------------------------------
@@ -1843,7 +1843,7 @@ TL-----GPRHKR-----------KRRTE---------------SFSLYIFKVLKQV--H
 PETGVTKKSMNIM-----------------NSFINDIFDRLVTEATRLIRYN----KKRT
 LSSREIQTAVRLLLPGELSKHAVSEGTKAVTKYTTSAA----------------------
 ----------------------------------------
->Cryptosporidium|XP_628349.1|H2B.Z organism=Cryptosporidium parvum Iowa II phylum=Apicomplexa class=Conoidasida
+>H2B.Z_Cryptosporidium_parvum_Iowa_II_XP_628349.1 organism=Cryptosporidium parvum Iowa II phylum=Apicomplexa class=Conoidasida
 -------------------MSGKS------------------------------------
 ------------------------------------------------------------
 ------------------------------------------------------------
@@ -1852,7 +1852,7 @@ SPAD---GGKRKR-----------RKRTE---------------SFALYIYKVLKQV--H
 PETGISKKSMSIM-----------------NSFINDVFDRLSAEAVKLVQYN----KKRT
 LSSREVQTSVRLMLPGELSKHAVSEGTKAVTKYTSASA----------------------
 ----------------------------------------
->Eimeria|XP_013228334.1|H2B.Z organism=Eimeria tenella phylum=Apicomplexa class=Conoidasida
+>H2B.Z_Eimeria_tenella_XP_013228334.1 organism=Eimeria tenella phylum=Apicomplexa class=Conoidasida
 -------------------MSG--------------------------------------
 ------------------------------------------------------------
 ------------------------------------------------------------
@@ -1861,7 +1861,7 @@ SL-----GPRYRR-----------RKRTE---------------SFALYIYKVLKQV--H
 PETGVSKKSMSIM-----------------NSFINDIFDRLADEAVRLIRYN----KKRT
 LSSREIQTAVRLLLPGELSKHAVSEGTKAVSKYTTSGA----------------------
 ----------------------------------------
->Gregarina|XP_011128492.1|H2B.Z organism=Gregarina niphandrodes phylum=Apicomplexa class=Conoidasida
+>H2B.Z_Gregarina_niphandrodes_XP_011128492.1 organism=Gregarina niphandrodes phylum=Apicomplexa class=Conoidasida
 -------------------MSG--------------------------------------
 ------------------------------------------------------------
 ------------------------------------------------------------
@@ -1870,7 +1870,7 @@ KLPSHHLDKNKKR-----------RRRGE---------------TFSIYIYKVLRQV--Q
 PKLGMSRKSMAIM-----------------NSFINDIFERLATEAVKLIQYN----KKRT
 LSSREMQTSVRLLLPGELSKHAATEGAKAVEKYENRPIA---------------------
 ----------------------------------------
->Toxoplasma|XP_002369740.1|H2B.Z organism=Toxoplasma gondii ME49 phylum=Apicomplexa class=Conoidasida
+>H2B.Z_Toxoplasma_gondii_ME49_XP_002369740.1 organism=Toxoplasma gondii ME49 phylum=Apicomplexa class=Conoidasida
 -------------------MSG--------------------------------------
 ------------------------------------------------------------
 ------------------------------------------------------------
@@ -1879,7 +1879,7 @@ SL-----GPRYRR-----------RKRTE---------------SFALYIYKVLKQV--H
 PETGVSKKSMSIM-----------------NSFINDIFDRLADEAVRLIRYN----KKRT
 LSSREIQTAVRLLLPGELSKHAVSEGTKAVTKYTTSGA----------------------
 ----------------------------------------
->Strongylocentrotus|P16888.2|late_H2B_(Echinoidea) organism=Strongylocentrotus purpuratus phylum=Echinodermata class=Echinoidea
+>late_H2B_(Echinoidea)_Strongylocentrotus_purpuratus_P16888.2 organism=Strongylocentrotus purpuratus phylum=Echinodermata class=Echinoidea
 -------------------MPAKAQPAG--------------------------------
 ------------------------------------------------------------
 ------------------------------------------------------------
@@ -1888,7 +1888,7 @@ AKAPRPSGGKKRR-----------RRRKE---------------SYGIYIYKVLKQV--H
 PDTGISSRAMSIM-----------------NSFVNDVFERIAAEASRLAHYN----KKST
 ITSREVQTVVRLLLPGELAKHAVSEGTKAVTKYTTSK-----------------------
 ----------------------------------------
->Strongylocentrotus|P16889.3|late_H2B_(Echinoidea) organism=Strongylocentrotus purpuratus phylum=Echinodermata class=Echinoidea
+>late_H2B_(Echinoidea)_Strongylocentrotus_purpuratus_P16889.3 organism=Strongylocentrotus purpuratus phylum=Echinodermata class=Echinoidea
 -------------------MPAKAQAAG--------------------------------
 ------------------------------------------------------------
 ------------------------------------------------------------
@@ -1897,7 +1897,7 @@ AKAPKPSGDKKRR-----------RKRKE---------------SYGIYIYKVLKQV--H
 PDTGISSRAMSIM-----------------NSFVNDVFERIAAEASRLAHYN----KKST
 ITSREVQTAVRLLLPGELAKHAVSEGTKAVTKYTTSK-----------------------
 ----------------------------------------
->Parechinus|P02290.2|sperm_H2B_(Echinoidea) organism=Parechinus angulosus phylum=Echinodermata class=Echinoidea
+>sperm_H2B_(Echinoidea)_Parechinus_angulosus_P02290.2 organism=Parechinus angulosus phylum=Echinodermata class=Echinoidea
 -------------------MPSQKSPTK--------------------------------
 ------------------------------------------------------------
 ------------------------------------------------------------
@@ -1906,7 +1906,7 @@ GAKRGGKAGKRRRGVQVKRR----RRRRE---------------SYGIYIYKVLKQV--H
 PDTGISSRAMSVM-----------------NSFVNDVFERIAAEAGRLTTYN----RRST
 VSSREVQTAVRLLLPGELAKHAVSEGTKAVTKYTTSR-----------------------
 ----------------------------------------
->Parechinus|P02291.2|sperm_H2B_(Echinoidea) organism=Parechinus angulosus phylum=Echinodermata class=Echinoidea
+>sperm_H2B_(Echinoidea)_Parechinus_angulosus_P02291.2 organism=Parechinus angulosus phylum=Echinodermata class=Echinoidea
 ----------------MPRSPAKTSPRK--------------------------------
 ------------------------------------------------------------
 ------------------------------------------------------------
@@ -1915,7 +1915,7 @@ GAKRAGKGGRRRR--VVKRR----RRRRE---------------SYGIYIYKVLKQV--H
 PDTGISSRAMSVM-----------------NSFVNDVFERIAGEASRLTSAN----RRST
 VSSREIQTAVRLLLPGELAKHAVSEGTKAVTKYTTSR-----------------------
 ----------------------------------------
->Parechinus|P02292.2|sperm_H2B_(Echinoidea) organism=Parechinus angulosus phylum=Echinodermata class=Echinoidea
+>sperm_H2B_(Echinoidea)_Parechinus_angulosus_P02292.2 organism=Parechinus angulosus phylum=Echinodermata class=Echinoidea
 ----------------MPRSPAKTSPRK--------------------------------
 ------------------------------------------------------------
 ------------------------------------------------------------
@@ -1924,7 +1924,7 @@ GAKRAGKGGRRRR--VVKRR----RRRRE---------------SYGIYIYKVLKQV--H
 PDTGISSRAMSVM-----------------NSFVNDVFERIASEASRLTSAN----RRST
 VSSREIQTAVRLLLPGELAKHAVSEGTKAVTKYTTSR-----------------------
 ----------------------------------------
->Psammechinus|Q27749.3|sperm_H2B_(Echinoidea) organism=Psammechinus miliaris phylum=Echinodermata class=Echinoidea
+>sperm_H2B_(Echinoidea)_Psammechinus_miliaris_Q27749.3 organism=Psammechinus miliaris phylum=Echinodermata class=Echinoidea
 -------------------MPSQKSPTK--------------------------------
 ------------------------------------------------------------
 ------------------------------------------------------------
@@ -1933,7 +1933,7 @@ GAKRGGKAGKRRRGVAVKRR----RRRRE---------------SYGIYIYKVLKQV--H
 PDTGISSRAMSVM-----------------NSFVNDVFERIASEAGRLTTYN----RRNT
 VSSREVQTAVRLLLPGELAKHAVSEGTKAVTKYTTSR-----------------------
 ----------------------------------------
->Psammechinus|Q27750.3|sperm_H2B_(Echinoidea) organism=Psammechinus miliaris phylum=Echinodermata class=Echinoidea
+>sperm_H2B_(Echinoidea)_Psammechinus_miliaris_Q27750.3 organism=Psammechinus miliaris phylum=Echinodermata class=Echinoidea
 ----------------MPKSPSKSSPRK--------------------------------
 ------------------------------------------------------------
 ------------------------------------------------------------
@@ -1942,7 +1942,7 @@ GAKRAGKGGRRN---VVKRR----RRRRE---------------SYGIYIYKVLKQV--H
 PDTGISSRGMSVM-----------------NSFVNDVFERIAGEASRLTSAN----RRST
 ISSREIQTAVRLLLPGELAKHAVSEGTKAVTKYTTARR----------------------
 ----------------------------------------
->Strongylocentrotus|NP_999706.1|sperm_H2B_(Echinoidea) organism=Strongylocentrotus purpuratus phylum=Echinodermata class=Echinoidea
+>sperm_H2B_(Echinoidea)_Strongylocentrotus_purpuratus_NP_999706.1 organism=Strongylocentrotus purpuratus phylum=Echinodermata class=Echinoidea
 -------------------MPSQRSPTK--------------------------------
 ------------------------------------------------------------
 ------------------------------------------------------------
@@ -1951,7 +1951,7 @@ GSKRGGKA-RRRGGAAVRRR----RRRRE---------------SYGIYIYKVLKQV--H
 PDTGISSRGMSIM-----------------NSFVNDVFERVAAEASRLTKYN----RRST
 VSSREIQTAVRLLLPGELAKHAVSEGTKAVTKYTTSR-----------------------
 ----------------------------------------
->Strongylocentrotus|NP_999721.1|sperm_H2B_(Echinoidea) organism=Strongylocentrotus purpuratus phylum=Echinodermata class=Echinoidea
+>sperm_H2B_(Echinoidea)_Strongylocentrotus_purpuratus_NP_999721.1 organism=Strongylocentrotus purpuratus phylum=Echinodermata class=Echinoidea
 ----------------MPRSPSKTSPRK--------------------------------
 ------------------------------------------------------------
 ------------------------------------------------------------

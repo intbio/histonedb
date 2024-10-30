@@ -1,36 +1,36 @@
->Drosophila|NP_001027352.1|cH4 organism=Drosophila melanogaster phylum=Arthropoda class=Insecta
+>cH4_Drosophila_melanogaster_NP_001027352.1 organism=Drosophila melanogaster phylum=Arthropoda class=Insecta
 MTGRGKGGK-GLGKGGAKRH-RKVLRDNIQGITKPAIRRLARRGGVKRISGLIYEETRGV
 LKVFLENVIRDAVTYTEHAKRKTVTALDVVYALKRQGRTLYGFGG
->Saccharomyces|NP_009563.1|cH4 organism=Saccharomyces cerevisiae S288C phylum=Ascomycota class=Saccharomycetes
+>cH4_Saccharomyces_cerevisiae_S288C_NP_009563.1 organism=Saccharomyces cerevisiae S288C phylum=Ascomycota class=Saccharomycetes
 MSGRGKGGK-GLGKGGAKRH-RKILRDNIQGITKPAIRRLARRGGVKRISGLIYEEVRAV
 LKSFLESVIRDSVTYTEHAKRKTVTSLDVVYALKRQGRTLYGFGG
->Xenopus|NP_001087926.1|cH4 organism=Xenopus laevis phylum=Chordata class=Amphibia
+>cH4_Xenopus_laevis_NP_001087926.1 organism=Xenopus laevis phylum=Chordata class=Amphibia
 MSGRGKGGK-GLGKGGAKRH-RKVLRDNIQGITKPAIRRLARRGGVKRISGLIYEETRGV
 LKVFLENVIRDAVTYTEHAKRKTVTAMDVVYALKRQGRTLYGFGG
->Gallus|NP_001032934.1|cH4 organism=Gallus gallus phylum=Chordata class=Aves
+>cH4_Gallus_gallus_NP_001032934.1 organism=Gallus gallus phylum=Chordata class=Aves
 MSGRGKGGK-GLGKGGAKRH-RKVLRDNIQGITKPAIRRLARRGGVKRISGLIYEETRGV
 LKVFLENVIRDAVTYTEHAKRKTVTAMDVVYALKRQGRTLYGFGG
->Heterocephalus|XP_012928609.1|cH4 organism=Heterocephalus glaber phylum=Chordata class=Mammalia
+>cH4_Heterocephalus_glaber_XP_012928609.1 organism=Heterocephalus glaber phylum=Chordata class=Mammalia
 MSGRGKGGK-GLGKGGAKRH-RKVLRDNIQGITKPAIRRLARRGGVKRISGLIYEETRGV
 LKVFLENVIRDAVTYTEHAKRKTVTAMDVVYALKRQGRTLYGFGG
->Mus|NP_291074.1|cH4 organism=Mus musculus phylum=Chordata class=Mammalia
+>cH4_Mus_musculus_NP_291074.1 organism=Mus musculus phylum=Chordata class=Mammalia
 MSGRGKGGK-GLGKGGAKRH-RKVLRDNIQGITKPAIRRLARRGGVKRISGLIYEETRGV
 LKVFLENVIRDAVTYTEHAKRKTVTAMDVVYALKRQGRTLYGFGG
->Tetrahymena|XP_001016593.1|cH4 organism=Tetrahymena thermophila SB210 phylum=Ciliophora class=Oligohymenophorea
+>cH4_Tetrahymena_thermophila_SB210_XP_001016593.1 organism=Tetrahymena thermophila SB210 phylum=Ciliophora class=Oligohymenophorea
 MAG-GKGGK-GMGKVGAKRHSRKSNKASIEGITKPAIRRLARRGGVKRISSFIYDDSRQV
 LKSFLENVVRDAVTYTEHARRKTVTAMDVVYALKRQGRTLYGFGG
->Strongylocentrotus|NP_999707.1|cH4 organism=Strongylocentrotus purpuratus phylum=Echinodermata class=Echinoidea
+>cH4_Strongylocentrotus_purpuratus_NP_999707.1 organism=Strongylocentrotus purpuratus phylum=Echinodermata class=Echinoidea
 MSGRGKGGK-GLGKGGAKRH-RKVLRDNIQGITKPAIRRLARRGGVKRISGLIYEETRGV
 LKVFLENVIRDAVTYCEHAKRKTVTAMDVVYALKRQGRTLYGFGG
->Trypanosoma|XP_951561.1|cH4 organism=Trypanosoma brucei brucei TREU927 phylum=Euglenozoa class=Kinetoplastea
+>cH4_Trypanosoma_brucei_brucei_TREU927_XP_951561.1 organism=Trypanosoma brucei brucei TREU927 phylum=Euglenozoa class=Kinetoplastea
 ---MAKGKRVGESKGAQKRQ-KKVLRDNVRGITRGSIRRLARRAGVKRISGVIYDEVRGV
 LKTFVESIVRDAGAYTEYSRKKTVTAAHVVFALRKRGKVLYGYD-
->Caenorhabditis|NP_492641.1|cH4 organism=Caenorhabditis elegans phylum=Nematoda class=Chromadorea
+>cH4_Caenorhabditis_elegans_NP_492641.1 organism=Caenorhabditis elegans phylum=Nematoda class=Chromadorea
 MSGRGKGGK-GLGKGGAKRH-RKVLRDNIQGITKPAIRRLARRGGVKRISGLIYEETRGV
 LKVFLENVIRDAVTYCEHAKRKTVTAMDVVYALKRQGRTLYGFGG
->Arabidopsis|NP_180441.1|cH4 organism=Arabidopsis thaliana phylum=Streptophyta class=Magnoliopsida
+>cH4_Arabidopsis_thaliana_NP_180441.1 organism=Arabidopsis thaliana phylum=Streptophyta class=Magnoliopsida
 MSGRGKGGK-GLGKGGAKRH-RKVLRDNIQGITKPAIRRLARRGGVKRISGLIYEETRGV
 LKIFLENVIRDAVTYTEHARRKTVTAMDVVYALKRQGRTLYGFGG
->Zea|NP_001131585.1|cH4 organism=Zea mays phylum=Streptophyta class=Magnoliopsida
+>cH4_Zea_mays_NP_001131585.1 organism=Zea mays phylum=Streptophyta class=Magnoliopsida
 MSGRGKGGK-GLGKGGAKRH-RKVLRDNIQGITKPAIRRLARRGGVKRISGLIYEETRGV
 LKIFLENVIRDAVTYTEHARRKTVTAMDVVYALKRQGRTLYGFGG

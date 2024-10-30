@@ -1,64 +1,64 @@
->Ailuropoda|XP_011215280.1|cH2A_(Mammalia) organism=Ailuropoda melanoleuca phylum=Chordata class=Mammalia
+>cH2A_(Mammalia)_Ailuropoda_melanoleuca_XP_011215280.1 organism=Ailuropoda melanoleuca phylum=Chordata class=Mammalia
 MSGRGKQGGKARAKAKSRSSRAGLQFPVGRVHRLLRKGNYAERVGAGAPVYLAAVLEYLT
 AEILELAGNAARDNKKTRIIPRHLQLAIRNDEELNKLLGRVTIAQGGVLPNIQAVLLPKK
 TES-HHKAKGK-
->Bos|NP_001192525.1|cH2A_(Mammalia) organism=Bos taurus phylum=Chordata class=Mammalia
+>cH2A_(Mammalia)_Bos_taurus_NP_001192525.1 organism=Bos taurus phylum=Chordata class=Mammalia
 MSGRGKQGGKARAKAKSRSSRAGLQFPVGRVHRLLRKGNYAERVGAGAPVYLAAVLEYLT
 AEILELAGNAARDNKKTRIIPRHLQLAIRNDEELNKLLGRVTIAQGGVLPNIQAVLLPKK
 TES-HHKAKGK-
->Callithrix|XP_008992112.1|cH2A_(Mammalia) organism=Callithrix jacchus phylum=Chordata class=Mammalia
+>cH2A_(Mammalia)_Callithrix_jacchus_XP_008992112.1 organism=Callithrix jacchus phylum=Chordata class=Mammalia
 MSGRGKQGGKVRAKAKSRSSRAGLQFPVGRIHRLLRKGKYADRIGAGAPVYLAAVLEYLT
 AEILELAGNASRDNKKTRIIPRHLQLAIRNDEELNKLLGGVTIAQGGVLPNIQAVLLPKK
 TESHHHKSQSK-
->Canis|XP_005640150.1|cH2A_(Mammalia) organism=Canis lupus familiaris phylum=Chordata class=Mammalia
+>cH2A_(Mammalia)_Canis_lupus_familiaris_XP_005640150.1 organism=Canis lupus familiaris phylum=Chordata class=Mammalia
 MSGRGKQGGKARAKAKSRSSRAGLQFPVGRVHRLLRKGNYAERVGAGAPVYLAAVLEYLT
 AEILELAGNAARDNKKTRIIPRHLQLAIRNDEELNKLLGRVTIAQGGVLPNIQAVLLPKK
 TES-HHKAKGK-
->Cavia|XP_003478913.1|cH2A_(Mammalia) organism=Cavia porcellus phylum=Chordata class=Mammalia
+>cH2A_(Mammalia)_Cavia_porcellus_XP_003478913.1 organism=Cavia porcellus phylum=Chordata class=Mammalia
 MSGRGKQGGKARAKAKSRSSRAGLQFPVGRVHRLLRKGNYAERVGAGAPVYMAAVLEYLT
 AEILELAGNAARDNKKTRIIPRHLQLAIRNDEELNKLLGKVTIAQGGVLPNIQAVLLPKK
 TES-HHKAKGK-
->Cricetulus|XP_007634672.1|cH2A_(Mammalia) organism=Cricetulus griseus phylum=Chordata class=Mammalia
+>cH2A_(Mammalia)_Cricetulus_griseus_XP_007634672.1 organism=Cricetulus griseus phylum=Chordata class=Mammalia
 MSGRGKQGGKARAKAKTRSSRAGLQFPVGRVHRLLRKGNYSERVGAGAPVYLAAVLEYLT
 AEILELAGNAARDNKKTRIIPRHLQLAIRNDEELNKLLGRVTIAQGGVLPNIQAVLLPKK
 TES-HHKAKGK-
->Heterocephalus|XP_004847876.1|cH2A_(Mammalia) organism=Heterocephalus glaber phylum=Chordata class=Mammalia
+>cH2A_(Mammalia)_Heterocephalus_glaber_XP_004847876.1 organism=Heterocephalus glaber phylum=Chordata class=Mammalia
 MSGRGKQGGKARAKAKTRSSRAGLQFPVGRVHRLLRKGNYAERVGAGAPVYLAAVLEYLT
 AEILELAGNAARDNKKTRIIPRHLQLAIRNDEELNKLLGKVTIAQGGVLPNIQAVLLPKK
 TES-HHKAKGK-
->Loxodonta|XP_003422330.1|cH2A_(Mammalia) organism=Loxodonta africana phylum=Chordata class=Mammalia
+>cH2A_(Mammalia)_Loxodonta_africana_XP_003422330.1 organism=Loxodonta africana phylum=Chordata class=Mammalia
 MSGRGKQGGKARAKAKTRSSRAGLQFPVGRVHRLLRKGNYAERVGAGAPVYLAAVLEYLT
 AEILELAGNAARDNKKTRIIPRHLQLAIRNDEELNKLLGKVTIAQGGVLPNIQAVLLPKK
 TES-HHKAKGK-
->Macaca|NP_001180653.1|cH2A_(Mammalia) organism=Macaca mulatta phylum=Chordata class=Mammalia
+>cH2A_(Mammalia)_Macaca_mulatta_NP_001180653.1 organism=Macaca mulatta phylum=Chordata class=Mammalia
 MSGRGKQGGKARAKAKTRSSRAGLQFPVGRVHRLLRKGNYSERVGAGAPVYLAAVLEYLT
 AEILELAGNAARDNKKTRIIPRHLQLAIRNDEELNKLLGRVTIAQGGVLPNIQAVLLPKK
 TES-HHKAKGK-
->Monodelphis|XP_007485414.1|cH2A_(Mammalia) organism=Monodelphis domestica phylum=Chordata class=Mammalia
+>cH2A_(Mammalia)_Monodelphis_domestica_XP_007485414.1 organism=Monodelphis domestica phylum=Chordata class=Mammalia
 MSGRGKQGGKARAKAKSRSSRAGLQFPVGRVHRLLRKGNYAERVGAGAPVYMAAVLEYLT
 AEILELAGNAARDNKKTRIIPRHLQLAIRNDEELNKLLGKVTIAQGGVLPNIQAVLLPKK
 TES-HHKTKGK-
->Mus|NP_835489.1|cH2A_(Mammalia) organism=Mus musculus phylum=Chordata class=Mammalia
+>cH2A_(Mammalia)_Mus_musculus_NP_835489.1 organism=Mus musculus phylum=Chordata class=Mammalia
 MSGRGKQGGKARAKAKTRSSRAGLQFPVGRVHRLLRKGNYSERVGAGAPVYLAAVLEYLT
 AEILELAGNAARDNKKTRIIPRHLQLAIRNDEELNKLLGRVTIAQGGVLPNIQAVLLPKK
 TES-HHKAKGK-
->Nomascus|XP_004088806.1|cH2A_(Mammalia) organism=Nomascus leucogenys phylum=Chordata class=Mammalia
+>cH2A_(Mammalia)_Nomascus_leucogenys_XP_004088806.1 organism=Nomascus leucogenys phylum=Chordata class=Mammalia
 MSGRGKQGGKARAKAKSRSSRAGLQFPVGRVHRLLRKGNYAERVGAGAPVYLAAVLEYLT
 AEILELAGNAARDNKKTRIIPRHLQLAIRNDEELNKLLGRVTIAQGGVLPNIQAVLLPKK
 TES-HHKAKGK-
->Oryctolagus|XP_008246690.1|cH2A_(Mammalia) organism=Oryctolagus cuniculus phylum=Chordata class=Mammalia
+>cH2A_(Mammalia)_Oryctolagus_cuniculus_XP_008246690.1 organism=Oryctolagus cuniculus phylum=Chordata class=Mammalia
 MSGRGKQGGKARAKAKTRSSRAGLQFPVGRVHRLLRKGNYAERVGAGAPVYLAAVLEYLT
 AEILELAGNAARDNKKTRIIPRHLQLAIRNDEELNKLLGKVTIAQGGVLPNIQAVLLPKK
 TES-HHKAKGK-
->Pan|XP_009448979.1|cH2A_(Mammalia) organism=Pan troglodytes phylum=Chordata class=Mammalia
+>cH2A_(Mammalia)_Pan_troglodytes_XP_009448979.1 organism=Pan troglodytes phylum=Chordata class=Mammalia
 MSGRGKQGGKARAKAKTRSSRAGLQFPVGRVHRLLRKGNYAERVGAGAPVYLAAVLEYLT
 AEILELAGNAARDNKKTRIIPRHLQLAIRNDEELNKLLGKVTIAQGGVLPNIQAVLLPKK
 TES-HHKAKGKA
->Rattus|NP_068612.2|cH2A_(Mammalia) organism=Rattus norvegicus phylum=Chordata class=Mammalia
+>cH2A_(Mammalia)_Rattus_norvegicus_NP_068612.2 organism=Rattus norvegicus phylum=Chordata class=Mammalia
 MSGRGKQGGKARAKAKSRSSRAGLQFPVGRVHRLLRKGNYSERVGAGAPVYLAAVLEYLT
 AEILELAGNAARDNKKTRIIPRHLQLAIRNDEELNKLLGRVTIAQGGVLPNIQAVLLPKK
 TES-HHKAKGK-
->Sus|XP_003356618.1|cH2A_(Mammalia) organism=Sus scrofa phylum=Chordata class=Mammalia
+>cH2A_(Mammalia)_Sus_scrofa_XP_003356618.1 organism=Sus scrofa phylum=Chordata class=Mammalia
 MSGRGKQGGKARAKAKTRSSRAGLQFPVGRVHRLLRKGNYAERVGAGAPVYLAAVLEYLT
 AEILELAGNAARDNKKTRIIPRHLQLAIRNDEELNKLLGKVTIAQGGVLPNIQAVLLPKK
 TES-HHKAKGK-

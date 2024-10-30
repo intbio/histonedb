@@ -1,24 +1,24 @@
->Ailuropoda|XP_002925981.1|H2B.W organism=Ailuropoda melanoleuca phylum=Chordata class=Mammalia
+>H2B.W_Ailuropoda_melanoleuca_XP_002925981.1 organism=Ailuropoda melanoleuca phylum=Chordata class=Mammalia
 -------------------------------------------------------MAEPG
 CETSSEESLGTEEPSAANPKSPKQKQKQPR---------RQCRRRCR---RCP-NSFATY
 FPRVLKQVHEGLSLSKKAVSVMDSFLKDIFEHIADEAAHLARSTKGSNKHSTINSREIQT
 AVRLLLPGEIGKHTVSKATKAVIRFQ--------------RCE
->Bos|DAA13058.1|H2B.W organism=Bos taurus phylum=Chordata class=Mammalia
+>H2B.W_Bos_taurus_DAA13058.1 organism=Bos taurus phylum=Chordata class=Mammalia
 -------MGIGGSILSETSSDSYEEDVITKETGISEIEPSEKEMAKVETSKPDPYDAEPI
 KVETSKPDPYDAEPKKAETSKPDPYDAEPKKAKQKTAKGRRRRRHCH---HDSFSSFATY
 FPRVLRQIHKGMSLSHDSVNILDSFVKDTFERIAEEAGRLAGDN----KRRTITTEDIEA
 AVRLLLPGKLGKYAVLKATKSLITYR--------------TCK
->Canis|XP_548517.2|H2B.W organism=Canis lupus familiaris phylum=Chordata class=Mammalia
+>H2B.W_Canis_lupus_familiaris_XP_548517.2 organism=Canis lupus familiaris phylum=Chordata class=Mammalia
 MIPGKPEEGKGSSEGPICDTEVACDVRKCSDYKGASAPQQPPLSVLLSCWEGEPHMAEPG
 CETSSEECLGTKEPREAEPETP--KRKKPR---------RQCHRRCR---RSRSDSFAIY
 FPRVLKQVDEGLSLSQKAVSIMDSFVKDIFERIADEASRLARST----KRSTITSREIQT
 AVRLLLPGEIGKYAVSEATKALMRNQVGALEKQVKNVLSLGCG
->Macaca|NP_001180847.1|H2B.W organism=Macaca mulatta phylum=Chordata class=Mammalia
+>H2B.W_Macaca_mulatta_NP_001180847.1 organism=Macaca mulatta phylum=Chordata class=Mammalia
 ---------MLRTQVPPLLRSTTAIVWSCRVMAAASA------------------MAEPS
 SETTSEEQLITQEPKEANSTMAQKQSKQRK---------RGRRGPCRCHANCRGDSFATY
 FRRVLKQVHQGLSLSREAVSVMDSLVHDILDRIATEAGRLARST----KRQTITAWETRI
 AVRLLLPGEMGKLAESEGTKAVLRTSLYAVQQ--------QRK
->Oryctolagus|XP_002720211.1|H2B.W organism=Oryctolagus cuniculus phylum=Chordata class=Mammalia
+>H2B.W_Oryctolagus_cuniculus_XP_002720211.1 organism=Oryctolagus cuniculus phylum=Chordata class=Mammalia
 -------------------------------------------------------MAEPA
 SHVASEENL-SLEPKTTASSTP--KEKQPR---------RRRRRR-----QGHNYSFASY
 FPKVLKHVHKGLSLSKEAKGVMDSIVRDVFERIAHEAASLVRYS----KHSTLTSRDVQS

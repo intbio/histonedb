@@ -1,144 +1,144 @@
->Guillardia|XP_001713521.1|cH3 organism=Guillardia theta phylum= class=Cryptophyceae
+>cH3_Guillardia_theta_XP_001713521.1 organism=Guillardia theta phylum= class=Cryptophyceae
 MARTKQTARKTVGGDI-NSRISEKRAKSD---NSKNIDLKKVHR-YKPGTVALREIRKYQ
 KSTNLLIRKLPFQRLVRELAQDYKSDLRFQNSAVLALQEASESYLVNLFEDTNLCAIHAK
 RVTIMPKDIYLARRIRGEMIF
->Plasmodium|XP_724814.1|cH3 organism=Plasmodium yoelii phylum=Apicomplexa class=Aconoidasida
+>cH3_Plasmodium_yoelii_XP_724814.1 organism=Plasmodium yoelii phylum=Apicomplexa class=Aconoidasida
 MARTKQTARKSTAGKAPRKQLASKAARKS---APISAGIKKPHR-YRPGTVALREIRRYQ
 KSTDLLIRKLPFQRLVREIAQDYKTDLRFQSSAVMALQEAAEAYLVGLFEDTNLCAIHAK
 RVTIMPKDIQLARRIRGERS-
->Drosophila|CAA32434.1|cH3 organism=Drosophila melanogaster phylum=Arthropoda class=Insecta
+>cH3_Drosophila_melanogaster_CAA32434.1 organism=Drosophila melanogaster phylum=Arthropoda class=Insecta
 MARTKQTARKSTGGKAPRKQLATKAARKS---APATGGVKKPHR-YRPGTVALREIRRYQ
 KSTELLIRKLPFQRLVREIAQDFKTDLRFQSSAVMALQEASEAYLVGLFEDTNLCAIHAK
 RITIMPKDIQLARRIRGERA-
->Drosophila|NP_001027285.1|cH3 organism=Drosophila melanogaster phylum=Arthropoda class=Insecta
+>cH3_Drosophila_melanogaster_NP_001027285.1 organism=Drosophila melanogaster phylum=Arthropoda class=Insecta
 MARTKQTARKSTGGKAPRKQLATKAARKS---APATGGVKKPHR-YRPGTVALREIRRYQ
 KSTELLIRKLPFQRLVREIAQDFKTDLRFQSSAVMALQEASEAYLVGLFEDTNLCAIHAK
 RVTIMPKDIQLARRIRGERA-
->Candida|XP_719887.1|cH3 organism=Candida albicans SC5314 phylum=Ascomycota class=Saccharomycetes
+>cH3_Candida_albicans_SC5314_XP_719887.1 organism=Candida albicans SC5314 phylum=Ascomycota class=Saccharomycetes
 MARTKQTARKSTGGKAPRKQLASKAARKS---APVSGGVKKPHR-YKPGTVALREIRRFQ
 KSTELLIRKLPFQRLVREIAQDFKSDLRFQSSAIGALQEAVEAYLVGLFEDTNLCAIHAK
 RVTIQKKDMQLARRLRGERS-
->Debaryomyces|XP_460476.1|cH3 organism=Debaryomyces hansenii CBS767 phylum=Ascomycota class=Saccharomycetes
+>cH3_Debaryomyces_hansenii_CBS767_XP_460476.1 organism=Debaryomyces hansenii CBS767 phylum=Ascomycota class=Saccharomycetes
 MARTKQTARKSTGGKAPRKQLASKAARKS---APVSGGVKKPHR-YKPGTVALREIRRFQ
 KSTELLIRKLPFQRLVREIAQDFKSDLRFQSSAIGALQEAVEAYLVSLFEDTNLCAIHAK
 RVTIQKKDIQLARRLRGERS-
->Thalassiosira|XP_002288694.1|cH3 organism=Thalassiosira pseudonana CCMP1335 phylum=Bacillariophyta class=Coscinodiscophyceae
+>cH3_Thalassiosira_pseudonana_CCMP1335_XP_002288694.1 organism=Thalassiosira pseudonana CCMP1335 phylum=Bacillariophyta class=Coscinodiscophyceae
 MARTKQTARKSTGGKAPRKQLATKAARKS---APATGGVKKPHR-YRPGTVALREIRRYQ
 KSTDLLIRKLPFQRLVREIAQDFKSDLRFQGSAVLALQEAAEAYLVGLFEDTNLCAIHAK
 RVTIMPKDIQLARRIRGERS-
->Xenopus|NP_001091119.1|cH3 organism=Xenopus laevis phylum=Chordata class=Amphibia
+>cH3_Xenopus_laevis_NP_001091119.1 organism=Xenopus laevis phylum=Chordata class=Amphibia
 MARTKQTARKSTGGKAPRKQLATKAARKS---APATGGVKKPHR-YRPGTVALREIRRYQ
 KSTELLIRKLPFQRLVREIAQDFKTDLRFQSSAVMALQEASEAYLVGLFEDTNLCGIHAK
 RVTIMPKDIQLARRIRGERA-
->Gallus|NP_001268409.1|cH3 organism=Gallus gallus phylum=Chordata class=Aves
+>cH3_Gallus_gallus_NP_001268409.1 organism=Gallus gallus phylum=Chordata class=Aves
 MARTKQTARKSTGGKAPRKQLATKAARKS---APATGGVKKPHR-YRPGTVALREIRRYQ
 KSTELLIRKLPFQRLVREIAQDFKTDLRFQSSAVMALQEASEAYLVGLFEDTNLCAIHAK
 RVTIMPKDIQLARRIRGERA-
->Macaca|NP_001180643.1|cH3 organism=Macaca mulatta phylum=Chordata class=Mammalia
+>cH3_Macaca_mulatta_NP_001180643.1 organism=Macaca mulatta phylum=Chordata class=Mammalia
 MARTKQTARKSTGGKAPRKQLATKAARKS---APATGGVKKPHR-YRPGTVALREIRRYQ
 KSTELLIRKLPFQRLVREIAQDFKTDLRFQSSAVMALQEACEAYLVGLFEDTNLCAIHAK
 RVTIMPKDIQLARRIRGERA-
->Mus|NP_659539.1|cH3 organism=Mus musculus phylum=Chordata class=Mammalia
+>cH3_Mus_musculus_NP_659539.1 organism=Mus musculus phylum=Chordata class=Mammalia
 MARTKQTARKSTGGKAPRKQLATKAARKS---APATGGVKKPHR-YRPGTVALREIRRYQ
 KSTELLIRKLPFQRLVREIAQDFKTDLRFQSSAVMALQEACEAYLVGLFEDTNLCAIHAK
 RVTIMPKDIQLARRIRGERA-
->Pan|XP_527254.2|cH3 organism=Pan troglodytes phylum=Chordata class=Mammalia
+>cH3_Pan_troglodytes_XP_527254.2 organism=Pan troglodytes phylum=Chordata class=Mammalia
 MARTKQTARKSTGGKAPRKQLATKAARKS---APATGGVKKPHR-YRPGTVALREIRRYQ
 KSTELLIRKLPFQRLVREIAQDFKTDLRFQSSAVMALQEACEAYLVGLFEDTNLCAIHAK
 RVTIMPKDIQLARRIRGERA-
->Tetrahymena|XP_001016594.3|cH3 organism=Tetrahymena thermophila SB210 phylum=Ciliophora class=Oligohymenophorea
+>cH3_Tetrahymena_thermophila_SB210_XP_001016594.3 organism=Tetrahymena thermophila SB210 phylum=Ciliophora class=Oligohymenophorea
 MARTKQTARKSTGAKAPRKQLASKAARKS---APATGGIKKPHR-FRPGTVALREIRKYQ
 KSTDLLIRKLPFQRLVRDIAHEFKAELRFQSSAVLALQEAAEAYLVGLFEDTNLCAIHAR
 RVTIMTKDMQLARRIRGERF-
->Trypanosoma|XP_001218942.1|cH3 organism=Trypanosoma brucei brucei TREU927 phylum=Euglenozoa class=Kinetoplastea
+>cH3_Trypanosoma_brucei_brucei_TREU927_XP_001218942.1 organism=Trypanosoma brucei brucei TREU927 phylum=Euglenozoa class=Kinetoplastea
 MSRTKETART-------KKTITSKKSKKASKGSDAASGVKTAQRRWRPGTVALREIRQFQ
 RSTDLLLQKAPFQRLVREVSGAQKEGLRFQSSAILAAQEATESYIVSLLADTNRACIHSG
 RVTIQPKDIHLALCLRGERA-
->Caenorhabditis|NP_509344.1|cH3 organism=Caenorhabditis elegans phylum=Nematoda class=Chromadorea
+>cH3_Caenorhabditis_elegans_NP_509344.1 organism=Caenorhabditis elegans phylum=Nematoda class=Chromadorea
 MARTKQTARKSTGGKAPRKQLATKAARKS---APTTGGVKKPHR-YRPGTVALREIRRYQ
 KSTELLIRKLPFQRLVREIAQDFKTDLRFQSAAIGALQEASEAYLVGLFEDTNLCAIHAK
 RVTIMPKDIQLARRIRGERA-
->Phytophthora|XP_002999294.1|cH3 organism=Phytophthora infestans T30-4 phylum=Oomycota class=
+>cH3_Phytophthora_infestans_T30-4_XP_002999294.1 organism=Phytophthora infestans T30-4 phylum=Oomycota class=
 MARTKQTARKSTGGKAPRKQLATKAARKS---APATGGVKKPHR-YRPGTVALREIRRYQ
 KSTELLIRKLPFQRLVREIAQDFKTDLRFQGSAVLALQEAAEAYLVGLFEDTNLCAIHAK
 RVTIMPKDIQLARRIRGERS-
->Perkinsus|XP_002788889.1|cH3 organism=Perkinsus marinus ATCC 50983 phylum=Perkinsozoa class=
+>cH3_Perkinsus_marinus_ATCC_50983_XP_002788889.1 organism=Perkinsus marinus ATCC 50983 phylum=Perkinsozoa class=
 MARTKQTARKSTGGKAPRKQLASKAARKS---TPSTGGIKKPHR-YRPGTVALREIRRYQ
 KSTDLLIRKLPFQRLVREVAQDFKTDLRFQSSAVMALQEAAEAYLVGLFEDTNLCAIHAK
 RVTIMPKDMQLARRIRGERS-
->Cyanidioschyzon|XP_005537317.1|cH3 organism=Cyanidioschyzon merolae strain 10D phylum=Rhodophyta class=Bangiophyceae
+>cH3_Cyanidioschyzon_merolae_strain_10D_XP_005537317.1 organism=Cyanidioschyzon merolae strain 10D phylum=Rhodophyta class=Bangiophyceae
 MARTKQTARKSTGGKAPRKQLATKAARKS---APSVGGVKKPHR-YRPGTVALREIRRYQ
 KSTELLIRKLPFQRLVREIAQDFKTDLRFQSSAVLALQEAAEAYLVNLFEDTNLCAIHAK
 RVTIMPKDIQLARRIRGERA-
->Griffithsia|Q7XYZ0.3|cH3 organism=Griffithsia japonica phylum=Rhodophyta class=Florideophyceae
+>cH3_Griffithsia_japonica_Q7XYZ0.3 organism=Griffithsia japonica phylum=Rhodophyta class=Florideophyceae
 MARTKQTARKSTGGKAPRKQLATKAARKS---APASGGVKKPHR-FRPGTVALREIRRFQ
 KSTELLVRKLPFQRLVREIAQDFKSDLRFQSSAVLALQEAAEAYMVGLFEDTNLCAIHAK
 RVTIMPKDIQLARRIRGERT-
->Selaginella|XP_002977792.1|cH3 organism=Selaginella moellendorffii phylum=Streptophyta class=Lycopodiopsida
+>cH3_Selaginella_moellendorffii_XP_002977792.1 organism=Selaginella moellendorffii phylum=Streptophyta class=Lycopodiopsida
 MARTKQTARKSTGGKAPRKQLATKAARKS---APTTGGVKKPHR-YRPGTVALREIRKYQ
 KSTELLIRKLPFQRLVREIAQDFKTDLRFQSHAVLALQEAAEAYLVGLFEDTNLCAIHAK
 RVTIMPKDIQLARRIRGERA-
->Arabidopsis|NP_189372.1|cH3 organism=Arabidopsis thaliana phylum=Streptophyta class=Magnoliopsida
+>cH3_Arabidopsis_thaliana_NP_189372.1 organism=Arabidopsis thaliana phylum=Streptophyta class=Magnoliopsida
 MARTKQTARKSTGGKAPRKQLATKAARKS---APATGGVKKPHR-FRPGTVALREIRKYQ
 KSTELLIRKLPFQRLVREIAQDFKTDLRFQSSAVAALQEAAEAYLVGLFEDTNLCAIHAK
 RVTIMPKDIQLARRIRGERA-
->Oryza|NP_001044904.1|cH3 organism=Oryza sativa Japonica Group phylum=Streptophyta class=Magnoliopsida
+>cH3_Oryza_sativa_Japonica_Group_NP_001044904.1 organism=Oryza sativa Japonica Group phylum=Streptophyta class=Magnoliopsida
 MARTKQTARKSTGGKAPRKQLATKAARKS---APATGGVKKPHR-FRPGTVALREIRKYQ
 KSTELLIRKLPFQRLVREIAQDFKTDLRFQSSAVAALQEAAEAYLVGLFEDTNLCAIHAK
 RVTIMPKDIQLARRIRGERA-
->Oryza|NP_001050276.1|cH3 organism=Oryza sativa Japonica Group phylum=Streptophyta class=Magnoliopsida
+>cH3_Oryza_sativa_Japonica_Group_NP_001050276.1 organism=Oryza sativa Japonica Group phylum=Streptophyta class=Magnoliopsida
 MARTKQTARKSTGGKAPRKQLATKAARKS---APTTGGVKKPHR-YRPGTVALREIRKYQ
 KSTELLIRKLPFQRLVREIAQDFKTDLRFQSHAVLALQEAAEAYLVGLFEDTNLCAIHAK
 RVTIMPKDIQLARRIRGERA-
->Homo|NP_003520.1|cH3.1_(Homo_sapiens) organism=Homo sapiens phylum=Chordata class=Mammalia
+>cH3.1_(Homo_sapiens)_Homo_sapiens_NP_003520.1 organism=Homo sapiens phylum=Chordata class=Mammalia
 MARTKQTARKSTGGKAPRKQLATKAARKS---APATGGVKKPHR-YRPGTVALREIRRYQ
 KSTELLIRKLPFQRLVREIAQDFKTDLRFQSSAVMALQEACEAYLVGLFEDTNLCAIHAK
 RVTIMPKDIQLARRIRGERA-
->Homo|NP_003521.2|cH3.1_(Homo_sapiens) organism=Homo sapiens phylum=Chordata class=Mammalia
+>cH3.1_(Homo_sapiens)_Homo_sapiens_NP_003521.2 organism=Homo sapiens phylum=Chordata class=Mammalia
 MARTKQTARKSTGGKAPRKQLATKAARKS---APATGGVKKPHR-YRPGTVALREIRRYQ
 KSTELLIRKLPFQRLVREIAQDFKTDLRFQSSAVMALQEACEAYLVGLFEDTNLCAIHAK
 RVTIMPKDIQLARRIRGERA-
->Homo|NP_003522.1|cH3.1_(Homo_sapiens) organism=Homo sapiens phylum=Chordata class=Mammalia
+>cH3.1_(Homo_sapiens)_Homo_sapiens_NP_003522.1 organism=Homo sapiens phylum=Chordata class=Mammalia
 MARTKQTARKSTGGKAPRKQLATKAARKS---APATGGVKKPHR-YRPGTVALREIRRYQ
 KSTELLIRKLPFQRLVREIAQDFKTDLRFQSSAVMALQEACEAYLVGLFEDTNLCAIHAK
 RVTIMPKDIQLARRIRGERA-
->Homo|NP_003523.1|cH3.1_(Homo_sapiens) organism=Homo sapiens phylum=Chordata class=Mammalia
+>cH3.1_(Homo_sapiens)_Homo_sapiens_NP_003523.1 organism=Homo sapiens phylum=Chordata class=Mammalia
 MARTKQTARKSTGGKAPRKQLATKAARKS---APATGGVKKPHR-YRPGTVALREIRRYQ
 KSTELLIRKLPFQRLVREIAQDFKTDLRFQSSAVMALQEACEAYLVGLFEDTNLCAIHAK
 RVTIMPKDIQLARRIRGERA-
->Homo|NP_003524.1|cH3.1_(Homo_sapiens) organism=Homo sapiens phylum=Chordata class=Mammalia
+>cH3.1_(Homo_sapiens)_Homo_sapiens_NP_003524.1 organism=Homo sapiens phylum=Chordata class=Mammalia
 MARTKQTARKSTGGKAPRKQLATKAARKS---APATGGVKKPHR-YRPGTVALREIRRYQ
 KSTELLIRKLPFQRLVREIAQDFKTDLRFQSSAVMALQEACEAYLVGLFEDTNLCAIHAK
 RVTIMPKDIQLARRIRGERA-
->Homo|NP_003525.1|cH3.1_(Homo_sapiens) organism=Homo sapiens phylum=Chordata class=Mammalia
+>cH3.1_(Homo_sapiens)_Homo_sapiens_NP_003525.1 organism=Homo sapiens phylum=Chordata class=Mammalia
 MARTKQTARKSTGGKAPRKQLATKAARKS---APATGGVKKPHR-YRPGTVALREIRRYQ
 KSTELLIRKLPFQRLVREIAQDFKTDLRFQSSAVMALQEACEAYLVGLFEDTNLCAIHAK
 RVTIMPKDIQLARRIRGERA-
->Homo|NP_003526.1|cH3.1_(Homo_sapiens) organism=Homo sapiens phylum=Chordata class=Mammalia
+>cH3.1_(Homo_sapiens)_Homo_sapiens_NP_003526.1 organism=Homo sapiens phylum=Chordata class=Mammalia
 MARTKQTARKSTGGKAPRKQLATKAARKS---APATGGVKKPHR-YRPGTVALREIRRYQ
 KSTELLIRKLPFQRLVREIAQDFKTDLRFQSSAVMALQEACEAYLVGLFEDTNLCAIHAK
 RVTIMPKDIQLARRIRGERA-
->Homo|NP_003527.1|cH3.1_(Homo_sapiens) organism=Homo sapiens phylum=Chordata class=Mammalia
+>cH3.1_(Homo_sapiens)_Homo_sapiens_NP_003527.1 organism=Homo sapiens phylum=Chordata class=Mammalia
 MARTKQTARKSTGGKAPRKQLATKAARKS---APATGGVKKPHR-YRPGTVALREIRRYQ
 KSTELLIRKLPFQRLVREIAQDFKTDLRFQSSAVMALQEACEAYLVGLFEDTNLCAIHAK
 RVTIMPKDIQLARRIRGERA-
->Homo|NP_003528.1|cH3.1_(Homo_sapiens) organism=Homo sapiens phylum=Chordata class=Mammalia
+>cH3.1_(Homo_sapiens)_Homo_sapiens_NP_003528.1 organism=Homo sapiens phylum=Chordata class=Mammalia
 MARTKQTARKSTGGKAPRKQLATKAARKS---APATGGVKKPHR-YRPGTVALREIRRYQ
 KSTELLIRKLPFQRLVREIAQDFKTDLRFQSSAVMALQEACEAYLVGLFEDTNLCAIHAK
 RVTIMPKDIQLARRIRGERA-
->Homo|NP_066298.1|cH3.1_(Homo_sapiens) organism=Homo sapiens phylum=Chordata class=Mammalia
+>cH3.1_(Homo_sapiens)_Homo_sapiens_NP_066298.1 organism=Homo sapiens phylum=Chordata class=Mammalia
 MARTKQTARKSTGGKAPRKQLATKAARKS---APATGGVKKPHR-YRPGTVALREIRRYQ
 KSTELLIRKLPFQRLVREIAQDFKTDLRFQSSAVMALQEACEAYLVGLFEDTNLCAIHAK
 RVTIMPKDIQLARRIRGERA-
->Homo|NP_001005464.1|cH3.2_(Homo_sapiens) organism=Homo sapiens phylum=Chordata class=Mammalia
+>cH3.2_(Homo_sapiens)_Homo_sapiens_NP_001005464.1 organism=Homo sapiens phylum=Chordata class=Mammalia
 MARTKQTARKSTGGKAPRKQLATKAARKS---APATGGVKKPHR-YRPGTVALREIRRYQ
 KSTELLIRKLPFQRLVREIAQDFKTDLRFQSSAVMALQEASEAYLVGLFEDTNLCAIHAK
 RVTIMPKDIQLARRIRGERA-
->Homo|NP_001116847.1|cH3.2_(Homo_sapiens) organism=Homo sapiens phylum=Chordata class=Mammalia
+>cH3.2_(Homo_sapiens)_Homo_sapiens_NP_001116847.1 organism=Homo sapiens phylum=Chordata class=Mammalia
 MARTKQTARKSTGGKAPRKQLATKAARKS---APATGGVKKPHR-YRPGTVALREIRRYQ
 KSTELLIRKLPFQRLVREIAQDFKTDLRFQSSAVMALQEASEAYLVGLFEDTNLCAIHAK
 RVTIMPKDIQLARRIRGERA-
->Homo|NP_066403.2|cH3.2_(Homo_sapiens) organism=Homo sapiens phylum=Chordata class=Mammalia
+>cH3.2_(Homo_sapiens)_Homo_sapiens_NP_066403.2 organism=Homo sapiens phylum=Chordata class=Mammalia
 MARTKQTARKSTGGKAPRKQLATKAARKS---APATGGVKKPHR-YRPGTVALREIRRYQ
 KSTELLIRKLPFQRLVREIAQDFKTDLRFQSSAVMALQEASEAYLVGLFEDTNLCAIHAK
 RVTIMPKDIQLARRIRGERA-

@@ -1,4 +1,4 @@
->Plasmodium|XP_001350068.1|cenH3_(Eukarya) organism=Plasmodium falciparum 3D7 phylum=Apicomplexa class=Aconoidasida
+>cenH3_(Eukarya)_Plasmodium_falciparum_3D7_XP_001350068.1 organism=Plasmodium falciparum 3D7 phylum=Apicomplexa class=Aconoidasida
 ------------------------------------------------------------
 ------------------------------------------------------------
 ------------------------------------------------------------
@@ -7,7 +7,7 @@
 ISSKTTNINRPSVNRGGINEVAQKNLHRTNIRK-------------------PHRYRPGV
 LALKEIRAYQASTQLLIPKIPFVRVVKEITRLFELPDE-QFRYTPEALLALQTASEAYLV
 SLFEDAYLCSLHANRVTLMPKDIHLARRIRGRD---------------
->Thalassiosira|XP_002287626.1|cenH3_(Eukarya) organism=Thalassiosira pseudonana CCMP1335 phylum=Bacillariophyta class=Coscinodiscophyceae
+>cenH3_(Eukarya)_Thalassiosira_pseudonana_CCMP1335_XP_002287626.1 organism=Thalassiosira pseudonana CCMP1335 phylum=Bacillariophyta class=Coscinodiscophyceae
 ------------------------------------------------------------
 ------------------------------------------------------------
 ------------------------------------------------------------
@@ -16,7 +16,7 @@ SLFEDAYLCSLHANRVTLMPKDIHLARRIRGRD---------------
 -------------------------------------------------------MRPGE
 KALREIRQYQSSTSLLLRRLPFARLVREIQ--YGMTRQ-PYRWQGSAILALQEAAEAHLV
 GLFEDSNLCAIHGKRVTIMPKDMQLARRIRGWVRE-------------
->Tetrahymena|XP_001011273.1|cenH3_(Eukarya) organism=Tetrahymena thermophila SB210 phylum=Ciliophora class=Oligohymenophorea
+>cenH3_(Eukarya)_Tetrahymena_thermophila_SB210_XP_001011273.1 organism=Tetrahymena thermophila SB210 phylum=Ciliophora class=Oligohymenophorea
 ------------------------------------------------------------
 ------------------------------------------------------------
 ------------------------------------------------------------
@@ -25,7 +25,7 @@ GLFEDSNLCAIHGKRVTIMPKDMQLARRIRGWVRE-------------
 NQQGNEKNKKDIQDQRNKASTKKKRESSGEKYE-------------SARDKVIRRFRPGD
 NALKQLRQYNQTPSLLIRKLPFQRLIREIS--TRMTEEDSLRWTSFALVLLQTVVEDYMV
 SFFEDANACALHAKRVTLMSKDLALAARIRGQKNVTGIFIPTKK----
->Phytophthora|XP_009526809.1|cenH3_(Eukarya) organism=Phytophthora sojae phylum=Oomycota class=
+>cenH3_(Eukarya)_Phytophthora_sojae_XP_009526809.1 organism=Phytophthora sojae phylum=Oomycota class=
 ------------------------------------------------------------
 ------------------------------------------------------------
 ------------------------------------------------------------
@@ -34,7 +34,7 @@ ASDASSSSVTDSGTDDSTPPNSPQPQRSPSPPFAATRGPAAARAPP--AAPSSVSSASTP
 SPPPNLPARRPSVAPVGRQAAIHATPTAPRRKRKATPPRRRPSSPASATQTVKKRRKPGE
 AALREIRLLQRSTKLLLRKLPFARVVREIQ--TEFTGV-GYRWQAEALLALQEAAETYLV
 RTFEDAYVGG--------------------------------------
->Perkinsus|XP_002767160.1|cenH3_(Eukarya) organism=Perkinsus marinus ATCC 50983 phylum=Perkinsozoa class=
+>cenH3_(Eukarya)_Perkinsus_marinus_ATCC_50983_XP_002767160.1 organism=Perkinsus marinus ATCC 50983 phylum=Perkinsozoa class=
 MVGVENLGVGFDELLTRGGCGVRDDAVEIAFRGVEGLEDVLKDYMVRNKDGKILSVARPV
 DAEHSEELLGLAAAIGRSYGSLICAAAHNGGVRLPVGKGDDDGDSNNSSDEEADSGCGGA
 AEGDEAGDVGAGAGDVGDGAGDGAAEGDGAGDAGNGAGDVGDVGDGAGDGAAEGDGAGDG

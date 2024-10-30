@@ -1,12 +1,12 @@
->Mus|NP_083864.1|H2A.L.1_(Mus_musculus) organism=Mus musculus phylum=Chordata class=Mammalia
+>H2A.L.1_(Mus_musculus)_Mus_musculus_NP_083864.1 organism=Mus musculus phylum=Chordata class=Mammalia
 MAKKMQRRRRQKRTRSQRGEL--PLSLVDRFLREEFHSSRLSSSALSFLTSVLEYLTSNI
 LELA--GEVAHTTGRKRVTPEDVRLVVQNNEQLRQLFK---------PGG---------T
 SVNE----DDN
->Mus|NP_080903.1|H2A.L.2_(Mus_musculus) organism=Mus musculus phylum=Chordata class=Mammalia
+>H2A.L.2_(Mus_musculus)_Mus_musculus_NP_080903.1 organism=Mus musculus phylum=Chordata class=Mammalia
 MARKRQRRRRRKVTRSQRAELQFPVSRVDRFLREGNYSRRLSSSAPVFLAGVLEYLTSNI
 LELA--GEVAHTTGRKRIAPEHVCRVVQNNEQLHQLFK---------QGG---------T
 SVFEPPEPDDN
->Mus|Q9D4U4|H2A.L.3_(Mus_musculus) organism=Mus musculus phylum=Chordata class=Mammalia
+>H2A.L.3_(Mus_musculus)_Mus_musculus_Q9D4U4 organism=Mus musculus phylum=Chordata class=Mammalia
 ME---DKRQKDSVAPSSGAKLQFPVSEAEHLLQERNLSKCLNSSTPVLFTDMLNYVTSSI
 LELTVKDRDSHTSCNKLIAPEQKSKPTDNIDELCQLFKDSQYMADETPGCYKTPRSNKIT
 GLYEAPRPGPK

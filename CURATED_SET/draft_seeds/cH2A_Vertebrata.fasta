@@ -1,148 +1,148 @@
->Danio|XP_009296490.1|cH2A_(Vertebrata) organism=Danio rerio phylum=Chordata class=Actinopteri
+>cH2A_(Vertebrata)_Danio_rerio_XP_009296490.1 organism=Danio rerio phylum=Chordata class=Actinopteri
 MSGRGKTGGKARAKAKTRSSRAGLQFPVGRVHRLLRKGNYAERVGAGAPVYLAAVLEYLT
 AEILELAGNAARDNKKTRIIPRHLQLAVRNDEELNKLLGGVTIAQGGVLPNIQAVLLPKK
 TE---KAAKGK-
->Xenopus|NP_001087948.1|cH2A_(Vertebrata) organism=Xenopus laevis phylum=Chordata class=Amphibia
+>cH2A_(Vertebrata)_Xenopus_laevis_NP_001087948.1 organism=Xenopus laevis phylum=Chordata class=Amphibia
 MSGRGKQGGKTRAKAKTRSSRAGLQFPVGRVHRLLRKGNYAERVGAGAPVYLAAVLEYLT
 AEILELAGNAARDNKKTRIIPRHLQLAVRNDEELNKLLGRVTIAQGGVLPNIQSVLLPKK
 TES-SKSAKSK-
->Gallus|NP_001072943.1|cH2A_(Vertebrata) organism=Gallus gallus phylum=Chordata class=Aves
+>cH2A_(Vertebrata)_Gallus_gallus_NP_001072943.1 organism=Gallus gallus phylum=Chordata class=Aves
 MSGRGKQGGKARAKAKSRSSRAGLQFPVGRVHRLLRKGNYAERVGAGAPVYLAAVLEYLT
 AEILELAGNAARDNKKTRIIPRHLQLAIRNDEELNKLLGKVTIAQGGVLPNIQAVLLPKK
 TD--SHKAKAK-
->Ailuropoda|XP_011215280.1|cH2A_(Mammalia) organism=Ailuropoda melanoleuca phylum=Chordata class=Mammalia
+>cH2A_(Mammalia)_Ailuropoda_melanoleuca_XP_011215280.1 organism=Ailuropoda melanoleuca phylum=Chordata class=Mammalia
 MSGRGKQGGKARAKAKSRSSRAGLQFPVGRVHRLLRKGNYAERVGAGAPVYLAAVLEYLT
 AEILELAGNAARDNKKTRIIPRHLQLAIRNDEELNKLLGRVTIAQGGVLPNIQAVLLPKK
 TES-HHKAKGK-
->Bos|NP_001192525.1|cH2A_(Mammalia) organism=Bos taurus phylum=Chordata class=Mammalia
+>cH2A_(Mammalia)_Bos_taurus_NP_001192525.1 organism=Bos taurus phylum=Chordata class=Mammalia
 MSGRGKQGGKARAKAKSRSSRAGLQFPVGRVHRLLRKGNYAERVGAGAPVYLAAVLEYLT
 AEILELAGNAARDNKKTRIIPRHLQLAIRNDEELNKLLGRVTIAQGGVLPNIQAVLLPKK
 TES-HHKAKGK-
->Callithrix|XP_008992112.1|cH2A_(Mammalia) organism=Callithrix jacchus phylum=Chordata class=Mammalia
+>cH2A_(Mammalia)_Callithrix_jacchus_XP_008992112.1 organism=Callithrix jacchus phylum=Chordata class=Mammalia
 MSGRGKQGGKVRAKAKSRSSRAGLQFPVGRIHRLLRKGKYADRIGAGAPVYLAAVLEYLT
 AEILELAGNASRDNKKTRIIPRHLQLAIRNDEELNKLLGGVTIAQGGVLPNIQAVLLPKK
 TESHHHKSQSK-
->Canis|XP_005640150.1|cH2A_(Mammalia) organism=Canis lupus familiaris phylum=Chordata class=Mammalia
+>cH2A_(Mammalia)_Canis_lupus_familiaris_XP_005640150.1 organism=Canis lupus familiaris phylum=Chordata class=Mammalia
 MSGRGKQGGKARAKAKSRSSRAGLQFPVGRVHRLLRKGNYAERVGAGAPVYLAAVLEYLT
 AEILELAGNAARDNKKTRIIPRHLQLAIRNDEELNKLLGRVTIAQGGVLPNIQAVLLPKK
 TES-HHKAKGK-
->Cavia|XP_003478913.1|cH2A_(Mammalia) organism=Cavia porcellus phylum=Chordata class=Mammalia
+>cH2A_(Mammalia)_Cavia_porcellus_XP_003478913.1 organism=Cavia porcellus phylum=Chordata class=Mammalia
 MSGRGKQGGKARAKAKSRSSRAGLQFPVGRVHRLLRKGNYAERVGAGAPVYMAAVLEYLT
 AEILELAGNAARDNKKTRIIPRHLQLAIRNDEELNKLLGKVTIAQGGVLPNIQAVLLPKK
 TES-HHKAKGK-
->Cricetulus|XP_007634672.1|cH2A_(Mammalia) organism=Cricetulus griseus phylum=Chordata class=Mammalia
+>cH2A_(Mammalia)_Cricetulus_griseus_XP_007634672.1 organism=Cricetulus griseus phylum=Chordata class=Mammalia
 MSGRGKQGGKARAKAKTRSSRAGLQFPVGRVHRLLRKGNYSERVGAGAPVYLAAVLEYLT
 AEILELAGNAARDNKKTRIIPRHLQLAIRNDEELNKLLGRVTIAQGGVLPNIQAVLLPKK
 TES-HHKAKGK-
->Heterocephalus|XP_004847876.1|cH2A_(Mammalia) organism=Heterocephalus glaber phylum=Chordata class=Mammalia
+>cH2A_(Mammalia)_Heterocephalus_glaber_XP_004847876.1 organism=Heterocephalus glaber phylum=Chordata class=Mammalia
 MSGRGKQGGKARAKAKTRSSRAGLQFPVGRVHRLLRKGNYAERVGAGAPVYLAAVLEYLT
 AEILELAGNAARDNKKTRIIPRHLQLAIRNDEELNKLLGKVTIAQGGVLPNIQAVLLPKK
 TES-HHKAKGK-
->Loxodonta|XP_003422330.1|cH2A_(Mammalia) organism=Loxodonta africana phylum=Chordata class=Mammalia
+>cH2A_(Mammalia)_Loxodonta_africana_XP_003422330.1 organism=Loxodonta africana phylum=Chordata class=Mammalia
 MSGRGKQGGKARAKAKTRSSRAGLQFPVGRVHRLLRKGNYAERVGAGAPVYLAAVLEYLT
 AEILELAGNAARDNKKTRIIPRHLQLAIRNDEELNKLLGKVTIAQGGVLPNIQAVLLPKK
 TES-HHKAKGK-
->Macaca|NP_001180653.1|cH2A_(Mammalia) organism=Macaca mulatta phylum=Chordata class=Mammalia
+>cH2A_(Mammalia)_Macaca_mulatta_NP_001180653.1 organism=Macaca mulatta phylum=Chordata class=Mammalia
 MSGRGKQGGKARAKAKTRSSRAGLQFPVGRVHRLLRKGNYSERVGAGAPVYLAAVLEYLT
 AEILELAGNAARDNKKTRIIPRHLQLAIRNDEELNKLLGRVTIAQGGVLPNIQAVLLPKK
 TES-HHKAKGK-
->Monodelphis|XP_007485414.1|cH2A_(Mammalia) organism=Monodelphis domestica phylum=Chordata class=Mammalia
+>cH2A_(Mammalia)_Monodelphis_domestica_XP_007485414.1 organism=Monodelphis domestica phylum=Chordata class=Mammalia
 MSGRGKQGGKARAKAKSRSSRAGLQFPVGRVHRLLRKGNYAERVGAGAPVYMAAVLEYLT
 AEILELAGNAARDNKKTRIIPRHLQLAIRNDEELNKLLGKVTIAQGGVLPNIQAVLLPKK
 TES-HHKTKGK-
->Mus|NP_835489.1|cH2A_(Mammalia) organism=Mus musculus phylum=Chordata class=Mammalia
+>cH2A_(Mammalia)_Mus_musculus_NP_835489.1 organism=Mus musculus phylum=Chordata class=Mammalia
 MSGRGKQGGKARAKAKTRSSRAGLQFPVGRVHRLLRKGNYSERVGAGAPVYLAAVLEYLT
 AEILELAGNAARDNKKTRIIPRHLQLAIRNDEELNKLLGRVTIAQGGVLPNIQAVLLPKK
 TES-HHKAKGK-
->Nomascus|XP_004088806.1|cH2A_(Mammalia) organism=Nomascus leucogenys phylum=Chordata class=Mammalia
+>cH2A_(Mammalia)_Nomascus_leucogenys_XP_004088806.1 organism=Nomascus leucogenys phylum=Chordata class=Mammalia
 MSGRGKQGGKARAKAKSRSSRAGLQFPVGRVHRLLRKGNYAERVGAGAPVYLAAVLEYLT
 AEILELAGNAARDNKKTRIIPRHLQLAIRNDEELNKLLGRVTIAQGGVLPNIQAVLLPKK
 TES-HHKAKGK-
->Oryctolagus|XP_008246690.1|cH2A_(Mammalia) organism=Oryctolagus cuniculus phylum=Chordata class=Mammalia
+>cH2A_(Mammalia)_Oryctolagus_cuniculus_XP_008246690.1 organism=Oryctolagus cuniculus phylum=Chordata class=Mammalia
 MSGRGKQGGKARAKAKTRSSRAGLQFPVGRVHRLLRKGNYAERVGAGAPVYLAAVLEYLT
 AEILELAGNAARDNKKTRIIPRHLQLAIRNDEELNKLLGKVTIAQGGVLPNIQAVLLPKK
 TES-HHKAKGK-
->Pan|XP_009448979.1|cH2A_(Mammalia) organism=Pan troglodytes phylum=Chordata class=Mammalia
+>cH2A_(Mammalia)_Pan_troglodytes_XP_009448979.1 organism=Pan troglodytes phylum=Chordata class=Mammalia
 MSGRGKQGGKARAKAKTRSSRAGLQFPVGRVHRLLRKGNYAERVGAGAPVYLAAVLEYLT
 AEILELAGNAARDNKKTRIIPRHLQLAIRNDEELNKLLGKVTIAQGGVLPNIQAVLLPKK
 TES-HHKAKGKA
->Rattus|NP_068612.2|cH2A_(Mammalia) organism=Rattus norvegicus phylum=Chordata class=Mammalia
+>cH2A_(Mammalia)_Rattus_norvegicus_NP_068612.2 organism=Rattus norvegicus phylum=Chordata class=Mammalia
 MSGRGKQGGKARAKAKSRSSRAGLQFPVGRVHRLLRKGNYSERVGAGAPVYLAAVLEYLT
 AEILELAGNAARDNKKTRIIPRHLQLAIRNDEELNKLLGRVTIAQGGVLPNIQAVLLPKK
 TES-HHKAKGK-
->Sus|XP_003356618.1|cH2A_(Mammalia) organism=Sus scrofa phylum=Chordata class=Mammalia
+>cH2A_(Mammalia)_Sus_scrofa_XP_003356618.1 organism=Sus scrofa phylum=Chordata class=Mammalia
 MSGRGKQGGKARAKAKTRSSRAGLQFPVGRVHRLLRKGNYAERVGAGAPVYLAAVLEYLT
 AEILELAGNAARDNKKTRIIPRHLQLAIRNDEELNKLLGKVTIAQGGVLPNIQAVLLPKK
 TES-HHKAKGK-
->Homo|NP_778235.1|cH2A.10_(Homo_sapiens) organism=Homo sapiens phylum=Chordata class=Mammalia
+>cH2A.10_(Homo_sapiens)_Homo_sapiens_NP_778235.1 organism=Homo sapiens phylum=Chordata class=Mammalia
 MSGRGKQGGKARAKAKSRSSRAGLQFPVGRVHRLLRKGNYAERVGAGAPVYLAAVLEYLT
 AEILELAGNAARDNKKTRIIPRHLQLAVRNDEELNKLLGGVTIAQGGVLPNIQAVLLPKK
 TES-HKPGKNK-
->Homo|NP_254280.1|cH2A.11_(Homo_sapiens) organism=Homo sapiens phylum=Chordata class=Mammalia
+>cH2A.11_(Homo_sapiens)_Homo_sapiens_NP_254280.1 organism=Homo sapiens phylum=Chordata class=Mammalia
 MSGRGKQGGKARAKAKSRSSRAGLQFPVGRVHRLLRKGNYSERVGAGAPVYLAAVLEYLT
 AEILELAGNAARDNKKTRIIPRHLQLAIRNDEELNKLLGRVTIAQGGVLPNIQAVLLPKK
 TES-HHKAKGK-
->Homo|NP_734466.1|cH2A.1_(Homo_sapiens) organism=Homo sapiens phylum=Chordata class=Mammalia
+>cH2A.1_(Homo_sapiens)_Homo_sapiens_NP_734466.1 organism=Homo sapiens phylum=Chordata class=Mammalia
 MSGRGKQGGKARAKSKSRSSRAGLQFPVGRIHRLLRKGNYAERIGAGAPVYLAAVLEYLT
 AEILELAGNASRDNKKTRIIPRHLQLAIRNDEELNKLLGGVTIAQGGVLPNIQAVLLPKK
 TESHHHKAQSK-
->Homo|NP_003504.2|cH2A.2_(Homo_sapiens) organism=Homo sapiens phylum=Chordata class=Mammalia
+>cH2A.2_(Homo_sapiens)_Homo_sapiens_NP_003504.2 organism=Homo sapiens phylum=Chordata class=Mammalia
 MSGRGKQGGKARAKAKTRSSRAGLQFPVGRVHRLLRKGNYSERVGAGAPVYLAAVLEYLT
 AEILELAGNAARDNKKTRIIPRHLQLAIRNDEELNKLLGRVTIAQGGVLPNIQAVLLPKK
 TES-HHKAKGK-
->Homo|NP_066390.1|cH2A.2_(Homo_sapiens) organism=Homo sapiens phylum=Chordata class=Mammalia
+>cH2A.2_(Homo_sapiens)_Homo_sapiens_NP_066390.1 organism=Homo sapiens phylum=Chordata class=Mammalia
 MSGRGKQGGKARAKAKTRSSRAGLQFPVGRVHRLLRKGNYSERVGAGAPVYLAAVLEYLT
 AEILELAGNAARDNKKTRIIPRHLQLAIRNDEELNKLLGRVTIAQGGVLPNIQAVLLPKK
 TES-HHKAKGK-
->Homo|NP_003503.1|cH2A.3_(Homo_sapiens) organism=Homo sapiens phylum=Chordata class=Mammalia
+>cH2A.3_(Homo_sapiens)_Homo_sapiens_NP_003503.1 organism=Homo sapiens phylum=Chordata class=Mammalia
 MSGRGKQGGKARAKAKSRSSRAGLQFPVGRVHRLLRKGNYAERVGAGAPVYLAAVLEYLT
 AEILELAGNAARDNKKTRIIPRHLQLAIRNDEELNKLLGRVTIAQGGVLPNIQAVLLPKK
 TES-HHKAKGK-
->Homo|NP_066409.1|cH2A.4_(Homo_sapiens) organism=Homo sapiens phylum=Chordata class=Mammalia
+>cH2A.4_(Homo_sapiens)_Homo_sapiens_NP_066409.1 organism=Homo sapiens phylum=Chordata class=Mammalia
 MSGRGKQGGKARAKAKTRSSRAGLQFPVGRVHRLLRKGNYSERVGAGAPVYLAAVLEYLT
 AEILELAGNAARDNKKTRIIPRHLQLAIRNDEELNKLLGKVTIAQGGVLPNIQAVLLPKK
 TES-HHKAKGK-
->Homo|NP_003500.1|cH2A.5_(Homo_sapiens) organism=Homo sapiens phylum=Chordata class=Mammalia
+>cH2A.5_(Homo_sapiens)_Homo_sapiens_NP_003500.1 organism=Homo sapiens phylum=Chordata class=Mammalia
 MSGRGKQGGKARAKAKTRSSRAGLQFPVGRVHRLLRKGNYAERVGAGAPVYLAAVLEYLT
 AEILELAGNAARDNKKTRIIPRHLQLAIRNDEELNKLLGKVTIAQGGVLPNIQAVLLPKK
 TES-HHKAKGK-
->Homo|NP_003501.1|cH2A.5_(Homo_sapiens) organism=Homo sapiens phylum=Chordata class=Mammalia
+>cH2A.5_(Homo_sapiens)_Homo_sapiens_NP_003501.1 organism=Homo sapiens phylum=Chordata class=Mammalia
 MSGRGKQGGKARAKAKTRSSRAGLQFPVGRVHRLLRKGNYAERVGAGAPVYLAAVLEYLT
 AEILELAGNAARDNKKTRIIPRHLQLAIRNDEELNKLLGKVTIAQGGVLPNIQAVLLPKK
 TES-HHKAKGK-
->Homo|NP_003502.1|cH2A.5_(Homo_sapiens) organism=Homo sapiens phylum=Chordata class=Mammalia
+>cH2A.5_(Homo_sapiens)_Homo_sapiens_NP_003502.1 organism=Homo sapiens phylum=Chordata class=Mammalia
 MSGRGKQGGKARAKAKTRSSRAGLQFPVGRVHRLLRKGNYAERVGAGAPVYLAAVLEYLT
 AEILELAGNAARDNKKTRIIPRHLQLAIRNDEELNKLLGKVTIAQGGVLPNIQAVLLPKK
 TES-HHKAKGK-
->Homo|NP_003505.1|cH2A.5_(Homo_sapiens) organism=Homo sapiens phylum=Chordata class=Mammalia
+>cH2A.5_(Homo_sapiens)_Homo_sapiens_NP_003505.1 organism=Homo sapiens phylum=Chordata class=Mammalia
 MSGRGKQGGKARAKAKTRSSRAGLQFPVGRVHRLLRKGNYAERVGAGAPVYLAAVLEYLT
 AEILELAGNAARDNKKTRIIPRHLQLAIRNDEELNKLLGKVTIAQGGVLPNIQAVLLPKK
 TES-HHKAKGK-
->Homo|NP_066408.1|cH2A.5_(Homo_sapiens) organism=Homo sapiens phylum=Chordata class=Mammalia
+>cH2A.5_(Homo_sapiens)_Homo_sapiens_NP_066408.1 organism=Homo sapiens phylum=Chordata class=Mammalia
 MSGRGKQGGKARAKAKTRSSRAGLQFPVGRVHRLLRKGNYAERVGAGAPVYLAAVLEYLT
 AEILELAGNAARDNKKTRIIPRHLQLAIRNDEELNKLLGKVTIAQGGVLPNIQAVLLPKK
 TES-HHKAKGK-
->Homo|NP_542163.1|cH2A.6_(Homo_sapiens) organism=Homo sapiens phylum=Chordata class=Mammalia
+>cH2A.6_(Homo_sapiens)_Homo_sapiens_NP_542163.1 organism=Homo sapiens phylum=Chordata class=Mammalia
 MSGRGKQGGKARAKAKTRSSRAGLQFPVGRVHRLLRKGNYAERVGAGAPVYLAAVLEYLT
 AEILELAGNAARDNKKTRIIPRHLQLAIRNDEELNKLLGKVTIAQGGVLPNIQAVLLPKK
 TES-HHKAK---
->Homo|NP_066544.1|cH2A.7_(Homo_sapiens) organism=Homo sapiens phylum=Chordata class=Mammalia
+>cH2A.7_(Homo_sapiens)_Homo_sapiens_NP_066544.1 organism=Homo sapiens phylum=Chordata class=Mammalia
 MSGRGKQGGKARAKAKTRSSRAGLQFPVGRVHRLLRKGNYAERVGAGAPVYLAAVLEYLT
 AEILELAGNAARDNKKTRIIPRHLQLAIRNDEELNKLLGKVTIAQGGVLPNIQAVLLPKK
 TES-HHKTK---
->Homo|NP_001035807.1|cH2A.8_(Homo_sapiens) organism=Homo sapiens phylum=Chordata class=Mammalia
+>cH2A.8_(Homo_sapiens)_Homo_sapiens_NP_001035807.1 organism=Homo sapiens phylum=Chordata class=Mammalia
 MSGRGKQGGKARAKAKSRSSRAGLQFPVGRVHRLLRKGNYAERVGAGAPVYMAAVLEYLT
 AEILELAGNAARDNKKTRIIPRHLQLAIRNDEELNKLLGKVTIAQGGVLPNIQAVLLPKK
 TES-HHKAKGK-
->Homo|NP_003507.1|cH2A.8_(Homo_sapiens) organism=Homo sapiens phylum=Chordata class=Mammalia
+>cH2A.8_(Homo_sapiens)_Homo_sapiens_NP_003507.1 organism=Homo sapiens phylum=Chordata class=Mammalia
 MSGRGKQGGKARAKAKSRSSRAGLQFPVGRVHRLLRKGNYAERVGAGAPVYMAAVLEYLT
 AEILELAGNAARDNKKTRIIPRHLQLAIRNDEELNKLLGKVTIAQGGVLPNIQAVLLPKK
 TES-HHKAKGK-
->Homo|NP_003508.1|cH2A.9_(Homo_sapiens) organism=Homo sapiens phylum=Chordata class=Mammalia
+>cH2A.9_(Homo_sapiens)_Homo_sapiens_NP_003508.1 organism=Homo sapiens phylum=Chordata class=Mammalia
 MSGRGKQGGKARAKAKSRSSRAGLQFPVGRVHRLLRKGNYAERVGAGAPVYMAAVLEYLT
 AEILELAGNAARDNKKTRIIPRHLQLAIRNDEELNKLLGKVTIAQGGVLPNIQAVLLPKK
 TES--HKAKSK-
->Mus|NP_783589.1|cH2A.1_(Mus_musculus) organism=Mus musculus phylum=Chordata class=Mammalia
+>cH2A.1_(Mus_musculus)_Mus_musculus_NP_783589.1 organism=Mus musculus phylum=Chordata class=Mammalia
 MSGPTKRGGKARAKVKSRSSRAGLQFPVGRVHRLLRQGNYAQRIGAGAPVYLAAVLEYLT
 AEVLELAGNAARDNKKTRITPRHLQLAIRNDEELNKLLGRVTIAQGGVLPNIQAVLLPKK
 TES--HKSQTK-

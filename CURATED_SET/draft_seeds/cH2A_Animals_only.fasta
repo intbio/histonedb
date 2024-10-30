@@ -1,20 +1,20 @@
->Ixodes|EEC09557.1|cH2A_(Animals) organism=Ixodes scapularis phylum=Arthropoda class=Arachnida
+>cH2A_(Animals)_Ixodes_scapularis_EEC09557.1 organism=Ixodes scapularis phylum=Arthropoda class=Arachnida
 MSGRGKGGKVK--GKSKTRSSRAGLQFPVGRIHRLLRKGNYAERVGAGAPVYLAAVLEYL
 AAEVLELAGNAARDNKKTRIIPRHLQLAIRNDEELNKLLSGVTIAQGGVLPNIQAVLLPK
 KTEKKS--
->Apis|XP_001119899.1|cH2A_(Animals) organism=Apis mellifera phylum=Arthropoda class=Insecta
+>cH2A_(Animals)_Apis_mellifera_XP_001119899.1 organism=Apis mellifera phylum=Arthropoda class=Insecta
 MSGRGKGGKAK--AKAKSRSNRAGLQFPVGRIHRLLRKGNYAERVGAGAPVYLAAVMEYL
 AAEVLELAGNAARDNKKTRIIPRHLQLAIRNDEELNKLLSGVTIAQGGVLPNIQAVLLPK
 KTEKKA--
->Drosophila|NP_724343.1|cH2A_(Animals) organism=Drosophila melanogaster phylum=Arthropoda class=Insecta
+>cH2A_(Animals)_Drosophila_melanogaster_NP_724343.1 organism=Drosophila melanogaster phylum=Arthropoda class=Insecta
 MSGRGKGGKVK--GKAKSRSNRAGLQFPVGRIHRLLRKGNYAERVGAGAPVYLAAVMEYL
 AAEVLELAGNAARDNKKTRIIPRHLQLAIRNDEELNKLLSGVTIAQGGVLPNIQAVLLPK
 KTEKKA--
->Nematostella|EDO48405.1|cH2A_(Animals) organism=Nematostella vectensis phylum=Cnidaria class=Anthozoa
+>cH2A_(Animals)_Nematostella_vectensis_EDO48405.1 organism=Nematostella vectensis phylum=Cnidaria class=Anthozoa
 MSGRGKGKAKG--TKSKTRSSRAGLQFPVGRIHRHLRKGNYAERVGAGAPVYMAAVLEYL
 SAEILELAGNAARDNKKTRIIPRHLQLAVRNDEELNRLLHGVTIAQGGVLPNIQAVLLPK
 KTEKKAKA
->Caenorhabditis|NP_505463.1|cH2A_(Animals) organism=Caenorhabditis elegans phylum=Nematoda class=Chromadorea
+>cH2A_(Animals)_Caenorhabditis_elegans_NP_505463.1 organism=Caenorhabditis elegans phylum=Nematoda class=Chromadorea
 MSGRGKGGKAKTGGKAKSRSSRAGLQFPVGRLHRILRKGNYAQRVGAGAPVYLAAVLEYL
 AAEVLELAGNAARDNKKTRIAPRHLQLAVRNDEELNKLLAGVTIAQGGVLPNIQAVLLPK
 KTAGDKE-

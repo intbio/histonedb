@@ -1,80 +1,80 @@
->Latimeria|XP_006007163.1|H2B.K organism=Latimeria chalumnae phylum=Chordata class=
+>H2B.K_Latimeria_chalumnae_XP_006007163.1 organism=Latimeria chalumnae phylum=Chordata class=
 -------------------MTNDPGK-----------------KKSK--NPGEKKSSKKK
 AKRRETYSVYIYKVLKQVHPDTGISSKAMSIMNSFVNDVFERIATEASRLAQYNKRSTIT
 SREVQTAVRLLLPGELAKHAVSEGTKAVTKYTSSK
->Danio|NP_001002724.1|H2B.K organism=Danio rerio phylum=Chordata class=Actinopteri
+>H2B.K_Danio_rerio_NP_001002724.1 organism=Danio rerio phylum=Chordata class=Actinopteri
 -------------------MSNEGAK-----------------KKGK--APGDKKGSKRK
 SKRRETYAVYIYKVLKQVHPDTGISSRAMSIMNSFVNDVFERIATEASRLAHYNKRSTIT
 SREVQTAVRLLLPGELAKHAVSEGTKAVTKYTSSK
->Gallus|XP_423715.4|H2B.K organism=Gallus gallus phylum=Chordata class=Aves
+>H2B.K_Gallus_gallus_XP_423715.4 organism=Gallus gallus phylum=Chordata class=Aves
 -------------------MSAESGR-----------------MRGHPSSSGDKK-SKRK
 PKRKETYSVYIYKVLKQVHPDTGISSKAMSIMNSFVNDIFERLAVEASRLAQYNHRSTIT
 SREVQTAVRLLLPGELAKHAVSEGTKAVTKYTSSK
->Taeniopygia|XP_002190629.1|H2B.K organism=Taeniopygia guttata phylum=Chordata class=Aves
+>H2B.K_Taeniopygia_guttata_XP_002190629.1 organism=Taeniopygia guttata phylum=Chordata class=Aves
 -------------------MSSERLK-----------------KRGHAVASGKKS-SKRK
 PKRKEAFSVYIYKVLKQVHPDLAISSKAMSIMNSFVNDMLERLAAEASRLARYRCHTTVS
 SREVQAAARQLLPGQLAQHAVSEGTKAVTKYTTSK
->Ailuropoda|XP_019651116.1|H2B.K organism=Ailuropoda melanoleuca phylum=Chordata class=Mammalia
+>H2B.K_Ailuropoda_melanoleuca_XP_019651116.1 organism=Ailuropoda melanoleuca phylum=Chordata class=Mammalia
 -------------------MSAEHGRQQQP-----------GGRRGR--SSGDKK-SRKR
 SRRKETYSMYIYKVLKQVHPDIGISSKAMSIMNSFVNDVFERLAGEAARLAQYSGRTTLT
 SREVQTAVRLLLPGELAKHAVSEGTKAVTKYTSSK
->Bos|XP_010799227.1|H2B.K organism=Bos taurus phylum=Chordata class=Mammalia
+>H2B.K_Bos_taurus_XP_010799227.1 organism=Bos taurus phylum=Chordata class=Mammalia
 -------------------MSAEHGQLQQS-----------GGRRGR--SPGDKK-SRRR
 SRRKETYSMYIYKVLKQVHPDIGISSKAMSIVNLFVNDLFERLAGKAAWLAQYSGRTTLT
 SREVQTAVRLLLPGELAKHAVSEGTKAVTKYTSSK
->Bos|XP_024846715.1|H2B.K organism=Bos taurus phylum=Chordata class=Mammalia
+>H2B.K_Bos_taurus_XP_024846715.1 organism=Bos taurus phylum=Chordata class=Mammalia
 -------------------MSAEHGQLQQS-----------GGRRGR--SPGDKK-SRRR
 SRRKETYSMYIYKVLKQVHPDIGISSKAMSIMNSFVNDLFERLAGEAARLAQYSGRTTLT
 SREVQTAVRLLLPGELAKHAVSEGTKAVTKYTSSK
->Bos|XP_059747847.1|H2B.K organism=Bos taurus phylum=Chordata class=Mammalia
+>H2B.K_Bos_taurus_XP_059747847.1 organism=Bos taurus phylum=Chordata class=Mammalia
 MMDTRSSKLVCHNILRTRRMSAEHGQLQQS-----------GGRRGR--SPGDKK-SRRR
 SRRKETYSMYIYKVLKQVHPDIGISSKAMSIMNSFVNDLFERLAGEAARLAQYSGRTTLT
 SREVQTAVRLLLPGELAKHAVSEGTKAVTKYTSSK
->Canis|HISTDB_H2B_K_1|H2B.K organism=Canis lupus familiaris phylum=Chordata class=Mammalia
+>H2B.K_Canis_lupus_familiaris_HISTDB_H2B_K_1 organism=Canis lupus familiaris phylum=Chordata class=Mammalia
 -------------------MGTEHGQQPQS-----------GGRRGH--GSGDKK-SKKH
 SRRKETYSMYIYKVLKQVHPDIGIFSKAMSIMNSFVNDVFERLAGKAAQLAQYLGQTTLT
 SWEVQTAVRWLLPGELAKHAISEGTKAITKYTGSK
->Canis|XP_022259586.1|H2B.K organism=Canis lupus familiaris phylum=Chordata class=Mammalia
+>H2B.K_Canis_lupus_familiaris_XP_022259586.1 organism=Canis lupus familiaris phylum=Chordata class=Mammalia
 -------------------MGAEHGQQPQS-----------GGRRGR--GSGDKK-SKKR
 SRRKETYSMYIYKVLKQVHPDIGISSKAMSIMNSFVNDVFERLAGEAARLAQYSGRTTLT
 SREVQTAVRLLLPGELAKHAVSEGTKAVTKYTSSK
->Ceratotherium|XP_014643104.1|H2B.K organism=Ceratotherium simum simum phylum=Chordata class=Mammalia
+>H2B.K_Ceratotherium_simum_simum_XP_014643104.1 organism=Ceratotherium simum simum phylum=Chordata class=Mammalia
 -------------------MSTEHGQQHHP-----------GGRRGC--SPGDKK-FKKR
 SRRKETYSMYIYKVLKQVHPDIGISSKAMSIMNSFVNDVFERLAGEAARLAQYSGRTTLT
 SREVQTAVRLLLPGELAKHAVSEGTKAVTKYTSSK
->Equus|XP_005609614.1|H2B.K organism=Equus caballus phylum=Chordata class=Mammalia
+>H2B.K_Equus_caballus_XP_005609614.1 organism=Equus caballus phylum=Chordata class=Mammalia
 -------------------MSTEHGQQHQS-----------GGRRGC--SSGDKK-SKKR
 SRRKETYSMYIYKVLKQVHPDIGISSKAMSIMNSFVNDVFERLAGEAAQLAQYSGRTTLT
 SREVQTAVRLLLPGELAKHAVSEGTKAVTKYTSSK
->Felis|XP_019681595.1|H2B.K organism=Felis catus phylum=Chordata class=Mammalia
+>H2B.K_Felis_catus_XP_019681595.1 organism=Felis catus phylum=Chordata class=Mammalia
 -------------------MSAEHGQQQQS-----------GGRRGR--SSGDKK-SKKR
 SRRKETYSMYIYKVLKQVHPDIGISSKAMSIMNSFVNDVFERLAGEAARLAQYSGRTTLT
 SREVQTAVRLLLPGELAKHAVSEGTKAVTKYTSSK
->Loxodonta|XP_023403847.1|H2B.K organism=Loxodonta africana phylum=Chordata class=Mammalia
+>H2B.K_Loxodonta_africana_XP_023403847.1 organism=Loxodonta africana phylum=Chordata class=Mammalia
 -------------------MSAELGQQQQQ--------QQSGGQRGR--SSGDKK-PKKR
 SRRKENYSVYIYKVLKQVHPDISISSKAMSIMNSFVNDVFERLAGEATRLAQYSGRTTLT
 SREVQTAARLLLPGELAKHAVSEGTKAVTKYISSK
->Ornithorhynchus|HISTDB_H2B_K_2|H2B.K organism=Ornithorhynchus anatinus phylum=Chordata class=Mammalia
+>H2B.K_Ornithorhynchus_anatinus_HISTDB_H2B_K_2 organism=Ornithorhynchus anatinus phylum=Chordata class=Mammalia
 -------------------MSPEGGQQQQQ------------QPRPR--ARGDRR-PKRR
 TRRKETYSVYIYKVLKQVHPDTGISSKAMSIMNSFVNDVFEQLAGEAARLAQYLGRSTLT
 SREVQTAVRLLLPGELAKHAVSEGTKAVTKYTSSK
->Oryctolagus|XP_002715119.2|H2B.K organism=Oryctolagus cuniculus phylum=Chordata class=Mammalia
+>H2B.K_Oryctolagus_cuniculus_XP_002715119.2 organism=Oryctolagus cuniculus phylum=Chordata class=Mammalia
 -------------------MSAERGQQQQQ----------ASSRRGR--SSGNKK-SRKR
 SKRKETYSMYIYKVLKQVHPDIGISARAMSIMNSFVNDVFERLAGEAAQLAQYSGRSTLT
 SREVQTAVRLLLPGELAKHAVSEGTKAVTKYTSSK
->Ovis|HISTDB_H2B_K_0|H2B.K organism=Ovis aries phylum=Chordata class=Mammalia
+>H2B.K_Ovis_aries_HISTDB_H2B_K_0 organism=Ovis aries phylum=Chordata class=Mammalia
 -------------------MSAEHGQLQQA-----------GGRRGR--SPGDKK-SRRR
 SRRKETYSMYIYKVLKQVHPDIGISSKAMSIMNSFVNDLFERLAGEAARLAQYSGRTTLT
 SREVQTAVRLLLPGELAKHAVSEGTKAVTKYTSSK
->Ovis|XP_027824938.1|H2B.K organism=Ovis aries phylum=Chordata class=Mammalia
+>H2B.K_Ovis_aries_XP_027824938.1 organism=Ovis aries phylum=Chordata class=Mammalia
 -------------------MSAEHGQLQQS-----------GGRRGR--SPGDKK-SRRR
 SRRKETYSMYIYKVLKQVHPDIGISSKAMSIMNSFVNDLFERLAGEAARLAQYSGRTTLT
 SREVQTAVRLLLPGELAKHAVSEGTKAVTKYTSSK
->Sus|XP_013846203.1|H2B.K organism=Sus scrofa phylum=Chordata class=Mammalia
+>H2B.K_Sus_scrofa_XP_013846203.1 organism=Sus scrofa phylum=Chordata class=Mammalia
 -------------------MSSAHGQQQQQQQQQQQQQQQGGGRRGR--SSGEKK-SKKR
 NRRKETYSMYIYKVLKQVHPDIGISSKAMSIMNSFVNDVFERLAGEAARLAQYSGRTTLT
 SREVQTAVRLLLPGELAKHAVSEGTKAVTKYTSSK
->Homo|NP_001356054.2|H2B.K_(Homo_sapiens) organism=Homo sapiens phylum=Chordata class=Mammalia
+>H2B.K_(Homo_sapiens)_Homo_sapiens_NP_001356054.2 organism=Homo sapiens phylum=Chordata class=Mammalia
 -------------------MSAEYGQRQQP-----------GGRGGR--SSGNKK-SKKR
 CRRKESYSMYIYKVLKQVHPDIGISAKAMSIMNSFVNDVFEQLACEAARLAQYSGRTTLT
 SREVQTAVRLLLPGELAKHAVSEGTKAVTKYTSSK

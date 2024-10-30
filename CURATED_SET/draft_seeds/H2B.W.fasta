@@ -1,34 +1,34 @@
->Ailuropoda|XP_002925981.1|H2B.W organism=Ailuropoda melanoleuca phylum=Chordata class=Mammalia
+>H2B.W_Ailuropoda_melanoleuca_XP_002925981.1 organism=Ailuropoda melanoleuca phylum=Chordata class=Mammalia
 -------------------------------------------------------MAEPG
 CETSSEESLGTEEPSAANPKSPKQKQKQPR---------RQCRRRCR---RCP-----NS
 FATYFPRVLKQVHEGLSLSKKAVSVMDSFLKDIFEHIADEAAHLARSTKGSNKHSTINSR
 EIQTAVRLLLPGEIGKHTVSKATKAVIRFQ--------------RCE
->Bos|DAA13058.1|H2B.W organism=Bos taurus phylum=Chordata class=Mammalia
+>H2B.W_Bos_taurus_DAA13058.1 organism=Bos taurus phylum=Chordata class=Mammalia
 -------MGIGGSILSETSSDSYEEDVITKETGISEIEPSEKEMAKVETSKPDPYDAEPI
 KVETSKPDPYDAEPKKAETSKPDPYDAEPKKAKQKTAKGRRRRRHCH---HDS----FSS
 FATYFPRVLRQIHKGMSLSHDSVNILDSFVKDTFERIAEEAGRLAGDN----KRRTITTE
 DIEAAVRLLLPGKLGKYAVLKATKSLITYR--------------TCK
->Canis|XP_548517.2|H2B.W organism=Canis lupus familiaris phylum=Chordata class=Mammalia
+>H2B.W_Canis_lupus_familiaris_XP_548517.2 organism=Canis lupus familiaris phylum=Chordata class=Mammalia
 MIPGKPEEGKGSSEGPICDTEVACDVRKCSDYKGASAPQQPPLSVLLSCWEGEPHMAEPG
 CETSSEECLGTKEPREAEPETP--KRKKPR---------RQCHRRCR---RSR----SDS
 FAIYFPRVLKQVDEGLSLSQKAVSIMDSFVKDIFERIADEASRLARST----KRSTITSR
 EIQTAVRLLLPGEIGKYAVSEATKALMRNQVGALEKQVKNVLSLGCG
->Macaca|NP_001180847.1|H2B.W organism=Macaca mulatta phylum=Chordata class=Mammalia
+>H2B.W_Macaca_mulatta_NP_001180847.1 organism=Macaca mulatta phylum=Chordata class=Mammalia
 ---------MLRTQVPPLLRSTTAIVWSCRVMAAASA------------------MAEPS
 SETTSEEQLITQEPKEANSTMAQKQSKQRK---------RGRRGPCRCHANCR----GDS
 FATYFRRVLKQVHQGLSLSREAVSVMDSLVHDILDRIATEAGRLARST----KRQTITAW
 ETRIAVRLLLPGEMGKLAESEGTKAVLRTSLYAVQQ--------QRK
->Oryctolagus|XP_002720211.1|H2B.W organism=Oryctolagus cuniculus phylum=Chordata class=Mammalia
+>H2B.W_Oryctolagus_cuniculus_XP_002720211.1 organism=Oryctolagus cuniculus phylum=Chordata class=Mammalia
 -------------------------------------------------------MAEPA
 SHVASEENL-SLEPKTTASSTP--KEKQPR---------RRRRRR-----QGH----NYS
 FASYFPKVLKHVHKGLSLSKEAKGVMDSIVRDVFERIAHEAASLVRYS----KHSTLTSR
 DVQSAVRLLLPGQLHKHADVEGTKALLKFI--------------THP
->Homo|NP_001002916.4|H2B.W.1_(Homo_sapiens) organism=Homo sapiens phylum=Chordata class=Mammalia
+>H2B.W.1_(Homo_sapiens)_Homo_sapiens_NP_001002916.4 organism=Homo sapiens phylum=Chordata class=Mammalia
 -------------------------------------------------------MAGPS
 SETTSEEQLITQEPKEANSTTSQKQSKQRK---------RGRHGPRRCHSNCR----GDS
 FATYFRRVLKQVHQGLSLSREAVSVMDSLVHDILDRIATEAGHLARST----KRQTITAW
 ETRMAVRLLLPGQMGKLAESEGTKAVLRTSLYAIQQ--------QRK
->Homo|NP_001375393.1|H2B.W.2_(Homo_sapiens) organism=Homo sapiens phylum=Chordata class=Mammalia
+>H2B.W.2_(Homo_sapiens)_Homo_sapiens_NP_001375393.1 organism=Homo sapiens phylum=Chordata class=Mammalia
 -------------------------------------------------------MAEAS
 SETTSEEGQSIQEPKEANSTKAQ---KQKR---------RGCRGSRRRHANRRGDSFGDS
 FTPYFPRVLKQVHQGLSLSQEAVSVMDSMIHDILDRIATEAGQLAHYT----KRVTITSR

@@ -1,16 +1,16 @@
->Drosophila|NP_724342.1|cH2B_(Animals) organism=Drosophila melanogaster phylum=Arthropoda class=Insecta
+>cH2B_(Animals)_Drosophila_melanogaster_NP_724342.1 organism=Drosophila melanogaster phylum=Arthropoda class=Insecta
 -MP-PKTSGKAAKKAGKAQKNITKTDKKKKRKRKESYAIYIYKVLKQVHPDTGISSKAMS
 IMNSFVNDIFERIAAEASRLAHYNKRSTITSREIQTAVRLLLPGELAKHAVSEGTKAVTK
 YTSSK
->Psammechinus|AAA30025.1|cH2B_(Animals) organism=Psammechinus miliaris phylum=Echinodermata class=Echinoidea
+>cH2B_(Animals)_Psammechinus_miliaris_AAA30025.1 organism=Psammechinus miliaris phylum=Echinodermata class=Echinoidea
 MAPTAQVAKKGSKKAVKAPR--PSGGKKRNRKRKESYGIYIYKVLKQVHPDTGISSRAMI
 IMNSFVNDIFERIAGESSRLAQYNKKSTISSREIQTAVRLILPGELAKHAVSEGTKAVTK
 YTTSK
->Strongylocentrotus|NP_999710.2|cH2B_(Animals) organism=Strongylocentrotus purpuratus phylum=Echinodermata class=Echinoidea
+>cH2B_(Animals)_Strongylocentrotus_purpuratus_NP_999710.2 organism=Strongylocentrotus purpuratus phylum=Echinodermata class=Echinoidea
 MAPTAQVAKKGSKKAVKGTKT-AXGGKKRNRKRKESYGIYIYKVLKQVHPDTGISSRAMV
 IMNSXVBDIFERIAGESSRLAQYNKKXTXSSREIQTAVRLILPGELAKHAVSEGTKAVTK
 YTTSK
->Caenorhabditis|NP_505464.1|cH2B_(Animals) organism=Caenorhabditis elegans phylum=Nematoda class=Chromadorea
+>cH2B_(Animals)_Caenorhabditis_elegans_NP_505464.1 organism=Caenorhabditis elegans phylum=Nematoda class=Chromadorea
 MAP-PKPSAKGAKKAAKTVSK-PKDGKKRKHARKESYSVYIYRVLKQVHPDTGVSSKAMS
 IMNSFVNDVFERIASEASRLAHYNKRSTISSREIQTAVRLILPGELAKHAVSEGTKAVTK
 YTSSK

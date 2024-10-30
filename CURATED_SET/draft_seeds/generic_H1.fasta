@@ -1,4 +1,4 @@
->Drosophila|AAZ66580.1|generic_H1 organism=Drosophila melanogaster phylum=Arthropoda class=Insecta
+>generic_H1_Drosophila_melanogaster_AAZ66580.1 organism=Drosophila melanogaster phylum=Arthropoda class=Insecta
 ---------MSDSAVATSASPVAAPPATV------------------EKKVVQKKASGSA
 GTKAKKASAT--PSHPP------------------------TQQMVDASIKNLKERGGSS
 LLAIKKYITATYK--CDAQKLAPFIKKYLKSAVVNGKLIQ---TKGKGASGSFKLS---A
@@ -6,7 +6,7 @@ SAKKEKDPKAKSKVLSAEKKVQSKK-VASKKIGVSSKKTAVGAADKK---PKAKKAVATK
 KTAENKKTEKAKA--KDAKKTGIIKS-----------------KPAA---TKAKVTAAKP
 KA-----------VVAKASKAKPAVSA-----------KPKKTVKKASVSATAKKPKAKT
 TAAKK
->Drosophila|NP_650383.2|generic_H1 organism=Drosophila melanogaster phylum=Arthropoda class=Insecta
+>generic_H1_Drosophila_melanogaster_NP_650383.2 organism=Drosophila melanogaster phylum=Arthropoda class=Insecta
 MKLKPVERNDGSDDESEEEMPNDHPESEDSNMGEEEELPEEDEEEMEEDEEEDRQDGDEV
 ETDNLGADRNPYPTPPPDDGSKLVPPDSDNPKSMVPKPKGTLISLALMAIGKLASRSGSS
 VQAIMTYLKDNGQEWKDPKKTARLLHRALKLAEANGEVVM---VKRS-----FKLTDKQK
@@ -14,7 +14,7 @@ NSSKAVEKMKAKKQKEKEKKAKVEK-VLKEKIQKKEAKAKMKEKKASKEKSSKPTERKTK
 QAVKKKKPEDGTKDNPPASKAASSAAAQAMLETSQTAIPEAGKKPAK---TKVKLQADSS
 EAGKTKKSRKSIGTLAQPKAARPKVKAVKKLVAGKGASTPDLSIMEAQATSTPQGATKAK
 RKRKV
->Xenopus|NP_001081535.1|generic_H1 organism=Xenopus laevis phylum=Chordata class=Amphibia
+>generic_H1_Xenopus_laevis_NP_001081535.1 organism=Xenopus laevis phylum=Chordata class=Amphibia
 ---------------MAPKKAVAAPEGGNK-----------------ENAAVKGSSKVKV
 KRKSIKLVKT--QSHPP------------------------TLSMVVEVLKKNTERKGTS
 VQAIRTRILSAHPT-VDPLRLKFLLRTALNKGLEKGILIRPLNSSATGATGRFKLAKPVK
@@ -22,7 +22,7 @@ TTKAGKENVASENVDPNAEQETQKK-APKKEKKAKTEKEPKGEKTKAVAKKAKEDSDEKP
 KVAKSKKAKEAKEVDKANKEAKEVDKANKEAKEVDKANKEV-KEVDK---APAKKPKAKT
 EAAKAE-------GGGKAKKEPPKAKA-----------KDVKAQKDSTDEGAPVKAGKKG
 KKVTN
->Gallus|XP_425456.1|generic_H1 organism=Gallus gallus phylum=Chordata class=Aves
+>generic_H1_Gallus_gallus_XP_425456.1 organism=Gallus gallus phylum=Chordata class=Aves
 ---------------MSETAPVAAPAVSAP---------------------GAKAAAKKP
 KKAAGGAKARK-PAGPS------------------------VTELITKAVSASKERKGLS
 LAALKKALAAGG---YDVEKNNSRIKLGLKSLVSKGTLVQ---TKGTGASGSFKLN---K
@@ -30,7 +30,7 @@ KPGETKEKATKKKPAAKPKKPA----AKKPAAAAKKPKKAA---------AVKKSPKKAK
 KPAAAA-TKKAAK--SPKKATKAGRP----------------KKTAK---SPAKAKAVKP
 KA-------------AKSKAAKPKAA------------KAKKAATKKK------------
 -----
->Bos|XP_010816821.1|generic_H1 organism=Bos taurus phylum=Chordata class=Mammalia
+>generic_H1_Bos_taurus_XP_010816821.1 organism=Bos taurus phylum=Chordata class=Mammalia
 ---------------MSEVAL-PAPAASTS-----------------PEKPSAGKKAKKP
 AKAAAAAKKK--PAGPS------------------------VSELIVQAVSSSKERSGVS
 LAALKKALAAAG---YDVEKNNSRIKLGLKSLVGKGTLVQ---TKGTGASGSFKLN---K
@@ -38,7 +38,7 @@ KVASVDAKPTATKVAT----------KTKVTSASKKPKKASGAAAAK---KSVKTPKKAR
 KSVLTKKSSK-----SPKKP-KAVKP----------------KKVAK---SPAKAKAVKP
 KG-------------AKVKVTKPKTAA-----------KPKKAAPKKK------------
 -----
->Mus|NP_056601.1|generic_H1 organism=Mus musculus phylum=Chordata class=Mammalia
+>generic_H1_Mus_musculus_NP_056601.1 organism=Mus musculus phylum=Chordata class=Mammalia
 ---------------MSEAAP-AAPAAAPP-----------------AEKAPAKKKAAKK
 ---PAGVRRK--ASGPP------------------------VSELITKAVAASKERSGVS
 LAALKKALAAAG---YDVEKNNSRIKLGLKSLVSKGILVQ---TKGTGASGSFKLN---K
@@ -46,7 +46,7 @@ KAASGEAKPQAKKAGA----AK----AKKPAGAAKKPKKATGAATPK--KAAKKTPKKAK
 KPAAAAVTKKVAK--SPKKA-KVTKP----------------KKVKS---A--------S
 KA-------------VKPKAAKPKVA------------KAKKVAAKKK------------
 -----
->Mus|NP_085112.1|generic_H1 organism=Mus musculus phylum=Chordata class=Mammalia
+>generic_H1_Mus_musculus_NP_085112.1 organism=Mus musculus phylum=Chordata class=Mammalia
 ---------------MSETAP-VAQAASTA-----------------TEKPAAAKKTKKP
 AK-AAAPRKK--PAGPS------------------------VSELIVQAVSSSKERSGVS
 LAALKKSLAAAG---YDVEKNNSRIKLGLKSLVNKGTLVQ---TKGTGAAGSFKLN----
@@ -54,7 +54,7 @@ LAALKKSLAAAG---YDVEKNNSRIKLGLKSLVNKGTLVQ---TKGTGAAGSFKLN----
 KPAVSKKTSK-----SPKKP-KVVKA----------------KKVAK---SPAKAKAVKP
 KA-------------SKAKVTKPKTPA-----------KPKKAAPKKK------------
 -----
->Rattus|NP_579819.1|generic_H1 organism=Rattus norvegicus phylum=Chordata class=Mammalia
+>generic_H1_Rattus_norvegicus_NP_579819.1 organism=Rattus norvegicus phylum=Chordata class=Mammalia
 ---------------MSETAP-AAPAAPAP-----------------AEKTPIKKKARKA
 ---AGGAKRK--ASGPP------------------------VSELITKAVAASKERSGVS
 LAALKKALAAAG---YDVEKNNSRIKLGLKSLVSKGTLVQ---TKGTGASGSFKLN---K
@@ -62,7 +62,7 @@ KAASGEAKPKAKKAGA----AK----AKKPAGAAKKPKKATGTATPK--KSTKKTPKKAK
 KPAAAAGAKKAK---SPKKA-KATKA----------------KKAPK---SPAKARAVKP
 KA-------------AKPKTSKPKAA------------KPKKTAAKKK------------
 -----
->Strongylocentrotus|NP_999714.1|generic_H1 organism=Strongylocentrotus purpuratus phylum=Echinodermata class=Echinoidea
+>generic_H1_Strongylocentrotus_purpuratus_NP_999714.1 organism=Strongylocentrotus purpuratus phylum=Echinodermata class=Echinoidea
 ---------------MAEKNS------------------------------SKKVTTKKP
 ------------AAHPP------------------------AAEMVATAITELKDRNGSS
 LQAIKKYIATNFD--VQMDRQLLFIKRALKSGVEKGKLVQ---TKGKGASGSFKVN---V
@@ -70,7 +70,7 @@ QAAKAQASEKAKKEKEKAKLLAQRE-KAKEKGCSEEGETAEGSRPKKVKAAPKKAKKPVK
 KTTEKKEKKKTPKK-APKKP-AAKKS-----------------TPKK---TPKKAAAKKP
 KT-------------AKPKKPAXKKAA-----------KSK-------------------
 -----
->Strongylocentrotus|NP_999720.1|generic_H1 organism=Strongylocentrotus purpuratus phylum=Echinodermata class=Echinoidea
+>generic_H1_Strongylocentrotus_purpuratus_NP_999720.1 organism=Strongylocentrotus purpuratus phylum=Echinodermata class=Echinoidea
 ---------------MSAAKP------------------------------KVAKKARVA
 ------------PAHPP------------------------SSQMVVAAVTALKERGGSS
 TQAIKKYIAANYT--VDMTKQGPFIRRALVKGVASGALVQ---TKGKGASGSFKL----G
@@ -78,7 +78,7 @@ KKKEGKSDAQKARIAAKKAKLAAKKKEQREKKALKTKARKEKVAAKKAAKKATKKTKKVK
 KPAAKKAKKPAAKKPAAKKP-AAKKA----------------KKPAKKVAKPAKKAAAKP
 ---------------AKKAAKPAKKAA-----------KPAKKAAKPAKK----------
 -----
->Caenorhabditis|O17536.3|generic_H1 organism=Caenorhabditis elegans phylum=Nematoda class=Chromadorea
+>generic_H1_Caenorhabditis_elegans_O17536.3 organism=Caenorhabditis elegans phylum=Nematoda class=Chromadorea
 ----MSDVAVAADTTETPAAPTKASKATKA-----------------SKATKASKATKAK
 TTKVPMVKAD--AAHPP------------------------FINMVTEAISSIKDRKGPS
 RAAILKYITTKYTLGDQANKINAHLRKALNKGLESNAFVQ---ASGNGANGRFRLAE--K
@@ -86,7 +86,7 @@ TASVAKSPAAAKKDATGEKKATT---TVAKKAATGEKKATTTVAKKAATGEKKATTTVAK
 KAAAGDKAKK-----TEVKVKKVKSP----------------KKIAK---SPVNKVTKSP
 VKKIA--------KSSSMKAAPKKAAA-----------KPAKKAPAAAPEA---------
 -----
->Arabidopsis|NP_172161.1|generic_H1 organism=Arabidopsis thaliana phylum=Streptophyta class=Magnoliopsida
+>generic_H1_Arabidopsis_thaliana_NP_172161.1 organism=Arabidopsis thaliana phylum=Streptophyta class=Magnoliopsida
 MSEVEIENAATIEGNTAADAPVTDAAVEKKPAAK-------------GRKTKNVKEVKEK
 KTVAAAPKKRTVSSHPT------------------------YEEMIKDAIVTLKERTGSS
 QYAIQKFIEEKRK--ELPPTFRKLLLLNLKRLVASGKLVK---VKAS-----FKLPSASA
@@ -94,7 +94,7 @@ KASSPKAAAEKSAPAKKKPATVAVT-KAKRKVAAASKAKKTIAVKPKTAAAKKVTAKAKA
 KPVPRATAAATKRKAVDAKPKAKARPAKA-------------AKTAK-VTSPAKKAVAAT
 KKVA---------TVATKKKTPVKKVV-----------KPKTVKSPAKRASSRVKK----
 -----
->Zea|P23444.2|generic_H1 organism=Zea mays phylum=Streptophyta class=Magnoliopsida
+>generic_H1_Zea_mays_P23444.2 organism=Zea mays phylum=Streptophyta class=Magnoliopsida
 -MATDVTETPAPLVDAAPEAPADAPAAPAA-----------------DANAAKAKKATAP
 KKRAS-------PTHLP------------------------YAEMVSEAITSLKERTGSS
 SYAIAKFVEDKHKA-KLPPNFRKLLNVQLKKLVAGGKLTK---VKNS-----YKLSSATK

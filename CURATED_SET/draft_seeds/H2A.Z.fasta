@@ -1,149 +1,149 @@
->Cryptosporidium|XP_626045.1|H2A.Z organism=Cryptosporidium parvum Iowa II phylum=Apicomplexa class=Conoidasida
+>H2A.Z_Cryptosporidium_parvum_Iowa_II_XP_626045.1 organism=Cryptosporidium parvum Iowa II phylum=Apicomplexa class=Conoidasida
 --------------------------------------------MDGATSSGKIGG----
 ----KV-GGKVGGKGKAGSGKGSKKQPTSRAARAGLQFPVGRIQRMLKHRIPGDCRVGST
 ASVYAAAILEYLTAEVLELA----GNASKDL-KVKRITPRHLQLAIRGDEELDSLIK--A
 TIAGGGVIPHIEKSL--MGKALIGKKGKKGNMSP------
->Toxoplasma|XP_002371743.1|H2A.Z organism=Toxoplasma gondii ME49 phylum=Apicomplexa class=Conoidasida
+>H2A.Z_Toxoplasma_gondii_ME49_XP_002371743.1 organism=Toxoplasma gondii ME49 phylum=Apicomplexa class=Conoidasida
 ---------------------------------------MDGAGKVGGKVGGKVGG----
 ----KVGGMGKGGKGKSGSGKG-KKAPLSRAARAGLQFPVGRVHRMLKSRISSEGRVGST
 AAVYASAILEYLTAEVLELA----GNASKDL-KVKRITPRHLQLAIRGDEELDTLIK--A
 TIAGGGVIPHIHKSL--MTKGPSTQPMKKAKK--------
->Drosophila|NP_524519.1|H2A.Z organism=Drosophila melanogaster phylum=Arthropoda class=Insecta
+>H2A.Z_Drosophila_melanogaster_NP_524519.1 organism=Drosophila melanogaster phylum=Arthropoda class=Insecta
 ------------------------------------------------MAGGKAGK----
 -----------------DSGKA-KAKAVSRSARAGLQFPVGRIHRHLKSRTTSHGRVGAT
 AAVYSAAILEYLTAEVLELA----GNASKDL-KVKRITPRHLQLAIRGDEELDSLIK--A
 TIAGGGVIPHIHKSL--IGKKEETVQDPQRKGNVILSQAY
->Saccharomyces|NP_014631.1|H2A.Z organism=Saccharomyces cerevisiae S288C phylum=Ascomycota class=Saccharomycetes
+>H2A.Z_Saccharomyces_cerevisiae_S288C_NP_014631.1 organism=Saccharomyces cerevisiae S288C phylum=Ascomycota class=Saccharomycetes
 --------------------------------------------MSGKAHGGKGKS----
 ----GA------------KDSG-SLRSQSSSARAGLQFPVGRIKRYLKRHATGRTRVGSK
 AAIYLTAVLEYLTAEVLELA----GNAAKDL-KVKRITPRHLQLAIRGDDELDSLIR--A
 TIASGGVLPHINKAL--LLKVEKKGSKK------------
->Schizosaccharomyces|NP_595630.3|H2A.Z organism=Schizosaccharomyces pombe phylum=Ascomycota class=Schizosaccharomycetes
+>H2A.Z_Schizosaccharomyces_pombe_NP_595630.3 organism=Schizosaccharomyces pombe phylum=Ascomycota class=Schizosaccharomycetes
 ------------------------------------------------MSGGGKGK----
 ----HV----GGKGGSKIGERG----QMSHSARAGLQFPVGRVRRFLKAKTQNNMRVGAK
 SAVYSAAVLEYLTAEVLELA----GNAAKDL-KVKRITPRHLQLAIRGDEELDTLIR--A
 TIAGGGVLPHINKQL--LIRTKEKYPEEEEII--------
->Tetrahymena|CAA33554.1|H2A.Z organism=Tetrahymena thermophila phylum=Ciliophora class=Oligohymenophorea
+>H2A.Z_Tetrahymena_thermophila_CAA33554.1 organism=Tetrahymena thermophila phylum=Ciliophora class=Oligohymenophorea
 ------------------------------------------------MAGGKGGK----
 -------GGKGGKGGKVGGAKN-KKTPQSRSYKAGLQFPVGRIHRFLKGRVSAKNRVGAT
 AAVYAAAILEYLTAEVLELA----GNASKDF-KVRRITPRHLLLAIRGDEELDILIK--A
 TIAGGGVIPHIHKAL--LGKHSTKNRSSAKTAEPR-----
->Nematostella|EDO46289.1|H2A.Z organism=Nematostella vectensis phylum=Cnidaria class=Anthozoa
+>H2A.Z_Nematostella_vectensis_EDO46289.1 organism=Nematostella vectensis phylum=Cnidaria class=Anthozoa
 ------------------------------------------------MAGGKAGK----
 ------------------DSKA-KAKAVSRSARAGLQFPVGRIHRHLKNRTTSHGRVGAT
 AAVYSAAILEYLTAEVLELA----GNASKDL-KVKRITPRHLQLAIRGDEELDSLIK--A
 TIAGGGVIPHIHKSL--IGKKGANKPT-------------
->Trypanosoma|XP_846259.1|H2A.Z organism=Trypanosoma brucei brucei TREU927 phylum=Euglenozoa class=Kinetoplastea
+>H2A.Z_Trypanosoma_brucei_brucei_TREU927_XP_846259.1 organism=Trypanosoma brucei brucei TREU927 phylum=Euglenozoa class=Kinetoplastea
 ---------------------MSLTGDDAVPQAPLVGGVAMSPEQASALTGGKLGGKAVG
 PAHGKGKGKGKGKRGGKTGGKAGRRDKMTRAARADLNFPVGRIHSRLKDGLNRKQRCGAS
 AAIYCAALLEYLTSEVIELA----GAAAKAQ-KTERIKPRHLLLAIRGDEELNQIVN--A
 TIARGGVVPFVHKSL--EKKIIKKSKRGS-----------
->Dictyostelium|XP_637656.1|H2A.Z organism=Dictyostelium discoideum AX4 phylum=Evosea class=Eumycetozoa
+>H2A.Z_Dictyostelium_discoideum_AX4_XP_637656.1 organism=Dictyostelium discoideum AX4 phylum=Evosea class=Eumycetozoa
 -------------------------------------------MTESETTSKKVNK----
 -----------------------RVKPVPKSTKAGLIFPVGRIHRMLKNKVPLK-RVSIL
 SSVYLAAILEYLASEVLELTISQVSIQSKEYHNVRRISPRHLLLAIKTDEELDNLIRVST
 TIAGGGVIPYIHEVLKKVEQKPTHPQQKQTIKSI------
->Perkinsus|XP_002776752.1|H2A.Z organism=Perkinsus marinus ATCC 50983 phylum=Perkinsozoa class=
+>H2A.Z_Perkinsus_marinus_ATCC_50983_XP_002776752.1 organism=Perkinsus marinus ATCC 50983 phylum=Perkinsozoa class=
 MSTRKQTDVSLPVPVVTQ-------------------LAGGKGIKGAGLQGGKGGK----
 ----GGKGAKVHGGKGKIGGKG---SSITRSARAGLQFPVGRVRRYLKDRATANCRVGST
 AAVYTAAILEYLTAEVLELA----GNAAKDQ-KVKRITPRHLHLAIRGDDELDVLIR--A
 TIAGGGVVPYIHQSL--TVKTPYHKKKRVM----------
->Perkinsus|XP_002784054.1|H2A.Z organism=Perkinsus marinus ATCC 50983 phylum=Perkinsozoa class=
+>H2A.Z_Perkinsus_marinus_ATCC_50983_XP_002784054.1 organism=Perkinsus marinus ATCC 50983 phylum=Perkinsozoa class=
 MSDLKKTDINKSVPVVTQ-------------------LAGGKGIKGAGLQGGKGGK----
 ----GGKGAKVHGGKGKMGGKG---ASMTRSARAGLQFPVGRVRRYLKDRATANCRVGST
 AAVYTAAILEYLTAEVLELA----GNAAKDQ-KVKRITPRHLHLAIRGDDELDVLIR--A
 TIAGGGVVPYIHQSL--TAKAPYHKKKRVM----------
->Perkinsus|XP_002784055.1|H2A.Z organism=Perkinsus marinus ATCC 50983 phylum=Perkinsozoa class=
+>H2A.Z_Perkinsus_marinus_ATCC_50983_XP_002784055.1 organism=Perkinsus marinus ATCC 50983 phylum=Perkinsozoa class=
 MSDLKKTDINKSVPVVTQLGRLLDVASLSTPSSSLFCLAGGKGIKGAGLQGGKGGK----
 ----GGKGAKVHGGKGKIGGKG---TSMTRSARAGLQFPVGRVRRYLKDRATANCRVGST
 AAVYTAAILEYLTAEVLELA----GNAAKDQ-KVKRITPRHLHLAIRGDDELDVLIR--A
 TIAGGGVVPYIHQSL--TAKAPYHKKKRVM----------
->Trichoplax|XP_002111498.1|H2A.Z organism=Trichoplax adhaerens phylum=Placozoa class=Uniplacotomia
+>H2A.Z_Trichoplax_adhaerens_XP_002111498.1 organism=Trichoplax adhaerens phylum=Placozoa class=Uniplacotomia
 ------------------------------------------------MAGGKAGK----
 ------------------DSKT-KAKAVSRSARAGLQFPVGRIHRHLKNRTTSHGRVGAT
 AAVYSAAILEYLTAEVLELA----GNASKDL-KVKRITPRHLQLAIRGDEELDSLIK--A
 TIAGGGVIPHIHKSL--IGKKGANKPN-------------
->Arabidopsis|NP_175683.1|H2A.Z organism=Arabidopsis thaliana phylum=Streptophyta class=Magnoliopsida
+>H2A.Z_Arabidopsis_thaliana_NP_175683.1 organism=Arabidopsis thaliana phylum=Streptophyta class=Magnoliopsida
 -------------------------------------------------MSGKGAK----
 ----GLIMGKPSGS---DKDKD-KKKPITRSSRAGLQFPVGRVHRLLKTRSTAHGRVGAT
 AAVYTAAILEYLTAEVLELA----GNASKDL-KVKRISPRHLQLAIRGDEELDTLIK--G
 TIAGGGVIPHIHKSL--INKSAKE----------------
->Arabidopsis|NP_181415.1|H2A.Z organism=Arabidopsis thaliana phylum=Streptophyta class=Magnoliopsida
+>H2A.Z_Arabidopsis_thaliana_NP_181415.1 organism=Arabidopsis thaliana phylum=Streptophyta class=Magnoliopsida
 -------------------------------------------------MAGKGGK----
 ----GLLAAKTTAA-AANKDSV-KKKSISRSSRAGIQFPVGRIHRQLKQRVSAHGRVGAT
 AAVYTASILEYLTAEVLELA----GNASKDL-KVKRITPRHLQLAIRGDEELDTLIK--G
 TIAGGGVIPHIHKSL--VNKVTKD----------------
->Arabidopsis|NP_191019.1|H2A.Z organism=Arabidopsis thaliana phylum=Streptophyta class=Magnoliopsida
+>H2A.Z_Arabidopsis_thaliana_NP_191019.1 organism=Arabidopsis thaliana phylum=Streptophyta class=Magnoliopsida
 -------------------------------------------------MAGKGGK----
 ----GLVAAKTMAA-NKDKDKD-KKKPISRSARAGIQFPVGRIHRQLKTRVSAHGRVGAT
 AAVYTASILEYLTAEVLELA----GNASKDL-KVKRITPRHLQLAIRGDEELDTLIK--G
 TIAGGGVIPHIHKSL--INKTTKE----------------
->Arabidopsis|NP_193093.1|H2A.Z organism=Arabidopsis thaliana phylum=Streptophyta class=Magnoliopsida
+>H2A.Z_Arabidopsis_thaliana_NP_193093.1 organism=Arabidopsis thaliana phylum=Streptophyta class=Magnoliopsida
 -----------------------------------------------MVCNTNILK----
 ----DV------------STKISAFENVRMIMVEGEMFQVARIHKQLKNRVSAHSSVGAT
 DVVYMTSILEYLTTEVLQLA----ENTSKDL-KVKRITPRHLQLAIRGDEELDTLIK--G
 TIIGGSVIPHIH----------------------------
->Oryza|NP_001051232.1|H2A.Z organism=Oryza sativa Japonica Group phylum=Streptophyta class=Magnoliopsida
+>H2A.Z_Oryza_sativa_Japonica_Group_NP_001051232.1 organism=Oryza sativa Japonica Group phylum=Streptophyta class=Magnoliopsida
 -------------------------------------------------MAGKGGK----
 ----GLLAAKTTAAKSAEKDKG-KKAPVSRSSRAGLQFPVGRIHRQLKQRTQANGRVGAT
 AAVYSAAILEYLTAEVLELA----GNASKDL-KVKRITPRHLQLAIRGDEELDTLIK--G
 TIAGGGVIPHIHKSL--INKSSKE----------------
->Zea|NP_001136523.1|H2A.Z organism=Zea mays phylum=Streptophyta class=Magnoliopsida
+>H2A.Z_Zea_mays_NP_001136523.1 organism=Zea mays phylum=Streptophyta class=Magnoliopsida
 -------------------------------------------------MAGKGGK----
 ----GLLAAKTTAAKSAEKDKG-KKAPISRSSRAGLQFPVGRIHRQLKQRTQANGRVGAT
 AAVYSAAILEYLTAEVLELA----GNASKDL-KVKRITPRHLQLAIRGDEELDTLIK--G
 TIAGGGVIPHIHKSL--INKSSKE----------------
->Zea|NP_001141633.1|H2A.Z organism=Zea mays phylum=Streptophyta class=Magnoliopsida
+>H2A.Z_Zea_mays_NP_001141633.1 organism=Zea mays phylum=Streptophyta class=Magnoliopsida
 -------------------------------------------------MAGKGGK----
 ----GLLAAKTTAAKSTDKDKDRKKAPVSRSSRAGLQFPVGRIHRQLKSRASAHGRVGAT
 AAVYSAAILEYLTAEVLELA----GNASKDL-KVKRITPRHLQLAIRGDEELDTLIK--G
 TIAGGGVIPHIHKSL--INKTAKE----------------
->Danio|NP_001036788.1|H2A.Z.1_(Chordata) organism=Danio rerio phylum=Chordata class=Actinopteri
+>H2A.Z.1_(Chordata)_Danio_rerio_NP_001036788.1 organism=Danio rerio phylum=Chordata class=Actinopteri
 ------------------------------------------------MAGGKAGK----
 -----------------DSGKA-KTKAVSRSQRAGLQFPVGRIHRHLKTRTTSHGRVGAT
 AAVYSAAILEYLTAEVLELA----GNASKDL-KVKRITPRHLQLAIRGDEELDSLIK--A
 TIAGGGVIPHIHKSL--IGKKGQQKTV-------------
->Gallus|NP_001026545.1|H2A.Z.1_(Chordata) organism=Gallus gallus phylum=Chordata class=Aves
+>H2A.Z.1_(Chordata)_Gallus_gallus_NP_001026545.1 organism=Gallus gallus phylum=Chordata class=Aves
 ------------------------------------------------MAGGKAGK----
 -----------------DSGKT-KTKAVSRSQRAGLQFPVGRIHRHLKSRTTSHGRVGAT
 AAVYSAAILEYLTAEVLELA----GNASKDL-KVKRITPRHLQLAIRGDEELDSLIK--A
 TIAGGGVIPHIHKSL--IGKKGQQKTV-------------
->Homo|NP_002097.1|H2A.Z.1_(Homo_sapiens) organism=Homo sapiens phylum=Chordata class=Mammalia
+>H2A.Z.1_(Homo_sapiens)_Homo_sapiens_NP_002097.1 organism=Homo sapiens phylum=Chordata class=Mammalia
 ------------------------------------------------MAGGKAGK----
 -----------------DSGKA-KTKAVSRSQRAGLQFPVGRIHRHLKSRTTSHGRVGAT
 AAVYSAAILEYLTAEVLELA----GNASKDL-KVKRITPRHLQLAIRGDEELDSLIK--A
 TIAGGGVIPHIHKSL--IGKKGQQKTV-------------
->Danio|NP_705930.1|H2A.Z.2_(Chordata) organism=Danio rerio phylum=Chordata class=Actinopteri
+>H2A.Z.2_(Chordata)_Danio_rerio_NP_705930.1 organism=Danio rerio phylum=Chordata class=Actinopteri
 ------------------------------------------------MAGGKAGK----
 -----------------DSGKA-KAKAVSRSQRAGLQFPVGRIHRHLKTRTTSHGRVGAT
 AAVYSAAILEYLTAEVLELA----GNASKDL-KVKRITPRHLQLAIRGDEELDSLIK--A
 TIAGGGVIPHIHKSL--IGKKGQQKTA-------------
->Gallus|P02272.2|H2A.Z.2_(Chordata) organism=Gallus gallus phylum=Chordata class=Aves
+>H2A.Z.2_(Chordata)_Gallus_gallus_P02272.2 organism=Gallus gallus phylum=Chordata class=Aves
 ------------------------------------------------MAGGKAGK----
 -----------------DSGKA-KAKAVSRSQRAGLQFPVGRIHRHLKTRTTSHGRVGAT
 AAVYSAAILEYLTAEVLELA----GNASKDL-KVKRITPRHLQLAIRGDEELDSLIK--A
 TIAGGGVIPHIHKSL--IGKKGQQKTA-------------
->Homo|NP_036544.1|H2A.Z.2.s1_(Homo_sapiens) organism=Homo sapiens phylum=Chordata class=Mammalia
+>H2A.Z.2.s1_(Homo_sapiens)_Homo_sapiens_NP_036544.1 organism=Homo sapiens phylum=Chordata class=Mammalia
 ------------------------------------------------MAGGKAGK----
 -----------------DSGKA-KAKAVSRSQRAGLQFPVGRIHRHLKTRTTSHGRVGAT
 AAVYSAAILEYLTAEVLELA----GNASKDL-KVKRITPRHLQLAIRGDEELDSLIK--A
 TIAGGGVIPHIHKSL--IGKKGQQKTA-------------
->Homo|NP_958844.1|H2A.Z.2.s1_(Homo_sapiens) organism=Homo sapiens phylum=Chordata class=Mammalia
+>H2A.Z.2.s1_(Homo_sapiens)_Homo_sapiens_NP_958844.1 organism=Homo sapiens phylum=Chordata class=Mammalia
 ------------------------------------------------------------
 ------------------------------------MFPVGRIHRHLKTRTTSHGRVGAT
 AAVYSAAILEYLTAEVLELA----GNASKDL-KVKRITPRHLQLAIRGDEELDSLIK--A
 TIAGGGVIPHIHKSL--IGKKGQQKTA-------------
->Homo|NP_958924.1|H2A.Z.2.s1_(Homo_sapiens) organism=Homo sapiens phylum=Chordata class=Mammalia
+>H2A.Z.2.s1_(Homo_sapiens)_Homo_sapiens_NP_958924.1 organism=Homo sapiens phylum=Chordata class=Mammalia
 ------------------------------------------------MAGGKAGK----
 -----------------DSGKA-KAKAVSRSQRAGLQFPVGRIHRHLKTRTTSHGRVGAT
 AAVYSAAILEYLTAEV--------------------------------------------
 ----------------------------------------
->Homo|NP_619541.1|H2A.Z.2.s2_(Homo_sapiens) organism=Homo sapiens phylum=Chordata class=Mammalia
+>H2A.Z.2.s2_(Homo_sapiens)_Homo_sapiens_NP_619541.1 organism=Homo sapiens phylum=Chordata class=Mammalia
 ------------------------------------------------MAGGKAGK----
 -----------------DSGKA-KAKAVSRSQRAGLQFPVGRIHRHLKTRTTSHGRVGAT
 AAVYSAAILEYLTAEVLELA----GNASKDL-KVKRITPRHLQLAIRGDEELDSLIK--A
 TIAGG----------------EKRRCS-------------
->Homo|NP_958925.1|H2A.Z.2.s2_(Homo_sapiens) organism=Homo sapiens phylum=Chordata class=Mammalia
+>H2A.Z.2.s2_(Homo_sapiens)_Homo_sapiens_NP_958925.1 organism=Homo sapiens phylum=Chordata class=Mammalia
 ------------------------------------------------MAGGKAGK----
 -----------------DSGKA-KAKAVSRSQRAGLQ-----------------------
 ---------------VLELA----GNASKDL-KVKRITPRHLQLAIRGDEELDSLIK--A
