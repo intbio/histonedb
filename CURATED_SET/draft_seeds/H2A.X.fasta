@@ -1,92 +1,92 @@
->H2A.X_(Animals)_Apis_mellifera_XP_624700.1 organism=Apis mellifera phylum=Arthropoda class=Insecta
+>H2A.X_Animals_Apis_mellifera_XP_624700.1 organism=Apis mellifera phylum=Arthropoda class=Insecta
 -MSGRGK----GGKAK-------------------GKAKTRSSRAGLQFPVGRIHRLLRK
 GNYAERVGAGAPVYLAAVMEYLAAEVLELAGNAARDNKKTRIIPRHLQLAIRNDEELNKL
 LSGVTIAQGGVLPNIQAVLLPKKTGT--G-------GSGKGDKASQEY
->H2A.X_(Animals)_Trichoplax_adhaerens_XP_002116274.1 organism=Trichoplax adhaerens phylum=Placozoa class=Uniplacotomia
+>H2A.X_Animals_Trichoplax_adhaerens_XP_002116274.1 organism=Trichoplax adhaerens phylum=Placozoa class=Uniplacotomia
 -MSGRGK----GGKAR-------------------NKAKSRSTRAGLQFPVGRVHRMLRK
 GNYAERVGAGAPVYLAAVMEYLAAEILELAGNAARDNKKQRIVPRHLQLAIRNDEELNKL
 LSGVTIAQGGVLPNIQAVLLPKKSKVPIA-------GSKKGSSQSQEY
->H2A.X_(Vertebrata)_Danio_rerio_NP_957367.1 organism=Danio rerio phylum=Chordata class=Actinopteri
+>H2A.X_Vertebrata_Danio_rerio_NP_957367.1 organism=Danio rerio phylum=Chordata class=Actinopteri
 -MSGRGKT---GGKAR-------------------AKAKTRSSRAGLQFPVGRVHRLLRK
 GNYAERVGAGAPVYLAAVLEYLTAEILELAGNAARDNKKTRIIPRHLQLAVRNDEELNKL
 LGGVTIAQGGVLPNIQAVLLPKKTGQAAASSGK---SGKKGSSQSQEY
->H2A.X_(Mammalia)_Bos_taurus_NP_001073248.1 organism=Bos taurus phylum=Chordata class=Mammalia
+>H2A.X_Mammalia_Bos_taurus_NP_001073248.1 organism=Bos taurus phylum=Chordata class=Mammalia
 -MSGRGKT---GGKAR-------------------AKAKSRSSRAGLQFPVGRVHRLLRK
 GHYAERVGAGAPVYLAAVLEYLTAEILELAGNAARDNKKTRIIPRHLQLAIRNDEELNKL
 LGGVTIAQGGVLPNIQAVLLPKKTSATVGPKAP--AGGKKATQASQEY
->H2A.X_(Mammalia)_Monodelphis_domestica_XP_001370540.1 organism=Monodelphis domestica phylum=Chordata class=Mammalia
+>H2A.X_Mammalia_Monodelphis_domestica_XP_001370540.1 organism=Monodelphis domestica phylum=Chordata class=Mammalia
 -MSGRGKT---GGKAR-------------------AKAKSRSSRAGLQFPVGRVHRLLRK
 GHYAERVGAGAPVYLAAVLEYLTAEILELAGNAARDNKKTRIIPRHLQLAIRNDEELNKL
 LGGVTIAQGGVLPNIQAVLLPKKSGAITGPKAPGSGGSKKSTQASQEY
->H2A.X_(Mammalia)_Rattus_norvegicus_NP_001102761.1 organism=Rattus norvegicus phylum=Chordata class=Mammalia
+>H2A.X_Mammalia_Rattus_norvegicus_NP_001102761.1 organism=Rattus norvegicus phylum=Chordata class=Mammalia
 -MSGRGKT---GGKAR-------------------AKAKSRSSRAGLQFPVGRVHRLLRK
 GHYAERVGAGAPVYLAAVLEYLTAEILELAGNAARDNKKTRIIPRHLQLAIRNDEELNKL
 LGGVTIAQGGVLPNIQAVLLPKKTSATVGPKAP--AGGKKASQASQEY
->H2A.X_(Homo_sapiens)_Homo_sapiens_NP_002096.1 organism=Homo sapiens phylum=Chordata class=Mammalia
+>H2A.X_Homo_sapiens_Homo_sapiens_NP_002096.1 organism=Homo sapiens phylum=Chordata class=Mammalia
 -MSGRGKT---GGKAR-------------------AKAKSRSSRAGLQFPVGRVHRLLRK
 GHYAERVGAGAPVYLAAVLEYLTAEILELAGNAARDNKKTRIIPRHLQLAIRNDEELNKL
 LGGVTIAQGGVLPNIQAVLLPKKTSATVGPKAP--SGGKKATQASQEY
->H2A.X_(Mus_musculus)_Mus_musculus_NP_034566.1 organism=Mus musculus phylum=Chordata class=Mammalia
+>H2A.X_Mus_musculus_Mus_musculus_NP_034566.1 organism=Mus musculus phylum=Chordata class=Mammalia
 -MSGRGKT---GGKAR-------------------AKAKSRSSRAGLQFPVGRVHRLLRK
 GHYAERVGAGAPVYLAAVLEYLTAEILELAGNAARDNKKTRIIPRHLQLAIRNDEELNKL
 LGGVTIAQGGVLPNIQAVLLPKKSSATVGPKAP--AVGKKASQASQEY
->H2A.X_(Fungi)_Saccharomyces_cerevisiae_S288C_NP_009552.1 organism=Saccharomyces cerevisiae S288C phylum=Ascomycota class=Saccharomycetes
+>H2A.X_Fungi_Saccharomyces_cerevisiae_S288C_NP_009552.1 organism=Saccharomyces cerevisiae S288C phylum=Ascomycota class=Saccharomycetes
 --MSGGK----GGKAGS---------------A-AKASQSRSAKAGLTFPVGRVHRLLRR
 GNYAQRIGSGAPVYLTAVLEYLAAEILELAGNAARDNKKTRIIPRHLQLAIRNDDELNKL
 LGNVTIAQGGVLPNIHQNLLPKKS------------AKTAKA--SQEL
->H2A.X_(Fungi)_Saccharomyces_cerevisiae_S288C_NP_010511.3 organism=Saccharomyces cerevisiae S288C phylum=Ascomycota class=Saccharomycetes
+>H2A.X_Fungi_Saccharomyces_cerevisiae_S288C_NP_010511.3 organism=Saccharomyces cerevisiae S288C phylum=Ascomycota class=Saccharomycetes
 --MSGGK----GGKAGS---------------A-AKASQSRSAKAGLTFPVGRVHRLLRR
 GNYAQRIGSGAPVYLTAVLEYLAAEILELAGNAARDNKKTRIIPRHLQLAIRNDDELNKL
 LGNVTIAQGGVLPNIHQNLLPKKS------------AKATKA--SQEL
->H2A.X_(Fungi)_Schizosaccharomyces_pombe_NP_594421.1 organism=Schizosaccharomyces pombe phylum=Ascomycota class=Schizosaccharomycetes
+>H2A.X_Fungi_Schizosaccharomyces_pombe_NP_594421.1 organism=Schizosaccharomyces pombe phylum=Ascomycota class=Schizosaccharomycetes
 --MSGGKS---GGKAA----------------V-AKSAQSRSAKAGLAFPVGRVHRLLRK
 GNYAQRVGAGAPVYLAAVLEYLAAEILELAGNAARDNKKTRIIPRHLQLAIRNDEELNKL
 LGHVTIAQGGVVPNINAHLLPKQS------------GKGKP---SQEL
->H2A.X_(Fungi)_Ustilago_maydis_521_XP_011387544.1 organism=Ustilago maydis 521 phylum=Basidiomycota class=Ustilaginomycetes
+>H2A.X_Fungi_Ustilago_maydis_521_XP_011387544.1 organism=Ustilago maydis 521 phylum=Basidiomycota class=Ustilaginomycetes
 -MSSGGKS---GGKAGD---------------A-SSKAQSRSAKAGLQFPVGRIHRLLRK
 GNYAQRVGAGAPVYLAAVLEYLAAEILELAGNAARDNKKSRIIPRHLQLAIRNDEELNKL
 LGGVTISQGGVLPFIQSELLPAKS------------GKPKKAGGSQDI
->H2A.X_(Plants)_Arabidopsis_thaliana_NP_172363.1 organism=Arabidopsis thaliana phylum=Streptophyta class=Magnoliopsida
+>H2A.X_Plants_Arabidopsis_thaliana_NP_172363.1 organism=Arabidopsis thaliana phylum=Streptophyta class=Magnoliopsida
 MSTGAGSGTTKGGRGKP---------------K-ATKSVSRSSKAGLQFPVGRIARFLKS
 GKYAERVGAGAPVYLSAVLEYLAAEVLELAGNAARDNKKTRIVPRHIQLAVRNDEELSKL
 LGSVTIANGGVLPNIHQTLLPSKVG-K---------NKGDIGSASQEF
->H2A.X_(Plants)_Arabidopsis_thaliana_NP_175868.1 organism=Arabidopsis thaliana phylum=Streptophyta class=Magnoliopsida
+>H2A.X_Plants_Arabidopsis_thaliana_NP_175868.1 organism=Arabidopsis thaliana phylum=Streptophyta class=Magnoliopsida
 MSSGAGSGTTKGGRGKP---------------K-ATKSVSRSSKAGLQFPVGRIARFLKA
 GKYAERVGAGAPVYLSAVLEYLAAEVLELAGNAARDNKKTRIVPRHIQLAVRNDEELSKL
 LGSVTIANGGVLPNIHQTLLPSKVG-K---------NKGDIGSASQEF
->H2A.X_(Plants)_Oryza_sativa_Japonica_Group_NP_001066920.1 organism=Oryza sativa Japonica Group phylum=Streptophyta class=Magnoliopsida
+>H2A.X_Plants_Oryza_sativa_Japonica_Group_NP_001066920.1 organism=Oryza sativa Japonica Group phylum=Streptophyta class=Magnoliopsida
 -MSSAGGG---GGRGKS---------------K-GSKSVSRSSKAGLQFPVGRIARYLKA
 GKYAERVGAGAPVYLSAVLEYLAAEVLELAGNAARDNKKNRIVPRHIQLAVRNDEELSRL
 LGAVTIAAGGVLPNIHQTLLPKKGG-K---------DKADIGSASQEF
->H2A.X_(Plants)_Zea_mays_XP_008644553.1 organism=Zea mays phylum=Streptophyta class=Magnoliopsida
+>H2A.X_Plants_Zea_mays_XP_008644553.1 organism=Zea mays phylum=Streptophyta class=Magnoliopsida
 -MSSTG-G---GGRGKA---------------KPATKSVSRSSKAGLQFPVGRIARYLKA
 GKYAERVGAGAPVYLSAVLEYLAAEVLELAGNAARDNKKNRIVPRHIQLAVRNDEELSKL
 LGTVTIAAGGVMPNIHQTLLPKKAG-----------QKGDIGSASQEF
->H2A.X_(Plants)_Zea_mays_XP_008662624.1 organism=Zea mays phylum=Streptophyta class=Magnoliopsida
+>H2A.X_Plants_Zea_mays_XP_008662624.1 organism=Zea mays phylum=Streptophyta class=Magnoliopsida
 -MSS---G---GGRGKP---------------K-GSKALSRSTKAGLQFPVGRIARYLKA
 GKYAERVGGGAPVYLSAVLEYLAAEVLELAGNAARDNKKNRIVPRHIQLAVRNDEELSKL
 LGAVTIAAGGVLPNIHQTLLPKKAGGK---------GKADIGSASQEF
->H2A.X_(Protists)_Cryptosporidium_parvum_Iowa_II_XP_627120.1 organism=Cryptosporidium parvum Iowa II phylum=Apicomplexa class=Conoidasida
+>H2A.X_Protists_Cryptosporidium_parvum_Iowa_II_XP_627120.1 organism=Cryptosporidium parvum Iowa II phylum=Apicomplexa class=Conoidasida
 -MSGKVT----SSGGRGGGK------------KTTRKTMSNSAKAGLQFPVGRVARYLKK
 GRYAKRIGAAAPVYLAAVLEYLCAELLELAGNAARDAKKTRITPRQIQLAVRNDEELSKF
 LGNVTIASGGVLPNIPTVLLPKKSK-----------SK--QG-NSQEF
->H2A.X_(Protists)_Toxoplasma_gondii_ME49_XP_002365290.1 organism=Toxoplasma gondii ME49 phylum=Apicomplexa class=Conoidasida
+>H2A.X_Protists_Toxoplasma_gondii_ME49_XP_002365290.1 organism=Toxoplasma gondii ME49 phylum=Apicomplexa class=Conoidasida
 -MSAKGA----GGRKK----------------TSSGKKVSRSAKAGLQFPVSRIGRYLKK
 GRYAKRVGVGAPVYLAAVLEYLCAEILELAGNAARDHKKTRIIPRHIQLAVRNDEELSKF
 LGGVTIANGGVMPHVHAVLLPKHSK-----------SKGKHG-VSQEF
->H2A.X_(Protists)_Tetrahymena_thermophila_AAC37291.1 organism=Tetrahymena thermophila phylum=Ciliophora class=Oligohymenophorea
+>H2A.X_Protists_Tetrahymena_thermophila_AAC37291.1 organism=Tetrahymena thermophila phylum=Ciliophora class=Oligohymenophorea
 -MSTTGK----GGKAK--GK------------TASSKQVSRSARAGLQFPVGRISRFLKH
 GRYSERVGTGAPVYLAAVLEYLAAEVLELAGNAAKDNKKTRIVPRHILLAIRNDEELNKL
 MANTTIADGGVLPNINPMLLPSKSK-----------KTESRGQASQDL
->H2A.X_(Protists)_Dictyostelium_discoideum_AX4_XP_641587.1 organism=Dictyostelium discoideum AX4 phylum=Evosea class=Eumycetozoa
+>H2A.X_Protists_Dictyostelium_discoideum_AX4_XP_641587.1 organism=Dictyostelium discoideum AX4 phylum=Evosea class=Eumycetozoa
 MSETKPA----SSKPAAAAKPKKVIPRVSRTGEPKSKPESRSARAGITFPVSRVDRLLRE
 GRFAPRVESTAPVYLAAVLEYLVFEILELAHNTCSISKKTRITPQHINWAVGNDLELNSL
 FQHVTIAYGGVLPTPQQSTGEKKKKPS---------KKAAEG-SSQIY
->H2A.X_(Protists)_Giardia_intestinalis_XP_001704715.1 organism=Giardia intestinalis phylum=Fornicata class=
+>H2A.X_Protists_Giardia_intestinalis_XP_001704715.1 organism=Giardia intestinalis phylum=Fornicata class=
 -MSTKPV-------------------------KDNSKMKSRSARAGISFPIGRIHRHLRE
 GRYAERISSDAPVYLAAVLENVVAEVFREACNHRDKKSQKRIVPNHILTALRKDKELATI
 FANVTIREGGVARSAK-----EGRE-----------GKGSH--RSQDL
->H2A.X_(Protists)_Perkinsus_marinus_ATCC_50983_XP_002784006.1 organism=Perkinsus marinus ATCC 50983 phylum=Perkinsozoa class=
+>H2A.X_Protists_Perkinsus_marinus_ATCC_50983_XP_002784006.1 organism=Perkinsus marinus ATCC 50983 phylum=Perkinsozoa class=
 -MSGKGK----GGRGKA-GK------------KSGSGAKSRSAKAGLQFPVGRIARYLKK
 GRYAKRVGSGAPVYLAAVLEYLVAEILELAGNAARDHKKTRIIPRHIQLAVRNDEELNKF
 LAGVTLASGGVLPNIHTTLLPKKSK-----------GKSFT--ASQEI

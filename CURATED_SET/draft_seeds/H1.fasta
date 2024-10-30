@@ -268,7 +268,7 @@ A----------------------------------KK-ATKKPA----------------
 ---------------------------------------------------VAKKATPKK
 KVVKK-----------AAKGKGKKK-----------------------------------
 -------
->H1.0_(Homo_sapiens)_Homo_sapiens_NP_005309.1 organism=Homo sapiens phylum=Chordata class=Mammalia
+>H1.0_Homo_sapiens_Homo_sapiens_NP_005309.1 organism=Homo sapiens phylum=Chordata class=Mammalia
 ------------MTENSTSAPAA--------------------------KPKRAKASKKS
 ------------TDHPK------------------------YSDMIVAAIQAEKNRAGSS
 RQSIQKYIKSHYK--VGEN-ADSQIKLSIKRLVTTGVLKQ---TK-GVGASGSFRLAKSD
@@ -278,7 +278,7 @@ V----------------------------------KK-AKKKLA----------------
 -----------------------------------------------------KKAKPVK
 PKAKS-----------SAKRAGKKK-----------------------------------
 -------
->H1.1_(Homo_sapiens)_Homo_sapiens_NP_005316.1 organism=Homo sapiens phylum=Chordata class=Mammalia
+>H1.1_Homo_sapiens_Homo_sapiens_NP_005316.1 organism=Homo sapiens phylum=Chordata class=Mammalia
 ------------MSETVPPAPAASAA---------------------PEKPLAGKKAKKP
 AKAAAASKKK--PAGPS------------------------VSELIVQAASSSKERGGVS
 LAALKKALAAAG---YDVEKNNSRIKLGIKSLVSKGTLVQ---TK-GTGASGSFKLN---
@@ -338,7 +338,7 @@ E----------------------------------KEKPKTSSA----------------
 ------------------------------------------------------SVRKAP
 KSKKA-------------------------------------------------------
 -------
->H1.10_(Homo_sapiens)_Homo_sapiens_NP_006017.1 organism=Homo sapiens phylum=Chordata class=Mammalia
+>H1.10_Homo_sapiens_Homo_sapiens_NP_006017.1 organism=Homo sapiens phylum=Chordata class=Mammalia
 -----------MSVELEEALPVTTAEGMAKKVTKAG--------------------GSAA
 LSPSKKRKNSKKKNQPGK-----------------------YSQLVVETIRRLGERNGSS
 LAKI--YTEAKKVPWFDQQNGRTYLKYSIKALVQNDTLLQ---VK-GTGANGSFKLNRKK
@@ -348,7 +348,7 @@ P----------------------------------EQRSHKKGA----------------
 ------------------------------------------------------SVPKVP
 KGRK--------------------------------------------------------
 -------
->H1.2_(Homo_sapiens)_Homo_sapiens_NP_005310.1 organism=Homo sapiens phylum=Chordata class=Mammalia
+>H1.2_Homo_sapiens_Homo_sapiens_NP_005310.1 organism=Homo sapiens phylum=Chordata class=Mammalia
 ------------MSETAPAAPAAAPPA--------------------EKAPVKKKAAKKA
 GGTPRK------ASGPP------------------------VSELITKAVAASKERSGVS
 LAALKKALAAAG---YDVEKNNSRIKLGLKSLVSKGTLVQ---TK-GTGASGSFKLN---
@@ -358,7 +358,7 @@ A----------------------------------KKPAAATVT----------------
 -------------------------------------------------AAKAVKPKAAK
 PKVV------------KPKKAAPKKK----------------------------------
 -------
->H1.3_(Homo_sapiens)_Homo_sapiens_NP_005311.1 organism=Homo sapiens phylum=Chordata class=Mammalia
+>H1.3_Homo_sapiens_Homo_sapiens_NP_005311.1 organism=Homo sapiens phylum=Chordata class=Mammalia
 ------------MSETAPLAPTIPAP---------------------AEKTPVKKKAKKA
 GATAGKRK----ASGPP------------------------VSELITKAVAASKERSGVS
 LAALKKALAAAG---YDVEKNNSRIKLGLKSLVSKGTLVQ---TK-GTGASGSFKLN---
@@ -368,7 +368,7 @@ V----------------------------------KKPATAAGT----------------
 ---------------PAKAK--------------APKPKA-------------AKPKSGK
 PKVT------------KAKKAAPKKK----------------------------------
 -------
->H1.4_(Homo_sapiens)_Homo_sapiens_NP_005312.1 organism=Homo sapiens phylum=Chordata class=Mammalia
+>H1.4_Homo_sapiens_Homo_sapiens_NP_005312.1 organism=Homo sapiens phylum=Chordata class=Mammalia
 ------------MSETAPAAPAAPAPA--------------------EKTPVKKKARKSA
 GAAKRK------ASGPP------------------------VSELITKAVAASKERSGVS
 LAALKKALAAAG---YDVEKNNSRIKLGLKSLVSKGTLVQ---TK-GTGASGSFKLN---
@@ -378,7 +378,7 @@ A----------------------------------KKTPKKAKK----------------
 ---------------PAKAK--------------AVKPKA-------------AKPKTAK
 PKAA------------KPKKAAAKKK----------------------------------
 -------
->H1.5_(Homo_sapiens)_Homo_sapiens_NP_005313.1 organism=Homo sapiens phylum=Chordata class=Mammalia
+>H1.5_Homo_sapiens_Homo_sapiens_NP_005313.1 organism=Homo sapiens phylum=Chordata class=Mammalia
 ------------MSETAPAETATPAPV--------------------EKSPAKKKATKKA
 AGAGAAKRK---ATGPP------------------------VSELITKAVAASKERNGLS
 LAALKKALAAGG---YDVEKNNSRIKLGLKSLVSKGTLVQ---TK-GTGASGSFKLN---
@@ -398,7 +398,7 @@ A----------------------------------ATLEMAPKK----------------
 VKRSGSRQ---EANAHGKTK--------------GE--KSKPLASKVQNSVASLAKRKMA
 DMAHTVTVVQGAETVQETKVPTPSQDIGHKVQPIPRVRKAKTP-----------------
 --ENTQA
->H1.8_(Homo_sapiens)_Homo_sapiens_NP_001295191.1 organism=Homo sapiens phylum=Chordata class=Mammalia
+>H1.8_Homo_sapiens_Homo_sapiens_NP_001295191.1 organism=Homo sapiens phylum=Chordata class=Mammalia
 ------------------------------------------------------------
 ------------------------------------------------------------
 ------------------------------------------------------------
@@ -408,7 +408,7 @@ G----------------------------------AATEKARKQ----------------
 AKAKGSRSSQGDAEAYRKTK--------------AESKSSKPTASKVKNGAASPTKKKVV
 AKAKAPKAGQGP----NTKAAAPAKGSGSKVVPAHLSRKTEAPKGPRKAGLPIKASSSKV
 SSQRAEA
->H1.8_(Homo_sapiens)_Homo_sapiens_NP_722575.1 organism=Homo sapiens phylum=Chordata class=Mammalia
+>H1.8_Homo_sapiens_Homo_sapiens_NP_722575.1 organism=Homo sapiens phylum=Chordata class=Mammalia
 MAPGSVTSDISPS----STSTAGSSRSP-------------------ESEKPGPSHGGVP
 PGGPSHSSLPVGRRHPP------------------------VLRMVLEALQAGEQRRGTS
 VAAIKLYILHKYPT-VDVLRFKYLLKQALATGMRRGLLARPLNSK-ARGATGSFKLVPKH
@@ -508,7 +508,7 @@ P----------------------------------TKGSGSRRK----------------
 -----------------------------------------------------NSGKSKM
 VMQKT-----------DLRKAAGRK-----------------------------------
 -------
->H1.6_(Homo_sapiens)_Homo_sapiens_NP_005314.2 organism=Homo sapiens phylum=Chordata class=Mammalia
+>H1.6_Homo_sapiens_Homo_sapiens_NP_005314.2 organism=Homo sapiens phylum=Chordata class=Mammalia
 ------------MSETVPAASASAGVAAM-------------------EKLPTKKRGRKP
 AGLISASRK---VPNLS------------------------VSKLITEALSVSQERVGMS
 LVALKKALAAAG---YDVEKNNSRIKLSLKSLVNKGILVQ---TR-GTGASGSFKLSKKV
@@ -528,7 +528,7 @@ AKSSTRSSAKSWARSKARSRARSRAKDLVRSKAREQAQAREQARARAREQAHARARTQDW
 VRAKAQEFVSAKEQQYVRAKEQERAKAREQVRIGARDEARIKAKDYNRVRPTKEDTSPRP
 AEEKSSNSKLREEKGQEPERPVKQTIQKPALDNAPSIQGKACTKSFTKSGQPGDTESP--
 -------
->H1.7_(Homo_sapiens)_Homo_sapiens_NP_861453.1 organism=Homo sapiens phylum=Chordata class=Mammalia
+>H1.7_Homo_sapiens_Homo_sapiens_NP_861453.1 organism=Homo sapiens phylum=Chordata class=Mammalia
 MEQALTGEAQSRWPRRGGSGAMAEAPGPS------------------GESRGHSAT---Q
 LPAEKTVGGPSRGCSSS------------------------VLRVSQLVLQAISTHKGLT
 LAALKKELRNAG---YEVRRKSGRHEAPRGQ--AKATLLR---VS-GSDAAGYFRVWKVP

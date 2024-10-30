@@ -98,52 +98,52 @@ TIAGGGVIPHIHKSL--INKSSKE----------------
 ----GLLAAKTTAAKSTDKDKDRKKAPVSRSSRAGLQFPVGRIHRQLKSRASAHGRVGAT
 AAVYSAAILEYLTAEVLELA----GNASKDL-KVKRITPRHLQLAIRGDEELDTLIK--G
 TIAGGGVIPHIHKSL--INKTAKE----------------
->H2A.Z.1_(Chordata)_Danio_rerio_NP_001036788.1 organism=Danio rerio phylum=Chordata class=Actinopteri
+>H2A.Z.1_Chordata_Danio_rerio_NP_001036788.1 organism=Danio rerio phylum=Chordata class=Actinopteri
 ------------------------------------------------MAGGKAGK----
 -----------------DSGKA-KTKAVSRSQRAGLQFPVGRIHRHLKTRTTSHGRVGAT
 AAVYSAAILEYLTAEVLELA----GNASKDL-KVKRITPRHLQLAIRGDEELDSLIK--A
 TIAGGGVIPHIHKSL--IGKKGQQKTV-------------
->H2A.Z.1_(Chordata)_Gallus_gallus_NP_001026545.1 organism=Gallus gallus phylum=Chordata class=Aves
+>H2A.Z.1_Chordata_Gallus_gallus_NP_001026545.1 organism=Gallus gallus phylum=Chordata class=Aves
 ------------------------------------------------MAGGKAGK----
 -----------------DSGKT-KTKAVSRSQRAGLQFPVGRIHRHLKSRTTSHGRVGAT
 AAVYSAAILEYLTAEVLELA----GNASKDL-KVKRITPRHLQLAIRGDEELDSLIK--A
 TIAGGGVIPHIHKSL--IGKKGQQKTV-------------
->H2A.Z.1_(Homo_sapiens)_Homo_sapiens_NP_002097.1 organism=Homo sapiens phylum=Chordata class=Mammalia
+>H2A.Z.1_Homo_sapiens_Homo_sapiens_NP_002097.1 organism=Homo sapiens phylum=Chordata class=Mammalia
 ------------------------------------------------MAGGKAGK----
 -----------------DSGKA-KTKAVSRSQRAGLQFPVGRIHRHLKSRTTSHGRVGAT
 AAVYSAAILEYLTAEVLELA----GNASKDL-KVKRITPRHLQLAIRGDEELDSLIK--A
 TIAGGGVIPHIHKSL--IGKKGQQKTV-------------
->H2A.Z.2_(Chordata)_Danio_rerio_NP_705930.1 organism=Danio rerio phylum=Chordata class=Actinopteri
+>H2A.Z.2_Chordata_Danio_rerio_NP_705930.1 organism=Danio rerio phylum=Chordata class=Actinopteri
 ------------------------------------------------MAGGKAGK----
 -----------------DSGKA-KAKAVSRSQRAGLQFPVGRIHRHLKTRTTSHGRVGAT
 AAVYSAAILEYLTAEVLELA----GNASKDL-KVKRITPRHLQLAIRGDEELDSLIK--A
 TIAGGGVIPHIHKSL--IGKKGQQKTA-------------
->H2A.Z.2_(Chordata)_Gallus_gallus_P02272.2 organism=Gallus gallus phylum=Chordata class=Aves
+>H2A.Z.2_Chordata_Gallus_gallus_P02272.2 organism=Gallus gallus phylum=Chordata class=Aves
 ------------------------------------------------MAGGKAGK----
 -----------------DSGKA-KAKAVSRSQRAGLQFPVGRIHRHLKTRTTSHGRVGAT
 AAVYSAAILEYLTAEVLELA----GNASKDL-KVKRITPRHLQLAIRGDEELDSLIK--A
 TIAGGGVIPHIHKSL--IGKKGQQKTA-------------
->H2A.Z.2.s1_(Homo_sapiens)_Homo_sapiens_NP_036544.1 organism=Homo sapiens phylum=Chordata class=Mammalia
+>H2A.Z.2.s1_Homo_sapiens_Homo_sapiens_NP_036544.1 organism=Homo sapiens phylum=Chordata class=Mammalia
 ------------------------------------------------MAGGKAGK----
 -----------------DSGKA-KAKAVSRSQRAGLQFPVGRIHRHLKTRTTSHGRVGAT
 AAVYSAAILEYLTAEVLELA----GNASKDL-KVKRITPRHLQLAIRGDEELDSLIK--A
 TIAGGGVIPHIHKSL--IGKKGQQKTA-------------
->H2A.Z.2.s1_(Homo_sapiens)_Homo_sapiens_NP_958844.1 organism=Homo sapiens phylum=Chordata class=Mammalia
+>H2A.Z.2.s1_Homo_sapiens_Homo_sapiens_NP_958844.1 organism=Homo sapiens phylum=Chordata class=Mammalia
 ------------------------------------------------------------
 ------------------------------------MFPVGRIHRHLKTRTTSHGRVGAT
 AAVYSAAILEYLTAEVLELA----GNASKDL-KVKRITPRHLQLAIRGDEELDSLIK--A
 TIAGGGVIPHIHKSL--IGKKGQQKTA-------------
->H2A.Z.2.s1_(Homo_sapiens)_Homo_sapiens_NP_958924.1 organism=Homo sapiens phylum=Chordata class=Mammalia
+>H2A.Z.2.s1_Homo_sapiens_Homo_sapiens_NP_958924.1 organism=Homo sapiens phylum=Chordata class=Mammalia
 ------------------------------------------------MAGGKAGK----
 -----------------DSGKA-KAKAVSRSQRAGLQFPVGRIHRHLKTRTTSHGRVGAT
 AAVYSAAILEYLTAEV--------------------------------------------
 ----------------------------------------
->H2A.Z.2.s2_(Homo_sapiens)_Homo_sapiens_NP_619541.1 organism=Homo sapiens phylum=Chordata class=Mammalia
+>H2A.Z.2.s2_Homo_sapiens_Homo_sapiens_NP_619541.1 organism=Homo sapiens phylum=Chordata class=Mammalia
 ------------------------------------------------MAGGKAGK----
 -----------------DSGKA-KAKAVSRSQRAGLQFPVGRIHRHLKTRTTSHGRVGAT
 AAVYSAAILEYLTAEVLELA----GNASKDL-KVKRITPRHLQLAIRGDEELDSLIK--A
 TIAGG----------------EKRRCS-------------
->H2A.Z.2.s2_(Homo_sapiens)_Homo_sapiens_NP_958925.1 organism=Homo sapiens phylum=Chordata class=Mammalia
+>H2A.Z.2.s2_Homo_sapiens_Homo_sapiens_NP_958925.1 organism=Homo sapiens phylum=Chordata class=Mammalia
 ------------------------------------------------MAGGKAGK----
 -----------------DSGKA-KAKAVSRSQRAGLQ-----------------------
 ---------------VLELA----GNASKDL-KVKRITPRHLQLAIRGDEELDSLIK--A

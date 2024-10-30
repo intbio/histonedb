@@ -88,31 +88,31 @@ LAGVLEYLTANILELA--ASEARSNNKMRIAPEHVQRAASHNQTLSSLF--QASSV----
 LAGVLEHLMAHILELA--AREARSSRKVRITPEHVQRALNNNETLSRLF--QASSV----
 -------------SRGAEEGAEEPGAEEPLPEAGQ-------------------------
 ------------------------------------------------------
->H2A.L.1_(Homo_sapiens)_Homo_sapiens_HISTDB_H2A_L_0 organism=Homo sapiens phylum=Chordata class=Mammalia
+>H2A.L.1_Homo_sapiens_Homo_sapiens_HISTDB_H2A_L_0 organism=Homo sapiens phylum=Chordata class=Mammalia
 ------------------------------------------------------------
 -------MAGNKHSRSSCKPRRQCLSRSRRAELQFPVSHMERCLREGQYARHLSSTTPVF
 LAAVLEYLTANILEQA--GKEAQNSHRVCITPEHLKRALQKNEQLRWILEEEDDIH----
 -------------SQ---------EEEMPQPEEEEEEDERMEEEEEEKKEEEEKEEEEDE
 RMEEEEEEKKEEEEKKEEKEKEEEKEKKKKKGGFLSFRAVQDFISNLFQLLKFP
->H2A.L.3_(Homo_sapiens)_Homo_sapiens_HISTDB_H2A_L_1 organism=Homo sapiens phylum=Chordata class=Mammalia
+>H2A.L.3_Homo_sapiens_Homo_sapiens_HISTDB_H2A_L_1 organism=Homo sapiens phylum=Chordata class=Mammalia
 ------------------------------------------------------------
 -------MAGNK---MFCRPRRQRLSHSRRAELQFPVSHLERCLRESQHARHLSSTTPVF
 LAGVLEYLTANILEKV--GKEVKNSCRLCITPEHVKRALQKDEQLRWILELEDDTH----
 -------------SQ---------VEEMPQSEEEEE-------------EEEEKEEEMVV
 LVVMGGRRRR--------------RRRRRRKDS---------------------
->H2A.L.1_(Mus_musculus)_Mus_musculus_NP_083864.1 organism=Mus musculus phylum=Chordata class=Mammalia
+>H2A.L.1_Mus_musculus_Mus_musculus_NP_083864.1 organism=Mus musculus phylum=Chordata class=Mammalia
 ------------------------------------------------------------
 -------MAKKM-----QRRRRQKRTRSQRGEL--PLSLVDRFLREEFHSSRLSSSALSF
 LTSVLEYLTSNILELA--GEVAHTTGRKRVTPEDVRLVVQNNEQLRQLF--K--------
 -PGG---------TS---------VNE----DDN--------------------------
 ------------------------------------------------------
->H2A.L.2_(Mus_musculus)_Mus_musculus_NP_080903.1 organism=Mus musculus phylum=Chordata class=Mammalia
+>H2A.L.2_Mus_musculus_Mus_musculus_NP_080903.1 organism=Mus musculus phylum=Chordata class=Mammalia
 ------------------------------------------------------------
 -------MARKR-----QRRRRRKVTRSQRAELQFPVSRVDRFLREGNYSRRLSSSAPVF
 LAGVLEYLTSNILELA--GEVAHTTGRKRIAPEHVCRVVQNNEQLHQLF--K--------
 -QGG---------TS---------VFEPPEPDDN--------------------------
 ------------------------------------------------------
->H2A.L.3_(Mus_musculus)_Mus_musculus_Q9D4U4 organism=Mus musculus phylum=Chordata class=Mammalia
+>H2A.L.3_Mus_musculus_Mus_musculus_Q9D4U4 organism=Mus musculus phylum=Chordata class=Mammalia
 ------------------------------------------------------------
 -------ME--------DKRQKDSVAPSSGAKLQFPVSEAEHLLQERNLSKCLNSSTPVL
 FTDMLNYVTSSILELTVKDRDSHTSCNKLIAPEQKSKPTDNIDELCQLF--KDSQYMADE

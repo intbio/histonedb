@@ -1,28 +1,28 @@
->cenH3_(Animals)_Drosophila_melanogaster_NP_523730.2 organism=Drosophila melanogaster phylum=Arthropoda class=Insecta
+>cenH3_Animals_Drosophila_melanogaster_NP_523730.2 organism=Drosophila melanogaster phylum=Arthropoda class=Insecta
 -----------------------MPRHSRAKRAPRPSANNSKSPNDD-----DTAFRSPE
 PEDGTDYGLEFTTSQLTLQDNNRRSSTL-----------RRDAGRRQPAARD--------
 -------------SSTSGEEEDQENRYPTTRSPQTRRMTVQQESKTRAAGPVAAQNQTRR
 RKAANPMSRAKRMD------REIRRLQHHPGTLIPKLPFSRLVREFIVKYSD-DEPLRVT
 EGALLAMQESCEMYLTQRLADSYMLTKHRNRVTLEVRDMALMAYICDRGRQF-
->cenH3_(Animals)_Caenorhabditis_elegans_NP_499128.1 organism=Caenorhabditis elegans phylum=Nematoda class=Chromadorea
+>cenH3_Animals_Caenorhabditis_elegans_NP_499128.1 organism=Caenorhabditis elegans phylum=Nematoda class=Chromadorea
 MADDTPIIEEIAEQNESVTRIMQRLKHDMQRVTSVPGFNTSAAGVNDLIDILNQYKKELE
 DDAANDY-TEAHIHKIRLVTGKRNQYVLKLKQAEDEYHARKEQARRRASSMDFTVGRNST
 NLVDYSHGRHHMPSYRRHDSSDEENYSMDGTNGDGNRAGPSNPDRGNRTGP-SSSDRVRM
 RAGRNRVTKTRRYRPGQKALEEIRKYQKTEDLLIQKAPFARLVREIMQTSTPFGADCRIR
 SDAISALQEAAEAFLVEMFEGSSLISTHAKRVTLMTTDIQLYRRLCL--RHL-
->cenH3_(Mammalia)_Mus_musculus_NP_031707.1 organism=Mus musculus phylum=Chordata class=Mammalia
+>cenH3_Mammalia_Mus_musculus_NP_031707.1 organism=Mus musculus phylum=Chordata class=Mammalia
 -----------------------MGPR---R-----------------------------
 ---------------------------------------KPQTPRRRPSS----------
 -------------------------------------PAPGPSRQSSSVGS-QTLRR-RQ
 KFM---------------WLKEIKTLQKSTDLLFRKKPFSMVVREICEKFSR-GVDFWWQ
 AQALLALQEAAEAFLIHLFEDAYLLSLHAGRVTLFPKDIQLTRRIRGFEGGLP
->cenH3_(Homo_sapiens)_Homo_sapiens_NP_001035891.1 organism=Homo sapiens phylum=Chordata class=Mammalia
+>cenH3_Homo_sapiens_Homo_sapiens_NP_001035891.1 organism=Homo sapiens phylum=Chordata class=Mammalia
 -----------------------MGPRRRSR-----------------------------
 ---------------------------------------KPEAPRRRSPSPT--------
 -------------------------------------PTPGPSRRGPSLGA-SSHQHSRR
 RQG---------------WLKEIRKLQKSTHLLIRKLPFSRL------------------
 ---------AAEAFLVHLFEDAYLLTLHAGRVTLFPKDVQLARRIRGLEEGLG
->cenH3_(Homo_sapiens)_Homo_sapiens_NP_001800.1 organism=Homo sapiens phylum=Chordata class=Mammalia
+>cenH3_Homo_sapiens_Homo_sapiens_NP_001800.1 organism=Homo sapiens phylum=Chordata class=Mammalia
 -----------------------MGPRRRSR-----------------------------
 ---------------------------------------KPEAPRRRSPSPT--------
 -------------------------------------PTPGPSRRGPSLGA-SSHQHSRR

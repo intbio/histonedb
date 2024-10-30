@@ -1,32 +1,32 @@
->H2A.X_(Animals)_Apis_mellifera_XP_624700.1 organism=Apis mellifera phylum=Arthropoda class=Insecta
+>H2A.X_Animals_Apis_mellifera_XP_624700.1 organism=Apis mellifera phylum=Arthropoda class=Insecta
 MSGRGK-GGKAKGKAKTRSSRAGLQFPVGRIHRLLRKGNYAERVGAGAPVYLAAVMEYLA
 AEVLELAGNAARDNKKTRIIPRHLQLAIRNDEELNKLLSGVTIAQGGVLPNIQAVLLPKK
 TGT--G-------GSGKGDKASQEY
->H2A.X_(Animals)_Trichoplax_adhaerens_XP_002116274.1 organism=Trichoplax adhaerens phylum=Placozoa class=Uniplacotomia
+>H2A.X_Animals_Trichoplax_adhaerens_XP_002116274.1 organism=Trichoplax adhaerens phylum=Placozoa class=Uniplacotomia
 MSGRGK-GGKARNKAKSRSTRAGLQFPVGRVHRMLRKGNYAERVGAGAPVYLAAVMEYLA
 AEILELAGNAARDNKKQRIVPRHLQLAIRNDEELNKLLSGVTIAQGGVLPNIQAVLLPKK
 SKVPIA-------GSKKGSSQSQEY
->H2A.X_(Vertebrata)_Danio_rerio_NP_957367.1 organism=Danio rerio phylum=Chordata class=Actinopteri
+>H2A.X_Vertebrata_Danio_rerio_NP_957367.1 organism=Danio rerio phylum=Chordata class=Actinopteri
 MSGRGKTGGKARAKAKTRSSRAGLQFPVGRVHRLLRKGNYAERVGAGAPVYLAAVLEYLT
 AEILELAGNAARDNKKTRIIPRHLQLAVRNDEELNKLLGGVTIAQGGVLPNIQAVLLPKK
 TGQAAASSGK---SGKKGSSQSQEY
->H2A.X_(Mammalia)_Bos_taurus_NP_001073248.1 organism=Bos taurus phylum=Chordata class=Mammalia
+>H2A.X_Mammalia_Bos_taurus_NP_001073248.1 organism=Bos taurus phylum=Chordata class=Mammalia
 MSGRGKTGGKARAKAKSRSSRAGLQFPVGRVHRLLRKGHYAERVGAGAPVYLAAVLEYLT
 AEILELAGNAARDNKKTRIIPRHLQLAIRNDEELNKLLGGVTIAQGGVLPNIQAVLLPKK
 TSATVGPKAP--AGGKKATQASQEY
->H2A.X_(Mammalia)_Monodelphis_domestica_XP_001370540.1 organism=Monodelphis domestica phylum=Chordata class=Mammalia
+>H2A.X_Mammalia_Monodelphis_domestica_XP_001370540.1 organism=Monodelphis domestica phylum=Chordata class=Mammalia
 MSGRGKTGGKARAKAKSRSSRAGLQFPVGRVHRLLRKGHYAERVGAGAPVYLAAVLEYLT
 AEILELAGNAARDNKKTRIIPRHLQLAIRNDEELNKLLGGVTIAQGGVLPNIQAVLLPKK
 SGAITGPKAPGSGGSKKSTQASQEY
->H2A.X_(Mammalia)_Rattus_norvegicus_NP_001102761.1 organism=Rattus norvegicus phylum=Chordata class=Mammalia
+>H2A.X_Mammalia_Rattus_norvegicus_NP_001102761.1 organism=Rattus norvegicus phylum=Chordata class=Mammalia
 MSGRGKTGGKARAKAKSRSSRAGLQFPVGRVHRLLRKGHYAERVGAGAPVYLAAVLEYLT
 AEILELAGNAARDNKKTRIIPRHLQLAIRNDEELNKLLGGVTIAQGGVLPNIQAVLLPKK
 TSATVGPKAP--AGGKKASQASQEY
->H2A.X_(Homo_sapiens)_Homo_sapiens_NP_002096.1 organism=Homo sapiens phylum=Chordata class=Mammalia
+>H2A.X_Homo_sapiens_Homo_sapiens_NP_002096.1 organism=Homo sapiens phylum=Chordata class=Mammalia
 MSGRGKTGGKARAKAKSRSSRAGLQFPVGRVHRLLRKGHYAERVGAGAPVYLAAVLEYLT
 AEILELAGNAARDNKKTRIIPRHLQLAIRNDEELNKLLGGVTIAQGGVLPNIQAVLLPKK
 TSATVGPKAP--SGGKKATQASQEY
->H2A.X_(Mus_musculus)_Mus_musculus_NP_034566.1 organism=Mus musculus phylum=Chordata class=Mammalia
+>H2A.X_Mus_musculus_Mus_musculus_NP_034566.1 organism=Mus musculus phylum=Chordata class=Mammalia
 MSGRGKTGGKARAKAKSRSSRAGLQFPVGRVHRLLRKGHYAERVGAGAPVYLAAVLEYLT
 AEILELAGNAARDNKKTRIIPRHLQLAIRNDEELNKLLGGVTIAQGGVLPNIQAVLLPKK
 SSATVGPKAP--AVGKKASQASQEY

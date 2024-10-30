@@ -75,42 +75,42 @@ EGPYAQCLSSSARVFLAATIEYLTARVLELA--GDEAQIVG-RRCITPELVAMAVHNNAL
 LSAFF--GTLAI-----------------SQ---------VAPTQE--------------
 ------------------------------------------------------------
 ----------
->H2A.B.1_(Homo_sapiens)_Homo_sapiens_NP_001017990.1 organism=Homo sapiens phylum=Chordata class=Mammalia
+>H2A.B.1_Homo_sapiens_Homo_sapiens_NP_001017990.1 organism=Homo sapiens phylum=Chordata class=Mammalia
 ------------------------------------------------------------
 -------MPRRR--RRRGSSGAGGRG-----------RTCSRTVRAELSFSVSQVERSLR
 EGHYAQRLSRTAPVYLAAVIEYLTAKVPELA--GNEAQNSG-ERNITPLLLDMVVHNDRL
 LSTLF--NTTTI-----------------SQ---------VAPGED--------------
 ------------------------------------------------------------
 ----------
->H2A.B.2_(Homo_sapiens)_Homo_sapiens_NP_001017991.1 organism=Homo sapiens phylum=Chordata class=Mammalia
+>H2A.B.2_Homo_sapiens_Homo_sapiens_NP_001017991.1 organism=Homo sapiens phylum=Chordata class=Mammalia
 ------------------------------------------------------------
 -------MPRRR--RRRGSSGAGGRG-----------RTCSRTVRAELSFSVSQVERSLR
 EGHYAQRLSRTAPVYLAAVIEYLTAKVLELA--GNEAQNSG-ERNITPLLLDMVVHNDRL
 LSTLF--NTTTI-----------------SQ---------VAPGED--------------
 ------------------------------------------------------------
 ----------
->H2A.B.2_(Homo_sapiens)_Homo_sapiens_NP_542451.1 organism=Homo sapiens phylum=Chordata class=Mammalia
+>H2A.B.2_Homo_sapiens_Homo_sapiens_NP_542451.1 organism=Homo sapiens phylum=Chordata class=Mammalia
 ------------------------------------------------------------
 -------MPRRR--RRRGSSGAGGRG-----------RTCSRTVRAELSFSVSQVERSLR
 EGHYAQRLSRTAPVYLAAVIEYLTAKVLELA--GNEAQNSG-ERNITPLLLDMVVHNDRL
 LSTLF--NTTTI-----------------SQ---------VAPGED--------------
 ------------------------------------------------------------
 ----------
->H2A.B.1_(Mus_musculus)_Mus_musculus_NP_001268460.1 organism=Mus musculus phylum=Chordata class=Mammalia
+>H2A.B.1_Mus_musculus_Mus_musculus_NP_001268460.1 organism=Mus musculus phylum=Chordata class=Mammalia
 ------------------------------------------------------------
 -------MPRNRENCLRESSGRR--------------HRRSRTSRAELIFAVSLVEQHLR
 EVSRARRLSDTVPIFLAAILESLTRRLLELA--GNEAQRRGTERRITPELLDLAVYSNME
 LSDVF--QFITI-----------------SQ---------VAPAHR--------------
 ------------------------------------------------------------
 ----------
->H2A.B.2_(Mus_musculus)_Mus_musculus_NP_001268459.1 organism=Mus musculus phylum=Chordata class=Mammalia
+>H2A.B.2_Mus_musculus_Mus_musculus_NP_001268459.1 organism=Mus musculus phylum=Chordata class=Mammalia
 ------------------------------------------------------------
 -------MPRNTENCLQRSSGHR--------------QHHSRTSRGELIFAVSLVEQHLR
 EVSRARRLSDMVPVSLVAILEFLTSRLLELA--GNEAQRRGTQRLITPQPLDLEVYSSME
 LSDVF--QFITI-----------------SQ---------VAPAHR--------------
 ------------------------------------------------------------
 ----------
->H2A.B.3_(Mus_musculus)_Mus_musculus_NP_001096135.1 organism=Mus musculus phylum=Chordata class=Mammalia
+>H2A.B.3_Mus_musculus_Mus_musculus_NP_001096135.1 organism=Mus musculus phylum=Chordata class=Mammalia
 ------------------------------------------------------------
 -------MPRNRENCLRESSGRR--------------HRRSRTSRAELIFAVSLVEQHLR
 EISRAWRLSDMVPIFLAAILESLTRRLLELA--GNEAQRRGTERRITPELLDLAVYSNME
@@ -222,35 +222,35 @@ EGQYAQRLSSYTPVFLAGVLEHLMAHILELA--AREARSSR-KVRITPEHVQRALNNNET
 LSRLF--QASSV-----------------SRGAEEGAEEPGAEEPLPEAGQ---------
 ------------------------------------------------------------
 ----------
->H2A.L.1_(Homo_sapiens)_Homo_sapiens_HISTDB_H2A_L_0 organism=Homo sapiens phylum=Chordata class=Mammalia
+>H2A.L.1_Homo_sapiens_Homo_sapiens_HISTDB_H2A_L_0 organism=Homo sapiens phylum=Chordata class=Mammalia
 ------------------------------------------------------------
 -------MAGNKHSRSSCKPRR---------------QCLSRSRRAELQFPVSHMERCLR
 EGQYARHLSSTTPVFLAAVLEYLTANILEQA--GKEAQNSH-RVCITPEHLKRALQKNEQ
 LRWILEEEDDIH-----------------SQ---------EEEMPQPEEEEEEDERMEEE
 EEEKKEEEEKEEEEDERMEEEEEEKKEEEEKKEEKEKEEEKEKKKKKGGFLSFRAVQDFI
 SNLFQLLKFP
->H2A.L.3_(Homo_sapiens)_Homo_sapiens_HISTDB_H2A_L_1 organism=Homo sapiens phylum=Chordata class=Mammalia
+>H2A.L.3_Homo_sapiens_Homo_sapiens_HISTDB_H2A_L_1 organism=Homo sapiens phylum=Chordata class=Mammalia
 ------------------------------------------------------------
 -------MAGNK---MFCRPRR---------------QRLSHSRRAELQFPVSHLERCLR
 ESQHARHLSSTTPVFLAGVLEYLTANILEKV--GKEVKNSC-RLCITPEHVKRALQKDEQ
 LRWILELEDDTH-----------------SQ---------VEEMPQSEEEEE--------
 -----EEEEKEEEMVVLVVMGGRRRR--------------RRRRRRKDS-----------
 ----------
->H2A.L.1_(Mus_musculus)_Mus_musculus_NP_083864.1 organism=Mus musculus phylum=Chordata class=Mammalia
+>H2A.L.1_Mus_musculus_Mus_musculus_NP_083864.1 organism=Mus musculus phylum=Chordata class=Mammalia
 ------------------------------------------------------------
 -------MAKKM-----QRRRR---------------QKRTRSQRGEL--PLSLVDRFLR
 EEFHSSRLSSSALSFLTSVLEYLTSNILELA--GEVAHTTG-RKRVTPEDVRLVVQNNEQ
 LRQLF--K---------PGG---------TS---------VNE----DDN----------
 ------------------------------------------------------------
 ----------
->H2A.L.2_(Mus_musculus)_Mus_musculus_NP_080903.1 organism=Mus musculus phylum=Chordata class=Mammalia
+>H2A.L.2_Mus_musculus_Mus_musculus_NP_080903.1 organism=Mus musculus phylum=Chordata class=Mammalia
 ------------------------------------------------------------
 -------MARKR-----QRRRR---------------RKVTRSQRAELQFPVSRVDRFLR
 EGNYSRRLSSSAPVFLAGVLEYLTSNILELA--GEVAHTTG-RKRIAPEHVCRVVQNNEQ
 LHQLF--K---------QGG---------TS---------VFEPPEPDDN----------
 ------------------------------------------------------------
 ----------
->H2A.L.3_(Mus_musculus)_Mus_musculus_Q9D4U4 organism=Mus musculus phylum=Chordata class=Mammalia
+>H2A.L.3_Mus_musculus_Mus_musculus_Q9D4U4 organism=Mus musculus phylum=Chordata class=Mammalia
 ------------------------------------------------------------
 -------ME--------DKRQK---------------DSVAPSSGAKLQFPVSEAEHLLQ
 ERNLSKCLNSSTPVLFTDMLNYVTSSILELTVKDRDSHTSC-NKLIAPEQKSKPTDNIDE
@@ -313,14 +313,14 @@ EDQYVHTLSSSTTHFLFSVLEYLTDYILDLV--DTKA-NTG-RMQMTPQDVERAVDSNAE
 PHRQV--KDTAF-----------------AL---------FDEMPGSRRNG---------
 ------------------------------------------------------------
 ----------
->H2A.P_(Homo_sapiens)_Homo_sapiens_NP_036406.1 organism=Homo sapiens phylum=Chordata class=Mammalia
+>H2A.P_Homo_sapiens_Homo_sapiens_NP_036406.1 organism=Homo sapiens phylum=Chordata class=Mammalia
 ------------------------------------------------------------
 -------MSEKKNCKNSSTNNN---------------QTQDP-SRNELQVPRSFVDRVVQ
 DERDVQSQSSSTINTLLTLLDCLADYIMERV--GLEASNNG-SMRNTSQDREREVDNNRE
 PHSAE--SDVTR-----------------FL---------FDEMPKSRKND---------
 ------------------------------------------------------------
 ----------
->H2A.P_(Mus_musculus)_Mus_musculus_NP_080372.1 organism=Mus musculus phylum=Chordata class=Mammalia
+>H2A.P_Mus_musculus_Mus_musculus_NP_080372.1 organism=Mus musculus phylum=Chordata class=Mammalia
 ------------------------------------------------------------
 -------MSEKKSQEKPCSDNN---------------QIEDPSSRPEVQVPVNYVYRILQ
 EEQYTPCIGSTTSDFLLAMLDYLTDYILEVV--GSEA-NIN-NQQNISQDRERQRDNDRE

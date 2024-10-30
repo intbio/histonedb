@@ -1,4 +1,4 @@
->cenH3_(Eukarya)_Plasmodium_falciparum_3D7_XP_001350068.1 organism=Plasmodium falciparum 3D7 phylum=Apicomplexa class=Aconoidasida
+>cenH3_Eukarya_Plasmodium_falciparum_3D7_XP_001350068.1 organism=Plasmodium falciparum 3D7 phylum=Apicomplexa class=Aconoidasida
 ------------------------------------------------------------
 ------------------------------------------------------------
 ------------------------------------------------------------
@@ -8,7 +8,7 @@ TLP-------NRTVHHGISSKTTNINRPSVNRGGINEVAQKNL--HRTNIRK--------
 -----------PHR-YRPGVLALKEIRAYQASTQLLIPKIPFVRVVKEITRLFELP---D
 -E-QFRYTPEALLALQTASEAYLV-SLFEDAYLCSLHANRVTLMPKDIHLARRIRGRD--
 -------------
->cenH3_(Eukarya)_Thalassiosira_pseudonana_CCMP1335_XP_002287626.1 organism=Thalassiosira pseudonana CCMP1335 phylum=Bacillariophyta class=Coscinodiscophyceae
+>cenH3_Eukarya_Thalassiosira_pseudonana_CCMP1335_XP_002287626.1 organism=Thalassiosira pseudonana CCMP1335 phylum=Bacillariophyta class=Coscinodiscophyceae
 ------------------------------------------------------------
 ------------------------------------------------------------
 ------------------------------------------------------------
@@ -18,7 +18,7 @@ TLP-------NRTVHHGISSKTTNINRPSVNRGGINEVAQKNL--HRTNIRK--------
 ---------------MRPGEKALREIRQYQSSTSLLLRRLPFARLVREIQ--YGMT---R
 -Q-PYRWQGSAILALQEAAEAHLV-GLFEDSNLCAIHGKRVTIMPKDMQLARRIRGWVRE
 -------------
->cenH3_(Eukarya)_Tetrahymena_thermophila_SB210_XP_001011273.1 organism=Tetrahymena thermophila SB210 phylum=Ciliophora class=Oligohymenophorea
+>cenH3_Eukarya_Tetrahymena_thermophila_SB210_XP_001011273.1 organism=Tetrahymena thermophila SB210 phylum=Ciliophora class=Oligohymenophorea
 ------------------------------------------------------------
 ------------------------------------------------------------
 ------------------------------------------------------------
@@ -28,7 +28,7 @@ NKQ-----DNLRSKSAGNQQGNEKNKKDIQDQRNKASTKKKRE--SSGEKYE--------
 -----SARDKVIRR-FRPGDNALKQLRQYNQTPSLLIRKLPFQRLIREIS--TRMT---E
 -EDSLRWTSFALVLLQTVVEDYMV-SFFEDANACALHAKRVTLMSKDLALAARIRGQKNV
 TGIFIPTKK----
->cenH3_(Eukarya)_Phytophthora_sojae_XP_009526809.1 organism=Phytophthora sojae phylum=Oomycota class=
+>cenH3_Eukarya_Phytophthora_sojae_XP_009526809.1 organism=Phytophthora sojae phylum=Oomycota class=
 ------------------------------------------------------------
 ------------------------------------------------------------
 ------------------------------------------------------------
@@ -38,7 +38,7 @@ APP--AAPSSVSSASTPSPPPNLPARRPSVAPVGRQAAIHATP--TAPRRKRKATPPRRR
 PSSPASATQTVKKR-RKPGEAALREIRLLQRSTKLLLRKLPFARVVREIQ--TEFT---G
 -V-GYRWQAEALLALQEAAETYLV-RTFEDAYVGG-------------------------
 -------------
->cenH3_(Eukarya)_Perkinsus_marinus_ATCC_50983_XP_002767160.1 organism=Perkinsus marinus ATCC 50983 phylum=Perkinsozoa class=
+>cenH3_Eukarya_Perkinsus_marinus_ATCC_50983_XP_002767160.1 organism=Perkinsus marinus ATCC 50983 phylum=Perkinsozoa class=
 MVGVENLGVGFDELLTRGGCGVRDDAVEIAFRGVEGLEDVLKDYMVRNKDGKILSVARPV
 DAEHSEELLGLAAAIGRSYGSLICAAAHNGGVRLPVGKGDDDGDSNNSSDEEADSGCGGA
 AEGDEAGDVGAGAGDVGDGAGDGAAEGDGAGDAGNGAGDVGDVGDGAGDGAAEGDGAGDG
@@ -48,7 +48,7 @@ LLPPVEGRTSSSAAAIAAPPVPSAGSHIITGSGGKVPTAGKRP--RQFVKKS--------
 -----SAK---KGR-YRPGTVALREIRRHQEITDPLIEKRCFQALARSLS--REVE---A
 ---SMRWQPQSLVALQEASESFIV-GMLEASQLLAVHGRRITLMEKDVKMWTRLAAMFGS
 TTFMDQEKQVGGT
->cenH3_(Animals)_Drosophila_melanogaster_NP_523730.2 organism=Drosophila melanogaster phylum=Arthropoda class=Insecta
+>cenH3_Animals_Drosophila_melanogaster_NP_523730.2 organism=Drosophila melanogaster phylum=Arthropoda class=Insecta
 ------------------------------------------------------------
 ------------------------------------------------------------
 ------------------------------------------------------------
@@ -58,7 +58,7 @@ EEDQENRYPTTRSPQTRRMTVQQESKTRAAGPVAAQNQTRRRK--AANPMSR--------
 -----------AKR-MD------REIRRLQHHPGTLIPKLPFSRLVREFI--VKYS---D
 -DEPLRVTEGALLAMQESCEMYLT-QRLADSYMLTKHRNRVTLEVRDMALMAYICDRGRQ
 F------------
->cenH3_(Animals)_Caenorhabditis_elegans_NP_499128.1 organism=Caenorhabditis elegans phylum=Nematoda class=Chromadorea
+>cenH3_Animals_Caenorhabditis_elegans_NP_499128.1 organism=Caenorhabditis elegans phylum=Nematoda class=Chromadorea
 ------------------------------------------------------------
 ------------------------------------------------------------
 -----------------------------------------MADDTPIIEEIAEQNESVT
@@ -68,7 +68,7 @@ SSDEENYSMDGTNGDGNRAGPSNPDRGNRTGP-SSSDRVRMRA--GRNRVTK--------
 -----------TRR-YRPGQKALEEIRKYQKTEDLLIQKAPFARLVREIM--QTST---P
 FGADCRIRSDAISALQEAAEAFLV-EMFEGSSLISTHAKRVTLMTTDIQLYRRLCL--RH
 L------------
->cenH3_(Mammalia)_Mus_musculus_NP_031707.1 organism=Mus musculus phylum=Chordata class=Mammalia
+>cenH3_Mammalia_Mus_musculus_NP_031707.1 organism=Mus musculus phylum=Chordata class=Mammalia
 ------------------------------------------------------------
 ------------------------------------------------------------
 ------------------------------------------------------------
@@ -78,7 +78,7 @@ L------------
 ---------------------WLKEIKTLQKSTDLLFRKKPFSMVVREIC--EKFS---R
 -GVDFWWQAQALLALQEAAEAFLI-HLFEDAYLLSLHAGRVTLFPKDIQLTRRIRGFEGG
 LP-----------
->cenH3_(Homo_sapiens)_Homo_sapiens_NP_001035891.1 organism=Homo sapiens phylum=Chordata class=Mammalia
+>cenH3_Homo_sapiens_Homo_sapiens_NP_001035891.1 organism=Homo sapiens phylum=Chordata class=Mammalia
 ------------------------------------------------------------
 ------------------------------------------------------------
 ------------------------------------------------------------
@@ -88,7 +88,7 @@ LP-----------
 ---------------------WLKEIRKLQKSTHLLIRKLPFSRL---------------
 -----------------AAEAFLV-HLFEDAYLLTLHAGRVTLFPKDVQLARRIRGLEEG
 LG-----------
->cenH3_(Homo_sapiens)_Homo_sapiens_NP_001800.1 organism=Homo sapiens phylum=Chordata class=Mammalia
+>cenH3_Homo_sapiens_Homo_sapiens_NP_001800.1 organism=Homo sapiens phylum=Chordata class=Mammalia
 ------------------------------------------------------------
 ------------------------------------------------------------
 ------------------------------------------------------------
@@ -98,7 +98,7 @@ LG-----------
 ---------------------WLKEIRKLQKSTHLLIRKLPFSRLAREIC--VKFT---R
 -GVDFNWQAQALLALQEAAEAFLV-HLFEDAYLLTLHAGRVTLFPKDVQLARRIRGLEEG
 LG-----------
->cenH3_(Fungi)_Saccharomyces_cerevisiae_S288C_NP_012875.2 organism=Saccharomyces cerevisiae S288C phylum=Ascomycota class=Saccharomycetes
+>cenH3_Fungi_Saccharomyces_cerevisiae_S288C_NP_012875.2 organism=Saccharomyces cerevisiae S288C phylum=Ascomycota class=Saccharomycetes
 ------------------------------------------------------------
 ------------------------------------------------------------
 ------------------------------------------------------------
@@ -108,7 +108,7 @@ DYEDQAGNLEIETENEEEAEMETEVPAPVRTHSYALDRYVRQK--RREKQRK--------
 -----QSLKRVEKK-YTPSELALYEIRKYQRSTDLLISKIPFARLVKEVT--DEFT---T
 KDQDLRWQSMAIMALQEASEAYLV-GLLEHTNLLALHAKRITIMKKDMQLARRIRGQFI-
 -------------
->cenH3_(Fungi)_Schizosaccharomyces_pombe_NP_596473.1 organism=Schizosaccharomyces pombe phylum=Ascomycota class=Schizosaccharomycetes
+>cenH3_Fungi_Schizosaccharomyces_pombe_NP_596473.1 organism=Schizosaccharomyces pombe phylum=Ascomycota class=Schizosaccharomycetes
 ------------------------------------------------------------
 ------------------------------------------------------------
 ------------------------------------------------------------
@@ -118,7 +118,7 @@ KDQDLRWQSMAIMALQEASEAYLV-GLLEHTNLLALHAKRITIMKKDMQLARRIRGQFI-
 ------------KR-YRPGTTALREIRKYQRSTDLLIQRLPFSRIVREIS--SEFVANFS
 TDVGLRWQSTALQCLQEAAEAFLV-HLFEDTNLCAIHAKRVTIMQRDMQLARRIRGA---
 -------------
->cenH3_(Plants)_Guillardia_theta_AAK39657.1 organism=Guillardia theta phylum= class=Cryptophyceae
+>cenH3_Plants_Guillardia_theta_AAK39657.1 organism=Guillardia theta phylum= class=Cryptophyceae
 ------------------------------------------------------------
 ------------------------------------------------------------
 ------------------------------------------------------------
@@ -128,7 +128,7 @@ TDVGLRWQSTALQCLQEAAEAFLV-HLFEDTNLCAIHAKRVTIMQRDMQLARRIRGA---
 -------------R-FKKSSNSLVDIRKFQKSTDLLIHRLPFARLVKEIS--LKYH---H
 -S--LNWQQVAVEALQFASEDYII-GLLQDANLAAIHAKRVTVMPKDLKLAKIIRGEH--
 -------------
->cenH3_(Plants)_Cyanidioschyzon_merolae_strain_10D_XP_005535607.1 organism=Cyanidioschyzon merolae strain 10D phylum=Rhodophyta class=Bangiophyceae
+>cenH3_Plants_Cyanidioschyzon_merolae_strain_10D_XP_005535607.1 organism=Cyanidioschyzon merolae strain 10D phylum=Rhodophyta class=Bangiophyceae
 ------------------------------------------------------------
 ------------------------------------------------------------
 ------------------------------------------------------------
@@ -138,7 +138,7 @@ PPGPTTATTNADANTVQRGLSVASAFPPRAPLQAAGFTVARRT--TRSGVQR--------
 -----------KHR-FRPGSRAIMEIRKFQRSTELLLRRLPFARLVREIC--ERLF---G
 -SSAFRWQASALEALQTAAEDYLI-HLFEDSNLCAIHARRVTIMPRDIALARRIRGYHSD
 PHGYL--------
->cenH3_(Plants)_Arabidopsis_thaliana_NP_563627.1 organism=Arabidopsis thaliana phylum=Streptophyta class=Magnoliopsida
+>cenH3_Plants_Arabidopsis_thaliana_NP_563627.1 organism=Arabidopsis thaliana phylum=Streptophyta class=Magnoliopsida
 ------------------------------------------------------------
 ------------------------------------------------------------
 ------------------------------------------------------------
@@ -378,7 +378,7 @@ W------------
 -----------PHR-YRPGTVALREIRKYQKSTELLIRKLPFQRLVREIA--QDFK---T
 ---DLRFQSHAVLALQEAAEAYLV-GLFEDTNLCAIHAKRVTIMPKDIQLARRIRGERA-
 -------------
->cH3.1_(Homo_sapiens)_Homo_sapiens_NP_003520.1 organism=Homo sapiens phylum=Chordata class=Mammalia
+>cH3.1_Homo_sapiens_Homo_sapiens_NP_003520.1 organism=Homo sapiens phylum=Chordata class=Mammalia
 ------------------------------------------------------------
 ------------------------------------------------------------
 ------------------------------------------------------------
@@ -388,7 +388,7 @@ W------------
 -----------PHR-YRPGTVALREIRRYQKSTELLIRKLPFQRLVREIA--QDFK---T
 ---DLRFQSSAVMALQEACEAYLV-GLFEDTNLCAIHAKRVTIMPKDIQLARRIRGERA-
 -------------
->cH3.1_(Homo_sapiens)_Homo_sapiens_NP_003521.2 organism=Homo sapiens phylum=Chordata class=Mammalia
+>cH3.1_Homo_sapiens_Homo_sapiens_NP_003521.2 organism=Homo sapiens phylum=Chordata class=Mammalia
 ------------------------------------------------------------
 ------------------------------------------------------------
 ------------------------------------------------------------
@@ -398,7 +398,7 @@ W------------
 -----------PHR-YRPGTVALREIRRYQKSTELLIRKLPFQRLVREIA--QDFK---T
 ---DLRFQSSAVMALQEACEAYLV-GLFEDTNLCAIHAKRVTIMPKDIQLARRIRGERA-
 -------------
->cH3.1_(Homo_sapiens)_Homo_sapiens_NP_003522.1 organism=Homo sapiens phylum=Chordata class=Mammalia
+>cH3.1_Homo_sapiens_Homo_sapiens_NP_003522.1 organism=Homo sapiens phylum=Chordata class=Mammalia
 ------------------------------------------------------------
 ------------------------------------------------------------
 ------------------------------------------------------------
@@ -408,7 +408,7 @@ W------------
 -----------PHR-YRPGTVALREIRRYQKSTELLIRKLPFQRLVREIA--QDFK---T
 ---DLRFQSSAVMALQEACEAYLV-GLFEDTNLCAIHAKRVTIMPKDIQLARRIRGERA-
 -------------
->cH3.1_(Homo_sapiens)_Homo_sapiens_NP_003523.1 organism=Homo sapiens phylum=Chordata class=Mammalia
+>cH3.1_Homo_sapiens_Homo_sapiens_NP_003523.1 organism=Homo sapiens phylum=Chordata class=Mammalia
 ------------------------------------------------------------
 ------------------------------------------------------------
 ------------------------------------------------------------
@@ -418,7 +418,7 @@ W------------
 -----------PHR-YRPGTVALREIRRYQKSTELLIRKLPFQRLVREIA--QDFK---T
 ---DLRFQSSAVMALQEACEAYLV-GLFEDTNLCAIHAKRVTIMPKDIQLARRIRGERA-
 -------------
->cH3.1_(Homo_sapiens)_Homo_sapiens_NP_003524.1 organism=Homo sapiens phylum=Chordata class=Mammalia
+>cH3.1_Homo_sapiens_Homo_sapiens_NP_003524.1 organism=Homo sapiens phylum=Chordata class=Mammalia
 ------------------------------------------------------------
 ------------------------------------------------------------
 ------------------------------------------------------------
@@ -428,7 +428,7 @@ W------------
 -----------PHR-YRPGTVALREIRRYQKSTELLIRKLPFQRLVREIA--QDFK---T
 ---DLRFQSSAVMALQEACEAYLV-GLFEDTNLCAIHAKRVTIMPKDIQLARRIRGERA-
 -------------
->cH3.1_(Homo_sapiens)_Homo_sapiens_NP_003525.1 organism=Homo sapiens phylum=Chordata class=Mammalia
+>cH3.1_Homo_sapiens_Homo_sapiens_NP_003525.1 organism=Homo sapiens phylum=Chordata class=Mammalia
 ------------------------------------------------------------
 ------------------------------------------------------------
 ------------------------------------------------------------
@@ -438,7 +438,7 @@ W------------
 -----------PHR-YRPGTVALREIRRYQKSTELLIRKLPFQRLVREIA--QDFK---T
 ---DLRFQSSAVMALQEACEAYLV-GLFEDTNLCAIHAKRVTIMPKDIQLARRIRGERA-
 -------------
->cH3.1_(Homo_sapiens)_Homo_sapiens_NP_003526.1 organism=Homo sapiens phylum=Chordata class=Mammalia
+>cH3.1_Homo_sapiens_Homo_sapiens_NP_003526.1 organism=Homo sapiens phylum=Chordata class=Mammalia
 ------------------------------------------------------------
 ------------------------------------------------------------
 ------------------------------------------------------------
@@ -448,7 +448,7 @@ W------------
 -----------PHR-YRPGTVALREIRRYQKSTELLIRKLPFQRLVREIA--QDFK---T
 ---DLRFQSSAVMALQEACEAYLV-GLFEDTNLCAIHAKRVTIMPKDIQLARRIRGERA-
 -------------
->cH3.1_(Homo_sapiens)_Homo_sapiens_NP_003527.1 organism=Homo sapiens phylum=Chordata class=Mammalia
+>cH3.1_Homo_sapiens_Homo_sapiens_NP_003527.1 organism=Homo sapiens phylum=Chordata class=Mammalia
 ------------------------------------------------------------
 ------------------------------------------------------------
 ------------------------------------------------------------
@@ -458,7 +458,7 @@ W------------
 -----------PHR-YRPGTVALREIRRYQKSTELLIRKLPFQRLVREIA--QDFK---T
 ---DLRFQSSAVMALQEACEAYLV-GLFEDTNLCAIHAKRVTIMPKDIQLARRIRGERA-
 -------------
->cH3.1_(Homo_sapiens)_Homo_sapiens_NP_003528.1 organism=Homo sapiens phylum=Chordata class=Mammalia
+>cH3.1_Homo_sapiens_Homo_sapiens_NP_003528.1 organism=Homo sapiens phylum=Chordata class=Mammalia
 ------------------------------------------------------------
 ------------------------------------------------------------
 ------------------------------------------------------------
@@ -468,7 +468,7 @@ W------------
 -----------PHR-YRPGTVALREIRRYQKSTELLIRKLPFQRLVREIA--QDFK---T
 ---DLRFQSSAVMALQEACEAYLV-GLFEDTNLCAIHAKRVTIMPKDIQLARRIRGERA-
 -------------
->cH3.1_(Homo_sapiens)_Homo_sapiens_NP_066298.1 organism=Homo sapiens phylum=Chordata class=Mammalia
+>cH3.1_Homo_sapiens_Homo_sapiens_NP_066298.1 organism=Homo sapiens phylum=Chordata class=Mammalia
 ------------------------------------------------------------
 ------------------------------------------------------------
 ------------------------------------------------------------
@@ -478,7 +478,7 @@ W------------
 -----------PHR-YRPGTVALREIRRYQKSTELLIRKLPFQRLVREIA--QDFK---T
 ---DLRFQSSAVMALQEACEAYLV-GLFEDTNLCAIHAKRVTIMPKDIQLARRIRGERA-
 -------------
->cH3.2_(Homo_sapiens)_Homo_sapiens_NP_001005464.1 organism=Homo sapiens phylum=Chordata class=Mammalia
+>cH3.2_Homo_sapiens_Homo_sapiens_NP_001005464.1 organism=Homo sapiens phylum=Chordata class=Mammalia
 ------------------------------------------------------------
 ------------------------------------------------------------
 ------------------------------------------------------------
@@ -488,7 +488,7 @@ W------------
 -----------PHR-YRPGTVALREIRRYQKSTELLIRKLPFQRLVREIA--QDFK---T
 ---DLRFQSSAVMALQEASEAYLV-GLFEDTNLCAIHAKRVTIMPKDIQLARRIRGERA-
 -------------
->cH3.2_(Homo_sapiens)_Homo_sapiens_NP_001116847.1 organism=Homo sapiens phylum=Chordata class=Mammalia
+>cH3.2_Homo_sapiens_Homo_sapiens_NP_001116847.1 organism=Homo sapiens phylum=Chordata class=Mammalia
 ------------------------------------------------------------
 ------------------------------------------------------------
 ------------------------------------------------------------
@@ -498,7 +498,7 @@ W------------
 -----------PHR-YRPGTVALREIRRYQKSTELLIRKLPFQRLVREIA--QDFK---T
 ---DLRFQSSAVMALQEASEAYLV-GLFEDTNLCAIHAKRVTIMPKDIQLARRIRGERA-
 -------------
->cH3.2_(Homo_sapiens)_Homo_sapiens_NP_066403.2 organism=Homo sapiens phylum=Chordata class=Mammalia
+>cH3.2_Homo_sapiens_Homo_sapiens_NP_066403.2 organism=Homo sapiens phylum=Chordata class=Mammalia
 ------------------------------------------------------------
 ------------------------------------------------------------
 ------------------------------------------------------------
@@ -688,7 +688,7 @@ W------------
 -----------PHR-YRPGTVALREIRKYQKSTELLIRKLPFQRLVREIA--QDFK---T
 ---DLRFQSHAVLALQEAAEAYLV-GLFEDTNLCAIHAKRVTIMPKDIQLARRIRGERA-
 -------------
->H3.3_(Homo_sapiens)_Homo_sapiens_NP_002098.1 organism=Homo sapiens phylum=Chordata class=Mammalia
+>H3.3_Homo_sapiens_Homo_sapiens_NP_002098.1 organism=Homo sapiens phylum=Chordata class=Mammalia
 ------------------------------------------------------------
 ------------------------------------------------------------
 ------------------------------------------------------------
@@ -698,7 +698,7 @@ W------------
 -----------PHR-YRPGTVALREIRRYQKSTELLIRKLPFQRLVREIA--QDFK---T
 ---DLRFQSAAIGALQEASEAYLV-GLFEDTNLCAIHAKRVTIMPKDIQLARRIRGERA-
 -------------
->H3.3_(Homo_sapiens)_Homo_sapiens_NP_005315.1 organism=Homo sapiens phylum=Chordata class=Mammalia
+>H3.3_Homo_sapiens_Homo_sapiens_NP_005315.1 organism=Homo sapiens phylum=Chordata class=Mammalia
 ------------------------------------------------------------
 ------------------------------------------------------------
 ------------------------------------------------------------
@@ -708,7 +708,7 @@ W------------
 -----------PHR-YRPGTVALREIRRYQKSTELLIRKLPFQRLVREIA--QDFK---T
 ---DLRFQSAAIGALQEASEAYLV-GLFEDTNLCAIHAKRVTIMPKDIQLARRIRGERA-
 -------------
->H3.Y_(Primates?)_Macaca_mulatta_HISTDB_H3_Y_0 organism=Macaca mulatta phylum=Chordata class=Mammalia
+>H3.Y_Primates?_Macaca_mulatta_HISTDB_H3_Y_0 organism=Macaca mulatta phylum=Chordata class=Mammalia
 ------------------------------------------------------------
 ------------------------------------------------------------
 ------------------------------------------------------------
@@ -718,7 +718,7 @@ W------------
 -----------PHR-YKPGTQALREIRKYQKSTQLLLRKLPFQCLVREIA--QVIS---L
 ---DLRFQSAAIGALQEASEAYLV-NLFEDTNLCAIHARRVTIMPRDMQLARRIRGEGAX
 EPTLLGNVAL---
->H3.Y_(Primates?)_Macaca_mulatta_HISTDB_H3_Y_1 organism=Macaca mulatta phylum=Chordata class=Mammalia
+>H3.Y_Primates?_Macaca_mulatta_HISTDB_H3_Y_1 organism=Macaca mulatta phylum=Chordata class=Mammalia
 ------------------------------------------------------------
 ------------------------------------------------------------
 ------------------------------------------------------------
@@ -728,7 +728,7 @@ EPTLLGNVAL---
 -----------PHR-YRPGTQALREIRKYQKSTQLLLRKLPFQRLVREIA--QAIS---P
 ---DLRFQSAAIGALQEASEAYLV-NLFEDTNLCAIHARRVTIMPRDMQLARRIRGEGA-
 -------------
->H3.Y_(Primates?)_Pan_troglodytes_HISTDB_H3_Y_2 organism=Pan troglodytes phylum=Chordata class=Mammalia
+>H3.Y_Primates?_Pan_troglodytes_HISTDB_H3_Y_2 organism=Pan troglodytes phylum=Chordata class=Mammalia
 ------------------------------------------------------------
 ------------------------------------------------------------
 ------------------------------------------------------------
@@ -738,7 +738,7 @@ EPTLLGNVAL---
 -----------PHR-YKPGTLALREIRKYQKSTQLLLRKLPFQRLVREIA--QAIS---P
 ---DLRFQSAAIGALQEASEAYLV-QLFEDTNLCAIHARRVTIMPRDMQLARRLRREGP-
 -------------
->H3.Y_(Primates?)_Pan_troglodytes_HISTDB_H3_Y_3 organism=Pan troglodytes phylum=Chordata class=Mammalia
+>H3.Y_Primates?_Pan_troglodytes_HISTDB_H3_Y_3 organism=Pan troglodytes phylum=Chordata class=Mammalia
 ------------------------------------------------------------
 ------------------------------------------------------------
 ------------------------------------------------------------
@@ -748,7 +748,7 @@ EPTLLGNVAL---
 -----------PHR-YKPGTLALREIRKYQKSTQLLLRKLPFQRLVREIA--QAIS---L
 ---DLRFQSAAIGALQEASEAYLV-QLFEDTNLCAIHARRVTIMPQDMQLARRLRGEGAR
 EPTLLGNLAL---
->H3.Y.1_(Homo_sapiens)_Homo_sapiens_NP_001342187.1 organism=Homo sapiens phylum=Chordata class=Mammalia
+>H3.Y.1_Homo_sapiens_Homo_sapiens_NP_001342187.1 organism=Homo sapiens phylum=Chordata class=Mammalia
 ------------------------------------------------------------
 ------------------------------------------------------------
 ------------------------------------------------------------
@@ -758,7 +758,7 @@ EPTLLGNLAL---
 -----------PHR-YKPGTLALREIRKYQKSTQLLLRKLPFQRLVREIA--QAIS---P
 ---DLRFQSAAIGALQEASEAYLV-QLFEDTNLCAIHARRVTIMPRDMQLARRLRREGP-
 -------------
->H3.Y.2_(Homo_sapiens)_Homo_sapiens_NP_001358848.1 organism=Homo sapiens phylum=Chordata class=Mammalia
+>H3.Y.2_Homo_sapiens_Homo_sapiens_NP_001358848.1 organism=Homo sapiens phylum=Chordata class=Mammalia
 ------------------------------------------------------------
 ------------------------------------------------------------
 ------------------------------------------------------------
@@ -768,7 +768,7 @@ EPTLLGNLAL---
 -----------PHR-YKPGTLALREIRKYQKSTQLLLRKLPFQRLVREIA--QAIS---P
 ---DLRFQSAAIGALQEASEAYLV-QLFEDTNLCAIHARRVTIMPRDMQLARRLRGEGAG
 EPTLLGNLAL---
->H3.4_(Mammalia)_Pan_paniscus_XP_003804825.1 organism=Pan paniscus phylum=Chordata class=Mammalia
+>H3.4_Mammalia_Pan_paniscus_XP_003804825.1 organism=Pan paniscus phylum=Chordata class=Mammalia
 ------------------------------------------------------------
 ------------------------------------------------------------
 ------------------------------------------------------------
@@ -778,7 +778,7 @@ EPTLLGNLAL---
 -----------PHR-YRPGTVALREIRRYQKSTELLIRKLPFQRLMREIA--QDFK---T
 ---DLRFQSSAVMALQEACESYLV-GLFEDTNLCVIHAKRVTIMPKDIQLARRIRGERA-
 -------------
->H3.4_(Homo_sapiens)_Homo_sapiens_NP_003484.1 organism=Homo sapiens phylum=Chordata class=Mammalia
+>H3.4_Homo_sapiens_Homo_sapiens_NP_003484.1 organism=Homo sapiens phylum=Chordata class=Mammalia
 ------------------------------------------------------------
 ------------------------------------------------------------
 ------------------------------------------------------------
@@ -788,7 +788,7 @@ EPTLLGNLAL---
 -----------PHR-YRPGTVALREIRRYQKSTELLIRKLPFQRLMREIA--QDFK---T
 ---DLRFQSSAVMALQEACESYLV-GLFEDTNLCVIHAKRVTIMPKDIQLARRIRGERA-
 -------------
->H3.5_(Hominidae)_Pan_troglodytes_XP_003954426.1 organism=Pan troglodytes phylum=Chordata class=Mammalia
+>H3.5_Hominidae_Pan_troglodytes_XP_003954426.1 organism=Pan troglodytes phylum=Chordata class=Mammalia
 ------------------------------------------------------------
 ------------------------------------------------------------
 ------------------------------------------------------------
@@ -798,7 +798,7 @@ EPTLLGNLAL---
 -----------PHR-YRPGTVALREIRRYQKSTELLIRKLPFQRLVREIA--QDFN---T
 ---DLRFQSAAVGALQEASEAYLV-GLLEDTNLCAIHAKRVTIMPKDIQLARRIRGERA-
 -------------
->H3.5_(Homo_sapiens)_Homo_sapiens_NP_001013721.2 organism=Homo sapiens phylum=Chordata class=Mammalia
+>H3.5_Homo_sapiens_Homo_sapiens_NP_001013721.2 organism=Homo sapiens phylum=Chordata class=Mammalia
 ------------------------------------------------------------
 ------------------------------------------------------------
 ------------------------------------------------------------

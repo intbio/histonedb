@@ -1,24 +1,24 @@
->H2A.X_(Protists)_Cryptosporidium_parvum_Iowa_II_XP_627120.1 organism=Cryptosporidium parvum Iowa II phylum=Apicomplexa class=Conoidasida
+>H2A.X_Protists_Cryptosporidium_parvum_Iowa_II_XP_627120.1 organism=Cryptosporidium parvum Iowa II phylum=Apicomplexa class=Conoidasida
 -MSGKVTSSGGRGGGK------------KTTRKTMSNSAKAGLQFPVGRVARYLKKGRYA
 KRIGAAAPVYLAAVLEYLCAELLELAGNAARDAKKTRITPRQIQLAVRNDEELSKFLGNV
 TIASGGVLPNIPTVLLPKKSK--SK--QG-NSQEF
->H2A.X_(Protists)_Toxoplasma_gondii_ME49_XP_002365290.1 organism=Toxoplasma gondii ME49 phylum=Apicomplexa class=Conoidasida
+>H2A.X_Protists_Toxoplasma_gondii_ME49_XP_002365290.1 organism=Toxoplasma gondii ME49 phylum=Apicomplexa class=Conoidasida
 -MSAKGAGGRKK----------------TSSGKKVSRSAKAGLQFPVSRIGRYLKKGRYA
 KRVGVGAPVYLAAVLEYLCAEILELAGNAARDHKKTRIIPRHIQLAVRNDEELSKFLGGV
 TIANGGVMPHVHAVLLPKHSK--SKGKHG-VSQEF
->H2A.X_(Protists)_Tetrahymena_thermophila_AAC37291.1 organism=Tetrahymena thermophila phylum=Ciliophora class=Oligohymenophorea
+>H2A.X_Protists_Tetrahymena_thermophila_AAC37291.1 organism=Tetrahymena thermophila phylum=Ciliophora class=Oligohymenophorea
 -MSTTGKGGKAK--GK------------TASSKQVSRSARAGLQFPVGRISRFLKHGRYS
 ERVGTGAPVYLAAVLEYLAAEVLELAGNAAKDNKKTRIVPRHILLAIRNDEELNKLMANT
 TIADGGVLPNINPMLLPSKSK--KTESRGQASQDL
->H2A.X_(Protists)_Dictyostelium_discoideum_AX4_XP_641587.1 organism=Dictyostelium discoideum AX4 phylum=Evosea class=Eumycetozoa
+>H2A.X_Protists_Dictyostelium_discoideum_AX4_XP_641587.1 organism=Dictyostelium discoideum AX4 phylum=Evosea class=Eumycetozoa
 MSETKPASSKPAAAAKPKKVIPRVSRTGEPKSKPESRSARAGITFPVSRVDRLLREGRFA
 PRVESTAPVYLAAVLEYLVFEILELAHNTCSISKKTRITPQHINWAVGNDLELNSLFQHV
 TIAYGGVLPTPQQSTGEKKKKPSKKAAEG-SSQIY
->H2A.X_(Protists)_Giardia_intestinalis_XP_001704715.1 organism=Giardia intestinalis phylum=Fornicata class=
+>H2A.X_Protists_Giardia_intestinalis_XP_001704715.1 organism=Giardia intestinalis phylum=Fornicata class=
 -MSTKPV---------------------KDNSKMKSRSARAGISFPIGRIHRHLREGRYA
 ERISSDAPVYLAAVLENVVAEVFREACNHRDKKSQKRIVPNHILTALRKDKELATIFANV
 TIREGGVARSAK-----EGRE--GKGSH--RSQDL
->H2A.X_(Protists)_Perkinsus_marinus_ATCC_50983_XP_002784006.1 organism=Perkinsus marinus ATCC 50983 phylum=Perkinsozoa class=
+>H2A.X_Protists_Perkinsus_marinus_ATCC_50983_XP_002784006.1 organism=Perkinsus marinus ATCC 50983 phylum=Perkinsozoa class=
 -MSGKGKGGRGKA-GK------------KSGSGAKSRSAKAGLQFPVGRIARYLKKGRYA
 KRVGSGAPVYLAAVLEYLVAEILELAGNAARDHKKTRIIPRHIQLAVRNDEELNKFLAGV
 TLASGGVLPNIHTTLLPKKSK--GKSFT--ASQEI
