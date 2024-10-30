@@ -309,7 +309,7 @@ fetch('https://intbio.org/histonedb/CURATED_SET/classification.json')
 
  var m = msa({
   el: rootDiv,
- importURL: "../seeds/"+name+".fasta",
+ importURL: "../draft_seeds/"+name.replace(/[()]/g, '')+".fasta",
  // seqs:seqs,
   all: true,
   vis: {
@@ -400,7 +400,7 @@ var gffParser = msa.io.gff;
 
 //Now we will add consensus with features
 //first we need to get features and load them.
-xhr("../seeds/"+name+".gff3", function(err, request, body) {
+xhr("../draft_seeds/"+name.replace(/[()]/g, '')+".gff3", function(err, request, body) {
   var features = gffParser.parseSeqs(body);
   m.seqs.addFeatures(features);
 
@@ -421,7 +421,7 @@ function waitForSeqs(){
         }
         m.seqs.unshift(seqc);
   //After that we add a tree
- m.importURL("../seeds/"+name+".tree", function(){
+ m.importURL("../draft_seeds/"+name.replace(/[()]/g, '')+".tree", function(){
  console.log("tree loaded");
  //Trigger SeqLogo from menu, see msa.js:24482 why we need to do this hack!
  console.log(defMenu.views["40_vis"]._nodes[3].callback());
