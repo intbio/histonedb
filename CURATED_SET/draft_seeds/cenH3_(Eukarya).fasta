@@ -1,0 +1,150 @@
+>Plasmodium|XP_001350068.1|cenH3_(Eukarya) organism=Plasmodium falciparum 3D7 phylum=Apicomplexa class=Aconoidasida
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+----------------MVRTKKNIPNHNPLNAF-----------------NRDKSFKTNK
+TLP-------NRTVHHGISSKTTNINRPSVNRGGINEVAQKNLHRTNIRK----------
+---------PHRYRPGVLALKEIRAYQASTQLLIPKIPFVRVVKEITRLFELP---D-E-
+QFRYTPEALLALQTASEAYLVSLFEDAYLCSLHANRVTLMPKDIHLARRIRGRD------
+---------
+>Thalassiosira|XP_002287626.1|cenH3_(Eukarya) organism=Thalassiosira pseudonana CCMP1335 phylum=Bacillariophyta class=Coscinodiscophyceae
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------MRPGEKALREIRQYQSSTSLLLRRLPFARLVREIQ--YGMT---R-Q-
+PYRWQGSAILALQEAAEAHLVGLFEDSNLCAIHGKRVTIMPKDMQLARRIRGWVRE----
+---------
+>Tetrahymena|XP_001011273.1|cenH3_(Eukarya) organism=Tetrahymena thermophila SB210 phylum=Ciliophora class=Oligohymenophorea
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+-----------------MARKAYQPKRRSNSNQ-----------------NQQRSDSLKK
+NKQ-----DNLRSKSAGNQQGNEKNKKDIQDQRNKASTKKKRESSGEKYE----------
+---SARDKVIRRFRPGDNALKQLRQYNQTPSLLIRKLPFQRLIREIS--TRMT---E-ED
+SLRWTSFALVLLQTVVEDYMVSFFEDANACALHAKRVTLMSKDLALAARIRGQKNVTGIF
+IPTKK----
+>Phytophthora|XP_009526809.1|cenH3_(Eukarya) organism=Phytophthora sojae phylum=Oomycota class=
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+--------------------------------------------------MASPRPPALP
+ASDASSSSVTDSGTDDSTPPNSPQPQRSPSPPF-----------------AATRGPAAAR
+APP--AAPSSVSSASTPSPPPNLPARRPSVAPVGRQAAIHATPTAPRRKRKATPPRRRPS
+SPASATQTVKKRRKPGEAALREIRLLQRSTKLLLRKLPFARVVREIQ--TEFT---G-V-
+GYRWQAEALLALQEAAETYLVRTFEDAYVGG-----------------------------
+---------
+>Perkinsus|XP_002767160.1|cenH3_(Eukarya) organism=Perkinsus marinus ATCC 50983 phylum=Perkinsozoa class=
+MVGVENLGVGFDELLTRGGCGVRDDAVEIAFRGVEGLEDVLKDYMVRNKDGKILSVARPV
+DAEHSEELLGLAAAIGRSYGSLICAAAHNGGVRLPVGKGDDDGDSNNSSDEEADSGCGGA
+AEGDEAGDVGAGAGDVGDGAGDGAAEGDGAGDAGNGAGDVGDVGDGAGDGAAEGDGAGDG
+AADDAHGAGDDGEGSRNGGPPLVVQMMVLVMMNGNGNGADDGGNGVDDGEGDGDGHQGNV
+EGDGHGDGQDDGDGEGSVDSSGNGGDSEPSLEV-----------------SREGSENRPK
+LLPPVEGRTSSSAAAIAAPPVPSAGSHIITGSGGKVPTAGKRPRQFVKKS----------
+---SAK---KGRYRPGTVALREIRRHQEITDPLIEKRCFQALARSLS--REVE---A---
+SMRWQPQSLVALQEASESFIVGMLEASQLLAVHGRRITLMEKDVKMWTRLAAMFGSTTFM
+DQEKQVGGT
+>Drosophila|NP_523730.2|cenH3_(Animals) organism=Drosophila melanogaster phylum=Arthropoda class=Insecta
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+----MPRHSRAKRAPRPSANNSKSPNDD-----DTAFRSPEPEDGTDYGLEFTTSQLTLQ
+DNNRRSSTL-----------RRDAGRRQPAARD---------------------SSTSGE
+EEDQENRYPTTRSPQTRRMTVQQESKTRAAGPVAAQNQTRRRKAANPMSR----------
+---------AKRMD------REIRRLQHHPGTLIPKLPFSRLVREFI--VKYS---D-DE
+PLRVTEGALLAMQESCEMYLTQRLADSYMLTKHRNRVTLEVRDMALMAYICDRGRQF---
+---------
+>Caenorhabditis|NP_499128.1|cenH3_(Animals) organism=Caenorhabditis elegans phylum=Nematoda class=Chromadorea
+------------------------------------------------------------
+------------------------------------------------------------
+-----------------------------------------MADDTPIIEEIAEQNESVT
+RIMQRLKHDMQRVTSVPGFNTSAAGVNDLIDILNQYKKELEDDAANDY-TEAHIHKIRLV
+TGKRNQYVLKLKQAEDEYHARKEQARRRASSMDFTVGRNSTNLVDYSHGRHHMPSYRRHD
+SSDEENYSMDGTNGDGNRAGPSNPDRGNRTGP-SSSDRVRMRAGRNRVTK----------
+---------TRRYRPGQKALEEIRKYQKTEDLLIQKAPFARLVREIM--QTST---PFGA
+DCRIRSDAISALQEAAEAFLVEMFEGSSLISTHAKRVTLMTTDIQLYRRLCL--RHL---
+---------
+>Mus|NP_031707.1|cenH3_(Mammalia) organism=Mus musculus phylum=Chordata class=Mammalia
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+----MGPR---R------------------------------------------------
+--------------------KPQTPRRRPSS-----------------------------
+------------------PAPGPSRQSSSVGS-QTLRR-RQKFM----------------
+------------------WLKEIKTLQKSTDLLFRKKPFSMVVREIC--EKFS---R-GV
+DFWWQAQALLALQEAAEAFLIHLFEDAYLLSLHAGRVTLFPKDIQLTRRIRGFEGGLP--
+---------
+>Homo|NP_001035891.1|cenH3_(Homo_sapiens) organism=Homo sapiens phylum=Chordata class=Mammalia
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+----MGPRRRSR------------------------------------------------
+--------------------KPEAPRRRSPSPT---------------------------
+------------------PTPGPSRRGPSLGA-SSHQHSRRRQG----------------
+------------------WLKEIRKLQKSTHLLIRKLPFSRL------------------
+--------------AAEAFLVHLFEDAYLLTLHAGRVTLFPKDVQLARRIRGLEEGLG--
+---------
+>Homo|NP_001800.1|cenH3_(Homo_sapiens) organism=Homo sapiens phylum=Chordata class=Mammalia
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+----MGPRRRSR------------------------------------------------
+--------------------KPEAPRRRSPSPT---------------------------
+------------------PTPGPSRRGPSLGA-SSHQHSRRRQG----------------
+------------------WLKEIRKLQKSTHLLIRKLPFSRLAREIC--VKFT---R-GV
+DFNWQAQALLALQEAAEAFLVHLFEDAYLLTLHAGRVTLFPKDVQLARRIRGLEEGLG--
+---------
+>Saccharomyces|NP_012875.2|cenH3_(Fungi) organism=Saccharomyces cerevisiae S288C phylum=Ascomycota class=Saccharomycetes
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+--------------------------------MSSKQQWVSSAIQSDSSGRSLSNVNRLA
+GDQQSINDRALSLLQRTRATKNLFPRREERRRY----------------ESSKSDLDIET
+DYEDQAGNLEIETENEEEAEMETEVPAPVRTHSYALDRYVRQKRREKQRK----------
+---QSLKRVEKKYTPSELALYEIRKYQRSTDLLISKIPFARLVKEVT--DEFT---TKDQ
+DLRWQSMAIMALQEASEAYLVGLLEHTNLLALHAKRITIMKKDMQLARRIRGQFI-----
+---------
+>Schizosaccharomyces|NP_596473.1|cenH3_(Fungi) organism=Schizosaccharomyces pombe phylum=Ascomycota class=Schizosaccharomycetes
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+-----------------MAKKSLM------------------------------------
+------------------AEPGDPIPRPRK------------------------------
+----------KRYRPGTTALREIRKYQRSTDLLIQRLPFSRIVREIS--SEFVANFSTDV
+GLRWQSTALQCLQEAAEAFLVHLFEDTNLCAIHAKRVTIMQRDMQLARRIRGA-------
+---------
+>Guillardia|AAK39657.1|cenH3_(Plants) organism=Guillardia theta phylum= class=Cryptophyceae
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+---------------------MMKKQNLK-------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+-----------RFKKSSNSLVDIRKFQKSTDLLIHRLPFARLVKEIS--LKYH---H-S-
+-LNWQQVAVEALQFASEDYIIGLLQDANLAAIHAKRVTVMPKDLKLAKIIRGEH------
+---------
+>Cyanidioschyzon|XP_005535607.1|cenH3_(Plants) organism=Cyanidioschyzon merolae strain 10D phylum=Rhodophyta class=Bangiophyceae
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+-MVRVFGNPVGGAHQYRQTQALNRDESLREQLQRTTVAEQDENIEPEPERSSPDEAQSRL
+KSLLGSVARSSSLLGRRVAGPPGSSLSNLAETRLLTEEAANRPTGAGRSERVSAGRAEPL
+PPGPTTATTNADANTVQRGLSVASAFPPRAPLQAAGFTVARRTTRSGVQR----------
+---------KHRFRPGSRAIMEIRKFQRSTELLLRRLPFARLVREIC--ERLF---G-SS
+AFRWQASALEALQTAAEDYLIHLFEDSNLCAIHARRVTIMPRDIALARRIRGYHSDPHGY
+L--------
+>Arabidopsis|NP_563627.1|cenH3_(Plants) organism=Arabidopsis thaliana phylum=Streptophyta class=Magnoliopsida
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+----------MARTKHRVTRSQPRNQTDA-------------------------------
+-----------------------------------------------------AGASSSQ
+AAGPTTTPTRRGGEGGDNTQQTNPTTSPATGTRRGAKRSRQAMPRGSQKK----------
+---------SYRYRPGTVALKEIRHFQKQTNLLIPAASFIREVRSIT--HMLA---P-PQ
+INRWTAEALVALQEAAEDYLVGLFSDSMLCAIHARRVTLMRKDFELARRLGGKGRPW---
+---------
