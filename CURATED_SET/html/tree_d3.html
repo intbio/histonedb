@@ -302,7 +302,7 @@ function upd_msa(name, summary) {
 // Add summary
 fetch('https://intbio.org/histonedb/CURATED_SET/classification.json')
     .then((response) => response.json())
-    .then((json) => descDiv.replaceChildren(document.createTextNode(json['info'][name]['description']['summary'])));
+    .then((json) => descDiv.replaceChildren(document.createTextNode(json['info'][name]['description']['summary']+'\nTaxonomic span: '+json['info'][name]['taxonomic_span']+', '+json['info'][name]['taxonomic_span_id']+'\nAlternate names: '+json['info'][name]['alternate_names'].join(', '))));
 
 
 //Add consensus
