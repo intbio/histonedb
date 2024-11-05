@@ -51,6 +51,8 @@ label {
 <h1>Multiple sequence alignment will appear below</h1>
 <div id="menu"></div>
 <div id="summary" style="padding-bottom: 30px;"></div>
+<div id="taxonomic_span" style="padding-bottom: 30px;"></div>
+<div id="alternate_names" style="padding-bottom: 30px;"></div>
 <div id="msa"></div>
 <script >
 
@@ -272,13 +274,15 @@ return d._children ? "#"+(r & 0x5).toString(16)+(g& 0x5).toString(16)+(b& 0x5).t
  });
 
 var descDiv = document.getElementById('summary');
+var descDiv = document.getElementById('taxonomic_span_id');
+var descDiv = document.getElementById('alternate_names');
 var rootDiv = document.getElementById("msa");
 var menuDiv = document.getElementById("menu");
 
 
 
 
-function upd_msa(name, summary) {
+function upd_msa(name) {
 
 // var seqs;
 
@@ -302,7 +306,17 @@ function upd_msa(name, summary) {
 // Add summary
 fetch('https://intbio.org/histonedb/CURATED_SET/classification.json')
     .then((response) => response.json())
-    .then((json) => descDiv.replaceChildren(document.createTextNode(json['info'][name]['description']['summary']+'\nTaxonomic span: '+json['info'][name]['taxonomic_span']+', '+json['info'][name]['taxonomic_span_id']+'\nAlternate names: '+json['info'][name]['alternate_names'].join(', '))));
+    .then((json) => descDiv.replaceChildren(document.createTextNode(json['info'][name]['description']['summary'])));
+
+// Add taxonomic_span
+fetch('https://intbio.org/histonedb/CURATED_SET/classification.json')
+    .then((response) => response.json())
+    .then((json) => descDiv.replaceChildren(document.createTextNode('Taxonomic span: '+json['info'][name]['taxonomic_span']+', '+json['info'][name]['taxonomic_span_id'])));
+
+// Add alternate_names
+fetch('https://intbio.org/histonedb/CURATED_SET/classification.json')
+    .then((response) => response.json())
+    .then((json) => descDiv.replaceChildren(document.createTextNode('Alternate names: '+json['info'][name]['alternate_names'].join(', '))));
 
 
 //Add consensus
