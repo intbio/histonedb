@@ -274,8 +274,8 @@ return d._children ? "#"+(r & 0x5).toString(16)+(g& 0x5).toString(16)+(b& 0x5).t
  });
 
 var descDiv = document.getElementById('summary');
-var descDiv = document.getElementById('taxonomic_span_id');
-var descDiv = document.getElementById('alternate_names');
+var taxDiv = document.getElementById('taxonomic_span_id');
+var altDiv = document.getElementById('alternate_names');
 var rootDiv = document.getElementById("msa");
 var menuDiv = document.getElementById("menu");
 
@@ -311,12 +311,12 @@ fetch('https://intbio.org/histonedb/CURATED_SET/classification.json')
 // Add taxonomic_span
 fetch('https://intbio.org/histonedb/CURATED_SET/classification.json')
     .then((response) => response.json())
-    .then((json) => descDiv.replaceChildren(document.createTextNode('Taxonomic span: '+json['info'][name]['taxonomic_span']+', '+json['info'][name]['taxonomic_span_id'])));
+    .then((json) => taxDiv.replaceChildren(document.createTextNode('Taxonomic span: '+json['info'][name]['taxonomic_span']+', '+json['info'][name]['taxonomic_span_id'])));
 
 // Add alternate_names
 fetch('https://intbio.org/histonedb/CURATED_SET/classification.json')
     .then((response) => response.json())
-    .then((json) => descDiv.replaceChildren(document.createTextNode('Alternate names: '+json['info'][name]['alternate_names'].join(', '))));
+    .then((json) => altDiv.replaceChildren(document.createTextNode('Alternate names: '+json['info'][name]['alternate_names'].join(', '))));
 
 
 //Add consensus
