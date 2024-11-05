@@ -316,7 +316,12 @@ fetch('https://intbio.org/histonedb/CURATED_SET/classification.json')
 // Add alternate_names
 fetch('https://intbio.org/histonedb/CURATED_SET/classification.json')
     .then((response) => response.json())
-    .then((json) => altDiv.replaceChildren(document.createTextNode('Alternate names: '+json['info'][name]['alternate_names'].join(', '))));
+    .then((json) => {
+        const alternateNames = json['info'][name]['alternate_names']
+            .map(item => item.name) // Извлекаем свойство name из каждого объекта
+            .join(', ');
+        altDiv.replaceChildren(document.createTextNode('Alternate names: ' + alternateNames));
+    });
 
 
 //Add consensus
