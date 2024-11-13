@@ -1,40 +1,15 @@
->gH2B_Lilium_davidii_var._unicolor_CUT18445.1 organism=Lilium davidii var. unicolor phylum=Streptophyta class=Magnoliopsida
-MAPKSEKKPAEKKPVAEKPAAEEEKKSAPAPAAAEKKPAEKK------------------
------------PKAGKKLPASKGKEGEKKK------------------------------
-------------------------------------------------------------
------------------------
->gH2B_Lilium_davidii_var._unicolor_CUT18446.1 organism=Lilium davidii var. unicolor phylum=Streptophyta class=Magnoliopsida
---------------------------------------AEKK------------------
------------PKAGKKVPASKEGEKKKKR-SKKSVETYKIYIFKVLKQVHPDIGISSKA
-MGIMNSFINDLFEKMAQESARLARYNKKNTITSREIQTSVRLVLPGELAKHAVSEGTKAV
-TKFTSA-----------------
->gH2B_Lilium_davidii_var._unicolor_CUT18447.1 organism=Lilium davidii var. unicolor phylum=Streptophyta class=Magnoliopsida
-MAPKAEKKPAAKKPAATPPPEEEKE---VVPPP----PAEKK------------------
------------PKAGKKLPAAKEGDAKKKKKAKKSIETYKIYIFKVLKQVHPDIGISSKA
-MGIMNSFINDIFEKLAQESARLARYNKKPTITSREIQTSVRLVLPGELAKHAVSEGTKAV
-TKFTSA-----------------
->gH2B_Lilium_davidii_var._unicolor_CUT18448.1 organism=Lilium davidii var. unicolor phylum=Streptophyta class=Magnoliopsida
---------------AATPPPEEEKE---VVPPPAEKKPAEKK------------------
------------PKAGKKLPASKEGDAKKKKKSKKSIETYKIYIFKVLKQVHPDIGISSKA
-MGIMNSFINDIFEKLAQESARLARYNKKPTITSREIQTSVRLVLPGELAKHAVSEGTKAV
-TKFTSA-----------------
 >gH2B_Lilium_davidii_var._unicolor_CUT18449.1 organism=Lilium davidii var. unicolor phylum=Streptophyta class=Magnoliopsida
-MPPR-------------------RKKTAAGAAAGGKAAAAAV------------------
------------GKAGF-MPPKKPKKGKKKT----PIMRYKRYIYKVLKQVRPELGISEKS
-TMIMNNFVAHNFQNIAKEASILAYYSKKRTITVDELKAAVAMVLPNLLADYANRDGEKAV
-SNFEGEASAKKSQGRKRGRGQQA
+MPPRRK----------------------------K--------TAAGAAAGGKAAAAA--
+-VGKAGFMPPKKPKKGKKKTPIM------------RYKRYIYKVLKQVRPELGISEKSTM
+IMNNFVAHNFQNIAKEASILAYYSKKRTITVDELKAAVAMVLPNLLADYANRDGEKAVSN
+FEGEASAKKSQGRKRGRGQQA
 >gH2B_Lilium_davidii_var._unicolor_CUT18450.1 organism=Lilium davidii var. unicolor phylum=Streptophyta class=Magnoliopsida
-MAPK--KKPSKLVGTVTKTRKVTETQTLKVSLTKGLKPEDQQTTTNKFEVSVTGKQSKTQ
-PLIVSTNTNLVPKKEKEESPTTTLMVKKKRKNRKAGGEYKRYVYMVLKTVHPDMTVSSKA
-MMVMEGMMQDMFERLVTEAVRLVQYMKKATLTCREIQTAVMLVLPGELGKHAVSEGAKAI
-TNYMAAVGSGNGGAA--------
->gH2B_Lilium_davidii_var._unicolor_CUT18451.1 organism=Lilium davidii var. unicolor phylum=Streptophyta class=Magnoliopsida
-MAPKAEKKPAAKKPAATPPPEEEKE---VVPPP----PAEKK------------------
------------PKAGKKLPAAKEGDAKKKKKAKKSIETYKIYIFKVLKQVHPDIGISSKA
-MGIMNSFINDIFEKLAQESARLARYNKKPTITSREIQTSVRLVLPGELAKHAVSEGTKAV
-TKFTSG-----------------
->gH2B_Lilium_davidii_var._unicolor_CUT18452.1 organism=Lilium davidii var. unicolor phylum=Streptophyta class=Magnoliopsida
-MAPKSEKKPAEKKPVAEKPAAEEEKKAAPAAAPAEKKAAEKK------------------
------------PKA----------------------------------------------
-------------------------------------------------------------
------------------------
+MAPKKKPSKLVGTVTKTRKVTETQTLKVSLTKGLKPEDQQTTTNKFEVSVTGKQSKTQPL
+IVSTNTNLVPKKEKEESPTTTLMVKKKRKNRKAGGEYKRYVYMVLKTVHPDMTVSSKAMM
+VMEGMMQDMFERLVTEAVRLVQYMKKATLTCREIQTAVMLVLPGELGKHAVSEGAKAITN
+YMAAVGS--------GNGGAA
+>gH2B_Lilium_longiflorum_BAA96095.1 organism=Lilium longiflorum phylum=Streptophyta class=Magnoliopsida
+MPPRRK----------------------------KKAAAAAAAAAAAAAAAGKAAAGK--
+-DGKAGIMTPKKPKKGKKKIPLM------------KYRVYIRRVLTQVRPELGISSKSML
+IMNNFVVHNFQNIAKEASILAQYSKKKTITVKELKAAVKLVLPHQLLEYADRDGDRAVHN
+FESETSKKNSQGRKRGRGQQT
