@@ -50,7 +50,7 @@ The classification is hierarchichal.
 - Variants may specify in their name the taxonomic span of the particular variant (this is usually reserved only for highly taxa specific variants). Main information on the taxanomic span is given in the description of the variant.
 - Sub-variants usually specify in their name the taxonomic span of this particular sub-variant.
 - If a variant or a sub-variant has an id of the following form VARIANTNAME_(Taxanomic_span), this means that only sequences from the said taxanomic group are presented under this variant/subvariant name.
-- Usually if in the hierarchy a unique sub-variant name is accompanied by the taxanomic span descriptor, while its parent is not, this means that this sub-variant name is specific to that taxa.
+- Usually if in the hierarchy a unique sub-variant name is accompanied by the taxanomic span descriptor, while its parent is not, this means that this sub-variant name is specific to that taxa. But looking at the description is advised.
 - Variant ids are case-insensitive in the database, but during representation case is important.
 - Variants also have a full name. E.g.
 - We can subdivide a variant into sub-variants from different taxonomic groups, only if they do not have known common functional subvariants (NOTE: this may change as our knowledge advances). I.e. we give priority to functional similarity above taxanomic similarity.
