@@ -47,11 +47,12 @@ The classification is hierarchichal.
 - Classification is hierarchical.
 - Top level is type: H3, H4, H2A, H2B or Archaeal
 - Next level is top-level variants, e.g. canonical H2A in Metazoa
-- Variants always specify in their name the taxonomic span of this particular variant.
+- Variants may specify in their name the taxonomic span of the particular variant (this is usually reserved for highly taxa specific variants). Additional information on taxanomic span is given in the description of the variant.
 - Every variant has an id of the following form VARIANTNAME_(Taxanomic_span)
 - Variant ids are case-insensitive in the database, but during representation case is important.
 - Variants also have a full name. E.g.
 - We can subdivide a variant into sub-variants from different taxonomic groups, only if they do not have known common functional subvariants (NOTE: this may change as our knowledge advances). I.e. we give priority to functional similarity above taxanomic similarity.
+- Sub-variants always specify in their name the taxonomic span of this particular sub-variant.
 - Viral_H2A, Vrial_H2B ... for viral histones.
 - Unclassified_H2A, 
 - Fields to include in variant description: name, description, taxonomic_span, alternate_names, publications, members
