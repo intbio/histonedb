@@ -51,7 +51,7 @@ The classification is hierarchichal.
 - Every variant has an id of the following form VARIANTNAME_(Taxanomic_span)
 - Variant ids are case-insensitive in the database, but during representation case is important.
 - Variants also have a full name. E.g.
-- We can subdivide a variant into sub-variants from different taxonomic groups, only if they do not have common functional subvariants. I.e. we give priority to functional similarity above taxanomic similarity.
+- We can subdivide a variant into sub-variants from different taxonomic groups, only if they do not have known common functional subvariants (NOTE: this may change as our knowledge advances). I.e. we give priority to functional similarity above taxanomic similarity.
 - Viral_H2A, Vrial_H2B ... for viral histones.
 - Unclassified_H2A, 
 - Fields to include in variant description: name, description, taxonomic_span, alternate_names, publications, members
