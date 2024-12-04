@@ -49,10 +49,10 @@ label {
 <h3>Click on node to collapse/expand branches. Click on node label to view info, sequence alignment and phylogeny. </h3>
 <div id="tree"></div>
 <h1>Multiple sequence alignment will appear below</h1>
-<div id="menu"></div>
 <div id="summary"></div>
 <div id="taxonomic_span"></div>
 <div id="alternate_names" style="padding-bottom: 30px;"></div>
+<div id="menu"></div>
 <div id="msa"></div>
 <script >
 
@@ -303,10 +303,28 @@ function upd_msa(name) {
 
 // });
 
-// Add summary
+// Add full description
 fetch('https://intbio.org/histonedb/CURATED_SET/classification.json')
     .then((response) => response.json())
-    .then((json) => descDiv.replaceChildren(document.createTextNode(json['info'][name]['description']['summary'])));
+    .then((json) => {
+        const description = json['info'][name]['description'];
+        
+        // Очищаем содержимое div перед добавлением новых элементов
+        descDiv.innerHTML = '';
+
+        // Проходим по всем ключам объекта description
+        for (const [key, value] of Object.entries(description)) {
+            const fieldDiv = document.createElement('div'); // Создаем новый элемент для каждой пары ключ-значение
+            fieldDiv.textContent = `${key}: ${value}`; // Формируем строку с названием поля и его значением
+            descDiv.appendChild(fieldDiv); // Добавляем элемент в контейнер
+        }
+    })
+    .catch((error) => console.error('Ошибка:', error)); // Обработка ошибок
+
+// // Add summary
+// fetch('https://intbio.org/histonedb/CURATED_SET/classification.json')
+//     .then((response) => response.json())
+//     .then((json) => descDiv.replaceChildren(document.createTextNode(json['info'][name]['description']['summary'])));
 
 // Add taxonomic_span
 fetch('https://intbio.org/histonedb/CURATED_SET/classification.json')
