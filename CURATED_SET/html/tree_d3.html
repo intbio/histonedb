@@ -329,15 +329,7 @@ fetch('https://intbio.org/histonedb/CURATED_SET/classification.json')
     })
     .catch((error) => console.error('Ошибка:', error)); // Обработка ошибок
 
-// // Add summary
-// fetch('https://intbio.org/histonedb/CURATED_SET/classification.json')
-//     .then((response) => response.json())
-//     .then((json) => descDiv.replaceChildren(document.createTextNode(json['info'][name]['description']['summary'])));
-
 // Add taxonomic_span
-// fetch('https://intbio.org/histonedb/CURATED_SET/classification.json')
-//     .then((response) => response.json())
-//     .then((json) => taxDiv.replaceChildren(document.createTextNode('Taxonomic span: '+json['info'][name]['taxonomic_span']+', '+json['info'][name]['taxonomic_span_id'])));
 fetch('https://intbio.org/histonedb/CURATED_SET/classification.json')
     .then((response) => response.json())
     .then((json) => {
@@ -350,7 +342,7 @@ fetch('https://intbio.org/histonedb/CURATED_SET/classification.json')
         const fieldDiv = document.createElement('div'); // Создаем новый контейнер
     
         // Формируем HTML содержимое с жирным ключом и значением
-        fieldDiv.innerHTML = `<strong>$Taxonomic span:</strong> ${taxonomic_span}, ${taxonomic_span_id}`;
+        fieldDiv.innerHTML = `<strong>Taxonomic span:</strong> ${taxonomic_span}, ${taxonomic_span_id}`;
                 
         taxDiv.appendChild(fieldDiv); // Добавляем элемент в контейнер
 });
@@ -361,11 +353,19 @@ fetch('https://intbio.org/histonedb/CURATED_SET/classification.json')
     .then((response) => response.json())
     .then((json) => {
         const alternateNames = json['info'][name]['alternate_names']
-            .map(item => item.name) // Извлекаем свойство name из каждого объекта
-            .join(', ');
-        altDiv.replaceChildren(document.createTextNode('Alternate names: ' + alternateNames));
-    });
-
+             .map(item => item.name) // Извлекаем свойство name из каждого объекта
+             .join(', ');
+        
+         // Очищаем содержимое div перед добавлением новых элементов
+        altDiv.innerHTML = '';
+    
+        const fieldDiv = document.createElement('div'); // Создаем новый контейнер
+    
+        // Формируем HTML содержимое с жирным ключом и значением
+        fieldDiv.innerHTML = `<strong>Alternate names:</strong> ${alternateNames}`;
+                
+        altDiv.appendChild(fieldDiv); // Добавляем элемент в контейнер
+});
 
 //Add consensus
 
