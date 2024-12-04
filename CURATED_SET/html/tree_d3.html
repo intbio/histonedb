@@ -337,7 +337,7 @@ fetch('https://intbio.org/histonedb/CURATED_SET/classification.json')
 // Add taxonomic_span
 fetch('https://intbio.org/histonedb/CURATED_SET/classification.json')
     .then((response) => response.json())
-    .then((json) => taxDiv.replaceChildren(document.createTextNode('Taxonomic span: '+json['info'][name]['taxonomic_span']+', '+json['info'][name]['taxonomic_span_id'])));
+    .then((json) => taxDiv.replaceChildren(document.createTextNode('<strong>Taxonomic span:</strong> '+json['info'][name]['taxonomic_span']+', '+json['info'][name]['taxonomic_span_id'])));
 
 // Add alternate_names
 fetch('https://intbio.org/histonedb/CURATED_SET/classification.json')
@@ -346,7 +346,7 @@ fetch('https://intbio.org/histonedb/CURATED_SET/classification.json')
         const alternateNames = json['info'][name]['alternate_names']
             .map(item => item.name) // Извлекаем свойство name из каждого объекта
             .join(', ');
-        altDiv.replaceChildren(document.createTextNode('Alternate names: ' + alternateNames));
+        altDiv.replaceChildren(document.createTextNode('<strong>Alternate names:</strong> ' + alternateNames));
     });
 
 
