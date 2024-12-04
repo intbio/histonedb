@@ -5420,7 +5420,7 @@
         "macroH2A.1_(Mammalia)": {
             "level": "variant",
             "description": {
-                "summary": "macroH2A.1_(Mammalia) is a protein encoded by one of the macroH2A genes in mammals (coresponds to macroH2A.1 gene in humans). This gene further produces two splice variants macroH2A.1.s1 and macroH2A.1.s2 by inclusion of mutually exclusive exons encoding a region within the macro domain. The macro domain of macroH2A.1.s1 isoform is capable of binding NAD+ derived metabolites, such as ADP-ribose and poly-ADP-ribose, while other isoforms (including those produced by macroH2A.2 gene homologs) do not have this ability [sun_histone_2019].",
+                "summary": "macroH2A.1_(Mammalia) is believed to be a protein that is specific to mammals, as it is a protein that is encoded by one of the macroH2A genes found in mammals (which corresponds to the macroH2A.1 gene in humans). This gene further produces two splice variants macroH2A.1.s1 and macroH2A.1.s2 by inclusion of mutually exclusive exons encoding a region within the macro domain. The macro domain of macroH2A.1.s1 isoform is capable of binding NAD+ derived metabolites, such as ADP-ribose and poly-ADP-ribose, while other isoforms (including those produced by macroH2A.2 gene homologs) do not have this ability [sun_histone_2019].",
                 "taxonomy": "null",
                 "genes": "null",
                 "evolution": "null",
@@ -5470,7 +5470,7 @@
         "macroH2A.2_(Mammalia)": {
             "level": "variant",
             "description": {
-                "summary": "macroH2A.2_(Mammalia) is a protein encoded by one of the macroH2A genes in mammals (coresponds to macroH2A.2 gene in humans). The macro domain of macroH2A.2 variant is not capable of binding NAD+ derived metabolites [sun_histone_2019].",
+                "summary": "macroH2A.2_(Mammalia) is believed to be a protein that is specific to mammals, as it is a protein that is encoded by one of the macroH2A genes found in mammals (which corresponds to macroH2A.2 gene in humans). The macro domain of macroH2A.2 variant is not capable of binding NAD+ derived metabolites [sun_histone_2019].",
                 "taxonomy": "null",
                 "genes": "null",
                 "evolution": "null",
