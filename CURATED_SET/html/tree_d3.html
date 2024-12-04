@@ -314,12 +314,16 @@ fetch('https://intbio.org/histonedb/CURATED_SET/classification.json')
 
         // Проходим по всем ключам объекта description
         for (const [key, value] of Object.entries(description)) {
-            const fieldDiv = document.createElement('div'); // Создаем новый элемент для каждой пары ключ-значение
-            fieldDiv.textContent = `${key}: ${value}`; // Формируем строку с названием поля и его значением
-            descDiv.appendChild(fieldDiv); // Добавляем элемент в контейнер
+            // Проверка на null
+            if (value !== null) {
+                const fieldDiv = document.createElement('div'); // Создаем новый элемент для каждой пары ключ-значение
+                fieldDiv.textContent = `${key}: ${value}`; // Формируем строку с названием поля и его значением
+                descDiv.appendChild(fieldDiv); // Добавляем элемент в контейнер
+            }
         }
     })
     .catch((error) => console.error('Ошибка:', error)); // Обработка ошибок
+
 
 // // Add summary
 // fetch('https://intbio.org/histonedb/CURATED_SET/classification.json')
