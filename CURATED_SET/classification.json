@@ -68,13 +68,13 @@
                 },
                 "cH2A_(Protists)": "null"
             },
-            "gH2A": "null",
+            "gH2A_(Lilium)": "null",
             "H2A.J": {
                 "H2A.J_(Homo_sapiens)": "null"
             },
-            "H2A.M": "null",
+            "H2A.M_(Viridiplantae)": "null",
             "H2A.R": "null",
-            "H2A.W": "null",
+            "H2A.W_(Magnoliopsida)": "null",
             "H2A.X": {
                 "H2A.X_(Animals)": {
                     "H2A.X_(Vertebrata)": {
@@ -186,7 +186,7 @@
             },
             "CS_H2B_(Echinoidea)": "null",
             "early_H2B_(Echinoidea)": "null",
-            "gH2B": "null",
+            "gH2B_(Lilium)": "null",
             "H2B.K": {
                 "H2B.K_(Homo_sapiens)": "null"
             },
@@ -195,7 +195,7 @@
                 "H2B.N_(Homo_sapiens)": "null"
             },
             "H2B.O": "null",
-            "H2B.S": "null",
+            "H2B.S_(Magnoliopsida)": "null",
             "H2B.V": "null",
             "H2B.W": {
                 "H2B.W_(Homo_sapiens)": {
@@ -2272,10 +2272,10 @@
                 "26212454"
             ]
         },
-        "gH2A": {
+        "gH2A_(Lilium)": {
             "level": "variant_group",
             "description": {
-                "summary": "gH2A is a male-gamete-specific variant found in the genus Lilium [alvarez-venegas_canonical_2019,ueda_male_2005].",
+                "summary": "gH2A_(Lilium) is a male-gamete-specific variant found in the genus Lilium [alvarez-venegas_canonical_2019,ueda_male_2005].",
                 "taxonomy": "Suggested to be a distinctive variant that evloved specifically in Lilium [alvarez-venegas_canonical_2019]",
                 "genes": "gH2A gene in Lilium longiflorum. The gene is interrupted by one intron.",
                 "evolution": "null",
@@ -2298,10 +2298,10 @@
                 "ueda_male_2005"
             ]
         },
-        "gH2B": {
+        "gH2B_(Lilium)": {
             "level": "variant_group",
             "description": {
-                "summary": "gH2B is a group of plant H2B variants found in Lilium that are highly divergent from the canonical H2B and are expressed in the generative cell of the bicellular pollen where it may be necessary for chromatin remodeling of the male germline [alvarez-venegas_canonical_2019,yang_proteomic_2016,ueda_unusual_2000]. The subvariants so far identified are named gH2B in Lilium longiflorum, mgH2B in Lilium davidii, and mgH2B.in in Lilium davidii. These subvariants are rather different and are grouped due to lack of further information. Some phylogenetic reconstructions cluster these variant together with H2B.S [alvarez-venegas_canonical_2019], however, this may be likely to long branch attraction, and the exact phylogeny remains to be studied [jiang_evolution_2020].",
+                "summary": "gH2B_(Lilium) is a group of plant H2B variants found in Lilium that are highly divergent from the canonical H2B and are expressed in the generative cell of the bicellular pollen where it may be necessary for chromatin remodeling of the male germline [alvarez-venegas_canonical_2019,yang_proteomic_2016,ueda_unusual_2000]. The subvariants so far identified are named gH2B in Lilium longiflorum, mgH2B in Lilium davidii, and mgH2B.in in Lilium davidii. These subvariants are rather different and are grouped due to lack of further information. Some phylogenetic reconstructions cluster these variant together with H2B.S [alvarez-venegas_canonical_2019], however, this may be likely to long branch attraction, and the exact phylogeny remains to be studied [jiang_evolution_2020].",
                 "taxonomy": "null",
                 "genes": "null",
                 "evolution": "null",
@@ -3335,10 +3335,10 @@
                 "molaro_evolutionary_2018"
             ]
         },
-        "H2A.M": {
+        "H2A.M_(Viridiplantae)": {
             "level": "variant_group",
             "description": {
-                "summary": "H2A.M is a plant specific variant related to H2A.W found in non-flowering plants such as liverworts, mosses, and lycophytes. H2A.M variants are characterized by having a long C-terminal tail domain, rich in lysine, serine and acidic residues, not present in the other H2A variants. The variant was described by Kawashima et al. [kawashima_diversification_2015].",
+                "summary": "H2A.M_(Viridiplantae) is a plant specific variant related to H2A.W found in non-flowering plants such as liverworts, mosses, and lycophytes. H2A.M variants are characterized by having a long C-terminal tail domain, rich in lysine, serine and acidic residues, not present in the other H2A variants. The variant was described by Kawashima et al. [kawashima_diversification_2015].",
                 "taxonomy": "H2A.M was characterized in genomes of liverworts, mosses, and lycophytes[kawashima_diversification_2015].",
                 "genes": "null",
                 "evolution": "Certain similarities between the C-terminal tail and the L1-loop of H2A.M and H2A.W variants and the clustering of H2A.M and H2A.W proteins in the phylogeny of H2A suggest that these two variants are related. Whether H2A.M and H2A.W emerged from the same ancestor or H2A.M in early basal land plants evolved gradually to become H2A.W in seed plants remains undetermined [alvarez-venegas_canonical_2019,kawashima_diversification_2015].",
@@ -3493,10 +3493,10 @@
                 "molaro_evolutionary_2018"
             ]
         },
-        "H2A.W": {
+        "H2A.W_(Magnoliopsida)": {
             "level": "variant_group",
             "description": {
-                "summary": "H2A.W is a plant specific variant found in angiosperms (flowering plants) having a potentially DNA minor-groove-binding SPKK (sometime reffered to as KSPKKA) motif within its C-terminal tail, it is enriched in heterochromatin and implicated in gene silencing and DNA damage response.",
+                "summary": "H2A.W_(Magnoliopsida) is a plant specific variant found in angiosperms (flowering plants) having a potentially DNA minor-groove-binding SPKK (sometime reffered to as KSPKKA) motif within its C-terminal tail, it is enriched in heterochromatin and implicated in gene silencing and DNA damage response.",
                 "taxonomy": "H2A.W variant is found exclusively in angiosperms [alvarez-venegas_canonical_2019].",
                 "genes": "Arabidopsis has three H2A.W genes (HTA6, HTA7, and HTA12) endoding three isoforms, rice genome has four genes (HTA701, HTA706, HTA707, and HTA710) encoding three isoforms. Isoforms endoded by different genes may have different number of SPKK motifs. A single copy of the SPKK motif seems to be true for all eudicots, whereas the monocots have been shown to possess 2 or even 3 copies of the same motif [alvarez-venegas_canonical_2019,kawashima_diversification_2015].",
                 "evolution": "H2A.W is a plant-lineage-specific variant that may have arisen early in the evolution of spermatophytes or seed plants. H2A.W lacks homologs in unicellular green algae, liverworts, mosses, and lycophytes but has distinctive homologs in early spermatophytes from the genus Ginkgo, Cycas, and Gnetum [alvarez-venegas_canonical_2019,kawashima_diversification_2015]. Instead of H2A.W homologs, Kawashima et al. identified a novel group of related H2A variants, they named H2A.M, in the genomes of liverworts, mosses, and lycophytes [kawashima_diversification_2015]. Whether H2A.M and H2A.W emerged from the same ancestor or H2A.M in early basal land plants evolved gradually to become H2A.W in seed plants remains undetermined [alvarez-venegas_canonical_2019,kawashima_diversification_2015].",
@@ -3518,7 +3518,14 @@
                     "name": "H2A with SPKK motifs"
                 }
             ],
-            "publications": []
+            "publications": [
+                "alvarez-venegas_canonical_2019",
+                "kawashima_diversification_2015",
+                "lorkovic_compartmentalization_2017",
+                "menges_genome-wide_2003",
+                "osakabe_histone_2018",
+                "yelagandula_histone_2014"
+            ]
         },
         "H2A.X": {
             "level": "variant_group",
@@ -4235,10 +4242,10 @@
                 "raman_novel_2022"
             ]
         },
-        "H2B.S": {
+        "H2B.S_(Magnoliopsida)": {
             "level": "variant_group",
             "description": {
-                "summary": "H2B.S  is a class a new class of highly divergent H2B variants identified by Jiang et al. that specifically accumulate during chromatin compaction of dry seed embryos in multiple species of flowering plants [jiang_evolution_2020].",
+                "summary": "H2B.S_(Magnoliopsida)  is a class a new class of highly divergent H2B variants identified by Jiang et al. that specifically accumulate during chromatin compaction of dry seed embryos in multiple species of flowering plants [jiang_evolution_2020].",
                 "taxonomy": "Flowering plants (angiosperms) [jiang_evolution_2020]",
                 "genes": "HTB8 gene in Arabidopsis, Solyc06g074750.1 in tomato, LOC_Os09g39730 in rice.",
                 "evolution": "Despite forming a distinct angiosperm-specific clade, H2B.S variants show a high degree of variation, even amongst closely related genera. Other highly divergent sequences from Streptophyte algae and gymnosperms form a grade basal to H2B.S variants, suggesting a deeper evolutionary origin, which cannot be currently analyzed due to the lack of conserved substitutions and similar sequences in bryophytes, lycophytes and ferns [jiang_evolution_2020].",
