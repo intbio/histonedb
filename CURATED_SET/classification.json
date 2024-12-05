@@ -271,9 +271,7 @@
             "H3.5_(Hominidae)": {
                 "H3.5_(Homo_sapiens)": "null"
             },
-            "H3.6_(Homo_sapiens)": "null",
             "H3.7_(Homo_sapiens)": "null",
-            "H3.8_(Homo_sapiens)": "null",
             "H3.B_(Giardia?)": "null",
             "H3.P_(Moneuplotes?)": "null",
             "H3.V_(Trypanosomatidae)": "null"
@@ -4892,31 +4890,6 @@
             "alternate_names": [],
             "publications": []
         },
-        "H3.6_(Homo_sapiens)": {
-            "level": "variant_group",
-            "description": {
-                "summary": "H3.6_(Homo_sapiens) is a human histone variant, similar to histone variant H3.3 in amino acid sequence, encoded by the H3F3AP6 gene. Expression levels of H3F3AP6 are extremely low, as compared to H3F3B gene (encodes histone H3.3) [taguchi_crystal_2017]. H3.6 nucleosomes are substantially unstable due to the Val62 residue, which weakens interactions with H4 [taguchi_crystal_2017].",
-                "taxonomy": "null",
-                "genes": "null",
-                "evolution": "null",
-                "expression": "null",
-                "knock-out": "null",
-                "function": "null",
-                "sequence": "null",
-                "localization": "null",
-                "deposition": "null",
-                "structure": "H3.6 nucleosomes are substantially unstable due to the Val62 residue, which weakens interactions with H4 [taguchi_crystal_2017].",
-                "interactions": "null",
-                "disease": "null",
-                "caveats": "null"
-            },
-            "taxonomic_span": "null",
-            "taxonomic_span_id": "null",
-            "alternate_names": [],
-            "publications": [
-                "taguchi_crystal_2017"
-            ]
-        },
         "H3.7_(Homo_sapiens)": {
             "level": "variant_group",
             "description": {
@@ -4931,31 +4904,6 @@
                 "localization": "null",
                 "deposition": "null",
                 "structure": "In vitro results showed that H3.7 failed to form nucleosomes [taguchi_crystal_2017].",
-                "interactions": "null",
-                "disease": "null",
-                "caveats": "null"
-            },
-            "taxonomic_span": "null",
-            "taxonomic_span_id": "null",
-            "alternate_names": [],
-            "publications": [
-                "taguchi_crystal_2017"
-            ]
-        },
-        "H3.8_(Homo_sapiens)": {
-            "level": "variant_group",
-            "description": {
-                "summary": "H3.8_(Homo_sapiens) is a human histone variant, similar to histone variant H3.3 in amino acid sequence, encoded by the H3F3AP5 gene. Expression levels of H3F3AP5 are extremely low, as compared to H3F3B gene (encodes histone H3.3) [taguchi_crystal_2017]. H3.8 nucleosomes are extremely unstable [taguchi_crystal_2017].",
-                "taxonomy": "null",
-                "genes": "null",
-                "evolution": "null",
-                "expression": "null",
-                "knock-out": "null",
-                "function": "null",
-                "sequence": "null",
-                "localization": "null",
-                "deposition": "null",
-                "structure": "H3.8 nucleosomes are extremely unstable [taguchi_crystal_2017].",
                 "interactions": "null",
                 "disease": "null",
                 "caveats": "null"
