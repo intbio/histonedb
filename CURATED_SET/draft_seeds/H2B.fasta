@@ -808,7 +808,7 @@ GGKKR------NR------KRKE----------------SYGIYIYKVLKQV--HPDTGI
 SSRAMVIM-----------------NSFVNDIFERIAGESSRLAQYN----KKSTISSRE
 IQTAVRLILPGELAKHAVSEGTKAVTKYTTSK----------------------------
 -----------------------------------
->gH2B_Lilium_davidii_var._unicolor_CUT18449.1 organism=Lilium davidii var. unicolor phylum=Streptophyta class=Magnoliopsida
+>gH2B_Lilium_Lilium_davidii_var._unicolor_CUT18449.1 organism=Lilium davidii var. unicolor phylum=Streptophyta class=Magnoliopsida
 -------------------MPPR-------------------RK----------------
 ------------------------------------------------------------
 ------------------------------------------------------------
@@ -817,7 +817,7 @@ GKAGFMPPKKPKK------GKKKTPIM------------RYKRYIYKVLKQV--RPELGI
 SEKSTMIM-----------------NNFVAHNFQNIAKEASILAYYS----KKRTITVDE
 LKAAVAMVLPNLLADYANRDGEKAVSNFEGEASAKKSQGRKRGRGQQA------------
 -----------------------------------
->gH2B_Lilium_davidii_var._unicolor_CUT18450.1 organism=Lilium davidii var. unicolor phylum=Streptophyta class=Magnoliopsida
+>gH2B_Lilium_Lilium_davidii_var._unicolor_CUT18450.1 organism=Lilium davidii var. unicolor phylum=Streptophyta class=Magnoliopsida
 -------------------MAPK-------------------KKPSKLVGTVTKTRKVTE
 TQTLKVSLTK--------------------------------------------------
 ------------------------------------------------------------
@@ -826,7 +826,7 @@ STNTNLVPKKEKE------ESPTTTLMVKKKRKNRKAGGEYKRYVYMVLKTV--HPDMTV
 SSKAMMVM-----------------EGMMQDMFERLVTEAVRLVQYM----KKATLTCRE
 IQTAVMLVLPGELGKHAVSEGAKAITNYMAAVGS--------GNGGAA------------
 -----------------------------------
->gH2B_Lilium_longiflorum_BAA96095.1 organism=Lilium longiflorum phylum=Streptophyta class=Magnoliopsida
+>gH2B_Lilium_Lilium_longiflorum_BAA96095.1 organism=Lilium longiflorum phylum=Streptophyta class=Magnoliopsida
 -------------------MPPR-------------------RK----------------
 ------------------------------------------------------------
 ------------------------------------------------------------
@@ -1267,7 +1267,7 @@ HSRRE----------------------------------NYSIYVYKVLKQV--HPLTSI
 STKAVGIM-----------------DSFINDIFDRIASEASRLARYT----KRSTIASRE
 IQTAVLLTLPGELARHAVSEGTKAITKYTSAK----------------------------
 -----------------------------------
->H2B.S_Amaranthus_hypochondriacus_HISTDB_H2B_S_7 organism=Amaranthus hypochondriacus phylum=Streptophyta class=Magnoliopsida
+>H2B.S_Magnoliopsida_Amaranthus_hypochondriacus_HISTDB_H2B_S_7 organism=Amaranthus hypochondriacus phylum=Streptophyta class=Magnoliopsida
 -------------------MAPK-K---------TARKVVK--TTKIVEETVEVVSIP-G
 SQSQQNPTQI-------------------------------------------QTELISE
 RKEEQSSITTKSIPIQESDHDDQDEEETETQ-----------------------------
@@ -1276,7 +1276,7 @@ KPEPKG----------------KG---------EGGGE-GYKRYVFRVLKQV--HPGMGI
 SSRAMIVI-----------------NNFMNDMFERIAEEGSRLNKQN----KKMTMSARE
 IQGAVKLVLPGELGKHAVAEGAKAVTNYV-NFGFHKK-----------------------
 -----------------------------------
->H2B.S_Ananas_comosus_XP_020113371.1 organism=Ananas comosus phylum=Streptophyta class=Magnoliopsida
+>H2B.S_Magnoliopsida_Ananas_comosus_XP_020113371.1 organism=Ananas comosus phylum=Streptophyta class=Magnoliopsida
 -------------------MAPR-KPRK------MVGAVVK-TTAKVVEETVKVAPVV-G
 VGDGDGDGDG--------------------------------------------AEEVEE
 AAVPLKDSKVVQVVVVGGEKGDGEVPEANDGRDEPEKRKEAMEVDENQAPKETGEESKRR
@@ -1285,7 +1285,7 @@ GKGRRR----RRR------KRRFG---SAGDAGSGGVG-GYKRYVFRVLKQV--HPELGA
 SARAMQVL-----------------DMMMADMFQRLAEEAARLSKYT----GRATLTSRE
 IQNAVRLVLPGELGRHAVSEGTKAVTNYMASQSS--------------------------
 -----------------------------------
->H2B.S_Aquilegia_coerulea_PIA54901.1 organism=Aquilegia coerulea phylum=Streptophyta class=Magnoliopsida
+>H2B.S_Magnoliopsida_Aquilegia_coerulea_PIA54901.1 organism=Aquilegia coerulea phylum=Streptophyta class=Magnoliopsida
 -------------------MAPK-RSQKK-----VIGSLVR-KTNKVVEETVNITV-V-E
 KTKGAEAGNK------------------------------------------------ET
 EQEETAISTKDPVSTPGEKQQKEQ-----------PKKGVGKQLK---LEAPTQ------
@@ -1294,7 +1294,7 @@ GEEKKG----KKS------GRKRM---------LDTGE-TYNTYVYKVLKQV--HPDLGI
 TFKGMMVL-----------------NGFMNDMFERLAREASKLTDYT----GKKTMSARE
 IQGAVRLVLPGELGKHAIVEGTKAITTYF-SNSS--------------------------
 -----------------------------------
->H2B.S_Arabidopsis_lyrata_subsp._lyrata_XP_002892444.1 organism=Arabidopsis lyrata subsp. lyrata phylum=Streptophyta class=Magnoliopsida
+>H2B.S_Magnoliopsida_Arabidopsis_lyrata_subsp._lyrata_XP_002892444.1 organism=Arabidopsis lyrata subsp. lyrata phylum=Streptophyta class=Magnoliopsida
 -------------------MAPR-KPK-------VVSVTKK---KKVVEETIKVTV-T-E
 GEDPCVTTET--------------------------------------------------
 ANDQETQDLTFSIPVGENVTTVEI------------------------------------
@@ -1303,7 +1303,7 @@ K---KK----KKK------KKKRD---------DLAGD-EYRRYVYKVMKQV--HPDLGI
 TSKAMTVV-----------------NMFMGDMFERIAQEAARLSDYT----KRKTLSSRE
 IEAAVRLVLPGELSRHAVAEGSKAVSNYV-GYGSRKR-----------------------
 -----------------------------------
->H2B.S_Arabidopsis_thaliana_NP_172295.1 organism=Arabidopsis thaliana phylum=Streptophyta class=Magnoliopsida
+>H2B.S_Magnoliopsida_Arabidopsis_thaliana_NP_172295.1 organism=Arabidopsis thaliana phylum=Streptophyta class=Magnoliopsida
 -------------------MAPR-KPK-------VVSVTKK---KKVVEETIKVTV-T-E
 EGDPCVITET--------------------------------------------------
 ANDQETQDLTFSIPVGENVTTVEIPVEVPDERSLPVGENVTTVKIPVDDRDESS------
@@ -1312,7 +1312,7 @@ KQENKK----KKK------KKKRD---------DLAGD-EYRRYVYKVMKQV--HPDLGI
 TSKAMTVV-----------------NMFMGDMFERIAQEAARLSDYT----KRRTLSSRE
 IEAAVRLVLPGELSRHAVAEGSKAVSNFV-GYDSRKR-----------------------
 -----------------------------------
->H2B.S_Boechera_stricta_HISTDB_H2B_S_1 organism=Boechera stricta phylum=Streptophyta class=Magnoliopsida
+>H2B.S_Magnoliopsida_Boechera_stricta_HISTDB_H2B_S_1 organism=Boechera stricta phylum=Streptophyta class=Magnoliopsida
 -------------------MAPR-KPK-------VVSVTKK---KKVVEETVKVTV-T-E
 GGDPNATTEI-------------------------------------------------T
 ENDQETQDLTFSIPVGENVTTVEI------------------------------------
@@ -1321,7 +1321,7 @@ KQAKKK----KKK--------KRD---------DLAGD-EYRRYVYKVMKQV--HPDLGI
 TSKAMTVV-----------------NMFMGDMFERIAQEAARLGDYT----KRRTLSSRE
 IEAAVRLVLPGELSRHAVAEGSKAISNYV-AYDSRKR-----------------------
 -----------------------------------
->H2B.S_Brachypodium_distachyon_XP_014757906.1 organism=Brachypodium distachyon phylum=Streptophyta class=Magnoliopsida
+>H2B.S_Magnoliopsida_Brachypodium_distachyon_XP_014757906.1 organism=Brachypodium distachyon phylum=Streptophyta class=Magnoliopsida
 -------------------MAPK-RRVKK-----VVSSVVRKKTTKVVQETVQVSTAILP
 DDSAQPEPEV----------------------------VVDVSTPATVVKHVEVTSDVGD
 DQATAAGATAVNNKPPQSKSPDKPADDNQATAPAVPSLQSQETQTQDPNEKKKTPQQEIV
@@ -1330,7 +1330,7 @@ KKKKKKRKARRGG------GRRRG---PVGDMGMMGG--GYKRYVYRVLKQV--HPDMGA
 SGRAMEVL-----------------DMMMGDMFERLADEAARLAKVA----GRATLSSRE
 VQNAVRLVLPGELAKHAISEGTKAVTSYM-SLA---------------------------
 -----------------------------------
->H2B.S_Brachypodium_stacei_HISTDB_H2B_S_5 organism=Brachypodium stacei phylum=Streptophyta class=Magnoliopsida
+>H2B.S_Magnoliopsida_Brachypodium_stacei_HISTDB_H2B_S_5 organism=Brachypodium stacei phylum=Streptophyta class=Magnoliopsida
 -------------------MAP--KRRGKQ----VVSSVVR-KTTKVVKETVQVSTAAIV
 ADDSTHPEYT-------------------------EPEVVDMSTPATVVKHVEITTTSDG
 DQAADAGATTVNKSPDKQPAEANQAPQPAVASLQSQETQDPNEEAAAAEAPQTEKPQQEI
@@ -1339,7 +1339,7 @@ AAAPKK----KKA------RRGRG---PVGDMGMMGG--GYKRYVYRVLKQV--HPDMGA
 SGRAMEVL-----------------DMMMGDMFERLADEAARLAKVA----RRATLSSRE
 VQSAVRLVLPGELAKHAISEGTKAVTSYM-SLA---------------------------
 -----------------------------------
->H2B.S_Brassica_napus_CAF1924216.1 organism=Brassica napus phylum=Streptophyta class=Magnoliopsida
+>H2B.S_Magnoliopsida_Brassica_napus_CAF1924216.1 organism=Brassica napus phylum=Streptophyta class=Magnoliopsida
 -------------------MAPK-KSKK------VVSVTKK---KKVVEETIKVTV---T
 DGVPNVTTET----------------------------------------------DTQE
 TQELETQDLPLSIPVEEENVTRVEIPVDVGDDRSPPPSETVTPASEGTVKETHK------
@@ -1348,7 +1348,7 @@ KEGNKKKKMLKKR------NKNRS---------EVAGD-EYKRYVYKVMKQV--HPDLGI
 SSKAMTVI-----------------NMFMGDMFERLAVEAAKLNDYS----KRRTLSSRE
 IEAAVRLVLPGELSRHAVAEGSKAISNFV-AYGAKKR-----------------------
 -----------------------------------
->H2B.S_Brassica_rapa_RID57103.1 organism=Brassica rapa phylum=Streptophyta class=Magnoliopsida
+>H2B.S_Magnoliopsida_Brassica_rapa_RID57103.1 organism=Brassica rapa phylum=Streptophyta class=Magnoliopsida
 -------------------MAPR-KSKK------VVSVTKK---KKVVEETIKVTV---T
 DGVPNVTTNT------------------------------------DTQETQYLETQELD
 TQELETQDLPFSLPLEEENVTRVEIPVDVGYDRSPPPPETVAPASEGTVKETHK------
@@ -1357,7 +1357,7 @@ KQGNKK-TTSKKR------KKNRS---------EVAGD-EYKRYVYKVMKQV--HPDLGI
 SSKAMTVI-----------------NMFMGDMFERLAVEAAKLNDYS----KRRTLSSRE
 IEAAVRLVLPGELSRHAVAEGSKAVSNFV-AYGAKKR-----------------------
 -----------------------------------
->H2B.S_Capsella_grandiflora_HISTDB_H2B_S_0 organism=Capsella grandiflora phylum=Streptophyta class=Magnoliopsida
+>H2B.S_Magnoliopsida_Capsella_grandiflora_HISTDB_H2B_S_0 organism=Capsella grandiflora phylum=Streptophyta class=Magnoliopsida
 -------------------MAPR-KPK-------VVSVTKK---KTVVEETVKVTV-A-E
 GGDPNVTTEI-------------------------------------------------T
 ENDQETQDLTFSIPVGENVTTVEV------------------------------------
@@ -1366,7 +1366,7 @@ KQEKKK----KK-------NKKRD---------DLAGD-EYRRYVYKVLKQV--HPDLGI
 TSKAMTVV-----------------NMFMGDMFERIAQEAARLSDYT----KRRTLSSRE
 IESAVRLVLPGELSRHAVAEGSKAISNYV-SYDSRKL-----------------------
 -----------------------------------
->H2B.S_Capsella_rubella_XP_006306103.1 organism=Capsella rubella phylum=Streptophyta class=Magnoliopsida
+>H2B.S_Magnoliopsida_Capsella_rubella_XP_006306103.1 organism=Capsella rubella phylum=Streptophyta class=Magnoliopsida
 -------------------MAPR-KPK-------VVSVTKK---KTVVEETVKVTVA--E
 GGDPNVTTEI-------------------------------------------------T
 ENDQETQDLTFSIPVGENVTTVEV------------------------------------
@@ -1375,7 +1375,7 @@ KQEKKK----KK-------NKKRD---------DLAGD-EYRRYVYKVLKQV--HPDLGI
 TSKAMTVV-----------------NMFMGDMFERIAQEAARLSDYT----KRRTLSSRE
 IESAVRLVLPGELSRHAVAEGSKAISNYV-SYDSRKL-----------------------
 -----------------------------------
->H2B.S_Carica_papaya_XP_021901556.1 organism=Carica papaya phylum=Streptophyta class=Magnoliopsida
+>H2B.S_Magnoliopsida_Carica_papaya_XP_021901556.1 organism=Carica papaya phylum=Streptophyta class=Magnoliopsida
 -------------------MAPK-RSTRLL----ALKTTQK------IIEKVEVSVVP-S
 SGREQEITDV-----------------------------------------AVQKSPVKV
 IPVEEKSRKTVRIPVEETPSLKTIPVKTPEKEQETIDDQEPVTTSEEVAADN--------
@@ -1384,7 +1384,7 @@ RPSRRG-RPRRRR------KKKKG-------SDEGNYK-GYKRYVFKVLKQV--HPELAI
 SSKAMVII-----------------NGFMNDMFERLADEAANLSRYS----HKATLSSKE
 IQGAVRLVLPGELSKHATAEGSKAVTNYM-SFPLHNS-----------------------
 -----------------------------------
->H2B.S_Citrus_clementina_ESR37664.1 organism=Citrus clementina phylum=Streptophyta class=Magnoliopsida
+>H2B.S_Magnoliopsida_Citrus_clementina_ESR37664.1 organism=Citrus clementina phylum=Streptophyta class=Magnoliopsida
 -------------------MPPR-R---------SARVVLT---KKVVTETVEVSVVN-E
 KKKGKQEIAI-------------------------------------HSEETLPSKTITV
 EDKEEGKRTTVEVPIEEPEPPTEPEAEPSSSVAAEAATPAKKEEKKTSIETSPEPEHDVA
@@ -1393,7 +1393,7 @@ RAAHEKPGSKKRK------RRKRN---------EGTGE-EYKTYVFRVLKQV--HPGMAI
 SSKAMTVI-----------------NNLMNDMFERIAGEAATLSKHC----HRTTMSSRE
 IQGAVKLVLPGELGKHAVAEGTKAVTNYT-SYDAKRSKA---------------------
 -----------------------------------
->H2B.S_Citrus_sinensis_KDO60308.1 organism=Citrus sinensis phylum=Streptophyta class=Magnoliopsida
+>H2B.S_Magnoliopsida_Citrus_sinensis_KDO60308.1 organism=Citrus sinensis phylum=Streptophyta class=Magnoliopsida
 -------------------MPPR-R---------SARVVLT---KKVVEETVQVSVVNEK
 KKKGKREIAI-------------------------------------HSEETLPSKTITV
 EDKEEGKHTTVEVPIEEPEPPTEPEAEPSSSVAAEAATPAKKEEKKTSIETSPEPEHDVA
@@ -1402,7 +1402,7 @@ RAAHEKPGSKKRK------RRKRN---------EGTGE-EYKTYVFRVLKQV--HPGMAI
 SSKAMTVI-----------------NNLMNDMFERIAGEAATLSKHC----HRTTMSSRE
 IQGAVKLVLPGELGKHAVAEGTKAVTNYT-SYDAKRSKA---------------------
 -----------------------------------
->H2B.S_Daucus_carota_subsp._sativus_XP_017234272.1 organism=Daucus carota subsp. sativus phylum=Streptophyta class=Magnoliopsida
+>H2B.S_Magnoliopsida_Daucus_carota_subsp._sativus_XP_017234272.1 organism=Daucus carota subsp. sativus phylum=Streptophyta class=Magnoliopsida
 -------------------MAPK-KSPKKK----AVGAVVK-TTTKVIQETVQVSVIQ-T
 KPKPQQETPQ--------------------------------------------------
 TENNKNGPKDIEIQDVTTPTPTPK------------------------------------
@@ -1411,7 +1411,7 @@ AQGATK-------------KRKRS------------VE-GYKRYVYKVLKQV--HPDIGI
 SSKAMTIV-----------------NNLMTDMFERLADEAARLTKYT----KKMTLSSRE
 IQGAVKLVLPGELGKHAVAEGAKAVTNYV-QYASGPSKP---------------------
 -----------------------------------
->H2B.S_Erythranthe_guttata_XP_012838320.1 organism=Erythranthe guttata phylum=Streptophyta class=Magnoliopsida
+>H2B.S_Magnoliopsida_Erythranthe_guttata_XP_012838320.1 organism=Erythranthe guttata phylum=Streptophyta class=Magnoliopsida
 -------------------MAPKKRPGR------AKKTVVT--STKVVEETVKVVVTPGG
 SGGEDDDNDN------------------------------NESVEMISSSTKQNTENVEI
 FTSSPEKEHVLRTIPVEDKEEQIPAPDIVPQEQDEDETQPYSEPETASTPPRKEAP----
@@ -1420,7 +1420,7 @@ AGQEKKATTEKLRPK----RRRRS------VAGAGAGE-SYKRYVFKVMKQV--HPEMGI
 SSKAMTIV-----------------NNLMTDMFERFAEEAARLQKYT----GRKTMSSRE
 VQGAVKLVLPGELGKHAVAEGAKAVTNYV-SYVPKS------------------------
 -----------------------------------
->H2B.S_Eutrema_salsugineum_XP_006417719.1 organism=Eutrema salsugineum phylum=Streptophyta class=Magnoliopsida
+>H2B.S_Magnoliopsida_Eutrema_salsugineum_XP_006417719.1 organism=Eutrema salsugineum phylum=Streptophyta class=Magnoliopsida
 -------------------MAPR-REKK------VVSVTKK---KKVVEETLKVTV---T
 DGDPNVITET-------------------------------------------------Q
 TQDEETQDLTFSIPVEENVTTVEI------------------------------------
@@ -1429,7 +1429,7 @@ KQSKKK----KKK------MMKRG---------DLAGDHEYKRYVYKVMKQV--HPELGI
 TSKAMSVI-----------------NTFMGDMFERIAEEAARLSDHT----KRRTLSSRE
 IEAAVRLVLPGELSRHAVSEGAKAISNYV-AYGAKKR-----------------------
 -----------------------------------
->H2B.S_Fragaria_vesca_subsp._vesca_XP_004295898.2 organism=Fragaria vesca subsp. vesca phylum=Streptophyta class=Magnoliopsida
+>H2B.S_Magnoliopsida_Fragaria_vesca_subsp._vesca_XP_004295898.2 organism=Fragaria vesca subsp. vesca phylum=Streptophyta class=Magnoliopsida
 -------------------MSPK-RRS-------SSRLVVK-TTKQVVKETVEVSVVRSK
 KRQKKVNDDE-----QQEPVESTIAFETKKENQTEKIEVSVEKDPAKRAIESQEETQIAE
 EDKEPEEIRTIPVEVPGMETPEKLRGATLSVDKDEEPKEPSTVLDDKEPVSNDVVTETQL
@@ -1438,7 +1438,7 @@ GDGEKK----DKK------RKRRS-----PGNKREGGK-GYKRYVYKVFKQV--HPELGM
 SAKAMVVL-----------------NNYMNDMFERLAGEAAKLTMYT----SRKTLSSRE
 IQGAVKLVLPGELGKHAMAEGTKAVSNYLSKNAAMSHKS---------------------
 -----------------------------------
->H2B.S_Glycine_max_KAH1159328.1 organism=Glycine max phylum=Streptophyta class=Magnoliopsida
+>H2B.S_Magnoliopsida_Glycine_max_KAH1159328.1 organism=Glycine max phylum=Streptophyta class=Magnoliopsida
 -------------------MAPK-R---------AEKLVVR-STKKVVESIVQVSV-V-G
 KRLTQVIPQA--------------------------------------------------
 ----------QKVSPNSDITTENK------------AEQENNTHQDGGVQNQEE------
@@ -1447,7 +1447,7 @@ QNGKEK----KRG------RKKRN------------IE-GYQRYVYGVLKQV--HPEMGI
 SSKCMTAL-----------------NNLMNDMFERLTFEVSKLTDYT----GHMTLSSRE
 IQGVVRLVLPGELEKHAIAEGVKAVNNYT-SYDA--------------------------
 -----------------------------------
->H2B.S_Glycine_max_XP_003539797.1 organism=Glycine max phylum=Streptophyta class=Magnoliopsida
+>H2B.S_Magnoliopsida_Glycine_max_XP_003539797.1 organism=Glycine max phylum=Streptophyta class=Magnoliopsida
 -------------------MAPK-R---------AEKLVVR-STKKVVESSVLVSV-V-G
 KRLTRGKKDT----------------------------------------------QTTD
 GEEEVGSQEHLVVIPIQEVTPQAQKDSPNSAITTENKAEQENNTQDGGVENNQE------
@@ -1456,7 +1456,7 @@ GKEKKR----GRK------KGRRS------------VE-GYQRYVYRVLKQV--HPEMGI
 SSKCMTVL-----------------NNLMNDMFERLAFEASKLKDYT----GHMTLSSRE
 IQGAVRLVLPGELGKHAIAEGVKAVNNYT-SYDA--------------------------
 -----------------------------------
->H2B.S_Gossypium_raimondii_XP_012484989.1 organism=Gossypium raimondii phylum=Streptophyta class=Magnoliopsida
+>H2B.S_Magnoliopsida_Gossypium_raimondii_XP_012484989.1 organism=Gossypium raimondii phylum=Streptophyta class=Magnoliopsida
 -------------------MAPK-R---------RAKVVVR-STKKIVKETVQVAVIDKT
 EGDNNGDQQQ--------------------------------------------LDTVPL
 EDIEEAGERVITEIPIQGSTEDK-------------------------------------
@@ -1465,7 +1465,7 @@ EEEPRK--EEKKG------KRKRG------KKKELVGHEGYKTYVFRVLKQV--HPGMAI
 SSKAMSVI-----------------NSLMNDMFEKITNEATKLSQYT----DRKTLSSRE
 IQGAVRLVLPGELGKHAVAEGSKAVTNYA-SYDIKRSKLV--------------------
 -----------------------------------
->H2B.S_Linum_usitatissimum_HISTDB_H2B_S_8 organism=Linum usitatissimum phylum=Streptophyta class=Magnoliopsida
+>H2B.S_Magnoliopsida_Linum_usitatissimum_HISTDB_H2B_S_8 organism=Linum usitatissimum phylum=Streptophyta class=Magnoliopsida
 -------------------MAPR-RRSAGR----VVGVVRS--TRKVVKETVEVSILA-G
 DTQETTPEDN-----------------------------------------------TED
 INLLDTEELIDVVTPEAGVKLQEDATTTSTVRTIPVEDAGPEREEELVIS----------
@@ -1474,7 +1474,7 @@ KVNKKK-------------RKSRF---------VEGGE-GYRRYVYKVMKQV--HPDMKI
 SGVAMSII-----------------NSLMKDMFERIADEAATLSRYS----KRMTISSKE
 IQDAVKLVLPGELGKHAVAEGSKAVANYA-SYSHNK------------------------
 -----------------------------------
->H2B.S_Malus_domestica_XP_008359166.3 organism=Malus domestica phylum=Streptophyta class=Magnoliopsida
+>H2B.S_Magnoliopsida_Malus_domestica_XP_008359166.3 organism=Malus domestica phylum=Streptophyta class=Magnoliopsida
 -------------------MAPK-R---------SAKMVVK-TTKRVVKEMVEVSVVK-T
 RRKKQQEDRP--------------------------------------------LETISV
 ENNDSNQTQNVEVSVGKEPLKTSIIPIETLEQVIPIETQAENQTLKTQNAEVQVDREAEE
@@ -1483,7 +1483,7 @@ KGEKKSEVKGGKR------REKRR---------SRGRE-EYKTYVYKVLKQV--HPGMGV
 SSKAMTVL-----------------NNLMNDMFEKLADEAARLTTYT----ARKTLSSRE
 IQGAVKLVLTGELGRHAMAEGTKAVSTYV-SYGGGSSKS---------------------
 -----------------------------------
->H2B.S_Manihot_esculenta_XP_021629190.1 organism=Manihot esculenta phylum=Streptophyta class=Magnoliopsida
+>H2B.S_Magnoliopsida_Manihot_esculenta_XP_021629190.1 organism=Manihot esculenta phylum=Streptophyta class=Magnoliopsida
 -------------------MAPKGKRGKKK----VLGTVLR-SSKRVIKETVKIAV---F
 EGDTQESTQE--------------------------------------------DQNGDT
 EELPENEPLVVRTIPVEERVEEEEEAQTIEVSVKKPKEEKRKQE----------------
@@ -1492,7 +1492,7 @@ KGQEKK----RRR------RRRRG--------VEEGGE-GYKRYVFRVLKQV--HPELRI
 SSMAMSVI-----------------NSLMKDMFERIADEAAKLSQHS----HKMTLSSRE
 IQGAVKLVLPGELGRHAIAEGSKAVTNYM-SYEAKGSKA---------------------
 -----------------------------------
->H2B.S_Medicago_truncatula_XP_013464866.1 organism=Medicago truncatula phylum=Streptophyta class=Magnoliopsida
+>H2B.S_Magnoliopsida_Medicago_truncatula_XP_013464866.1 organism=Medicago truncatula phylum=Streptophyta class=Magnoliopsida
 -------------------MAPK-S---------AKKVVVR-STRKVVQESVQVSVVS-S
 HKRSTRGNNK--------------------------------------------DVEIDK
 DAGNATQQEHVRIIPVQEVTSQTK-------EDTNTNTNTTTVTSEDTTNQENT------
@@ -1501,7 +1501,7 @@ DGKGKR----KKK------RGRRM------------GE-GYQRYVYRVLKQV--HPQMGI
 SSQAMTIL-----------------NNLMNDMFEKLADEAAKLTAYT----KHMTLTSRE
 IQGAVKLVLPGELGKHAIAEGAKAVTNYV-SYVA--------------------------
 -----------------------------------
->H2B.S_Musa_acuminata_HISTDB_H2B_S_6 organism=Musa acuminata phylum=Streptophyta class=Magnoliopsida
+>H2B.S_Magnoliopsida_Musa_acuminata_HISTDB_H2B_S_6 organism=Musa acuminata phylum=Streptophyta class=Magnoliopsida
 -------------------MAPK-----------RTSRVLK-TTKTVIEETVEVVV---E
 AKDAQGPKED---------------------------------------------LGEGK
 EAEPEGRQQAEEEEPSREKEAEPPF-----------------------------------
@@ -1510,7 +1510,7 @@ AAAVDK----RFS------GGDGG-------EMDGTGR-GYKRYVFRVLKHV--HPGMGI
 SSRAMVVL-----------------DGMMGDMFERLAGEASRLSTYT----GKATLSSRE
 IQGAVRLVLPGELGKRAISEGTKAVSNYM-AADRHEQQ----------------------
 -----------------------------------
->H2B.S_Nymphaea_colorata_XP_031483632.1 organism=Nymphaea colorata phylum=Streptophyta class=Magnoliopsida
+>H2B.S_Magnoliopsida_Nymphaea_colorata_XP_031483632.1 organism=Nymphaea colorata phylum=Streptophyta class=Magnoliopsida
 -------------------MGPR-RSGR------LVGSVVK--ETKVVEETVKVVADV-D
 DLSSLEPSAI----------------------------------------SAGIIREIPV
 VEIKESKTPQKKVEPEAAPFPLEK------------------------------------
@@ -1519,7 +1519,7 @@ PQELNR----RRK------RLRRN--------EEGGVG-AYRSYVYKVLKQV--HPELGI
 SSKAMDVL-----------------NGFMGDMFERLAEEAATLQKHT----GRRTLSSRE
 IQMAVRLVLPGELGKHAISEGSKAITNYY-RYPEKKRR----------------------
 -----------------------------------
->H2B.S_Oryza_sativa_Japonica_Group_XP_015612586.1 organism=Oryza sativa Japonica Group phylum=Streptophyta class=Magnoliopsida
+>H2B.S_Magnoliopsida_Oryza_sativa_Japonica_Group_XP_015612586.1 organism=Oryza sativa Japonica Group phylum=Streptophyta class=Magnoliopsida
 -------------------MAPKQKEAAN---------------KKKKKKEVAVLVKT-K
 TKVVQLTTTT--------------------------------------------------
 --AELELEPTVTVQVDDNKTGAAA--------DETPPVVPL-------------------
@@ -1528,7 +1528,7 @@ RAGHGR----KRS------RRRRG--------GALEYG-GYKRYVWRVLKQV--HPDLGA
 SAQTMDVL-----------------DMMMADMFERLADEASRLSKLS----GRLTLTSRE
 VQSAVRLVLPADLANHAISEGTKAISNYL-S-----------------------------
 -----------------------------------
->H2B.S_Panicum_hallii_PAN11031.1 organism=Panicum hallii phylum=Streptophyta class=Magnoliopsida
+>H2B.S_Magnoliopsida_Panicum_hallii_PAN11031.1 organism=Panicum hallii phylum=Streptophyta class=Magnoliopsida
 -------------------MAPK-RRSGGK----VVGSVVK---TKVVQETVEVTTAFVA
 DGEPGQRATE----------------------DLALAPPAVDASGGSRSRVVHIEVTTPD
 GDTTTGGSNAKQATSKRGRGGRREEEKPAPPAEEAAQEPPVAQSQETQDPNEEQEEEEDA
@@ -1537,7 +1537,7 @@ GGGAGGGDKTKTTKAKKGGRRRLGQASPGGDAGMGGVG-GYKRYVWRVLKQV--HPELGV
 SGNAMRVL-----------------DMMMADMFERLADEAARLSKVS----GRATLSSRE
 VQSAVRLVLPGELSRHAMSEGTKAISKYM-SYDA--------------------------
 -----------------------------------
->H2B.S_Panicum_virgatum_HISTDB_H2B_S_3 organism=Panicum virgatum phylum=Streptophyta class=Magnoliopsida
+>H2B.S_Magnoliopsida_Panicum_virgatum_HISTDB_H2B_S_3 organism=Panicum virgatum phylum=Streptophyta class=Magnoliopsida
 -------------------MAPK-RRGGGK----VVGSVVK---TKVVQETVEVTTAVVP
 DGEPEQRGTE------------------ALALAPPAVDVSGGSRRVVHIEVTTPDGDATT
 GGSNAKKQATSKRGRRGGRREEEKPAPPAEEAAQEPPVAQSQETQDPNEEQEEEVEEDAR
@@ -1546,7 +1546,7 @@ GGDKARAKKGGQR------RRRLGQASPGGDAGMGGVG-GYKRYVWRVLKQV--HPELGV
 SGLAMRVL-----------------DMMMADMFERLADEAARLSKAS----GRATLSSRE
 VQSAVRLVLPGELGRHAMSEGTKAISKYM-SYDA--------------------------
 -----------------------------------
->H2B.S_Phaseolus_vulgaris_XP_007132352.1 organism=Phaseolus vulgaris phylum=Streptophyta class=Magnoliopsida
+>H2B.S_Magnoliopsida_Phaseolus_vulgaris_XP_007132352.1 organism=Phaseolus vulgaris phylum=Streptophyta class=Magnoliopsida
 -------------------MAPK-R---------AQKLVVR-STKKVVESSVQVSVVS-S
 SSRKRQTRGN---------------------------------------------KDNIQ
 TEEAVGEEKHVMVIPIQEGNPQAQKDSSTSAMTNENKGEQENSVQDDGVQNEEK------
@@ -1555,7 +1555,7 @@ GKEKKL----GKK------KGRRS------------AE-GYQRYVYRVLKQV--HPEMGI
 SSKCMTIL-----------------NNLMNDMFERLAGEASKLKDYT----GHMTLSSRE
 IQGAVKLVLPGELGKHAIAEGVKAVNNFT-SYDA--------------------------
 -----------------------------------
->H2B.S_Piper_nigrum_HISTDB_H2B_S_10 organism=Piper nigrum phylum=Streptophyta class=Magnoliopsida
+>H2B.S_Magnoliopsida_Piper_nigrum_HISTDB_H2B_S_10 organism=Piper nigrum phylum=Streptophyta class=Magnoliopsida
 -------------------MAST-RQGRRNTPEVVSTVVKKKTTRKVVNETTIAAVAVVE
 SNEPPIVKTV--------------------------------------------------
 PVEEESSDSVINVEAGKTPPKEVPIARPRSDAAKGTNQRKDGAAT---------------
@@ -1564,7 +1564,7 @@ KEGEKK----RKR------RKKRW-------SYNEEMS-GYSRYVFRVLKQV--HPDLAI
 SSKAMAVL-----------------NAFVWDMFERLAGEAGKLADYT----RRATLSSRE
 IQDAVRLVLPGELGKHAISEGSKAVTNYV-TNDD--------------------------
 -----------------------------------
->H2B.S_Piper_nigrum_HISTDB_H2B_S_9 organism=Piper nigrum phylum=Streptophyta class=Magnoliopsida
+>H2B.S_Magnoliopsida_Piper_nigrum_HISTDB_H2B_S_9 organism=Piper nigrum phylum=Streptophyta class=Magnoliopsida
 -------------------MAST-RQGRRNTPEVVSTVVKKKTTRKVVNETTIAAVAVVE
 SNEPPIVKTV--------------------------------------------------
 PVEEESSDSVINVEAGKTPPKEVPIARPRSDAAKGTNQRKDGAAT---------------
@@ -1573,7 +1573,7 @@ KVEEKK----RKR------RKKRW-------SYNEEMS-GYSRYVFRVLKQV--HPDLAI
 SSKAMAVL-----------------NAFVWDMFERLAGEAGKLADYT----RRATLSSRE
 IQDAVRLVLPGELGKHAISEGSKAVTNYVHALGSWRRPALQYGRHEEERRQRKCRQDRVT
 SVFGFGFEVLGLRISFLFATLRTAPGGRKHGVQPT
->H2B.S_Prunus_persica_ONI00968.1 organism=Prunus persica phylum=Streptophyta class=Magnoliopsida
+>H2B.S_Magnoliopsida_Prunus_persica_ONI00968.1 organism=Prunus persica phylum=Streptophyta class=Magnoliopsida
 -------------------MAPK-RS---------TKTVVK-TTKQVVRETVQVSSVV-Q
 SKRRKKQSEDSGDQTRKPVKTIKTISIETQEENQTQNVEISEPLKTRRIPIQTEEENQIL
 KGQNAEAITTLTSDQKEAAAEEEEEGEGEKKEDQEDTVETSITSDEKEDEQKSEEVKTLE
@@ -1582,7 +1582,7 @@ SSEKKR----KRK------RRERG-----------RGE-EYKIYVHRVLKQV--HPGMGV
 SSKGMTVL-----------------NNLMNDMFERLADEAARLTKYT----ARKTLSSRE
 IQAAVKLVLPGELGRHAMAEGTKAVSTYVSNNNGRQSKS---------------------
 -----------------------------------
->H2B.S_Setaria_italica_XP_022680431.1 organism=Setaria italica phylum=Streptophyta class=Magnoliopsida
+>H2B.S_Magnoliopsida_Setaria_italica_XP_022680431.1 organism=Setaria italica phylum=Streptophyta class=Magnoliopsida
 -------------------MAPK-RRSSGK----VVGSVVK---TKVVQETVEVTTAIVA
 DGEPEQQLAP------------------------GALALAPRTGEVSRSKVVHVEITTPD
 SDNTTGRSSAKQQPTAKRGRGGRREEEKPPAPAEEAAQEPPPQSLETQEPNEEEEEEDVD
@@ -1591,7 +1591,7 @@ GGGGGGGKAKTGR------RRRLGEASPGGDAGMGGMG-GYKRYVWRVLKQV--HPELGV
 SGHAMRVL-----------------DMMMADMFERLADEAARLSKAA----GRATLSSRE
 VQSAVRLVLPGELGRHAMSEGTKAISKYM-SYDDA-------------------------
 -----------------------------------
->H2B.S_Setaria_viridis_XP_034583365.1 organism=Setaria viridis phylum=Streptophyta class=Magnoliopsida
+>H2B.S_Magnoliopsida_Setaria_viridis_XP_034583365.1 organism=Setaria viridis phylum=Streptophyta class=Magnoliopsida
 -------------------MAPK-RRSSGK----VVGSVVK---TKVVQETVEVTTAIVA
 DGEPEQQLAP------------------------GALALAPRTGEVSRSKVVHVEITTPD
 SDNTTGRSSAKQQPTAKRGRGGRREEEKPPAPAEEAAQEPPPQSLETQEPNEEEEEDVDV
@@ -1600,7 +1600,7 @@ GGGGGGGKAKTGR------RRRLGEASPGGDAGMGGMG-GYKRYVWRVLKQV--HPELGV
 SGHAMRVL-----------------DMMMADMFERLADEAARLSKAA----GRATLSSRE
 VQSAVRLVLPGELGRHAMSEGTKAISKYM-SYDDT-------------------------
 -----------------------------------
->H2B.S_Solanum_lycopersicum_XP_004241294.1 organism=Solanum lycopersicum phylum=Streptophyta class=Magnoliopsida
+>H2B.S_Magnoliopsida_Solanum_lycopersicum_XP_004241294.1 organism=Solanum lycopersicum phylum=Streptophyta class=Magnoliopsida
 -------------------MAPK-KRGGR-----VRATVVT--ARKVVEETVSVVVTP-V
 AGETETESQT-------------------------LAEENQSF-----------EILTPA
 PSEEPTPKRTINVQDISEGKKAPRRKPDPAQQVDEDETQPADEPEEMPSPPKKESGQKKT
@@ -1609,7 +1609,7 @@ KGGGER----KKK------RAKVG-------GGVGPSE-GYRRYVFRVMKQV--HPDMGI
 SSKAMTVL-----------------NNLMGDMFERIANEAAILTKYV----GRTTLASVD
 IQDAVKLVLPGELGKHAIAEGTNAVANYVTNVEKSKSKP---------------------
 -----------------------------------
->H2B.S_Solanum_tuberosum_XP_006347209.1 organism=Solanum tuberosum phylum=Streptophyta class=Magnoliopsida
+>H2B.S_Magnoliopsida_Solanum_tuberosum_XP_006347209.1 organism=Solanum tuberosum phylum=Streptophyta class=Magnoliopsida
 -------------------MAPK-KRGGR-----ARATVVT--ARKVVEETVSVVV-S-G
 ETETESQTLT---------------------------EENQSF-----------EILTPL
 PYEEPTPKRTINVQDKSEGKKAQQRKPDPAQQVDEVETQPADEPEEMPSPPKKEAVRKKA
@@ -1618,7 +1618,7 @@ GGGERK----KKR------AKVGG--------GVGPSE-GYRRYVFRVMKQV--HPDMGI
 SSKAMMIL-----------------NNLMGDMFERIANEAAILTKYA----GRATLASVD
 IQDAVKLVLPGELGKHAIAEGTKAVANYVTSVEKSKSKP---------------------
 -----------------------------------
->H2B.S_Sorghum_bicolor_XP_002462010.1 organism=Sorghum bicolor phylum=Streptophyta class=Magnoliopsida
+>H2B.S_Magnoliopsida_Sorghum_bicolor_XP_002462010.1 organism=Sorghum bicolor phylum=Streptophyta class=Magnoliopsida
 -------------------MAPK-RRGNK-----VVGSVVK---TKVVQETVEVIVAD-D
 DDTAEAEQQM----------------------VPEALAVAPSAVDVSGSTVVHVVEVTTP
 DGGDNATGSNVKQPAVAKRGRGRREEEKEKQPAPPEDSVLVPQSQETQDPNEEEEDQEDA
@@ -1627,7 +1627,7 @@ QAGGGGDAGKKRPKA----RRRLGQASAGGDAGMGGVG-GYKRYVWRVLKQV--HPDLGV
 SGHAMQVL-----------------DMMMADMFERLADEAARLSKAT----GRMTLTSRE
 VQSAVRLVLPGDLGKHAIAEGTKAISKYM-SYA---------------------------
 -----------------------------------
->H2B.S_Spirodela_polyrhiza_HISTDB_H2B_S_2 organism=Spirodela polyrhiza phylum=Streptophyta class=Magnoliopsida
+>H2B.S_Magnoliopsida_Spirodela_polyrhiza_HISTDB_H2B_S_2 organism=Spirodela polyrhiza phylum=Streptophyta class=Magnoliopsida
 --------------------------------------MVR-TTRKVVQETIEVSVVK-E
 KDATAGRKKV-------------------VEVKVQDTTEMPQP-----------QAEAFE
 GEREGEAAVEEKSAATGEKEAEEAGVQEKKEQRQPPQVETISREMVETAAAPEGEKHAVE
@@ -1636,7 +1636,7 @@ EKEETKSAMRRRR------RKRAG-----RDVGGFGGKRGYKRYVFRVLKQV--HPELRV
 SSMAMTVL-----------------DSLVKDMFERLAGEASRLSKYS----GRATLSTRE
 IQAAVRLVLPRELGEHALAEGNKAVANFMTAATAKPSS----------------------
 -----------------------------------
->H2B.S_Trifolium_pratense_XP_045802699.1 organism=Trifolium pratense phylum=Streptophyta class=Magnoliopsida
+>H2B.S_Magnoliopsida_Trifolium_pratense_XP_045802699.1 organism=Trifolium pratense phylum=Streptophyta class=Magnoliopsida
 -------------------MAPK-RA--------NKKMVVR-STRKVVEESVQVSVVS-S
 NKRSTRANKD-------------------------------------------NEIDKDV
 GSDHDQREEHVRIIPVQEVTPSAK--------EDSNASTTTFTTEDKTNQENTP------
@@ -1645,7 +1645,7 @@ GKEKRK----RKR------VRRMG-------------E-GYQRYVYRVLKQV--HPDMGI
 SFKAMTIL-----------------NNLMNDMFEKLADEAAKLTTYI----GHMTLSSRE
 IQGAVKLVLPGELGKHAIAEGAKAVTNYISSYGA--------------------------
 -----------------------------------
->H2B.S_Vitis_vinifera_XP_002272312.1 organism=Vitis vinifera phylum=Streptophyta class=Magnoliopsida
+>H2B.S_Magnoliopsida_Vitis_vinifera_XP_002272312.1 organism=Vitis vinifera phylum=Streptophyta class=Magnoliopsida
 -------------------MAPK-RSGKT-----RSKVVVK-ATRKVVQQTVEVTVLA-S
 KQKPPREEQG---------------------------------------------KKISK
 KDKAPEELQREQVSADEEPPKELPT-----------------------------------
@@ -1654,7 +1654,7 @@ REEKKR----GRR------RRRRT----SGRRRKEGGE-GYKRYVYRVLKQV--HPGLGV
 SSKAMTVL-----------------SGFMNDMFERIAEEAAKLSKYT----GKTTLSARE
 IQGAVKLVLPGELQKHAMAEGTKAVSNYM-DYAAAGGHKQ--------------------
 -----------------------------------
->H2B.S_Zea_mays_HISTDB_H2B_S_4 organism=Zea mays phylum=Streptophyta class=Magnoliopsida
+>H2B.S_Magnoliopsida_Zea_mays_HISTDB_H2B_S_4 organism=Zea mays phylum=Streptophyta class=Magnoliopsida
 -------------------MAPK-RRGNK-----VVGSVVK---TKLVQETVEVIVAD-D
 DGLHAEKQQV------------------------------------------PEALALAH
 PTVDVSGSTVVHVVEVTAKRGRGGGGGGGGGRRNEGKPPPEEDSAAVPVPQSQE------
@@ -1663,7 +1663,7 @@ KTQQPR----RR-------RQRLGQASSGGDAGMGGVG-GYRRYVWRVLKQV--HPDLGV
 SGHAMQVL-----------------DMMMADMFERLAEEAARLSKAT----GRATLTSRE
 VQSAVRLVLPGELGRHAISEGTKAISKYM-SYAA--------------------------
 -----------------------------------
->H2B.S_Zea_mays_XP_008670031.1 organism=Zea mays phylum=Streptophyta class=Magnoliopsida
+>H2B.S_Magnoliopsida_Zea_mays_XP_008670031.1 organism=Zea mays phylum=Streptophyta class=Magnoliopsida
 -------------------MAPK-RRGNK-----VVGSVVK---TKLVQETVEVIVAD-D
 DGLHAEKQQV------------------------------------------PEALALAH
 PTVDVSGSTVVHVVEVTAKRGRGGGGGGGGGGRRNEGKPPPEEDSAAVPVPQSQETQDPN
