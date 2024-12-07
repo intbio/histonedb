@@ -194,21 +194,21 @@
             "H2B.N": {
                 "H2B.N_(Homo_sapiens)": "null"
             },
-            "H2B.O": "null",
+            "H2B.O_(Ornithorhynchus_anatinus)": "null",
             "H2B.S_(Magnoliopsida)": "null",
-            "H2B.V": "null",
+            "H2B.V_(Trypanosoma)": "null",
             "H2B.W": {
                 "H2B.W_(Homo_sapiens)": {
                     "H2B.W.1_(Homo_sapiens)": "null",
                     "H2B.W.2_(Homo_sapiens)": "null"
                 }
             },
-            "H2B.Z": "null",
+            "H2B.Z_(Apicomplexa)": "null",
             "late_H2B_(Echinoidea)": "null",
             "sperm_H2B_(Echinoidea)": "null"
         },
         "H3": {
-            "cenH3_(Eukarya)": {
+            "cenH3": {
                 "cenH3_(Animals)": {
                     "cenH3_(Mammalia)": {
                         "cenH3_(Homo_sapiens)": "null"
@@ -307,6 +307,29 @@
             "alternate_names": [],
             "publications": []
         },
+        "cenH3": {
+            "level": "variant_group",
+            "description": {
+                "summary": "null",
+                "taxonomy": "null",
+                "genes": "null",
+                "evolution": "null",
+                "expression": "null",
+                "knock-out": "null",
+                "function": "null",
+                "sequence": "null",
+                "localization": "null",
+                "deposition": "null",
+                "structure": "null",
+                "interactions": "null",
+                "disease": "null",
+                "caveats": "null"
+            },
+            "taxonomic_span": "null",
+            "taxonomic_span_id": "null",
+            "alternate_names": [],
+            "publications": []
+        },
         "cenH3_(Animals)": {
             "level": "variant",
             "description": {
@@ -327,29 +350,6 @@
             },
             "taxonomic_span": "Homo sapiens",
             "taxonomic_span_id": "9606",
-            "alternate_names": [],
-            "publications": []
-        },
-        "cenH3_(Eukarya)": {
-            "level": "variant_group",
-            "description": {
-                "summary": "null",
-                "taxonomy": "null",
-                "genes": "null",
-                "evolution": "null",
-                "expression": "null",
-                "knock-out": "null",
-                "function": "null",
-                "sequence": "null",
-                "localization": "null",
-                "deposition": "null",
-                "structure": "null",
-                "interactions": "null",
-                "disease": "null",
-                "caveats": "null"
-            },
-            "taxonomic_span": "null",
-            "taxonomic_span_id": "null",
             "alternate_names": [],
             "publications": []
         },
@@ -4217,10 +4217,10 @@
             "alternate_names": [],
             "publications": []
         },
-        "H2B.O": {
+        "H2B.O_(Ornithorhynchus_anatinus)": {
             "level": "variant_group",
             "description": {
-                "summary": "H2B.O  is a class of H2B sequences identified exclusively in platypus genome that group together in phylogenetic analysis. H2B.O expression appears to be enriched in platypus\u2019 germline tissues (testes or ovaries) albeit at low levels [raman_novel_2022].",
+                "summary": "H2B.O_(Ornithorhynchus_anatinus)  is a class of H2B sequences identified exclusively in platypus genome that group together in phylogenetic analysis. H2B.O expression appears to be enriched in platypus\u2019 germline tissues (testes or ovaries) albeit at low levels [raman_novel_2022].",
                 "taxonomy": "Platypus [raman_novel_2022].",
                 "genes": "null",
                 "evolution": "null",
@@ -4267,10 +4267,10 @@
                 "jiang_evolution_2020"
             ]
         },
-        "H2B.V": {
+        "H2B.V_(Trypanosoma)": {
             "level": "variant_group",
             "description": {
-                "summary": "H2B.V is a histone variant characterized so far in Trypanosoma brucei. It shares ~38% sequence identity with major H2B. H2B.V is essential for viability. H2A.Z and H2B.V colocalize throughout the cell cycle and exhibit nearly identical genomic distribution. Data strongly suggest that H2A.Z and H2B.V function together within a single nucleosome [lowell_histone_2005]. H2BV possibly regulates H3 K4 and K76 trimethylation in Trypanosoma brucei [mandava_trypanosome_2008].",
+                "summary": "H2B.V_(Trypanosoma) is a histone variant characterized so far in Trypanosoma brucei. It shares ~38% sequence identity with major H2B. H2B.V is essential for viability. H2A.Z and H2B.V colocalize throughout the cell cycle and exhibit nearly identical genomic distribution. Data strongly suggest that H2A.Z and H2B.V function together within a single nucleosome [lowell_histone_2005]. H2BV possibly regulates H3 K4 and K76 trimethylation in Trypanosoma brucei [mandava_trypanosome_2008].",
                 "taxonomy": "Trypanosoma",
                 "genes": "null",
                 "evolution": "null",
@@ -4457,10 +4457,10 @@
                 "22156475"
             ]
         },
-        "H2B.Z": {
+        "H2B.Z_(Apicomplexa)": {
             "level": "variant_group",
             "description": {
-                "summary": "H2B.Z is an apicomplexan specific variant. Different studies performed in Toxoplasma have shown a nucleosome composition in which H2A.Z, but not H2A.X, dimerizes with H2B.Z, while H2A.X dimerizes with canonical H2B (H2Ba in T. gondii), but never with H2B.Z. This fact is also seen in P. falciparum, although this parasite lacks H2A.X variant and has driven the hypothesis of a new double variant nucleosome exclusive of parasites with particular characteristics [logie_apicomplexa_2020].",
+                "summary": "H2B.Z_(Apicomplexa) is an apicomplexan specific variant. Different studies performed in Toxoplasma have shown a nucleosome composition in which H2A.Z, but not H2A.X, dimerizes with H2B.Z, while H2A.X dimerizes with canonical H2B (H2Ba in T. gondii), but never with H2B.Z. This fact is also seen in P. falciparum, although this parasite lacks H2A.X variant and has driven the hypothesis of a new double variant nucleosome exclusive of parasites with particular characteristics [logie_apicomplexa_2020].",
                 "taxonomy": "null",
                 "genes": "null",
                 "evolution": "null",

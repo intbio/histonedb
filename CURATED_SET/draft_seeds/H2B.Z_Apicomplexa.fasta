@@ -1,36 +1,36 @@
->H2B.Z_Vitrella_brassicaformis_CCMP3155_CEM32013.1 organism=Vitrella brassicaformis CCMP3155 phylum= class=
+>H2B.Z_Apicomplexa_Vitrella_brassicaformis_CCMP3155_CEM32013.1 organism=Vitrella brassicaformis CCMP3155 phylum= class=
 MPG------KGPAEKRQAAKKTAGKTPAE---AGKKRRRKRTESFALYIYKVLKQVHPET
 GISKKSMSIMNSFINDIFDRMATEATNLIRFNKKKTLSSREVQTSVRLMLPGELSKHAVS
 EGTKAVTKYTTAAGN
->H2B.Z_Babesia_bovis_T2Bo_XP_001610608.1 organism=Babesia bovis T2Bo phylum=Apicomplexa class=Aconoidasida
+>H2B.Z_Apicomplexa_Babesia_bovis_T2Bo_XP_001610608.1 organism=Babesia bovis T2Bo phylum=Apicomplexa class=Aconoidasida
 MSG------KVPSSKSQAAKKTAGKSL-----GIRYRRKKRIESFSLYIYKVLKQVHPET
 GVSKKSMSIMNSFINDIFDRMALEATRLIRYNKKSTLSSREIQTAVRLLLPGELSKHAVS
 EGTKAVTKYTTSGA-
->H2B.Z_Cytauxzoon_felis_HISTDB_H2B_Z_0 organism=Cytauxzoon felis phylum=Apicomplexa class=Aconoidasida
+>H2B.Z_Apicomplexa_Cytauxzoon_felis_HISTDB_H2B_Z_0 organism=Cytauxzoon felis phylum=Apicomplexa class=Aconoidasida
 MSG------KVPSTKSQAAKKTAGKTL-----GVRYRRKKRIESFALYIYKVLKQVHPET
 GVSKKSMSIMNSFINDIFDRLALEATRLIRYNKKSTLSSREIQTAVRLLLPGELSKHAVS
 EGTKAVTKYTTSGV-
->H2B.Z_Plasmodium_berghei_ANKA_XP_678689.1 organism=Plasmodium berghei ANKA phylum=Apicomplexa class=Aconoidasida
+>H2B.Z_Apicomplexa_Plasmodium_berghei_ANKA_XP_678689.1 organism=Plasmodium berghei ANKA phylum=Apicomplexa class=Aconoidasida
 MSG------KGPAQKSQAAKKTAGKTL-----GPRHKRKRRTESFSLYIFKVLKQVHPET
 GVTKKSMNIMNSFINDIFDRLVTEATRLIRYNKKRTLSSREIQTAVRLLLPGELSKHAVS
 EGTKAVTKYTTSGA-
->H2B.Z_Plasmodium_falciparum_3D7_XP_001349046.1 organism=Plasmodium falciparum 3D7 phylum=Apicomplexa class=Aconoidasida
+>H2B.Z_Apicomplexa_Plasmodium_falciparum_3D7_XP_001349046.1 organism=Plasmodium falciparum 3D7 phylum=Apicomplexa class=Aconoidasida
 MSG------KGPAQKSQAAKKTAGKTL-----GPRHKRKRRTESFSLYIFKVLKQVHPET
 GVTKKSMNIMNSFINDIFDRLVTEATRLIRYNKKRTLSSREIQTAVRLLLPGELSKHAVS
 EGTKAVTKYTTSAA-
->H2B.Z_Cryptosporidium_parvum_Iowa_II_XP_628349.1 organism=Cryptosporidium parvum Iowa II phylum=Apicomplexa class=Conoidasida
+>H2B.Z_Apicomplexa_Cryptosporidium_parvum_Iowa_II_XP_628349.1 organism=Cryptosporidium parvum Iowa II phylum=Apicomplexa class=Conoidasida
 MSGKSGKSIKGPAQKQQAAKKTAGKSPAD---GGKRKRRKRTESFALYIYKVLKQVHPET
 GISKKSMSIMNSFINDVFDRLSAEAVKLVQYNKKRTLSSREVQTSVRLMLPGELSKHAVS
 EGTKAVTKYTSASA-
->H2B.Z_Eimeria_tenella_XP_013228334.1 organism=Eimeria tenella phylum=Apicomplexa class=Conoidasida
+>H2B.Z_Apicomplexa_Eimeria_tenella_XP_013228334.1 organism=Eimeria tenella phylum=Apicomplexa class=Conoidasida
 MSG------KGPAQKSQAAKKTAGKSL-----GPRYRRRKRTESFALYIYKVLKQVHPET
 GVSKKSMSIMNSFINDIFDRLADEAVRLIRYNKKRTLSSREIQTAVRLLLPGELSKHAVS
 EGTKAVSKYTTSGA-
->H2B.Z_Gregarina_niphandrodes_XP_011128492.1 organism=Gregarina niphandrodes phylum=Apicomplexa class=Conoidasida
+>H2B.Z_Apicomplexa_Gregarina_niphandrodes_XP_011128492.1 organism=Gregarina niphandrodes phylum=Apicomplexa class=Conoidasida
 MSG------KG--GKQQLAKKTAANKLPSHHLDKNKKRRRRGETFSIYIYKVLRQVQPKL
 GMSRKSMAIMNSFINDIFERLATEAVKLIQYNKKRTLSSREMQTSVRLLLPGELSKHAAT
 EGAKAVEKYENRPIA
->H2B.Z_Toxoplasma_gondii_ME49_XP_002369740.1 organism=Toxoplasma gondii ME49 phylum=Apicomplexa class=Conoidasida
+>H2B.Z_Apicomplexa_Toxoplasma_gondii_ME49_XP_002369740.1 organism=Toxoplasma gondii ME49 phylum=Apicomplexa class=Conoidasida
 MSG------KGPAQKSQAAKKTAGKSL-----GPRYRRRKRTESFALYIYKVLKQVHPET
 GVSKKSMSIMNSFINDIFDRLADEAVRLIRYNKKRTLSSREIQTAVRLLLPGELSKHAVS
 EGTKAVTKYTTSGA-
