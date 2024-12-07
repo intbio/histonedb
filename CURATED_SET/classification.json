@@ -118,8 +118,8 @@
                     "macroH2A.2_(Homo_sapiens)": "null"
                 }
             },
-            "short_H2A": {
-                "H2A.B": {
+            "short_H2A_(Eutheria)": {
+                "H2A.B_(Eutheria)": {
                     "H2A.B_(Homo_sapiens)": {
                         "H2A.B.1_(Homo_sapiens)": "null",
                         "H2A.B.2_(Homo_sapiens)": "null"
@@ -130,7 +130,7 @@
                         "H2A.B.3_(Mus_musculus)": "null"
                     }
                 },
-                "H2A.L": {
+                "H2A.L_(Eutheria)": {
                     "H2A.L_(Homo_sapiens)": {
                         "H2A.L.1_(Homo_sapiens)": "null",
                         "H2A.L.3_(Homo_sapiens)": "null"
@@ -141,11 +141,11 @@
                         "H2A.L.3_(Mus_musculus)": "null"
                     }
                 },
-                "H2A.P": {
+                "H2A.P_(Eutheria)": {
                     "H2A.P_(Homo_sapiens)": "null",
                     "H2A.P_(Mus_musculus)": "null"
                 },
-                "H2A.Q": "null"
+                "H2A.Q_(Eutheria)": "null"
             }
         },
         "H2B": {
@@ -2801,50 +2801,6 @@
                 "malik_phylogenomics_2003"
             ]
         },
-        "H2A.B": {
-            "level": "variant",
-            "description": {
-                "summary": "H2A.B, previously known as \"Barr body deficient\" (H2A.Bbd) variant  is a short replication independent H2A variant found in eutherian mammals implicated in spermiogenesis, transcription regulation, splicing, DNA synthesis. Genes: Common ancestor of eutherian mammals encoded two or three H2A.B genes. Genes are usually located on X chromosome in three conserved locations (except in mouse, where H2A.B genes are located at other locations on X chromosome with unclear kinship to the ancestral genes that relocated to autosomes and decayed [molaro_evolutionary_2018]). Human and mouse have three genes encoding H2A.Bs [molaro_evolutionary_2018]. Evolution: H2A.B is a rapildy evolving variant which is closely related to H2A.L, H2A.P, H2A.Q. It was suggested that H2A.B have been the subject to diversifying selection in simian primates, although mucj of the increased divergence of short histone H2A variants may be better explained by relaxed purifying selection [molaro_evolutionary_2018]. Knock-out: H2A.B knock-out mice are viable, subfertile and display changes in splicing events [anuar_gene_2019]. Sequence: Around 50% identity with the canonical H2A, has truncated docking domain, divergent histone fold domain, altered acidic patch, arginine rich N-terminus [molaro_evolutionary_2018]. Localization: H2A.B is expressed during mammalian male germ cell development and in the brain [molaro_evolutionary_2018,jiang_short_2020]. Originally, H2A.B  was characterized by its exclusion from the inactive X chromosome if overexpressed in female somatic cells [chadwick_novel_2001]. However, experiments in mouse testis revealed that H2A.B is in fact present on the inactive X chromosome  [soboleva_unique_2011]. Short H2A variants localize to sites of open chromatin and potentiate DNA synthesis, transcription, and splicing [molaro_evolutionary_2018]. This histone variant can bind to RNA directly in vitro and in vivo, and associates with mRNA at intron\u2014exon boundaries [soboleva_new_2017]. Structural effects: H2A.B containing nucleosomes wrap less DNA (~120-130 bp instead of ~150 bp) [sugiyama_distinct_2014,doyen_dissection_2006], form loosely packed chromatin. Interactions: RNA processing factors, proteins involved in the piRNA pathway [jiang_short_2020]  Deposition: It was suggested that H2A.B is incorporated into DNA sites that are transiently exposed, for instance, during DNA replication [jiang_short_2020]. H2A.B-H2A dimers in nucleosomes can spontaneously be replaced by H2A-H2B dimers [hirano_histone_2021]. Disease: H2A.B is upregulated in cancer as other short H2A variants [chew_short_2021]. Caveats: Due to rapid evolution H2A.B function in different species may vary. For example, human H2A.B is retained during spermiogenesis, while is mouse it disappears and H2A.L is retained instead [molaro_evolutionary_2018]. Mouse H2A.B has additional negative residue in acidic patch, which is thought to increase its propensity to compact nucleosomal arrays relative to human H2A.B.",
-                "taxonomy": "null",
-                "genes": "null",
-                "evolution": "null",
-                "expression": "null",
-                "knock-out": "null",
-                "function": "null",
-                "sequence": "null",
-                "localization": "null",
-                "deposition": "null",
-                "structure": "null",
-                "interactions": "null",
-                "disease": "null",
-                "caveats": "null"
-            },
-            "taxonomic_span": "Eutheria",
-            "taxonomic_span_id": "9347",
-            "alternate_names": [
-                {
-                    "name": "H2A.Bbd"
-                },
-                {
-                    "name": "H2A.Lap1(mouse)"
-                },
-                {
-                    "name": "H2A.B.3(mouse)"
-                }
-            ],
-            "publications": [
-                "anuar_gene_2019",
-                "chadwick_novel_2001",
-                "chew_short_2021",
-                "doyen_dissection_2006",
-                "hirano_histone_2021",
-                "jiang_short_2020",
-                "molaro_evolutionary_2018",
-                "soboleva_new_2017",
-                "soboleva_unique_2011",
-                "sugiyama_distinct_2014"
-            ]
-        },
         "H2A.B.1_(Homo_sapiens)": {
             "level": "variant",
             "description": {
@@ -2965,7 +2921,7 @@
         "H2A.B.3_(Mus_musculus)": {
             "level": "variant",
             "description": {
-                "summary": "H2A.B.3_(Mus_musculus) is one of the three isoforms of H2A.B variant in mouse encoded by H2ab1 gene. This gene has been characterized the most experimentally among all H2A.B. variants. Caveats: Unfortunately there is some confusion with respect to the number suffixes in the literature and between the gene names and variant names. This variant was named initially H2A.Lap1 [soboleva_unique_2011], but renamed afterwards to H2A.B.3 [soboleva_new_2017], and this name has been used afterwards [anuar_gene_2019,jiang_short_2020]. Hence we follow the established convention. Caveat: Moralo et al. suggests that \"rat-mouse common ancestor acquired an intact H2A.B gene in a new X-linked locus (H2a.b.ratMouse1, also historically named H2A.B.3) [molaro_evolutionary_2018]\". Our analysis of supplementary information suggests that H2a.b.ratMouse1 is H2ab2 gene in the current nomenclature. Our analysis of sequences published by Soboleva et al. suggests that H2A.B.3 (H2A.Lap1) is H2ab1 gene and not H2ab2 [soboleva_unique_2011].",
+                "summary": "H2A.B.3_(Mus_musculus) is one of the three isoforms of H2A.B variant in mouse encoded by H2ab1 gene. This gene has been characterized the most experimentally among all H2A.B. variants.",
                 "taxonomy": "null",
                 "genes": "null",
                 "evolution": "null",
@@ -2978,7 +2934,7 @@
                 "structure": "null",
                 "interactions": "null",
                 "disease": "null",
-                "caveats": "null"
+                "caveats": "Unfortunately there is some confusion with respect to the number suffixes in the literature and between the gene names and variant names. This variant was named initially H2A.Lap1 [soboleva_unique_2011], but renamed afterwards to H2A.B.3 [soboleva_new_2017], and this name has been used afterwards [anuar_gene_2019,jiang_short_2020]. Hence we follow the established convention. Moralo et al. suggests that rat-mouse common ancestor acquired an intact H2A.B gene in a new X-linked locus (H2a.b.ratMouse1, also historically named H2A.B.3) [molaro_evolutionary_2018]. Our analysis of supplementary information suggests that H2a.b.ratMouse1 is H2ab2 gene in the current nomenclature. Our analysis of sequences published by Soboleva et al. suggests that H2A.B.3 (H2A.Lap1) is H2ab1 gene and not H2ab2 [soboleva_unique_2011]."
             },
             "taxonomic_span": "Mus musculus",
             "taxonomic_span_id": "10090",
@@ -2995,23 +2951,67 @@
                 "soboleva_unique_2011"
             ]
         },
-        "H2A.B_(Homo_sapiens)": {
+        "H2A.B_(Eutheria)": {
             "level": "variant",
             "description": {
-                "summary": "H2A.B_(Homo_sapiens), previously known as \"Barr body deficient\" (H2A.Bbd) variant  is a group of short replication independent H2A variants in humans encoded by H2AB1, H2AB2 and H2AB3 genes. They are involved in spermiogenesis, transcription regulation, splicing, DNA synthesis. Genes: In human H2A.B is encoded by H2AB1, H2AB2 and H2AB3 genes. Genes are intronless. H2AB2 and H2AB3 encode identical proteins. H2AB1 protein which differes by ??one?? amino acid. Genes are located on X chromosome. Evolution: H2A.B is a rapildy evolving variant which is closely related to H2A.L, H2A.P, H2A.Q [molaro_evolutionary_2018]. Common ancestor of eutherian mammals encoded two or three H2A.B genes. Knock-out: H2A.B knock-out mice are viable, subfertile and display changes in splicing events [anuar_gene_2019]. Sequence: Around 50% identity with the canonical H2A, has truncated docking domain, divergent histone fold domain, altered acidic patch, arginine rich N-terminus [molaro_evolutionary_2018]. Localization: H2A.B is expressed during mammalian male germ cell development and in the brain [molaro_evolutionary_2018,jiang_short_2020]. Originally, H2A.B  was characterized by its exclusion from the inactive X chromosome if overexpressed in female somatic cells [chadwick_novel_2001]. However, experiments in mouse testis revealed that H2A.B is in fact present on the inactive X chromosome  [soboleva_unique_2011]. Short H2A variants localize to sites of open chromatin and potentiate DNA synthesis, transcription, and splicing [molaro_evolutionary_2018]. In mouse this histone variant was shown to bind to RNA directly in vitro and in vivo, and associate with mRNA at intron\u2014exon boundaries [soboleva_new_2017]. Structural effects: H2A.B containing nucleosomes wrap less DNA (~120-130 bp instead of ~150 bp) [sugiyama_distinct_2014,doyen_dissection_2006], form loosely packed chromatin. Interactions: RNA processing factors, proteins involved in the piRNA pathway [jiang_short_2020]  Deposition: It was suggested that H2A.B is incorporated into DNA sites that are transiently exposed, for instance, during DNA replication [jiang_short_2020]. H2A.B-H2A dimers in nucleosomes can spontaneously be replaced by H2A-H2B dimers [hirano_histone_2021]. Disease: H2A.B is upregulated in cancer as other short H2A variants [chew_short_2021]. Caveats: Due to rapid evolution H2A.B function in different species may vary. For example, human H2A.B is retained during spermiogenesis, while is mouse it disappears and H2A.L is retained instead [molaro_evolutionary_2018]. Mouse H2A.B has additional negative residue in acidic patch, which is thought to increase its propensity to compact nucleosomal arrays relative to human H2A.B.",
+                "summary": "H2A.B_(Eutheria), previously known as \"Barr body deficient\" (H2A.Bbd) variant  is a short replication independent H2A variant found in eutherian mammals implicated in spermiogenesis, transcription regulation, splicing, DNA synthesis.",
                 "taxonomy": "null",
-                "genes": "null",
-                "evolution": "null",
+                "genes": "Common ancestor of eutherian mammals encoded two or three H2A.B genes. Genes are usually located on X chromosome in three conserved locations (except in mouse, where H2A.B genes are located at other locations on X chromosome with unclear kinship to the ancestral genes that relocated to autosomes and decayed [molaro_evolutionary_2018]). Human and mouse have three genes encoding H2A.Bs [molaro_evolutionary_2018].",
+                "evolution": "H2A.B is a rapildy evolving variant which is closely related to H2A.L, H2A.P, H2A.Q. It was suggested that H2A.B have been the subject to diversifying selection in simian primates, although mucj of the increased divergence of short histone H2A variants may be better explained by relaxed purifying selection [molaro_evolutionary_2018].",
                 "expression": "null",
-                "knock-out": "null",
+                "knock-out": "H2A.B knock-out mice are viable, subfertile and display changes in splicing events [anuar_gene_2019].",
                 "function": "null",
-                "sequence": "null",
-                "localization": "null",
+                "sequence": "round 50% identity with the canonical H2A, has truncated docking domain, divergent histone fold domain, altered acidic patch, arginine rich N-terminus [molaro_evolutionary_2018].",
+                "localization": "H2A.B is expressed during mammalian male germ cell development and in the brain [molaro_evolutionary_2018,jiang_short_2020]. Originally, H2A.B  was characterized by its exclusion from the inactive X chromosome if overexpressed in female somatic cells [chadwick_novel_2001]. However, experiments in mouse testis revealed that H2A.B is in fact present on the inactive X chromosome  [soboleva_unique_2011]. Short H2A variants localize to sites of open chromatin and potentiate DNA synthesis, transcription, and splicing [molaro_evolutionary_2018]. This histone variant can bind to RNA directly in vitro and in vivo, and associates with mRNA at intron\u2014exon boundaries [soboleva_new_2017]. Structural effects: H2A.B containing nucleosomes wrap less DNA (~120-130 bp instead of ~150 bp) [sugiyama_distinct_2014,doyen_dissection_2006], form loosely packed chromatin.",
                 "deposition": "null",
                 "structure": "null",
                 "interactions": "null",
-                "disease": "null",
-                "caveats": "null"
+                "disease": "H2A.B is upregulated in cancer as other short H2A variants [chew_short_2021].",
+                "caveats": "Due to rapid evolution H2A.B function in different species may vary. For example, human H2A.B is retained during spermiogenesis, while is mouse it disappears and H2A.L is retained instead [molaro_evolutionary_2018]. Mouse H2A.B has additional negative residue in acidic patch, which is thought to increase its propensity to compact nucleosomal arrays relative to human H2A.B. H2A.B is also expressed in the brain [jiang_short_2020]."
+            },
+            "taxonomic_span": "Eutheria",
+            "taxonomic_span_id": "9347",
+            "alternate_names": [
+                {
+                    "name": "H2A.Bbd"
+                },
+                {
+                    "name": "H2A.Lap1(mouse)"
+                },
+                {
+                    "name": "H2A.B.3(mouse)"
+                }
+            ],
+            "publications": [
+                "anuar_gene_2019",
+                "chadwick_novel_2001",
+                "chew_short_2021",
+                "doyen_dissection_2006",
+                "hirano_histone_2021",
+                "jiang_short_2020",
+                "molaro_evolutionary_2018",
+                "soboleva_new_2017",
+                "soboleva_unique_2011",
+                "sugiyama_distinct_2014"
+            ]
+        },
+        "H2A.B_(Homo_sapiens)": {
+            "level": "variant",
+            "description": {
+                "summary": "H2A.B_(Homo_sapiens), previously known as \"Barr body deficient\" (H2A.Bbd) variant  is a group of short replication independent H2A variants in humans encoded by H2AB1, H2AB2 and H2AB3 genes. They are involved in spermiogenesis, transcription regulation, splicing, DNA synthesis.",
+                "taxonomy": "null",
+                "genes": "In human H2A.B is encoded by H2AB1, H2AB2 and H2AB3 genes. Genes are intronless. H2AB2 and H2AB3 encode identical proteins. H2AB1 protein which differes by ??one?? amino acid. Genes are located on X chromosome.",
+                "evolution": "H2A.B is a rapildy evolving variant which is closely related to H2A.L, H2A.P, H2A.Q [molaro_evolutionary_2018]. Common ancestor of eutherian mammals encoded two or three H2A.B genes.",
+                "expression": "null",
+                "knock-out": "H2A.B knock-out mice are viable, subfertile and display changes in splicing events [anuar_gene_2019].",
+                "function": "null",
+                "sequence": "Around 50% identity with the canonical H2A, has truncated docking domain, divergent histone fold domain, altered acidic patch, arginine rich N-terminus [molaro_evolutionary_2018].",
+                "localization": "H2A.B is expressed during mammalian male germ cell development and in the brain [molaro_evolutionary_2018,jiang_short_2020]. Originally, H2A.B  was characterized by its exclusion from the inactive X chromosome if overexpressed in female somatic cells [chadwick_novel_2001]. However, experiments in mouse testis revealed that H2A.B is in fact present on the inactive X chromosome  [soboleva_unique_2011]. Short H2A variants localize to sites of open chromatin and potentiate DNA synthesis, transcription, and splicing [molaro_evolutionary_2018]. In mouse this histone variant was shown to bind to RNA directly in vitro and in vivo, and associate with mRNA at intron\u2014exon boundaries [soboleva_new_2017].",
+                "deposition": "It was suggested that H2A.B is incorporated into DNA sites that are transiently exposed, for instance, during DNA replication [jiang_short_2020]. H2A.B-H2A dimers in nucleosomes can spontaneously be replaced by H2A-H2B dimers [hirano_histone_2021].",
+                "structure": "H2A.B containing nucleosomes wrap less DNA (~120-130 bp instead of ~150 bp) [sugiyama_distinct_2014,doyen_dissection_2006], form loosely packed chromatin.",
+                "interactions": "RNA processing factors, proteins involved in the piRNA pathway [jiang_short_2020].",
+                "disease": "H2A.B is upregulated in cancer as other short H2A variants [chew_short_2021].",
+                "caveats": "Due to rapid evolution H2A.B function in different species may vary. For example, human H2A.B is retained during spermiogenesis, while is mouse it disappears and H2A.L is retained instead [molaro_evolutionary_2018]. Mouse H2A.B has additional negative residue in acidic patch, which is thought to increase its propensity to compact nucleosomal arrays relative to human H2A.B."
             },
             "taxonomic_span": "Homo sapiens",
             "taxonomic_span_id": "9606",
@@ -3036,10 +3036,10 @@
         "H2A.B_(Mus_musculus)": {
             "level": "variant",
             "description": {
-                "summary": "H2A.B_(Mus_musculus) is a group of three isoforms of H2A.B variant in mouse encoded by H2ab1, H2ab2 and H2ab3 genes. H2ab1 is the most studied gene and corresponds to H2A.B.3 variant. Evolution: Moreover, the ancestral loci encoding H2A.B genes relocated away from the X Chromosome to autosomes in mouse (Chr 3 and Chr 16) and rat genomes (Chr 20 and Chr 18) as determined by flanking genes, and the encoded H2A.B genes have now been deleted or have decayed beyond recognition. However, the rat-mouse common ancestor acquired an intact H2A.B gene in a new X-linked locus [molaro_evolutionary_2018]. Caveats: Unfortunately there is some confusion with respect to the number suffixes in the literature and between the gene names and variant names. The H2ab1 gene variant was named initially H2A.Lap1 [soboleva_unique_2011], but renamed afterwards to H2A.B.3 [soboleva_new_2017], and this name has been used afterwards [anuar_gene_2019,jiang_short_2020]. Hence we follow the established convention.",
+                "summary": "H2A.B_(Mus_musculus) is a group of three isoforms of H2A.B variant in mouse encoded by H2ab1, H2ab2 and H2ab3 genes. H2ab1 is the most studied gene and corresponds to H2A.B.3 variant.",
                 "taxonomy": "null",
                 "genes": "null",
-                "evolution": "null",
+                "evolution": "Moreover, the ancestral loci encoding H2A.B genes relocated away from the X Chromosome to autosomes in mouse (Chr 3 and Chr 16) and rat genomes (Chr 20 and Chr 18) as determined by flanking genes, and the encoded H2A.B genes have now been deleted or have decayed beyond recognition. However, the rat-mouse common ancestor acquired an intact H2A.B gene in a new X-linked locus [molaro_evolutionary_2018].",
                 "expression": "null",
                 "knock-out": "null",
                 "function": "null",
@@ -3049,7 +3049,7 @@
                 "structure": "null",
                 "interactions": "null",
                 "disease": "null",
-                "caveats": "null"
+                "caveats": "Unfortunately there is some confusion with respect to the number suffixes in the literature and between the gene names and variant names. The H2ab1 gene variant was named initially H2A.Lap1 [soboleva_unique_2011], but renamed afterwards to H2A.B.3 [soboleva_new_2017], and this name has been used afterwards [anuar_gene_2019,jiang_short_2020]. Hence we follow the established convention."
             },
             "taxonomic_span": "Mus musculus",
             "taxonomic_span_id": "10090",
@@ -3113,60 +3113,6 @@
             "taxonomic_span_id": "null",
             "alternate_names": [],
             "publications": []
-        },
-        "H2A.L": {
-            "level": "variant",
-            "description": {
-                "summary": "H2A.L - is a class of short H2A variants in eutherian mammals implicated in spermatogenesis and replacement of histones with protamines. Genes: \u0421ommon ancestor of eutherian mammals encoded three H2A.L genes. These genes are usually located on X chromosome at three locations (named H2A.L.1, H2A.L.2 and H2A.L.3 by Molaro et al.) [molaro_evolutionary_2018]. Humans have two putative genes (H2AL1Q, H2AL3, located at H2A.L.1 and H2A.L.3 loci, respectively) and H2AL1MP pseudogene (located at H2A.L.2 loci has inactivating mutation in all primates). The H2AL1Q and H2AL3 genes have unusually long extensions at their 3'-ends and have not so far been detected at protein level. Mouse genome has a leneage specific expansion of H2A.L genes, encoding a total of 18 genes (15 genes on X chromosome H2a1a-H2a1o and H2al3; two genes on Y-chromosome H2al2c and H2al2b; one gene on chromosome 2 H2al2a) and two pseudogenes [molaro_evolutionary_2018].  At H2A.L.1 locus mouse has a pseudogene H2al1q-ps. The most studied gene in mice is H2al2a. This gene was first identified in [govin_pericentric_2007] (NCBI protein id NP_080903) and was refered to as H2AL2 or H2A.L.2 histone in the following papers. However, this gene is not located at the H2A.L.2 locus (as defined by Molaro et al.) on X-chromosome, but it is rather located on chromosome 2. A synthenic location of H2A.L.2 locus in mouse is occupied by H2al1m gene [Seal et al. unpublished]. Previous names for mouse H2A.Ls include H2A.Lap2, H2A.Lap3, H2A.Lap4, H2AL1, H2AL2 [soboleva_unique_2011, govin_pericentric_2007]. H2AL1 has been used to reffer to H2al1a gene [govin_pericentric_2007]. Evolution: Molaro et al. found that short H2A variants show greater evolutionary divergence between species than even CENPA, the fastest-evolving histone variant examined to date [molaro_evolutionary_2018]. Evolutionary analysis of purifying selection suggested that H2A.L function may have been lost in Old World monkeys and hominoids but retained in New World monkeys [molaro_evolutionary_2018]. Knock-out: H2A.L.2 knock out mice are infertile because transition proteins can no longer associate with chromatin [barral_histone_2017]. Function: Required for the histone\u2013protamine exchange process [barral_histone_2017]. Sequence: Sequence is divergent from cH2A. Identity with cH2A may be as low as 30%. H2A.L variants have a shortened C-termus, truncated docking domain, altered acidic patch, arginine rich N-terminus. Nucleosomes incorporating H2A.L warp less DNA and from more loosely packed chromatin [molaro_evolutionary_2018].  Localization: Accumulates in spermatid nuclei until the end of spermatogenesis and remains in mature sperm chromatin even after protamine exchange in mouse, eventually disappearing from the paternal pronucleus following fertilization [molaro_evolutionary_2018]. Involved in pericentric chromatin organization in spermatids, is retained after histone-to-protamine replacement [hoghoughi_rna-guided_2020]. H2A.L.2 is maximally expressed at later stages of spermatogenesis (condensing spermatids) when histones are bound by transition proteins and then replaced with protamines Structural effects: Interactions: H2A.L.2 preferentially dimerizes with H2B.1 (TH2B) at least in mice [govin_pericentric_2007]. Intranuclear localization of H2A.L.2 is controlled by its ability to bind RNA via its N-terminus [hoghoughi_rna-guided_2020]. Deposition: Likely mediated by interaction with RNA [hoghoughi_rna-guided_2020]. Disease: no information, since no H2A.L have been so far detect at protein level in humans. Caveats: there is some confusion in literature with respect to numbering H2A.L subvariants, especially in mouse (see caveats in description of mouse H2A.L variants).",
-                "taxonomy": "null",
-                "genes": "null",
-                "evolution": "null",
-                "expression": "null",
-                "knock-out": "null",
-                "function": "null",
-                "sequence": "null",
-                "localization": "null",
-                "deposition": "null",
-                "structure": "null",
-                "interactions": "null",
-                "disease": "null",
-                "caveats": "null"
-            },
-            "taxonomic_span": "Eutheria",
-            "taxonomic_span_id": "9347",
-            "alternate_names": [
-                {
-                    "name": "H2AL"
-                },
-                {
-                    "name": "H2AL1",
-                    "gene": "1"
-                },
-                {
-                    "name": "H2AL2",
-                    "gene": "2"
-                },
-                {
-                    "name": "H2A.Lap2"
-                },
-                {
-                    "name": "H2A.Lap3"
-                }
-            ],
-            "publications": [
-                " govin_pericentric_2007",
-                "17261847",
-                "18703863",
-                "19506029",
-                "22650316",
-                "25731851",
-                "barral_histone_2017",
-                "govin_pericentric_2007",
-                "hoghoughi_rna-guided_2020",
-                "molaro_evolutionary_2018",
-                "Seal et al. unpublished",
-                "soboleva_unique_2011"
-            ]
         },
         "H2A.L.1_(Homo_sapiens)": {
             "level": "variant",
@@ -3285,6 +3231,60 @@
             "alternate_names": [],
             "publications": []
         },
+        "H2A.L_(Eutheria)": {
+            "level": "variant",
+            "description": {
+                "summary": "H2A.L_(Eutheria) - is a class of short H2A variants in eutherian mammals implicated in spermatogenesis and replacement of histones with protamines.",
+                "taxonomy": "null",
+                "genes": "\u0421ommon ancestor of eutherian mammals encoded three H2A.L genes. These genes are usually located on X chromosome at three locations (named H2A.L.1, H2A.L.2 and H2A.L.3 by Molaro et al.) [molaro_evolutionary_2018]. Humans have two putative genes (H2AL1Q, H2AL3, located at H2A.L.1 and H2A.L.3 loci, respectively) and H2AL1MP pseudogene (located at H2A.L.2 loci has inactivating mutation in all primates). The H2AL1Q and H2AL3 genes have unusually long extensions at their 3'-ends and have not so far been detected at protein level. Mouse genome has a leneage specific expansion of H2A.L genes, encoding a total of 18 genes (15 genes on X chromosome H2a1a-H2a1o and H2al3; two genes on Y-chromosome H2al2c and H2al2b; one gene on chromosome 2 H2al2a) and two pseudogenes [molaro_evolutionary_2018].  At H2A.L.1 locus mouse has a pseudogene H2al1q-ps. The most studied gene in mice is H2al2a. This gene was first identified in [govin_pericentric_2007] (NCBI protein id NP_080903) and was refered to as H2AL2 or H2A.L.2 histone in the following papers. However, this gene is not located at the H2A.L.2 locus (as defined by Molaro et al.) on X-chromosome, but it is rather located on chromosome 2. A synthenic location of H2A.L.2 locus in mouse is occupied by H2al1m gene [Seal et al. unpublished]. Previous names for mouse H2A.Ls include H2A.Lap2, H2A.Lap3, H2A.Lap4, H2AL1, H2AL2 [soboleva_unique_2011, govin_pericentric_2007]. H2AL1 has been used to reffer to H2al1a gene [govin_pericentric_2007].",
+                "evolution": "Molaro et al. found that short H2A variants show greater evolutionary divergence between species than even CENPA, the fastest-evolving histone variant examined to date [molaro_evolutionary_2018]. Evolutionary analysis of purifying selection suggested that H2A.L function may have been lost in Old World monkeys and hominoids but retained in New World monkeys [molaro_evolutionary_2018].",
+                "expression": "null",
+                "knock-out": "H2A.L.2 knock out mice are infertile because transition proteins can no longer associate with chromatin [barral_histone_2017].",
+                "function": "Required for the histone\u2013protamine exchange process [barral_histone_2017].",
+                "sequence": "Sequence is divergent from cH2A. Identity with cH2A may be as low as 30%. H2A.L variants have a shortened C-termus, truncated docking domain, altered acidic patch, arginine rich N-terminus. Nucleosomes incorporating H2A.L warp less DNA and from more loosely packed chromatin [molaro_evolutionary_2018].",
+                "localization": "Accumulates in spermatid nuclei until the end of spermatogenesis and remains in mature sperm chromatin even after protamine exchange in mouse, eventually disappearing from the paternal pronucleus following fertilization [molaro_evolutionary_2018]. Involved in pericentric chromatin organization in spermatids, is retained after histone-to-protamine replacement [hoghoughi_rna-guided_2020]. H2A.L.2 is maximally expressed at later stages of spermatogenesis (condensing spermatids) when histones are bound by transition proteins and then replaced with protamines.",
+                "deposition": "Likely mediated by interaction with RNA [hoghoughi_rna-guided_2020].",
+                "structure": "null",
+                "interactions": "H2A.L.2 preferentially dimerizes with H2B.1 (TH2B) at least in mice [govin_pericentric_2007]. Intranuclear localization of H2A.L.2 is controlled by its ability to bind RNA via its N-terminus [hoghoughi_rna-guided_2020].",
+                "disease": "No information, since no H2A.L have been so far detect at protein level in humans.",
+                "caveats": "There is some confusion in literature with respect to numbering H2A.L subvariants, especially in mouse (see caveats in description of mouse H2A.L variants)."
+            },
+            "taxonomic_span": "Eutheria",
+            "taxonomic_span_id": "9347",
+            "alternate_names": [
+                {
+                    "name": "H2AL"
+                },
+                {
+                    "name": "H2AL1",
+                    "gene": "1"
+                },
+                {
+                    "name": "H2AL2",
+                    "gene": "2"
+                },
+                {
+                    "name": "H2A.Lap2"
+                },
+                {
+                    "name": "H2A.Lap3"
+                }
+            ],
+            "publications": [
+                " govin_pericentric_2007",
+                "17261847",
+                "18703863",
+                "19506029",
+                "22650316",
+                "25731851",
+                "barral_histone_2017",
+                "govin_pericentric_2007",
+                "hoghoughi_rna-guided_2020",
+                "molaro_evolutionary_2018",
+                "Seal et al. unpublished",
+                "soboleva_unique_2011"
+            ]
+        },
         "H2A.L_(Homo_sapiens)": {
             "level": "variant",
             "description": {
@@ -3311,7 +3311,7 @@
         "H2A.L_(Mus_musculus)": {
             "level": "variant",
             "description": {
-                "summary": "H2A.L_(Mus_musculus) - is a group of H2A.L histone variants in mouse. The single autosomal H2al2a (H2A.L.2 variant) gene in mouse located on chromosome 2 is expressed at much higher levels than the sex-linked copies; knockout of this single gene is sufficient to cause male sterility [molaro_evolutionary_2018]. See H2A.L description for more information. Caveats: there is some confusion with the variant names in the literature. Govin et al. initially identified and named three variants H2AL1, H2AL2, H2AL3 [govin_pericentric_2007]. These are encoded by H2al1a, H2al2a and H2ap genes, respectively. The H2Al2 endoded variant was later renamed in the literature as H2A.L.2 [jiang_short_2020]. The H2ap gencoded variant is in fact H2A.P in the current nomenclature. Alternatively, Molaro et al. have named three evolutionary conserved loci on X chromosome that harbor H2A.L genes, these loci are H2A.L.1, H2A.L.2 and H2A.L.3 [molaro_evolutionary_2018]. While human gene and variant naming is in line with the names of these loci, in mouse names of these loci do not correspond exactly to the originally proposed gene names except for H2A.L.3 locus which harbors H2al3 gene (not H2ap gene(!)). In mouse at H2A.L.1 locus a pseudogene H2al1q-ps is located, at H2A.L.2 locus mouse has H2al1m gene (H2al1a-H2al1o genes located within 5 megabases from this locus have similar protein sequences(?)), while H2A.L.2 variant encoded by H2al2a is located on chromosome 2 (two similar genes H2al2b and H2al2c are located on Y chromosome). In this classification we follow the numbering used in gene names which also corresponds to the one established earlier in the literature. Hence, H2A.L.2 variant in mouse encompasses H2al2a gene and similar H2al2b and H2al2c genes, while H2A.L.1 variant encompasses 14 H2al1a-H2al1o genes including H2al1m gene located at a syntenic location of the H2A.L.2 locus",
+                "summary": "H2A.L_(Mus_musculus) - is a group of H2A.L histone variants in mouse. The single autosomal H2al2a (H2A.L.2 variant) gene in mouse located on chromosome 2 is expressed at much higher levels than the sex-linked copies; knockout of this single gene is sufficient to cause male sterility [molaro_evolutionary_2018]. See H2A.L description for more information.",
                 "taxonomy": "null",
                 "genes": "null",
                 "evolution": "null",
@@ -3324,7 +3324,7 @@
                 "structure": "null",
                 "interactions": "null",
                 "disease": "null",
-                "caveats": "null"
+                "caveats": "There is some confusion with the variant names in the literature. Govin et al. initially identified and named three variants H2AL1, H2AL2, H2AL3 [govin_pericentric_2007]. These are encoded by H2al1a, H2al2a and H2ap genes, respectively. The H2Al2 endoded variant was later renamed in the literature as H2A.L.2 [jiang_short_2020]. The H2ap gencoded variant is in fact H2A.P in the current nomenclature. Alternatively, Molaro et al. have named three evolutionary conserved loci on X chromosome that harbor H2A.L genes, these loci are H2A.L.1, H2A.L.2 and H2A.L.3 [molaro_evolutionary_2018]. While human gene and variant naming is in line with the names of these loci, in mouse names of these loci do not correspond exactly to the originally proposed gene names except for H2A.L.3 locus which harbors H2al3 gene (not H2ap gene(!)). In mouse at H2A.L.1 locus a pseudogene H2al1q-ps is located, at H2A.L.2 locus mouse has H2al1m gene (H2al1a-H2al1o genes located within 5 megabases from this locus have similar protein sequences(?)), while H2A.L.2 variant encoded by H2al2a is located on chromosome 2 (two similar genes H2al2b and H2al2c are located on Y chromosome). In this classification we follow the numbering used in gene names which also corresponds to the one established earlier in the literature. Hence, H2A.L.2 variant in mouse encompasses H2al2a gene and similar H2al2b and H2al2c genes, while H2A.L.1 variant encompasses 14 H2al1a-H2al1o genes including H2al1m gene located at a syntenic location of the H2A.L.2 locus."
             },
             "taxonomic_span": "Mus musculus",
             "taxonomic_span_id": "10090",
@@ -3360,23 +3360,23 @@
                 "kawashima_diversification_2015"
             ]
         },
-        "H2A.P": {
+        "H2A.P_(Eutheria)": {
             "level": "variant",
             "description": {
-                "summary": "H2A.P - is a class of testis-specific short H2A variants in eutherian mammals expressed at post-meiotic stages of spermatogensis. It is not well studied. Its expression in mouse has been shown only at mRNA level [el_kennani_ms_histonedb_2017], although evolutionary analysis strongly argues that it is a protein coding gene [molaro_evolutionary_2018]. In human H2A.P gene H2ap was previously named HYPM (Huntingtin-interacting protein M) since in yeast two-hybrid experiments it was shown to interact with huntingtin, which contains an expanded polyglutamine tract in individuals with Huntington's disease [faber_huntingtin_1998]. Genes: \u0421ommon ancestor of eutherian mammals encoded a single H2A.P gene. These genes are usually located on X chromosome as do other short H2As [molaro_evolutionary_2018]. Humans and mouse have one gene name H2AP and H2ap, respectively. Evolution: Molaro et al. found that short H2A variants show greater evolutionary divergence between species than even CENPA, the fastest-evolving histone variant examined to date. Their results indicate that H2A.P and possible H2A.B have been subject to diversifying selection in simian primates, which could partly ecplame the greater divergence of short H2A histone variants compared to other H2A histones in mammals [molaro_evolutionary_2018]. Knock-out: no studies. Function: no specific studies have been reported, but by its similarity to H2A.L it is likely that it participates in the histone\u2013protamine exchange process. Sequence: Has one of the most divergent sequences from cH2A. Identity with cH2A may be as low as 24%. H2A.P variants have a shortened C-termus, truncated docking domain, altered acidic patch, arginine rich N-terminus. H2A.P have lost two key conserved arginine (R) residues in Loop 1 and 2 that contact the DNA minor-groove and acquired many acidic residues at sites including contacts with DNA and H2B. The last 14 residues in H2A.P are more evolutionary contrained than the rest of the protein, suggesting their potential interaction with non-histone proteins. Localization: H2A.P presence has not been confirmed at protein level. H2A.P mRNA were found to be strongly enriched in round and elongating spermatids [govin_pericentric_2007], expressed in the post-meiotic stages of spermatogenesis [el_kennani_ms_histonedb_2017]. Structural effects: Nucleosomes incorporating H2A.P are predicted to be highly destabilized [molaro_evolutionary_2018]. Interactions: In yeast two-hybrid screens was shown to interact with huntingtin [faber_huntingtin_1998]. Disease: no information. Caveats: H2A.P in mice was previously name H2AL3 [govin_pericentric_2007] and H2A.Lap4 [soboleva_unique_2011].",
+                "summary": "H2A.P_(Eutheria) - is a class of testis-specific short H2A variants in eutherian mammals expressed at post-meiotic stages of spermatogensis. It is not well studied. Its expression in mouse has been shown only at mRNA level [el_kennani_ms_histonedb_2017], although evolutionary analysis strongly argues that it is a protein coding gene [molaro_evolutionary_2018]. In human H2A.P gene H2ap was previously named HYPM (Huntingtin-interacting protein M) since in yeast two-hybrid experiments it was shown to interact with huntingtin, which contains an expanded polyglutamine tract in individuals with Huntington's disease [faber_huntingtin_1998].",
                 "taxonomy": "null",
-                "genes": "null",
-                "evolution": "null",
+                "genes": "\u0421ommon ancestor of eutherian mammals encoded a single H2A.P gene. These genes are usually located on X chromosome as do other short H2As [molaro_evolutionary_2018]. Humans and mouse have one gene name H2AP and H2ap, respectively.",
+                "evolution": "Molaro et al. found that short H2A variants show greater evolutionary divergence between species than even CENPA, the fastest-evolving histone variant examined to date. Their results indicate that H2A.P and possible H2A.B have been subject to diversifying selection in simian primates, which could partly ecplame the greater divergence of short H2A histone variants compared to other H2A histones in mammals [molaro_evolutionary_2018].",
                 "expression": "null",
-                "knock-out": "null",
-                "function": "null",
-                "sequence": "null",
-                "localization": "null",
+                "knock-out": "No studies.",
+                "function": "No specific studies have been reported, but by its similarity to H2A.L it is likely that it participates in the histone\u2013protamine exchange process.",
+                "sequence": "Has one of the most divergent sequences from cH2A. Identity with cH2A may be as low as 24%. H2A.P variants have a shortened C-termus, truncated docking domain, altered acidic patch, arginine rich N-terminus. H2A.P have lost two key conserved arginine (R) residues in Loop 1 and 2 that contact the DNA minor-groove and acquired many acidic residues at sites including contacts with DNA and H2B. The last 14 residues in H2A.P are more evolutionary contrained than the rest of the protein, suggesting their potential interaction with non-histone proteins.",
+                "localization": "H2A.P presence has not been confirmed at protein level. H2A.P mRNA were found to be strongly enriched in round and elongating spermatids [govin_pericentric_2007], expressed in the post-meiotic stages of spermatogenesis [el_kennani_ms_histonedb_2017].",
                 "deposition": "null",
-                "structure": "null",
-                "interactions": "null",
-                "disease": "null",
-                "caveats": "null"
+                "structure": "Nucleosomes incorporating H2A.P are predicted to be highly destabilized [molaro_evolutionary_2018].",
+                "interactions": "In yeast two-hybrid screens was shown to interact with huntingtin [faber_huntingtin_1998].",
+                "disease": "No information.",
+                "caveats": "H2A.P in mice was previously name H2AL3 [govin_pericentric_2007] and H2A.Lap4 [soboleva_unique_2011]."
             },
             "taxonomic_span": "Eutheria",
             "taxonomic_span_id": "9347",
@@ -3442,7 +3442,7 @@
                 "soboleva_unique_2011"
             ]
         },
-        "H2A.Q": {
+        "H2A.Q_(Eutheria)": {
             "level": "variant",
             "description": {
                 "summary": "H2A.Q - is a short H2A variant present in many eutherian mammalian genomes at a distinct syntenic location. It is not well studied and has only been identified via bioinformatics approaches [molaro_evolutionary_2018]. Human and mouse does not have functional H2A.Q genes, there is a pseudogene in human, named H2AQ1P, Molaro et al. also lists coordinates for mouse pseudogene (mm10, chrX, 59012618-59012929). No expression of H2A.Q in primates has been also  found and evolutionary analysis cannot confirm the presence of purifying selection for the respective genes. Like other intact short H2A genes, dog and pig H2A.Q genes are transcribed in testes but are undetectable in other tissues examined, including ovary [molaro_evolutionary_2018]. While tails of H2A.B and H2A.L are similar, they differ significantly from H2A.P and H2A.Q , suggesting that short histone H2A variants do not share the same function given the importance of the N-terminal tails in regulating nucleosome function [jiang_short_2020]. H2A.Q histone variants have variable N-terminus, truncated histone fold domain of variable length and altered acidic patch [molaro_evolutionary_2018].",
@@ -5501,10 +5501,10 @@
                 "8772381"
             ]
         },
-        "short_H2A": {
+        "short_H2A_(Eutheria)": {
             "level": "variant_group",
             "description": {
-                "summary": "short_H2A is a class encompassing several histone H2A variants in placental (eutherian) mammals with shortened C-terminus expressed mainly during mammalian male germ cell development before the nearly complete replacement of histones by protamines in sperm nuclei. The repertoires of short histone H2A variants vary extensively among eutherian mammals due to lineage-specific gains and losses. Short H2A variants include H2A.B, H2A.L, H2A.P, H2A.Q, their genes are usually located on X chromosome and are intronless. These four clades of eutherian mammal short H2A variants emerged from a single, well-supported monophyletic clade, confirming their common ancestry [molaro_evolutionary_2018]. Due to shortened docking domain and changes within the acidic patch nucleosomes incorporating short H2As wrap less DNA (120-130 bp) and form loosely packed chromatin. There are few conserved residues in the histone fold domain of sH2As that distinguish them from each other, instead much of their specialization may stem from changes in the N- and C-terminal tails of these variatns [molaro_evolutionary_2018].  Abberant short H2A upregulation was reported in a broad range of cancers [chew_short_2021]. Caveats: H2A.B is also expressed in the brain [jiang_short_2020].",
+                "summary": "short_H2A_(Eutheria) is a class encompassing several histone H2A variants in placental (eutherian) mammals with shortened C-terminus expressed mainly during mammalian male germ cell development before the nearly complete replacement of histones by protamines in sperm nuclei. The repertoires of short histone H2A variants vary extensively among eutherian mammals due to lineage-specific gains and losses. Short H2A variants include H2A.B, H2A.L, H2A.P, H2A.Q, their genes are usually located on X chromosome and are intronless. These four clades of eutherian mammal short H2A variants emerged from a single, well-supported monophyletic clade, confirming their common ancestry [molaro_evolutionary_2018]. Due to shortened docking domain and changes within the acidic patch nucleosomes incorporating short H2As wrap less DNA (120-130 bp) and form loosely packed chromatin. There are few conserved residues in the histone fold domain of sH2As that distinguish them from each other, instead much of their specialization may stem from changes in the N- and C-terminal tails of these variatns [molaro_evolutionary_2018].  Abberant short H2A upregulation was reported in a broad range of cancers [chew_short_2021].",
                 "taxonomy": "null",
                 "genes": "null",
                 "evolution": "null",
@@ -5517,7 +5517,7 @@
                 "structure": "null",
                 "interactions": "null",
                 "disease": "null",
-                "caveats": "null"
+                "caveats": "H2A.B is also expressed in the brain [jiang_short_2020]."
             },
             "taxonomic_span": "Eutheria",
             "taxonomic_span_id": "9347",
