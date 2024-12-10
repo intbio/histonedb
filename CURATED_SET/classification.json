@@ -300,7 +300,8 @@
                 "structure": "null",
                 "interactions": "null",
                 "disease": "null",
-                "caveats": "null"
+                "caveats": "null",
+                "relations": "null"
             },
             "taxonomic_span": "null",
             "taxonomic_span_id": "null",
@@ -310,7 +311,7 @@
         "cenH3": {
             "level": "variant_group",
             "description": {
-                "summary": "null",
+                "summary": "cenH3 is a centromere-specific histone variant, which replaces canonical H3 in centromeric nucleosomes. It is required for kinetochore formation, mitotic progression and chromosome segregation. cenH3 has an extended L1-loop and its N-terminal tail is very different from other H3 variants. cenH3s have an extended L1-loop and usually replace Phe84 in canonical H3 with Trp, and Thr 107 with Ala, Cys, or Ser. cenH3s ususally lack a conserved glutamine in the alpha1 helix of the histone fold. cenH3s typically have only about 50-60% amino acid identity to canonical H3 in the histone fold domain and no conservation of the N-terminus.",
                 "taxonomy": "null",
                 "genes": "null",
                 "evolution": "null",
@@ -323,7 +324,8 @@
                 "structure": "null",
                 "interactions": "null",
                 "disease": "null",
-                "caveats": "null"
+                "caveats": "null",
+                "relations": "null"
             },
             "taxonomic_span": "null",
             "taxonomic_span_id": "null",
@@ -346,7 +348,8 @@
                 "structure": "null",
                 "interactions": "null",
                 "disease": "null",
-                "caveats": "null"
+                "caveats": "null",
+                "relations": "null"
             },
             "taxonomic_span": "Homo sapiens",
             "taxonomic_span_id": "9606",
@@ -369,7 +372,8 @@
                 "structure": "null",
                 "interactions": "null",
                 "disease": "null",
-                "caveats": "null"
+                "caveats": "null",
+                "relations": "null"
             },
             "taxonomic_span": "Homo sapiens",
             "taxonomic_span_id": "9606",
@@ -392,7 +396,8 @@
                 "structure": "null",
                 "interactions": "null",
                 "disease": "null",
-                "caveats": "null"
+                "caveats": "null",
+                "relations": "null"
             },
             "taxonomic_span": "Homo sapiens",
             "taxonomic_span_id": "9606",
@@ -415,7 +420,8 @@
                 "structure": "null",
                 "interactions": "null",
                 "disease": "null",
-                "caveats": "null"
+                "caveats": "null",
+                "relations": "null"
             },
             "taxonomic_span": "Homo sapiens",
             "taxonomic_span_id": "9606",
@@ -425,7 +431,7 @@
         "cenH3_(Plants)": {
             "level": "variant",
             "description": {
-                "summary": "cenH3 is a centromere-specific histone variant, which replaces canonical H3 in centromeric nucleosomes. It is required for kinetochore formation, mitotic progression and chromosome segregation. cenH3 has an extended L1-loop and its N-terminal tail is very different from other H3 variants. cenH3s have an extended L1-loop and usually replace Phe84 in canonical H3 with Trp, and Thr 107 with Ala, Cys, or Ser. cenH3s ususally lack a conserved glutamine in the alpha1 helix of the histone fold. cenH3s typically have only about 50-60% amino acid identity to canonical H3 in the histone fold domain and no conservation of the N-terminus.",
+                "summary": "null",
                 "taxonomy": "null",
                 "genes": "null",
                 "evolution": "null",
@@ -438,7 +444,8 @@
                 "structure": "null",
                 "interactions": "null",
                 "disease": "null",
-                "caveats": "null"
+                "caveats": "null",
+                "relations": "null"
             },
             "taxonomic_span": "Eukaryotes",
             "taxonomic_span_id": "2759",
@@ -490,7 +497,8 @@
                 "structure": "null",
                 "interactions": "null",
                 "disease": "null",
-                "caveats": "null"
+                "caveats": "null",
+                "relations": "null"
             },
             "taxonomic_span": "null",
             "taxonomic_span_id": "null",
@@ -513,7 +521,8 @@
                 "structure": "null",
                 "interactions": "null",
                 "disease": "null",
-                "caveats": "In certain species H2A.X may perform cH2A role, hence in our classification such species will lack cH2A histones. In single-celled eukaryotes, such as yeast, H2A.X can be the primary form of H2A [talbert_histone_2021]. The same might apply to certain protozoan parasites, such as G. lamblia [dalmasso_canonical_2011]."
+                "caveats": "In certain species H2A.X may perform cH2A role, hence in our classification such species will lack cH2A histones. In single-celled eukaryotes, such as yeast, H2A.X can be the primary form of H2A [talbert_histone_2021]. The same might apply to certain protozoan parasites, such as G. lamblia [dalmasso_canonical_2011].",
+                "relations": "null"
             },
             "taxonomic_span": "Eukaryota",
             "taxonomic_span_id": "2759",
@@ -546,7 +555,8 @@
                 "structure": "null",
                 "interactions": "null",
                 "disease": "null",
-                "caveats": "null"
+                "caveats": "null",
+                "relations": "null"
             },
             "taxonomic_span": "Homo sapiens",
             "taxonomic_span_id": "9606",
@@ -569,7 +579,8 @@
                 "structure": "null",
                 "interactions": "null",
                 "disease": "null",
-                "caveats": "null"
+                "caveats": "null",
+                "relations": "null"
             },
             "taxonomic_span": "Homo sapiens",
             "taxonomic_span_id": "9606",
@@ -592,7 +603,8 @@
                 "structure": "null",
                 "interactions": "null",
                 "disease": "null",
-                "caveats": "null"
+                "caveats": "null",
+                "relations": "null"
             },
             "taxonomic_span": "Homo sapiens",
             "taxonomic_span_id": "9606",
@@ -624,7 +636,8 @@
                 "structure": "null",
                 "interactions": "null",
                 "disease": "null",
-                "caveats": "null"
+                "caveats": "null",
+                "relations": "null"
             },
             "taxonomic_span": "Mus musculus",
             "taxonomic_span_id": "10090",
@@ -658,7 +671,8 @@
                 "structure": "null",
                 "interactions": "null",
                 "disease": "null",
-                "caveats": "null"
+                "caveats": "null",
+                "relations": "null"
             },
             "taxonomic_span": "Homo sapiens",
             "taxonomic_span_id": "9606",
@@ -681,7 +695,8 @@
                 "structure": "null",
                 "interactions": "null",
                 "disease": "null",
-                "caveats": "null"
+                "caveats": "null",
+                "relations": "null"
             },
             "taxonomic_span": "Homo sapiens",
             "taxonomic_span_id": "9606",
@@ -704,7 +719,8 @@
                 "structure": "null",
                 "interactions": "null",
                 "disease": "null",
-                "caveats": "null"
+                "caveats": "null",
+                "relations": "null"
             },
             "taxonomic_span": "Homo sapiens",
             "taxonomic_span_id": "9606",
@@ -727,7 +743,8 @@
                 "structure": "null",
                 "interactions": "null",
                 "disease": "null",
-                "caveats": "null"
+                "caveats": "null",
+                "relations": "null"
             },
             "taxonomic_span": "Homo sapiens",
             "taxonomic_span_id": "9606",
@@ -750,7 +767,8 @@
                 "structure": "null",
                 "interactions": "null",
                 "disease": "null",
-                "caveats": "null"
+                "caveats": "null",
+                "relations": "null"
             },
             "taxonomic_span": "Homo sapiens",
             "taxonomic_span_id": "9606",
@@ -773,7 +791,8 @@
                 "structure": "null",
                 "interactions": "null",
                 "disease": "null",
-                "caveats": "null"
+                "caveats": "null",
+                "relations": "null"
             },
             "taxonomic_span": "Homo sapiens",
             "taxonomic_span_id": "9606",
@@ -796,7 +815,8 @@
                 "structure": "null",
                 "interactions": "null",
                 "disease": "null",
-                "caveats": "null"
+                "caveats": "null",
+                "relations": "null"
             },
             "taxonomic_span": "Eukaryotes",
             "taxonomic_span_id": "2759",
@@ -821,7 +841,8 @@
                 "structure": "null",
                 "interactions": "null",
                 "disease": "null",
-                "caveats": "null"
+                "caveats": "null",
+                "relations": "null"
             },
             "taxonomic_span": "Eukaryotes",
             "taxonomic_span_id": "2759",
@@ -846,7 +867,8 @@
                 "structure": "null",
                 "interactions": "null",
                 "disease": "null",
-                "caveats": "1) Clustered histones may still exhibit some level of sequence variation between the multiple gene copies in certain species. Evidence exists that these differences may have functional implications (e.g. affect nucleosome stability). Some clustered genes have tissue-specific expression and play specific functional roles (e.g. cH2A.1 in mice). 2) A subset of clustered histones, which are normally expressed as replication-dependent histones, are expressed as polyadenylated mRNAs in adult non-dividing tissues to replenish histone pool in differentiated tissues [lyons_subset_2016]. 3) Certain clustered histones may act as functional histone variants with replication-independent polyA-tail-regulated expression being the major/only form (e.g. cH2B.E_(Mus_musculus), or H2A.J, which is closely related to cH2As). 4) In C. elegans an alternative mechanism of mRNA 3'-end processing evolved resulting in loss of HLB and histone clusters [marzluff_birth_2017, pontarotti_long-term_2009]. 5) H2A.X histone variant is usually closely related to replication-dependent H2A histones in the same group of animals. In humans, H2A.X produces both polyadenylated mRNAs and mRNAs ending in a stem-loop. It is probale that it is ancestral to clustered H2A histones [talbert_histone_2021]. "
+                "caveats": "1) Clustered histones may still exhibit some level of sequence variation between the multiple gene copies in certain species. Evidence exists that these differences may have functional implications (e.g. affect nucleosome stability). Some clustered genes have tissue-specific expression and play specific functional roles (e.g. cH2A.1 in mice). 2) A subset of clustered histones, which are normally expressed as replication-dependent histones, are expressed as polyadenylated mRNAs in adult non-dividing tissues to replenish histone pool in differentiated tissues [lyons_subset_2016]. 3) Certain clustered histones may act as functional histone variants with replication-independent polyA-tail-regulated expression being the major/only form (e.g. cH2B.E_(Mus_musculus), or H2A.J, which is closely related to cH2As). 4) In C. elegans an alternative mechanism of mRNA 3'-end processing evolved resulting in loss of HLB and histone clusters [marzluff_birth_2017, pontarotti_long-term_2009]. 5) H2A.X histone variant is usually closely related to replication-dependent H2A histones in the same group of animals. In humans, H2A.X produces both polyadenylated mRNAs and mRNAs ending in a stem-loop. It is probale that it is ancestral to clustered H2A histones [talbert_histone_2021]. ",
+                "relations": "null"
             },
             "taxonomic_span": "Metazoa",
             "taxonomic_span_id": "33208",
@@ -872,7 +894,8 @@
                 "structure": "null",
                 "interactions": "null",
                 "disease": "null",
-                "caveats": "null"
+                "caveats": "null",
+                "relations": "null"
             },
             "taxonomic_span": "Chlorophyta",
             "taxonomic_span_id": "3041",
@@ -899,7 +922,8 @@
                 "structure": "null",
                 "interactions": "null",
                 "disease": "null",
-                "caveats": "null"
+                "caveats": "null",
+                "relations": "null"
             },
             "taxonomic_span": "Embryophyta",
             "taxonomic_span_id": "3193",
@@ -925,7 +949,8 @@
                 "structure": "null",
                 "interactions": "null",
                 "disease": "null",
-                "caveats": "null"
+                "caveats": "null",
+                "relations": "null"
             },
             "taxonomic_span": "Fungi",
             "taxonomic_span_id": "4751",
@@ -951,7 +976,8 @@
                 "structure": "null",
                 "interactions": "null",
                 "disease": "null",
-                "caveats": "1) A subset of clustered histones, which are normally expressed as replication-dependent histones, are expressed as polyadenylated mRNAs in adult non-dividing tissues to replenish histone pool in differentiated tissues [lyons_subset_2016]. 2) H2A.X histone variant is usually closely related to replication-dependent H2A histones in the same group of animals. In humans, H2A.X produces both polyadenylated mRNAs and mRNAs ending on a stem-loop. It is probale that it is ancestral to clustered H2A histones [talbert_histone_2021]. 3) The H2AJ gene on chromosome 12 encoding H2A.J histone variant is sequence wise very similar to other canonical H2As in human. However, it appears to produce only polyadenylated mRNA. See H2A.J variant description for details."
+                "caveats": "1) A subset of clustered histones, which are normally expressed as replication-dependent histones, are expressed as polyadenylated mRNAs in adult non-dividing tissues to replenish histone pool in differentiated tissues [lyons_subset_2016]. 2) H2A.X histone variant is usually closely related to replication-dependent H2A histones in the same group of animals. In humans, H2A.X produces both polyadenylated mRNAs and mRNAs ending on a stem-loop. It is probale that it is ancestral to clustered H2A histones [talbert_histone_2021]. 3) The H2AJ gene on chromosome 12 encoding H2A.J histone variant is sequence wise very similar to other canonical H2As in human. However, it appears to produce only polyadenylated mRNA. See H2A.J variant description for details.",
+                "relations": "null"
             },
             "taxonomic_span": "Homo sapiens",
             "taxonomic_span_id": "9606",
@@ -977,7 +1003,8 @@
                 "structure": "null",
                 "interactions": "null",
                 "disease": "null",
-                "caveats": "null"
+                "caveats": "null",
+                "relations": "null"
             },
             "taxonomic_span": "Mammalia",
             "taxonomic_span_id": "40674",
@@ -1000,7 +1027,8 @@
                 "structure": "null",
                 "interactions": "null",
                 "disease": "null",
-                "caveats": "null"
+                "caveats": "null",
+                "relations": "null"
             },
             "taxonomic_span": "Mus musculus",
             "taxonomic_span_id": "10090",
@@ -1025,7 +1053,8 @@
                 "structure": "null",
                 "interactions": "null",
                 "disease": "null",
-                "caveats": "null"
+                "caveats": "null",
+                "relations": "null"
             },
             "taxonomic_span": "Viridiplantae",
             "taxonomic_span_id": "33090",
@@ -1052,7 +1081,8 @@
                 "structure": "null",
                 "interactions": "null",
                 "disease": "null",
-                "caveats": "null"
+                "caveats": "null",
+                "relations": "null"
             },
             "taxonomic_span": "null",
             "taxonomic_span_id": "null",
@@ -1075,7 +1105,8 @@
                 "structure": "null",
                 "interactions": "null",
                 "disease": "null",
-                "caveats": "null"
+                "caveats": "null",
+                "relations": "null"
             },
             "taxonomic_span": "Vertebrata",
             "taxonomic_span_id": "7742",
@@ -1098,7 +1129,8 @@
                 "structure": "null",
                 "interactions": "null",
                 "disease": "null",
-                "caveats": "null"
+                "caveats": "null",
+                "relations": "null"
             },
             "taxonomic_span": "Eukaryota",
             "taxonomic_span_id": "2759",
@@ -1127,7 +1159,8 @@
                 "structure": "null",
                 "interactions": "null",
                 "disease": "null",
-                "caveats": "null"
+                "caveats": "null",
+                "relations": "null"
             },
             "taxonomic_span": "Homo sapiens",
             "taxonomic_span_id": "9606",
@@ -1150,7 +1183,8 @@
                 "structure": "null",
                 "interactions": "null",
                 "disease": "null",
-                "caveats": "null"
+                "caveats": "null",
+                "relations": "null"
             },
             "taxonomic_span": "Homo sapiens",
             "taxonomic_span_id": "9606",
@@ -1173,7 +1207,8 @@
                 "structure": "null",
                 "interactions": "null",
                 "disease": "null",
-                "caveats": "null"
+                "caveats": "null",
+                "relations": "null"
             },
             "taxonomic_span": "Homo sapiens",
             "taxonomic_span_id": "9606",
@@ -1196,7 +1231,8 @@
                 "structure": "null",
                 "interactions": "null",
                 "disease": "null",
-                "caveats": "null"
+                "caveats": "null",
+                "relations": "null"
             },
             "taxonomic_span": "Homo sapiens",
             "taxonomic_span_id": "9606",
@@ -1219,7 +1255,8 @@
                 "structure": "null",
                 "interactions": "null",
                 "disease": "null",
-                "caveats": "null"
+                "caveats": "null",
+                "relations": "null"
             },
             "taxonomic_span": "Homo sapiens",
             "taxonomic_span_id": "9606",
@@ -1242,7 +1279,8 @@
                 "structure": "null",
                 "interactions": "null",
                 "disease": "null",
-                "caveats": "null"
+                "caveats": "null",
+                "relations": "null"
             },
             "taxonomic_span": "Homo sapiens",
             "taxonomic_span_id": "9606",
@@ -1265,7 +1303,8 @@
                 "structure": "null",
                 "interactions": "null",
                 "disease": "null",
-                "caveats": "null"
+                "caveats": "null",
+                "relations": "null"
             },
             "taxonomic_span": "Homo sapiens",
             "taxonomic_span_id": "9606",
@@ -1302,7 +1341,8 @@
                 "structure": "null",
                 "interactions": "Govin et al. investigated the stability of nucleosomes incorporating cH2B.1/H2A.L.2 histone dimer (H2A.L.2 encoded by H2al2a gene in mouse was used) and concluded that they were less stable than nucleosomes containing somatic histones [govin_pericentric_2007].",
                 "disease": "null",
-                "caveats": "null"
+                "caveats": "null",
+                "relations": "null"
             },
             "taxonomic_span": "Mus musculus",
             "taxonomic_span_id": "10090",
@@ -1337,7 +1377,8 @@
                 "structure": "null",
                 "interactions": "null",
                 "disease": "null",
-                "caveats": "null"
+                "caveats": "null",
+                "relations": "null"
             },
             "taxonomic_span": "Homo sapiens",
             "taxonomic_span_id": "9606",
@@ -1360,7 +1401,8 @@
                 "structure": "null",
                 "interactions": "null",
                 "disease": "null",
-                "caveats": "null"
+                "caveats": "null",
+                "relations": "null"
             },
             "taxonomic_span": "Homo sapiens",
             "taxonomic_span_id": "9606",
@@ -1383,7 +1425,8 @@
                 "structure": "null",
                 "interactions": "null",
                 "disease": "null",
-                "caveats": "null"
+                "caveats": "null",
+                "relations": "null"
             },
             "taxonomic_span": "Homo sapiens",
             "taxonomic_span_id": "9606",
@@ -1406,7 +1449,8 @@
                 "structure": "null",
                 "interactions": "null",
                 "disease": "null",
-                "caveats": "null"
+                "caveats": "null",
+                "relations": "null"
             },
             "taxonomic_span": "Homo sapiens",
             "taxonomic_span_id": "9606",
@@ -1429,7 +1473,8 @@
                 "structure": "null",
                 "interactions": "null",
                 "disease": "null",
-                "caveats": "null"
+                "caveats": "null",
+                "relations": "null"
             },
             "taxonomic_span": "Homo sapiens",
             "taxonomic_span_id": "9606",
@@ -1452,7 +1497,8 @@
                 "structure": "null",
                 "interactions": "null",
                 "disease": "null",
-                "caveats": "null"
+                "caveats": "null",
+                "relations": "null"
             },
             "taxonomic_span": "Homo sapiens",
             "taxonomic_span_id": "9606",
@@ -1475,7 +1521,8 @@
                 "structure": "null",
                 "interactions": "null",
                 "disease": "null",
-                "caveats": "null"
+                "caveats": "null",
+                "relations": "null"
             },
             "taxonomic_span": "Homo sapiens",
             "taxonomic_span_id": "9606",
@@ -1498,7 +1545,8 @@
                 "structure": "null",
                 "interactions": "null",
                 "disease": "null",
-                "caveats": "null"
+                "caveats": "null",
+                "relations": "null"
             },
             "taxonomic_span": "Homo sapiens",
             "taxonomic_span_id": "9606",
@@ -1521,7 +1569,8 @@
                 "structure": "null",
                 "interactions": "null",
                 "disease": "null",
-                "caveats": "null"
+                "caveats": "null",
+                "relations": "null"
             },
             "taxonomic_span": "Mus musculus",
             "taxonomic_span_id": "10090",
@@ -1550,7 +1599,8 @@
                 "structure": "null",
                 "interactions": "null",
                 "disease": "null",
-                "caveats": "1) Clustered histones may still exhibit some level of sequence variation between the multiple gene copies in certain species. Evidence exists that these differences may have functional implications (e.g. affect nucleosome stability). Some clustered genes have tissue-specific expression and play specific functional roles (e.g. cH2B.1 and cH2B.E in mice). 2) A subset of clustered histones, which are normally expressed as replication-dependent histones, are expressed as polyadenylated mRNAs in adult non-dividing tissues to replenish histone pool in differentiated tissues [lyons_subset_2016]. 3) Certain clustered histones may act as functional histone variants with replication-independent polyA-tail-regulated expression being the major/only form (e.g. cH2B.E_(Mus_musculus), or H2A.J, which is closely related to cH2As). 4) In C. elegans an alternative mechanism of mRNA 3'-end processing evolved resulting in loss of HLB and histone clusters [marzluff_birth_2017, pontarotti_long-term_2009]. "
+                "caveats": "1) Clustered histones may still exhibit some level of sequence variation between the multiple gene copies in certain species. Evidence exists that these differences may have functional implications (e.g. affect nucleosome stability). Some clustered genes have tissue-specific expression and play specific functional roles (e.g. cH2B.1 and cH2B.E in mice). 2) A subset of clustered histones, which are normally expressed as replication-dependent histones, are expressed as polyadenylated mRNAs in adult non-dividing tissues to replenish histone pool in differentiated tissues [lyons_subset_2016]. 3) Certain clustered histones may act as functional histone variants with replication-independent polyA-tail-regulated expression being the major/only form (e.g. cH2B.E_(Mus_musculus), or H2A.J, which is closely related to cH2As). 4) In C. elegans an alternative mechanism of mRNA 3'-end processing evolved resulting in loss of HLB and histone clusters [marzluff_birth_2017, pontarotti_long-term_2009]. ",
+                "relations": "null"
             },
             "taxonomic_span": "Metazoa",
             "taxonomic_span_id": "33208",
@@ -1576,7 +1626,8 @@
                 "structure": "null",
                 "interactions": "null",
                 "disease": "null",
-                "caveats": "null"
+                "caveats": "null",
+                "relations": "null"
             },
             "taxonomic_span": "Chlorophyta",
             "taxonomic_span_id": "3041",
@@ -1603,7 +1654,8 @@
                 "structure": "null",
                 "interactions": "null",
                 "disease": "null",
-                "caveats": "null"
+                "caveats": "null",
+                "relations": "null"
             },
             "taxonomic_span": "Embryophyta",
             "taxonomic_span_id": "3193",
@@ -1630,7 +1682,8 @@
                 "structure": "null",
                 "interactions": "null",
                 "disease": "null",
-                "caveats": "null"
+                "caveats": "null",
+                "relations": "null"
             },
             "taxonomic_span": "Fungi",
             "taxonomic_span_id": "4751",
@@ -1655,7 +1708,8 @@
                 "structure": "null",
                 "interactions": "null",
                 "disease": "null",
-                "caveats": "1) A subset of clustered histones, which are normally expressed as replication-dependent histones, are expressed as polyadenylated mRNAs in adult non-dividing tissues to replenish histone pool in differentiated tissues [lyons_subset_2016]. "
+                "caveats": "1) A subset of clustered histones, which are normally expressed as replication-dependent histones, are expressed as polyadenylated mRNAs in adult non-dividing tissues to replenish histone pool in differentiated tissues [lyons_subset_2016]. ",
+                "relations": "null"
             },
             "taxonomic_span": "null",
             "taxonomic_span_id": "null",
@@ -1680,7 +1734,8 @@
                 "structure": "null",
                 "interactions": "null",
                 "disease": "null",
-                "caveats": "null"
+                "caveats": "null",
+                "relations": "null"
             },
             "taxonomic_span": "Mammalia",
             "taxonomic_span_id": "40674",
@@ -1703,7 +1758,8 @@
                 "structure": "null",
                 "interactions": "null",
                 "disease": "null",
-                "caveats": "null"
+                "caveats": "null",
+                "relations": "null"
             },
             "taxonomic_span": "Mus musculus",
             "taxonomic_span_id": "10090",
@@ -1728,7 +1784,8 @@
                 "structure": "null",
                 "interactions": "null",
                 "disease": "null",
-                "caveats": "null"
+                "caveats": "null",
+                "relations": "null"
             },
             "taxonomic_span": "Viridiplantae",
             "taxonomic_span_id": "33090",
@@ -1757,7 +1814,8 @@
                 "structure": "null",
                 "interactions": "null",
                 "disease": "null",
-                "caveats": "null"
+                "caveats": "null",
+                "relations": "null"
             },
             "taxonomic_span": "null",
             "taxonomic_span_id": "null",
@@ -1780,7 +1838,8 @@
                 "structure": "null",
                 "interactions": "null",
                 "disease": "null",
-                "caveats": "null"
+                "caveats": "null",
+                "relations": "null"
             },
             "taxonomic_span": "Vertebrata",
             "taxonomic_span_id": "7742",
@@ -1803,7 +1862,8 @@
                 "structure": "null",
                 "interactions": "null",
                 "disease": "null",
-                "caveats": ""
+                "caveats": "",
+                "relations": "null"
             },
             "taxonomic_span": "Eukaryota",
             "taxonomic_span_id": "2759",
@@ -1845,7 +1905,8 @@
                 "structure": "null",
                 "interactions": "null",
                 "disease": "null",
-                "caveats": "null"
+                "caveats": "null",
+                "relations": "null"
             },
             "taxonomic_span": "Homo sapiens",
             "taxonomic_span_id": "9606",
@@ -1870,7 +1931,8 @@
                 "structure": "null",
                 "interactions": "null",
                 "disease": "null",
-                "caveats": "null"
+                "caveats": "null",
+                "relations": "null"
             },
             "taxonomic_span": "Mammalia",
             "taxonomic_span_id": "40674",
@@ -1896,7 +1958,8 @@
                 "structure": "null",
                 "interactions": "null",
                 "disease": "null",
-                "caveats": "null"
+                "caveats": "null",
+                "relations": "null"
             },
             "taxonomic_span": "Homo sapiens",
             "taxonomic_span_id": "9606",
@@ -1921,7 +1984,8 @@
                 "structure": "null",
                 "interactions": "null",
                 "disease": "null",
-                "caveats": "null"
+                "caveats": "null",
+                "relations": "null"
             },
             "taxonomic_span": "Mammalia",
             "taxonomic_span_id": "40674",
@@ -1946,7 +2010,8 @@
                 "structure": "null",
                 "interactions": "null",
                 "disease": "null",
-                "caveats": "1) Clustered histones may still exhibit some level of sequence variation between the multiple gene copies in certain species. Although for cH3 this variation is very limited (only two isoforms in humans: H3.1 and H3.2. 2) In C. elegans an alternative mechanism of mRNA 3'-end processing evolved resulting in loss of HLB and histone clusters [marzluff_birth_2017, pontarotti_long-term_2009]."
+                "caveats": "1) Clustered histones may still exhibit some level of sequence variation between the multiple gene copies in certain species. Although for cH3 this variation is very limited (only two isoforms in humans: H3.1 and H3.2. 2) In C. elegans an alternative mechanism of mRNA 3'-end processing evolved resulting in loss of HLB and histone clusters [marzluff_birth_2017, pontarotti_long-term_2009].",
+                "relations": "null"
             },
             "taxonomic_span": "Metazoa",
             "taxonomic_span_id": "33208",
@@ -1972,7 +2037,8 @@
                 "structure": "null",
                 "interactions": "null",
                 "disease": "null",
-                "caveats": "null"
+                "caveats": "null",
+                "relations": "null"
             },
             "taxonomic_span": "Chlorophyta",
             "taxonomic_span_id": "3041",
@@ -1998,7 +2064,8 @@
                 "structure": "null",
                 "interactions": "null",
                 "disease": "null",
-                "caveats": "null"
+                "caveats": "null",
+                "relations": "null"
             },
             "taxonomic_span": "Embryophyta",
             "taxonomic_span_id": "3193",
@@ -2024,7 +2091,8 @@
                 "structure": "null",
                 "interactions": "null",
                 "disease": "null",
-                "caveats": "null"
+                "caveats": "null",
+                "relations": "null"
             },
             "taxonomic_span": "Fungi",
             "taxonomic_span_id": "4751",
@@ -2049,7 +2117,8 @@
                 "structure": "null",
                 "interactions": "null",
                 "disease": "null",
-                "caveats": "null"
+                "caveats": "null",
+                "relations": "null"
             },
             "taxonomic_span": "Mammalia",
             "taxonomic_span_id": "40674",
@@ -2074,7 +2143,8 @@
                 "structure": "null",
                 "interactions": "null",
                 "disease": "null",
-                "caveats": "null"
+                "caveats": "null",
+                "relations": "null"
             },
             "taxonomic_span": "Viridiplantae",
             "taxonomic_span_id": "33090",
@@ -2101,7 +2171,8 @@
                 "structure": "null",
                 "interactions": "null",
                 "disease": "null",
-                "caveats": "null"
+                "caveats": "null",
+                "relations": "null"
             },
             "taxonomic_span": "SAR,Metamonada,Discoba,Amoebozoa",
             "taxonomic_span_id": "2698737,2611341,2611352,554915",
@@ -2124,7 +2195,8 @@
                 "structure": "null",
                 "interactions": "null",
                 "disease": "null",
-                "caveats": "null"
+                "caveats": "null",
+                "relations": "null"
             },
             "taxonomic_span": "Vertebrata",
             "taxonomic_span_id": "7742",
@@ -2147,7 +2219,8 @@
                 "structure": "null",
                 "interactions": "null",
                 "disease": "null",
-                "caveats": "null"
+                "caveats": "null",
+                "relations": "null"
             },
             "taxonomic_span": "Eukaryotes",
             "taxonomic_span_id": "2759",
@@ -2176,7 +2249,8 @@
                 "structure": "null",
                 "interactions": "null",
                 "disease": "null",
-                "caveats": "null"
+                "caveats": "null",
+                "relations": "null"
             },
             "taxonomic_span": "Homo sapiens",
             "taxonomic_span_id": "9606",
@@ -2199,7 +2273,8 @@
                 "structure": "null",
                 "interactions": "null",
                 "disease": "null",
-                "caveats": "It is likely, that CS_H2B homologs are present in other taxonomic clades. Raman et al. suggested that newly identified histones H2B.N and H2B.K which are primarily expressed in ovaries and early embryos of mammals and may play key roles in female fertility and early development may be related to the cleavage stage histones of sea urchins [raman_novel_2022]. Other CS histones, such as CS H1 in sea urchins are functionally equivalent to frog H1M(B) proteins [mandl_five_1997]."
+                "caveats": "It is likely, that CS_H2B homologs are present in other taxonomic clades. Raman et al. suggested that newly identified histones H2B.N and H2B.K which are primarily expressed in ovaries and early embryos of mammals and may play key roles in female fertility and early development may be related to the cleavage stage histones of sea urchins [raman_novel_2022]. Other CS histones, such as CS H1 in sea urchins are functionally equivalent to frog H1M(B) proteins [mandl_five_1997].",
+                "relations": "null"
             },
             "taxonomic_span": "Echinoidea",
             "taxonomic_span_id": "7625",
@@ -2229,7 +2304,8 @@
                 "structure": "null",
                 "interactions": "null",
                 "disease": "null",
-                "caveats": "null"
+                "caveats": "null",
+                "relations": "null"
             },
             "taxonomic_span": "Echinoidea",
             "taxonomic_span_id": "7625",
@@ -2255,7 +2331,8 @@
                 "structure": "null",
                 "interactions": "null",
                 "disease": "null",
-                "caveats": "null"
+                "caveats": "null",
+                "relations": "null"
             },
             "taxonomic_span": "Eukaryotes",
             "taxonomic_span_id": "2759",
@@ -2288,7 +2365,8 @@
                 "structure": "null",
                 "interactions": "null",
                 "disease": "null",
-                "caveats": "null"
+                "caveats": "null",
+                "relations": "null"
             },
             "taxonomic_span": "Lilium",
             "taxonomic_span_id": "4688",
@@ -2314,7 +2392,8 @@
                 "structure": "null",
                 "interactions": "null",
                 "disease": "null",
-                "caveats": "null"
+                "caveats": "null",
+                "relations": "null"
             },
             "taxonomic_span": "Lilium",
             "taxonomic_span_id": "4688",
@@ -2342,7 +2421,8 @@
                 "structure": "null",
                 "interactions": "null",
                 "disease": "null",
-                "caveats": "null"
+                "caveats": "null",
+                "relations": "null"
             },
             "taxonomic_span": "null",
             "taxonomic_span_id": "null",
@@ -2365,7 +2445,8 @@
                 "structure": "null",
                 "interactions": "null",
                 "disease": "null",
-                "caveats": "null"
+                "caveats": "null",
+                "relations": "null"
             },
             "taxonomic_span": "Metazoa",
             "taxonomic_span_id": "33208",
@@ -2407,7 +2488,8 @@
                 "structure": "null",
                 "interactions": "null",
                 "disease": "null",
-                "caveats": "null"
+                "caveats": "null",
+                "relations": "null"
             },
             "taxonomic_span": "Homo sapiens",
             "taxonomic_span_id": "9606",
@@ -2430,7 +2512,8 @@
                 "structure": "null",
                 "interactions": "null",
                 "disease": "null",
-                "caveats": "null"
+                "caveats": "null",
+                "relations": "null"
             },
             "taxonomic_span": "Homo",
             "taxonomic_span_id": "9605",
@@ -2455,7 +2538,8 @@
                 "structure": "null",
                 "interactions": "null",
                 "disease": "null",
-                "caveats": "null"
+                "caveats": "null",
+                "relations": "null"
             },
             "taxonomic_span": "Vertebrates",
             "taxonomic_span_id": "7742",
@@ -2484,7 +2568,8 @@
                 "structure": "null",
                 "interactions": "null",
                 "disease": "null",
-                "caveats": "null"
+                "caveats": "null",
+                "relations": "null"
             },
             "taxonomic_span": "Homo sapiens",
             "taxonomic_span_id": "9606",
@@ -2507,7 +2592,8 @@
                 "structure": "null",
                 "interactions": "null",
                 "disease": "null",
-                "caveats": "null"
+                "caveats": "null",
+                "relations": "null"
             },
             "taxonomic_span": "Homo sapiens",
             "taxonomic_span_id": "9606",
@@ -2530,7 +2616,8 @@
                 "structure": "null",
                 "interactions": "null",
                 "disease": "null",
-                "caveats": "null"
+                "caveats": "null",
+                "relations": "null"
             },
             "taxonomic_span": "Homo",
             "taxonomic_span_id": "9605",
@@ -2555,7 +2642,8 @@
                 "structure": "null",
                 "interactions": "null",
                 "disease": "null",
-                "caveats": "null"
+                "caveats": "null",
+                "relations": "null"
             },
             "taxonomic_span": "Homo sapiens",
             "taxonomic_span_id": "9606",
@@ -2578,7 +2666,8 @@
                 "structure": "null",
                 "interactions": "null",
                 "disease": "null",
-                "caveats": "null"
+                "caveats": "null",
+                "relations": "null"
             },
             "taxonomic_span": "Homo",
             "taxonomic_span_id": "9605",
@@ -2603,7 +2692,8 @@
                 "structure": "null",
                 "interactions": "null",
                 "disease": "null",
-                "caveats": "null"
+                "caveats": "null",
+                "relations": "null"
             },
             "taxonomic_span": "Homo sapiens",
             "taxonomic_span_id": "9606",
@@ -2626,7 +2716,8 @@
                 "structure": "null",
                 "interactions": "null",
                 "disease": "null",
-                "caveats": "null"
+                "caveats": "null",
+                "relations": "null"
             },
             "taxonomic_span": "Homo",
             "taxonomic_span_id": "9605",
@@ -2651,7 +2742,8 @@
                 "structure": "null",
                 "interactions": "null",
                 "disease": "null",
-                "caveats": "null"
+                "caveats": "null",
+                "relations": "null"
             },
             "taxonomic_span": "Homo sapiens",
             "taxonomic_span_id": "9606",
@@ -2674,7 +2766,8 @@
                 "structure": "null",
                 "interactions": "null",
                 "disease": "null",
-                "caveats": "null"
+                "caveats": "null",
+                "relations": "null"
             },
             "taxonomic_span": "Homo",
             "taxonomic_span_id": "9605",
@@ -2699,7 +2792,8 @@
                 "structure": "null",
                 "interactions": "null",
                 "disease": "null",
-                "caveats": "null"
+                "caveats": "null",
+                "relations": "null"
             },
             "taxonomic_span": "Homo sapiens",
             "taxonomic_span_id": "9606",
@@ -2722,7 +2816,8 @@
                 "structure": "null",
                 "interactions": "null",
                 "disease": "null",
-                "caveats": "null"
+                "caveats": "null",
+                "relations": "null"
             },
             "taxonomic_span": "Homo sapiens",
             "taxonomic_span_id": "9606",
@@ -2745,7 +2840,8 @@
                 "structure": "null",
                 "interactions": "null",
                 "disease": "null",
-                "caveats": "null"
+                "caveats": "null",
+                "relations": "null"
             },
             "taxonomic_span": "Homo sapiens",
             "taxonomic_span_id": "9606",
@@ -2768,7 +2864,8 @@
                 "structure": "null",
                 "interactions": "null",
                 "disease": "null",
-                "caveats": "null"
+                "caveats": "null",
+                "relations": "null"
             },
             "taxonomic_span": "Homo sapiens",
             "taxonomic_span_id": "9606",
@@ -2791,7 +2888,8 @@
                 "structure": "null",
                 "interactions": "null",
                 "disease": "null",
-                "caveats": "null"
+                "caveats": "null",
+                "relations": "null"
             },
             "taxonomic_span": "Eukaryotes",
             "taxonomic_span_id": "2759",
@@ -2817,7 +2915,8 @@
                 "structure": "null",
                 "interactions": "null",
                 "disease": "null",
-                "caveats": "null"
+                "caveats": "null",
+                "relations": "null"
             },
             "taxonomic_span": "Homo sapiens",
             "taxonomic_span_id": "9606",
@@ -2847,7 +2946,8 @@
                 "structure": "null",
                 "interactions": "null",
                 "disease": "null",
-                "caveats": "null"
+                "caveats": "null",
+                "relations": "null"
             },
             "taxonomic_span": "Mus musculus",
             "taxonomic_span_id": "10090",
@@ -2875,7 +2975,8 @@
                 "structure": "null",
                 "interactions": "null",
                 "disease": "null",
-                "caveats": "null"
+                "caveats": "null",
+                "relations": "null"
             },
             "taxonomic_span": "Homo sapiens",
             "taxonomic_span_id": "9606",
@@ -2911,7 +3012,8 @@
                 "structure": "null",
                 "interactions": "null",
                 "disease": "null",
-                "caveats": "null"
+                "caveats": "null",
+                "relations": "null"
             },
             "taxonomic_span": "Mus musculus",
             "taxonomic_span_id": "10090",
@@ -2934,7 +3036,8 @@
                 "structure": "null",
                 "interactions": "null",
                 "disease": "null",
-                "caveats": "Unfortunately there is some confusion with respect to the number suffixes in the literature and between the gene names and variant names. This variant was named initially H2A.Lap1 [soboleva_unique_2011], but renamed afterwards to H2A.B.3 [soboleva_new_2017], and this name has been used afterwards [anuar_gene_2019,jiang_short_2020]. Hence we follow the established convention. Moralo et al. suggests that rat-mouse common ancestor acquired an intact H2A.B gene in a new X-linked locus (H2a.b.ratMouse1, also historically named H2A.B.3) [molaro_evolutionary_2018]. Our analysis of supplementary information suggests that H2a.b.ratMouse1 is H2ab2 gene in the current nomenclature. Our analysis of sequences published by Soboleva et al. suggests that H2A.B.3 (H2A.Lap1) is H2ab1 gene and not H2ab2 [soboleva_unique_2011]."
+                "caveats": "Unfortunately there is some confusion with respect to the number suffixes in the literature and between the gene names and variant names. This variant was named initially H2A.Lap1 [soboleva_unique_2011], but renamed afterwards to H2A.B.3 [soboleva_new_2017], and this name has been used afterwards [anuar_gene_2019,jiang_short_2020]. Hence we follow the established convention. Moralo et al. suggests that rat-mouse common ancestor acquired an intact H2A.B gene in a new X-linked locus (H2a.b.ratMouse1, also historically named H2A.B.3) [molaro_evolutionary_2018]. Our analysis of supplementary information suggests that H2a.b.ratMouse1 is H2ab2 gene in the current nomenclature. Our analysis of sequences published by Soboleva et al. suggests that H2A.B.3 (H2A.Lap1) is H2ab1 gene and not H2ab2 [soboleva_unique_2011].",
+                "relations": "null"
             },
             "taxonomic_span": "Mus musculus",
             "taxonomic_span_id": "10090",
@@ -2967,7 +3070,8 @@
                 "structure": "null",
                 "interactions": "null",
                 "disease": "H2A.B is upregulated in cancer as other short H2A variants [chew_short_2021].",
-                "caveats": "Due to rapid evolution H2A.B function in different species may vary. For example, human H2A.B is retained during spermiogenesis, while is mouse it disappears and H2A.L is retained instead [molaro_evolutionary_2018]. Mouse H2A.B has additional negative residue in acidic patch, which is thought to increase its propensity to compact nucleosomal arrays relative to human H2A.B. H2A.B is also expressed in the brain [jiang_short_2020]."
+                "caveats": "Due to rapid evolution H2A.B function in different species may vary. For example, human H2A.B is retained during spermiogenesis, while is mouse it disappears and H2A.L is retained instead [molaro_evolutionary_2018]. Mouse H2A.B has additional negative residue in acidic patch, which is thought to increase its propensity to compact nucleosomal arrays relative to human H2A.B. H2A.B is also expressed in the brain [jiang_short_2020].",
+                "relations": "null"
             },
             "taxonomic_span": "Eutheria",
             "taxonomic_span_id": "9347",
@@ -3011,7 +3115,8 @@
                 "structure": "H2A.B containing nucleosomes wrap less DNA (~120-130 bp instead of ~150 bp) [sugiyama_distinct_2014,doyen_dissection_2006], form loosely packed chromatin.",
                 "interactions": "RNA processing factors, proteins involved in the piRNA pathway [jiang_short_2020].",
                 "disease": "H2A.B is upregulated in cancer as other short H2A variants [chew_short_2021].",
-                "caveats": "Due to rapid evolution H2A.B function in different species may vary. For example, human H2A.B is retained during spermiogenesis, while is mouse it disappears and H2A.L is retained instead [molaro_evolutionary_2018]. Mouse H2A.B has additional negative residue in acidic patch, which is thought to increase its propensity to compact nucleosomal arrays relative to human H2A.B."
+                "caveats": "Due to rapid evolution H2A.B function in different species may vary. For example, human H2A.B is retained during spermiogenesis, while is mouse it disappears and H2A.L is retained instead [molaro_evolutionary_2018]. Mouse H2A.B has additional negative residue in acidic patch, which is thought to increase its propensity to compact nucleosomal arrays relative to human H2A.B.",
+                "relations": "null"
             },
             "taxonomic_span": "Homo sapiens",
             "taxonomic_span_id": "9606",
@@ -3049,7 +3154,8 @@
                 "structure": "null",
                 "interactions": "null",
                 "disease": "null",
-                "caveats": "Unfortunately there is some confusion with respect to the number suffixes in the literature and between the gene names and variant names. The H2ab1 gene variant was named initially H2A.Lap1 [soboleva_unique_2011], but renamed afterwards to H2A.B.3 [soboleva_new_2017], and this name has been used afterwards [anuar_gene_2019,jiang_short_2020]. Hence we follow the established convention."
+                "caveats": "Unfortunately there is some confusion with respect to the number suffixes in the literature and between the gene names and variant names. The H2ab1 gene variant was named initially H2A.Lap1 [soboleva_unique_2011], but renamed afterwards to H2A.B.3 [soboleva_new_2017], and this name has been used afterwards [anuar_gene_2019,jiang_short_2020]. Hence we follow the established convention.",
+                "relations": "null"
             },
             "taxonomic_span": "Mus musculus",
             "taxonomic_span_id": "10090",
@@ -3078,7 +3184,8 @@
                 "structure": "Sequence changes lie only within the histone tails, alterations to the C-terminal tail may theoretically alter interactions with linker DNA and H1-histone, but this has not been studied.",
                 "interactions": "Colocalizes with 53BP1 [isermann_histone_2020].",
                 "disease": "It has been shown that H2A.J accumulates in senescent cells and promotes inflammatory gene expression [isermann_histone_2020,contrepois_histone_2017].",
-                "caveats": "null"
+                "caveats": "null",
+                "relations": "null"
             },
             "taxonomic_span": "Mammalia",
             "taxonomic_span_id": "40674",
@@ -3107,7 +3214,8 @@
                 "structure": "null",
                 "interactions": "null",
                 "disease": "null",
-                "caveats": "null"
+                "caveats": "null",
+                "relations": "null"
             },
             "taxonomic_span": "null",
             "taxonomic_span_id": "null",
@@ -3130,7 +3238,8 @@
                 "structure": "null",
                 "interactions": "null",
                 "disease": "null",
-                "caveats": "null"
+                "caveats": "null",
+                "relations": "null"
             },
             "taxonomic_span": "Homo sapiens",
             "taxonomic_span_id": "9606",
@@ -3153,7 +3262,8 @@
                 "structure": "null",
                 "interactions": "null",
                 "disease": "null",
-                "caveats": "null"
+                "caveats": "null",
+                "relations": "null"
             },
             "taxonomic_span": "Mus musculus",
             "taxonomic_span_id": "10090",
@@ -3178,7 +3288,8 @@
                 "structure": "null",
                 "interactions": "null",
                 "disease": "null",
-                "caveats": "null"
+                "caveats": "null",
+                "relations": "null"
             },
             "taxonomic_span": "Mus musculus",
             "taxonomic_span_id": "10090",
@@ -3201,7 +3312,8 @@
                 "structure": "null",
                 "interactions": "null",
                 "disease": "null",
-                "caveats": "null"
+                "caveats": "null",
+                "relations": "null"
             },
             "taxonomic_span": "Homo sapiens",
             "taxonomic_span_id": "9606",
@@ -3224,7 +3336,8 @@
                 "structure": "null",
                 "interactions": "null",
                 "disease": "null",
-                "caveats": "null"
+                "caveats": "null",
+                "relations": "null"
             },
             "taxonomic_span": "Mus musculus",
             "taxonomic_span_id": "10090",
@@ -3247,7 +3360,8 @@
                 "structure": "null",
                 "interactions": "H2A.L.2 preferentially dimerizes with H2B.1 (TH2B) at least in mice [govin_pericentric_2007]. Intranuclear localization of H2A.L.2 is controlled by its ability to bind RNA via its N-terminus [hoghoughi_rna-guided_2020].",
                 "disease": "No information, since no H2A.L have been so far detect at protein level in humans.",
-                "caveats": "There is some confusion in literature with respect to numbering H2A.L subvariants, especially in mouse (see caveats in description of mouse H2A.L variants)."
+                "caveats": "There is some confusion in literature with respect to numbering H2A.L subvariants, especially in mouse (see caveats in description of mouse H2A.L variants).",
+                "relations": "null"
             },
             "taxonomic_span": "Eutheria",
             "taxonomic_span_id": "9347",
@@ -3301,7 +3415,8 @@
                 "structure": "null",
                 "interactions": "null",
                 "disease": "null",
-                "caveats": "null"
+                "caveats": "null",
+                "relations": "null"
             },
             "taxonomic_span": "Homo sapiens",
             "taxonomic_span_id": "9606",
@@ -3324,7 +3439,8 @@
                 "structure": "null",
                 "interactions": "null",
                 "disease": "null",
-                "caveats": "There is some confusion with the variant names in the literature. Govin et al. initially identified and named three variants H2AL1, H2AL2, H2AL3 [govin_pericentric_2007]. These are encoded by H2al1a, H2al2a and H2ap genes, respectively. The H2Al2 endoded variant was later renamed in the literature as H2A.L.2 [jiang_short_2020]. The H2ap gencoded variant is in fact H2A.P in the current nomenclature. Alternatively, Molaro et al. have named three evolutionary conserved loci on X chromosome that harbor H2A.L genes, these loci are H2A.L.1, H2A.L.2 and H2A.L.3 [molaro_evolutionary_2018]. While human gene and variant naming is in line with the names of these loci, in mouse names of these loci do not correspond exactly to the originally proposed gene names except for H2A.L.3 locus which harbors H2al3 gene (not H2ap gene(!)). In mouse at H2A.L.1 locus a pseudogene H2al1q-ps is located, at H2A.L.2 locus mouse has H2al1m gene (H2al1a-H2al1o genes located within 5 megabases from this locus have similar protein sequences(?)), while H2A.L.2 variant encoded by H2al2a is located on chromosome 2 (two similar genes H2al2b and H2al2c are located on Y chromosome). In this classification we follow the numbering used in gene names which also corresponds to the one established earlier in the literature. Hence, H2A.L.2 variant in mouse encompasses H2al2a gene and similar H2al2b and H2al2c genes, while H2A.L.1 variant encompasses 14 H2al1a-H2al1o genes including H2al1m gene located at a syntenic location of the H2A.L.2 locus."
+                "caveats": "There is some confusion with the variant names in the literature. Govin et al. initially identified and named three variants H2AL1, H2AL2, H2AL3 [govin_pericentric_2007]. These are encoded by H2al1a, H2al2a and H2ap genes, respectively. The H2Al2 endoded variant was later renamed in the literature as H2A.L.2 [jiang_short_2020]. The H2ap gencoded variant is in fact H2A.P in the current nomenclature. Alternatively, Molaro et al. have named three evolutionary conserved loci on X chromosome that harbor H2A.L genes, these loci are H2A.L.1, H2A.L.2 and H2A.L.3 [molaro_evolutionary_2018]. While human gene and variant naming is in line with the names of these loci, in mouse names of these loci do not correspond exactly to the originally proposed gene names except for H2A.L.3 locus which harbors H2al3 gene (not H2ap gene(!)). In mouse at H2A.L.1 locus a pseudogene H2al1q-ps is located, at H2A.L.2 locus mouse has H2al1m gene (H2al1a-H2al1o genes located within 5 megabases from this locus have similar protein sequences(?)), while H2A.L.2 variant encoded by H2al2a is located on chromosome 2 (two similar genes H2al2b and H2al2c are located on Y chromosome). In this classification we follow the numbering used in gene names which also corresponds to the one established earlier in the literature. Hence, H2A.L.2 variant in mouse encompasses H2al2a gene and similar H2al2b and H2al2c genes, while H2A.L.1 variant encompasses 14 H2al1a-H2al1o genes including H2al1m gene located at a syntenic location of the H2A.L.2 locus.",
+                "relations": "null"
             },
             "taxonomic_span": "Mus musculus",
             "taxonomic_span_id": "10090",
@@ -3351,7 +3467,8 @@
                 "structure": "null",
                 "interactions": "null",
                 "disease": "null",
-                "caveats": "null"
+                "caveats": "null",
+                "relations": "null"
             },
             "taxonomic_span": "Viridiplantae",
             "taxonomic_span_id": "33090",
@@ -3376,7 +3493,8 @@
                 "structure": "Nucleosomes incorporating H2A.P are predicted to be highly destabilized [molaro_evolutionary_2018].",
                 "interactions": "In yeast two-hybrid screens was shown to interact with huntingtin [faber_huntingtin_1998].",
                 "disease": "No information.",
-                "caveats": "H2A.P in mice was previously name H2AL3 [govin_pericentric_2007] and H2A.Lap4 [soboleva_unique_2011]."
+                "caveats": "H2A.P in mice was previously name H2AL3 [govin_pericentric_2007] and H2A.Lap4 [soboleva_unique_2011].",
+                "relations": "null"
             },
             "taxonomic_span": "Eutheria",
             "taxonomic_span_id": "9347",
@@ -3406,7 +3524,8 @@
                 "structure": "null",
                 "interactions": "null",
                 "disease": "null",
-                "caveats": "null"
+                "caveats": "null",
+                "relations": "null"
             },
             "taxonomic_span": "Homo sapiens",
             "taxonomic_span_id": "9606",
@@ -3432,7 +3551,8 @@
                 "structure": "null",
                 "interactions": "null",
                 "disease": "null",
-                "caveats": "null"
+                "caveats": "null",
+                "relations": "null"
             },
             "taxonomic_span": "Mus musculus",
             "taxonomic_span_id": "10090",
@@ -3458,7 +3578,8 @@
                 "structure": "null",
                 "interactions": "null",
                 "disease": "null",
-                "caveats": "null"
+                "caveats": "null",
+                "relations": "null"
             },
             "taxonomic_span": "Eutheria",
             "taxonomic_span_id": "9347",
@@ -3484,7 +3605,8 @@
                 "structure": "null",
                 "interactions": "null",
                 "disease": "null",
-                "caveats": "null"
+                "caveats": "null",
+                "relations": "null"
             },
             "taxonomic_span": "Mammalia",
             "taxonomic_span_id": "40674",
@@ -3509,7 +3631,8 @@
                 "structure": "The extended C-terminal tail of H2A.W interacts with linker DNA and protects DNA from the cleavage by MNase [osakabe_histone_2018]. H2A.W may facilitate heterochromatin formation by promoting long-range interactions between nucleosomes, an activity that requires the long C-terminal tail domain containing a SPKK motif [alvarez-venegas_canonical_2019,yelagandula_histone_2014]. Replacement of H2A.W L1-loop with the corresponding sequence from H2A does not affect nucleosome stability [osakabe_histone_2018].",
                 "interactions": "It was hypothesized that C-terminal tail of H2A.W may impact H1 binding [osakabe_histone_2018].",
                 "disease": "null",
-                "caveats": "null"
+                "caveats": "null",
+                "relations": "null"
             },
             "taxonomic_span": "Magnoliopsida",
             "taxonomic_span_id": "3398",
@@ -3543,7 +3666,8 @@
                 "structure": "null",
                 "interactions": "null",
                 "disease": "null",
-                "caveats": "null"
+                "caveats": "null",
+                "relations": "null"
             },
             "taxonomic_span": "Eukaryotes",
             "taxonomic_span_id": "2759",
@@ -3578,7 +3702,8 @@
                 "structure": "null",
                 "interactions": "null",
                 "disease": "null",
-                "caveats": "null"
+                "caveats": "null",
+                "relations": "null"
             },
             "taxonomic_span": "null",
             "taxonomic_span_id": "null",
@@ -3601,7 +3726,8 @@
                 "structure": "null",
                 "interactions": "null",
                 "disease": "null",
-                "caveats": "null"
+                "caveats": "null",
+                "relations": "null"
             },
             "taxonomic_span": "null",
             "taxonomic_span_id": "null",
@@ -3624,7 +3750,8 @@
                 "structure": "null",
                 "interactions": "null",
                 "disease": "null",
-                "caveats": "null"
+                "caveats": "null",
+                "relations": "null"
             },
             "taxonomic_span": "null",
             "taxonomic_span_id": "null",
@@ -3647,7 +3774,8 @@
                 "structure": "null",
                 "interactions": "null",
                 "disease": "null",
-                "caveats": "null"
+                "caveats": "null",
+                "relations": "null"
             },
             "taxonomic_span": "null",
             "taxonomic_span_id": "null",
@@ -3670,7 +3798,8 @@
                 "structure": "null",
                 "interactions": "null",
                 "disease": "null",
-                "caveats": "null"
+                "caveats": "null",
+                "relations": "null"
             },
             "taxonomic_span": "null",
             "taxonomic_span_id": "null",
@@ -3693,7 +3822,8 @@
                 "structure": "null",
                 "interactions": "null",
                 "disease": "null",
-                "caveats": "null"
+                "caveats": "null",
+                "relations": "null"
             },
             "taxonomic_span": "null",
             "taxonomic_span_id": "null",
@@ -3716,7 +3846,8 @@
                 "structure": "null",
                 "interactions": "null",
                 "disease": "null",
-                "caveats": "null"
+                "caveats": "null",
+                "relations": "null"
             },
             "taxonomic_span": "null",
             "taxonomic_span_id": "null",
@@ -3739,7 +3870,8 @@
                 "structure": "null",
                 "interactions": "null",
                 "disease": "null",
-                "caveats": "null"
+                "caveats": "null",
+                "relations": "null"
             },
             "taxonomic_span": "null",
             "taxonomic_span_id": "null",
@@ -3762,7 +3894,8 @@
                 "structure": "null",
                 "interactions": "null",
                 "disease": "null",
-                "caveats": "null"
+                "caveats": "null",
+                "relations": "null"
             },
             "taxonomic_span": "Eukaryotes",
             "taxonomic_span_id": "2759",
@@ -3832,7 +3965,8 @@
                 "structure": "null",
                 "interactions": "null",
                 "disease": "null",
-                "caveats": "null"
+                "caveats": "null",
+                "relations": "null"
             },
             "taxonomic_span": "Chordata",
             "taxonomic_span_id": "7711",
@@ -3861,7 +3995,8 @@
                 "structure": "null",
                 "interactions": "null",
                 "disease": "null",
-                "caveats": "null"
+                "caveats": "null",
+                "relations": "null"
             },
             "taxonomic_span": "Eukaryotes",
             "taxonomic_span_id": "2759",
@@ -3888,7 +4023,8 @@
                 "structure": "null",
                 "interactions": "null",
                 "disease": "null",
-                "caveats": "null"
+                "caveats": "null",
+                "relations": "null"
             },
             "taxonomic_span": "Primates",
             "taxonomic_span_id": "9443",
@@ -3915,7 +4051,8 @@
                 "structure": "null",
                 "interactions": "null",
                 "disease": "null",
-                "caveats": "null"
+                "caveats": "null",
+                "relations": "null"
             },
             "taxonomic_span": "Homo sapiens",
             "taxonomic_span_id": "9606",
@@ -3940,7 +4077,8 @@
                 "structure": "null",
                 "interactions": "null",
                 "disease": "null",
-                "caveats": "null"
+                "caveats": "null",
+                "relations": "null"
             },
             "taxonomic_span": "Primates",
             "taxonomic_span_id": "9443",
@@ -3965,7 +4103,8 @@
                 "structure": "null",
                 "interactions": "null",
                 "disease": "null",
-                "caveats": "null"
+                "caveats": "null",
+                "relations": "null"
             },
             "taxonomic_span": "Homo sapiens",
             "taxonomic_span_id": "9606",
@@ -3990,7 +4129,8 @@
                 "structure": "null",
                 "interactions": "null",
                 "disease": "null",
-                "caveats": "null"
+                "caveats": "null",
+                "relations": "null"
             },
             "taxonomic_span": "Primates",
             "taxonomic_span_id": "9443",
@@ -4015,7 +4155,8 @@
                 "structure": "null",
                 "interactions": "null",
                 "disease": "null",
-                "caveats": "null"
+                "caveats": "null",
+                "relations": "null"
             },
             "taxonomic_span": "Chordata",
             "taxonomic_span_id": "7711",
@@ -4044,7 +4185,8 @@
                 "structure": "null",
                 "interactions": "null",
                 "disease": "null",
-                "caveats": "null"
+                "caveats": "null",
+                "relations": "null"
             },
             "taxonomic_span": "Primates",
             "taxonomic_span_id": "9443",
@@ -4071,7 +4213,8 @@
                 "structure": "null",
                 "interactions": "null",
                 "disease": "null",
-                "caveats": "null"
+                "caveats": "null",
+                "relations": "null"
             },
             "taxonomic_span": "Eukaryota",
             "taxonomic_span_id": "2759",
@@ -4097,7 +4240,8 @@
                 "structure": "null",
                 "interactions": "null",
                 "disease": "null",
-                "caveats": "null"
+                "caveats": "null",
+                "relations": "null"
             },
             "taxonomic_span": "Euteleostomi",
             "taxonomic_span_id": "117571",
@@ -4122,7 +4266,8 @@
                 "structure": "null",
                 "interactions": "null",
                 "disease": "null",
-                "caveats": "null"
+                "caveats": "null",
+                "relations": "null"
             },
             "taxonomic_span": "Homo sapiens",
             "taxonomic_span_id": "9606",
@@ -4145,7 +4290,8 @@
                 "structure": "null",
                 "interactions": "null",
                 "disease": "null",
-                "caveats": "null"
+                "caveats": "null",
+                "relations": "null"
             },
             "taxonomic_span": "Mammalia",
             "taxonomic_span_id": "40674",
@@ -4185,7 +4331,8 @@
                 "structure": "null",
                 "interactions": "null",
                 "disease": "null",
-                "caveats": "null"
+                "caveats": "null",
+                "relations": "null"
             },
             "taxonomic_span": "Mammalia",
             "taxonomic_span_id": "40674",
@@ -4210,7 +4357,8 @@
                 "structure": "null",
                 "interactions": "null",
                 "disease": "null",
-                "caveats": "null"
+                "caveats": "null",
+                "relations": "null"
             },
             "taxonomic_span": "Homo sapiens",
             "taxonomic_span_id": "9606",
@@ -4233,7 +4381,8 @@
                 "structure": "null",
                 "interactions": "null",
                 "disease": "null",
-                "caveats": "null"
+                "caveats": "null",
+                "relations": "null"
             },
             "taxonomic_span": "Ornithorhynchus anatinus",
             "taxonomic_span_id": "9258",
@@ -4258,7 +4407,8 @@
                 "structure": "Two HTB8 residues, Arg152 and Met179, were highly conserved among HTB8 orthologs  and were positioned in such a way that they might contribute to stronger interactions with DNA and histone H2A, respectively. These and other observations suggest that sequence divergence in HTB8 impact intra-nucleosomal interactions to potentially alter nucleosome structure and/or stability [jiang_evolution_2020].",
                 "interactions": "null",
                 "disease": "null",
-                "caveats": "null"
+                "caveats": "null",
+                "relations": "null"
             },
             "taxonomic_span": "Magnoliopsida",
             "taxonomic_span_id": "3398",
@@ -4283,7 +4433,8 @@
                 "structure": "null",
                 "interactions": "null",
                 "disease": "null",
-                "caveats": "null"
+                "caveats": "null",
+                "relations": "null"
             },
             "taxonomic_span": "Trypanosoma",
             "taxonomic_span_id": "5690",
@@ -4312,7 +4463,8 @@
                 "structure": "null",
                 "interactions": "null",
                 "disease": "Single nucleotide polymorphisms (SNPs) in H2B.W genes may result in male infertility. See meta-analysis of several studies by Teimouri et al. [teimouri_association_2018].",
-                "caveats": "null"
+                "caveats": "null",
+                "relations": "null"
             },
             "taxonomic_span": "Mammalia",
             "taxonomic_span_id": "40674",
@@ -4359,7 +4511,8 @@
                 "structure": "null",
                 "interactions": "null",
                 "disease": "Single nucleotide polymorphisms (SNPs) in this gene may result in male infertility. See meta-analysis of several studies by Teimouri et al. [teimouri_association_2018]. Particularly, there was a significant association between 368A>G transition in H2BW1 and male infertility, resulting in His123Arg substitution.",
-                "caveats": "null"
+                "caveats": "null",
+                "relations": "null"
             },
             "taxonomic_span": "Mammalia",
             "taxonomic_span_id": "40674",
@@ -4401,7 +4554,8 @@
                 "structure": "null",
                 "interactions": "null",
                 "disease": "Single nucleotide polymorphisms (SNPs) in this gene may result in male infertility. See meta-analysis of several studies by Teimouri et al. [teimouri_association_2018]. Particularly, there was a significant association between 368A>G transition in H2BW1 and male infertility, resulting in His123Arg substitution.",
-                "caveats": "H2B.M name has been used in literature to refer to this variant [raman_novel_2022]."
+                "caveats": "H2B.M name has been used in literature to refer to this variant [raman_novel_2022].",
+                "relations": "null"
             },
             "taxonomic_span": "Mammalia",
             "taxonomic_span_id": "40674",
@@ -4431,7 +4585,8 @@
                 "structure": "null",
                 "interactions": "null",
                 "disease": "Single nucleotide polymorphisms (SNPs) in H2B.W genes may result in male infertility. See meta-analysis of several studies by Teimouri et al. [teimouri_association_2018]. Particularly, there was a significant association between 368A>G transition in H2BW1 and male infertility, resulting in His123Arg substitution.",
-                "caveats": "null"
+                "caveats": "null",
+                "relations": "null"
             },
             "taxonomic_span": "Mammalia",
             "taxonomic_span_id": "40674",
@@ -4473,7 +4628,8 @@
                 "structure": "null",
                 "interactions": "null",
                 "disease": "null",
-                "caveats": "Former name for this histone variant H2Bv from Plasmodium can be confused with H2BV from Trypanosoma, though the two variants are not closely related."
+                "caveats": "Former name for this histone variant H2Bv from Plasmodium can be confused with H2BV from Trypanosoma, though the two variants are not closely related.",
+                "relations": "null"
             },
             "taxonomic_span": "Apicomplexa",
             "taxonomic_span_id": "5794",
@@ -4502,7 +4658,8 @@
                 "structure": "The two-fold symmetry of the eukaryotic nucleosome is organized along the dimerization interface of the two H3 molecules using their C-terminal ends, an example of a four-helix bundle motif. Apart from its heterodimerization with H4, H3 also makes contacts with H2A and has at least two segments of specific contact with the nucleosomal DNA: just upstream of the alpha-N helix where the H3 tail enters the nucleosome between the DNA gyres, and in the loop 1 region [malik_phylogenomics_2003].",
                 "interactions": "null",
                 "disease": "null",
-                "caveats": "null"
+                "caveats": "null",
+                "relations": "null"
             },
             "taxonomic_span": "Eukaryotes",
             "taxonomic_span_id": "2759",
@@ -4527,7 +4684,8 @@
                 "structure": "null",
                 "interactions": "null",
                 "disease": "null",
-                "caveats": "null"
+                "caveats": "null",
+                "relations": "null"
             },
             "taxonomic_span": "null",
             "taxonomic_span_id": "null",
@@ -4550,7 +4708,8 @@
                 "structure": "null",
                 "interactions": "null",
                 "disease": "null",
-                "caveats": "null"
+                "caveats": "null",
+                "relations": "null"
             },
             "taxonomic_span": "Eukaryotes",
             "taxonomic_span_id": "2759",
@@ -4576,7 +4735,8 @@
                 "structure": "null",
                 "interactions": "null",
                 "disease": "null",
-                "caveats": "null"
+                "caveats": "null",
+                "relations": "null"
             },
             "taxonomic_span": "null",
             "taxonomic_span_id": "null",
@@ -4599,7 +4759,8 @@
                 "structure": "null",
                 "interactions": "null",
                 "disease": "null",
-                "caveats": "null"
+                "caveats": "null",
+                "relations": "null"
             },
             "taxonomic_span": "null",
             "taxonomic_span_id": "null",
@@ -4622,7 +4783,8 @@
                 "structure": "null",
                 "interactions": "null",
                 "disease": "null",
-                "caveats": "null"
+                "caveats": "null",
+                "relations": "null"
             },
             "taxonomic_span": "null",
             "taxonomic_span_id": "null",
@@ -4645,7 +4807,8 @@
                 "structure": "null",
                 "interactions": "null",
                 "disease": "Mutations in histone genes can affect sites of PTMs causing changes in local and global DNA methylation status. These effects are directly linked to neoplastic transformation by altered gene expression. Recurrent H3.3 histone mutations are increasingly identified in several malignancies and developmental disorders in human [kumar_genes_2021]. Well characterized oncomutations in H3.3 genes include K27M, G34W/L in pediatric high-grade gliomas and K36M and G34V/R in bone tumors [xiong_histone_2016]. Competing models have suggested that H3K27M oncohistones sequester or poison  PRC2 complex which deposits H3K27me3 marks. However, Sarthy et al. demonstrated that the K27M epitope only inhibits H3K27 trimethylation on chromatin in vivo, supporting the idea that these oncohistones inhibit chromatin-bound PRC2 complexes. A possible mechanism comes from recent reports [lee_automethylation_2019,wang_regulation_2019] showing that EZH2 (key component of PRC2) methylates  itself, and that this automethylation is required for full catalytic activity. These studies also showed that H3K27M blocks EZH2 automethylation, and might contribute to the dominant effect of H3K27M mutations [sarthy_histone_2020].",
-                "caveats": "null"
+                "caveats": "null",
+                "relations": "null"
             },
             "taxonomic_span": "Metazoa",
             "taxonomic_span_id": "33208",
@@ -4674,7 +4837,8 @@
                 "structure": "null",
                 "interactions": "null",
                 "disease": "null",
-                "caveats": "null"
+                "caveats": "null",
+                "relations": "null"
             },
             "taxonomic_span": "Ascomycota",
             "taxonomic_span_id": "4890",
@@ -4697,7 +4861,8 @@
                 "structure": "null",
                 "interactions": "null",
                 "disease": "null",
-                "caveats": "null"
+                "caveats": "null",
+                "relations": "null"
             },
             "taxonomic_span": "Fungi",
             "taxonomic_span_id": "4751",
@@ -4723,7 +4888,8 @@
                 "structure": "null",
                 "interactions": "null",
                 "disease": "null",
-                "caveats": "null"
+                "caveats": "null",
+                "relations": "null"
             },
             "taxonomic_span": "Homo sapiens",
             "taxonomic_span_id": "9606",
@@ -4746,7 +4912,8 @@
                 "structure": "null",
                 "interactions": "null",
                 "disease": "null",
-                "caveats": "null"
+                "caveats": "null",
+                "relations": "null"
             },
             "taxonomic_span": "Viridiplantae",
             "taxonomic_span_id": "33090",
@@ -4775,7 +4942,8 @@
                 "structure": "null",
                 "interactions": "null",
                 "disease": "null",
-                "caveats": "null"
+                "caveats": "null",
+                "relations": "null"
             },
             "taxonomic_span": "SAR,Metamonada,Discoba,Amoebozoa",
             "taxonomic_span_id": "2698737,2611341,2611352,554915",
@@ -4805,7 +4973,8 @@
                 "structure": "null",
                 "interactions": "null",
                 "disease": "null",
-                "caveats": "null"
+                "caveats": "null",
+                "relations": "null"
             },
             "taxonomic_span": "Homo sapiens",
             "taxonomic_span_id": "9606",
@@ -4828,7 +4997,8 @@
                 "structure": "PDB structure of human H3.4 containing nucleosome is available with id 3A6N [tachiwana_structural_2010].",
                 "interactions": "null",
                 "disease": "The single\u2011nucleotide polymorphism c190C>T (Arg64Cys) in the human testis\u2011specific histone variant, H3.4, was studied in Japanese patients for its association with Sertoli cell\u2011only syndrome, which causes infertility [dong_structural_2020].",
-                "caveats": "null"
+                "caveats": "null",
+                "relations": "null"
             },
             "taxonomic_span": "Mammalia",
             "taxonomic_span_id": "40674",
@@ -4867,7 +5037,8 @@
                 "structure": "null",
                 "interactions": "null",
                 "disease": "null",
-                "caveats": "null"
+                "caveats": "null",
+                "relations": "null"
             },
             "taxonomic_span": "null",
             "taxonomic_span_id": "null",
@@ -4890,7 +5061,8 @@
                 "structure": "null",
                 "interactions": "null",
                 "disease": "null",
-                "caveats": "null"
+                "caveats": "null",
+                "relations": "null"
             },
             "taxonomic_span": "Homo sapiens",
             "taxonomic_span_id": "9606",
@@ -4913,7 +5085,8 @@
                 "structure": "In vitro results showed that H3.7 failed to form nucleosomes [taguchi_crystal_2017].",
                 "interactions": "null",
                 "disease": "null",
-                "caveats": "null"
+                "caveats": "null",
+                "relations": "null"
             },
             "taxonomic_span": "null",
             "taxonomic_span_id": "null",
@@ -4938,7 +5111,8 @@
                 "structure": "null",
                 "interactions": "null",
                 "disease": "null",
-                "caveats": "null"
+                "caveats": "null",
+                "relations": "null"
             },
             "taxonomic_span": "Giardia",
             "taxonomic_span_id": "5740",
@@ -4961,7 +5135,8 @@
                 "structure": "null",
                 "interactions": "null",
                 "disease": "null",
-                "caveats": "null"
+                "caveats": "null",
+                "relations": "null"
             },
             "taxonomic_span": "Moneuplotes",
             "taxonomic_span_id": "152459",
@@ -4984,7 +5159,8 @@
                 "structure": "null",
                 "interactions": "null",
                 "disease": "null",
-                "caveats": "null"
+                "caveats": "null",
+                "relations": "null"
             },
             "taxonomic_span": "Trypanosomes",
             "taxonomic_span_id": "93954",
@@ -5007,7 +5183,8 @@
                 "structure": "null",
                 "interactions": "null",
                 "disease": "null",
-                "caveats": "null"
+                "caveats": "null",
+                "relations": "null"
             },
             "taxonomic_span": "null",
             "taxonomic_span_id": "null",
@@ -5030,7 +5207,8 @@
                 "structure": "null",
                 "interactions": "null",
                 "disease": "null",
-                "caveats": "null"
+                "caveats": "null",
+                "relations": "null"
             },
             "taxonomic_span": "null",
             "taxonomic_span_id": "null",
@@ -5053,7 +5231,8 @@
                 "structure": "null",
                 "interactions": "null",
                 "disease": "null",
-                "caveats": "null"
+                "caveats": "null",
+                "relations": "null"
             },
             "taxonomic_span": "Homo sapiens",
             "taxonomic_span_id": "9606",
@@ -5076,7 +5255,8 @@
                 "structure": "null",
                 "interactions": "null",
                 "disease": "null",
-                "caveats": "null"
+                "caveats": "null",
+                "relations": "null"
             },
             "taxonomic_span": "Homo sapiens",
             "taxonomic_span_id": "9606",
@@ -5099,7 +5279,8 @@
                 "structure": "null",
                 "interactions": "null",
                 "disease": "null",
-                "caveats": "null"
+                "caveats": "null",
+                "relations": "null"
             },
             "taxonomic_span": "null",
             "taxonomic_span_id": "null",
@@ -5122,7 +5303,8 @@
                 "structure": "null",
                 "interactions": "null",
                 "disease": "null",
-                "caveats": "null"
+                "caveats": "null",
+                "relations": "null"
             },
             "taxonomic_span": "Primates",
             "taxonomic_span_id": "9443",
@@ -5153,7 +5335,8 @@
                 "structure": "null",
                 "interactions": "null",
                 "disease": "null",
-                "caveats": "null"
+                "caveats": "null",
+                "relations": "null"
             },
             "taxonomic_span": "null",
             "taxonomic_span_id": "null",
@@ -5176,7 +5359,8 @@
                 "structure": "null",
                 "interactions": "null",
                 "disease": "null",
-                "caveats": "null"
+                "caveats": "null",
+                "relations": "null"
             },
             "taxonomic_span": "null",
             "taxonomic_span_id": "null",
@@ -5199,7 +5383,8 @@
                 "structure": "null",
                 "interactions": "null",
                 "disease": "null",
-                "caveats": "null"
+                "caveats": "null",
+                "relations": "null"
             },
             "taxonomic_span": "Echinoidea",
             "taxonomic_span_id": "7625",
@@ -5226,7 +5411,8 @@
                 "structure": "null",
                 "interactions": "null",
                 "disease": "null",
-                "caveats": "null"
+                "caveats": "null",
+                "relations": "null"
             },
             "taxonomic_span": "Metazoa",
             "taxonomic_span_id": "33208",
@@ -5288,7 +5474,8 @@
                 "structure": "null",
                 "interactions": "null",
                 "disease": "null",
-                "caveats": "null"
+                "caveats": "null",
+                "relations": "null"
             },
             "taxonomic_span": "Homo sapiens",
             "taxonomic_span_id": "9606",
@@ -5313,7 +5500,8 @@
                 "structure": "null",
                 "interactions": "null",
                 "disease": "null",
-                "caveats": "null"
+                "caveats": "null",
+                "relations": "null"
             },
             "taxonomic_span": "Mammalia",
             "taxonomic_span_id": "40674",
@@ -5338,7 +5526,8 @@
                 "structure": "null",
                 "interactions": "null",
                 "disease": "null",
-                "caveats": "null"
+                "caveats": "null",
+                "relations": "null"
             },
             "taxonomic_span": "Homo sapiens",
             "taxonomic_span_id": "9606",
@@ -5363,7 +5552,8 @@
                 "structure": "null",
                 "interactions": "null",
                 "disease": "null",
-                "caveats": "null"
+                "caveats": "null",
+                "relations": "null"
             },
             "taxonomic_span": "Mammalia",
             "taxonomic_span_id": "40674",
@@ -5388,7 +5578,8 @@
                 "structure": "null",
                 "interactions": "null",
                 "disease": "null",
-                "caveats": "null"
+                "caveats": "null",
+                "relations": "null"
             },
             "taxonomic_span": "Mammalia",
             "taxonomic_span_id": "40674",
@@ -5413,7 +5604,8 @@
                 "structure": "null",
                 "interactions": "null",
                 "disease": "null",
-                "caveats": "null"
+                "caveats": "null",
+                "relations": "null"
             },
             "taxonomic_span": "Homo sapiens",
             "taxonomic_span_id": "9606",
@@ -5438,7 +5630,8 @@
                 "structure": "null",
                 "interactions": "null",
                 "disease": "null",
-                "caveats": "null"
+                "caveats": "null",
+                "relations": "null"
             },
             "taxonomic_span": "Mammalia",
             "taxonomic_span_id": "40674",
@@ -5463,7 +5656,8 @@
                 "structure": "null",
                 "interactions": "null",
                 "disease": "null",
-                "caveats": "null"
+                "caveats": "null",
+                "relations": "null"
             },
             "taxonomic_span": "Mammalia",
             "taxonomic_span_id": "40674",
@@ -5492,7 +5686,8 @@
                 "structure": "null",
                 "interactions": "null",
                 "disease": "null",
-                "caveats": "null"
+                "caveats": "null",
+                "relations": "null"
             },
             "taxonomic_span": "Saccharomyces(?)",
             "taxonomic_span_id": "4930",
@@ -5517,7 +5712,8 @@
                 "structure": "null",
                 "interactions": "null",
                 "disease": "null",
-                "caveats": "H2A.B is also expressed in the brain [jiang_short_2020]."
+                "caveats": "H2A.B is also expressed in the brain [jiang_short_2020].",
+                "relations": "null"
             },
             "taxonomic_span": "Eutheria",
             "taxonomic_span_id": "9347",
@@ -5548,7 +5744,8 @@
                 "structure": "null",
                 "interactions": "null",
                 "disease": "null",
-                "caveats": "null"
+                "caveats": "null",
+                "relations": "null"
             },
             "taxonomic_span": "Echinoidea",
             "taxonomic_span_id": "7625",
@@ -5575,7 +5772,8 @@
                 "structure": "null",
                 "interactions": "null",
                 "disease": "null",
-                "caveats": "null"
+                "caveats": "null",
+                "relations": "null"
             },
             "taxonomic_span": "null",
             "taxonomic_span_id": "null",
@@ -5598,7 +5796,8 @@
                 "structure": "null",
                 "interactions": "null",
                 "disease": "null",
-                "caveats": "null"
+                "caveats": "null",
+                "relations": "null"
             },
             "taxonomic_span": "Mammalia",
             "taxonomic_span_id": "40674",
@@ -5627,7 +5826,8 @@
                 "structure": "null",
                 "interactions": "null",
                 "disease": "null",
-                "caveats": "null"
+                "caveats": "null",
+                "relations": "null"
             },
             "taxonomic_span": "Mammalia",
             "taxonomic_span_id": "40674",
@@ -5656,7 +5856,8 @@
                 "structure": "null",
                 "interactions": "null",
                 "disease": "null",
-                "caveats": "null"
+                "caveats": "null",
+                "relations": "null"
             },
             "taxonomic_span": "Mammalia",
             "taxonomic_span_id": "40674",
@@ -5685,7 +5886,8 @@
                 "structure": "null",
                 "interactions": "null",
                 "disease": "null",
-                "caveats": "null"
+                "caveats": "null",
+                "relations": "null"
             },
             "taxonomic_span": "null",
             "taxonomic_span_id": "null",
