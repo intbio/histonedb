@@ -1,6 +1,7 @@
 {
     "tree": {
         "Archaeal": "null",
+        "Doublet": "null",
         "H1": {
             "cH1": "null",
             "generic_H1": "null",
@@ -281,6 +282,16 @@
                 "cH4_(Homo_sapiens)": "null"
             }
         },
+        "Quadruplet": "null",
+        "Singlet": {
+            "Bacterial dimers": "null",
+            "Bridge": "null",
+            "Capstone": "null",
+            "FtF": "null",
+            "H1-like_(Viruses)": "null",
+            "Nucleosomal": "null"
+        },
+        "Triplet": "null",
         "Viral": "null"
     },
     "info": {
@@ -305,6 +316,78 @@
             },
             "taxonomic_span": "null",
             "taxonomic_span_id": "null",
+            "alternate_names": [],
+            "publications": []
+        },
+        "Bacterial dimers": {
+            "level": "variant_group",
+            "description": {
+                "summary": "Bacterial dimers have been defined as a group of bacterial histones capable of binding to DNA in order to form nucleohistone filaments. These histones have the capacity to dimerise, yet do not form tetramers. For the bacterial singlet Bd0055, which is highly expressed, a crystallographic structure was obtained in which one monomer is covalently linked to its partner via double symmetry [noauthor_histones_2023]. This group of bacterial histones also includes histones predicted using AlphaFold2 and CLANS clustering, which are characterised by a shortened \u03b13-helix and form stable dimers but do not form tetramers due to the absence of conserved residues, similar to Bd0055 [schwab_histones_2024].",
+                "taxonomy": "null",
+                "genes": "null",
+                "evolution": "null",
+                "expression": "null",
+                "knock-out": "null",
+                "function": "null",
+                "sequence": "null",
+                "localization": "null",
+                "deposition": "null",
+                "structure": "null",
+                "interactions": "null",
+                "disease": "null",
+                "caveats": "null",
+                "relations": "null"
+            },
+            "taxonomic_span": "Bacteria",
+            "taxonomic_span_id": "2",
+            "alternate_names": [],
+            "publications": []
+        },
+        "Bridge": {
+            "level": "variant_group",
+            "description": {
+                "summary": "DNA-bridge histones binds two strands of DNA together to form bridges.",
+                "taxonomy": "null",
+                "genes": "null",
+                "evolution": "null",
+                "expression": "null",
+                "knock-out": "null",
+                "function": "null",
+                "sequence": "null",
+                "localization": "null",
+                "deposition": "null",
+                "structure": "null",
+                "interactions": "null",
+                "disease": "null",
+                "caveats": "null",
+                "relations": "null"
+            },
+            "taxonomic_span": "Archaea, Bacteria, Viruses",
+            "taxonomic_span_id": "2157, 2, 10239",
+            "alternate_names": [],
+            "publications": []
+        },
+        "Capstone": {
+            "level": "variant_group",
+            "description": {
+                "summary": "Capstones are histone variants found in archaea that hinder stable tetramer formation and further elongation of oligomeric chromatin structures. They are distinguished by their unstable interfaces between dimers, frequently resulting from key amino acid substitutions (e.g., the loss of histidine at the end of \u03b12 in the capstone of Methanobrevibacter smithii), which disrupts interactions between histone complexes [stevens_histone_2023, stevens_histone_2020, henneman_structure_2018]. These histones act as \"capstones\", thereby limiting DNA compactization and regulating genome accessibility. It is noteworthy that capstones are evolutionarily conserved and have arisen independently in different lineages of archaea, which underscores their significance in chromatin organisation, akin to functional variants of histones in eukaryotes [stevens_histone_2020].",
+                "taxonomy": "null",
+                "genes": "null",
+                "evolution": "null",
+                "expression": "null",
+                "knock-out": "null",
+                "function": "null",
+                "sequence": "null",
+                "localization": "null",
+                "deposition": "null",
+                "structure": "null",
+                "interactions": "null",
+                "disease": "null",
+                "caveats": "null",
+                "relations": "null"
+            },
+            "taxonomic_span": "Archaea, Bacteria, Viruses",
+            "taxonomic_span_id": "2157, 2, 10239",
             "alternate_names": [],
             "publications": []
         },
@@ -2288,6 +2371,30 @@
                 "oliver_conservative_2003"
             ]
         },
+        "Doublet": {
+            "level": "type",
+            "description": {
+                "summary": "Doublet is one of the histone types present in Archaea, Bacteria and Viruses. Doublets are histone proteins in which two histone-fold domains (structural motifs responsible for DNA binding) are fused into a single gene. These domains are arranged sequentially (\"back-to-back\") and linked by a flexible peptide connector, allowing the protein to fold into a functional dimer. ",
+                "taxonomy": "null",
+                "genes": "null",
+                "evolution": "null",
+                "expression": "null",
+                "knock-out": "null",
+                "function": "null",
+                "sequence": "null",
+                "localization": "null",
+                "deposition": "null",
+                "structure": "null",
+                "interactions": "null",
+                "disease": "null",
+                "caveats": "null",
+                "relations": "null"
+            },
+            "taxonomic_span": "Archaea, Bacteria, Viruses",
+            "taxonomic_span_id": "2157, 2, 10239",
+            "alternate_names": [],
+            "publications": []
+        },
         "early_H2B_(Echinoidea)": {
             "level": "variant_group",
             "description": {
@@ -2314,6 +2421,30 @@
                 "mandl_five_1997",
                 "oliver_conservative_2003"
             ]
+        },
+        "FtF": {
+            "level": "variant_group",
+            "description": {
+                "summary": "Face-to-Face (FtF) histones represent a distinct class of histones that have been identified in archaea (e.g., Haloferax volcanii) and select bacteria (e.g., Bdellovibrio bacteriovorus) using bioinformatic methods including AlphaFold2 structure prediction, sequence clustering (CLANS) and hidden Markov models (HMM) [schwab_histones_2024]. The structural configuration of FtF histones is comprised of a tetrameric assembly, wherein two distinct dimers engage via the interface of \u03b12- and \u03b13-helices, thereby establishing a ring-shaped structural arrangement. Multiple sequence alignment and structural analysis of FtF histones identified conserved positions, including the conserved RxTxxxD motif, that may be involved in DNA compactification [schwab_histones_2024].",
+                "taxonomy": "null",
+                "genes": "null",
+                "evolution": "null",
+                "expression": "null",
+                "knock-out": "null",
+                "function": "null",
+                "sequence": "null",
+                "localization": "null",
+                "deposition": "null",
+                "structure": "null",
+                "interactions": "null",
+                "disease": "null",
+                "caveats": "null",
+                "relations": "null"
+            },
+            "taxonomic_span": "Archaea, Bacteria",
+            "taxonomic_span_id": "2157, 2",
+            "alternate_names": [],
+            "publications": []
         },
         "generic_H1": {
             "level": "variant_group",
@@ -2426,6 +2557,30 @@
             },
             "taxonomic_span": "null",
             "taxonomic_span_id": "null",
+            "alternate_names": [],
+            "publications": []
+        },
+        "H1-like_(Viruses)": {
+            "level": "variant_group",
+            "description": {
+                "summary": "Viral H1 histone is a putative homolog of the eukaryotic linker histone H1 encoded by the giant DNA virus Medusavirus medusae (NCLDV). Unlike classical H1, it is not involved in tri-nucleosome compactization, indicating a functional divergence from its eukaryotic counterparts [toner_characterization_2024].",
+                "taxonomy": "null",
+                "genes": "null",
+                "evolution": "null",
+                "expression": "null",
+                "knock-out": "null",
+                "function": "null",
+                "sequence": "null",
+                "localization": "null",
+                "deposition": "null",
+                "structure": "null",
+                "interactions": "null",
+                "disease": "null",
+                "caveats": "null",
+                "relations": "null"
+            },
+            "taxonomic_span": "Viruses",
+            "taxonomic_span_id": "10239",
             "alternate_names": [],
             "publications": []
         },
@@ -5640,6 +5795,30 @@
                 "sun_histone_2019"
             ]
         },
+        "Nucleosomal": {
+            "level": "variant_group",
+            "description": {
+                "summary": "Nucleosomal histones form structures similar to eukaryotic nucleosomes (including archaeal hypernucleosomes) by wrapping around DNA.",
+                "taxonomy": "null",
+                "genes": "null",
+                "evolution": "null",
+                "expression": "null",
+                "knock-out": "null",
+                "function": "null",
+                "sequence": "null",
+                "localization": "null",
+                "deposition": "null",
+                "structure": "null",
+                "interactions": "null",
+                "disease": "null",
+                "caveats": "null",
+                "relations": "null"
+            },
+            "taxonomic_span": "Archaea, Bacteria",
+            "taxonomic_span_id": "2157, 2",
+            "alternate_names": [],
+            "publications": []
+        },
         "OO_H1.8": {
             "level": "variant_group",
             "description": {
@@ -5669,6 +5848,30 @@
             "publications": [
                 "22650316"
             ]
+        },
+        "Quadruplet": {
+            "level": "type",
+            "description": {
+                "summary": "Quadruplet is one of the histone types present in Viruses. Quadruplets are histone proteins in which four histone-fold domains (structural motifs responsible for DNA binding) are fused into a single gene. These domains are arranged sequentially (\"back-to-back\") and linked by a flexible peptide connector. ",
+                "taxonomy": "null",
+                "genes": "null",
+                "evolution": "null",
+                "expression": "null",
+                "knock-out": "null",
+                "function": "null",
+                "sequence": "null",
+                "localization": "null",
+                "deposition": "null",
+                "structure": "null",
+                "interactions": "null",
+                "disease": "null",
+                "caveats": "null",
+                "relations": "null"
+            },
+            "taxonomic_span": "Viruses",
+            "taxonomic_span_id": "10239",
+            "alternate_names": [],
+            "publications": []
         },
         "scH1": {
             "level": "variant_group",
@@ -5728,6 +5931,30 @@
                 "molaro_evolutionary_2018"
             ]
         },
+        "Singlet": {
+            "level": "type",
+            "description": {
+                "summary": "Singlet is one of the histone types present in Archaea, Bacteria and Viruses.",
+                "taxonomy": "null",
+                "genes": "null",
+                "evolution": "null",
+                "expression": "null",
+                "knock-out": "null",
+                "function": "null",
+                "sequence": "null",
+                "localization": "null",
+                "deposition": "null",
+                "structure": "null",
+                "interactions": "null",
+                "disease": "null",
+                "caveats": "null",
+                "relations": "null"
+            },
+            "taxonomic_span": "Archaea, Bacteria, Viruses",
+            "taxonomic_span_id": "2157, 2, 10239",
+            "alternate_names": [],
+            "publications": []
+        },
         "sperm_H2B_(Echinoidea)": {
             "level": "variant_group",
             "description": {
@@ -5755,6 +5982,30 @@
                 "oliver_conservative_2003",
                 "strickland_complete_1978"
             ]
+        },
+        "Triplet": {
+            "level": "type",
+            "description": {
+                "summary": "Triplet is one of the histone types present in Viruses. Triplets are histone proteins in which tree histone-fold domains (structural motifs responsible for DNA binding) are fused into a single gene. These domains are arranged sequentially (\"back-to-back\") and linked by a flexible peptide connector. ",
+                "taxonomy": "null",
+                "genes": "null",
+                "evolution": "null",
+                "expression": "null",
+                "knock-out": "null",
+                "function": "null",
+                "sequence": "null",
+                "localization": "null",
+                "deposition": "null",
+                "structure": "null",
+                "interactions": "null",
+                "disease": "null",
+                "caveats": "null",
+                "relations": "null"
+            },
+            "taxonomic_span": "Viruses",
+            "taxonomic_span_id": "10239",
+            "alternate_names": [],
+            "publications": []
         },
         "TS H3.10": {
             "level": "variant",
