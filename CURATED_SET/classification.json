@@ -1,6 +1,5 @@
 {
     "tree": {
-        "Archaeal": "null",
         "Doublet": "null",
         "H1": {
             "cH1": "null",
@@ -285,40 +284,23 @@
         "Quadruplet": "null",
         "Singlet": {
             "Bacterial dimers": "null",
-            "Bridge": "null",
-            "Capstone": "null",
+            "Bridge": {
+                "Bridge_(Methanococcales)": "null",
+                "Coiled-coil": "null",
+                "Phage-histones": "null",
+                "RdgC-histones": "null"
+            },
+            "Capstone": {
+                "Capstones_(Methanobrevibacter)": "null",
+                "Capstone_(Methanosphaera)": "null"
+            },
             "FtF": "null",
             "H1-like_(Viruses)": "null",
             "Nucleosomal": "null"
         },
-        "Triplet": "null",
-        "Viral": "null"
+        "Triplet": "null"
     },
     "info": {
-        "Archaeal": {
-            "level": "type",
-            "description": {
-                "summary": "null",
-                "taxonomy": "null",
-                "genes": "null",
-                "evolution": "null",
-                "expression": "null",
-                "knock-out": "null",
-                "function": "null",
-                "sequence": "null",
-                "localization": "null",
-                "deposition": "null",
-                "structure": "null",
-                "interactions": "null",
-                "disease": "null",
-                "caveats": "null",
-                "relations": "null"
-            },
-            "taxonomic_span": "null",
-            "taxonomic_span_id": "null",
-            "alternate_names": [],
-            "publications": []
-        },
         "Bacterial dimers": {
             "level": "variant_group",
             "description": {
@@ -346,7 +328,7 @@
         "Bridge": {
             "level": "variant_group",
             "description": {
-                "summary": "DNA-bridge histones binds two strands of DNA together to form bridges.",
+                "summary": "DNA-bridge histones binds two strands of DNA together to form bridges. In contrast to classical histones, these variants do not wrap around DNA, but rather stabilize long-range interactions, thereby contributing to the three-dimensional organization of the genome [schwab_histones_2024].",
                 "taxonomy": "null",
                 "genes": "null",
                 "evolution": "null",
@@ -364,6 +346,30 @@
             },
             "taxonomic_span": "Archaea, Bacteria, Viruses",
             "taxonomic_span_id": "2157, 2, 10239",
+            "alternate_names": [],
+            "publications": []
+        },
+        "Bridge_(Methanococcales)": {
+            "level": "variant",
+            "description": {
+                "summary": "Bridge_(Methanococcales) are specialized DNA-bridging histones exclusive to archaea of the order Methanococcales. These histones were predicted and confirmed by AlphaFold2 and crystallography (e.g., MJ1647 from Methanocaldococcus jannaschii, PDB: 8BDK) [schwab_histones_2024, Ofer_dna-bridging_2023]. These histones possess a distinctive C-terminal domain that facilitates tetramerization and the formation of bridges between DNA strands. The conservation of residues such as R45 and K49 on the \u03b11-helix, which bind to DNA, along with the absence of tails, suggests adaptation to hyperthermophilic conditions [schwab_histones_2024].",
+                "taxonomy": "null",
+                "genes": "null",
+                "evolution": "null",
+                "expression": "null",
+                "knock-out": "null",
+                "function": "null",
+                "sequence": "null",
+                "localization": "null",
+                "deposition": "null",
+                "structure": "null",
+                "interactions": "null",
+                "disease": "null",
+                "caveats": "null",
+                "relations": "null"
+            },
+            "taxonomic_span": "Methanococcales",
+            "taxonomic_span_id": "2182",
             "alternate_names": [],
             "publications": []
         },
@@ -386,8 +392,56 @@
                 "caveats": "null",
                 "relations": "null"
             },
-            "taxonomic_span": "Archaea, Bacteria, Viruses",
-            "taxonomic_span_id": "2157, 2, 10239",
+            "taxonomic_span": "Archaea",
+            "taxonomic_span_id": "2157",
+            "alternate_names": [],
+            "publications": []
+        },
+        "Capstones_(Methanobrevibacter)": {
+            "level": "variant",
+            "description": {
+                "summary": "Capostones found in Methanobrevibacter and contain a negatively amino acid in a specific position have been identified as crucial for tetramer formation [marc_archaeal_2002].",
+                "taxonomy": "null",
+                "genes": "null",
+                "evolution": "null",
+                "expression": "null",
+                "knock-out": "null",
+                "function": "null",
+                "sequence": "null",
+                "localization": "null",
+                "deposition": "null",
+                "structure": "null",
+                "interactions": "null",
+                "disease": "null",
+                "caveats": "null",
+                "relations": "null"
+            },
+            "taxonomic_span": "Methanobrevibacter",
+            "taxonomic_span_id": "2172 ",
+            "alternate_names": [],
+            "publications": []
+        },
+        "Capstone_(Methanosphaera)": {
+            "level": "variant",
+            "description": {
+                "summary": "Capostones found in Methanosphaera that contain a hydrophobic amino acid in a specific position have been identified as crucial for tetramer formation [marc_archaeal_2002].",
+                "taxonomy": "null",
+                "genes": "null",
+                "evolution": "null",
+                "expression": "null",
+                "knock-out": "null",
+                "function": "null",
+                "sequence": "null",
+                "localization": "null",
+                "deposition": "null",
+                "structure": "null",
+                "interactions": "null",
+                "disease": "null",
+                "caveats": "null",
+                "relations": "null"
+            },
+            "taxonomic_span": "Methanosphaera",
+            "taxonomic_span_id": "2316",
             "alternate_names": [],
             "publications": []
         },
@@ -2337,6 +2391,30 @@
             },
             "taxonomic_span": "Homo sapiens",
             "taxonomic_span_id": "9606",
+            "alternate_names": [],
+            "publications": []
+        },
+        "Coiled-coil": {
+            "level": "variant",
+            "description": {
+                "summary": "Coiled-coil (CC) histones are a type of histones that have been identified bioinformatically in archaea [schwab_histones_2024]. These histones contain a long \u03b1-helix at their C-terminus, which forms a coiled-coil bundle within a tetrameric structure. Predicted by AlphaFold2, they bind two DNA strands through dimers, demonstrating bridging activity. Experimental observations have revealed that the DNA bridging activity of CC histones increases in a concentration-dependent manner, with higher concentrations of CC histones (referred to as HMfC) from M. fervidus resulting in greater activity [schwab_histones_2024]. CC histones are distinguished by the presence of conserved positively charged residues (R32, K35) on the \u03b11-helix, which facilitate interaction with DNA [schwab_histones_2024].",
+                "taxonomy": "null",
+                "genes": "null",
+                "evolution": "null",
+                "expression": "null",
+                "knock-out": "null",
+                "function": "null",
+                "sequence": "null",
+                "localization": "null",
+                "deposition": "null",
+                "structure": "null",
+                "interactions": "null",
+                "disease": "null",
+                "caveats": "null",
+                "relations": "null"
+            },
+            "taxonomic_span": "Archaea",
+            "taxonomic_span_id": "2157",
             "alternate_names": [],
             "publications": []
         },
@@ -5814,8 +5892,8 @@
                 "caveats": "null",
                 "relations": "null"
             },
-            "taxonomic_span": "Archaea, Bacteria",
-            "taxonomic_span_id": "2157, 2",
+            "taxonomic_span": "Archaea",
+            "taxonomic_span_id": "2157",
             "alternate_names": [],
             "publications": []
         },
@@ -5849,6 +5927,30 @@
                 "22650316"
             ]
         },
+        "Phage-histones": {
+            "level": "variant",
+            "description": {
+                "summary": "Phage histones are histones identified in DNA-containing bacteriophages (e.g., order Caudovirales) and in some bacterial metagenomes (might be a prophage) using using bioinformatic methods including AlphaFold2 structure prediction, sequence clustering (CLANS) and hidden Markov models (HMM) [schwab_histones_2024]. They contain a histone fold domain at the N-terminus and an \u03b1-helical domain at the C-terminus for tetramerization. Phage histones are involved in viral DNA packaging but do not form nucleosomes like eukaryotic histones, it might bridge DNA through C-terminal domain [schwab_histones_2024]. Notably, these histones exhibit low sequence conservation, yet they retain critical DNA-binding residues, such as K10 and K49, which are pivotal for their function [schwab_histones_2024].",
+                "taxonomy": "null",
+                "genes": "null",
+                "evolution": "null",
+                "expression": "null",
+                "knock-out": "null",
+                "function": "null",
+                "sequence": "null",
+                "localization": "null",
+                "deposition": "null",
+                "structure": "null",
+                "interactions": "null",
+                "disease": "null",
+                "caveats": "null",
+                "relations": "null"
+            },
+            "taxonomic_span": "Bacteria (?), Viruses",
+            "taxonomic_span_id": "2 (?), 10239",
+            "alternate_names": [],
+            "publications": []
+        },
         "Quadruplet": {
             "level": "type",
             "description": {
@@ -5870,6 +5972,30 @@
             },
             "taxonomic_span": "Viruses",
             "taxonomic_span_id": "10239",
+            "alternate_names": [],
+            "publications": []
+        },
+        "RdgC-histones": {
+            "level": "variant",
+            "description": {
+                "summary": "RdgC histones have been identified in certain Bacillus and Halobacteria species through bioinformatic methods including AlphaFold2 structure prediction, sequence clustering (CLANS) and hidden Markov models (HMM) [schwab_histones_2024]. These histones are functionally related to DNA recombination and interaction with proteins (e.g., RecA). RdgC histones are encoded in operons together with RdgC-like proteins and transmembrane domains, suggesting a role in specialized processes other than classical DNA compacting. Despite the low sequence identity, the key DNA-binding residues (e.g., K34) on the \u03b11-helix are retained, thereby confirming their classification within the histone superfamily [schwab_histones_2024].",
+                "taxonomy": "null",
+                "genes": "null",
+                "evolution": "null",
+                "expression": "null",
+                "knock-out": "null",
+                "function": "null",
+                "sequence": "null",
+                "localization": "null",
+                "deposition": "null",
+                "structure": "null",
+                "interactions": "null",
+                "disease": "null",
+                "caveats": "null",
+                "relations": "null"
+            },
+            "taxonomic_span": "Bacteria",
+            "taxonomic_span_id": "2",
             "alternate_names": [],
             "publications": []
         },
@@ -6120,30 +6246,6 @@
             "publications": [
                 "22650316"
             ]
-        },
-        "Viral": {
-            "level": "type",
-            "description": {
-                "summary": "null",
-                "taxonomy": "null",
-                "genes": "null",
-                "evolution": "null",
-                "expression": "null",
-                "knock-out": "null",
-                "function": "null",
-                "sequence": "null",
-                "localization": "null",
-                "deposition": "null",
-                "structure": "null",
-                "interactions": "null",
-                "disease": "null",
-                "caveats": "null",
-                "relations": "null"
-            },
-            "taxonomic_span": "null",
-            "taxonomic_span_id": "null",
-            "alternate_names": [],
-            "publications": []
         }
     }
 }
