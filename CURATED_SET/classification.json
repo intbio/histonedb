@@ -294,7 +294,20 @@
             },
             "FtF": "null",
             "H1-like_(Viruses)": "null",
-            "Nucleosomal": "null"
+            "Nucleosomal": {
+                "HMfA_(Methanobacteriales)": {
+                    "HMfA_(Methanothermus_fervidus)": "null"
+                },
+                "HMfB_(Methanobacteriales)": {
+                    "HMfB_(Methanothermus_fervidus)": "null"
+                },
+                "HTkA_(Thermococcales)": {
+                    "HTkA_(Thermococcus_kodakarensis)": "null"
+                },
+                "HTkB_(Thermococcales)": {
+                    "HTkB_(Thermococcus_kodakarensis)": "null"
+                }
+            }
         },
         "Doublet": "null",
         "Triplet": "null",
@@ -5597,6 +5610,198 @@
             },
             "taxonomic_span": "null",
             "taxonomic_span_id": "null",
+            "alternate_names": [],
+            "publications": []
+        },
+        "HMfA_(Methanobacteriales)": {
+            "level": "variant",
+            "description": {
+                "summary": "HMfA_(Methanobacteriales) is a group of histones from various species of Methanobacteriales. These histones are homologs for the HMfA histone of Methanothermus fervidus [stevens_histone_2020].",
+                "taxonomy": "null",
+                "genes": "null",
+                "evolution": "null",
+                "expression": "null",
+                "knock-out": "null",
+                "function": "null",
+                "sequence": "null",
+                "localization": "null",
+                "deposition": "null",
+                "structure": "null",
+                "interactions": "null",
+                "disease": "null",
+                "caveats": "null",
+                "relations": "null"
+            },
+            "taxonomic_span": "Methanobacteriales",
+            "taxonomic_span_id": "2158",
+            "alternate_names": [],
+            "publications": []
+        },
+        "HMfA_(Methanothermus_fervidus)": {
+            "level": "variant",
+            "description": {
+                "summary": "HMfA_(Methanothermus_fervidus) are histones encoded by the HMfA gene of Methanothermus fervidus [stevens_histone_2020].",
+                "taxonomy": "null",
+                "genes": "null",
+                "evolution": "null",
+                "expression": "null",
+                "knock-out": "null",
+                "function": "null",
+                "sequence": "null",
+                "localization": "null",
+                "deposition": "null",
+                "structure": "null",
+                "interactions": "null",
+                "disease": "null",
+                "caveats": "null",
+                "relations": "null"
+            },
+            "taxonomic_span": "Methanothermus fervidus DSM 2088",
+            "taxonomic_span_id": "523846",
+            "alternate_names": [],
+            "publications": []
+        },
+        "HMfB_(Methanobacteriales)": {
+            "level": "variant",
+            "description": {
+                "summary": "HMfB_(Methanobacteriales) is a group of histones from various species of Methanobacteriales. These histones are homologs for the HMfB histone of Methanothermus fervidus [stevens_histone_2020].",
+                "taxonomy": "null",
+                "genes": "null",
+                "evolution": "null",
+                "expression": "null",
+                "knock-out": "null",
+                "function": "null",
+                "sequence": "null",
+                "localization": "null",
+                "deposition": "null",
+                "structure": "null",
+                "interactions": "null",
+                "disease": "null",
+                "caveats": "null",
+                "relations": "null"
+            },
+            "taxonomic_span": "Methanothermus fervidus",
+            "taxonomic_span_id": "523846",
+            "alternate_names": [],
+            "publications": []
+        },
+        "HMfB_(Methanothermus_fervidus)": {
+            "level": "variant",
+            "description": {
+                "summary": "HMfB_(Methanothermus_fervidus) are histones encoded by the HMfB gene of Methanothermus fervidus [stevens_histone_2020].",
+                "taxonomy": "null",
+                "genes": "null",
+                "evolution": "null",
+                "expression": "null",
+                "knock-out": "null",
+                "function": "null",
+                "sequence": "null",
+                "localization": "null",
+                "deposition": "null",
+                "structure": "null",
+                "interactions": "null",
+                "disease": "null",
+                "caveats": "null",
+                "relations": "null"
+            },
+            "taxonomic_span": "Methanothermus fervidus DSM 2088",
+            "taxonomic_span_id": "523846",
+            "alternate_names": [],
+            "publications": []
+        },
+        "HTkA_(Thermococcales)": {
+            "level": "variant",
+            "description": {
+                "summary": "HTkA_(Thermococcales) is a group of histones from various species of Thermococcales. These histones are homologs for the HTkA histone of Thermococcus kodakarensis [stevens_deep_2022].",
+                "taxonomy": "null",
+                "genes": "null",
+                "evolution": "null",
+                "expression": "null",
+                "knock-out": "null",
+                "function": "null",
+                "sequence": "null",
+                "localization": "null",
+                "deposition": "null",
+                "structure": "null",
+                "interactions": "null",
+                "disease": "null",
+                "caveats": "null",
+                "relations": "null"
+            },
+            "taxonomic_span": "Thermococcales",
+            "taxonomic_span_id": "2258",
+            "alternate_names": [],
+            "publications": []
+        },
+        "HTkA_(Thermococcus_kodakarensis)": {
+            "level": "variant",
+            "description": {
+                "summary": "HTkA_(Thermococcus_kodakarensis) are histones encoded by the HTkA gene of Thermococcus_kodakarensis [stevens_deep_2022].",
+                "taxonomy": "null",
+                "genes": "null",
+                "evolution": "null",
+                "expression": "null",
+                "knock-out": "null",
+                "function": "null",
+                "sequence": "null",
+                "localization": "null",
+                "deposition": "null",
+                "structure": "null",
+                "interactions": "null",
+                "disease": "null",
+                "caveats": "null",
+                "relations": "null"
+            },
+            "taxonomic_span": "Thermococcus kodakarensis",
+            "taxonomic_span_id": "311400 ",
+            "alternate_names": [],
+            "publications": []
+        },
+        "HTkB_(Thermococcales)": {
+            "level": "variant",
+            "description": {
+                "summary": "HTkB_(Thermococcales) is a group of histones from various species of Thermococcales. These histones are homologs for the HTkB histone of Thermococcus kodakarensis [stevens_deep_2022].",
+                "taxonomy": "null",
+                "genes": "null",
+                "evolution": "null",
+                "expression": "null",
+                "knock-out": "null",
+                "function": "null",
+                "sequence": "null",
+                "localization": "null",
+                "deposition": "null",
+                "structure": "null",
+                "interactions": "null",
+                "disease": "null",
+                "caveats": "null",
+                "relations": "null"
+            },
+            "taxonomic_span": "Thermococcales",
+            "taxonomic_span_id": "2258",
+            "alternate_names": [],
+            "publications": []
+        },
+        "HTkB_(Thermococcus_kodakarensis)": {
+            "level": "variant",
+            "description": {
+                "summary": "HTkB_(Thermococcus_kodakarensis) are histones encoded by the HTkB gene of Thermococcus kodakarensis [stevens_deep_2022].",
+                "taxonomy": "null",
+                "genes": "null",
+                "evolution": "null",
+                "expression": "null",
+                "knock-out": "null",
+                "function": "null",
+                "sequence": "null",
+                "localization": "null",
+                "deposition": "null",
+                "structure": "null",
+                "interactions": "null",
+                "disease": "null",
+                "caveats": "null",
+                "relations": "null"
+            },
+            "taxonomic_span": "Thermococcus kodakarensis",
+            "taxonomic_span_id": "311400",
             "alternate_names": [],
             "publications": []
         },
