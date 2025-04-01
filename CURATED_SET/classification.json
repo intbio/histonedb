@@ -281,17 +281,17 @@
             "TS_H1.9": "null"
         },
         "Singlet": {
-            "Bacterial dimers": "null",
-            "Bridge": {
+            "Capstone": {
+                "Capstones_(Methanobrevibacter)": "null",
+                "Capstone_(Methanosphaera)": "null"
+            },
+            "DNA_bridging": {
                 "Bridge_(Methanococcales)": "null",
                 "Coiled-coil": "null",
                 "Phage-histones": "null",
                 "RdgC-histones": "null"
             },
-            "Capstone": {
-                "Capstones_(Methanobrevibacter)": "null",
-                "Capstone_(Methanosphaera)": "null"
-            },
+            "Filament_forming": "null",
             "FtF": "null",
             "H1-like_(Viruses)": "null",
             "Nucleosomal": {
@@ -314,54 +314,6 @@
         "Quadruplet": "null"
     },
     "info": {
-        "Bacterial dimers": {
-            "level": "variant_group",
-            "description": {
-                "summary": "Bacterial dimers have been defined as a group of bacterial histones capable of binding to DNA in order to form nucleohistone filaments. These histones have the capacity to dimerise, yet do not form tetramers. For the bacterial singlet Bd0055, which is highly expressed, a crystallographic structure was obtained in which one monomer is covalently linked to its partner via double symmetry [hocher_histones_2023]. This group of bacterial histones also includes histones predicted using AlphaFold2 and CLANS clustering, which are characterised by a shortened \u03b13-helix and form stable dimers but do not form tetramers due to the absence of conserved residues, similar to Bd0055 [schwab_histones_2024].",
-                "taxonomy": "null",
-                "genes": "null",
-                "evolution": "null",
-                "expression": "null",
-                "knock-out": "null",
-                "function": "null",
-                "sequence": "null",
-                "localization": "null",
-                "deposition": "null",
-                "structure": "null",
-                "interactions": "null",
-                "disease": "null",
-                "caveats": "null",
-                "relations": "null"
-            },
-            "taxonomic_span": "Bacteria",
-            "taxonomic_span_id": "2",
-            "alternate_names": [],
-            "publications": []
-        },
-        "Bridge": {
-            "level": "variant_group",
-            "description": {
-                "summary": "DNA-bridge histones binds two strands of DNA together to form bridges. In contrast to classical histones, these variants do not wrap around DNA, but rather stabilize long-range interactions, thereby contributing to the three-dimensional organization of the genome [schwab_histones_2024].",
-                "taxonomy": "null",
-                "genes": "null",
-                "evolution": "null",
-                "expression": "null",
-                "knock-out": "null",
-                "function": "null",
-                "sequence": "null",
-                "localization": "null",
-                "deposition": "null",
-                "structure": "null",
-                "interactions": "null",
-                "disease": "null",
-                "caveats": "null",
-                "relations": "null"
-            },
-            "taxonomic_span": "Archaea, Bacteria, Viruses",
-            "taxonomic_span_id": "2157, 2, 10239",
-            "alternate_names": [],
-            "publications": []
-        },
         "Bridge_(Methanococcales)": {
             "level": "variant",
             "description": {
@@ -2462,6 +2414,30 @@
                 "oliver_conservative_2003"
             ]
         },
+        "DNA_bridging": {
+            "level": "variant_group",
+            "description": {
+                "summary": "DNA-bridge histones binds two strands of DNA together to form bridges. In contrast to classical histones, these variants do not wrap around DNA, but rather stabilize long-range interactions, thereby contributing to the three-dimensional organization of the genome [schwab_histones_2024].",
+                "taxonomy": "null",
+                "genes": "null",
+                "evolution": "null",
+                "expression": "null",
+                "knock-out": "null",
+                "function": "null",
+                "sequence": "null",
+                "localization": "null",
+                "deposition": "null",
+                "structure": "null",
+                "interactions": "null",
+                "disease": "null",
+                "caveats": "null",
+                "relations": "null"
+            },
+            "taxonomic_span": "Archaea, Bacteria, Viruses",
+            "taxonomic_span_id": "2157, 2, 10239",
+            "alternate_names": [],
+            "publications": []
+        },
         "Doublet": {
             "level": "type",
             "description": {
@@ -2512,6 +2488,30 @@
                 "mandl_five_1997",
                 "oliver_conservative_2003"
             ]
+        },
+        "Filament_forming": {
+            "level": "variant_group",
+            "description": {
+                "summary": "Bacterial dimers have been defined as a group of bacterial histones capable of binding to DNA in order to form nucleohistone filaments. These histones have the capacity to dimerise, yet do not form tetramers. For the bacterial singlet Bd0055, which is highly expressed, a crystallographic structure was obtained in which one monomer is covalently linked to its partner via double symmetry [hocher_histones_2023]. This group of bacterial histones also includes histones predicted using AlphaFold2 and CLANS clustering, which are characterised by a shortened \u03b13-helix and form stable dimers but do not form tetramers due to the absence of conserved residues, similar to Bd0055 [schwab_histones_2024].",
+                "taxonomy": "null",
+                "genes": "null",
+                "evolution": "null",
+                "expression": "null",
+                "knock-out": "null",
+                "function": "null",
+                "sequence": "null",
+                "localization": "null",
+                "deposition": "null",
+                "structure": "null",
+                "interactions": "null",
+                "disease": "null",
+                "caveats": "null",
+                "relations": "null"
+            },
+            "taxonomic_span": "Bacteria",
+            "taxonomic_span_id": "2",
+            "alternate_names": [],
+            "publications": []
         },
         "FtF": {
             "level": "variant_group",
