@@ -1,21 +1,14 @@
 ##gff-version 3
-##sequence-region Consensus 1 610
-Consensus	feature	misc	74	547	.	.	.	Color=#DDD;Name=core
-Consensus	feature	helix	74	119	.	.	.	Color=#F77;Name=alpha1ext
-Consensus	feature	helix	150	239	.	.	.	Color=#F77;Name=alpha1
-Consensus	feature	helix	279	355	.	.	.	Color=#F77;Name=alpha2
-Consensus	feature	helix	366	405	.	.	.	Color=#F77;Name=alpha3
-Consensus	feature	misc	410	438	.	.	.	Color=#DDD;Name=alpha3ext
-Consensus	feature	loop	241	271	.	.	.	Color=#FF4;Name=loopL1
-Consensus	feature	loop	358	365	.	.	.	Color=#FF4;Name=loopL2
-Consensus	feature	sheet	259	264	.	.	.	Color=#1B3;Name=beta1
-Consensus	feature	sheet	365	365	.	.	.	Color=#1B3;Name=beta2
-Consensus	feature	sheet	446	448	.	.	.	Color=#1B3;Name=beta3
-Consensus	feature	misc	366	547	.	.	.	Color=#DDD;Name=docking_domain
-Consensus	feature	frameblock	259	259	.	.	.	Color=#FA3;Name=mgarg1
-Consensus	feature	frameblock	326	326	.	.	.	Color=#FA3;Name=acidicpatch1
-Consensus	feature	frameblock	344	344	.	.	.	Color=#FA3;Name=acidicpatch2
-Consensus	feature	frameblock	347	347	.	.	.	Color=#FA3;Name=acidicpatch3
-Consensus	feature	frameblock	410	410	.	.	.	Color=#FA3;Name=acidicpatch4
-Consensus	feature	frameblock	416	416	.	.	.	Color=#FA3;Name=acidicpatch5
-Consensus	feature	frameblock	417	417	.	.	.	Color=#FA3;Name=acidicpatch6
+##sequence-region Consensus 1 690
+Consensus	feature	misc	132	666	.	.	.	Color=#DDD;Name=core
+Consensus	feature	helix	159	258	.	.	.	Color=#F77;Name=alphaN
+Consensus	feature	helix	304	350	.	.	.	Color=#F77;Name=alpha1
+Consensus	feature	helix	392	576	.	.	.	Color=#F77;Name=alpha2
+Consensus	feature	helix	587	663	.	.	.	Color=#F77;Name=alpha3
+Consensus	feature	loop	355	383	.	.	.	Color=#FF4;Name=loopL1
+Consensus	feature	loop	577	582	.	.	.	Color=#FF4;Name=loopL2
+Consensus	feature	sheet	376	383	.	.	.	Color=#1B3;Name=beta1
+Consensus	feature	sheet	582	582	.	.	.	Color=#1B3;Name=beta2
+Consensus	feature	frameblock	304	304	.	.	.	Color=#FA3;Name=mgarg1
+Consensus	feature	frameblock	376	376	.	.	.	Color=#FA3;Name=mgarg2
+Consensus	feature	frameblock	181	181	.	.	.	Color=#FA3;Name=mgarg3
