@@ -294,6 +294,10 @@
             "Filament_forming": "null",
             "FtF": "null",
             "H1-like_(Viruses)": "null",
+            "H2A-like_(Viruses)": "null",
+            "H2B-like_(Viruses)": "null",
+            "H3-like_(Viruses)": "null",
+            "H4-like_(Viruses)": "null",
             "Nucleosomal": {
                 "HMfA_(Methanobacteriales)": {
                     "HMfA_(Methanothermus_fervidus)": "null"
@@ -309,9 +313,19 @@
                 }
             }
         },
-        "Doublet": "null",
-        "Triplet": "null",
-        "Quadruplet": "null"
+        "Doublet": {
+            "H2A-H2B-like_(Viruses)": "null",
+            "H2B-H2A-like_(Viruses)": "null",
+            "H4-H3-like_(Viruses)": "null"
+        },
+        "Triplet": {
+            "H2B-H2A-H3-like_(Viruses)": "null"
+        },
+        "Quadruplet": {
+            "H2B-H2A-H3-H4-like_(Viruses)": "null",
+            "H2B-H2A-H4-H3-like_(Viruses)": "null",
+            "H4-H3-H2B-H2A-like_(Viruses)": "null"
+        }
     },
     "info": {
         "Bridge_(Methanococcales)": {
@@ -3145,6 +3159,54 @@
                 "malik_phylogenomics_2003"
             ]
         },
+        "H2A-H2B-like_(Viruses)": {
+            "level": "variant",
+            "description": {
+                "summary": "null",
+                "taxonomy": "null",
+                "genes": "null",
+                "evolution": "null",
+                "expression": "null",
+                "knock-out": "null",
+                "function": "null",
+                "sequence": "null",
+                "localization": "null",
+                "deposition": "null",
+                "structure": "null",
+                "interactions": "null",
+                "disease": "null",
+                "caveats": "null",
+                "relations": "null"
+            },
+            "taxonomic_span": "Viruses",
+            "taxonomic_span_id": "10239",
+            "alternate_names": [],
+            "publications": []
+        },
+        "H2A-like_(Viruses)": {
+            "level": "variant",
+            "description": {
+                "summary": "null",
+                "taxonomy": "null",
+                "genes": "null",
+                "evolution": "null",
+                "expression": "null",
+                "knock-out": "null",
+                "function": "null",
+                "sequence": "null",
+                "localization": "null",
+                "deposition": "null",
+                "structure": "null",
+                "interactions": "null",
+                "disease": "null",
+                "caveats": "null",
+                "relations": "null"
+            },
+            "taxonomic_span": "Viruses",
+            "taxonomic_span_id": "10239",
+            "alternate_names": [],
+            "publications": []
+        },
         "H2A.B.1_(Homo_sapiens)": {
             "level": "variant",
             "description": {
@@ -4470,6 +4532,126 @@
                 "malik_phylogenomics_2003"
             ]
         },
+        "H2B-H2A-H3-H4-like_(Viruses)": {
+            "level": "variant",
+            "description": {
+                "summary": "null",
+                "taxonomy": "null",
+                "genes": "null",
+                "evolution": "null",
+                "expression": "null",
+                "knock-out": "null",
+                "function": "null",
+                "sequence": "null",
+                "localization": "null",
+                "deposition": "null",
+                "structure": "null",
+                "interactions": "null",
+                "disease": "null",
+                "caveats": "null",
+                "relations": "null"
+            },
+            "taxonomic_span": "Viruses",
+            "taxonomic_span_id": "10239",
+            "alternate_names": [],
+            "publications": []
+        },
+        "H2B-H2A-H3-like_(Viruses)": {
+            "level": "variant",
+            "description": {
+                "summary": "null",
+                "taxonomy": "null",
+                "genes": "null",
+                "evolution": "null",
+                "expression": "null",
+                "knock-out": "null",
+                "function": "null",
+                "sequence": "null",
+                "localization": "null",
+                "deposition": "null",
+                "structure": "null",
+                "interactions": "null",
+                "disease": "null",
+                "caveats": "null",
+                "relations": "null"
+            },
+            "taxonomic_span": "Viruses",
+            "taxonomic_span_id": "10239",
+            "alternate_names": [],
+            "publications": []
+        },
+        "H2B-H2A-H4-H3-like_(Viruses)": {
+            "level": "variant",
+            "description": {
+                "summary": "null",
+                "taxonomy": "null",
+                "genes": "null",
+                "evolution": "null",
+                "expression": "null",
+                "knock-out": "null",
+                "function": "null",
+                "sequence": "null",
+                "localization": "null",
+                "deposition": "null",
+                "structure": "null",
+                "interactions": "null",
+                "disease": "null",
+                "caveats": "null",
+                "relations": "null"
+            },
+            "taxonomic_span": "Viruses",
+            "taxonomic_span_id": "10239",
+            "alternate_names": [],
+            "publications": []
+        },
+        "H2B-H2A-like_(Viruses)": {
+            "level": "variant",
+            "description": {
+                "summary": "null",
+                "taxonomy": "null",
+                "genes": "null",
+                "evolution": "null",
+                "expression": "null",
+                "knock-out": "null",
+                "function": "null",
+                "sequence": "null",
+                "localization": "null",
+                "deposition": "null",
+                "structure": "null",
+                "interactions": "null",
+                "disease": "null",
+                "caveats": "null",
+                "relations": "null"
+            },
+            "taxonomic_span": "Viruses",
+            "taxonomic_span_id": "10239",
+            "alternate_names": [],
+            "publications": []
+        },
+        "H2B-like_(Viruses)": {
+            "level": "variant",
+            "description": {
+                "summary": "null",
+                "taxonomy": "null",
+                "genes": "null",
+                "evolution": "null",
+                "expression": "null",
+                "knock-out": "null",
+                "function": "null",
+                "sequence": "null",
+                "localization": "null",
+                "deposition": "null",
+                "structure": "null",
+                "interactions": "null",
+                "disease": "null",
+                "caveats": "null",
+                "relations": "null"
+            },
+            "taxonomic_span": "Viruses",
+            "taxonomic_span_id": "10239",
+            "alternate_names": [],
+            "publications": []
+        },
         "H2B.K": {
             "level": "variant_group",
             "description": {
@@ -4913,6 +5095,30 @@
             "publications": [
                 "malik_phylogenomics_2003"
             ]
+        },
+        "H3-like_(Viruses)": {
+            "level": "variant",
+            "description": {
+                "summary": "null",
+                "taxonomy": "null",
+                "genes": "null",
+                "evolution": "null",
+                "expression": "null",
+                "knock-out": "null",
+                "function": "null",
+                "sequence": "null",
+                "localization": "null",
+                "deposition": "null",
+                "structure": "null",
+                "interactions": "null",
+                "disease": "null",
+                "caveats": "null",
+                "relations": "null"
+            },
+            "taxonomic_span": "Viruses",
+            "taxonomic_span_id": "10239",
+            "alternate_names": [],
+            "publications": []
         },
         "H3.1-like_(Plants)": {
             "level": "variant_group",
@@ -5610,6 +5816,78 @@
             },
             "taxonomic_span": "null",
             "taxonomic_span_id": "null",
+            "alternate_names": [],
+            "publications": []
+        },
+        "H4-H3-H2B-H2A-like_(Viruses)": {
+            "level": "variant",
+            "description": {
+                "summary": "null",
+                "taxonomy": "null",
+                "genes": "null",
+                "evolution": "null",
+                "expression": "null",
+                "knock-out": "null",
+                "function": "null",
+                "sequence": "null",
+                "localization": "null",
+                "deposition": "null",
+                "structure": "null",
+                "interactions": "null",
+                "disease": "null",
+                "caveats": "null",
+                "relations": "null"
+            },
+            "taxonomic_span": "Viruses",
+            "taxonomic_span_id": "10239",
+            "alternate_names": [],
+            "publications": []
+        },
+        "H4-H3-like_(Viruses)": {
+            "level": "variant",
+            "description": {
+                "summary": "null",
+                "taxonomy": "null",
+                "genes": "null",
+                "evolution": "null",
+                "expression": "null",
+                "knock-out": "null",
+                "function": "null",
+                "sequence": "null",
+                "localization": "null",
+                "deposition": "null",
+                "structure": "null",
+                "interactions": "null",
+                "disease": "null",
+                "caveats": "null",
+                "relations": "null"
+            },
+            "taxonomic_span": "Viruses",
+            "taxonomic_span_id": "10239",
+            "alternate_names": [],
+            "publications": []
+        },
+        "H4-like_(Viruses)": {
+            "level": "variant",
+            "description": {
+                "summary": "null",
+                "taxonomy": "null",
+                "genes": "null",
+                "evolution": "null",
+                "expression": "null",
+                "knock-out": "null",
+                "function": "null",
+                "sequence": "null",
+                "localization": "null",
+                "deposition": "null",
+                "structure": "null",
+                "interactions": "null",
+                "disease": "null",
+                "caveats": "null",
+                "relations": "null"
+            },
+            "taxonomic_span": "Viruses",
+            "taxonomic_span_id": "10239",
             "alternate_names": [],
             "publications": []
         },
