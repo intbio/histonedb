@@ -92,6 +92,7 @@ class HistonedbPredictor():
                 classifier.dump_results(file_name=os.path.join(self.config['DUMPS']['prediction_dumps'], f'dump_{db_file}_{i}'))
         else:
             log.info('I am here')
+            print(os.path.join(self.config['PREDICTION']['directory'], db_file))
             res = classifier.predict(sequences=os.path.join(self.config['PREDICTION']['directory'], db_file))
             classifier.dump_results(file_name=os.path.join(self.config['DUMPS']['prediction_dumps'], f'dump_{db_file}'))
 

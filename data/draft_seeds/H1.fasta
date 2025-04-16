@@ -1,0 +1,570 @@
+>generic_H1_Drosophila_melanogaster_AAZ66580.1 organism=Drosophila melanogaster phylum=Arthropoda class=Insecta
+---------MSDSAVATSASPVAAPPATV------------------EKKVVQKKASGSA
+GTKAKKASAT--PSHPP------------------------TQQMVDASIKNLKERGGSS
+LLAIKKYITATYK--CDAQKLAPFIKKYLKSAVVNGKLIQ---TK-GKGASGSFKLS---
+ASA---------KKEKDPKAKSKVLSAEKK-VQSKK-VASKKIGVSSKKTAVGAADKK--
+-----------------------------------PKAKKAVAT----------------
+----------------KKTAENKKTEKAKA--KD-------AKKTGIIKS----------
+-------KPAA---TKAKVT--------------AAKPKA-----------VVAKASKAK
+PAVSA-----------KPKKTVKKASVSATAKKPKAKTTAAKK-----------------
+-------
+>generic_H1_Drosophila_melanogaster_NP_650383.2 organism=Drosophila melanogaster phylum=Arthropoda class=Insecta
+MKLKPVERNDGSDDESEEEMPNDHPESEDSNMGEEEELPEEDEEEMEEDEEEDRQDGDEV
+ETDNLGADRNPYPTPPPDDGSKLVPPDSDNPKSMVPKPKGTLISLALMAIGKLASRSGSS
+VQAIMTYLKDNGQEWKDPKKTARLLHRALKLAEANGEVVM---VK-RS-----FKLTDKQ
+KNS---------SKAVEKMKAKKQKEKEKK-AKVEK-VLKEKIQKKEAKAKMKEKKASKE
+K----------------------------------SSKPTERKT----------------
+----------------KQAVKKKKPEDGTKDNPP-------ASKAASSAAAQAMLETSQT
+AIPEAGKKPAK---TKVKLQ--------------ADSSEAGKTKKSRKSIGTLAQPKAAR
+PKVKAVKKLVAGKGASTPDLSIMEAQATSTPQGATKAKRKRKV-----------------
+-------
+>generic_H1_Xenopus_laevis_NP_001081535.1 organism=Xenopus laevis phylum=Chordata class=Amphibia
+---------------MAPKKAVAAPEGGNK-----------------ENAAVKGSSKVKV
+KRKSIKLVKT--QSHPP------------------------TLSMVVEVLKKNTERKGTS
+VQAIRTRILSAHPT-VDPLRLKFLLRTALNKGLEKGILIRPLNSS-ATGATGRFKLAKPV
+KTT---------KAGKENVASENVDPNAEQ-ETQKK-APKKEKKAKTEKEPKGEKTKAVA
+K----------------------------------KAKEDSDEK----------------
+----------------PKVAKSKKAKEAKEVDKA-------NKEAKEVDKANKEAKEVDK
+ANKEV-KEVDK---APAKKP--------------KAKTEAAKAE-------GGGKAKKEP
+PKAKA-----------KDVKAQKDSTDEGAPVKAGKKGKKVTN-----------------
+-------
+>generic_H1_Gallus_gallus_XP_425456.1 organism=Gallus gallus phylum=Chordata class=Aves
+---------------MSETAPVAAPAVSAP---------------------GAKAAAKKP
+KKAAGGAKARK-PAGPS------------------------VTELITKAVSASKERKGLS
+LAALKKALAAGG---YDVEKNNSRIKLGLKSLVSKGTLVQ---TK-GTGASGSFKLN---
+KKP---------GETKEKATKKKPAAKPKK-PA----AKKPAAAAKKPKKAA--------
+-----------------------------------AVKKSPKKA----------------
+----------------KKPAAAA-TKKAAK--SP-------KKATKAGRP----------
+------KKTAK---SPAKAK--------------AVKPKA-------------AKSKAAK
+PKAA------------KAKKAATKKK----------------------------------
+-------
+>generic_H1_Bos_taurus_XP_010816821.1 organism=Bos taurus phylum=Chordata class=Mammalia
+---------------MSEVAL-PAPAASTS-----------------PEKPSAGKKAKKP
+AKAAAAAKKK--PAGPS------------------------VSELIVQAVSSSKERSGVS
+LAALKKALAAAG---YDVEKNNSRIKLGLKSLVGKGTLVQ---TK-GTGASGSFKLN---
+KKV---------ASVDAKPTATKVAT-----------KTKVTSASKKPKKASGAAAAK--
+-----------------------------------KSVKTPKKA----------------
+----------------RKSVLTKKSSK-----SP-------KKP-KAVKP----------
+------KKVAK---SPAKAK--------------AVKPKG-------------AKVKVTK
+PKTAA-----------KPKKAAPKKK----------------------------------
+-------
+>generic_H1_Mus_musculus_NP_056601.1 organism=Mus musculus phylum=Chordata class=Mammalia
+---------------MSEAAP-AAPAAAPP-----------------AEKAPAKKKAAKK
+---PAGVRRK--ASGPP------------------------VSELITKAVAASKERSGVS
+LAALKKALAAAG---YDVEKNNSRIKLGLKSLVSKGILVQ---TK-GTGASGSFKLN---
+KKA---------ASGEAKPQAKKAGA-----AK----AKKPAGAAKKPKKATGAATPK--
+K----------------------------------AAKKTPKKA----------------
+----------------KKPAAAAVTKKVAK--SP-------KKA-KVTKP----------
+------KKVKS---A----------------------SKA-------------VKPKAAK
+PKVA------------KAKKVAAKKK----------------------------------
+-------
+>generic_H1_Mus_musculus_NP_085112.1 organism=Mus musculus phylum=Chordata class=Mammalia
+---------------MSETAP-VAQAASTA-----------------TEKPAAAKKTKKP
+AK-AAAPRKK--PAGPS------------------------VSELIVQAVSSSKERSGVS
+LAALKKSLAAAG---YDVEKNNSRIKLGLKSLVNKGTLVQ---TK-GTGAAGSFKLN---
+------------KKAESKAITTKVSV-----------KAKASGAAKKPKKTAGAAAKK--
+------------------------------------TVKTPKKP----------------
+----------------KKPAVSKKTSK-----SP-------KKP-KVVKA----------
+------KKVAK---SPAKAK--------------AVKPKA-------------SKAKVTK
+PKTPA-----------KPKKAAPKKK----------------------------------
+-------
+>generic_H1_Rattus_norvegicus_NP_579819.1 organism=Rattus norvegicus phylum=Chordata class=Mammalia
+---------------MSETAP-AAPAAPAP-----------------AEKTPIKKKARKA
+---AGGAKRK--ASGPP------------------------VSELITKAVAASKERSGVS
+LAALKKALAAAG---YDVEKNNSRIKLGLKSLVSKGTLVQ---TK-GTGASGSFKLN---
+KKA---------ASGEAKPKAKKAGA-----AK----AKKPAGAAKKPKKATGTATPK--
+K----------------------------------STKKTPKKA----------------
+----------------KKPAAAAGAKKAK---SP-------KKA-KATKA----------
+------KKAPK---SPAKAR--------------AVKPKA-------------AKPKTSK
+PKAA------------KPKKTAAKKK----------------------------------
+-------
+>generic_H1_Strongylocentrotus_purpuratus_NP_999714.1 organism=Strongylocentrotus purpuratus phylum=Echinodermata class=Echinoidea
+---------------MAEKNS------------------------------SKKVTTKKP
+------------AAHPP------------------------AAEMVATAITELKDRNGSS
+LQAIKKYIATNFD--VQMDRQLLFIKRALKSGVEKGKLVQ---TK-GKGASGSFKVN---
+VQA---------AKAQASEKAKKEKEKAKL-LAQRE-KAKEKGCSEEGETAEGSRPKKVK
+A----------------------------------APKKAKKPV----------------
+----------------KKTTEKKEKKKTPKK-AP-------KKP-AAKKS----------
+-------TPKK---TPKKAA--------------AKKPKT-------------AKPKKPA
+XKKAA-----------KSK-----------------------------------------
+-------
+>generic_H1_Strongylocentrotus_purpuratus_NP_999720.1 organism=Strongylocentrotus purpuratus phylum=Echinodermata class=Echinoidea
+---------------MSAAKP------------------------------KVAKKARVA
+------------PAHPP------------------------SSQMVVAAVTALKERGGSS
+TQAIKKYIAANYT--VDMTKQGPFIRRALVKGVASGALVQ---TK-GKGASGSFKL----
+GKK---------KEGKSDAQKARIAAKKAK-LAAKKKEQREKKALKTKARKEKVAAKKAA
+K----------------------------------KATKKTKKV----------------
+----------------KKPAAKKAKKPAAKKPAA-------KKP-AAKKA----------
+------KKPAKKVAKPAKKA--------------AAKP---------------AKKAAKP
+AKKAA-----------KPAKKAAKPAKK--------------------------------
+-------
+>generic_H1_Caenorhabditis_elegans_O17536.3 organism=Caenorhabditis elegans phylum=Nematoda class=Chromadorea
+----MSDVAVAADTTETPAAPTKASKATKA-----------------SKATKASKATKAK
+TTKVPMVKAD--AAHPP------------------------FINMVTEAISSIKDRKGPS
+RAAILKYITTKYTLGDQANKINAHLRKALNKGLESNAFVQ---AS-GNGANGRFRLAE--
+KTA---------SVAKSPAAAKKDATGEKK-ATT---TVAKKAATGEKKATTTVAKKAAT
+G----------------------------------EKKATTTVA----------------
+----------------KKAAAGDKAKK-----TE-------VKVKKVKSP----------
+------KKIAK---SPVNKV--------------TKSPVKKIA--------KSSSMKAAP
+KKAAA-----------KPAKKAPAAAPEA-------------------------------
+-------
+>generic_H1_Arabidopsis_thaliana_NP_172161.1 organism=Arabidopsis thaliana phylum=Streptophyta class=Magnoliopsida
+MSEVEIENAATIEGNTAADAPVTDAAVEKKPAAK-------------GRKTKNVKEVKEK
+KTVAAAPKKRTVSSHPT------------------------YEEMIKDAIVTLKERTGSS
+QYAIQKFIEEKRK--ELPPTFRKLLLLNLKRLVASGKLVK---VK-AS-----FKLPSAS
+AKA---------SSPKAAAEKSAPAKKKPA-TVAVT-KAKRKVAAASKAKKTIAVKPKTA
+A----------------------------------AKKVTAKAK----------------
+----------------AKPVPRATAAATKRKAVD-------AKPKAKARPAKA-------
+------AKTAK-VTSPAKKA--------------VAATKKVA---------TVATKKKTP
+VKKVV-----------KPKTVKSPAKRASSRVKK--------------------------
+-------
+>generic_H1_Zea_mays_P23444.2 organism=Zea mays phylum=Streptophyta class=Magnoliopsida
+-MATDVTETPAPLVDAAPEAPADAPAAPAA-----------------DANAAKAKKATAP
+KKRAS-------PTHLP------------------------YAEMVSEAITSLKERTGSS
+SYAIAKFVEDKHKA-KLPPNFRKLLNVQLKKLVAGGKLTK---VK-NS-----YKLSSAT
+KPN---------PKPKAAPKKPKTGAKKPK-AAAKP-KAKTPAKAKPATKPKPAAKPKAV
+V----------------------------------KPKTPAKPK----------------
+----------------AKPAAKAKPKTAGAKPKP-------LAK-KAGRA----------
+-------KAAK---TSAKDT--------------PGK--------------KAPAKKAAP
+SKKAA-----------TPVRKAPSRKAKK-------------------------------
+-------
+>H1.0_Thalassiosira_pseudonana_CCMP1335_EED88841.1 organism=Thalassiosira pseudonana CCMP1335 phylum=Bacillariophyta class=Coscinodiscophyceae
+------------------------------------------------------------
+---------------MS------------------------YKAGIAKAITELKDRTGSS
+SIAIKKHMQANLP--ADKKWMNATFLKALKDMVASGELVK---TK------ASYKLSA--
+---------------------VAKQKASSA-GKPKK-APKKKA-----------------
+--------------------------------------APKKTA----------------
+----------------PKKKAAPKKKT-----AT-------KKAATAKKP----------
+---------------------------------------------------AAKKATTAK
+---KS-----------TTKKTAKK------------------------------------
+-------
+>H1.0_Esox_lucius_XP_010887142.1 organism=Esox lucius phylum=Chordata class=Actinopteri
+-------------MAETVAAPAP--------------------------KAKKAKAPKKP
+------------ASHPK------------------------YSDMIKAAVQADKSRGGAS
+RQSVQKYIKSHYK--VGDN-ADSQIKLSLKRMVSGGLLRH---TK-GIGASGSFKLAKAE
+DTK---------KAPKPKPVVKAKKSPVKA-AKPKK-VAKPKKVVKSPAKAKKAKVAVKK
+V----------------------------------KK-SPKKVA----------------
+----------------PKPKKVVK-KV-----KA-------AKPAKAVKP----------
+-----------------------------------------------------KKAKAAK
+PKPKA-----------AAKKAAKKK-----------------------------------
+-------
+>H1.0_Salmo_salar_ACH70944.1 organism=Salmo salar phylum=Chordata class=Actinopteri
+-------------MAETAAAPAP--------------------------KAKKAKAPKKP
+------------ASHPK------------------------YSDMIKAAVHADKSRGGAS
+RQSVQKYIKSHYK--VGDN-ADSQIKLSLKRMVSEGVLRH---TK-GIGASGSFKLAKAE
+DTK---------KAPKVKAVVKAKKSPVKS-AKPKK-VAKPKKVAKSPAKAKKAKVAVKK
+V----------------------------------KK-SPKKAA----------------
+----------------PKPKKVAK-KT-----KV-------AKPAKATKP----------
+-----------------------------------------------------KKAKAAK
+PKPKA-----------AAKKAAKKK-----------------------------------
+-------
+>H1.0_Salmo_salar_ACM08534.1 organism=Salmo salar phylum=Chordata class=Actinopteri
+------------------------------------------------------------
+--------------------------------------------MIKAAVHADKSRGGAS
+RQSVQKYIKSHYK--VGDN-ADSQIKLSLKRMVSEGVLRH---TK-GIGASGSFKLAKAE
+DTK---------KAPKVKAVVKAKKSPVKS-AKPKK-VAKPKKVAKSPAKAKKAKVAVKK
+V----------------------------------KK-SPKKAA----------------
+----------------PKPKKVVK-KT-----KV-------AKPAKATKP----------
+-----------------------------------------------------KKAKAAK
+PKPKA-----------AAKKAAKKK-----------------------------------
+-------
+>H1.0_Salmo_salar_ACM09660.1 organism=Salmo salar phylum=Chordata class=Actinopteri
+------------------------------------------------------------
+--------------------------------------------MIKAAVHADKSRGGAS
+RQSVQKYIKSHYK--VGDN-ADSQIKLSLKRMVSEGVLRH---TK-GIGASGSFKLAKAE
+DTK---------KAPKVKAVVKAKKSPVKS-AKPKK-VAKPKKVAKSPAKAKKAKVAVKK
+V----------------------------------KK-SPKKAA----------------
+----------------PKPKKVAK-KT-----KV-------AKPAKATKP----------
+-----------------------------------------------------KKAKAAK
+PKPKA-----------AAKKAAKKK-----------------------------------
+-------
+>H1.0_Xenopus_tropicalis_NP_998836.1 organism=Xenopus tropicalis phylum=Chordata class=Amphibia
+------------MTENSAAAPAG--------------------------KPKRSKASKKA
+------------TDHPK------------------------YSDMILAAVQAEKSRSGSS
+RQSIQKYIKNHYK--VGEN-ADSQIKLSIKRLVTSGTLKQ---TK-GVGASGSFRLAKAD
+EGK---------KPAK-----KPKKEIKKA-ASPKK-AAKPKKAAKSPAKAKKPKVAEKK
+V----------------------------------KKPAKKKPA----------------
+----------------PSPKKAKKTKT-----VK-------AKPVRASRV----------
+-----------------------------------------------------KKAKPSK
+PKAKA-----------SPKKSGRKK-----------------------------------
+-------
+>H1.0_Cairina_moschata_P06513.2 organism=Cairina moschata phylum=Chordata class=Aves
+------------MTDSPIPAPAPAA------------------------KPKRAKAPRKP
+------------ASHPS------------------------YSEMIVAAIRAEKSRGGSS
+RQSIQKYVKSHYK--VGQH-ADLQIKLSIRRLLAAGVLKQ---TK-GVGASGSYRLAKGD
+KAK---------KSPAGRK--KKKKAARRS-TSPRK-AARPRK---ARSPAKKPKAA---
+A----------------------------------RK-ARKKSR----------------
+----------------ASPKKAKKPKT-----VK-------AKSLKTSKV----------
+-----------------------------------------------------KKAKRSK
+PRAKS-----------GARKSPKKK-----------------------------------
+-------
+>H1.0_Gallus_gallus_NP_001038138.1 organism=Gallus gallus phylum=Chordata class=Aves
+------------MTESLVLSPAPA-------------------------KPKRVKASRRS
+------------ASHPT------------------------YSEMIAAAIRAEKSRGGSS
+RQSIQKYIKSHYK--VGHN-ADLQIKLSIRRLLAAGVLKQ---TK-GVGASGSFRLAKSD
+KAK---------RSPG-----KKKKAVRRS-TSPKK-AARPRK---ARSPAKKPKAT---
+A----------------------------------RK-ARKKSR----------------
+----------------ASPKKAKKPKT-----VK-------AKSRKASKA----------
+-----------------------------------------------------KKVKRSK
+PRAKS-----------GARKSPKKK-----------------------------------
+-------
+>H1.0_Taeniopygia_guttata_XP_004175972.1 organism=Taeniopygia guttata phylum=Chordata class=Aves
+------------MTRLPSMCKASSSLMSCVHLCA-------------FPPPKRARSARRP
+------------AAHPA------------------------YSDMVTAAVRADKSRGGAS
+RQSIQKYVKSNYK--VGQN-ADVQIRLAIRRLLAAGVLKQ---TK-GVGASGSFRLAKAG
+KAK---------RSPSR----KRKKAARRS-TSPRK-TARSRK---ARSPAKKPKSA---
+A----------------------------------RK-ARKKSR----------------
+----------------S-PKKAKKPKT-----VK-------AKSLKASKP----------
+-----------------------------------------------------KKARRSK
+SRAKS-----------GARKSPKKK-----------------------------------
+-------
+>H1.0_Bos_taurus_NP_001069955.1 organism=Bos taurus phylum=Chordata class=Mammalia
+------------MTENSTSTPAA--------------------------KPKRAKASKKS
+------------TDHPK------------------------YSDMIVAAIQAEKNRAGSS
+RQSIQKYIKSHYK--VGEN-ADSQIKLSIKRLVTTGVLKQ---TK-GVGASGSFRLAKSD
+EPK---------RSVAFK---KTKKEVKKV-ATPKK-AAKPKKAA-SKAPSKKPKATP--
+V----------------------------------KK-AKKKPA----------------
+----------------ATPKKTKKPKT-----VK-------AKPVKASKP----------
+-----------------------------------------------------KKTKPVK
+PKAKS-----------SAKRTGKKK-----------------------------------
+-------
+>H1.0_Mus_musculus_NP_032223.2 organism=Mus musculus phylum=Chordata class=Mammalia
+------------MTENSTSAPAA--------------------------KPKRAKASKKS
+------------TDHPK------------------------YSDMIVAAIQAEKNRAGSS
+RQSIQKYIKSHYK--VGEN-ADSQIKLSIKRLVTTGVLKQ---TK-GVGASGSFRLAKGD
+EPK---------RSVAFK---KTKKEVKKV-ATPKK-AAKPKKAA-SKAPSKKPKATP--
+V----------------------------------KK-AKKKPA----------------
+----------------ATPKKAKKPKV-----VK-------VKPVKASKP----------
+-----------------------------------------------------KKAKTVK
+PKAKS-----------SAKRASKKK-----------------------------------
+-------
+>H1.0_Pongo_abelii_NP_001127680.1 organism=Pongo abelii phylum=Chordata class=Mammalia
+------------MTENSTSAPAA--------------------------KPKRAKASKKS
+------------TDHPK------------------------YSDMVVAAIQAEKNRAGSS
+RQSIQKYIKSHYK--VGEN-ADSQIKLSIKRLVTTGVLKQ---TK-GVGASGSFRLAKSD
+EPK---------KSVAFK---KTKKEIKKV-ATPKK-ASKPKKAA-SKAPTKKPKATP--
+V----------------------------------KK-AKKKLA----------------
+----------------ATPKKAKKPKT-----VK-------AKPVKASKP----------
+-----------------------------------------------------KKAKPVK
+PKAKS-----------SAKRAGKKK-----------------------------------
+-------
+>H1.0_Rattus_norvegicus_NP_036710.1 organism=Rattus norvegicus phylum=Chordata class=Mammalia
+------------MTENSTSTPAA--------------------------KPKRAKAAKKS
+------------TDHPK------------------------YSDMIVAAIQAEKNRAGSS
+RQSIQKYIKSHYK--VGEN-ADSQIKLSIKRLVTTGVLKQ---TK-GVGASGSFRLAKGD
+EPK---------RSVAFK---KTKKEVKKV-ATPKK-AAKPKKAA-SKAPSKKPKATP--
+V----------------------------------KK-AKKKPA----------------
+----------------ATPKKAKKPKI-----VK-------VKPVKASKP----------
+-----------------------------------------------------KKAKPVK
+PKAKS-----------SAKRASKKK-----------------------------------
+-------
+>H1.0_Strongylocentrotus_purpuratus_NP_999722.1 organism=Strongylocentrotus purpuratus phylum=Echinodermata class=Echinoidea
+----------MADTDAAPAAPAPSTPKKA--------------------AKKKASKPKTP
+------------ASHPK------------------------YSDMIASALESLKEKKGSS
+RQAILKYVKANFT--VGDN-ANVHIKQALKRGVTSGQLRH---VK-GSGASGSFLLAEKT
+K--------------------TPKKAAAKK-ATPKK-KPAAKK---TKKPA---------
+A----------------------------------KK-ATKKPA----------------
+----------------KKP--AAKKKV-----AK-------PAAKKAAKP----------
+---------------------------------------------------VAKKATPKK
+KVVKK-----------AAKGKGKKK-----------------------------------
+-------
+>H1.0_Homo_sapiens_Homo_sapiens_NP_005309.1 organism=Homo sapiens phylum=Chordata class=Mammalia
+------------MTENSTSAPAA--------------------------KPKRAKASKKS
+------------TDHPK------------------------YSDMIVAAIQAEKNRAGSS
+RQSIQKYIKSHYK--VGEN-ADSQIKLSIKRLVTTGVLKQ---TK-GVGASGSFRLAKSD
+EPK---------KSVAFK---KTKKEIKKV-ATPKK-ASKPKKAA-SKAPTKKPKATP--
+V----------------------------------KK-AKKKLA----------------
+----------------ATPKKAKKPKT-----VK-------AKPVKASKP----------
+-----------------------------------------------------KKAKPVK
+PKAKS-----------SAKRAGKKK-----------------------------------
+-------
+>H1.1_Homo_sapiens_Homo_sapiens_NP_005316.1 organism=Homo sapiens phylum=Chordata class=Mammalia
+------------MSETVPPAPAASAA---------------------PEKPLAGKKAKKP
+AKAAAASKKK--PAGPS------------------------VSELIVQAASSSKERGGVS
+LAALKKALAAAG---YDVEKNNSRIKLGIKSLVSKGTLVQ---TK-GTGASGSFKLN---
+KKA---------SSVETKPGASKVAT-----------KTKATGASKKLKKATGASKKSV-
+--------------------------------------KTPKKA----------------
+----------------KKPAATRKSSKNPKKPKT-------VKPKKVAKS----------
+---------------PAKAK--------------AVKPKA-------------AKARVTK
+PKTA------------KPKKAAPKKK----------------------------------
+-------
+>H1.10_Caligus_rogercresseyi_ACO10502.1 organism=Caligus rogercresseyi phylum=Arthropoda class=Hexanauplia
+----------MVKSEVEVTINAEEAPV--------AS----------SLKPAK---K---
+------KKNKKKKNKPGK-----------------------YSVLVLDAVKKLNERSGSS
+LVKI--YNEAKKASWFDEQNGRTYLRYSIRALVLNNTLIQ---VK-GMGANGSFRLNEDK
+FAK---------GVPKKTQS--KPAKNTTK-TAKAS-TTKKATV-VKAKSSPKKAPDAKM
+P----------------------------------AAKLKKLGV----------------
+----------------KKVSAAQ---K------N-------KKPKKASKP----------
+------------------------------------------------------PAKS-P
+RKK---------------------------------------------------------
+-------
+>H1.10_Oncorhynchus_mykiss_ACO07616.1 organism=Oncorhynchus mykiss phylum=Chordata class=Actinopteri
+----------MVKSEVDVTINAEEAPV--------AS----------GPKPAK---K---
+------KKKKKKKNKPGK-----------------------YSVLVLDAVKKLNERSGSS
+LVKI--YNEAKKASWFDEQNGRTYLRYSIRALVLNNTLIQ---VK-GMGANGSFRLNEDK
+FAK---------EVPKKTQS--KPAKTTTK-TAKAS-TTKKATVKPKAKSSPKKAPDAKK
+P----------------------------------AAKMKKLGV----------------
+----------------KKVIAAQ---K------N-------KKPKKASKP----------
+------------------------------------------------------PAKS-P
+RKK---------------------------------------------------------
+-------
+>H1.10_Osmerus_mordax_ACO09903.1 organism=Osmerus mordax phylum=Chordata class=Actinopteri
+-----------MASDTEV-VPAAEAPVAAKSKKRTAT----------KPKPKA---KPAT
+VATSSAKKKKRKGKGPGK-----------------------YSVLVVDAIKQLGERNGSS
+LAKI--YNKAREAIWFDQQHGRTYLRYSIRALVLNDTLIQ---VK-GTGANGSFKLNKKK
+FET---------KAPKKAPTPVKAVKTKAP-AKKAK-AAIKTKAKPKASPKKKSTPK-KK
+P----------------------------------AAKPKKLAA----------------
+----------------KKATPVKS--K------K-------PKPKKASKP----------
+------------------------------------------------------AAKS-P
+RKK---------------------------------------------------------
+-------
+>H1.10_Salmo_salar_ACM09455.1 organism=Salmo salar phylum=Chordata class=Actinopteri
+----------MVKSEVEVTINAEEAPV--------AS----------SLKPAK---K---
+------KKNKKKKNKPGK-----------------------YSVLVLDAVKKLNERSGSS
+LVKI--YNEAKKASWFDEQNGRTYLRYSIRALVLNNTLIQ---VK-GMGANGSFRLNEDK
+FAK---------GVPKKTQS--KPAKNTTK-TAKAS-TTKKATV-VKAKSSPKKAPDAKM
+P----------------------------------AAKLKKLGV----------------
+----------------KKVSAAQ---K------N-------KKPKKASKP----------
+------------------------------------------------------PAKS-P
+RKK---------------------------------------------------------
+-------
+>H1.10_Xenopus_laevis_NP_001080265.1 organism=Xenopus laevis phylum=Chordata class=Amphibia
+-----------MALELEENLHSTEEEDEEEEEEEEGD----------EMRSRSTRNKGGA
+ASSSGNKKKKKKKNQPGR-----------------------YSQLVVDTIRKLGERNGSS
+LAKI--YSEAKKVSWFDQQNGRTYLKYSIKALVQNDTLLQ---VK-GVGANGSFRLNKKK
+LE----------GLPYDKKP--PPAKPSSS-SSNKK-QQQQGPSSSPSKSHKKAKPKAKA
+E----------------------------------KEKPKTSSA----------------
+----------------KAKSPKKSAAK------G-------KKMKKGAKP----------
+------------------------------------------------------SVRKAP
+KSKKA-------------------------------------------------------
+-------
+>H1.10_Homo_sapiens_Homo_sapiens_NP_006017.1 organism=Homo sapiens phylum=Chordata class=Mammalia
+-----------MSVELEEALPVTTAEGMAKKVTKAG--------------------GSAA
+LSPSKKRKNSKKKNQPGK-----------------------YSQLVVETIRRLGERNGSS
+LAKI--YTEAKKVPWFDQQNGRTYLKYSIKALVQNDTLLQ---VK-GTGANGSFKLNRKK
+LEG---------GGERRGAP--AAATAPAP-TAH-K-AKKAAPGAAGSRRADKKPARGQK
+P----------------------------------EQRSHKKGA----------------
+----------------GAKKDKGGKAKKTAAAGG-------KKVKKAAKP----------
+------------------------------------------------------SVPKVP
+KGRK--------------------------------------------------------
+-------
+>H1.2_Homo_sapiens_Homo_sapiens_NP_005310.1 organism=Homo sapiens phylum=Chordata class=Mammalia
+------------MSETAPAAPAAAPPA--------------------EKAPVKKKAAKKA
+GGTPRK------ASGPP------------------------VSELITKAVAASKERSGVS
+LAALKKALAAAG---YDVEKNNSRIKLGLKSLVSKGTLVQ---TK-GTGASGSFKLN---
+KKA---------ASGEAKPKVKKAGGTKPK-KPVGA-AKKPKKAAGGATPKKSAKKTPKK
+A----------------------------------KKPAAATVT----------------
+----------------KKVAKSPKKAK------V-------AKPKKAAKS----------
+-------------------------------------------------AAKAVKPKAAK
+PKVV------------KPKKAAPKKK----------------------------------
+-------
+>H1.3_Homo_sapiens_Homo_sapiens_NP_005311.1 organism=Homo sapiens phylum=Chordata class=Mammalia
+------------MSETAPLAPTIPAP---------------------AEKTPVKKKAKKA
+GATAGKRK----ASGPP------------------------VSELITKAVAASKERSGVS
+LAALKKALAAAG---YDVEKNNSRIKLGLKSLVSKGTLVQ---TK-GTGASGSFKLN---
+KKA---------ASGEGKPKAKKAGAAKPR-KPAGA-AKKPKKVAGAATPKKSIKKTPKK
+V----------------------------------KKPATAAGT----------------
+----------------KKVAKSAKKVK------T-------PQPKKAAKS----------
+---------------PAKAK--------------APKPKA-------------AKPKSGK
+PKVT------------KAKKAAPKKK----------------------------------
+-------
+>H1.4_Homo_sapiens_Homo_sapiens_NP_005312.1 organism=Homo sapiens phylum=Chordata class=Mammalia
+------------MSETAPAAPAAPAPA--------------------EKTPVKKKARKSA
+GAAKRK------ASGPP------------------------VSELITKAVAASKERSGVS
+LAALKKALAAAG---YDVEKNNSRIKLGLKSLVSKGTLVQ---TK-GTGASGSFKLN---
+KKA---------ASGEAKPKAKKAGAAK---------AKKPAGAAKKPKKATGAATPKKS
+A----------------------------------KKTPKKAKK----------------
+----------------PAAAAGAKKAKSPKKAKA-------AKPKKAPKS----------
+---------------PAKAK--------------AVKPKA-------------AKPKTAK
+PKAA------------KPKKAAAKKK----------------------------------
+-------
+>H1.5_Homo_sapiens_Homo_sapiens_NP_005313.1 organism=Homo sapiens phylum=Chordata class=Mammalia
+------------MSETAPAETATPAPV--------------------EKSPAKKKATKKA
+AGAGAAKRK---ATGPP------------------------VSELITKAVAASKERNGLS
+LAALKKALAAGG---YDVEKNNSRIKLGLKSLVSKGTLVQ---TK-GTGASGSFKLN---
+KKA---------ASGEAKPKAKKAGAAKAK-KPAGATPKKAKKAAGAKKAVKKTPKKAKK
+P----------------------------------AAAGVKKVA----------------
+----------------KSPKKAKAAAKPKKATKS-------PAKPKAVKP----------
+-------------------K--------------AAKPKA-------------AKPKAAK
+PKAA------------KAKKAAAKKK----------------------------------
+-------
+>OO_H1.8_Mus_musculus_NP_612184.1 organism=Mus musculus phylum=Chordata class=Mammalia
+MAPGSVSSVSSSSFPSRDTSPSGSCGLP-------------------GADKP--------
+--GPSCRRIQAGQRNPT------------------------MLHMVLEALKAREARQGTS
+VVAIKVYIQHKYPT-VDTTRFKYLLKQALETGVRRGLLTRPAHSK-AKGATGSFKLVPKP
+KTK----KACAPKAGRGAAGAKETGSKKSG-LLKKDQVGKATMEKGQKRRAY-----PCK
+A----------------------------------ATLEMAPKK----------------
+----------------------AKAKPKEVRKAP-------LKQDKAAGAPLTANG-GQK
+VKRSGSRQ---EANAHGKTK--------------GE--KSKPLASKVQNSVASLAKRKMA
+DMAHTVTVVQGAETVQETKVPTPSQDIGHKVQPIPRVRKAKTP-----------------
+--ENTQA
+>H1.8_Homo_sapiens_Homo_sapiens_NP_001295191.1 organism=Homo sapiens phylum=Chordata class=Mammalia
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+--------MAPATAPRRAGEAKGKGPKKPS-EAKEDPPNVGKVKKAAKRPAKVQKPPPKP
+G----------------------------------AATEKARKQ----------------
+----------------GGAAKDTRAQSGEARKVP-------PKPDKAMRAPSSAGGLSRK
+AKAKGSRSSQGDAEAYRKTK--------------AESKSSKPTASKVKNGAASPTKKKVV
+AKAKAPKAGQGP----NTKAAAPAKGSGSKVVPAHLSRKTEAPKGPRKAGLPIKASSSKV
+SSQRAEA
+>H1.8_Homo_sapiens_Homo_sapiens_NP_722575.1 organism=Homo sapiens phylum=Chordata class=Mammalia
+MAPGSVTSDISPS----STSTAGSSRSP-------------------ESEKPGPSHGGVP
+PGGPSHSSLPVGRRHPP------------------------VLRMVLEALQAGEQRRGTS
+VAAIKLYILHKYPT-VDVLRFKYLLKQALATGMRRGLLARPLNSK-ARGATGSFKLVPKH
+KKKIQPRKMAPATAPRRAGEAKGKGPKKPS-EAKEDPPNVGKVKKAAKRPAKVQKPPPKP
+G----------------------------------AATEKARKQ----------------
+----------------GGAAKDTRAQSGEARKVP-------PKPDKAMRAPSSAGGLSRK
+AKAKGSRSSQGDAEAYRKTK--------------AESKSSKPTASKVKNGAASPTKKKVV
+AKAKAPKAGQGP----NTKAAAPAKGSGSKVVPAHLSRKTEAPKGPRKAGLPIKASSSKV
+SSQRAEA
+>scH1_Saccharomyces_arboricola_H-6_XP_011105792.1 organism=Saccharomyces arboricola H-6 phylum=Ascomycota class=Saccharomycetes
+---------------MAPKKTSTKTTTTNK-----------------GKKPVTSKGKDKP
+VIKTAVKKNAAKKEEPSSKS---------------------YKELIVEGLAALKERKGSS
+RPALKKFIKENYPLVGSTSNFDLYFNNAIKKGVETGDFEQ------PKGPAGTLKLAKKK
+SPE------LK--KETSPKPKQAAAATTTT-TTTTPTSLKAKAKTASKKQAPKKVVKKKV
+P----------------------------------AVAVIPKKT----------------
+----------------SSPSALTYKEMILKSMPE-------LNDGKGSSR----------
+------IVLKKYVKDTFSSK--------------LKTSSNFDYLFNSAIKKCVENGELVQ
+PKGPS-----------GIIKINKKKAKLST------------------------------
+-------
+>scH1_Saccharomyces_cerevisiae_S288C_NP_015198.1 organism=Saccharomyces cerevisiae S288C phylum=Ascomycota class=Saccharomycetes
+---------------MAPKKSTTKTTS--K-----------------GKKPATSKGKEKS
+TSKAAIKKTTAKKEEASSKS---------------------YRELIIEGLTALKERKGSS
+RPALKKFIKENYPIVGSASNFDLYFNNAIKKGVEAGDFEQ------PKGPAGAVKLAKKK
+SPE------VKKEKEVSPKPKQAATSVSAT-AS--------KAKAASTKLAPKKVVKKKS
+P----------------------------------TVTA--KKA----------------
+----------------SSPSSLTYKEMILKSMPQ-------LNDGKGSSR----------
+------IVLKKYVKDTFSSK--------------LKTSSNFDYLFNSAIKKCVENGELVQ
+PKGPS-----------GIIKLNKKKVKLST------------------------------
+-------
+>TS_H1.6_Salmo_salar_ACM09522.1 organism=Salmo salar phylum=Chordata class=Actinopteri
+----------------MSGVIAIPLATPA-------------------TTPKKRSKPKK-
+-------------TGPT------------------------VSDRILKVVSASSGRSGVS
+LAALKKSLAASG---YDVVKNNARLKLAVRRLVAKGYLLQ---PK-GTGASGSFKINKNK
+--------------AVAKKKRPTKNKVKK---VGAKKVRRA--SPKKAAGAKKSPKKTKR
+---------------------------------------KSPKK----------------
+----------------AKRPAAAKKPKS-------------PRKTKRRVA----------
+-----------------------------------------------------KSTR---
+-----------------AKTAPKKK-----------------------------------
+-------
+>TS_H1.6_Xenopus_laevis_NP_001087957.1 organism=Xenopus laevis phylum=Chordata class=Amphibia
+------------MAATTESAPVAPPAEPA------------------AAKKTKKQQPKKV
+AG-GAKAKK---PSGPS------------------------ASELIVKAVSASKERSGVS
+LAALKKALAAGG---YDVDKNNSRLKLALKALVTKGTLTQ---VK-GSGASGSFKLNKKQ
+-PE---------TKDKAAKKKPAAPKAKKP-AAGAKKAPKSPKKPKKVSAAAKSPKKVKK
+P----------------------------------AKAAKSPKK----------------
+----------------PKAVKAKKVAKSPAKKATKPKTAKSPAKAKVAKP----------
+-----------------------------------------------------KAAK---
+-----------------AKKPAPKK-----------------------------------
+-------
+>TS_H1.6_Canis_lupus_familiaris_XP_005640152.1 organism=Canis lupus familiaris phylum=Chordata class=Mammalia
+------------MSETVPAVAAGTALASM-------------------ENPSAKKRGRKP
+GGIPEAAPK---APGLS------------------------VSKLIMEALSVSQERAGMS
+LAALKKALAAAG---YDVEKNNSRIKLCLKSLVSKGTLVQ---TK-GTGASGSFKLNKKA
+LLP---------TPAKSRVKRPPSTKTKR---LVLSRDSKSPKAAKTNK-AKKP--GGAG
+A----------------------------------QKAACSGRK----------------
+----------------AKGAKDKQPRKS-------------PGKAPTGKP----------
+-----------------------------------------------------KAAKPRL
+NQQKV-----------NPRKAVSKK-----------------------------------
+-------
+>TS_H1.6_Equus_caballus_NP_001243880.1 organism=Equus caballus phylum=Chordata class=Mammalia
+------------MSETAPAAPAEPVLSSM-------------------EKPPAKKRGKKP
+VGLTGGSRK---VPGSS------------------------VSKLITEALSVSQERAGMS
+LAALKKALAAAG---YDVEKNNRRIKLGLKSLVSKGTLVQ---TR-GTGASGSFKLSKKA
+-TP---------EPAKGRVKKGASANAKK---LVLPKGSKSPKSAKTNKRTSKA--RTPA
+A----------------------------------QPSARGGRK----------------
+----------------SKGAKGKQQLKS-------------PGKGRTGKP----------
+-----------------------------------------------------KTGKPKL
+TQQRT-----------NPRKTASKK-----------------------------------
+-------
+>TS_H1.6_Macaca_mulatta_NP_001074230.1 organism=Macaca mulatta phylum=Chordata class=Mammalia
+------------MSETVPAASAGAVPAVM-------------------EKPLTKKRGKKP
+AGLTSASRK---APNLS------------------------VSKLITEALSVSQERVGMS
+LAALKKALAAAG---YDVEKNNSRIKLSLKSLVNKGILVQ---TR-GTGASGSFKLSKKV
+-LP---------KSTRRKANKSASAKTKK---LVLSRDSKSPKTAKTNKRAKKP--RATA
+P----------------------------------KKAVRSGRK----------------
+----------------AKGAKGKQQQKS-------------PVKARATKP----------
+-----------------------------------------------------KLTQ---
+-HHKA-----------NIRKATSRK-----------------------------------
+-------
+>TS_H1.6_Mus_musculus_NP_034507.2 organism=Mus musculus phylum=Chordata class=Mammalia
+------------MSETAPAASSTLVPAPV------------------EEKPSSKRRGKKP
+G--LAPARK---PRGFS------------------------VSKLIPEALSTSQERAGMS
+LAALKKALAAAG---YDVEKNNSRIKLALKRLVNKGVLVQ---TK-GTGASGSFKLSKKA
+-AS---------GNDKGKGKKSASAKAKK---MGLPRASRSPKSSKTKA-VKKP--KAT-
+P----------------------------------TKASGSGRK----------------
+----------------TKGAKGVQQRKS-------------PAKARAANP----------
+-----------------------------------------------------NSGKAKM
+VMQKT-----------DLRKAAGRK-----------------------------------
+-------
+>TS_H1.6_Rattus_norvegicus_NP_036711.1 organism=Rattus norvegicus phylum=Chordata class=Mammalia
+------------MSETAPAASSTLVPAPV-------------------EKPATKRRGKKP
+G--MATARK---PRGFS------------------------VSKLIPEALSMSQERAGMS
+LAALKKALAAAG---YDVEKNNSRIKLALKRLVNKGVLVQ---TK-GTGASGSFKLSKKA
+-AS---------GNDKGKGKKSASAKAKK---LGLSRASRSPKSSKTKV-VKKP--KAT-
+P----------------------------------TKGSGSRRK----------------
+----------------TKGAKGLQQRKS-------------PAKARATNS----------
+-----------------------------------------------------NSGKSKM
+VMQKT-----------DLRKAAGRK-----------------------------------
+-------
+>H1.6_Homo_sapiens_Homo_sapiens_NP_005314.2 organism=Homo sapiens phylum=Chordata class=Mammalia
+------------MSETVPAASASAGVAAM-------------------EKLPTKKRGRKP
+AGLISASRK---VPNLS------------------------VSKLITEALSVSQERVGMS
+LVALKKALAAAG---YDVEKNNSRIKLSLKSLVNKGILVQ---TR-GTGASGSFKLSKKV
+-IP---------KSTRSKAKKSVSAKTKK---LVLSRDSKSPKTAKTNKRAKKP--RATT
+P-----------------------------------KTVRSGRK----------------
+----------------AKGAKGKQQQKS-------------PVKARASKS----------
+-----------------------------------------------------KLTQ---
+-HHEV-----------NVRKATSKK-----------------------------------
+-------
+>TS_H1.7_Mus_musculus_NP_081580.2 organism=Mus musculus phylum=Chordata class=Mammalia
+---------------------MAEAVQPS------------------GESQGAELTIQIQ
+QPAERALRTPAKRGTQS------------------------VLRVSQLLLRAIAGHQHLT
+LDALKKELGNAG---YEVRREISSHHEGKSTRLEKGTLLR---VS-GSDAAGYFRVWKIS
+KPR--------EKAGQSRLTLGSHSSGKTVLKSPRPLRPRSR--RKAAKKAREVWRRKAR
+ALKARSRRVRTRSTSGARSRTRSRASSRATSRATSRARSRARSRAQSSARSSARSSAKSS
+AKSSTRSSAKSWARSKARSRARSRAKDLVRSKAREQAQAREQARARAREQAHARARTQDW
+VRAKAQEFVSAKEQQYVRAKEQERAKAREQVRIGARDEARIKAKDYNRVRPTKEDTSPRP
+AEEKSSNSKLREEKGQEPERPVKQTIQKPALDNAPSIQGKACTKSFTKSGQPGDTESP--
+-------
+>H1.7_Homo_sapiens_Homo_sapiens_NP_861453.1 organism=Homo sapiens phylum=Chordata class=Mammalia
+MEQALTGEAQSRWPRRGGSGAMAEAPGPS------------------GESRGHSAT---Q
+LPAEKTVGGPSRGCSSS------------------------VLRVSQLVLQAISTHKGLT
+LAALKKELRNAG---YEVRRKSGRHEAPRGQ--AKATLLR---VS-GSDAAGYFRVWKVP
+KPR--------RKPGRARQEEGTRAPWRTP-AAPRSSRRRRQPLRKAARKAREVWRRNAR
+A----------------------------------KAKANARAR----------------
+---------------------RTR-----------------RARPRAKEPPCAR------
+----------------------------------AKEEAGATAADEGRGQAVKEDTTPRS
+GKDKRRSSKPREEK-QEPKKPAQRTIQ---------------------------------
+-------
+>TS_H1.9_Mus_musculus_NP_061262.1 organism=Mus musculus phylum=Chordata class=Mammalia
+----------------------MAQMVAG------------------DQDAGTLWVPSQS
+ESQTESDISTQSLRKPT------------------------MSYVILKTLADKRVHNCVS
+LATLKKAVSITG---YNMTHNTWRFKRVLQNLLDKGMIMH---VTCCKGASGSLCLCKER
+ALK---------SNHRAKRCQDRQKSQKPQ-KPGQRESEPCQLLLSSKKKNDQLFKGVRR
+V-----------------------------------------------------------
+-----------------------------------------AKGNRHCHY----------
+------------------------------------------------------------
+------------------------------------------------------------
+-------
+>TS_H1.9_Peromyscus_californicus_insignis_ACI22865.1 organism=Peromyscus californicus insignis phylum=Chordata class=Mammalia
+---------MQRDTLLVSPSAAPNSAVAV------------------DQDASTSDDPSKS
+E--TGPYTCPQTMRKPS------------------------MSKVILRAVTDKGLHRRVS
+LAALKKAVSTTG---YNMAHNSWRFKRVVKNLVKKGMLKQ---VT-GKGASGSFRLGKKQ
+AFK---------SKRKARR---RQRRQQRQ-KPRQRRSGPRQSLLGSGRSLKGLF-----
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+-------
+>TS_H1.9_Rattus_norvegicus_NP_001103035.1 organism=Rattus norvegicus phylum=Chordata class=Mammalia
+-------------MSLVSPSPDSNAVMAG------------------DQDASTSQVPSQS
+ESKIGPNVATQTLRKPT------------------------MSKVILRTVADKGVHSRVS
+LAALKKAVSITG---YNMAQNTWRFKRVLQNLVKKGMLKQ---VT-GKGASGSFRLGKKQ
+AFK---------SKCKAKR---RQRRQK----PGQRRTGSRRSLLGSKKSNNRLFKGVRR
+V-----------------------------------------------------------
+-----------------------------------------AKGRRH-------------
+------------------------------------------------------------
+------------------------------------------------------------
+-------

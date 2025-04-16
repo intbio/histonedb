@@ -170,7 +170,8 @@ def make_blastp(sequences, blastdb, blastout, E=.01):
     if not hasattr(sequences, '__iter__'):
         sequences = [sequences]
 
-    blastp = os.path.join(os.path.dirname(sys.executable), "blastp")
+    blastp = os.path.join(os.path.dirname(sys.executable), "blastp") # for docker use
+    blastp = os.path.join("/usr/bin", "blastp")
     # output = os.path.join("/", "tmp", "{}.xml".format(uuid.uuid4()))
     blastp_cline = NcbiblastpCommandline(
         cmd=blastp,
@@ -221,7 +222,8 @@ def parse_blast_search_out(blast_file, features_file, accession_retrieve=None):
     blast_file_handle = open(blast_file)
     result = CustomList()
     for i, blast_record in enumerate(NCBIXML.parse(blast_file_handle)): # <Iteration>
-        query_split = blast_record.query.split(maxsplit=1)
+        query_split = blast_record.query.split(maxsplit=1) + ['']
+        # print(f'QUERY_SPLIT: {query_split}')
         id, description = query_split[0], query_split[1]
 
         if len(blast_record.alignments) == 0: # <Hit> count = 0

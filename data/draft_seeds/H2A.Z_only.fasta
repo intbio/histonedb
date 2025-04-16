@@ -1,0 +1,100 @@
+>H2A.Z_Cryptosporidium_parvum_Iowa_II_XP_626045.1 organism=Cryptosporidium parvum Iowa II phylum=Apicomplexa class=Conoidasida
+--------------------------------------------MDGATSSGKIGG----
+----KV-GGKVGGKGKAGSGKGSKKQPTSRAARAGLQFPVGRIQRMLKHRIPGDCRVGST
+ASVYAAAILEYLTAEVLELA----GNASKDL-KVKRITPRHLQLAIRGDEELDSLIK--A
+TIAGGGVIPHIEKSL--MGKALIGKKGKKGNMSP------
+>H2A.Z_Toxoplasma_gondii_ME49_XP_002371743.1 organism=Toxoplasma gondii ME49 phylum=Apicomplexa class=Conoidasida
+---------------------------------------MDGAGKVGGKVGGKVGG----
+----KVGGMGKGGKGKSGSGKG-KKAPLSRAARAGLQFPVGRVHRMLKSRISSEGRVGST
+AAVYASAILEYLTAEVLELA----GNASKDL-KVKRITPRHLQLAIRGDEELDTLIK--A
+TIAGGGVIPHIHKSL--MTKGPSTQPMKKAKK--------
+>H2A.Z_Drosophila_melanogaster_NP_524519.1 organism=Drosophila melanogaster phylum=Arthropoda class=Insecta
+------------------------------------------------MAGGKAGK----
+-----------------DSGKA-KAKAVSRSARAGLQFPVGRIHRHLKSRTTSHGRVGAT
+AAVYSAAILEYLTAEVLELA----GNASKDL-KVKRITPRHLQLAIRGDEELDSLIK--A
+TIAGGGVIPHIHKSL--IGKKEETVQDPQRKGNVILSQAY
+>H2A.Z_Saccharomyces_cerevisiae_S288C_NP_014631.1 organism=Saccharomyces cerevisiae S288C phylum=Ascomycota class=Saccharomycetes
+--------------------------------------------MSGKAHGGKGKS----
+----GA------------KDSG-SLRSQSSSARAGLQFPVGRIKRYLKRHATGRTRVGSK
+AAIYLTAVLEYLTAEVLELA----GNAAKDL-KVKRITPRHLQLAIRGDDELDSLIR--A
+TIASGGVLPHINKAL--LLKVEKKGSKK------------
+>H2A.Z_Schizosaccharomyces_pombe_NP_595630.3 organism=Schizosaccharomyces pombe phylum=Ascomycota class=Schizosaccharomycetes
+------------------------------------------------MSGGGKGK----
+----HV----GGKGGSKIGERG----QMSHSARAGLQFPVGRVRRFLKAKTQNNMRVGAK
+SAVYSAAVLEYLTAEVLELA----GNAAKDL-KVKRITPRHLQLAIRGDEELDTLIR--A
+TIAGGGVLPHINKQL--LIRTKEKYPEEEEII--------
+>H2A.Z_Tetrahymena_thermophila_CAA33554.1 organism=Tetrahymena thermophila phylum=Ciliophora class=Oligohymenophorea
+------------------------------------------------MAGGKGGK----
+-------GGKGGKGGKVGGAKN-KKTPQSRSYKAGLQFPVGRIHRFLKGRVSAKNRVGAT
+AAVYAAAILEYLTAEVLELA----GNASKDF-KVRRITPRHLLLAIRGDEELDILIK--A
+TIAGGGVIPHIHKAL--LGKHSTKNRSSAKTAEPR-----
+>H2A.Z_Nematostella_vectensis_EDO46289.1 organism=Nematostella vectensis phylum=Cnidaria class=Anthozoa
+------------------------------------------------MAGGKAGK----
+------------------DSKA-KAKAVSRSARAGLQFPVGRIHRHLKNRTTSHGRVGAT
+AAVYSAAILEYLTAEVLELA----GNASKDL-KVKRITPRHLQLAIRGDEELDSLIK--A
+TIAGGGVIPHIHKSL--IGKKGANKPT-------------
+>H2A.Z_Trypanosoma_brucei_brucei_TREU927_XP_846259.1 organism=Trypanosoma brucei brucei TREU927 phylum=Euglenozoa class=Kinetoplastea
+---------------------MSLTGDDAVPQAPLVGGVAMSPEQASALTGGKLGGKAVG
+PAHGKGKGKGKGKRGGKTGGKAGRRDKMTRAARADLNFPVGRIHSRLKDGLNRKQRCGAS
+AAIYCAALLEYLTSEVIELA----GAAAKAQ-KTERIKPRHLLLAIRGDEELNQIVN--A
+TIARGGVVPFVHKSL--EKKIIKKSKRGS-----------
+>H2A.Z_Dictyostelium_discoideum_AX4_XP_637656.1 organism=Dictyostelium discoideum AX4 phylum=Evosea class=Eumycetozoa
+-------------------------------------------MTESETTSKKVNK----
+-----------------------RVKPVPKSTKAGLIFPVGRIHRMLKNKVPLK-RVSIL
+SSVYLAAILEYLASEVLELTISQVSIQSKEYHNVRRISPRHLLLAIKTDEELDNLIRVST
+TIAGGGVIPYIHEVLKKVEQKPTHPQQKQTIKSI------
+>H2A.Z_Perkinsus_marinus_ATCC_50983_XP_002776752.1 organism=Perkinsus marinus ATCC 50983 phylum=Perkinsozoa class=
+MSTRKQTDVSLPVPVVTQ-------------------LAGGKGIKGAGLQGGKGGK----
+----GGKGAKVHGGKGKIGGKG---SSITRSARAGLQFPVGRVRRYLKDRATANCRVGST
+AAVYTAAILEYLTAEVLELA----GNAAKDQ-KVKRITPRHLHLAIRGDDELDVLIR--A
+TIAGGGVVPYIHQSL--TVKTPYHKKKRVM----------
+>H2A.Z_Perkinsus_marinus_ATCC_50983_XP_002784054.1 organism=Perkinsus marinus ATCC 50983 phylum=Perkinsozoa class=
+MSDLKKTDINKSVPVVTQ-------------------LAGGKGIKGAGLQGGKGGK----
+----GGKGAKVHGGKGKMGGKG---ASMTRSARAGLQFPVGRVRRYLKDRATANCRVGST
+AAVYTAAILEYLTAEVLELA----GNAAKDQ-KVKRITPRHLHLAIRGDDELDVLIR--A
+TIAGGGVVPYIHQSL--TAKAPYHKKKRVM----------
+>H2A.Z_Perkinsus_marinus_ATCC_50983_XP_002784055.1 organism=Perkinsus marinus ATCC 50983 phylum=Perkinsozoa class=
+MSDLKKTDINKSVPVVTQLGRLLDVASLSTPSSSLFCLAGGKGIKGAGLQGGKGGK----
+----GGKGAKVHGGKGKIGGKG---TSMTRSARAGLQFPVGRVRRYLKDRATANCRVGST
+AAVYTAAILEYLTAEVLELA----GNAAKDQ-KVKRITPRHLHLAIRGDDELDVLIR--A
+TIAGGGVVPYIHQSL--TAKAPYHKKKRVM----------
+>H2A.Z_Trichoplax_adhaerens_XP_002111498.1 organism=Trichoplax adhaerens phylum=Placozoa class=Uniplacotomia
+------------------------------------------------MAGGKAGK----
+------------------DSKT-KAKAVSRSARAGLQFPVGRIHRHLKNRTTSHGRVGAT
+AAVYSAAILEYLTAEVLELA----GNASKDL-KVKRITPRHLQLAIRGDEELDSLIK--A
+TIAGGGVIPHIHKSL--IGKKGANKPN-------------
+>H2A.Z_Arabidopsis_thaliana_NP_175683.1 organism=Arabidopsis thaliana phylum=Streptophyta class=Magnoliopsida
+-------------------------------------------------MSGKGAK----
+----GLIMGKPSGS---DKDKD-KKKPITRSSRAGLQFPVGRVHRLLKTRSTAHGRVGAT
+AAVYTAAILEYLTAEVLELA----GNASKDL-KVKRISPRHLQLAIRGDEELDTLIK--G
+TIAGGGVIPHIHKSL--INKSAKE----------------
+>H2A.Z_Arabidopsis_thaliana_NP_181415.1 organism=Arabidopsis thaliana phylum=Streptophyta class=Magnoliopsida
+-------------------------------------------------MAGKGGK----
+----GLLAAKTTAA-AANKDSV-KKKSISRSSRAGIQFPVGRIHRQLKQRVSAHGRVGAT
+AAVYTASILEYLTAEVLELA----GNASKDL-KVKRITPRHLQLAIRGDEELDTLIK--G
+TIAGGGVIPHIHKSL--VNKVTKD----------------
+>H2A.Z_Arabidopsis_thaliana_NP_191019.1 organism=Arabidopsis thaliana phylum=Streptophyta class=Magnoliopsida
+-------------------------------------------------MAGKGGK----
+----GLVAAKTMAA-NKDKDKD-KKKPISRSARAGIQFPVGRIHRQLKTRVSAHGRVGAT
+AAVYTASILEYLTAEVLELA----GNASKDL-KVKRITPRHLQLAIRGDEELDTLIK--G
+TIAGGGVIPHIHKSL--INKTTKE----------------
+>H2A.Z_Arabidopsis_thaliana_NP_193093.1 organism=Arabidopsis thaliana phylum=Streptophyta class=Magnoliopsida
+-----------------------------------------------MVCNTNILK----
+----DV------------STKISAFENVRMIMVEGEMFQVARIHKQLKNRVSAHSSVGAT
+DVVYMTSILEYLTTEVLQLA----ENTSKDL-KVKRITPRHLQLAIRGDEELDTLIK--G
+TIIGGSVIPHIH----------------------------
+>H2A.Z_Oryza_sativa_Japonica_Group_NP_001051232.1 organism=Oryza sativa Japonica Group phylum=Streptophyta class=Magnoliopsida
+-------------------------------------------------MAGKGGK----
+----GLLAAKTTAAKSAEKDKG-KKAPVSRSSRAGLQFPVGRIHRQLKQRTQANGRVGAT
+AAVYSAAILEYLTAEVLELA----GNASKDL-KVKRITPRHLQLAIRGDEELDTLIK--G
+TIAGGGVIPHIHKSL--INKSSKE----------------
+>H2A.Z_Zea_mays_NP_001136523.1 organism=Zea mays phylum=Streptophyta class=Magnoliopsida
+-------------------------------------------------MAGKGGK----
+----GLLAAKTTAAKSAEKDKG-KKAPISRSSRAGLQFPVGRIHRQLKQRTQANGRVGAT
+AAVYSAAILEYLTAEVLELA----GNASKDL-KVKRITPRHLQLAIRGDEELDTLIK--G
+TIAGGGVIPHIHKSL--INKSSKE----------------
+>H2A.Z_Zea_mays_NP_001141633.1 organism=Zea mays phylum=Streptophyta class=Magnoliopsida
+-------------------------------------------------MAGKGGK----
+----GLLAAKTTAAKSTDKDKDRKKAPVSRSSRAGLQFPVGRIHRQLKSRASAHGRVGAT
+AAVYSAAILEYLTAEVLELA----GNASKDL-KVKRITPRHLQLAIRGDEELDTLIK--G
+TIAGGGVIPHIHKSL--INKTAKE----------------

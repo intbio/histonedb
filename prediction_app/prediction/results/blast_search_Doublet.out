@@ -1,0 +1,1190 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.6.0+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>prediction/blast/Doublet.fa</BlastOutput_db>
+  <BlastOutput_query-ID>Query_1</BlastOutput_query-ID>
+  <BlastOutput_query-def>Mama.Mama_1_192</BlastOutput_query-def>
+  <BlastOutput_query-len>168</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>0.01</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_1</Iteration_query-ID>
+  <Iteration_query-def>Mama.Mama_1_192</Iteration_query-def>
+  <Iteration_query-len>168</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|48</Hit_id>
+  <Hit_def>HISTDB_H2B_H2A_like_29 type: Doublet, variant: H2B-H2A-like_(Viruses), organism: nan</Hit_def>
+  <Hit_accession>48</Hit_accession>
+  <Hit_len>169</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>310.842</Hsp_bit-score>
+      <Hsp_score>795</Hsp_score>
+      <Hsp_evalue>6.86255e-113</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>168</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>169</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>145</Hsp_identity>
+      <Hsp_positive>163</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>169</Hsp_align-len>
+      <Hsp_qseq>MDRVGKYGLFIKRISPKDADITKESLETVNNMLVFLAEKLTKQANIII-DQKTLRHDAFLWLLTDIQGELGKHSQDFANSVLYGEKELVFPTKRTENLMRKNTCLRISRSAVKTLTAILEYFCGQIMEASFSQAKKSKRKRIRPIDIEAAISQDKELHSMFGKGVISGR</Hsp_qseq>
+      <Hsp_hseq>MDRVGKYGLFVKRISPKDADVTKEALETVNNMLVFLAEKLTKQATIIVGDKKTIKHDVFLWLLTDIQGELGKHSQDFANSVLYGGKELVFPTKRTENLMRKNTCLRISQNAVRALTAILEYFCGQIMEASFSQAKRNKRKRIRPFEVEAAVAKDKELYSMFGKGVISGR</Hsp_hseq>
+      <Hsp_midline>MDRVGKYGLF+KRISPKDAD+TKE+LETVNNMLVFLAEKLTKQA II+ D+KT++HD FLWLLTDIQGELGKHSQDFANSVLYG KELVFPTKRTENLMRKNTCLRIS++AV+ LTAILEYFCGQIMEASFSQAK++KRKRIRP ++EAA+++DKEL+SMFGKGVISGR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|36</Hit_id>
+  <Hit_def>HISTDB_H2B_H2A_like_18 type: Doublet, variant: H2B-H2A-like_(Viruses), organism: nan</Hit_def>
+  <Hit_accession>36</Hit_accession>
+  <Hit_len>169</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>229.18</Hsp_bit-score>
+      <Hsp_score>583</Hsp_score>
+      <Hsp_evalue>1.00884e-80</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>168</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>169</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>103</Hsp_identity>
+      <Hsp_positive>137</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>169</Hsp_align-len>
+      <Hsp_qseq>MDRVGKYGLFIKRISPKDADITKESLETVNNMLVFLAEKLTKQANIII-DQKTLRHDAFLWLLTDIQGELGKHSQDFANSVLYGEKELVFPTKRTENLMRKNTCLRISRSAVKTLTAILEYFCGQIMEASFSQAKKSKRKRIRPIDIEAAISQDKELHSMFGKGVISGR</Hsp_qseq>
+      <Hsp_hseq>MERVGKYGLYVKRMSPKDFDVTKEAVEQINNMLVFLADKMMTKALILLGDKKTLKHDALFWLLRDVPGELGKHGKDYVDSALYGNKELVFPTKRTENLMRKKTCKRVGQSSVKTLTAILEYFCQEILNSSAREAGKESRKRIKVSDVQGAVKKDRELFQVFGSGIFSGR</Hsp_hseq>
+      <Hsp_midline>M+RVGKYGL++KR+SPKD D+TKE++E +NNMLVFLA+K+  +A I++ D+KTL+HDA  WLL D+ GELGKH +D+ +S LYG KELVFPTKRTENLMRK TC R+ +S+VKTLTAILEYFC +I+ +S  +A K  RKRI+  D++ A+ +D+EL  +FG G+ SGR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|44</Hit_id>
+  <Hit_def>HISTDB_H2B_H2A_like_25 type: Doublet, variant: H2B-H2A-like_(Viruses), organism: nan</Hit_def>
+  <Hit_accession>44</Hit_accession>
+  <Hit_len>169</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>225.328</Hsp_bit-score>
+      <Hsp_score>573</Hsp_score>
+      <Hsp_evalue>4.56107e-79</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>168</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>169</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>101</Hsp_identity>
+      <Hsp_positive>139</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>169</Hsp_align-len>
+      <Hsp_qseq>MDRVGKYGLFIKRISPKDADITKESLETVNNMLVFLAEKLTKQANIII-DQKTLRHDAFLWLLTDIQGELGKHSQDFANSVLYGEKELVFPTKRTENLMRKNTCLRISRSAVKTLTAILEYFCGQIMEASFSQAKKSKRKRIRPIDIEAAISQDKELHSMFGKGVISGR</Hsp_qseq>
+      <Hsp_hseq>MERVGKYGLFIKRMTPKDTEVTKEALEQISAMLSFLAETLLRKANILLGEKKTVSHEVIFWLLRDIPGELGKHSKDYVDSVLYGKRELIFPTKRTENLMRTKTCKRVGQSAVRTLTATLEYFCREILEASSKEAKRNSRKRIRVLDIQNSVKKDGELYKVFGSGIFSGR</Hsp_hseq>
+      <Hsp_midline>M+RVGKYGLFIKR++PKD ++TKE+LE ++ ML FLAE L ++ANI++ ++KT+ H+   WLL DI GELGKHS+D+ +SVLYG++EL+FPTKRTENLMR  TC R+ +SAV+TLTA LEYFC +I+EAS  +AK++ RKRIR +DI+ ++ +D EL+ +FG G+ SGR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|45</Hit_id>
+  <Hit_def>HISTDB_H2B_H2A_like_26 type: Doublet, variant: H2B-H2A-like_(Viruses), organism: nan</Hit_def>
+  <Hit_accession>45</Hit_accession>
+  <Hit_len>169</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>222.246</Hsp_bit-score>
+      <Hsp_score>565</Hsp_score>
+      <Hsp_evalue>6.52749e-78</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>168</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>169</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>96</Hsp_identity>
+      <Hsp_positive>140</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>169</Hsp_align-len>
+      <Hsp_qseq>MDRVGKYGLFIKRISPKDADITKESLETVNNMLVFLAEKLTKQANIII-DQKTLRHDAFLWLLTDIQGELGKHSQDFANSVLYGEKELVFPTKRTENLMRKNTCLRISRSAVKTLTAILEYFCGQIMEASFSQAKKSKRKRIRPIDIEAAISQDKELHSMFGKGVISGR</Hsp_qseq>
+      <Hsp_hseq>MERIGKYGLFIKRMTPKDTEVTKEAVEQISSMLSFLAETLLRKSTILLGDKKTIKHEVIFWLLRDIPGELGKHSKDYVDSVVYGKRELIFPTKRTENLMRTKTCKRVGQSAVKTLTAILEYFCSEVLEAASKEAKRNSRKRIKVLDIQNSVKKDAELFKVFGSGIFSGR</Hsp_hseq>
+      <Hsp_midline>M+R+GKYGLFIKR++PKD ++TKE++E +++ML FLAE L +++ I++ D+KT++H+   WLL DI GELGKHS+D+ +SV+YG++EL+FPTKRTENLMR  TC R+ +SAVKTLTAILEYFC +++EA+  +AK++ RKRI+ +DI+ ++ +D EL  +FG G+ SGR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|39</Hit_id>
+  <Hit_def>HISTDB_H2B_H2A_like_20 type: Doublet, variant: H2B-H2A-like_(Viruses), organism: nan</Hit_def>
+  <Hit_accession>39</Hit_accession>
+  <Hit_len>169</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>221.476</Hsp_bit-score>
+      <Hsp_score>563</Hsp_score>
+      <Hsp_evalue>1.43597e-77</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>168</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>169</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>96</Hsp_identity>
+      <Hsp_positive>140</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>169</Hsp_align-len>
+      <Hsp_qseq>MDRVGKYGLFIKRISPKDADITKESLETVNNMLVFLAEKLTKQANIII-DQKTLRHDAFLWLLTDIQGELGKHSQDFANSVLYGEKELVFPTKRTENLMRKNTCLRISRSAVKTLTAILEYFCGQIMEASFSQAKKSKRKRIRPIDIEAAISQDKELHSMFGKGVISGR</Hsp_qseq>
+      <Hsp_hseq>MERIGKYGLFIKRMTPKDTEVTKEAVEQISSMLSFLAETLLRKSTILLGDKKTIKHEVIFWLLRDIPGELGKHSKDYVDSVVYGKRELIFPTKRTENLMRTKTCKRVGQSAVKTLTAILEYFCREVLEAASKEAKRNSRKRIKVLDIQNSVKKDAELFKVFGSGIFSGR</Hsp_hseq>
+      <Hsp_midline>M+R+GKYGLFIKR++PKD ++TKE++E +++ML FLAE L +++ I++ D+KT++H+   WLL DI GELGKHS+D+ +SV+YG++EL+FPTKRTENLMR  TC R+ +SAVKTLTAILEYFC +++EA+  +AK++ RKRI+ +DI+ ++ +D EL  +FG G+ SGR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|37</Hit_id>
+  <Hit_def>HISTDB_H2B_H2A_like_19 type: Doublet, variant: H2B-H2A-like_(Viruses), organism: nan</Hit_def>
+  <Hit_accession>37</Hit_accession>
+  <Hit_len>267</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>81.6481</Hsp_bit-score>
+      <Hsp_score>200</Hsp_score>
+      <Hsp_evalue>5.05041e-22</Hsp_evalue>
+      <Hsp_query-from>10</Hsp_query-from>
+      <Hsp_query-to>167</Hsp_query-to>
+      <Hsp_hit-from>35</Hsp_hit-from>
+      <Hsp_hit-to>208</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>53</Hsp_identity>
+      <Hsp_positive>91</Hsp_positive>
+      <Hsp_gaps>18</Hsp_gaps>
+      <Hsp_align-len>175</Hsp_align-len>
+      <Hsp_qseq>FIKRISPKDADITKESLETVNNMLVFLAEKLTKQANIII--DQKTLRHDAFL-WLLTDIQGELGKHSQDFANSVLYGEK-------------ELVFPTKRTENLMRKNTC-LRISRSAVKTLTAILEYFCGQIMEASFSQAKKSKRKRIRPIDIEAAISQDKELHSMFGKGVISG</Hsp_qseq>
+      <Hsp_hseq>VLAQVHP-DQSIRAEALEELDNIAIFLGKAISKDAAILVGTESKTINGRAISSAAVALLGGELGKHAHAQAGKAITASQAGDGKGESRSIKARLQLSVARSERLIREHACAYRVSATAGIALAAVLEYIIAEIIELAGNASRDSKKVRIAVKHIQLAVQNDAELHHLLGKGIFSG</Hsp_hseq>
+      <Hsp_midline> + ++ P D  I  E+LE ++N+ +FL + ++K A I++  + KT+   A     +  + GELGKH+   A   +   +              L     R+E L+R++ C  R+S +A   L A+LEY   +I+E + + ++ SK+ RI    I+ A+  D ELH + GKG+ SG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|50</Hit_id>
+  <Hit_def>HISTDB_H2B_H2A_like_30 type: Doublet, variant: H2B-H2A-like_(Viruses), organism: nan</Hit_def>
+  <Hit_accession>50</Hit_accession>
+  <Hit_len>276</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>75.8702</Hsp_bit-score>
+      <Hsp_score>185</Hsp_score>
+      <Hsp_evalue>8.81996e-20</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>167</Hsp_query-to>
+      <Hsp_hit-from>29</Hsp_hit-from>
+      <Hsp_hit-to>212</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>55</Hsp_identity>
+      <Hsp_positive>96</Hsp_positive>
+      <Hsp_gaps>24</Hsp_gaps>
+      <Hsp_align-len>185</Hsp_align-len>
+      <Hsp_qseq>KYGLF--IKRISPKDADITKESLETVNNMLVFLAEKLTKQANIII--DQKTLRHDAFLWLLTDI-QGELGKHS-QDFANSVLY-----------GEK-----ELVFPTKRTENLMRKNTC-LRISRSAVKTLTAILEYFCGQIMEASFSQAKKSKRKRIRPIDIEAAISQDKELHSMFGKGVISG</Hsp_qseq>
+      <Hsp_hseq>KVGIYRVLKQVHP-DQSIRVEALEELDKIALFVGKKIAKDAAILVGSESKTINGRAIMGATRALLPGELGKHAISDITKAITHTASANASEEHKGESRSHKAKLQMSVARAERVIREEACSYRVSESAGIALAAALEYLIAEIVELAGNAARDSKKVRVSVKHIQLAVHNDSEMMALLGKGIFSG</Hsp_hseq>
+      <Hsp_midline>K G++  +K++ P D  I  E+LE ++ + +F+ +K+ K A I++  + KT+   A +     +  GELGKH+  D   ++ +           GE      +L     R E ++R+  C  R+S SA   L A LEY   +I+E + + A+ SK+ R+    I+ A+  D E+ ++ GKG+ SG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|42</Hit_id>
+  <Hit_def>HISTDB_H2B_H2A_like_23 type: Doublet, variant: H2B-H2A-like_(Viruses), organism: nan</Hit_def>
+  <Hit_accession>42</Hit_accession>
+  <Hit_len>269</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>70.8626</Hsp_bit-score>
+      <Hsp_score>172</Hsp_score>
+      <Hsp_evalue>5.84623e-18</Hsp_evalue>
+      <Hsp_query-from>10</Hsp_query-from>
+      <Hsp_query-to>167</Hsp_query-to>
+      <Hsp_hit-from>24</Hsp_hit-from>
+      <Hsp_hit-to>198</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>55</Hsp_identity>
+      <Hsp_positive>93</Hsp_positive>
+      <Hsp_gaps>19</Hsp_gaps>
+      <Hsp_align-len>176</Hsp_align-len>
+      <Hsp_qseq>FIKRISPKDADITKESLETVNNMLVFLAEKLTKQANIIIDQ--KTLRHDAFLWLLTDIQG-ELGKHS-QDFANSVL-YG------------EKELVFPTKRTENLMRKNT-CLRISRSAVKTLTAILEYFCGQIMEASFSQAKKSKRKRIRPIDIEAAISQDKELHSMFGKGVISG</Hsp_qseq>
+      <Hsp_hseq>MLAQIHP-DISVQTEALSELSNIAVFLGKKISHGAVTLLPEGTKTIKSSAVLLAAGDLYGKDLGRHAVGEMTKAVTRYGSAKESKEGSRSSKAKLQISVARSERLLREHGGCSRVSEGAAVALAAAIEYFMGEVLELAGNAARDSKKVRISVKHITLAIQNDAALFAVVGKGVFSG</Hsp_hseq>
+      <Hsp_midline> + +I P D  +  E+L  ++N+ VFL +K++  A  ++ +  KT++  A L    D+ G +LG+H+  +   +V  YG            + +L     R+E L+R++  C R+S  A   L A +EYF G+++E + + A+ SK+ RI    I  AI  D  L ++ GKGV SG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|41</Hit_id>
+  <Hit_def>HISTDB_H2B_H2A_like_22 type: Doublet, variant: H2B-H2A-like_(Viruses), organism: nan</Hit_def>
+  <Hit_accession>41</Hit_accession>
+  <Hit_len>269</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>70.8626</Hsp_bit-score>
+      <Hsp_score>172</Hsp_score>
+      <Hsp_evalue>5.84623e-18</Hsp_evalue>
+      <Hsp_query-from>10</Hsp_query-from>
+      <Hsp_query-to>167</Hsp_query-to>
+      <Hsp_hit-from>24</Hsp_hit-from>
+      <Hsp_hit-to>198</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>55</Hsp_identity>
+      <Hsp_positive>93</Hsp_positive>
+      <Hsp_gaps>19</Hsp_gaps>
+      <Hsp_align-len>176</Hsp_align-len>
+      <Hsp_qseq>FIKRISPKDADITKESLETVNNMLVFLAEKLTKQANIIIDQ--KTLRHDAFLWLLTDIQG-ELGKHS-QDFANSVL-YG------------EKELVFPTKRTENLMRKNT-CLRISRSAVKTLTAILEYFCGQIMEASFSQAKKSKRKRIRPIDIEAAISQDKELHSMFGKGVISG</Hsp_qseq>
+      <Hsp_hseq>MLAQIHP-DISVQTEALSELSNIAVFLGKKISHGAVTLLPEGTKTIKSSAVLLAAGDLYGKDLGRHAVGEMTKAVTRYGSAKESKEGSRSSKAKLQISVARSERLLREHGGCSRVSEGAAVALAAAIEYFMGEVLELAGNAARDSKKVRISVKHITLAIQNDAALFAVVGKGVFSG</Hsp_hseq>
+      <Hsp_midline> + +I P D  +  E+L  ++N+ VFL +K++  A  ++ +  KT++  A L    D+ G +LG+H+  +   +V  YG            + +L     R+E L+R++  C R+S  A   L A +EYF G+++E + + A+ SK+ RI    I  AI  D  L ++ GKGV SG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|47</Hit_id>
+  <Hit_def>HISTDB_H2B_H2A_like_28 type: Doublet, variant: H2B-H2A-like_(Viruses), organism: nan</Hit_def>
+  <Hit_accession>47</Hit_accession>
+  <Hit_len>265</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>70.4774</Hsp_bit-score>
+      <Hsp_score>171</Hsp_score>
+      <Hsp_evalue>6.86157e-18</Hsp_evalue>
+      <Hsp_query-from>10</Hsp_query-from>
+      <Hsp_query-to>167</Hsp_query-to>
+      <Hsp_hit-from>24</Hsp_hit-from>
+      <Hsp_hit-to>197</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>52</Hsp_identity>
+      <Hsp_positive>89</Hsp_positive>
+      <Hsp_gaps>18</Hsp_gaps>
+      <Hsp_align-len>175</Hsp_align-len>
+      <Hsp_qseq>FIKRISPKDADITKESLETVNNMLVFLAEKLTKQANIIIDQ--KTLRHDAFLWLLTDIQG-ELGKHSQDFANSVLYGEK-------------ELVFPTKRTENLMRKNT-CLRISRSAVKTLTAILEYFCGQIMEASFSQAKKSKRKRIRPIDIEAAISQDKELHSMFGKGVISG</Hsp_qseq>
+      <Hsp_hseq>LLSQIHP-DISVQTEALAELSNITVFVGKKISHGAATLLPEGTKTISAEAVILSAEDLFGKDLGRHAASEARKAVASYKASKVSEGSRSSKAKLKLSVARSERVLREHSACSRVSGGASVALAAALEYFMAEIIELAGNAARDSKKVRISVKHIMRAIQDDAALFHVVGKGVFSG</Hsp_hseq>
+      <Hsp_midline> + +I P D  +  E+L  ++N+ VF+ +K++  A  ++ +  KT+  +A +    D+ G +LG+H+   A   +   K             +L     R+E ++R+++ C R+S  A   L A LEYF  +I+E + + A+ SK+ RI    I  AI  D  L  + GKGV SG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|43</Hit_id>
+  <Hit_def>HISTDB_H2B_H2A_like_24 type: Doublet, variant: H2B-H2A-like_(Viruses), organism: nan</Hit_def>
+  <Hit_accession>43</Hit_accession>
+  <Hit_len>264</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>66.6254</Hsp_bit-score>
+      <Hsp_score>161</Hsp_score>
+      <Hsp_evalue>2.15105e-16</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>167</Hsp_query-to>
+      <Hsp_hit-from>32</Hsp_hit-from>
+      <Hsp_hit-to>205</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>53</Hsp_identity>
+      <Hsp_positive>88</Hsp_positive>
+      <Hsp_gaps>19</Hsp_gaps>
+      <Hsp_align-len>175</Hsp_align-len>
+      <Hsp_qseq>IKRISPKDADITKESLETVNNMLVFLAEKLTKQANIII--DQKTLRHDAF-LWLLTDIQGELGKHSQDFANSVL-----YGEK--------ELVFPTKRTENLMRKN--TCLRISRSAVKTLTAILEYFCGQIMEASFSQAKKSKRKRIRPIDIEAAISQDKELHSMFGKGVISG</Hsp_qseq>
+      <Hsp_hseq>LAQVHP-DQSIKGEAMRQLDSIAVYLGKKIAHDAAVIVGTESKTINGRAVSLAARALMGGELGKHAHSGAAKAITHYQAAGDKGDSRSAKARLQLSVSRAERLIREHGGCAYRVSATAGVALAAAIEYIIAEILELAGNAARDSKKVRIAVKHIQAAVQADAELFGLLGKGVFSG</Hsp_hseq>
+      <Hsp_midline>+ ++ P D  I  E++  ++++ V+L +K+   A +I+  + KT+   A  L     + GELGKH+   A   +      G+K         L     R E L+R++     R+S +A   L A +EY   +I+E + + A+ SK+ RI    I+AA+  D EL  + GKGV SG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|40</Hit_id>
+  <Hit_def>HISTDB_H2B_H2A_like_21 type: Doublet, variant: H2B-H2A-like_(Viruses), organism: nan</Hit_def>
+  <Hit_accession>40</Hit_accession>
+  <Hit_len>277</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>64.3142</Hsp_bit-score>
+      <Hsp_score>155</Hsp_score>
+      <Hsp_evalue>1.30022e-15</Hsp_evalue>
+      <Hsp_query-from>10</Hsp_query-from>
+      <Hsp_query-to>166</Hsp_query-to>
+      <Hsp_hit-from>34</Hsp_hit-from>
+      <Hsp_hit-to>207</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>50</Hsp_identity>
+      <Hsp_positive>86</Hsp_positive>
+      <Hsp_gaps>19</Hsp_gaps>
+      <Hsp_align-len>175</Hsp_align-len>
+      <Hsp_qseq>FIKRISPKDADITKESLETVNNMLVFLAEKLTKQANIII--DQKTLRHDAFLWLLTDI-QGELGKHSQDFANSVL-----YGEK--------ELVFPTKRTENLMRKNT-C-LRISRSAVKTLTAILEYFCGQIMEASFSQAKKSKRKRIRPIDIEAAISQDKELHSMFGKGVIS</Hsp_qseq>
+      <Hsp_hseq>VLAQVHP-DQSIKGEALRQLDSIAVYLGKKIAHDAAVIVGTESKTINGRAVLLATRALFDGELAKHAHALAGKAVTHYEAAGDKGDSRSAKAHLQLSVSRAERLIREHGGCGYRVSATAGVVLAAALEYIIAEIIELAGNASRDSKKVRISIKHVQLAVQNDADLFRLLGKGVFS</Hsp_hseq>
+      <Hsp_midline> + ++ P D  I  E+L  ++++ V+L +K+   A +I+  + KT+   A L     +  GEL KH+   A   +      G+K         L     R E L+R++  C  R+S +A   L A LEY   +I+E + + ++ SK+ RI    ++ A+  D +L  + GKGV S</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|46</Hit_id>
+  <Hit_def>HISTDB_H2B_H2A_like_27 type: Doublet, variant: H2B-H2A-like_(Viruses), organism: nan</Hit_def>
+  <Hit_accession>46</Hit_accession>
+  <Hit_len>277</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>64.3142</Hsp_bit-score>
+      <Hsp_score>155</Hsp_score>
+      <Hsp_evalue>1.48048e-15</Hsp_evalue>
+      <Hsp_query-from>10</Hsp_query-from>
+      <Hsp_query-to>166</Hsp_query-to>
+      <Hsp_hit-from>34</Hsp_hit-from>
+      <Hsp_hit-to>207</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>50</Hsp_identity>
+      <Hsp_positive>86</Hsp_positive>
+      <Hsp_gaps>19</Hsp_gaps>
+      <Hsp_align-len>175</Hsp_align-len>
+      <Hsp_qseq>FIKRISPKDADITKESLETVNNMLVFLAEKLTKQANIII--DQKTLRHDAFLWLLTDI-QGELGKHSQDFANSVL-----YGEK--------ELVFPTKRTENLMRKNT-C-LRISRSAVKTLTAILEYFCGQIMEASFSQAKKSKRKRIRPIDIEAAISQDKELHSMFGKGVIS</Hsp_qseq>
+      <Hsp_hseq>VLAQVHP-DQSIKGEALRQLDSIAVYLGKKIAHDAAVIVGTESKTINGRAVLLATRALFDGELAKHAHALAGKAVTHYEAAGDKGDSRSAKAHLQLSVSRAERLIREHGGCGYRVSATAGVVLAAALEYIIAEIIELAGNASRDSKKVRISIKHVQLAVQNDADLFRLLGKGVFS</Hsp_hseq>
+      <Hsp_midline> + ++ P D  I  E+L  ++++ V+L +K+   A +I+  + KT+   A L     +  GEL KH+   A   +      G+K         L     R E L+R++  C  R+S +A   L A LEY   +I+E + + ++ SK+ RI    ++ A+  D +L  + GKGV S</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|60</Hit_id>
+  <Hit_def>HISTDB_H2B_H2A_like_4 type: Doublet, variant: H2B-H2A-like_(Viruses), organism: nan</Hit_def>
+  <Hit_accession>60</Hit_accession>
+  <Hit_len>221</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>62.003</Hsp_bit-score>
+      <Hsp_score>149</Hsp_score>
+      <Hsp_evalue>6.04791e-15</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>160</Hsp_query-to>
+      <Hsp_hit-from>12</Hsp_hit-from>
+      <Hsp_hit-to>191</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>51</Hsp_identity>
+      <Hsp_positive>85</Hsp_positive>
+      <Hsp_gaps>36</Hsp_gaps>
+      <Hsp_align-len>183</Hsp_align-len>
+      <Hsp_qseq>IKRISPKDADITKESLETVNNMLVFLAEKLTKQANIIIDQKTLRHDAFLWLLT---------DIQ--------GELGKHSQDFANSVL---------------YGEKE-LVFPTKRTENLMRKNTCLRISRSAVKTLTAILEYFCGQIMEASFSQAKKSKRKRIRPIDIEAAISQDKELHSMF</Hsp_qseq>
+      <Hsp_hseq>LKQVHP-DTRISHESLALMNFIVNFLCVKIAHKAVMLVN--PLNYESKKKTTTTAKKTISSRDIQAAVRLLLEGGLSKHAVSSGTKAVTKYTSFHPKSKKPTTAAEKAGLQFSVSRTSNLLRRNISLRVGETASVYLAAVLEYICAEILELAGNNSKDHKMKTIMPRHMKEIVVEDEELHRLM</Hsp_hseq>
+      <Hsp_midline>+K++ P D  I+ ESL  +N ++ FL  K+  +A ++++   L +++     T         DIQ        G L KH+       +                 EK  L F   RT NL+R+N  LR+  +A   L A+LEY C +I+E + + +K  K K I P  ++  + +D+ELH + </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|49</Hit_id>
+  <Hit_def>HISTDB_H2B_H2A_like_3 type: Doublet, variant: H2B-H2A-like_(Viruses), organism: nan</Hit_def>
+  <Hit_accession>49</Hit_accession>
+  <Hit_len>222</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>60.8474</Hsp_bit-score>
+      <Hsp_score>146</Hsp_score>
+      <Hsp_evalue>1.54337e-14</Hsp_evalue>
+      <Hsp_query-from>87</Hsp_query-from>
+      <Hsp_query-to>160</Hsp_query-to>
+      <Hsp_hit-from>120</Hsp_hit-from>
+      <Hsp_hit-to>193</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>28</Hsp_identity>
+      <Hsp_positive>45</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>74</Hsp_align-len>
+      <Hsp_qseq>LVFPTKRTENLMRKNTCLRISRSAVKTLTAILEYFCGQIMEASFSQAKKSKRKRIRPIDIEAAISQDKELHSMF</Hsp_qseq>
+      <Hsp_hseq>LHFSVARTHNLLRRNISLRIGETAPVYLAAVLEYIAGEILELAGNHSQEQKMNTVMPRHIKDAVVKDEELHRLM</Hsp_hseq>
+      <Hsp_midline>L F   RT NL+R+N  LRI  +A   L A+LEY  G+I+E + + +++ K   + P  I+ A+ +D+ELH + </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|66</Hit_id>
+  <Hit_def>HISTDB_H2B_H2A_like_45 type: Doublet, variant: H2B-H2A-like_(Viruses), organism: nan</Hit_def>
+  <Hit_accession>66</Hit_accession>
+  <Hit_len>251</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>58.9214</Hsp_bit-score>
+      <Hsp_score>141</Hsp_score>
+      <Hsp_evalue>1.17661e-13</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>167</Hsp_query-to>
+      <Hsp_hit-from>20</Hsp_hit-from>
+      <Hsp_hit-to>201</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>55</Hsp_identity>
+      <Hsp_positive>90</Hsp_positive>
+      <Hsp_gaps>25</Hsp_gaps>
+      <Hsp_align-len>186</Hsp_align-len>
+      <Hsp_qseq>RVGKYGLFIKRISPKDADITKESLETVNNMLVFLAEKLTKQANIIIDQ--KTLRHDAF-LWLLTDIQGELGKHSQDFANSVLYGEKE-------------LVFPTKRTENLMRKN-----TCLRISRSAVKTLTAILEYFCGQIMEASFSQAKKSKRKRIRPIDIEAAISQDKELHSMFGKGVISG</Hsp_qseq>
+      <Hsp_hseq>RVG-ISAITKDVSP-SLGTTAEALEELNNISLYIGKCVAKGAAIIVDKESKTINGRAVALAARASFPDELGDKSFEKAMGAIKTSKKAGEAKGARSEKAGLMISVARAERLIREHGGCSLSCL-LSPPGI-ALAAVIEYVVTEVIMAAALRASDSKKVRLAVKHIQEAVHEDTELMQLLGKGVFSG</Hsp_hseq>
+      <Hsp_midline>RVG      K +SP     T E+LE +NN+ +++ + + K A II+D+  KT+   A  L        ELG  S + A   +   K+             L+    R E L+R++     +CL +S   +  L A++EY   +++ A+  +A  SK+ R+    I+ A+ +D EL  + GKGV SG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|72</Hit_id>
+  <Hit_def>HISTDB_H2B_H2A_like_9 type: Doublet, variant: H2B-H2A-like_(Viruses), organism: nan</Hit_def>
+  <Hit_accession>72</Hit_accession>
+  <Hit_len>428</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>56.9954</Hsp_bit-score>
+      <Hsp_score>136</Hsp_score>
+      <Hsp_evalue>9.39893e-13</Hsp_evalue>
+      <Hsp_query-from>86</Hsp_query-from>
+      <Hsp_query-to>166</Hsp_query-to>
+      <Hsp_hit-from>325</Hsp_hit-from>
+      <Hsp_hit-to>405</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>34</Hsp_identity>
+      <Hsp_positive>48</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>82</Hsp_align-len>
+      <Hsp_qseq>ELVFPTKRTENLMRKN-TCLRISRSAVKTLTAILEYFCGQIMEASFSQAKKSKRKRIRPIDIEAAISQDKELHSMFGKGVIS</Hsp_qseq>
+      <Hsp_hseq>KLLFPVGRVERLVRQQQTANRISDSAPVYLAAILQYVVAEILQGAAMSARKRKFKRITPRDIMLTVEMDDELNKLFS-GVFA</Hsp_hseq>
+      <Hsp_midline>+L+FP  R E L+R+  T  RIS SA   L AIL+Y   +I++ +   A+K K KRI P DI   +  D EL+ +F  GV +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|27</Hit_id>
+  <Hit_def>HISTDB_H2B_H2A_like_1 type: Doublet, variant: H2B-H2A-like_(Viruses), organism: nan</Hit_def>
+  <Hit_accession>27</Hit_accession>
+  <Hit_len>216</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>53.1434</Hsp_bit-score>
+      <Hsp_score>126</Hsp_score>
+      <Hsp_evalue>9.74869e-12</Hsp_evalue>
+      <Hsp_query-from>87</Hsp_query-from>
+      <Hsp_query-to>167</Hsp_query-to>
+      <Hsp_hit-from>127</Hsp_hit-from>
+      <Hsp_hit-to>208</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>31</Hsp_identity>
+      <Hsp_positive>45</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>82</Hsp_align-len>
+      <Hsp_qseq>LVFPTKRTENLMRK-NTCLRISRSAVKTLTAILEYFCGQIMEASFSQAKKSKRKRIRPIDIEAAISQDKELHSMFGKGVISG</Hsp_qseq>
+      <Hsp_hseq>LEFPVTRVERIMMEFSVSSRKSASAAVYLAAVLEYITAEILELAGNAARDYKKHRITPRHIVLAVKNDEELDMLYTKTVFSG</Hsp_hseq>
+      <Hsp_midline>L FP  R E +M + +   R S SA   L A+LEY   +I+E + + A+  K+ RI P  I  A+  D+EL  ++ K V SG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|65</Hit_id>
+  <Hit_def>HISTDB_H2B_H2A_like_44 type: Doublet, variant: H2B-H2A-like_(Viruses), organism: nan</Hit_def>
+  <Hit_accession>65</Hit_accession>
+  <Hit_len>221</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>53.1434</Hsp_bit-score>
+      <Hsp_score>126</Hsp_score>
+      <Hsp_evalue>1.13647e-11</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>167</Hsp_query-to>
+      <Hsp_hit-from>22</Hsp_hit-from>
+      <Hsp_hit-to>202</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>49</Hsp_identity>
+      <Hsp_positive>81</Hsp_positive>
+      <Hsp_gaps>30</Hsp_gaps>
+      <Hsp_align-len>184</Hsp_align-len>
+      <Hsp_qseq>IKRISPKDADITKESLETVNNMLVFLAEKLTKQANIII---DQKTLRHDAF---LWLLTDIQGELGKHSQDFANS------------------VLYGEKE-LVFPTKRTENLMRKNTCL--RISRSAVKTLTAILEYFCGQIMEASFSQAKKSKRKRIRPIDIEAAISQDKELHSMFGKGVISG</Hsp_qseq>
+      <Hsp_hseq>LKQVHP-DAGITSGAMTVVDNFVKINLEKLIKNSNLLLFHSGKKTLGAKEIKSSVWLT--MEGEIASNSNKEGERAVMKFNSSKSKASSGGGRVTASERAGLLFPVSRIRNKWLKELSIANRVGEDASIFLSAVLEYLTAELLEQAGDKAKDDKRVRITPRHLKLGIENDAELEKLMRDVYVPG</Hsp_hseq>
+      <Hsp_midline>+K++ P DA IT  ++  V+N +    EKL K +N+++    +KTL        +WL   ++GE+  +S                        V   E+  L+FP  R  N   K   +  R+   A   L+A+LEY   +++E +  +AK  KR RI P  ++  I  D EL  +     + G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|28</Hit_id>
+  <Hit_def>HISTDB_H2B_H2A_like_10 type: Doublet, variant: H2B-H2A-like_(Viruses), organism: nan</Hit_def>
+  <Hit_accession>28</Hit_accession>
+  <Hit_len>225</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>49.2914</Hsp_bit-score>
+      <Hsp_score>116</Hsp_score>
+      <Hsp_evalue>2.4268e-10</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>167</Hsp_query-to>
+      <Hsp_hit-from>10</Hsp_hit-from>
+      <Hsp_hit-to>202</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>52</Hsp_identity>
+      <Hsp_positive>84</Hsp_positive>
+      <Hsp_gaps>33</Hsp_gaps>
+      <Hsp_align-len>194</Hsp_align-len>
+      <Hsp_qseq>KYGLFIKRISPK---DADITKESLETVNNMLVFLAEKLTKQANII---IDQKTLRHDAFLWLLTDI--QGELGKHSQ--------DFANSVLYGE------------KELVFPTKRTENL-MRKNTC---LRISRSAVKTLTAILEYFCGQIMEASFSQAKKSKRKRIRPIDIEAAISQDKELHSMFGKGVISG</Hsp_qseq>
+      <Hsp_hseq>KFDTYIERVLKHLYPELGMTSEAKMEVNNLIKASFQKIMDAVNYLNAQSDKKTIS-AKHLGITTDIVLGKELAKHVHQEGTRAVTEYNTSVSSSQGKSDTTTTRSERAKLIFPVGRIENTWIRPAMCGRDTRLSEDAPVYMAAVLEYITADILELAGHVAKDDKKMRITTRHLALALQRDDELDHFLGDYIVSG</Hsp_hseq>
+      <Hsp_midline>K+  +I+R+      +  +T E+   VNN++    +K+    N +    D+KT+     L + TDI    EL KH          ++  SV   +             +L+FP  R EN  +R   C    R+S  A   + A+LEY    I+E +   AK  K+ RI    +  A+ +D EL    G  ++SG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|30</Hit_id>
+  <Hit_def>HISTDB_H2B_H2A_like_12 type: Doublet, variant: H2B-H2A-like_(Viruses), organism: nan</Hit_def>
+  <Hit_accession>30</Hit_accession>
+  <Hit_len>245</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>48.521</Hsp_bit-score>
+      <Hsp_score>114</Hsp_score>
+      <Hsp_evalue>5.64268e-10</Hsp_evalue>
+      <Hsp_query-from>86</Hsp_query-from>
+      <Hsp_query-to>159</Hsp_query-to>
+      <Hsp_hit-from>150</Hsp_hit-from>
+      <Hsp_hit-to>228</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>29</Hsp_identity>
+      <Hsp_positive>43</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>79</Hsp_align-len>
+      <Hsp_qseq>ELVFPTKRTENLMRKNTCL---RISRSAVKTLTAILEYFCGQI--MEASFSQAKKSKRKRIRPIDIEAAISQDKELHSM</Hsp_qseq>
+      <Hsp_hseq>ELIFPVSRVGERVKSASSLDGLRIGEKAIVFLTAVLEYLTQELLRMAGEVADTGKNKHKRITPRDIKLAINKDKGLEEL</Hsp_hseq>
+      <Hsp_midline>EL+FP  R    ++  + L   RI   A+  LTA+LEY   ++  M    +   K+K KRI P DI+ AI++DK L  +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|26</Hit_id>
+  <Hit_def>HISTDB_H2B_H2A_like_0 type: Doublet, variant: H2B-H2A-like_(Viruses), organism: nan</Hit_def>
+  <Hit_accession>26</Hit_accession>
+  <Hit_len>195</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>46.9802</Hsp_bit-score>
+      <Hsp_score>110</Hsp_score>
+      <Hsp_evalue>1.12315e-09</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>168</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>186</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>48</Hsp_identity>
+      <Hsp_positive>86</Hsp_positive>
+      <Hsp_gaps>18</Hsp_gaps>
+      <Hsp_align-len>181</Hsp_align-len>
+      <Hsp_qseq>KYGLFIKRISP---KDADITKESLETVNNMLVFLAEKLTKQANII-IDQKTLRHDAFLWLLTDI-QGELGKHS-----------QDFANSVLYGEKELVFPTKRTENLMRKNTCL-RISRSAVKTLTAILEYFCGQIMEASFSQAKKSKRKRIRPIDIEAAIS-QDKELHSMFGKGVISGR</Hsp_qseq>
+      <Hsp_hseq>KYNIYIKRVKNGINREIRISSDAIEIMNDIINYSISILMKACNSLKSNKKTLEAREIKTAVNLILPGELEKHAIVEGFKSVTRAKGNKDGSIQEKSELKFPISRISNEMKKLSLYERQGKMASVYMTSVIEYLVVEIIEVSVFTLYKKKRKTITVDDIKNTIKIKDAELVKLYENITLKGK</Hsp_hseq>
+      <Hsp_midline>KY ++IKR+     ++  I+ +++E +N+++ +    L K  N +  ++KTL        +  I  GEL KH+           +   +  +  + EL FP  R  N M+K +   R  + A   +T+++EY   +I+E S     K KRK I   DI+  I  +D EL  ++    + G+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|70</Hit_id>
+  <Hit_def>HISTDB_H2B_H2A_like_7 type: Doublet, variant: H2B-H2A-like_(Viruses), organism: nan</Hit_def>
+  <Hit_accession>70</Hit_accession>
+  <Hit_len>273</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>46.595</Hsp_bit-score>
+      <Hsp_score>109</Hsp_score>
+      <Hsp_evalue>2.77482e-09</Hsp_evalue>
+      <Hsp_query-from>87</Hsp_query-from>
+      <Hsp_query-to>167</Hsp_query-to>
+      <Hsp_hit-from>127</Hsp_hit-from>
+      <Hsp_hit-to>207</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>28</Hsp_identity>
+      <Hsp_positive>44</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>82</Hsp_align-len>
+      <Hsp_qseq>LVFPTKRTENLMRK-NTCLRISRSAVKTLTAILEYFCGQIMEASFSQAKKSKRKRIRPIDIEAAISQDKELHSMFGKGVISG</Hsp_qseq>
+      <Hsp_hseq>LVFSPARVERQLRACSSAKRVGENAPVYLAAVAESITGEILELAGDQARDSKRKRITPRDLTLVLRGNEPLDRTF-SGFVAG</Hsp_hseq>
+      <Hsp_midline>LVF   R E  +R  ++  R+  +A   L A+ E   G+I+E +  QA+ SKRKRI P D+   +  ++ L   F  G ++G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|32</Hit_id>
+  <Hit_def>HISTDB_H2B_H2A_like_14 type: Doublet, variant: H2B-H2A-like_(Viruses), organism: nan</Hit_def>
+  <Hit_accession>32</Hit_accession>
+  <Hit_len>227</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>45.8246</Hsp_bit-score>
+      <Hsp_score>107</Hsp_score>
+      <Hsp_evalue>3.55102e-09</Hsp_evalue>
+      <Hsp_query-from>87</Hsp_query-from>
+      <Hsp_query-to>156</Hsp_query-to>
+      <Hsp_hit-from>113</Hsp_hit-from>
+      <Hsp_hit-to>182</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>39</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>70</Hsp_align-len>
+      <Hsp_qseq>LVFPTKRTENLMRKNTCLRISRSAVKTLTAILEYFCGQIMEASFSQAKKSKRKRIRPIDIEAAISQDKEL</Hsp_qseq>
+      <Hsp_hseq>LQFSVDRCKDMIGKHSNCRVDETAAVYLAGVLEYLTGEILELAGNVCKDERKKTITPHHVKNAVENDGEL</Hsp_hseq>
+      <Hsp_midline>L F   R ++++ K++  R+  +A   L  +LEY  G+I+E + +  K  ++K I P  ++ A+  D EL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|35</Hit_id>
+  <Hit_def>HISTDB_H2B_H2A_like_17 type: Doublet, variant: H2B-H2A-like_(Viruses), organism: nan</Hit_def>
+  <Hit_accession>35</Hit_accession>
+  <Hit_len>238</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>45.0542</Hsp_bit-score>
+      <Hsp_score>105</Hsp_score>
+      <Hsp_evalue>9.00126e-09</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>167</Hsp_query-to>
+      <Hsp_hit-from>22</Hsp_hit-from>
+      <Hsp_hit-to>199</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>40</Hsp_identity>
+      <Hsp_positive>80</Hsp_positive>
+      <Hsp_gaps>23</Hsp_gaps>
+      <Hsp_align-len>179</Hsp_align-len>
+      <Hsp_qseq>IKRISPKDADITKESLETVNNMLVFLAEKLTKQANIIIDQKTLRHDAFLWLLTDIQ----GELGKHSQDFANSVL------YGEKE----------LVFPTKRTENLMRKNTC--LRISRSAVKTLTAILEYFCGQIMEASFSQAKKSKRKRIRPIDIEAAISQDKELHSMFGKGVISG</Hsp_qseq>
+      <Hsp_hseq>LKQVHP-DTGFTTDAKEQMNHFVEHFADKIADEAAFLAKKEHKKTISSREVQTAVRLVLPGELAKHAVSEGTKAVTKYTSHYSRKGKKVSKSWRAGLQFPVSRFKTILQKHAPRGFRIGEGAPVYLAAVMEYLTAEMLELGGNAARDNRKSNINSRHLQLASRNDEELSKLLGKHNIVG</Hsp_hseq>
+      <Hsp_midline>+K++ P D   T ++ E +N+ +   A+K+  +A  +  ++  +  +   + T ++    GEL KH+       +      Y  K           L FP  R + +++K+     RI   A   L A++EY   +++E   + A+ +++  I    ++ A   D+EL  + GK  I G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|29</Hit_id>
+  <Hit_def>HISTDB_H2B_H2A_like_11 type: Doublet, variant: H2B-H2A-like_(Viruses), organism: nan</Hit_def>
+  <Hit_accession>29</Hit_accession>
+  <Hit_len>218</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>40.817</Hsp_bit-score>
+      <Hsp_score>94</Hsp_score>
+      <Hsp_evalue>2.20147e-07</Hsp_evalue>
+      <Hsp_query-from>87</Hsp_query-from>
+      <Hsp_query-to>167</Hsp_query-to>
+      <Hsp_hit-from>123</Hsp_hit-from>
+      <Hsp_hit-to>205</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>27</Hsp_identity>
+      <Hsp_positive>40</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>83</Hsp_align-len>
+      <Hsp_qseq>LVFPTKRTENLMRKN--TCLRISRSAVKTLTAILEYFCGQIMEASFSQAKKSKRKRIRPIDIEAAISQDKELHSMFGKGVISG</Hsp_qseq>
+      <Hsp_hseq>LQFPVTRIKTKWMKPLASVDRVGDSAAVYMAAVLEYLTAEIMELAGNAARDHGKVRITDRHIALAIQNDEELNKMSKNMVFAG</Hsp_hseq>
+      <Hsp_midline>L FP  R +    K   +  R+  SA   + A+LEY   +IME + + A+   + RI    I  AI  D+EL+ M    V +G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|31</Hit_id>
+  <Hit_def>HISTDB_H2B_H2A_like_13 type: Doublet, variant: H2B-H2A-like_(Viruses), organism: nan</Hit_def>
+  <Hit_accession>31</Hit_accession>
+  <Hit_len>224</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>40.0466</Hsp_bit-score>
+      <Hsp_score>92</Hsp_score>
+      <Hsp_evalue>4.31485e-07</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>160</Hsp_query-to>
+      <Hsp_hit-from>18</Hsp_hit-from>
+      <Hsp_hit-to>198</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>43</Hsp_identity>
+      <Hsp_positive>74</Hsp_positive>
+      <Hsp_gaps>41</Hsp_gaps>
+      <Hsp_align-len>186</Hsp_align-len>
+      <Hsp_qseq>IKRISPKDADITKESLETVNNMLVFLAEKLTKQANII--------IDQKTLRHDAFLWLLTDIQGELGKHSQDFANSVL-------YGEK--------ELVFPTKRTENLMR-------------KNTCLRISRSAVKTLTAILEYFCGQIMEASFSQAKKSKRKRIRPIDIEAAISQDKELHSMF</Hsp_qseq>
+      <Hsp_hseq>LKQVHP-DTGISSGANTQMNVIINAIGEKISEKAAFLAIKAGRKTISAKDIQSAVRLVL----PGELAKHAVSEGTKAVTKYSDSPYARKIRKRSARAGLQFPVSRVEKFVRAAANKGSLDSSCKKGGCLRVTDTTGVYLAGAIEYLVAEILELGGNAARDNKKARITSRHLFLGIVNDEELSKMM</Hsp_hseq>
+      <Hsp_midline>+K++ P D  I+  +   +N ++  + EK++++A  +        I  K ++    L L     GEL KH+       +       Y  K         L FP  R E  +R             K  CLR++ +    L   +EY   +I+E   + A+ +K+ RI    +   I  D+EL  M </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|51</Hit_id>
+  <Hit_def>HISTDB_H2B_H2A_like_31 type: Doublet, variant: H2B-H2A-like_(Viruses), organism: nan</Hit_def>
+  <Hit_accession>51</Hit_accession>
+  <Hit_len>192</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>39.2762</Hsp_bit-score>
+      <Hsp_score>90</Hsp_score>
+      <Hsp_evalue>5.93474e-07</Hsp_evalue>
+      <Hsp_query-from>7</Hsp_query-from>
+      <Hsp_query-to>167</Hsp_query-to>
+      <Hsp_hit-from>8</Hsp_hit-from>
+      <Hsp_hit-to>188</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>49</Hsp_identity>
+      <Hsp_positive>86</Hsp_positive>
+      <Hsp_gaps>26</Hsp_gaps>
+      <Hsp_align-len>184</Hsp_align-len>
+      <Hsp_qseq>YGLFIKRISPKDAD---ITKESLETVNNMLVFLAEKLTKQANIII--DQKTLRHDAFLWLLTDIQ----GELGKHS--QDFAN----SVLYGEK-------ELVFPTKRTENLMRKNTCL-RISRSAVKTLTAILEYFCGQIMEASFSQAKKSKRKRIRPIDIEAAISQDKELHSMFGKGVISG</Hsp_qseq>
+      <Hsp_hseq>FEVYIKRVVSQVHPTLLLEKRASECLNAIINYSLLRLTQTCNTIKPEDKKTL---SPLEIQTAVKLVIPGELSKHGVVEGFMSVNKASSAYSKKGSLTEKANLLVSVPRVSSGMRKLSIYERQGKYAGVYAAAVLEYLLAEISELAGNITRKKGKKTITVADVKMAINNDEELRHFYKDVIIKG</Hsp_hseq>
+      <Hsp_midline>+ ++IKR+  +      + K + E +N ++ +   +LT+  N I   D+KTL   + L + T ++    GEL KH   + F +    S  Y +K        L+    R  + MRK +   R  + A     A+LEY   +I E + +  +K  +K I   D++ AI+ D+EL   +   +I G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|34</Hit_id>
+  <Hit_def>HISTDB_H2B_H2A_like_16 type: Doublet, variant: H2B-H2A-like_(Viruses), organism: nan</Hit_def>
+  <Hit_accession>34</Hit_accession>
+  <Hit_len>191</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>38.891</Hsp_bit-score>
+      <Hsp_score>89</Hsp_score>
+      <Hsp_evalue>9.91682e-07</Hsp_evalue>
+      <Hsp_query-from>12</Hsp_query-from>
+      <Hsp_query-to>138</Hsp_query-to>
+      <Hsp_hit-from>15</Hsp_hit-from>
+      <Hsp_hit-to>164</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>40</Hsp_identity>
+      <Hsp_positive>63</Hsp_positive>
+      <Hsp_gaps>25</Hsp_gaps>
+      <Hsp_align-len>151</Hsp_align-len>
+      <Hsp_qseq>KRISPKDADITKESLETVNNMLVFLAEKLTKQANII--------IDQKTLRHDAFLWLLTDIQGELGKHSQDFANSVLYG-----------EKELVFPTKRTENLMRKNTC-----LRISRSAVKTLTAILEYFCGQIMEASFSQAKKSKR</Hsp_qseq>
+      <Hsp_hseq>KQIHP-DLRVSAEFTTSVNNMINVLGKKLILTAIAIKINAGRVELQAKDIKAATEVVLLPDLYKYATSNATKAVTIASSGKIEGRRVTRTEEAKLTLSVPRVETFMRDNIPKRAGRTRISKYAIVYLTAVLEYIAAETCELSGNEATRNKK</Hsp_hseq>
+      <Hsp_midline>K+I P D  ++ E   +VNNM+  L +KL   A  I        +  K ++    + LL D+      ++         G           E +L     R E  MR N        RIS+ A+  LTA+LEY   +  E S ++A ++K+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|33</Hit_id>
+  <Hit_def>HISTDB_H2B_H2A_like_15 type: Doublet, variant: H2B-H2A-like_(Viruses), organism: nan</Hit_def>
+  <Hit_accession>33</Hit_accession>
+  <Hit_len>191</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>38.891</Hsp_bit-score>
+      <Hsp_score>89</Hsp_score>
+      <Hsp_evalue>9.91682e-07</Hsp_evalue>
+      <Hsp_query-from>12</Hsp_query-from>
+      <Hsp_query-to>138</Hsp_query-to>
+      <Hsp_hit-from>15</Hsp_hit-from>
+      <Hsp_hit-to>164</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>40</Hsp_identity>
+      <Hsp_positive>63</Hsp_positive>
+      <Hsp_gaps>25</Hsp_gaps>
+      <Hsp_align-len>151</Hsp_align-len>
+      <Hsp_qseq>KRISPKDADITKESLETVNNMLVFLAEKLTKQANII--------IDQKTLRHDAFLWLLTDIQGELGKHSQDFANSVLYG-----------EKELVFPTKRTENLMRKNTC-----LRISRSAVKTLTAILEYFCGQIMEASFSQAKKSKR</Hsp_qseq>
+      <Hsp_hseq>KQIHP-DLRVSAEFTTSVNNMINVLGKKLILTAIAIKINAGRVELQAKDIKAATEVVLLPDLYKYATSNATKAVTIASSGKIEGRRVTRTEEAKLTLSVPRVETFMRDNIPKRAGRTRISKYAIVYLTAVLEYIAAETCELSGNEATRNKK</Hsp_hseq>
+      <Hsp_midline>K+I P D  ++ E   +VNNM+  L +KL   A  I        +  K ++    + LL D+      ++         G           E +L     R E  MR N        RIS+ A+  LTA+LEY   +  E S ++A ++K+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|57</Hit_id>
+  <Hit_def>HISTDB_H2B_H2A_like_37 type: Doublet, variant: H2B-H2A-like_(Viruses), organism: nan</Hit_def>
+  <Hit_accession>57</Hit_accession>
+  <Hit_len>201</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>38.1206</Hsp_bit-score>
+      <Hsp_score>87</Hsp_score>
+      <Hsp_evalue>1.96388e-06</Hsp_evalue>
+      <Hsp_query-from>112</Hsp_query-from>
+      <Hsp_query-to>162</Hsp_query-to>
+      <Hsp_hit-from>102</Hsp_hit-from>
+      <Hsp_hit-to>152</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>19</Hsp_identity>
+      <Hsp_positive>30</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>51</Hsp_align-len>
+      <Hsp_qseq>KTLTAILEYFCGQIMEASFSQAKKSKRKRIRPIDIEAAISQDKELHSMFGK</Hsp_qseq>
+      <Hsp_hseq>KYFSTTLEYILAEVLELSGNVTKDNQKKRITPYYIWYSISLDEELLVLFKK</Hsp_hseq>
+      <Hsp_midline>K  +  LEY   +++E S +  K +++KRI P  I  +IS D+EL  +F K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|25</Hit_id>
+  <Hit_def>HISTDB_H2A_H2B_like_1 type: Doublet, variant: H2A-H2B-like_(Viruses), organism: nan</Hit_def>
+  <Hit_accession>25</Hit_accession>
+  <Hit_len>182</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>35.039</Hsp_bit-score>
+      <Hsp_score>79</Hsp_score>
+      <Hsp_evalue>1.79513e-05</Hsp_evalue>
+      <Hsp_query-from>105</Hsp_query-from>
+      <Hsp_query-to>168</Hsp_query-to>
+      <Hsp_hit-from>30</Hsp_hit-from>
+      <Hsp_hit-to>95</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>20</Hsp_identity>
+      <Hsp_positive>31</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>66</Hsp_align-len>
+      <Hsp_qseq>RISRSAVKTLTAILEYFCGQIMEASFSQAKKSKRKRIRPIDIEAAISQDKELHSMFG--KGVISGR</Hsp_qseq>
+      <Hsp_hseq>NISNDVAIRITAIIEYLVAEIMELGGNVTLNKNRKRLSIDHVILAIQTDSELNKLYNSTNNIISNK</Hsp_hseq>
+      <Hsp_midline> IS      +TAI+EY   +IME   +      RKR+    +  AI  D EL+ ++     +IS +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|24</Hit_id>
+  <Hit_def>HISTDB_H2A_H2B_like_0 type: Doublet, variant: H2A-H2B-like_(Viruses), organism: nan</Hit_def>
+  <Hit_accession>24</Hit_accession>
+  <Hit_len>199</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>34.2686</Hsp_bit-score>
+      <Hsp_score>77</Hsp_score>
+      <Hsp_evalue>3.72193e-05</Hsp_evalue>
+      <Hsp_query-from>105</Hsp_query-from>
+      <Hsp_query-to>161</Hsp_query-to>
+      <Hsp_hit-from>33</Hsp_hit-from>
+      <Hsp_hit-to>87</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>20</Hsp_identity>
+      <Hsp_positive>29</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>57</Hsp_align-len>
+      <Hsp_qseq>RISRSAVKTLTAILEYFCGQIMEASFSQAKKSKRKRIRPIDIEAAISQDKELHSMFG</Hsp_qseq>
+      <Hsp_hseq>KISVEVAVIITSTLEYLSAEILELSGNNV--SSSKVIHDNHIEKGICSDEELNGVFG</Hsp_hseq>
+      <Hsp_midline>+IS      +T+ LEY   +I+E S +    S  K I    IE  I  D+EL+ +FG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|56</Hit_id>
+  <Hit_def>HISTDB_H2B_H2A_like_36 type: Doublet, variant: H2B-H2A-like_(Viruses), organism: nan</Hit_def>
+  <Hit_accession>56</Hit_accession>
+  <Hit_len>339</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.9574</Hsp_bit-score>
+      <Hsp_score>71</Hsp_score>
+      <Hsp_evalue>0.000272754</Hsp_evalue>
+      <Hsp_query-from>105</Hsp_query-from>
+      <Hsp_query-to>159</Hsp_query-to>
+      <Hsp_hit-from>115</Hsp_hit-from>
+      <Hsp_hit-to>169</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>18</Hsp_identity>
+      <Hsp_positive>29</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>55</Hsp_align-len>
+      <Hsp_qseq>RISRSAVKTLTAILEYFCGQIMEASFSQAKKSKRKRIRPIDIEAAISQDKELHSM</Hsp_qseq>
+      <Hsp_hseq>KISGDAAAYFSCVLEYLSAEILELSGNAARDNKRVTINKDFVDRAIKNDTELEKL</Hsp_hseq>
+      <Hsp_midline>+IS  A    + +LEY   +I+E S + A+ +KR  I    ++ AI  D EL  +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|69</Hit_id>
+  <Hit_def>HISTDB_H2B_H2A_like_6 type: Doublet, variant: H2B-H2A-like_(Viruses), organism: nan</Hit_def>
+  <Hit_accession>69</Hit_accession>
+  <Hit_len>200</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.8018</Hsp_bit-score>
+      <Hsp_score>68</Hsp_score>
+      <Hsp_evalue>0.000508483</Hsp_evalue>
+      <Hsp_query-from>87</Hsp_query-from>
+      <Hsp_query-to>160</Hsp_query-to>
+      <Hsp_hit-from>105</Hsp_hit-from>
+      <Hsp_hit-to>184</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>20</Hsp_identity>
+      <Hsp_positive>36</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>80</Hsp_align-len>
+      <Hsp_qseq>LVFPTKRTENLMRKNTC------LRISRSAVKTLTAILEYFCGQIMEASFSQAKKSKRKRIRPIDIEAAISQDKELHSMF</Hsp_qseq>
+      <Hsp_hseq>LDIPVSIVENMIRSMVADNEEKGLRVSDESGVYAGGVLQYLTIELLEVSLHEADKENKKTITDTIVVNAVKKDIDLGELF</Hsp_hseq>
+      <Hsp_midline>L  P    EN++R          LR+S  +      +L+Y   +++E S  +A K  +K I    +  A+ +D +L  +F</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|63</Hit_id>
+  <Hit_def>HISTDB_H2B_H2A_like_42 type: Doublet, variant: H2B-H2A-like_(Viruses), organism: nan</Hit_def>
+  <Hit_accession>63</Hit_accession>
+  <Hit_len>391</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.8018</Hsp_bit-score>
+      <Hsp_score>68</Hsp_score>
+      <Hsp_evalue>0.000615374</Hsp_evalue>
+      <Hsp_query-from>63</Hsp_query-from>
+      <Hsp_query-to>161</Hsp_query-to>
+      <Hsp_hit-from>184</Hsp_hit-from>
+      <Hsp_hit-to>269</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>28</Hsp_identity>
+      <Hsp_positive>38</Hsp_positive>
+      <Hsp_gaps>15</Hsp_gaps>
+      <Hsp_align-len>100</Hsp_align-len>
+      <Hsp_qseq>TDIQGELGKHSQDFANSVLYGEKELVFPTKRTENLMRKNTCLRISRSA-VKTLTAILEYFCGQIMEASFSQAKKSKRKRIRPIDIEAAISQDKELHSMFG</Hsp_qseq>
+      <Hsp_hseq>TVLPGELGKHAYSELKKYTVAERMLNHPA--------------IFHSVDGKGTNIILEYIVAELLELSGNVAHDFHKVNITPDHLKTAIGNDVELSQMMA</Hsp_hseq>
+      <Hsp_midline>T + GELGKH+          E+ L  P               I  S   K    ILEY   +++E S + A    +  I P  ++ AI  D EL  M  </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|68</Hit_id>
+  <Hit_def>HISTDB_H2B_H2A_like_5 type: Doublet, variant: H2B-H2A-like_(Viruses), organism: nan</Hit_def>
+  <Hit_accession>68</Hit_accession>
+  <Hit_len>221</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>29.6462</Hsp_bit-score>
+      <Hsp_score>65</Hsp_score>
+      <Hsp_evalue>0.00132569</Hsp_evalue>
+      <Hsp_query-from>87</Hsp_query-from>
+      <Hsp_query-to>162</Hsp_query-to>
+      <Hsp_hit-from>106</Hsp_hit-from>
+      <Hsp_hit-to>183</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>19</Hsp_identity>
+      <Hsp_positive>36</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>78</Hsp_align-len>
+      <Hsp_qseq>LVFPTKRTENLMRKNTC--LRISRSAVKTLTAILEYFCGQIMEASFSQAKKSKRKRIRPIDIEAAISQDKELHSMFGK</Hsp_qseq>
+      <Hsp_hseq>IVFPPVRARHLIEKNLPKHFHIGDAAPVYLAAVLEYLTAEFIQQTGNCTRDNNMNTLTLSCLYKATYNDEELNQLLSK</Hsp_hseq>
+      <Hsp_midline>+VFP  R  +L+ KN      I  +A   L A+LEY   + ++ + +  + +    +    +  A   D+EL+ +  K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|61</Hit_id>
+  <Hit_def>HISTDB_H2B_H2A_like_40 type: Doublet, variant: H2B-H2A-like_(Viruses), organism: nan</Hit_def>
+  <Hit_accession>61</Hit_accession>
+  <Hit_len>458</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>29.261</Hsp_bit-score>
+      <Hsp_score>64</Hsp_score>
+      <Hsp_evalue>0.00202624</Hsp_evalue>
+      <Hsp_query-from>114</Hsp_query-from>
+      <Hsp_query-to>162</Hsp_query-to>
+      <Hsp_hit-from>116</Hsp_hit-from>
+      <Hsp_hit-to>164</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>16</Hsp_identity>
+      <Hsp_positive>26</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>49</Hsp_align-len>
+      <Hsp_qseq>LTAILEYFCGQIMEASFSQAKKSKRKRIRPIDIEAAISQDKELHSMFGK</Hsp_qseq>
+      <Hsp_hseq>ITAVYEYILAEILELSSNTAQNMKTSTINEKIIIKTMKQDEELNIFYKK</Hsp_hseq>
+      <Hsp_midline>+TA+ EY   +I+E S + A+  K   I    I   + QD+EL+  + K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|67</Hit_id>
+  <Hit_def>HISTDB_H2B_H2A_like_46 type: Doublet, variant: H2B-H2A-like_(Viruses), organism: nan</Hit_def>
+  <Hit_accession>67</Hit_accession>
+  <Hit_len>267</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>28.4906</Hsp_bit-score>
+      <Hsp_score>62</Hsp_score>
+      <Hsp_evalue>0.00378562</Hsp_evalue>
+      <Hsp_query-from>87</Hsp_query-from>
+      <Hsp_query-to>160</Hsp_query-to>
+      <Hsp_hit-from>112</Hsp_hit-from>
+      <Hsp_hit-to>174</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>22</Hsp_identity>
+      <Hsp_positive>32</Hsp_positive>
+      <Hsp_gaps>13</Hsp_gaps>
+      <Hsp_align-len>75</Hsp_align-len>
+      <Hsp_qseq>LVFPTKRTENLMR-KNTCLRISRSAVKTLTAILEYFCGQIMEASFSQAKKSKRKRIRPIDIEAAISQDKELHSMF</Hsp_qseq>
+      <Hsp_hseq>LIFSLTVAGNSIRAKNT--NVSDPTTVFLTAVCEYLCSDILDMMFVSHST----------VYAAVSRDIDLQEFF</Hsp_hseq>
+      <Hsp_midline>L+F      N +R KNT   +S      LTA+ EY C  I++  F               + AA+S+D +L   F</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|59</Hit_id>
+  <Hit_def>HISTDB_H2B_H2A_like_39 type: Doublet, variant: H2B-H2A-like_(Viruses), organism: nan</Hit_def>
+  <Hit_accession>59</Hit_accession>
+  <Hit_len>260</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>27.7202</Hsp_bit-score>
+      <Hsp_score>60</Hsp_score>
+      <Hsp_evalue>0.00622647</Hsp_evalue>
+      <Hsp_query-from>114</Hsp_query-from>
+      <Hsp_query-to>162</Hsp_query-to>
+      <Hsp_hit-from>123</Hsp_hit-from>
+      <Hsp_hit-to>171</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>13</Hsp_identity>
+      <Hsp_positive>26</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>49</Hsp_align-len>
+      <Hsp_qseq>LTAILEYFCGQIMEASFSQAKKSKRKRIRPIDIEAAISQDKELHSMFGK</Hsp_qseq>
+      <Hsp_hseq>LASALEYLIAELLEIGGNAARDNRKGTIGKWQIELVLLNDEELIELFNR</Hsp_hseq>
+      <Hsp_midline>L + LEY   +++E   + A+ +++  I    IE  +  D+EL  +F +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|53</Hit_id>
+  <Hit_def>HISTDB_H2B_H2A_like_33 type: Doublet, variant: H2B-H2A-like_(Viruses), organism: nan</Hit_def>
+  <Hit_accession>53</Hit_accession>
+  <Hit_len>179</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>27.335</Hsp_bit-score>
+      <Hsp_score>59</Hsp_score>
+      <Hsp_evalue>0.00626013</Hsp_evalue>
+      <Hsp_query-from>48</Hsp_query-from>
+      <Hsp_query-to>143</Hsp_query-to>
+      <Hsp_hit-from>66</Hsp_hit-from>
+      <Hsp_hit-to>154</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>22</Hsp_identity>
+      <Hsp_positive>44</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>96</Hsp_align-len>
+      <Hsp_qseq>IDQKTLRHDAFLWLLTDIQGELGKHSQDFANSVLYGEKELVFPTKRTENLMRKNTCLRISRSAVKTLTAILEYFCGQIMEASFSQAKKSKRKRIRP</Hsp_qseq>
+      <Hsp_hseq>VDKKTVEAAAKLLLPQELASYVIEEAERATS------KSVVFPTNIISNLLNSKT-IKVKKGAEVYFASILETISEELIEFGGEAANQNGSSVISP</Hsp_hseq>
+      <Hsp_midline>+D+KT+   A L L  ++   + + ++   +      K +VFPT    NL+   T +++ + A     +ILE    +++E     A ++    I P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>112</Statistics_db-num>
+      <Statistics_db-len>23336</Statistics_db-len>
+      <Statistics_hsp-len>50</Statistics_hsp-len>
+      <Statistics_eff-space>2092848</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

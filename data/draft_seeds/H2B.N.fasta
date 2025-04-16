@@ -1,0 +1,70 @@
+>H2B.N_Ailuropoda_melanoleuca_HISTDB_H2B_N_3 organism=Ailuropoda melanoleuca phylum=Chordata class=Mammalia
+------MYYVCLHDPRF------PKKRTTL---YIPAKAKYECANSAL------RHKRKK
+KEVYFSYMGKILKQT--HPDFSGCSWILDAL-----------------GSLEDWLLEWVS
+LEAVRLSFYNHRRAVTSREILGAVKQRSFRKSFCINKVF---------------------
+---
+>H2B.N_Bos_taurus_XP_059734412.1 organism=Bos taurus phylum=Chordata class=Mammalia
+------MYFICLHGLQF------PKRKLTI---YIPAKEKDEWVHSATG-----KKRRKK
+KETYFNYMGKLLKQV--HPDFSGCSWILDAL-----------------RVLEDWQLEWVS
+LEAVRLSLYNHRRTITSREILEAVKQRCSQKSLGINEVDLHGSVVEMIALVQKQKIGSFG
+GLS
+>H2B.N_Bos_taurus_XP_059746706.1 organism=Bos taurus phylum=Chordata class=Mammalia
+------MHFICLHGLQF------PKRKLTI---YIPAKEKDEWVCSATG-----KKRRKK
+KEAYFNYMEKLLKQV--HPDFSGCSWILDAL-----------------RVLEDWQLEWVS
+LEAVRLSFYNHRRTITTKEILKAVKQRCSQKSLGINEVDLHGSVVEMIALVQKQKIGSFG
+GLS
+>H2B.N_Canis_lupus_familiaris_HISTDB_H2B_N_2 organism=Canis lupus familiaris phylum=Chordata class=Mammalia
+------MYYICLHGLRF------PEKRTIL---YIPAREKYEWANSAL------RKKRKK
+KEVYFSYMGKILKQT--HPDFSGCSWILDAL-----------------GSLEDWLLEQVS
+LEAVRLSFYNHRRAVTSREILGAIKQRSFLKSFCVNEVF---------------------
+---
+>H2B.N_Ceratotherium_simum_HISTDB_H2B_N_1 organism=Ceratotherium simum phylum=Chordata class=Mammalia
+------MYFICLRGLRF------PKKTTN----YILAKKKYEWTSSAIGK----KRRRKK
+KEAYFSYMGKILEQIAHYRKLSRLCLILVPFLPRPTQTSVGAPGSWMHWALEAWRLEWVS
+LEAVRLSFCNHRRAVTSREILEAVKRRSSWKSF---------------------------
+---
+>H2B.N_Dasypus_novemcinctus_XP_058139847.1 organism=Dasypus novemcinctus phylum=Chordata class=Mammalia
+------MYYVCLDSLKF------PKKKTDV---YSLAERKYEWARSAFGKRRRRRWRRKK
+KEVYFSYMRKILKQV--HADFSGCSWVLDAL-----------------GSLDDWRLEWVS
+LEAVRLSFYNHRRAVTSREILEAVKQRLSWKSF---------------------------
+---
+>H2B.N_Loxodonta_africana_HISTDB_H2B_N_4 organism=Loxodonta africana phylum=Chordata class=Mammalia
+------MYYVCLGGLKF------PKKSEV----HIPAKKKYEWANSAFEKKRR-RRRRKK
+KEAHFCYMGKILKQT--HPDFSGCSWVLEAL-----------------GCLDDWQLEWVS
+LEAVRLSFYKHRRAITSREILEAMKQRSPRRSF---------------------------
+---
+>H2B.N_Monodelphis_domestica_XP_007485268.2 organism=Monodelphis domestica phylum=Chordata class=Mammalia
+--------------MKI------PRAGATVPRSFITTGKRRGYMRTVSG---------KK
+KDFYFSYIAKILKQV--HQDFSGYSWVLDAL-----------------WSLDYYLFEQAT
+LEAVRLSFYNHRRVVTSREMLETLSKVPLEGWM---------------------------
+---
+>H2B.N_Monodelphis_domestica_XP_007485606.1 organism=Monodelphis domestica phylum=Chordata class=Mammalia
+--------MEVGTEMKI------PRAGATVPRSFLRTGKRRGYMRTVSG---------KK
+KDFYFSYIAKILKQV--HQDFSGYSWVLDAL-----------------WSLDYYLFEQAT
+LEAVRLSFYNHRRVVTSREMLEALNKVPLEGWM---------------------------
+---
+>H2B.N_Monodelphis_domestica_XP_007485607.1 organism=Monodelphis domestica phylum=Chordata class=Mammalia
+------ME---GTEMKI------PRAGATVPRSFLRTGKRRGYMRTVSG---------KK
+KDFYFSYIAKILKQV--HQDFSGYSWVLDAL-----------------WSLDYYLFEQAT
+LEAVRLSFYNHRRVVTSREMLEALNKVPLEGWM---------------------------
+---
+>H2B.N_Ornithorhynchus_anatinus_HISTDB_H2B_N_5 organism=Ornithorhynchus anatinus phylum=Chordata class=Mammalia
+MGGPLGPGFLSLLETETKSPAVAPEAEMEG---PVEARKEYRCVRTSLS---------KK
+KEAYSSYIAHVLKQT--QPEPRGWGRAEGNL-----------------ESRDGQLLERVA
+GEAVRLTLLQAAKTVTSRVVRGALELVLAELVEE--------------------------
+---
+>H2B.N_Ovis_aries_HISTDB_H2B_N_0 organism=Ovis aries phylum=Chordata class=Mammalia
+------MHFICLHGLQF------PKRKLTI---SIPAKEKDEWVHSATG-----KKRRKK
+KEAYFNYMGKLLKQG--HPDFSGCSWILDAL-----------------RALEDWQLEWVS
+LEAVRLSLYNHRRTVTSREILEAVQQRCSQKTLGINEVALHGSVVEMIALVQKQKIGSFG
+GLS
+>H2B.N_Ovis_aries_XP_060251208.1 organism=Ovis aries phylum=Chordata class=Mammalia
+------MHFICLHGLQF------PKRKLTI---SIPAKEKDEWVHSATG-----KKRRKK
+KEAYFNYMGKLLKQG--HPDFSGCSWILDAL-----------------RALEDWQLEWIS
+LEAVRLSLYNHRRTVTSREILEAVQQRCSQKTLGINEVALHGSVVEMIALVQKQKIGSFG
+GLS
+>H2B.N_Homo_sapiens_Homo_sapiens_NP_001388269.1 organism=Homo sapiens phylum=Chordata class=Mammalia
+------MYFICLNDLRF------PKNKTEL---YFPVKKKHEWANSATGKKRRWRKK-RR
+KEAYFSYMGKILKQI--HPDFSGRSWVLYAL-----------------GALNAWQLEWVS
+LEAFRLSFYNHRRAITGREILGAVKQRSSQKSF---------------------------
+---
