@@ -1,0 +1,2 @@
+sudo apt-get install -y git wget python-dev muscle clustalw emboss ncbi-blast+
+sudo wget http://eddylab.org/software/hmmer/hmmer-3.1b2.tar.gz && tar zxf hmmer-3.1b2.tar.gz && cd hmmer-3.1b2 && ./configure --prefix=/usr && make && make install && cd easel; make install
