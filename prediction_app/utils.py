@@ -170,8 +170,8 @@ def make_blastp(sequences, blastdb, blastout, E=.01):
     if not hasattr(sequences, '__iter__'):
         sequences = [sequences]
 
-    blastp = os.path.join(os.path.dirname(sys.executable), "blastp") # for docker use
-    blastp = os.path.join("/usr/bin", "blastp")
+    blastp = os.path.join(os.path.dirname(sys.executable), "blastp") # use if blastp is present in the bin dir of virual environment
+    # blastp = os.path.join("/usr/bin", "blastp") # use on histonedb-dev
     # output = os.path.join("/", "tmp", "{}.xml".format(uuid.uuid4()))
     blastp_cline = NcbiblastpCommandline(
         cmd=blastp,
