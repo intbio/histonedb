@@ -1,0 +1,111 @@
+Species,VGNC ID (gene),Approved symbol,Approved name,Human gene ortholog HGNC ID
+Chimpanzee,VGNC:14352,H1-0,H1.0 linker histone,HGNC:4714
+Chimpanzee,VGNC:14359,H1-1,"H1.1 linker histone, cluster member",HGNC:4715
+Chimpanzee,VGNC:14360,H1-2,"H1.2 linker histone, cluster member",HGNC:4716
+Chimpanzee,VGNC:14368,H1-3,"H1.3 linker histone, cluster member",HGNC:4717
+Chimpanzee,VGNC:14369,H1-4,"H1.4 linker histone, cluster member",HGNC:4718
+Chimpanzee,VGNC:14362,H1-5,"H1.5 linker histone, cluster member",HGNC:4719
+Chimpanzee,VGNC:14371,H1-6,"H1.6 linker histone, cluster member",HGNC:4720
+Chimpanzee,VGNC:14411,H1-7,H1.7 linker histone,HGNC:24893
+Chimpanzee,VGNC:14868,H1-8,H1.8 linker histone,HGNC:18463
+Chimpanzee,VGNC:95365,H1-9,H1.9 linker histone,HGNC:30616
+Chimpanzee,VGNC:14242,H1-10,H1.10 linker histone,HGNC:4722
+,,,,
+Chimpanzee,VGNC:14358,H2AC1,H2A clustered histone 1,HGNC:18729
+Chimpanzee,VGNC:109584,H2AC2P,"H2A clustered histone 2, pseudogene",HGNC:18720
+Chimpanzee,VGNC:109585,H2AC3P,"H2A clustered histone 3, pseudogene",HGNC:18804
+Chimpanzee,VGNC:83628,H2AC4,H2A clustered histone 4,HGNC:4734
+Chimpanzee,VGNC:83631,H2AC5P,"H2A clustered histone 5, pseudogene",HGNC:4728
+Chimpanzee,VGNC:83635,H2AC6,H2A clustered histone 6,HGNC:4733
+Chimpanzee,VGNC:83640,H2AC7,H2A clustered histone 7,HGNC:4729
+Chimpanzee,VGNC:14372,H2AC8,H2A clustered histone 8,HGNC:4724
+Chimpanzee,VGNC:95366,H2AC9P,"H2A clustered histone 9, pseudogene",HGNC:18805
+Chimpanzee,VGNC:83647,H2AC10,H2A clustered histone 10,HGNC:4732
+Chimpanzee,VGNC:83651,H2AC11,H2A clustered histone 11,HGNC:4737
+Chimpanzee,VGNC:83655,H2AC12,H2A clustered histone 12,HGNC:13671
+Chimpanzee,VGNC:83654,H2AC13,H2A clustered histone 13,HGNC:4725
+Chimpanzee,VGNC:83658,H2AC14,H2A clustered histone 14,HGNC:4727
+Chimpanzee,VGNC:83660,H2AC15,H2A clustered histone 15,HGNC:4726
+Chimpanzee,VGNC:83664,H2AC16,H2A clustered histone 16,HGNC:4730
+Chimpanzee,VGNC:83669,H2AC17,H2A clustered histone 17,HGNC:4735
+Chimpanzee,VGNC:83676,H2AC18,H2A clustered histone 18,HGNC:4736
+Chimpanzee,VGNC:83679,H2AC19,H2A clustered histone 19,HGNC:29668
+Chimpanzee,VGNC:14365,H2AC20,H2A clustered histone 20,HGNC:4738
+Chimpanzee,VGNC:14364,H2AC21,H2A clustered histone 21,HGNC:20508
+Chimpanzee,VGNC:83685,H2AC25,H2A clustered histone 25,HGNC:20507
+Chimpanzee,VGNC:83681,H2AZ1,H2A.Z variant histone 1,HGNC:4741
+Chimpanzee,VGNC:14019,H2AZ2,H2A.Z variant histone 2,HGNC:20664
+Chimpanzee,VGNC:4025,MACROH2A1,macroH2A.1 histone,HGNC:4740
+Chimpanzee,VGNC:5462,MACROH2A2,macroH2A.2 histone,HGNC:14453
+Chimpanzee,VGNC:12576,H2AX,H2A.X variant histone,HGNC:4739
+Chimpanzee,VGNC:52069,H2AJ,H2A.J histone,HGNC:14456
+Chimpanzee,VGNC:83689,H2AB1,H2A.B variant histone 1,HGNC:22516
+Chimpanzee,VGNC:83688,H2AB2,H2A.B variant histone 2,HGNC:18298
+Chimpanzee,VGNC:83690,H2AB3,H2A.B variant histone 3,HGNC:14455
+Chimpanzee,VGNC:1369,H2AP,H2A.P histone,HGNC:18417
+Chimpanzee,VGNC:109586,H2AL1Q,H2A.L variant histone 1Q,HGNC:53959
+,,,,
+Chimpanzee,VGNC:14357,H2BC1,H2B clustered histone 1,HGNC:18730
+Chimpanzee,VGNC:96611,H2BC2P1,"H2B clustered histone 2, pseudogene 1",HGNC:18719
+Chimpanzee,VGNC:96610,H2BC2P2,"H2B clustered histone 2, pseudogene 2",HGNC:18719
+Chimpanzee,VGNC:14361,H2BC3,H2B clustered histone 3,HGNC:4751
+Chimpanzee,VGNC:83632,H2BC4,H2B clustered histone 4,HGNC:4757
+Chimpanzee,VGNC:83634,H2BC5,H2B clustered histone 5,HGNC:4747
+Chimpanzee,VGNC:83638,H2BC6,H2B clustered histone 6,HGNC:4753
+Chimpanzee,VGNC:83641,H2BC7,H2B clustered histone 7,HGNC:4752
+Chimpanzee,VGNC:83642,H2BC8,H2B clustered histone 8,HGNC:4746
+Chimpanzee,VGNC:83646,H2BC9,H2B clustered histone 9,HGNC:4755
+Chimpanzee,VGNC:83648,H2BC10,H2B clustered histone 10,HGNC:4756
+Chimpanzee,VGNC:83650,H2BC11,H2B clustered histone 11,HGNC:4761
+Chimpanzee,VGNC:83653,H2BC12,H2B clustered histone 12,HGNC:13954
+Chimpanzee,VGNC:83656,H2BC13,H2B clustered histone 13,HGNC:4748
+Chimpanzee,VGNC:83657,H2BC14,H2B clustered histone 14,HGNC:4750
+Chimpanzee,VGNC:83665,H2BC15,H2B clustered histone 15,HGNC:4749
+Chimpanzee,VGNC:83663,H2BC16P,"H2B clustered histone 16, pseudogene",HGNC:4754
+Chimpanzee,VGNC:83668,H2BC17,H2B clustered histone 17,HGNC:4758
+Chimpanzee,VGNC:83672,H2BC18,H2B clustered histone 18,HGNC:24700
+Chimpanzee,VGNC:83675,H2BC19P,"H2B clustered histone 19, pseudogene",HGNC:20517
+Chimpanzee,VGNC:83674,H2BC20P,"H2B clustered histone 20, pseudogene",HGNC:20516
+Chimpanzee,VGNC:83680,H2BC21,H2B clustered histone 21,HGNC:4760
+Chimpanzee,VGNC:83687,H2BC26,H2B clustered histone 26,HGNC:20514
+Chimpanzee,VGNC:83684,H2BC27,H2B clustered histone 27,HGNC:20515
+Chimpanzee,VGNC:83692,H2BK1,H2B.K variant histone 1,HGNC:53833
+Chimpanzee,VGNC:83693,H2BW1,H2B.W histone 1,HGNC:27252
+Chimpanzee,VGNC:83691,H2BW2,H2B.W histone 2,HGNC:27867
+Chimpanzee,VGNC:83694,H2BW4,H2B.W histone 4,HGNC:25757
+,,,,
+Chimpanzee,VGNC:83625,H3C1,H3 clustered histone 1,HGNC:4766
+Chimpanzee,VGNC:83629,H3C2,H3 clustered histone 2,HGNC:4776
+Chimpanzee,VGNC:83630,H3C3,H3 clustered histone 3,HGNC:4768
+Chimpanzee,VGNC:83636,H3C4,H3 clustered histone 4,HGNC:4767
+Chimpanzee,VGNC:109587,H3C6,H3 clustered histone 6,HGNC:4769
+Chimpanzee,VGNC:83644,H3C7,H3 clustered histone 7,HGNC:4773
+Chimpanzee,VGNC:83645,H3C8,H3 clustered histone 8,HGNC:4772
+Chimpanzee,VGNC:83659,H3C10,H3 clustered histone 10,HGNC:4775
+Chimpanzee,VGNC:83666,H3C11,H3 clustered histone 11,HGNC:4771
+Chimpanzee,VGNC:83670,H3C12,H3 clustered histone 12,HGNC:4774
+Chimpanzee,VGNC:83671,H3C13,H3 clustered histone 13,HGNC:25311
+Chimpanzee,VGNC:96612,H3C14,H3 clustered histone 14,HGNC:20503
+Chimpanzee,VGNC:83678,H3C15,H3 clustered histone 15,HGNC:20505
+Chimpanzee,VGNC:83682,H3-3A,H3.3 histone A,HGNC:4764
+Chimpanzee,VGNC:12252,H3-3B,H3.3 histone B,HGNC:4765
+Chimpanzee,VGNC:83683,H3-4,"H3.4 histone, cluster member",HGNC:4778
+Chimpanzee,VGNC:95364,H3-5P,"H3.5 histone, pseudogene",HGNC:33164
+Chimpanzee,VGNC:109583,H3Y2,H3.Y histone 2,HGNC:43734
+,,,,
+Chimpanzee,VGNC:83627,H4C1,H4 clustered histone 1,HGNC:4781
+Chimpanzee,VGNC:83626,H4C2,H4 clustered histone 2,HGNC:4789
+Chimpanzee,VGNC:83633,H4C3,H4 clustered histone 3,HGNC:4787
+Chimpanzee,VGNC:83637,H4C4,H4 clustered histone 4,HGNC:4782
+Chimpanzee,VGNC:83639,H4C5,H4 clustered histone 5,HGNC:4790
+Chimpanzee,VGNC:83643,H4C6,H4 clustered histone 6,HGNC:4783
+Chimpanzee,VGNC:14370,H4C7,H4 clustered histone 7,HGNC:4792
+Chimpanzee,VGNC:83649,H4C8,H4 clustered histone 8,HGNC:4788
+Chimpanzee,VGNC:83652,H4C9,H4 clustered histone 9,HGNC:4793
+Chimpanzee,VGNC:95367,H4C10P,"H4 clustered histone 10, pseudogene",HGNC:4786
+Chimpanzee,VGNC:83661,H4C11,H4 clustered histone 11,HGNC:4785
+Chimpanzee,VGNC:83662,H4C12,H4 clustered histone 12,HGNC:4784
+Chimpanzee,VGNC:83667,H4C13,H4 clustered histone 13,HGNC:4791
+Chimpanzee,VGNC:83673,H4C14,H4 clustered histone 14,HGNC:4794
+Chimpanzee,VGNC:83677,H4C15,H4 clustered histone 15,HGNC:29607
+Chimpanzee,VGNC:83686,H4C16,H4 histone 16,HGNC:20510

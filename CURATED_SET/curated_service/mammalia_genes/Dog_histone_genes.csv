@@ -1,0 +1,109 @@
+Species,VGNC ID (gene),Approved symbol,Approved name,Human gene ortholog HGNC ID
+Dog,VGNC:83740,H1-0,H1.0 linker histone,HGNC:4714
+Dog,VGNC:83712,H1-1,"H1.1 linker histone, cluster member",HGNC:4715
+Dog,VGNC:83717,H1-2,"H1.2 linker histone, cluster member",HGNC:4716
+Dog,VGNC:83763,H1-3,"H1.3 linker histone, cluster member",HGNC:4717
+Dog,VGNC:83756,H1-4,"H1.4 linker histone, cluster member",HGNC:4718
+Dog,VGNC:83731,H1-5,"H1.5 linker histone, cluster member",HGNC:4719
+Dog,VGNC:83719,H1-6,"H1.6 linker histone, cluster member",HGNC:4720
+Dog,VGNC:83735,H1-7,H1.7 linker histone,HGNC:24893
+Dog,VGNC:83738,H1-8,H1.8 linker histone,HGNC:18463
+Dog,VGNC:95371,H1-9,H1.9 linker histone,HGNC:30616
+Dog,VGNC:83707,H1-10,H1.10 linker histone,HGNC:4722
+Dog,VGNC:95373,H1-12,"H1.12 linker histone, cluster member",HGNC:19163
+,,,,
+Dog,VGNC:83710,H2AC1,H2A clustered histone 1,HGNC:18729
+Dog,VGNC:83713,H2AC2,H2A clustered histone 2,HGNC:18720
+Dog,VGNC:83766,H2AC4,H2A clustered histone 4,HGNC:4734
+Dog,VGNC:83715,H2AC5,H2A clustered histone 5,HGNC:4728
+Dog,VGNC:83720,H2AC6,H2A clustered histone 6,HGNC:4733
+Dog,VGNC:95372,H2AC7,H2A clustered histone 7,HGNC:4729
+Dog,VGNC:83758,H2AC8,H2A clustered histone 8,HGNC:4724
+Dog,VGNC:83770,H2AC9,H2A clustered histone 9,HGNC:18805
+Dog,VGNC:83775,H2AC10,H2A clustered histone 10,HGNC:4732
+Dog,VGNC:83722,H2AC11,H2A clustered histone 11,HGNC:4737
+Dog,VGNC:83725,H2AC12,H2A clustered histone 12,HGNC:13671
+Dog,VGNC:83724,H2AC13,H2A clustered histone 13,HGNC:4725
+Dog,VGNC:83742,H2AC14,H2A clustered histone 14,HGNC:4727
+Dog,VGNC:83759,H2AC15,H2A clustered histone 15,HGNC:4726
+Dog,VGNC:83727,H2AC16,H2A clustered histone 16,HGNC:4730
+Dog,VGNC:83730,H2AC17,H2A clustered histone 17,HGNC:4735
+Dog,VGNC:83737,H2AC18,H2A clustered histone 18,HGNC:4736
+Dog,VGNC:83704,H2AC19,H2A clustered histone 19,HGNC:29668
+Dog,VGNC:83751,H2AC20,H2A clustered histone 20,HGNC:4738
+Dog,VGNC:83750,H2AC21,H2A clustered histone 21,HGNC:20508
+Dog,VGNC:83700,H2AC25,H2A clustered histone 25,HGNC:20507
+Dog,VGNC:83696,H2AZ1,H2A.Z variant histone 1,HGNC:4741
+Dog,VGNC:83697,H2AZ2,H2A.Z variant histone 2,HGNC:20664
+Dog,VGNC:81622,MACROH2A1,macroH2A.1 histone,HGNC:4740
+Dog,VGNC:81623,MACROH2A2,macroH2A.2 histone,HGNC:14453
+Dog,VGNC:83734,H2AX,H2A.X variant histone,HGNC:4739
+Dog,VGNC:83708,H2AJ,H2A.J histone,HGNC:14456
+Dog,VGNC:95381,H2AB1,H2A.B variant histone 1,HGNC:22516
+Dog,VGNC:83746,H2AB3,H2A.B variant histone 3,HGNC:14455
+Dog,VGNC:83749,H2AP,H2A.P histone,HGNC:18417
+Dog,VGNC:109580,H2AQ1,H2A.Q variant histone 1,HGNC:53962
+Dog,VGNC:109581,H2AL1Q,H2A.L variant histone 1Q,HGNC:53959
+Dog,VGNC:109582,H2AL3,H2A.L variant histone 3,HGNC:53960
+,,,,
+Dog,VGNC:83711,H2BC1,H2B clustered histone 1,HGNC:18730
+Dog,VGNC:83714,H2BC2,H2B clustered histone 2,HGNC:18719
+Dog,VGNC:83739,H2BC3,H2B clustered histone 3,HGNC:4751
+Dog,VGNC:83718,H2BC4,H2B clustered histone 4,HGNC:4757
+Dog,VGNC:83755,H2BC5,H2B clustered histone 5,HGNC:4747
+Dog,VGNC:83754,H2BC6,H2B clustered histone 6,HGNC:4753
+Dog,VGNC:83757,H2BC7,H2B clustered histone 7,HGNC:4752
+Dog,VGNC:83753,H2BC8,H2B clustered histone 8,HGNC:4746
+Dog,VGNC:83774,H2BC9,H2B clustered histone 9,HGNC:4755
+Dog,VGNC:83721,H2BC10,H2B clustered histone 10,HGNC:4756
+Dog,VGNC:83723,H2BC11,H2B clustered histone 11,HGNC:4761
+Dog,VGNC:83726,H2BC12,H2B clustered histone 12,HGNC:13954
+Dog,VGNC:83743,H2BC13,H2B clustered histone 13,HGNC:4748
+Dog,VGNC:83741,H2BC14,H2B clustered histone 14,HGNC:4750
+Dog,VGNC:83728,H2BC15,H2B clustered histone 15,HGNC:4749
+Dog,VGNC:83736,H2BC17,H2B clustered histone 17,HGNC:4758
+Dog,VGNC:83701,H2BC18,H2B clustered histone 18,HGNC:24700
+Dog,VGNC:83703,H2BC19,H2B clustered histone 19,HGNC:20517
+Dog,VGNC:83705,H2BC20,H2B clustered histone 20,HGNC:20516
+Dog,VGNC:83747,H2BC21,H2B clustered histone 21,HGNC:4760
+Dog,VGNC:95376,H2BC25,H2B clustered histone 25,NA
+Dog,VGNC:83699,H2BC26,H2B clustered histone 26,HGNC:20514
+Dog,VGNC:83744,H2BC27,H2B clustered histone 27,HGNC:20515
+Dog,VGNC:83760,H2BK1,H2B.K variant histone 1,HGNC:53833
+Dog,VGNC:83767,H2BL1,H2B.L histone variant 1,HGNC:54442
+Dog,VGNC:83733,H2BW1,H2B.W histone 1,HGNC:27252
+Dog,VGNC:83769,H2BW2,H2B.W histone 2,HGNC:27867
+Dog,VGNC:83732,H2BW3,H2B.W histone 3,HGNC:44390
+,,,,
+Dog,VGNC:83716,H3C1,H3 clustered histone 1,HGNC:4766
+Dog,VGNC:83856,H3C2,H3 clustered histone 2,HGNC:4776
+Dog,VGNC:83771,H3C3,H3 clustered histone 3,HGNC:4768
+Dog,VGNC:95375,H3C4,H3 clustered histone 4,HGNC:4767
+Dog,VGNC:95374,H3C5,H3 clustered histone 5,HGNC:54427
+Dog,VGNC:95378,H3C6,H3 clustered histone 6,HGNC:4769
+Dog,VGNC:95377,H3C7,H3 clustered histone 7,HGNC:4773
+Dog,VGNC:95380,H3C8,H3 clustered histone 8,HGNC:4772
+Dog,VGNC:83761,H3C10,H3 clustered histone 10,HGNC:4775
+Dog,VGNC:95379,H3C11,H3 clustered histone 11,HGNC:4771
+Dog,VGNC:83745,H3C12,H3 clustered histone 12,HGNC:4774
+Dog,VGNC:83706,H3C13,H3 clustered histone 13,HGNC:25311
+Dog,VGNC:83764,H3C14,H3 clustered histone 14,HGNC:20503
+Dog,VGNC:83762,H3C15,H3 clustered histone 15,HGNC:20505
+Dog,VGNC:83698,H3-3A,H3.3 histone A,HGNC:4764
+Dog,VGNC:83695,H3-3B,H3.3 histone B,HGNC:4765
+Dog,VGNC:83748,H3-4,"H3.4 histone, cluster member",HGNC:4778
+,,,,
+Dog,VGNC:83768,H4C1,H4 clustered histone 1,HGNC:4781
+Dog,VGNC:83765,H4C2,H4 clustered histone 2,HGNC:4789
+Dog,VGNC:83773,H4C3,H4 clustered histone 3,HGNC:4787
+Dog,VGNC:84558,H4C4,H4 clustered histone 4,HGNC:4782
+Dog,VGNC:83752,H4C6,H4 clustered histone 6,HGNC:4783
+Dog,VGNC:83772,H4C7,H4 clustered histone 7,HGNC:4792
+Dog,VGNC:84560,H4C8,H4 clustered histone 8,HGNC:4788
+Dog,VGNC:83776,H4C9,H4 clustered histone 9,HGNC:4793
+Dog,VGNC:83729,H4C11,H4 clustered histone 11,HGNC:4785
+Dog,VGNC:84559,H4C12,H4 clustered histone 12,HGNC:4784
+Dog,VGNC:83777,H4C13,H4 clustered histone 13,HGNC:4791
+Dog,VGNC:83702,H4C14,H4 clustered histone 14,HGNC:4794
+Dog,VGNC:83709,H4C16,H4 histone 16,HGNC:20510
+Dog,VGNC:84557,H4C19,H4 clustered histone 19,NA

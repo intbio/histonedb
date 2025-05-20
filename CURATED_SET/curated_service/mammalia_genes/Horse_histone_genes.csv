@@ -1,0 +1,108 @@
+Species,VGNC ID (gene),Approved symbol,Approved name,Human gene ortholog HGNC ID
+Horse,VGNC:83779,H1-0,H1.0 linker histone,HGNC:4714
+Horse,VGNC:83778,H1-1,"H1.1 linker histone, cluster member",HGNC:4715
+Horse,VGNC:83783,H1-2,"H1.2 linker histone, cluster member",HGNC:4716
+Horse,VGNC:83781,H1-3,"H1.3 linker histone, cluster member",HGNC:4717
+Horse,VGNC:83784,H1-4,"H1.4 linker histone, cluster member",HGNC:4718
+Horse,VGNC:83786,H1-5,"H1.5 linker histone, cluster member",HGNC:4719
+Horse,VGNC:83785,H1-6,"H1.6 linker histone, cluster member",HGNC:4720
+Horse,VGNC:95393,H1-7P,"H1.7 linker histone, pseudogene",HGNC:24893
+Horse,VGNC:83787,H1-8,H1.8 linker histone,HGNC:18463
+Horse,VGNC:95392,H1-9,H1.9 linker histone,HGNC:30616
+Horse,VGNC:83780,H1-10,H1.10 linker histone,HGNC:4722
+Horse,VGNC:83782,H1-12,"H1.12 linker histone, cluster member",HGNC:19163
+,,,,
+Horse,VGNC:98945,H2AC1P,"H2A clustered histone 1, pseudogene",HGNC:18729
+Horse,VGNC:83796,H2AC4,H2A clustered histone 4,HGNC:4734
+Horse,VGNC:83800,H2AC5,H2A clustered histone 5,HGNC:4728
+Horse,VGNC:83801,H2AC6,H2A clustered histone 6,HGNC:4733
+Horse,VGNC:83799,H2AC7,H2A clustered histone 7,HGNC:4729
+Horse,VGNC:83802,H2AC8,H2A clustered histone 8,HGNC:4724
+Horse,VGNC:83804,H2AC9,H2A clustered histone 9,HGNC:18805
+Horse,VGNC:83792,H2AC10,H2A clustered histone 10,HGNC:4732
+Horse,VGNC:83790,H2AC11,H2A clustered histone 11,HGNC:4737
+Horse,VGNC:83791,H2AC12,H2A clustered histone 12,HGNC:13671
+Horse,VGNC:83793,H2AC13,H2A clustered histone 13,HGNC:4725
+Horse,VGNC:83795,H2AC14,H2A clustered histone 14,HGNC:4727
+Horse,VGNC:95404,H2AC15,H2A clustered histone 15,HGNC:4726
+Horse,VGNC:83794,H2AC16,H2A clustered histone 16,HGNC:4730
+Horse,VGNC:83798,H2AC17,H2A clustered histone 17,HGNC:4735
+Horse,VGNC:96608,H2AC18P,"H2A clustered histone 18, pseudogene",HGNC:4736
+Horse,VGNC:95391,H2AC19,H2A clustered histone 19,HGNC:29668
+Horse,VGNC:95395,H2AC20,H2A clustered histone 20,HGNC:4738
+Horse,VGNC:83797,H2AC21,H2A clustered histone 21,HGNC:20508
+Horse,VGNC:83805,H2AC25,H2A clustered histone 25,HGNC:20507
+Horse,VGNC:83808,H2AZ1,H2A.Z histone 1,HGNC:4741
+Horse,VGNC:83809,H2AZ2,H2A.Z histone 2,HGNC:20664
+Horse,VGNC:81621,MACROH2A1,macroH2A.1 histone,HGNC:4740
+Horse,VGNC:55911,MACROH2A2,macroH2A.2 histone,HGNC:14453
+Horse,VGNC:83807,H2AX,H2A.X histone,HGNC:4739
+Horse,VGNC:83803,H2AJ,H2A.J histone,HGNC:14456
+Horse,VGNC:83788,H2AB1,H2A.B histone 1,HGNC:22516
+Horse,VGNC:83789,H2AB3,H2A.B histone 3,HGNC:14455
+Horse,VGNC:83806,H2AP,H2A.P histone,HGNC:18417
+,,,,
+Horse,VGNC:83810,H2BC1,H2B clustered histone 1,HGNC:18730
+Horse,VGNC:83821,H2BC2P,"H2B clustered histone 2, pseudogene",HGNC:18719
+Horse,VGNC:83822,H2BC3,H2B clustered histone 3,HGNC:4751
+Horse,VGNC:83823,H2BC4,H2B clustered histone 4,HGNC:4757
+Horse,VGNC:83825,H2BC5,H2B clustered histone 5,HGNC:4747
+Horse,VGNC:83824,H2BC6,H2B clustered histone 6,HGNC:4753
+Horse,VGNC:83828,H2BC7,H2B clustered histone 7,HGNC:4752
+Horse,VGNC:83827,H2BC8,H2B clustered histone 8,HGNC:4746
+Horse,VGNC:83826,H2BC9,H2B clustered histone 9,HGNC:4755
+Horse,VGNC:83811,H2BC10,H2B clustered histone 10,HGNC:4756
+Horse,VGNC:83812,H2BC11,H2B clustered histone 11,HGNC:4761
+Horse,VGNC:83813,H2BC12,H2B clustered histone 12,HGNC:13954
+Horse,VGNC:83816,H2BC13,H2B clustered histone 13,HGNC:4748
+Horse,VGNC:95403,H2BC14,H2B clustered histone 14,HGNC:4750
+Horse,VGNC:95396,H2BC15,H2B clustered histone 15,HGNC:4749
+Horse,VGNC:83815,H2BC16,H2B clustered histone 16,HGNC:4754
+Horse,VGNC:83814,H2BC17,H2B clustered histone 17,HGNC:4758
+Horse,VGNC:83819,H2BC18,H2B clustered histone 18,HGNC:24700
+Horse,VGNC:83817,H2BC19,H2B clustered histone 19,HGNC:20517
+Horse,VGNC:83818,H2BC20,H2B clustered histone 20,HGNC:20516
+Horse,VGNC:83820,H2BC21,H2B clustered histone 21,HGNC:4760
+Horse,VGNC:96607,H2BC25,H2B clustered histone 25,NA
+Horse,VGNC:83831,H2BC26,H2B clustered histone 26,HGNC:20514
+Horse,VGNC:83829,H2BC27,H2B clustered histone 27,HGNC:20515
+Horse,VGNC:83830,H2BK1,H2B.K variant histone 1,HGNC:53833
+Horse,VGNC:84129,H2BL1,H2B.L histone variant 1,HGNC:54442
+Horse,VGNC:83834,H2BW1,H2B.W histone 1,HGNC:27252
+Horse,VGNC:83833,H2BW2,H2B.W histone 2,HGNC:27867
+Horse,VGNC:83832,H2BW4,H2B.W histone 4,HGNC:25757
+,,,,
+Horse,VGNC:83839,H3C1,H3 clustered histone 1,HGNC:4766
+Horse,VGNC:83843,H3C2,H3 clustered histone 2,HGNC:4776
+Horse,VGNC:83841,H3C3,H3 clustered histone 3,HGNC:4768
+Horse,VGNC:83846,H3C4,H3 clustered histone 4,HGNC:4767
+Horse,VGNC:95397,H3C5,H3 clustered histone 5,HGNC:54427
+Horse,VGNC:95398,H3C6,H3 clustered histone 6,HGNC:4769
+Horse,VGNC:84551,H3C7,H3 clustered histone 7,HGNC:4773
+Horse,VGNC:84550,H3C8,H3 clustered histone 8,HGNC:4772
+Horse,VGNC:96609,H3C10,H3 clustered histone 10,HGNC:4775
+Horse,VGNC:83838,H3C11,H3 clustered histone 11,HGNC:4771
+Horse,VGNC:83840,H3C12,H3 clustered histone 12,HGNC:4774
+Horse,VGNC:95394,H3C13,H3 clustered histone 13,HGNC:25311
+Horse,VGNC:95399,H3C14,H3 clustered histone 14,HGNC:20503
+Horse,VGNC:83842,H3C15,H3 clustered histone 15,HGNC:20505
+Horse,VGNC:83837,H3-3A,H3.3 histone A,HGNC:4764
+Horse,VGNC:83835,H3-3B,H3.3 histone B,HGNC:4765
+Horse,VGNC:83836,H3-4,"H3.4 histone, cluster member",HGNC:4778
+,,,,
+Horse,VGNC:83845,H4C1,H4 clustered histone 1,HGNC:4781
+Horse,VGNC:83850,H4C2,H4 clustered histone 2,HGNC:4789
+Horse,VGNC:83854,H4C3,H4 clustered histone 3,HGNC:4787
+Horse,VGNC:83853,H4C4,H4 clustered histone 4,HGNC:4782
+Horse,VGNC:84552,H4C6,H4 clustered histone 6,HGNC:4783
+Horse,VGNC:95400,H4C7,H4 clustered histone 7,HGNC:4792
+Horse,VGNC:95401,H4C8,H4 clustered histone 8,HGNC:4788
+Horse,VGNC:83855,H4C9,H4 clustered histone 9,HGNC:4793
+Horse,VGNC:83847,H4C10P,"H4 clustered histone 10, pseudogene",HGNC:4786
+Horse,VGNC:83849,H4C11,H4 clustered histone 11,HGNC:4785
+Horse,VGNC:95402,H4C12,H4 clustered histone 12,HGNC:4784
+Horse,VGNC:83848,H4C13,H4 clustered histone 13,HGNC:4791
+Horse,VGNC:83852,H4C14,H4 clustered histone 14,HGNC:4794
+Horse,VGNC:83851,H4C15,H4 clustered histone 15,HGNC:29607
+Horse,VGNC:83844,H416,H4 histone 16,HGNC:20510
+Horse,VGNC:84549,H4C19,H4 clustered histone 19,NA

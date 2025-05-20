@@ -1,0 +1,95 @@
+Species,VGNC ID (gene),Approved symbol,Approved name,Human gene ortholog HGNC ID
+Pig,VGNC:109767,H1-0,H1.0 linker histone,HGNC:4714
+Pig,VGNC:109766,H1-1,"H1.1 linker histone, cluster member",HGNC:4715
+Pig,VGNC:109768,H1-2,"H1.2 linker histone, cluster member",HGNC:4716
+Pig,VGNC:109770,H1-3,"H1.3 linker histone, cluster member",HGNC:4717
+Pig,VGNC:109769,H1-4,"H1.4 linker histone, cluster member",HGNC:4718
+Pig,VGNC:109771,H1-5,"H1.5 linker histone, cluster member",HGNC:4719
+Pig,VGNC:109774,H1-6,"H1.6 linker histone, cluster member",HGNC:4720
+Pig,VGNC:109772,H1-7,H1.7 linker histone,HGNC:24893
+Pig,VGNC:109773,H1-8,H1.8 linker histone,HGNC:18463
+Pig,VGNC:109776,H1-9,H1.9 linker histone,HGNC:30616
+Pig,VGNC:109777,H1-10,H1.10 linker histone,HGNC:4722
+Pig,VGNC:109775,H1-12P,"H1.12 linker histone, cluster member, pseudogene",HGNC:19163
+,,,,
+Pig,VGNC:109782,H2AC1,H2A clustered histone 1,HGNC:18729
+Pig,VGNC:109783,H2AC2,H2A clustered histone 2,HGNC:18720
+Pig,VGNC:109781,H2AC4,H2A clustered histone 4,HGNC:4734
+Pig,VGNC:109785,H2AC5P,"H2A clustered histone 5, pseudogene",HGNC:4728
+Pig,VGNC:109786,H2AC6,H2A clustered histone 6,HGNC:4733
+Pig,VGNC:109784,H2AC7,H2A clustered histone 7,HGNC:4729
+Pig,VGNC:109788,H2AC8,H2A clustered histone 8,HGNC:4724
+Pig,VGNC:109789,H2AC10,H2A clustered histone 10,HGNC:4732
+Pig,VGNC:109787,H2AC11,H2A clustered histone 11,HGNC:4737
+Pig,VGNC:109792,H2AC12,H2A clustered histone 12,HGNC:13671
+Pig,VGNC:109790,H2AC13,H2A clustered histone 13,HGNC:4725
+Pig,VGNC:109791,H2AC14,H2A clustered histone 14,HGNC:4727
+Pig,VGNC:109793,H2AC15,H2A clustered histone 15,HGNC:4726
+Pig,VGNC:109795,H2AC16,H2A clustered histone 16,HGNC:4730
+Pig,VGNC:109794,H2AC17,H2A clustered histone 17,HGNC:4735
+Pig,VGNC:109798,H2AC18,H2A clustered histone 18,HGNC:4736
+Pig,VGNC:109797,H2AC19,H2A clustered histone 19,HGNC:29668
+Pig,VGNC:109796,H2AC20,H2A clustered histone 20,HGNC:4738
+Pig,VGNC:109799,H2AC21,H2A clustered histone 21,HGNC:20508
+Pig,VGNC:109800,H2AC25,H2A clustered histone 25,HGNC:20507
+Pig,VGNC:109805,H2AZ1,H2A.Z variant histone 1,HGNC:4741
+Pig,VGNC:109806,H2AZ2,H2A.Z variant histone 2,HGNC:20664
+Pig,VGNC:109808,MACROH2A1,macroH2A.1 histone,HGNC:4740
+Pig,VGNC:89937,MACROH2A2,macroH2A.2 histone,HGNC:14453
+Pig,VGNC:109807,H2AX,H2A.X variant histone,HGNC:4739
+Pig,VGNC:109801,H2AJ,H2A.J histone,HGNC:14456
+Pig,VGNC:109779,H2AB1,H2A.B variant histone 1,HGNC:22516
+Pig,VGNC:109778,H2AB2,H2A.B variant histone 2,HGNC:18298
+Pig,VGNC:109780,H2AB3,H2A.B variant histone 3,HGNC:14455
+Pig,VGNC:109803,H2AP,H2A.P histone,HGNC:18417
+Pig,VGNC:109802,H2AL1Q,H2A.L variant histone 1Q,HGNC:53959
+Pig,VGNC:109804,H2AL3,H2A.L variant histone 3,HGNC:53960
+,,,,
+Pig,VGNC:109811,H2BC1,H2B clustered histone 1,HGNC:18730
+Pig,VGNC:109810,H2BC2,H2B clustered histone 2,HGNC:18719
+Pig,VGNC:109809,H2BC3,H2B clustered histone 3,HGNC:4751
+Pig,VGNC:109812,H2BC4,H2B clustered histone 4,HGNC:4757
+Pig,VGNC:109814,H2BC5,H2B clustered histone 5,HGNC:4747
+Pig,VGNC:109813,H2BC6,H2B clustered histone 6,HGNC:4753
+Pig,VGNC:109817,H2BC8,H2B clustered histone 8,HGNC:4746
+Pig,VGNC:109815,H2BC9,H2B clustered histone 9,HGNC:4755
+Pig,VGNC:109816,H2BC10,H2B clustered histone 10,HGNC:4756
+Pig,VGNC:109818,H2BC11,H2B clustered histone 11,HGNC:4761
+Pig,VGNC:109820,H2BC12,H2B clustered histone 12,HGNC:13954
+Pig,VGNC:109819,H2BC13,H2B clustered histone 13,HGNC:4748
+Pig,VGNC:109821,H2BC14,H2B clustered histone 14,HGNC:4750
+Pig,VGNC:109823,H2BC15,H2B clustered histone 15,HGNC:4749
+Pig,VGNC:109822,H2BC16,H2B clustered histone 16,HGNC:4754
+Pig,VGNC:109825,H2BC17P,"H2B clustered histone 17, pseudogene",HGNC:4758
+Pig,VGNC:109826,H2BC18,H2B clustered histone 18,HGNC:24700
+Pig,VGNC:109824,H2BC19,H2B clustered histone 19,HGNC:20517
+Pig,VGNC:109829,H2BC20,H2B clustered histone 20,HGNC:20516
+Pig,VGNC:109827,H2BC21,H2B clustered histone 21,HGNC:4760
+Pig,VGNC:109828,H2BC26,H2B clustered histone 26,HGNC:20514
+Pig,VGNC:109831,H2BK1,H2B.K variant histone 1,HGNC:53833
+Pig,VGNC:109830,H2BL1,H2B.L histone variant 1,HGNC:54442
+,,,,
+Pig,VGNC:109835,H3C1,H3 clustered histone 1,HGNC:4766
+Pig,VGNC:109837,H3C2P,"H3 clustered histone 2, pseudogene",HGNC:4776
+Pig,VGNC:109836,H3C3P,"H3 clustered histone 3, pseudogene",HGNC:4768
+Pig,VGNC:109839,H3C4,H3 clustered histone 4,HGNC:4767
+Pig,VGNC:109840,H3C6,H3 clustered histone 6,HGNC:4769
+Pig,VGNC:109838,H3C8,H3 clustered histone 8,HGNC:4772
+Pig,VGNC:109843,H3C10,H3 clustered histone 10,HGNC:4775
+Pig,VGNC:109842,H3C12,H3 clustered histone 12,HGNC:4774
+Pig,VGNC:109844,H3C14,H3 clustered histone 14,HGNC:25311
+Pig,VGNC:109841,H3C15,H3 clustered histone 15,HGNC:20503
+Pig,VGNC:109834,H3-3A,H3.3 histone A,HGNC:4764
+Pig,VGNC:109832,H3-3B,H3.3 histone B,HGNC:4765
+Pig,VGNC:109833,H3-4,"H3.4 histone, cluster member",HGNC:4778
+,,,,
+Pig,VGNC:109847,H4C2P,"H4 clustered histone 2, pseudogene",HGNC:4789
+Pig,VGNC:109846,H4C3,H4 clustered histone 3,HGNC:4787
+Pig,VGNC:109845,H4C6,H4 clustered histone 6,HGNC:4783
+Pig,VGNC:109848,H4C7,H4 clustered histone 7,HGNC:4792
+Pig,VGNC:109849,H4C8,H4 clustered histone 8,HGNC:4788
+Pig,VGNC:109850,H4C9,H4 clustered histone 9,HGNC:4793
+Pig,VGNC:109852,H4C11,H4 clustered histone 11,HGNC:4785
+Pig,VGNC:109853,H4C14,H4 clustered histone 14,HGNC:4794
+Pig,VGNC:109851,H4C16P,"H4 histone 16, pseudogene",HGNC:20510
+Pig,VGNC:109854,H4C20,H4 clustered histone 20,NA

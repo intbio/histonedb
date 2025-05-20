@@ -1,0 +1,102 @@
+Species,VGNC ID (gene),Approved symbol,Approved name,Human gene ortholog HGNC ID
+Cattle,VGNC:83619,H1-0,H1.0 linker histone,HGNC:4714
+Cattle,VGNC:83548,H1-1,"H1.1 linker histone, cluster member",HGNC:4715
+Cattle,VGNC:83558,H1-2,"H1.2 linker histone, cluster member",HGNC:4716
+Cattle,VGNC:83573,H1-3,"H1.3 linker histone, cluster member",HGNC:4717
+Cattle,VGNC:83559,H1-4,"H1.4 linker histone, cluster member",HGNC:4718
+Cattle,VGNC:83591,H1-5,"H1.5 linker histone, cluster member",HGNC:4719
+Cattle,VGNC:83557,H1-6,"H1.6 linker histone, cluster member",HGNC:4720
+Cattle,VGNC:83616,H1-7,H1.7 linker histone,HGNC:24893
+Cattle,VGNC:83613,H1-8,H1.8 linker histone,HGNC:18463
+Cattle,VGNC:95388,H1-9,H1.9 linker histone,HGNC:30616
+Cattle,VGNC:83614,H1-10,H1.10 linker histone,HGNC:4722
+Cattle,VGNC:83563,H1-12,"H1.12 linker histone, cluster member",HGNC:19163
+,,,,
+Cattle,VGNC:83545,H2AC1,H2A clustered histone 1,HGNC:18729
+Cattle,VGNC:83544,H2AC2P,"H2A clustered histone 2, pseudogene",HGNC:18720
+Cattle,VGNC:83550,H2AC4,H2A clustered histone 4,HGNC:4734
+Cattle,VGNC:83554,H2AC5P,"H2A clustered histone 5, pseudogene",HGNC:4728
+Cattle,VGNC:83561,H2AC6,H2A clustered histone 6,HGNC:4733
+Cattle,VGNC:83565,H2AC7,H2A clustered histone 7,HGNC:4729
+Cattle,VGNC:83570,H2AC8,H2A clustered histone 8,HGNC:4724
+Cattle,VGNC:83576,H2AC10,H2A clustered histone 10,HGNC:4732
+Cattle,VGNC:83577,H2AC11,H2A clustered histone 11,HGNC:4737
+Cattle,VGNC:83580,H2AC12,H2A clustered histone 12,HGNC:13671
+Cattle,VGNC:109559,H2AC13,H2A clustered histone 13,HGNC:4725
+Cattle,VGNC:83584,H2AC14,H2A clustered histone 14,HGNC:4727
+Cattle,VGNC:83586,H2AC15,H2A clustered histone 15,HGNC:4726
+Cattle,VGNC:83590,H2AC16,H2A clustered histone 16,HGNC:4730
+Cattle,VGNC:109562,H2AC17,H2A clustered histone 17,HGNC:4735
+Cattle,VGNC:83599,H2AC18,H2A clustered histone 18,HGNC:4736
+Cattle,VGNC:83602,H2AC19,H2A clustered histone 19,HGNC:29668
+Cattle,VGNC:83605,H2AC20,H2A clustered histone 20,HGNC:4738
+Cattle,VGNC:83604,H2AC21,H2A clustered histone 21,HGNC:20508
+Cattle,VGNC:83612,H2AC25,H2A clustered histone 25,HGNC:20507
+Cattle,VGNC:83610,H2AZ1,H2A.Z variant histone 1,HGNC:4741
+Cattle,VGNC:83607,H2AZ2,H2A.Z variant histone 2,HGNC:20664
+Cattle,VGNC:83608,MACROH2A1,macroH2A.1 histone,HGNC:4740
+Cattle,VGNC:55987,MACROH2A2,macroH2A.2 histone,HGNC:14453
+Cattle,VGNC:83617,H2AX,H2A.X variant histone,HGNC:4739
+Cattle,VGNC:83623,H2AJ,H2A.J histone,HGNC:14456
+Cattle,VGNC:95387,H2AB1,H2A.B variant histone 1,HGNC:22516
+Cattle,VGNC:83621,H2AB2,H2A.B variant histone 2,HGNC:18298
+Cattle,VGNC:83622,H2AB3P,"H2A.B variant histone 3, pseudogene",HGNC:14455
+Cattle,VGNC:109560,H2AL1Q,H2A.L variant histone 1Q,HGNC:53959
+Cattle,VGNC:109561,H2AL3,H2A.L variant histone 3,HGNC:53960
+,,,,
+Cattle,VGNC:83546,H2BC1,H2B clustered histone 1,HGNC:18730
+Cattle,VGNC:97173,H2BC2P,"H2B clustered histone 2, pseudogene",HGNC:18719
+Cattle,VGNC:83555,H2BC3,H2B clustered histone 3,HGNC:4751
+Cattle,VGNC:83556,H2BC4,H2B clustered histone 4,HGNC:4757
+Cattle,VGNC:83560,H2BC5,H2B clustered histone 5,HGNC:4747
+Cattle,VGNC:83564,H2BC6,H2B clustered histone 6,HGNC:4753
+Cattle,VGNC:83566,H2BC7,H2B clustered histone 7,HGNC:4752
+Cattle,VGNC:83569,H2BC8,H2B clustered histone 8,HGNC:4746
+Cattle,VGNC:83571,H2BC9,H2B clustered histone 9,HGNC:4755
+Cattle,VGNC:83574,H2BC10,H2B clustered histone 10,HGNC:4756
+Cattle,VGNC:83578,H2BC11,H2B clustered histone 11,HGNC:4761
+Cattle,VGNC:83582,H2BC12,H2B clustered histone 12,HGNC:13954
+Cattle,VGNC:83581,H2BC13,H2B clustered histone 13,HGNC:4748
+Cattle,VGNC:83583,H2BC14,H2B clustered histone 14,HGNC:4750
+Cattle,VGNC:83587,H2BC15,H2B clustered histone 15,HGNC:4749
+Cattle,VGNC:83589,H2BC16,H2B clustered histone 16,HGNC:4754
+Cattle,VGNC:83592,H2BC17,H2B clustered histone 17,HGNC:4758
+Cattle,VGNC:83596,H2BC18,H2B clustered histone 18,HGNC:24700
+Cattle,VGNC:83598,H2BC19,H2B clustered histone 19,HGNC:20517
+Cattle,VGNC:83603,H2BC20,H2B clustered histone 20,HGNC:20516
+Cattle,VGNC:83601,H2BC21,H2B clustered histone 21,HGNC:4760
+Cattle,VGNC:83620,H2BC26,H2B clustered histone 26,HGNC:20514
+Cattle,VGNC:83624,H2BK1,H2B.K variant histone 1,
+Cattle,VGNC:84128,H2BL1,H2B.L histone variant 1,
+,,,,
+Cattle,VGNC:83547,H3C1,H3 clustered histone 1,HGNC:4766
+Cattle,VGNC:83552,H3C2,H3 clustered histone 2,HGNC:4776
+Cattle,VGNC:83553,H3C3,H3 clustered histone 3,HGNC:4768
+Cattle,VGNC:83567,H3C4,H3 clustered histone 4,HGNC:4767
+Cattle,VGNC:83568,H3C5P,"H3 clustered histone 5, pseudogene",HGNC:54427
+Cattle,VGNC:84555,H3C6,H3 clustered histone 6,HGNC:4769
+Cattle,VGNC:83572,H3C7,H3 clustered histone 7,HGNC:4773
+Cattle,VGNC:95389,H3C8,H3 clustered histone 8,HGNC:4772
+Cattle,VGNC:83585,H3C10,H3 clustered histone 10,HGNC:4775
+Cattle,VGNC:83594,H3C12,H3 clustered histone 12,HGNC:4774
+Cattle,VGNC:83595,H3C13,H3 clustered histone 13,HGNC:25311
+Cattle,VGNC:83600,H3C14,H3 clustered histone 14,HGNC:20503
+Cattle,VGNC:83611,H3-3A,H3.3 histone A,HGNC:4764
+Cattle,VGNC:83606,H3-3B,H3.3 histone B,HGNC:4765
+Cattle,VGNC:83615,H3-3D,H3.3 histone D,NA
+Cattle,VGNC:83609,H3-4,"H3.4 histone, cluster member",HGNC:4778
+,,,,
+Cattle,VGNC:83549,H4C1,H4 clustered histone 1,HGNC:4781
+Cattle,VGNC:83551,H4C2,H4 clustered histone 2,HGNC:4789
+Cattle,VGNC:84553,H4C3,H4 clustered histone 3,HGNC:4787
+Cattle,VGNC:83562,H4C4,H4 clustered histone 4,HGNC:4782
+Cattle,VGNC:95390,H4C6,H4 clustered histone 6,HGNC:4783
+Cattle,VGNC:84556,H4C7,H4 clustered histone 7,HGNC:4792
+Cattle,VGNC:83575,H4C8,H4 clustered histone 8,HGNC:4788
+Cattle,VGNC:83579,H4C9,H4 clustered histone 9,HGNC:4793
+Cattle,VGNC:83588,H4C11,H4 clustered histone 11,HGNC:4785
+Cattle,VGNC:84554,H4C12,H4 clustered histone 12,HGNC:4784
+Cattle,VGNC:83593,H4C13,H4 clustered histone 13,HGNC:4791
+Cattle,VGNC:83597,H4C14,H4 clustered histone 14,HGNC:4794
+Cattle,VGNC:83618,H4-16,H4 histone 16,HGNC:20510
+Cattle,VGNC:97172,H4C19,H4 clustered histone 19,NA
