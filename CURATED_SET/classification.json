@@ -178,7 +178,10 @@
                     }
                 },
                 "cenH3_(Fungi)": "null",
-                "cenH3_(Plants)": "null"
+                "cenH3_(Plants)": {
+                    "cenH3.1_(Vigna_unguiculata)": "null",
+                    "cenH3.2_(Vigna_unguiculata)": "null"
+                }
             },
             "cH3": {
                 "cH3_(Animals)": {
@@ -447,6 +450,58 @@
             "taxonomic_span_id": "null",
             "alternate_names": [],
             "publications": []
+        },
+        "cenH3.1_(Vigna_unguiculata)": {
+            "level": "variant",
+            "description": {
+                "summary": "cenH3.1_(Vigna_unguiculata) is a centromere-specific histone H3 variant encoded by CENH3.1 (one of two paralogous genes) in cowpea (Vigna unguiculata). Unlike CENH3.2, it is essential for normal plant development and fertility, as its knockout causes growth defects and sterility. At the protein level, cenH3.1 shares 91% amino acid identity with its couterpart. CENH3.1 is dominantly expressed in most tissues and persists in generative cells of pollen, whereas CENH3.2 is dispensable and shows tissue-specific removal [ishii_unequal_2020].",
+                "taxonomy": "null",
+                "genes": "null",
+                "evolution": "null",
+                "expression": "null",
+                "knock-out": "null",
+                "function": "null",
+                "sequence": "null",
+                "localization": "null",
+                "deposition": "null",
+                "structure": "null",
+                "interactions": "null",
+                "disease": "null",
+                "caveats": "null",
+                "relations": "null"
+            },
+            "taxonomic_span": "Vigna unguiculata",
+            "taxonomic_span_id": "3917",
+            "alternate_names": [],
+            "publications": [
+                "ishii_unequal_2020"
+            ]
+        },
+        "cenH3.2_(Vigna_unguiculata)": {
+            "level": "variant",
+            "description": {
+                "summary": "cenH3.2_(Vigna_unguiculata) is a centromere-specific histone H3 variant encoded by CENH3.2, one of two paralogous genes in cowpea (Vigna unguiculata). Unlike CENH3.1, it is dispensable for normal plant development and fertility, as its knockout does not cause visible defects. At the protein level, cenH3.2 shares 91% amino acid identity with cenH3.1, with key differences concentrated in the N-terminal domain. While cenH3.2 is incorporated into centromeres, its expression is lower and tissue-specific, and it is selectively removed from generative cells during pollen maturation. These findings suggest that CENH3.2 may be undergoing pseudogenization rather than functional specialization [ishii_unequal_2020].",
+                "taxonomy": "null",
+                "genes": "null",
+                "evolution": "null",
+                "expression": "null",
+                "knock-out": "null",
+                "function": "null",
+                "sequence": "null",
+                "localization": "null",
+                "deposition": "null",
+                "structure": "null",
+                "interactions": "null",
+                "disease": "null",
+                "caveats": "null",
+                "relations": "null"
+            },
+            "taxonomic_span": "Vigna unguiculata",
+            "taxonomic_span_id": "3917",
+            "alternate_names": [],
+            "publications": [
+                "ishii_unequal_2020"
+            ]
         },
         "cenH3_(Animals)": {
             "level": "variant",
@@ -4822,13 +4877,13 @@
         "H2B.S_(Magnoliopsida)": {
             "level": "variant_group",
             "description": {
-                "summary": "H2B.S_(Magnoliopsida)  is a class a new class of highly divergent H2B variants identified by Jiang et al. that specifically accumulate during chromatin compaction of dry seed embryos in multiple species of flowering plants [jiang_evolution_2020].",
+                "summary": "H2B.S_(Magnoliopsida) is a class a new class of highly divergent H2B variants identified by Jiang et al. that specifically accumulate during chromatin compaction of dry seed embryos in multiple species of flowering plants [jiang_evolution_2020, buttress_histone_2022].",
                 "taxonomy": "Flowering plants (angiosperms) [jiang_evolution_2020]",
                 "genes": "HTB8 gene in Arabidopsis, Solyc06g074750.1 in tomato, LOC_Os09g39730 in rice.",
                 "evolution": "Despite forming a distinct angiosperm-specific clade, H2B.S variants show a high degree of variation, even amongst closely related genera. Other highly divergent sequences from Streptophyte algae and gymnosperms form a grade basal to H2B.S variants, suggesting a deeper evolutionary origin, which cannot be currently analyzed due to the lack of conserved substitutions and similar sequences in bryophytes, lycophytes and ferns [jiang_evolution_2020].",
                 "expression": "Arabidopsis HTB8 is specifically expressed in sperm and mature embryos. Unlike Arabidopsis HTB8, expression in anthers, pollen or sperm cells was not evident neither in rice nor maize [jiang_evolution_2020].",
                 "knock-out": "null",
-                "function": "For Arabidopsis an adaptive function in cell types that become desiccated, quiescent or show higher degrees of chromatin compaction has been suggested [jiang_evolution_2020].",
+                "function": "The histone variant H2B.S has been shown to condense chromatin through its intrinsically disordered region (IDR) by selectively aggregating transcriptionally inactive AT-rich regions via phase separation, while excluding active genes to maintain transcriptional competence [buttress_histone_2022].",
                 "sequence": "The angiosperm-specific clade of Arabidopsis HTB8 orthologs were characterized by conserved substitutions in the histone core, slightly extended C-terminal tails and greatly expanded N-terminal tails with a KVVXETV motif [jiang_evolution_2020].",
                 "localization": "null",
                 "deposition": "null",
@@ -4840,8 +4895,13 @@
             },
             "taxonomic_span": "Magnoliopsida",
             "taxonomic_span_id": "3398",
-            "alternate_names": [],
+            "alternate_names": [
+                {
+                    "name": "H2B.8"
+                }
+            ],
             "publications": [
+                "buttress_histone_2022",
                 "jiang_evolution_2020"
             ]
         },
