@@ -57,3 +57,4 @@ browse/migrations
 browse/migrations/*
 djangophylocore/migrations
 djangophylocore/migrations/*
+CURATED_SET/curated_service/curatedDB/db_curated_server_info.txt
