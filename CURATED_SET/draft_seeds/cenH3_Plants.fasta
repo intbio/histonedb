@@ -1,174 +1,210 @@
 >cenH3_Plants_Guillardia_theta_AAK39657.1 organism=Guillardia theta phylum= class=Cryptophyceae
---------------------MMKKQNLK--------------------------------
+--------------------M--MKKQNLK------------------------------
 ------------------------------------------------------------
----------------------------------------------------RFKKSSNSL
-VDIRKFQKSTDLLIHRLPFARLVKEISLKYHHS--LNWQQVAVEALQFASEDYIIGLLQD
-ANLAAIHAKRVTVMPKDLKLAKIIRGEH-------
+-----------------------------------------------------RFKKSSN
+SLVDIRKFQKSTDLLIHRLPFARLVKEISLKYHHS--LNWQQVAVEALQFASEDYIIGLL
+QDANLAAIHAKRVTVMPKDLKLAKIIRGEH-------
 >cenH3_Plants_Cyanidioschyzon_merolae_strain_10D_XP_005535607.1 organism=Cyanidioschyzon merolae strain 10D phylum=Rhodophyta class=Bangiophyceae
-MVRVFGNPVGGAHQYRQTQALNRDESLREQLQRTTVAEQDENIEPEPERSSPDEAQSRLK
-SLLGSVARSSSLLGRRVAGPPGSSLSNLAETRLLTEEAANRPTGAGRSERVSAGRAEPLP
-PGPTTATTNADANTVQRGLSVASAFPPRAPLQAAGFTVARRTTRSGVQRKHRFRPGSRAI
-MEIRKFQRSTELLLRRLPFARLVREICERLFGSSAFRWQASALEALQTAAEDYLIHLFED
-SNLCAIHARRVTIMPRDIALARRIRGYHSDPHGYL
+MVRVFGNPVGGAHQYRQTQAL--NRDESLREQLQRTTVAEQDENIEPEPERSSPDEAQSR
+LKSLLGSVARSSSLLGRRVAGPPGSSLSNLAETRLLTEEAANRPTGAGRSERVSAGRAEP
+LPPGPTTATTNADANTVQRGLSVASAFPPRAPLQAAGFTVARRTTRSGVQRKHRFRPGSR
+AIMEIRKFQRSTELLLRRLPFARLVREICERLFGSSAFRWQASALEALQTAAEDYLIHLF
+EDSNLCAIHARRVTIMPRDIALARRIRGYHSDPHGYL
 >cenH3_Plants_Arabidopsis_thaliana_NP_563627.1 organism=Arabidopsis thaliana phylum=Streptophyta class=Magnoliopsida
----------MARTKHRVTRSQPRNQTDA--------------------------------
-----------------------------------------------------AGASSSQA
-AGPTTTPTRRGGEGGDNTQQTNPTTSPATGTRRGAKRSRQAMPRGSQKKSYRYRPGTVAL
-KEIRHFQKQTNLLIPAASFIREVRSITHMLAPPQINRWTAEALVALQEAAEDYLVGLFSD
-SMLCAIHARRVTLMRKDFELARRLGGKGRPW----
+---------MARTKHRVTRSQ--PRNQTDA------------------------------
+------------------------------------------------------AGASSS
+QAAGPTTTPTRRGGEGGDNTQQTNPTTSPATGTRRGAKRSRQAMPRGSQKKSYRYRPGTV
+ALKEIRHFQKQTNLLIPAASFIREVRSITHMLAPPQINRWTAEALVALQEAAEDYLVGLF
+SDSMLCAIHARRVTLMRKDFELARRLGGKGRPW----
+>cenH3.1_Triticeae_Aegilops_speltoides_AKM28568.1 organism=Aegilops speltoides phylum=Streptophyta class=Magnoliopsida
+---------MGRTKHP-------AVRKTKA------------------------------
+------------------------------------------------------PPKKQL
+GPR---PAQRRQETDGAGTSATPRRAGRAAAPGGAEGATGQPK-----QRKPHRFRPGTV
+ALREIRRYQKSVDFLIPFAPFVRLIKEVTDFFCP-EISRWTPQALVAIQEAAEYHLVDVF
+ERANHCAIHAKRVTVMQKDIQLARRIGGR-RLW----
+>cenH3.1_Triticeae_Aegilops_tauschii_AKM28569.1 organism=Aegilops tauschii phylum=Streptophyta class=Magnoliopsida
+---------MARTKHP-------AVRKTKA------------------------------
+------------------------------------------------------PPKKQL
+GPR---PAQRRQET----------------------GATGQPK-----QRKPHRFRPATV
+ALREIRRYQKSVDFLIPFAPFVRLIKEVTDFFCP-EISRWTPQALVAIQEAAEYHLVDVF
+ERANHCAIHAKRVTVMQKDIQLARRIGGR-RLW----
+>cenH3.1_Triticeae_Triticum_urartu_AKM28567.1 organism=Triticum urartu phylum=Streptophyta class=Magnoliopsida
+---------MARTKHP-------AVRKTKA------------------------------
+------------------------------------------------------PPKKQL
+GPR---PAQRRQETDGAGTSATPRRAGRAAAPGGAEGATGQPK-----QRKPHRFRPGTV
+ALREIRRYQKSVDFLIPFAPFVRLIKEVTDFFCP-EISRWTPQALVAIQEAAEYHLVDVF
+ERANHCAIHAKRVTVMQKDIQLARRIGGR-RLW----
+>cenH3.2_Triticeae_Aegilops_speltoides_AKM28571.1 organism=Aegilops speltoides phylum=Streptophyta class=Magnoliopsida
+---------MGRTKHAVAATA--ATTETKK------------------------------
+------------------------------------------------------RLRFEL
+SPRWRPPPPMRQ------------------VPPEPQPQPQPEK-----KKRAYRFRPGTV
+ALREIRKYQKSTEPLIPFAPFVRL-KEITDDLTKGGLNHWTPRALLSLLEAAEYHIVDVF
+EKANLCAIHAKRVTIMQKDIQLARRIGGR-RLW----
+>cenH3.2_Triticeae_Aegilops_tauschii_AKM28572.1 organism=Aegilops tauschii phylum=Streptophyta class=Magnoliopsida
+---------MGRTKHAVAATATTTTTETKK------------------------------
+------------------------------------------------------RLRFEL
+SPRWRPPPPMRQ------------------VPPEPQPE---KK-----KKRAYRFRPGTV
+ALREVRKYQKSTGPLIPFAPFVRLVKEITNDLTKGELNHWTPQALFALQEAAEYHIVDVF
+EKANLCAIHAKRVTIMQKDIQLARRIGGR-RLW----
+>cenH3.2_Triticeae_Triticum_urartu_AKM28570.1 organism=Triticum urartu phylum=Streptophyta class=Magnoliopsida
+---------MGRTKHAVAATA--ATTETKK------------------------------
+------------------------------------------------------RLRFEL
+SPRWRPPPALRQ------------------VPPEPQPE---KK-----KKRAYRFRPGTV
+ALREVRKYQKSTGPLIPFAPFVRLVKEITDDLTKGEMNHWTPQALFSLQEAAEYHIVDVF
+EKANLCAIHAKRVTIMQKDIQLARRIGGR-RPW----
 >cenH3.1_Vigna_unguiculata_Vigna_unguiculata_BBM60641.1 organism=Vigna unguiculata phylum=Streptophyta class=Magnoliopsida
----------MARVKHTPASLKVGKKKVS--------------------------------
----------------------------------------------------RASTSTP--
-QQSPATRSRRRAQEEEPQEEAAAAAPQTHG-----------------RKKKRSKPGTAAL
-REIRHFQKSCKLLIPAAPFIRCVKQITHQ-FSTEVSRWTPEAVVALQEAAEECLVHLFED
-GMLCAIHARRITLMTKDIQLARRRNRKALV-----
+---------MARVKHTPASLKVGKKKVSRA------------------------------
+------------------------------------------------------STSTP-
+-QQSPATRSRRR------------------AQEEEPQEEAAAAAPQTHGRKKKRSKPGTA
+ALREIRHFQKSCKLLIPAAPFIRCVKQITHQFST-EVSRWTPEAVVALQEAAEECLVHLF
+EDGMLCAIHARRITLMTKDIQLARRRNRKALV-----
 >cenH3.1_Vigna_unguiculata_Vigna_unguiculata_BBM60659.1 organism=Vigna unguiculata phylum=Streptophyta class=Magnoliopsida
----------MARVKHTPASLKVGKKKVS--------------------------------
----------------------------------------------------RASTSTP--
-QQSPATRSRRRAQEEEPQEEAAAAAPQTQG-----------------RKKKRSKPGTAAL
-REIRHFQKSCKLLIPAAPFIRCVKQITHQ-FSTEVSRWTPEAVVALQEAAEECLVHLFED
-GMLCAIHARRITLMTKDIQL---------------
+---------MARVKHTPASLKVGKKKVSRA------------------------------
+------------------------------------------------------STSTP-
+-QQSPATRSRRR------------------AQEEEPQEEAAAAAPQTQGRKKKRSKPGTA
+ALREIRHFQKSCKLLIPAAPFIRCVKQITHQFST-EVSRWTPEAVVALQEAAEECLVHLF
+EDGMLCAIHARRITLMTKDIQL---------------
 >cenH3.1_Vigna_unguiculata_Vigna_unguiculata_BBM60661.1 organism=Vigna unguiculata phylum=Streptophyta class=Magnoliopsida
----------MARVKHTPASLKVGKKKVS--------------------------------
----------------------------------------------------RASTSTP--
-QQSPATRSRRRAQEEEPQEAAAAA-PQTQG-----------------RKKKRSKPGTAAL
-REIRHFQKSCKLLIPAAPFIRCVKQITHR-FSTEVSRWTPEAVVALQEAAEECLVHLFED
-GMLCAIHARRITLMTKDIQL---------------
+---------MARVKHTPASLKVGKKKVSRA------------------------------
+------------------------------------------------------STSTP-
+-QQSPATRSRRR------------------AQEEEPQEAAAAA-PQTQGRKKKRSKPGTA
+ALREIRHFQKSCKLLIPAAPFIRCVKQITHRFST-EVSRWTPEAVVALQEAAEECLVHLF
+EDGMLCAIHARRITLMTKDIQL---------------
 >cenH3.1_Vigna_unguiculata_Vigna_unguiculata_BBM60663.1 organism=Vigna unguiculata phylum=Streptophyta class=Magnoliopsida
----------MARVKHTPASLKVGKKKVS--------------------------------
----------------------------------------------------RASTSTP--
-QQSPATRSRRRAQEEEPQEEAAAAAPQTQG-----------------RKKKRSKPGTAAL
-REIRHFQKSCKLLIPAAPFIRCVKQITHR-FSTEVSRWTPEAVVALQEAAEECLVHLFED
-GMLCAIHARRITLMTKDIQ----------------
+---------MARVKHTPASLKVGKKKVSRA------------------------------
+------------------------------------------------------STSTP-
+-QQSPATRSRRR------------------AQEEEPQEEAAAAAPQTQGRKKKRSKPGTA
+ALREIRHFQKSCKLLIPAAPFIRCVKQITHRFST-EVSRWTPEAVVALQEAAEECLVHLF
+EDGMLCAIHARRITLMTKDIQ----------------
 >cenH3.1_Vigna_unguiculata_Vigna_unguiculata_BBM60665.1 organism=Vigna unguiculata phylum=Streptophyta class=Magnoliopsida
----------MARVKHTPASLKVGKKKVS--------------------------------
----------------------------------------------------RASTSTP--
-QQSPATRSRRRAQEEEPQEEAAAAAPQTQG-----------------RKKKRSKPGTMAL
-REIRHFQKSCKLLIPAAPFIRCVKQITHQ-FSTEVSRWTPEAVVALQEAAEECLVHLFED
-GMLCAIHARRITLMTKDIQL---------------
+---------MARVKHTPASLKVGKKKVSRA------------------------------
+------------------------------------------------------STSTP-
+-QQSPATRSRRR------------------AQEEEPQEEAAAAAPQTQGRKKKRSKPGTM
+ALREIRHFQKSCKLLIPAAPFIRCVKQITHQFST-EVSRWTPEAVVALQEAAEECLVHLF
+EDGMLCAIHARRITLMTKDIQL---------------
 >cenH3.1_Vigna_unguiculata_Vigna_unguiculata_BBM60667.1 organism=Vigna unguiculata phylum=Streptophyta class=Magnoliopsida
----------MARVKHTPASLKVGKKKVS--------------------------------
----------------------------------------------------RASTSTP--
-QQSPATRSRRRAQEEEPQEEAAAAAPQTQG-----------------RKKKRSKPGTAAL
-REIRHFQKSCKLLIPAAPFIRCVKQITHQ-FSTEVSRWTPEAVVALQEAAEECLVHLFED
-GMLCAIHARRITLMTKDIQL---------------
+---------MARVKHTPASLKVGKKKVSRA------------------------------
+------------------------------------------------------STSTP-
+-QQSPATRSRRR------------------AQEEEPQEEAAAAAPQTQGRKKKRSKPGTA
+ALREIRHFQKSCKLLIPAAPFIRCVKQITHQFST-EVSRWTPEAVVALQEAAEECLVHLF
+EDGMLCAIHARRITLMTKDIQL---------------
 >cenH3.1_Vigna_unguiculata_Vigna_unguiculata_subsp._alba_BBM60649.1 organism=Vigna unguiculata subsp. alba phylum=Streptophyta class=Magnoliopsida
----------MARVKHTPASLKVGKKKVS--------------------------------
----------------------------------------------------RASTSTP--
-QQSPATRSRRRAQEEEPQEEAAAAAPQTQG-----------------RKKKRSKPGTAAL
-REIRHFQKSCKLLIPAAPFIRCVKQITHQ-FSTEVSRWTPEAVVALQEAAEECLVHLFED
-GMLCAIHARRITLMTKDIQL---------------
+---------MARVKHTPASLKVGKKKVSRA------------------------------
+------------------------------------------------------STSTP-
+-QQSPATRSRRR------------------AQEEEPQEEAAAAAPQTQGRKKKRSKPGTA
+ALREIRHFQKSCKLLIPAAPFIRCVKQITHQFST-EVSRWTPEAVVALQEAAEECLVHLF
+EDGMLCAIHARRITLMTKDIQL---------------
 >cenH3.1_Vigna_unguiculata_Vigna_unguiculata_subsp._baoulensis_BBM60653.1 organism=Vigna unguiculata subsp. baoulensis phylum=Streptophyta class=Magnoliopsida
----------MARVKHTPASL-----KAS--------------------------------
----------------------------------------------------RASTSMPPS
-QQSPVTRSNRRAQEEEPQEEAAAAALQTQG-----------------RKKKRSKPGTMAL
-REIRHFQKSCKLLIPAAPFIRCVKQITHR-FSTEVSRWMPEAVVALQEAAEECLVHLFED
-GMLCAIHARRITLMTKDIQL---------------
+---------MARVKHTPASL-----KASRA------------------------------
+------------------------------------------------------STSMPP
+SQQSPVTRSNRR------------------AQEEEPQEEAAAAALQTQGRKKKRSKPGTM
+ALREIRHFQKSCKLLIPAAPFIRCVKQITHRFST-EVSRWMPEAVVALQEAAEECLVHLF
+EDGMLCAIHARRITLMTKDIQL---------------
 >cenH3.1_Vigna_unguiculata_Vigna_unguiculata_subsp._pawekiae_BBM60651.1 organism=Vigna unguiculata subsp. pawekiae phylum=Streptophyta class=Magnoliopsida
----------MARVKHTPASLQVGKKKVS--------------------------------
----------------------------------------------------RASTSTP--
-QQSPATRSRRRAQEEEPQEEAAAAAPQTQG-----------------RKKKRIKPGTAAL
-REIRHFQKSCKLLIPAAPFIRCVKQITHQ-FSTEVSRWTPEAVVALQEAAEECLVHLFED
-GMLCAIHARRITLMTKDIQL---------------
+---------MARVKHTPASLQVGKKKVSRA------------------------------
+------------------------------------------------------STSTP-
+-QQSPATRSRRR------------------AQEEEPQEEAAAAAPQTQGRKKKRIKPGTA
+ALREIRHFQKSCKLLIPAAPFIRCVKQITHQFST-EVSRWTPEAVVALQEAAEECLVHLF
+EDGMLCAIHARRITLMTKDIQL---------------
 >cenH3.1_Vigna_unguiculata_Vigna_unguiculata_subsp._sesquipedalis_BBM60645.1 organism=Vigna unguiculata subsp. sesquipedalis phylum=Streptophyta class=Magnoliopsida
----------MARVKHTPASLKVGKKKVS--------------------------------
----------------------------------------------------RASTSTP--
-QQSPATRSRRRAQEEEPQEEAAAAAPQTQG-----------------RKKKRSKPGTAAL
-REIRHFQKSCKLLIPAAPFIRCVKQITHR-FSTEVSRWTPEAVVALQEAAEECLVHLFED
-GMLCAIHARRITLMTKDIQL---------------
+---------MARVKHTPASLKVGKKKVSRA------------------------------
+------------------------------------------------------STSTP-
+-QQSPATRSRRR------------------AQEEEPQEEAAAAAPQTQGRKKKRSKPGTA
+ALREIRHFQKSCKLLIPAAPFIRCVKQITHRFST-EVSRWTPEAVVALQEAAEECLVHLF
+EDGMLCAIHARRITLMTKDIQL---------------
 >cenH3.1_Vigna_unguiculata_Vigna_unguiculata_subsp._stenophylla_BBM60647.1 organism=Vigna unguiculata subsp. stenophylla phylum=Streptophyta class=Magnoliopsida
----------MARVKHTPASL-----KAS--------------------------------
----------------------------------------------------RASTSMPPS
-QQSPVTRSNRRAQEEEPQEEAAAAALQTQG-----------------RKKKRSKPGTMAH
-REIRHFQKSCKLLIPAAPFIRCVKQITHR-FSTEVSRWTPEAVVALQEAAEECLVHLFED
-GMLCAIHARRITLMTKDIQL---------------
+---------MARVKHTPASL-----KASRA------------------------------
+------------------------------------------------------STSMPP
+SQQSPVTRSNRR------------------AQEEEPQEEAAAAALQTQGRKKKRSKPGTM
+AHREIRHFQKSCKLLIPAAPFIRCVKQITHRFST-EVSRWTPEAVVALQEAAEECLVHLF
+EDGMLCAIHARRITLMTKDIQL---------------
 >cenH3.1_Vigna_unguiculata_Vigna_unguiculata_subsp._unguiculata_BBM60643.1 organism=Vigna unguiculata subsp. unguiculata phylum=Streptophyta class=Magnoliopsida
----------MARVKHTPASLKVGKKKVS--------------------------------
----------------------------------------------------RASTSTP--
-QQSPATRSRRRAQEEEPQEEAAAAAPQTQG-----------------RKKKRSKPGTAAL
-REIRHFQKSCKLLIPAAPFIRCVKQITHQ-FSTEVSRWTPEAVVALQEAAEECLVHLFED
-GMLCAIHARRITLMTKDIQL---------------
+---------MARVKHTPASLKVGKKKVSRA------------------------------
+------------------------------------------------------STSTP-
+-QQSPATRSRRR------------------AQEEEPQEEAAAAAPQTQGRKKKRSKPGTA
+ALREIRHFQKSCKLLIPAAPFIRCVKQITHQFST-EVSRWTPEAVVALQEAAEECLVHLF
+EDGMLCAIHARRITLMTKDIQL---------------
 >cenH3.1_Vigna_unguiculata_Vigna_unguiculata_var._spontanea_BBM60669.1 organism=Vigna unguiculata var. spontanea phylum=Streptophyta class=Magnoliopsida
----------MARVKHTPASLKVGKKKVS--------------------------------
----------------------------------------------------RASTSTP--
-QQSPATRSRRRAQEEEPQEEAAAAAPQTQG-----------------RKKKRSKPGTAAL
-REIRHFQKSCKLLIPAAPFIRCVKQITHQ-FSTEVSRWTPEAVVALQEAAEECLVHLFED
-GMLCAIHARRITLMTKDIQL---------------
+---------MARVKHTPASLKVGKKKVSRA------------------------------
+------------------------------------------------------STSTP-
+-QQSPATRSRRR------------------AQEEEPQEEAAAAAPQTQGRKKKRSKPGTA
+ALREIRHFQKSCKLLIPAAPFIRCVKQITHQFST-EVSRWTPEAVVALQEAAEECLVHLF
+EDGMLCAIHARRITLMTKDIQL---------------
 >cenH3.2_Vigna_unguiculata_Vigna_unguiculata_BBM60642.1 organism=Vigna unguiculata phylum=Streptophyta class=Magnoliopsida
----------MARVKHTPASL-----KAS--------------------------------
----------------------------------------------------RASTSVPPS
-QQSPVTRSNRRAQEEEPQEE--AAAPQTQG-----------------RKKKRSKPGTMAL
-REIRHFQKSCKLLIPAAPFIRCVKQITHR-FSTEVSRWTPEAVVALQEAAEECLVHLFED
-GMLCAIHARRITLMTKDIQLARRRNRKALV-----
+---------MARVKHTPASL-----KASRA------------------------------
+------------------------------------------------------STSVPP
+SQQSPVTRSNRR------------------AQEEEPQEE--AAAPQTQGRKKKRSKPGTM
+ALREIRHFQKSCKLLIPAAPFIRCVKQITHRFST-EVSRWTPEAVVALQEAAEECLVHLF
+EDGMLCAIHARRITLMTKDIQLARRRNRKALV-----
 >cenH3.2_Vigna_unguiculata_Vigna_unguiculata_BBM60660.1 organism=Vigna unguiculata phylum=Streptophyta class=Magnoliopsida
----------MARVKHTPASL-----KAS--------------------------------
----------------------------------------------------RASTSVPPS
-QQSPVTRSNRRAQEEEPQEE-AAAAPQTQG-----------------RKKKRSKPGTAAL
-REIRHFQKSCKLLIPAAPFIRCVKQITHQ-FSTEVSRWTPEAVVALQEAAEECLVHLFED
-GMLCAIHARRITLMTKDIQL---------------
+---------MARVKHTPASL-----KASRA------------------------------
+------------------------------------------------------STSVPP
+SQQSPVTRSNRR------------------AQEEEPQEE-AAAAPQTQGRKKKRSKPGTA
+ALREIRHFQKSCKLLIPAAPFIRCVKQITHQFST-EVSRWTPEAVVALQEAAEECLVHLF
+EDGMLCAIHARRITLMTKDIQL---------------
 >cenH3.2_Vigna_unguiculata_Vigna_unguiculata_BBM60662.1 organism=Vigna unguiculata phylum=Streptophyta class=Magnoliopsida
----------MARVKHTPASL-----KAS--------------------------------
----------------------------------------------------RASTSVPPS
-QQSPVTRSNRRAQEEEPQEE--AAAPQTQG-----------------RKKKRSKPGTMAL
-REIRHFQKSCKLLIPAAPFIRCVKQITHR-FSTEVSRWTPEAVVALQEAAEECLVHLFED
-GMLCAIHARRITLMTKDIQL---------------
+---------MARVKHTPASL-----KASRA------------------------------
+------------------------------------------------------STSVPP
+SQQSPVTRSNRR------------------AQEEEPQEE--AAAPQTQGRKKKRSKPGTM
+ALREIRHFQKSCKLLIPAAPFIRCVKQITHRFST-EVSRWTPEAVVALQEAAEECLVHLF
+EDGMLCAIHARRITLMTKDIQL---------------
 >cenH3.2_Vigna_unguiculata_Vigna_unguiculata_BBM60664.1 organism=Vigna unguiculata phylum=Streptophyta class=Magnoliopsida
----------MARVKHTPASL-----KAS--------------------------------
----------------------------------------------------RASTSVPPS
-QQSPVTRSNRRAQEEEPQEE--AAAPQTQG-----------------RKKKRSKPGTMAL
-REIRHFQKSCKLLIPAAPFIRCVKQITHR-FSTEVSRWTPEAVVALQEAAEECLVHLFED
-GMLCAIHARRITLMTKDIQL---------------
+---------MARVKHTPASL-----KASRA------------------------------
+------------------------------------------------------STSVPP
+SQQSPVTRSNRR------------------AQEEEPQEE--AAAPQTQGRKKKRSKPGTM
+ALREIRHFQKSCKLLIPAAPFIRCVKQITHRFST-EVSRWTPEAVVALQEAAEECLVHLF
+EDGMLCAIHARRITLMTKDIQL---------------
 >cenH3.2_Vigna_unguiculata_Vigna_unguiculata_BBM60666.1 organism=Vigna unguiculata phylum=Streptophyta class=Magnoliopsida
----------MARVKHTPASL-----KAS--------------------------------
----------------------------------------------------RASTSVPPS
-QQSPVTRSNRRAQEEEPQEE--AAAPQTQG-----------------RKKKRSKPGTMAL
-REIRHFQKSCKLLIPAAPFIRCVKQITHR-FSTEVSRWTPEAVVALQEAAEECLVHLFED
-GMLCAIHARRITLMTKDIQL---------------
+---------MARVKHTPASL-----KASRA------------------------------
+------------------------------------------------------STSVPP
+SQQSPVTRSNRR------------------AQEEEPQEE--AAAPQTQGRKKKRSKPGTM
+ALREIRHFQKSCKLLIPAAPFIRCVKQITHRFST-EVSRWTPEAVVALQEAAEECLVHLF
+EDGMLCAIHARRITLMTKDIQL---------------
 >cenH3.2_Vigna_unguiculata_Vigna_unguiculata_BBM60668.1 organism=Vigna unguiculata phylum=Streptophyta class=Magnoliopsida
----------MARVKHTPASL-----KAS--------------------------------
----------------------------------------------------RASTSVPPS
-QQSPVTRSNRRAQEEEPQEE--AAAPQTQG-----------------RKKKRSKPGTMAL
-REIRHFQKSCKLLIPAAPFIRCVKQITHQ-FSTEVSRWTPEAVVALQEAAEECLVHLFED
-GMLCAIHARRITLMTKDIQL---------------
+---------MARVKHTPASL-----KASRA------------------------------
+------------------------------------------------------STSVPP
+SQQSPVTRSNRR------------------AQEEEPQEE--AAAPQTQGRKKKRSKPGTM
+ALREIRHFQKSCKLLIPAAPFIRCVKQITHQFST-EVSRWTPEAVVALQEAAEECLVHLF
+EDGMLCAIHARRITLMTKDIQL---------------
 >cenH3.2_Vigna_unguiculata_Vigna_unguiculata_subsp._alba_BBM60650.1 organism=Vigna unguiculata subsp. alba phylum=Streptophyta class=Magnoliopsida
----------MARVKHTPASL-----KAS--------------------------------
----------------------------------------------------RASTSMPPS
-QQSPVTRSNRRAQEEEPQEE--AAAPQTQG-----------------RKKKRSKPGTMAL
-REIRHFQKSCKLLIPAAPFIRCVKQITHQ-FSTEVSRWTPEAVVALQEAAEECLVHLFED
-GMLCAIHARRITLMTKDIQL---------------
+---------MARVKHTPASL-----KASRA------------------------------
+------------------------------------------------------STSMPP
+SQQSPVTRSNRR------------------AQEEEPQEE--AAAPQTQGRKKKRSKPGTM
+ALREIRHFQKSCKLLIPAAPFIRCVKQITHQFST-EVSRWTPEAVVALQEAAEECLVHLF
+EDGMLCAIHARRITLMTKDIQL---------------
 >cenH3.2_Vigna_unguiculata_Vigna_unguiculata_subsp._baoulensis_BBM60654.1 organism=Vigna unguiculata subsp. baoulensis phylum=Streptophyta class=Magnoliopsida
----------MARVKHTPASLKVGKKKVS--------------------------------
----------------------------------------------------RASTSTP--
-QQSPATRSRRRAQEEEPQEEAAAAAPQTQG-----------------RKKKRSKPGTAAL
-REIRHFQKSCKLLIPAAPFIRCVKQITHQ-FSTEVSRWTPEAVVALQEAAEECLVHLFEN
-GMLCAIHARRITLMTKDIQL---------------
+---------MARVKHTPASLKVGKKKVSRA------------------------------
+------------------------------------------------------STSTP-
+-QQSPATRSRRR------------------AQEEEPQEEAAAAAPQTQGRKKKRSKPGTA
+ALREIRHFQKSCKLLIPAAPFIRCVKQITHQFST-EVSRWTPEAVVALQEAAEECLVHLF
+ENGMLCAIHARRITLMTKDIQL---------------
 >cenH3.2_Vigna_unguiculata_Vigna_unguiculata_subsp._pawekiae_BBM60652.1 organism=Vigna unguiculata subsp. pawekiae phylum=Streptophyta class=Magnoliopsida
----------MARVKHTPASL-----KAS--------------------------------
----------------------------------------------------RASTSMPPS
-QQSPVTRSNRRAQEEEPQEEAAAAAPQTQG-----------------RKKKRSKPGTAAL
-REIRHFQKSCKLLIPAAPFIRCVKQITHQ-FSTEVSRWTPEAVVALQEAAEECLVHLFED
-GMLCAIHARRITLMTKDIQL---------------
+---------MARVKHTPASL-----KASRA------------------------------
+------------------------------------------------------STSMPP
+SQQSPVTRSNRR------------------AQEEEPQEEAAAAAPQTQGRKKKRSKPGTA
+ALREIRHFQKSCKLLIPAAPFIRCVKQITHQFST-EVSRWTPEAVVALQEAAEECLVHLF
+EDGMLCAIHARRITLMTKDIQL---------------
 >cenH3.2_Vigna_unguiculata_Vigna_unguiculata_subsp._sesquipedalis_BBM60646.1 organism=Vigna unguiculata subsp. sesquipedalis phylum=Streptophyta class=Magnoliopsida
----------MARVKHTPASL-----KAS--------------------------------
----------------------------------------------------RASTSVPPS
-QQSPVTRSNRRAQEEEPQEE--AAAPQTQG-----------------RKKKRSKPGTMAL
-REIRHFQKSCKLLIPAAPFIRCVKQITHR-FSTEVSRWTPEAVVALQEAAEECLVHLFED
-GMLCAIHARRITLMTKDIQL---------------
+---------MARVKHTPASL-----KASRA------------------------------
+------------------------------------------------------STSVPP
+SQQSPVTRSNRR------------------AQEEEPQEE--AAAPQTQGRKKKRSKPGTM
+ALREIRHFQKSCKLLIPAAPFIRCVKQITHRFST-EVSRWTPEAVVALQEAAEECLVHLF
+EDGMLCAIHARRITLMTKDIQL---------------
 >cenH3.2_Vigna_unguiculata_Vigna_unguiculata_subsp._stenophylla_BBM60648.1 organism=Vigna unguiculata subsp. stenophylla phylum=Streptophyta class=Magnoliopsida
----------MARVKHTPASLKVGKKKVS--------------------------------
----------------------------------------------------RASTSTP--
-QQSPATRSRRRAQEEEPQEEAAAAAPQTQG-----------------RKKKRSKPGTAAL
-REIRHFQKSCKLLIPAAPFIRCVKQITHQ-FSTEVSRWTPEAVVALQEAAEECLVHLFED
-GMLCAIHARRITLMTKDIQL---------------
+---------MARVKHTPASLKVGKKKVSRA------------------------------
+------------------------------------------------------STSTP-
+-QQSPATRSRRR------------------AQEEEPQEEAAAAAPQTQGRKKKRSKPGTA
+ALREIRHFQKSCKLLIPAAPFIRCVKQITHQFST-EVSRWTPEAVVALQEAAEECLVHLF
+EDGMLCAIHARRITLMTKDIQL---------------
 >cenH3.2_Vigna_unguiculata_Vigna_unguiculata_subsp._unguiculata_BBM60644.1 organism=Vigna unguiculata subsp. unguiculata phylum=Streptophyta class=Magnoliopsida
----------MARVKHTPASL-----KAS--------------------------------
----------------------------------------------------RASTSVPPS
-QQSPVTRSNRRAQEEEPQEE--AAAPQTQG-----------------RKKKRSKPGTMAL
-REIRHFQKSCKLLIPAAPFIRCVKQITHR-FSTEVSRWTPEAVVALQEAAEECLVHLFED
-GMLCAIHARRITLMTKDIQL---------------
+---------MARVKHTPASL-----KASRA------------------------------
+------------------------------------------------------STSVPP
+SQQSPVTRSNRR------------------AQEEEPQEE--AAAPQTQGRKKKRSKPGTM
+ALREIRHFQKSCKLLIPAAPFIRCVKQITHRFST-EVSRWTPEAVVALQEAAEECLVHLF
+EDGMLCAIHARRITLMTKDIQL---------------
 >cenH3.2_Vigna_unguiculata_Vigna_unguiculata_var._spontanea_BBM60670.1 organism=Vigna unguiculata var. spontanea phylum=Streptophyta class=Magnoliopsida
----------MARVKHTPASL-----KAS--------------------------------
----------------------------------------------------RASTSMPPS
-QQSPVTRSNRRAQEEEPQEEAAAAALQTQG-----------------RKKKRSKPGTMAL
-REIRHFQKSCKLLIPAAPFIRCVKQITHR-FSTEVSRWTPEAVVALQEAAEECLVHLFED
-GMLCAIHARRITLMTKDIQL---------------
+---------MARVKHTPASL-----KASRA------------------------------
+------------------------------------------------------STSMPP
+SQQSPVTRSNRR------------------AQEEEPQEEAAAAALQTQGRKKKRSKPGTM
+ALREIRHFQKSCKLLIPAAPFIRCVKQITHRFST-EVSRWTPEAVVALQEAAEECLVHLF
+EDGMLCAIHARRITLMTKDIQL---------------

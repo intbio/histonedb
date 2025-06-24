@@ -171,18 +171,6 @@
             "sperm_H2B_(Echinoidea)": "null"
         },
         "H3": {
-            "cenH3": {
-                "cenH3_(Animals)": {
-                    "cenH3_(Mammalia)": {
-                        "cenH3_(Homo_sapiens)": "null"
-                    }
-                },
-                "cenH3_(Fungi)": "null",
-                "cenH3_(Plants)": {
-                    "cenH3.1_(Vigna_unguiculata)": "null",
-                    "cenH3.2_(Vigna_unguiculata)": "null"
-                }
-            },
             "cH3": {
                 "cH3_(Animals)": {
                     "cH3_(Vertebrata)": {
@@ -202,6 +190,24 @@
                     "cH3_(Embryophyta)": "null"
                 },
                 "cH3_(Protists)": "null"
+            },
+            "cenH3": {
+                "cenH3_(Animals)": {
+                    "cenH3_(Mammalia)": {
+                        "cenH3_(Homo_sapiens)": "null"
+                    }
+                },
+                "cenH3_(Fungi)": "null",
+                "cenH3_(Plants)": {
+                    "cenH3_(Triticeae)": {
+                        "cenH3.1_(Triticeae)": "null",
+                        "cenH3.2_(Triticeae)": "null"
+                    },
+                    "cenH3_(Vigna_unguiculata)": {
+                        "cenH3.1_(Vigna_unguiculata)": "null",
+                        "cenH3.2_(Vigna_unguiculata)": "null"
+                    }
+                }
             },
             "H3.1-like_(Plants)": "null",
             "H3.3": {
@@ -430,8 +436,32 @@
         "cenH3": {
             "level": "variant_group",
             "description": {
-                "summary": "cenH3 is a centromere-specific histone variant, which replaces canonical H3 in centromeric nucleosomes. It is required for kinetochore formation, mitotic progression and chromosome segregation. cenH3 has an extended L1-loop and its N-terminal tail is very different from other H3 variants. cenH3s have an extended L1-loop and usually replace Phe84 in canonical H3 with Trp, and Thr 107 with Ala, Cys, or Ser. cenH3s ususally lack a conserved glutamine in the alpha1 helix of the histone fold. cenH3s typically have only about 50-60% amino acid identity to canonical H3 in the histone fold domain and no conservation of the N-terminus.",
-                "taxonomy": "null",
+                "summary": "cenH3 is a centromere-specific histone variant, which replaces canonical H3 in centromeric nucleosomes. It is required for kinetochore formation, mitotic progression and chromosome segregation.",
+                "taxonomy": "cenH3 present in most eukaryotes. However, it has been lost in trypanosomes, the fungus Mucor, in four clades of holocentric insects and kinetoplastids [talbert_histone_2021, senaratne_formation_2021, sridhar_kinetochore_2022].",
+                "genes": "null",
+                "evolution": "The co-occurrence of CenH3 loss and holocentricity in insects suggests that the evolutionary development of holocentromeres in this group may have been facilitated by the loss of a CenH3-defined centromere [senaratne_formation_2021]. It has been demonstrated that CenH3 has undergone adaptive evolution at a significantly higher frequency in clades with asymmetric meiosis compared to those with symmetric meiosis [zedek_cenh3_2016]. This finding is in accordance with the predictions of the centromere drive model. Furthermore, the occurrence of more frequent adaptive changes in CenH3 is necessary to offset the negative effects of centromere drive [zedek_cenh3_2016].",
+                "expression": "null",
+                "knock-out": "null",
+                "function": "Despite the high diversity of cenH3 proteins, they represent a key factor involved in centromere identity across a wide range of organisms. Moreover, it has been demonstrated that cenH3 from the monocot Zea mays is capable of substituting for cenH3 in A. thaliana [maheshwari_naturally_2015]. This example illustrates that the functions of the cenH3 histone are conserved across a broad evolutionary spectrum [maheshwari_naturally_2015].",
+                "sequence": "cenH3 has an extended L1-loop and its N-terminal tail is very different from other H3 variants. cenH3s have an extended L1-loop and usually replace Phe84 in canonical H3 with Trp, and Thr 107 with Ala, Cys, or Ser. cenH3s ususally lack a conserved glutamine in the alpha1 helix of the histone fold. cenH3s typically have only about 50-60% amino acid identity to canonical H3 in the histone fold domain and no conservation of the N-terminus.",
+                "localization": "null",
+                "deposition": "null",
+                "structure": "null",
+                "interactions": "null",
+                "disease": "CenH3 plays pro-viral and restriction role in tombusvirus replication in plants and in the yeast model host [gonzalez_centromeric_2022].",
+                "caveats": "null",
+                "relations": "null"
+            },
+            "taxonomic_span": "null",
+            "taxonomic_span_id": "null",
+            "alternate_names": [],
+            "publications": []
+        },
+        "cenH3.1_(Triticeae)": {
+            "level": "variant",
+            "description": {
+                "summary": "cenH3.1_(Triticeae) is a centromere-specific histone H3 variant encoded by the \u03b1CENH3 gene (one of two paralogs) in polyploid wheat (Triticum spp.) [yuan_characterization_2015]. Unlike \u03b2CENH3, it is essential for mitotic progression and vegetative growth, as its silencing causes severe dwarfism and root system defects. The \u03b1CENH3 protein contains conserved histone-fold domains but differs from \u03b2CENH3 in its N-terminal tail and loop1 region. \u03b1CENH3 is constitutively expressed and maintains centromere localization throughout the cell cycle, while \u03b2CENH3 shows cell cycle-dependent deposition and specializes in reproductive adaptation [yuan_characterization_2015].",
+                "taxonomy": "This group of variants described in 11 diploid wheat species (Triticum urartu L., Triticum monococcum L. and Aegilops L.), 15 tetraploid (Triticum turgidum L. and Triticum timopheevii L.) and one hexaploid species (Triticum aestivum L.) [yuan_characterization_2015].",
                 "genes": "null",
                 "evolution": "null",
                 "expression": "null",
@@ -446,10 +476,12 @@
                 "caveats": "null",
                 "relations": "null"
             },
-            "taxonomic_span": "null",
-            "taxonomic_span_id": "null",
+            "taxonomic_span": "Triticeae(?)",
+            "taxonomic_span_id": "147389",
             "alternate_names": [],
-            "publications": []
+            "publications": [
+                "yuan_characterization_2015"
+            ]
         },
         "cenH3.1_(Vigna_unguiculata)": {
             "level": "variant",
@@ -475,6 +507,32 @@
             "alternate_names": [],
             "publications": [
                 "ishii_unequal_2020"
+            ]
+        },
+        "cenH3.2_(Triticeae)": {
+            "level": "variant",
+            "description": {
+                "summary": "cenH3.2_(Triticeae) is a centromeric histone H3 variant encoded by the \u03b2CENH3 paralog in polyploid wheat (Triticum spp.) [yuan_characterization_2015]. Unlike the essential \u03b1CENH3, \u03b2CENH3 shows specialized functions in reproductive development and polyploid adaptation. While dispensable for vegetative growth, its silencing leads to reduced fertility and seed set. The \u03b2CENH3 protein features distinct loop1 domain variations and undergoes cell cycle-specific centromere deposition, being predominantly present during interphase. Evolutionary analysis reveals positive selection in its histone-fold domain, particularly in cultivated wheat varieties, suggesting adaptive evolution under domestication pressures [yuan_characterization_2015].",
+                "taxonomy": "This group of variants described in 11 diploid wheat species (Triticum urartu L., Triticum monococcum L. and Aegilops L.), 15 tetraploid (Triticum turgidum L. and Triticum timopheevii L.) and one hexaploid species (Triticum aestivum L.) [yuan_characterization_2015].",
+                "genes": "null",
+                "evolution": "null",
+                "expression": "null",
+                "knock-out": "null",
+                "function": "null",
+                "sequence": "null",
+                "localization": "null",
+                "deposition": "null",
+                "structure": "null",
+                "interactions": "null",
+                "disease": "null",
+                "caveats": "null",
+                "relations": "null"
+            },
+            "taxonomic_span": "Triticeae(?)",
+            "taxonomic_span_id": "147389",
+            "alternate_names": [],
+            "publications": [
+                "yuan_characterization_2015"
             ]
         },
         "cenH3.2_(Vigna_unguiculata)": {
@@ -564,7 +622,7 @@
                 "sequence": "null",
                 "localization": "CENP-A in human chromosomes usually localized in active centromere region within \u03b1Sat arrays and associated with reduced CpG methylation [altemose_complete_2022, gershman_epigenetic_2022]. Although the centromere position is defined as a window with high CENP-A enrichment (totals 190 to 570 kb on each chromosome), CENP-A was also found near CDRs (centromere dip regions) and no all dips in CpG methylation was associated with CENP-A [altemose_complete_2022]. CENP-A is typically observed in young HOR-haps (although there are a few notable exceptions) [altemose_complete_2022]. Additionally, an analysis of CENP-A enrichment patterns on human chromosome X demonstrated that these patterns exhibit considerable inter-individual variability [altemose_complete_2022].",
                 "deposition": "Deposition of CENP-A into centromeric nucleosomes during the late telophase/early G1 phase of the cell cycle mediated by four major and some minor factors and regulators, which are important for identifying centromeric localization and limit the process to a single round [pan_mechanism_2019, xu_gross_2023]. The specific CENP-A chaperone HJURP (Holliday Junction Recognition Protein) plays a key role in stabilizing the binding of CENP-A to histone H4 [foltz_centromere_2009, dunleavy_hjurp_2009, shuaib_hjurp_2010]. To target centromeres and load a new CENP-A HJURP form a stoichiometric complex with the two-subunit Mis18 complex (Mis18\u03b1 and Mis18\u03b2) and Mis18-binding protein 1 (M18BP1) [hayashi_mis16_2004, pan_mechanism_2019]. Among minor proteins required for CENP-A loading there are RSF1, MgcRacGAP, Condensin II, and KAT7 [pan_mechanism_2019]. Furthermore, loading of CENP-A into centromeric nucleosomes contributed by CENP-I and CENP-B proteins that are specifically binds to the centromeric DNA. CENP-I, a subunit of the inner kinetochore complex, has been demonstrated to stabilise CENP-A nucleosomes in vitro [hu_cenp-i_2023]. The loss of CENP-B led to a slightly decrease in CENP-A incorporation, though the effect was less pronounced than with HJURP deletion, and a reduction in M18BP1 binding at centromeres assembled with a CENP-A variant without its CENP-C binding domain [fachinetti_dna_2015].",
-                "structure": "null",
+                "structure": "CENP-A confers enhanced flexibility and elasticity to nucleosomes, influencing centromeric chromatin organization and ensuring accurate chromosome segregation during mitosis [fedulova_molecular_2024, pitman_minimal_2020, melters_intrinsic_2019]. Partial nucleosome unwrapping in CENP-A-containing nucleosomes is promoted by its shortened \u03b1N-helix [roulland_flexible_2016]. Cryo-EM analysis of human CENP-A nucleosomes revealed asymmetric DNA end flexibility, with the right DNA end being highly dynamic and partially detached from the histone core while the left end remained stably bound, a sequence-dependent behavior confirmed by molecular dynamics simulations [kono_free_2019, boopathi_phase-plate_2020]. Notably, this intrinsic asymmetry can be overcome by antibody stabilization. The single-chain antibody fragment PL2-6 symmetrically stabilizes both DNA ends through allosteric interactions, despite the inherent sequence-dependent asymmetry [zhou_atomic_2019, dogan_cenp-nucleosome_2021]. Molecular dynamics simulations revealed that CENP-A-containing tetramers exhibit enhanced stability but distinct dynamics compared to canonical octameric structures, explaining the unusual properties of CENP-A nucleosomes [zhao_oligomerization_2019].",
                 "interactions": "CENP-A nucleosomes stabilize the inner kinetochore known as the CCAN complex (Constitutive Centromere-Associated Network) through direct interaction with CENP-C and CENP-N proteins of this complex [cao_constitutive_2018, pesenti_structure_2022, sridhar_kinetochore_2022, xu_gross_2023]. Human CENP-C has been demonstrated to bind with the CENP-A C-terminal hydrophobic tail, the acidic patch of H2A-H2B and histone H4, thereby facilitating its engagement with all four histone subunits present on the nucleosome surface [allu_structure_2019]. The binding of CENP-C to CENP-A is stabilized by the process of phosphorylation of CDK1, which strengthens the complex's structure through the occurrence of an intramolecular interaction, and is critical for long-term viability in human RPE-1 cells [watanabe_cdk1-mediated_2019, walstein_assembly_2021]. This process is predominantly observed during the M-phase of the cell cycle [ariyoshi_cryoem_2021]. Human CENP-N has been observed to bind to CENP-A nucleosomes through a direct recognition of the L1 loop and RG loop of CENP-A [chittori_structural_2018, tian_molecular_2018, ariyoshi_cryoem_2021]. However, cryo-EM studies have revealed that CENP-C and CENP-N bind to a single CENP-A nucleosome in a non-simultaneous manner, thereby demonstrating an asymmetric structure where CENP-C and CENP-N bind to opposite sides of the nucleosome [ariyoshi_cryoem_2021]. Furthermore, in 94% of cases, phosphorylated CENP-C exhibits exclusive binding to the RG-loop of CENP-A, suggesting that this particular interaction is predominant [ariyoshi_cryoem_2021]. In addition, in vitro reconstruction of the human CENP-C protein showed that CENP-C can bind to two centromeric nucleosomes simultaneously [walstein_assembly_2021].",
                 "disease": "null",
                 "caveats": "null",
@@ -602,9 +660,9 @@
         "cenH3_(Plants)": {
             "level": "variant",
             "description": {
-                "summary": "null",
+                "summary": "cenH3_(Plants) is a centromere-specific histone variant in Plants. This is a subclass of cenH3 (see it for a detailed description).",
                 "taxonomy": "null",
-                "genes": "null",
+                "genes": "While most diploid eukaryotes and flowering plants maintain only one CENH3 gene copy (even after whole-genome duplications), some diploid species like Arabidopsis lyrata, barley, rye, pea, and related legumes retain two functional CENH3 homologs [ishii_unequal_2020].",
                 "evolution": "null",
                 "expression": "null",
                 "knock-out": "null",
@@ -650,6 +708,58 @@
                 "22650316",
                 "23324462",
                 "25956076"
+            ]
+        },
+        "cenH3_(Triticeae)": {
+            "level": "variant",
+            "description": {
+                "summary": "cenH3_(Triticeae) is a centromere-specific histone variant found in wheat (Triticum) and its close relatives (Aegilops and Hordeum). Interestingly, two functionally distinct CENH3 genes (\u03b1 and \u03b2) were identified for this group of variants [yuan_characterization_2015]. While other cereals (like rice, maize) possess only one CENH3 gene.",
+                "taxonomy": "This group of variants described in 11 diploid wheat species (Triticum urartu L., Triticum monococcum L. and Aegilops L.), 15 tetraploid (Triticum turgidum L. and Triticum timopheevii L.) and one hexaploid species (Triticum aestivum L.) [yuan_characterization_2015].",
+                "genes": "null",
+                "evolution": "null",
+                "expression": "null",
+                "knock-out": "null",
+                "function": "null",
+                "sequence": "null",
+                "localization": "null",
+                "deposition": "null",
+                "structure": "null",
+                "interactions": "null",
+                "disease": "null",
+                "caveats": "null",
+                "relations": "null"
+            },
+            "taxonomic_span": "Triticeae(?)",
+            "taxonomic_span_id": "147389",
+            "alternate_names": [],
+            "publications": [
+                "yuan_characterization_2015"
+            ]
+        },
+        "cenH3_(Vigna_unguiculata)": {
+            "level": "variant",
+            "description": {
+                "summary": "null",
+                "taxonomy": "null",
+                "genes": "null",
+                "evolution": "null",
+                "expression": "null",
+                "knock-out": "null",
+                "function": "null",
+                "sequence": "null",
+                "localization": "null",
+                "deposition": "null",
+                "structure": "null",
+                "interactions": "null",
+                "disease": "null",
+                "caveats": "null",
+                "relations": "null"
+            },
+            "taxonomic_span": "Vigna unguiculata",
+            "taxonomic_span_id": "3917",
+            "alternate_names": [],
+            "publications": [
+                "ishii_unequal_2020"
             ]
         },
         "cH1": {
