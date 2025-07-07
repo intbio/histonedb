@@ -452,9 +452,31 @@
                 "caveats": "null",
                 "relations": "null"
             },
-            "taxonomic_span": "null",
-            "taxonomic_span_id": "null",
-            "alternate_names": [],
+            "taxonomic_span": "Eukaryotes",
+            "taxonomic_span_id": "2759",
+            "alternate_names": [
+                {
+                    "name": "CENP-A"
+                },
+                {
+                    "name": "Cse4"
+                },
+                {
+                    "name": "HCP-3"
+                },
+                {
+                    "name": "CNP1"
+                },
+                {
+                    "name": "HTR12"
+                },
+                {
+                    "name": "CNA1"
+                },
+                {
+                    "name": "cid"
+                }
+            ],
             "publications": []
         },
         "cenH3.1_(Triticeae)": {
@@ -564,13 +586,13 @@
         "cenH3_(Animals)": {
             "level": "variant",
             "description": {
-                "summary": "null",
+                "summary": "cenH3_(Animals) is a centromere-specific histone variant in animals (Metazoa), often called CENP-A (Centromere Protein A), and an important component of active centromere required for chromosome segregation.",
                 "taxonomy": "null",
-                "genes": "null",
+                "genes": "CENP-A nucleosomes are essential for chromosome segregation. A functional kinetochore interacts with active centromeric chromatin reached with CENP-A to form the mitotic spindle. Notably, in certain holocentric organisms, CENP-A appears dispensable for meiotic chromosome segregation while remaining essential for mitosis. As demonstrated in Caenorhabditis elegans, CENP-A loading is specifically eliminated following meiosis I, and RNAi-mediated depletion of CENP-A during meiosis fails to disrupt proper chromosome segregation [monen_differential_2005]. This stands in striking contrast to mitotic divisions, where CENP-A is absolutely required for kinetochore assembly and faithful chromosome segregation. Moreover, C. elegans and C. remanei possess a second cenH3 histone gene that likely performs specialized functions distinct from canonical CENP-A roles [monen_separase_2015]. For more detailed information see the \"gene\" section.",
                 "evolution": "null",
                 "expression": "null",
                 "knock-out": "null",
-                "function": "null",
+                "function": "The nematodes Caenorhabditis elegans and C. remanei possess two genes encoding the centromeric histone H3 variant (cenH3): HCP-3 (also known as CeCENP-A) and CPAR-1 [monen_separase_2015, monen_differential_2005]. While HCP-3 functions as the predominant centromeric histone - being highly expressed and essential for precise chromosome segregation during mitotic divisions - CPAR-1 displays distinct characteristics: it exhibits lower expression levels but shows specific enrichment on meiotic chromosomes. Importantly, CPAR-1 undergoes separase-mediated proteolytic cleavage at the meiosis I metaphase-to-anaphase transition, implying a specialized, though not yet fully characterized, role in meiotic processes [monen_separase_2015].",
                 "sequence": "null",
                 "localization": "null",
                 "deposition": "null",
@@ -582,7 +604,17 @@
             },
             "taxonomic_span": "Homo sapiens",
             "taxonomic_span_id": "9606",
-            "alternate_names": [],
+            "alternate_names": [
+                {
+                    "name": "CENP-A"
+                },
+                {
+                    "name": "HCP-3"
+                },
+                {
+                    "name": "cid"
+                }
+            ],
             "publications": []
         },
         "cenH3_(Fungi)": {
@@ -606,7 +638,14 @@
             },
             "taxonomic_span": "Homo sapiens",
             "taxonomic_span_id": "9606",
-            "alternate_names": [],
+            "alternate_names": [
+                {
+                    "name": "Cse4"
+                },
+                {
+                    "name": "CNP1"
+                }
+            ],
             "publications": []
         },
         "cenH3_(Homo_sapiens)": {
@@ -630,15 +669,19 @@
             },
             "taxonomic_span": "Homo sapiens",
             "taxonomic_span_id": "9606",
-            "alternate_names": [],
+            "alternate_names": [
+                {
+                    "name": "CENP-A"
+                }
+            ],
             "publications": []
         },
         "cenH3_(Mammalia)": {
             "level": "variant",
             "description": {
-                "summary": "null",
+                "summary": "cenH3_(Mammalia) is a centromere-specific histone variant in mammals, often called CENP-A (Centromere Protein A), and an important component of active centromere required for chromosome segregation. For a general description see cenH3_(Animals) class.",
                 "taxonomy": "null",
-                "genes": "null",
+                "genes": "Eleven centromeric histone CENP-A genes were identified in cattle (Bos taurus), among which only CENP-A-L-1 appears to be functionally active, while the remaining members likely represent nonfunctional pseudogenes [li_identification_2008].",
                 "evolution": "null",
                 "expression": "null",
                 "knock-out": "null",
@@ -654,7 +697,11 @@
             },
             "taxonomic_span": "Homo sapiens",
             "taxonomic_span_id": "9606",
-            "alternate_names": [],
+            "alternate_names": [
+                {
+                    "name": "CENP-A"
+                }
+            ],
             "publications": []
         },
         "cenH3_(Plants)": {
@@ -662,7 +709,7 @@
             "description": {
                 "summary": "cenH3_(Plants) is a centromere-specific histone variant in Plants. This is a subclass of cenH3 (see it for a detailed description).",
                 "taxonomy": "null",
-                "genes": "While most diploid eukaryotes and flowering plants maintain only one CENH3 gene copy (even after whole-genome duplications), some diploid species like Arabidopsis lyrata, barley, rye, pea, and related legumes retain two functional CENH3 homologs [ishii_unequal_2020].",
+                "genes": "While most diploid eukaryotes and flowering plants maintain only one CENH3 gene copy (even after whole-genome duplications), some diploid species like Arabidopsis lyrata, barley, rye, pea, and related legumes retain two functional CENH3 homologs [ishii_unequal_2020]. It was demonstrated that the duplication of HTR12 in A. lyrata may have facilitated adaptation to multiple centromeric satellite sequences, though the underlying mechanisms of this process require further investigation [kawabe_duplication_2006]. Pisum and closely related Lathyrus species also retain two CenH3 paralogs (CenH3-1 and CenH3-2) originating from a Fabeae ancestor [neumann_centromeres_2015, neumann_stretching_2012]. Despite divergence, they colocalize in centromeres, likely enabling meta-polycentric organization with multiple functional domains. CenH3-2 is highly conserved but shows adaptive evolution in its histone fold, while CenH3-1 is more variable (especially N-terminal) without signs of positive selection [neumann_centromeres_2015]. The diploid barley species H. vulgare and H. bulbosum each encode two functional CENH3 variants (\u03b1 and \u03b2) that arose before their divergence (~7 mya), are expressed and incorporated into centromeres, but display distinct interspecific incorporation patterns in hybrids [sanei_loss_2011, karimi-ashtiyani_point_2015]. Notably, in early embryos, some centromeres (9.6%) contain only \u03b2CENH3, while later stages always incorporate both variants, revealing developmental-stage-specific loading [ishii_differential_2015]. In rye, both CENH3 genes (\u03b1 and \u03b2) are actively transcribed, retained in the genome, and likely functionally important for centromeric nucleosome assembly, while alternative splicing of \u03b1CENH3 generates protein diversity without affecting key DNA-binding domains (CATD) [evtushenko_conserved_2017].",
                 "evolution": "null",
                 "expression": "null",
                 "knock-out": "null",
@@ -670,7 +717,7 @@
                 "sequence": "null",
                 "localization": "null",
                 "deposition": "null",
-                "structure": "null",
+                "structure": "The L92F mutation in barley \u03b2CENH3 (and its orthologous variants in other plants) disrupts centromeric histone loading, enabling the development of haploid inducer lines for accelerated breeding, as it triggers selective elimination of mutant-derived chromosomes in hybrids with wild-type parents [karimi-ashtiyani_point_2015].",
                 "interactions": "null",
                 "disease": "null",
                 "caveats": "null",
@@ -680,34 +727,23 @@
             "taxonomic_span_id": "2759",
             "alternate_names": [
                 {
-                    "name": "CENP-A"
-                },
-                {
-                    "name": "Cse4"
-                },
-                {
-                    "name": "HCP-3"
-                },
-                {
-                    "name": "CNP1"
-                },
-                {
                     "name": "HTR12"
-                },
-                {
-                    "name": "CNA1"
-                },
-                {
-                    "name": "cid"
                 }
             ],
             "publications": [
-                "14583738",
-                "19766562",
-                "21743476",
-                "22650316",
-                "23324462",
-                "25956076"
+                "bui_cenp-nucleosome_2013",
+                "evtushenko_conserved_2017",
+                "ishii_differential_2015",
+                "karimi-ashtiyani_point_2015",
+                "kawabe_duplication_2006",
+                "malik_major_2009",
+                "malik_phylogenomics_2003",
+                "neumann_centromeres_2015",
+                "neumann_stretching_2012",
+                "sanei_loss_2011",
+                "steiner_diversity_2015",
+                "tachiwana_crystal_2011",
+                "talbert_unified_2012"
             ]
         },
         "cenH3_(Triticeae)": {
@@ -2511,7 +2547,7 @@
                 }
             ],
             "publications": [
-                "22650316"
+                "talbert_unified_2012"
             ]
         },
         "cH4_(Homo_sapiens)": {
@@ -2745,9 +2781,9 @@
             "publications": [
                 "10973918",
                 "11149891",
-                "22650316",
                 "23945933",
-                "26212454"
+                "26212454",
+                "talbert_unified_2012"
             ]
         },
         "gH2A_(Lilium)": {
@@ -2891,10 +2927,10 @@
                 }
             ],
             "publications": [
-                "22650316",
                 "23945933",
                 "2898141",
-                "7066298"
+                "7066298",
+                "talbert_unified_2012"
             ]
         },
         "H1.0_(Homo_sapiens)": {
@@ -2974,7 +3010,7 @@
                 }
             ],
             "publications": [
-                "22650316"
+                "talbert_unified_2012"
             ]
         },
         "H1.10_(Homo_sapiens)": {
@@ -3862,14 +3898,14 @@
                 "17261847",
                 "18703863",
                 "19506029",
-                "22650316",
                 "25731851",
                 "barral_histone_2017",
                 "govin_pericentric_2007",
                 "hoghoughi_rna-guided_2020",
                 "molaro_evolutionary_2018",
                 "Seal et al. unpublished",
-                "soboleva_unique_2011"
+                "soboleva_unique_2011",
+                "talbert_unified_2012"
             ]
         },
         "H2A.L_(Homo_sapiens)": {
@@ -4152,11 +4188,11 @@
             "publications": [
                 " talbert_histone_2021",
                 "18095327",
-                "22650316",
                 "23301656",
                 "25731851",
                 "millar_organizing_2013",
-                "talbert_histone_2010"
+                "talbert_histone_2010",
+                "talbert_unified_2012"
             ]
         },
         "H2A.X_(Animals)": {
@@ -4408,7 +4444,6 @@
                 "20003410",
                 "20197778",
                 "22467210",
-                "22650316",
                 "23301656",
                 "24311584",
                 "24768041",
@@ -4419,7 +4454,8 @@
                 "dalmasso_canonical_2011",
                 "giaimo_histone_2019",
                 "shaytan_nucleosome_2015",
-                "talbert_histone_2021"
+                "talbert_histone_2021",
+                "talbert_unified_2012"
             ]
         },
         "H2A.Z.1_(Chordata)": {
@@ -5634,12 +5670,12 @@
             ],
             "publications": [
                 " kycia_tudor_2014",
-                "22650316",
                 "8986613",
                 "dong_structural_2020",
                 "kycia_tudor_2014",
                 "tachiwana_nucleosome_2008",
                 "tachiwana_structural_2010",
+                "talbert_unified_2012",
                 "ueda_testis-specific_2017"
             ]
         },
@@ -5938,7 +5974,7 @@
             ],
             "publications": [
                 "20819935",
-                "22650316"
+                "talbert_unified_2012"
             ]
         },
         "H3_(Lilly???)": {
@@ -6339,9 +6375,9 @@
                 "16107708",
                 "16803903",
                 "20543561",
-                "22650316",
                 "25731851",
-                "sun_histone_2019"
+                "sun_histone_2019",
+                "talbert_unified_2012"
             ]
         },
         "macroH2A.1.s1_(Homo_sapiens)": {
@@ -6577,7 +6613,7 @@
                 }
             ],
             "publications": [
-                "22650316"
+                "talbert_unified_2012"
             ]
         },
         "Phage-histones": {
@@ -6837,7 +6873,7 @@
                 }
             ],
             "publications": [
-                "22650316"
+                "talbert_unified_2012"
             ]
         },
         "TS_H1.7": {
@@ -6867,7 +6903,7 @@
                 }
             ],
             "publications": [
-                "22650316"
+                "talbert_unified_2012"
             ]
         },
         "TS_H1.9": {
@@ -6897,7 +6933,7 @@
                 }
             ],
             "publications": [
-                "22650316"
+                "talbert_unified_2012"
             ]
         }
     }

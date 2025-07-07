@@ -1,210 +1,972 @@
 >cenH3_Plants_Guillardia_theta_AAK39657.1 organism=Guillardia theta phylum= class=Cryptophyceae
---------------------M--MKKQNLK------------------------------
+--------------------MMKKQNLK--------------------------------
 ------------------------------------------------------------
------------------------------------------------------RFKKSSN
-SLVDIRKFQKSTDLLIHRLPFARLVKEISLKYHHS--LNWQQVAVEALQFASEDYIIGLL
-QDANLAAIHAKRVTVMPKDLKLAKIIRGEH-------
+---------------------------------------------------RFKKSSNSL
+VDIRKFQKSTDLLIHRLPFARLVKEISLKYHH--------SLNWQQVAVEALQFASEDYI
+IGLLQDANLAAIHAKRVTVMPKDLKLAKIIRGEH-------
+>cenH3_Plants_Caenorhabditis_elegans_NP_499073.1 organism=Caenorhabditis elegans phylum=Nematoda class=Chromadorea
+------MADDGPIIEEIAEKNGRVARIMQRLQHDTQRVTSVPGFNTSATGYADLIALLDQ
+YKNDLEAVGFNDLEQARRRAPSVDITVGSNSTNLVDYSHGRHDMPSHRRHDSSDEEITAA
+NSHHQSPINVGNRNDTDGTNGRNGSRA---GSSSSDRVRMIAGRNRISKTRRYRPGQKAL
+EEIRKYQESEDLLIPKAPFARLVREIMQTSTP-----FSSDLRIRSDAINALQEASEALL
+VQMFDGSSLISAHSKRATLTTTDVQLYRRLCLPNL------
 >cenH3_Plants_Cyanidioschyzon_merolae_strain_10D_XP_005535607.1 organism=Cyanidioschyzon merolae strain 10D phylum=Rhodophyta class=Bangiophyceae
-MVRVFGNPVGGAHQYRQTQAL--NRDESLREQLQRTTVAEQDENIEPEPERSSPDEAQSR
-LKSLLGSVARSSSLLGRRVAGPPGSSLSNLAETRLLTEEAANRPTGAGRSERVSAGRAEP
-LPPGPTTATTNADANTVQRGLSVASAFPPRAPLQAAGFTVARRTTRSGVQRKHRFRPGSR
-AIMEIRKFQRSTELLLRRLPFARLVREICERLFGSSAFRWQASALEALQTAAEDYLIHLF
-EDSNLCAIHARRVTIMPRDIALARRIRGYHSDPHGYL
+MVRVFGNPVGGAHQYRQTQALNRDESLREQLQRTTVAEQDENIEPEPERSSPDEAQSRLK
+SLLGSVARSSSLLGRRVAGPPGSSLSNLAETRLLTEEAANRPTGAGRSERVSAGRAEPLP
+PGPTTATTNADANTVQRGLSVASAFPPRAPLQAAGFTVARRTTRSGVQRKHRFRPGSRAI
+MEIRKFQRSTELLLRRLPFARLVREICERLFG------SSAFRWQASALEALQTAAEDYL
+IHLFEDSNLCAIHARRVTIMPRDIALARRIRGYHSDPHGYL
+>cenH3_Plants_Arabidopsis_halleri_subsp._gemmifera_BAC79428.1 organism=Arabidopsis halleri subsp. gemmifera phylum=Streptophyta class=Magnoliopsida
+--------------------MARTKHFV--------------------------------
+----------------------------------------TRKGSGNRTDFDANASSSQA
+AGPTKTPTTRGTEGGDNTQQ---TTSPATGGRRGPRRARQAMPRGSQKKPYRYKPGTVAL
+REIRHFQKQTNLLIPAASFIRQVRSITHALAP------PQINRWTAEALVALQEAAEDYL
+VGLFSDSMLCAIHARRVTLMRKDFELARRLGGKGRPW----
+>cenH3_Plants_Arabidopsis_halleri_subsp._gemmifera_BAC79429.1 organism=Arabidopsis halleri subsp. gemmifera phylum=Streptophyta class=Magnoliopsida
+--------------------MARTKHFV--------------------------------
+----------------------------------------TRKGSGNRTDFDANASSSQA
+AGPTKTPTTRGTEGGDNTQQ---TTSPATGGRRGPRRARQAMPRGSQKKPYRYKPGTVAL
+REIRHFQKQTNLLIPAASFIRQVRSITHALAP------PQINRWTAEALVALQEAAEDYL
+VGLFSDSMLCAIHARRVTLMRKDFELARRLGGKGRPW----
+>cenH3_Plants_Arabidopsis_halleri_subsp._gemmifera_BAC79430.1 organism=Arabidopsis halleri subsp. gemmifera phylum=Streptophyta class=Magnoliopsida
+--------------------MARTKHFA--------------------------------
+----------------------------------------IKSRSGNRTDANA--SSSQA
+AGPTTTPTTRGTEGGDNTQQTNPTTSPATGGRR-PRRARQAMPRGSQKKPYRYKPGTVAL
+REIRHFQKQTNLLIPAASFIRQVRSITHALAP------PQINRWTAEALVALQEAAEDYL
+VGLFSDSMLCAIHARRVTLMRKDFELARRLGGKGRPW----
+>cenH3_Plants_Arabidopsis_halleri_subsp._gemmifera_BAC79431.1 organism=Arabidopsis halleri subsp. gemmifera phylum=Streptophyta class=Magnoliopsida
+--------------------MARTKHFA--------------------------------
+----------------------------------------IKSRSGNRTDANA--SSSQA
+AGPTTTPTTRGTEGGDNTQQTNPTTSPATGGRR-PRRARQAMPRGSQKKPYRYKPGTVAL
+REIRHFQKQTNLLIPAASFIRQVRSITHALAP------PQINRWTAEALVALQEAAEDYL
+VGLFSDSMLCAIHARRVTLMRKDFELTRRLGGKGRPW----
+>cenH3_Plants_Arabidopsis_halleri_subsp._halleri_ABE27600.1 organism=Arabidopsis halleri subsp. halleri phylum=Streptophyta class=Magnoliopsida
+--------------------MARTKHFV--------------------------------
+----------------------------------------TRKGSGNRTDFDANASSSQA
+AGPTKTPTTRGTEGGDNTQQ---TTSPATGGRRGPRRARQAMPRGSQKKPYRYRPGTVAL
+REIRHFQKQTNLLIPAASFIRQVRSITHALAP------PQINRWTAEALVALQEAAEDYL
+VGLFSDSMLCAIHARRVTLMRKDFELARRLGGKGRPW----
+>cenH3_Plants_Arabidopsis_halleri_subsp._halleri_ABE27631.1 organism=Arabidopsis halleri subsp. halleri phylum=Streptophyta class=Magnoliopsida
+--------------------MARTKHFA--------------------------------
+----------------------------------------TRTRSGNRTDANA--SSSQA
+AGPTTTPTTRGTEGGDNTQQTNPTTSPATGGRR-PRRARQTMPRGSQKKPYRYKLGTVAL
+REIRHFQKQTNLLIPAASFIRQVRSITHALAP------PQINRWTAEALVALQEAAEDYL
+VGLFSDSMLCAIHARRVTLMRKDFELARRLGGKGRPW----
+>cenH3_Plants_Arabidopsis_halleri_subsp._halleri_ABE27632.1 organism=Arabidopsis halleri subsp. halleri phylum=Streptophyta class=Magnoliopsida
+--------------------MARTKHFA--------------------------------
+----------------------------------------TRTRSGNRTDANA--SSSQA
+AGPTTTPTTRGTEGGVNTQQTNPTTSPATGGRR-PRRARQTMPRGSQKKPYRYKLGTVAL
+REIRHFQKQTNLLIPAASFIRQVRSITHALAP------PQINRWTAEALVALQEAAEDYL
+VGLFSDSMLCAIHARRVTLTRKDFELARRLGGKGRPW----
+>cenH3_Plants_Arabidopsis_lyrata_subsp._lyrata_ABE27627.1 organism=Arabidopsis lyrata subsp. lyrata phylum=Streptophyta class=Magnoliopsida
+--------------------MARTKHFA--------------------------------
+----------------------------------------TRTGSGNRTDANA-SSSSQA
+AGPTKTPTTRGTEGGDNTQQ---TTSPATGGRRGPRRARQAMPRGSQKKPYRYKPGTVAL
+REIRHFQKQTNLLIPAASFIRQVRSITHALAP------PQINRWTAEALVALQEAAEDYL
+VGLFSDSMLCAIHARRVTLMRKDFELARRLGGKGRPW----
+>cenH3_Plants_Arabidopsis_lyrata_subsp._lyrata_ABE27628.1 organism=Arabidopsis lyrata subsp. lyrata phylum=Streptophyta class=Magnoliopsida
+--------------------MARTKHFA--------------------------------
+----------------------------------------TRTGSGNRTDANA-SSSSQA
+AGPTKTPTTRGTEGGDNTQQ---TTSPATGGRRGPRRARQAMPRGSQKKPYRYKPGTVAL
+REIRHFQKQTNLLIPAASFIRQVRSITHALAP------PQINRWTAEALVALQEAAEDYL
+VGLFSDSMLCAIHARRVTLMRKDFELARRLGGKGRPW----
+>cenH3_Plants_Arabidopsis_lyrata_subsp._lyrata_ABE27629.1 organism=Arabidopsis lyrata subsp. lyrata phylum=Streptophyta class=Magnoliopsida
+--------------------MARTKHFA--------------------------------
+----------------------------------------TRTGSGNRTDANA-SSSSQA
+AGPTKTPTTRGTEGGDNTQQ---TTSPATGGRRGPRRARQAMPRGSQKKPYRYKPGTVAL
+REIRHFQKQTNLLIPAASFIRQARSITHALAP------PQINRWTAEALVALQEAAEDYL
+VGLFSDSMLCAIHARRVTLMRKDFELARRLGGKGRPW----
+>cenH3_Plants_Arabidopsis_lyrata_subsp._lyrata_ABE27630.1 organism=Arabidopsis lyrata subsp. lyrata phylum=Streptophyta class=Magnoliopsida
+--------------------MARTKHFA--------------------------------
+----------------------------------------TRTGSGNRTDANA-SSSSQA
+AGPTKTPTTRGTEGGDNTQQ---TTSPATGGRRGPRRARQAMPRGSQKKPYRYKPGTVAL
+REIRHFQKQTNLLIPAASFIRQVRSITHALAP------PQINRWTAEALVALQEAAEDYL
+VGLFSDSMLCAIHARRVTLMRKDFELARRLGGKGRPW----
+>cenH3_Plants_Arabidopsis_lyrata_subsp._lyrata_ABE27659.1 organism=Arabidopsis lyrata subsp. lyrata phylum=Streptophyta class=Magnoliopsida
+--------------------MARTKHFA--------------------------------
+----------------------------------------TKSRSGNRTDANA--SSSQA
+AGPTTTPTTRGTEGGDNTQQTNPTTSPATGGRR-PRRARQAMPRGSQNKPYRYKPGTVAL
+REIRHFQKQTNPLIPAASFIRQVRSITHALAP------PQINRWTAEALVALQEAAEDYL
+VGLFSDSMLCAIHARRVTLMRKDFELARRLGGKGRPW----
+>cenH3_Plants_Arabidopsis_lyrata_subsp._lyrata_ABE27660.1 organism=Arabidopsis lyrata subsp. lyrata phylum=Streptophyta class=Magnoliopsida
+--------------------MARTKHFA--------------------------------
+----------------------------------------TKSRSGNRTDANA--SSSQA
+AGPTTTPTTRGTEGGDNTQQTNPTTSPATGGRR-PRRARQAMPRGSQNKPYRYKPGTVAL
+REIRHFQKQTNPLIPAASFIRQVRSITHALAP------PQINRWTAEALVALQEAAEDYL
+VGLFSDSMLCAIHARRVTLMRKDFELARRLGGKGRPW----
+>cenH3_Plants_Arabidopsis_lyrata_subsp._lyrata_ABE27661.1 organism=Arabidopsis lyrata subsp. lyrata phylum=Streptophyta class=Magnoliopsida
+--------------------MARTKHFA--------------------------------
+----------------------------------------TKSRSGNRTDANA--SSSQA
+AGPTTTPTTRGTEGGDNTQQTNPTTSPATGGRR-PRRARQAMPRGSQNKPYRYKPGTVAL
+REIRHFQKQTNPLIPAASFIRQVRSITHALAP------PQINRWTAEALVALQEAAEDYL
+VGLFSDSMLCAIHARRVTLMRKDFELARRLGGKGRPW----
+>cenH3_Plants_Arabidopsis_lyrata_subsp._lyrata_ABE27662.1 organism=Arabidopsis lyrata subsp. lyrata phylum=Streptophyta class=Magnoliopsida
+--------------------MARTKHFA--------------------------------
+----------------------------------------TKSRSGNRTDANA--SSSQA
+AGPTTTPTTRGTEGGDNTQQTNPTTSPATGGRR-PRRARQAMPRGSQNKPYRYKPGTVAL
+REIRHFQKQTNPLIPAASFIRQVRSITHALAP------PQINRWTAEALVALQEAAEDYL
+VGLFSDSMLCAIHARRVTLMRKDFELARRLGGKGRPW----
+>cenH3_Plants_Arabidopsis_lyrata_subsp._petraea_ABE27601.1 organism=Arabidopsis lyrata subsp. petraea phylum=Streptophyta class=Magnoliopsida
+--------------------MARTKHFA--------------------------------
+----------------------------------------TRTGSGNRTDANA--SSSQA
+AGPTTTPTTRGSEGGDNTQQTNPTTSR----RRGPRRARQAMPRGSQKKPYRFKPGTAAL
+REIRHFQKQTNLLIPAASFIRQVRSITHALAP------PQINRWTAEALVALQEAAEDYL
+VGLFSDSMLCAIHARRVTLMRKDFELARRLGGKGRPW----
+>cenH3_Plants_Arabidopsis_lyrata_subsp._petraea_ABE27602.1 organism=Arabidopsis lyrata subsp. petraea phylum=Streptophyta class=Magnoliopsida
+--------------------MARTKHFA--------------------------------
+------------------------------------------TRSGSGNRTDANASSSQA
+AGPTTTPTTRGSEGGDNTQQTNPTTSR----RRGPRRARQAMPRGSQKKPYRFKPGTAAL
+REIRHFQKQTNLLIPAASFIRQVRSITHALAP------PQINRWTAEALVALQEAAEDYL
+VGLFSDSMLCAIHARRVTLMRKDFELARRLGGKGRPW----
+>cenH3_Plants_Arabidopsis_lyrata_subsp._petraea_ABE27603.1 organism=Arabidopsis lyrata subsp. petraea phylum=Streptophyta class=Magnoliopsida
+--------------------MARTKHFA--------------------------------
+----------------------------------------TRTGSGNRTDANA--SSSQA
+AGPTTTPTTRGSEGGDNTQQTNPTTSR----RRGPRRARQAMPRGSQKKPYRFKPGTAAL
+REIRHFQKQTNLLIPAASFIRQVRSITHALAP------PQINRWTAEALVALQEAAEDYL
+VGLFSDSMLCAIHARRVTLMRKDFELARRLGGKGRPW----
+>cenH3_Plants_Arabidopsis_lyrata_subsp._petraea_ABE27604.1 organism=Arabidopsis lyrata subsp. petraea phylum=Streptophyta class=Magnoliopsida
+--------------------MARTKHFA--------------------------------
+------------------------------------------TRSGSGNRTDANASSSQA
+AGPTTTPTTRGSEGGDNTQQTNPTTSR----RRGPRRARQAMPRGSQKKPYRFKPGTAAL
+REIRHFQKQTNLLIPAASFIRQVRSITHALAP------PQINRWTAEALVALQEAAEDYL
+VGLFSDSMLCAIHARRVTLMRKDFELARRLGGKGRPW----
+>cenH3_Plants_Arabidopsis_lyrata_subsp._petraea_ABE27605.1 organism=Arabidopsis lyrata subsp. petraea phylum=Streptophyta class=Magnoliopsida
+--------------------MARTKHFA--------------------------------
+----------------------------------------TRSGSGNRTDANA--SSSQA
+AGPTTTPTTRGTEGGDNTQQ---TTSPATGGRRGPRRARQAMPRGSQKKPYRYKPGTVAL
+REIRHFQKQTNLLIPAASFIRQVRSITHALAP------PQINRWTAEALVALQEAAEDYL
+VGLFSDSMLCAIHARRVTLMRKDFELARRLGGKGRPW----
+>cenH3_Plants_Arabidopsis_lyrata_subsp._petraea_ABE27606.1 organism=Arabidopsis lyrata subsp. petraea phylum=Streptophyta class=Magnoliopsida
+--------------------MARTKHFA--------------------------------
+----------------------------------------TRSGSGNRTDANA--SSSQA
+AGPTTTPTTRGSEGGDNTQQ---TTSPATGGRRGPRRARQAMPRGSQKKPYRYKPGTVAL
+REIRHFQKQTNLLIPAASFIRQVRSITHALAP------PQINRWTAEALVALQEAAEDYL
+VGLFSDSMLCAIHARRVTLMRKDFELARRLGGKGRPW----
+>cenH3_Plants_Arabidopsis_lyrata_subsp._petraea_ABE27607.1 organism=Arabidopsis lyrata subsp. petraea phylum=Streptophyta class=Magnoliopsida
+--------------------MARTKHFA--------------------------------
+----------------------------------------TRSGSGNRTDANA--SSSQA
+AGPTTTPTTRGSEGGDNTQQTNPTTSPATGGRRGPRRARQAMPRGSQKKPYRYKPGTVAL
+REIRHFQKQTNLLIPAASFIRQVRSITHALAP------PQINRWTAEALVALQEAAEDYL
+VGLFSDSMLCAIHARRVTLMRKDFELARRLGGKGRPW----
+>cenH3_Plants_Arabidopsis_lyrata_subsp._petraea_ABE27608.1 organism=Arabidopsis lyrata subsp. petraea phylum=Streptophyta class=Magnoliopsida
+--------------------MARTKHFA--------------------------------
+----------------------------------------TRSGSGNRTDANA--SSSQA
+AGPTTTPTTRGTEGGDNTQQ---TTSPATGGRRGPRRARQAMPRGSQKKPYRFKPGTVAL
+REIRHFQKQTNLLIPAASFIRQVRSITHALAP------PQINRWTAEALVALQEAAEDYL
+VGLFSDSMLCAIHARRVTLMRKDFELARRLGGKGRPW----
+>cenH3_Plants_Arabidopsis_lyrata_subsp._petraea_ABE27609.1 organism=Arabidopsis lyrata subsp. petraea phylum=Streptophyta class=Magnoliopsida
+--------------------MARTKHFA--------------------------------
+----------------------------------------TRSGSGNRTDANA--SSSQA
+AGPTTTPTTRGSEGGDNTQQTNPTTSR----RRGPRRARQAMPRGSQKKPYRYKPGTVAL
+REIRHFQKQTNLLIPAASFIRQVRSITHALAP------PQINRWTAEALVALQEAAEDYL
+VGLFSDSMLCAIHARRVTLMRKDFELARRLGGKGRPW----
+>cenH3_Plants_Arabidopsis_lyrata_subsp._petraea_ABE27610.1 organism=Arabidopsis lyrata subsp. petraea phylum=Streptophyta class=Magnoliopsida
+--------------------MARTKHFA--------------------------------
+----------------------------------------TRTGSGNRTDANA--SSSQA
+AGPTTTPTTRGSEGGDNTQQTNPTTSR----RRGPRRARQAMPRGSQKKPYRFKPGTVAL
+REIRHFQKQTNLLIPAASFIRQVRSITHALAP------PQINRWTAEALVALQEAAEDYL
+VGLFSDSMLCAIHARRVTLMRKDFELARRLGGKGRPW----
+>cenH3_Plants_Arabidopsis_lyrata_subsp._petraea_ABE27611.1 organism=Arabidopsis lyrata subsp. petraea phylum=Streptophyta class=Magnoliopsida
+--------------------MARTKHFA--------------------------------
+----------------------------------------TRSGSGNRTDANA--SSSQA
+AGLTTTPTTRGSEGGDNTQQTNPTTSR----RRGPRRARQAMPRGSQKKPYRYKPGTVAL
+REIRHFQKQTNLLIPAASFIRQVRSITHALAP------PQINRWTAEALVALQEAAEDYL
+VGLFSDSMLCAIHARRVTLMRKDFELARRLGGKGRPW----
+>cenH3_Plants_Arabidopsis_lyrata_subsp._petraea_ABE27612.1 organism=Arabidopsis lyrata subsp. petraea phylum=Streptophyta class=Magnoliopsida
+--------------------MARTKHFA--------------------------------
+----------------------------------------TRTGSGNRTDANA--SSSQA
+AGPTTTPTTRGSEGGDNTQQTNPTTSR----RRGPRRARQAMPRGSQKKPYRFKPGTAAL
+REIRHFQKQTNLLIPAASFIRQVRSITHALAP------PQINRWTAEALVALQEAAEDYL
+VGLFSDSMLCAIHARRVTLMRKDFELARRLGGKGRPW----
+>cenH3_Plants_Arabidopsis_lyrata_subsp._petraea_ABE27613.1 organism=Arabidopsis lyrata subsp. petraea phylum=Streptophyta class=Magnoliopsida
+--------------------MARTKHFA--------------------------------
+------------------------------------------TRSGSGNRTDANASSSQA
+AGPTTTPTTRGSEGGDNTQQTNPTTSR----RRGPRRARQAMPRGSQKKPYRFKPGTAAL
+REIRHFQKQTNLLIPAASFIRQVRSITHALAP------PQINRWTAEALVALQEAAEDYL
+VGLFSDSMLCAIHARRVTLMRKDFELARRLGGKGRPW----
+>cenH3_Plants_Arabidopsis_lyrata_subsp._petraea_ABE27614.1 organism=Arabidopsis lyrata subsp. petraea phylum=Streptophyta class=Magnoliopsida
+--------------------MARTKHFA--------------------------------
+----------------------------------------TRSGSGNRTDANA--SSSQA
+AGPTTTPTTRGSEGGDNTQQTNPTTSR----RRGPRRARQAMPRGSQKKPYRFKPGTAAL
+REIRHFQKQTNLLIPAASFIRQVRSITHALAP------PQINRWTAEALVALQEAAEDYL
+VGLFSDSMLCAIHARRVTLMRKDFELARRLGGKGRPW----
+>cenH3_Plants_Arabidopsis_lyrata_subsp._petraea_ABE27615.1 organism=Arabidopsis lyrata subsp. petraea phylum=Streptophyta class=Magnoliopsida
+--------------------MARTKHFA--------------------------------
+----------------------------------------TRSGSGNRTDANA--SSSQA
+AGPTTTPTTRGSEGGDNTQQTNPTTSR----RRGPRRARQAMPRGSQKKPYRFKPGTAAL
+REIRHFQKQTNLLIPAASFIRQVRSITHALAP------PQINRWTAEALVALQEAAEDYL
+VGLFSDSMLCAIHARRVTLMRKDFELARRLGGKGRPW----
+>cenH3_Plants_Arabidopsis_lyrata_subsp._petraea_ABE27616.1 organism=Arabidopsis lyrata subsp. petraea phylum=Streptophyta class=Magnoliopsida
+--------------------MARTKHFA--------------------------------
+----------------------------------------TRSGSGNRTDANA--SSSQA
+AGPTTTPTTRGSEGGDNTQQTNPTTSR----RRGPRRARQAMPRGSQKKPYRFKPGTAAL
+REIRHFQKQTNLLIPAASFIRQVRSITHALAP------PQINRWTAEALVALQEAAEDYL
+VGLFSDSMLCAIHARRVTLMRKDFELARRLGGKGRPW----
+>cenH3_Plants_Arabidopsis_lyrata_subsp._petraea_ABE27617.1 organism=Arabidopsis lyrata subsp. petraea phylum=Streptophyta class=Magnoliopsida
+--------------------MARTKHFA--------------------------------
+----------------------------------------TRSGSGNRTDANA--SSSQA
+AGPTTTPTTRGSEGGDNTQQTNPTTSR----RRGPRRARQAMPRGSQKKPYRFKPGTAAL
+REIRHFQKQTNLLIPAASFIRQVRSITHALAP------PQINRWTAEALVALQEAAEDYL
+VGLFSDSMLCAIHARRVTLMRKDFELARRLGGKGRPW----
+>cenH3_Plants_Arabidopsis_lyrata_subsp._petraea_ABE27618.1 organism=Arabidopsis lyrata subsp. petraea phylum=Streptophyta class=Magnoliopsida
+--------------------MARTKHFA--------------------------------
+----------------------------------------TRSGSGNRTDANA--SSSQA
+AGPTTTPTTRGSEGGDNTQQTNPTTSR----RRGPRRARQAMPRGSQKKPYRFKPGTAAL
+REIRHFQKQTNLLIPAASFIRQVRSITHALAP------PQINRWTAEALVALQEAAEDYL
+VGLFSDSMLCAIHARRVTLMRKDFELARRLGGKGRPW----
+>cenH3_Plants_Arabidopsis_lyrata_subsp._petraea_ABE27619.1 organism=Arabidopsis lyrata subsp. petraea phylum=Streptophyta class=Magnoliopsida
+--------------------MARTKHFA--------------------------------
+----------------------------------------TRSGSGNRTDANA--SSSQA
+AGPTTTPTTRGSEGGDNTQQTNPTTSR----RRGPRRARQAMPRGSQKKPYRFKPGTAAL
+REIRHFQKQTNLLIPAASFIRQVRSITHALAP------PQINRWTAEALVALQEAAEDYL
+VGLFSDSMLCAIHARRVTLMRKDFELARRLGGKGRPW----
+>cenH3_Plants_Arabidopsis_lyrata_subsp._petraea_ABE27620.1 organism=Arabidopsis lyrata subsp. petraea phylum=Streptophyta class=Magnoliopsida
+--------------------MARTKHFA--------------------------------
+----------------------------------------TRSGSGNRTDANA--SSSQA
+AGPTTTPTTRGSEGGDNTQQTNPTTSR----RRGPRRARQAMPRGSQKKPYRFKPGTAAL
+REIRHFQKQTNLLIPAASFIRQVRSITHALAP------PQINRWTAEALVALQEAAEDYL
+VGLFSDSMLCAIHARRVTLMRKDFELARRLGGKGRPW----
+>cenH3_Plants_Arabidopsis_lyrata_subsp._petraea_ABE27621.1 organism=Arabidopsis lyrata subsp. petraea phylum=Streptophyta class=Magnoliopsida
+--------------------MARTKHFA--------------------------------
+----------------------------------------TRTGSGNRTDANA--SSSQA
+AGPTTTPTTRGTEGGDNTQQTNPTTSPATGGRRGPRRARQAMPRGSQKKPYRFKPGTVAL
+REIRHFQKQTNLLIPAASFIRQVRSITHALAP------PQINRWTAEALVALQEAAEDYL
+VGLFSDSMLCAIHARRVTLMRKDFELARRLGGKGRPW----
+>cenH3_Plants_Arabidopsis_lyrata_subsp._petraea_ABE27622.1 organism=Arabidopsis lyrata subsp. petraea phylum=Streptophyta class=Magnoliopsida
+--------------------MARTKHFA--------------------------------
+----------------------------------------TRTGSGNRTDANA--SSSQA
+AGPTTTPTTRGTEGGDNTQQTNPTTSPATGGRRGPRRARQAMPRGSQKKPYRFKPGTVAL
+REIRHFQKQTNLLIPAASFMRQVRSITHALAP------PQINRWTAEALVALQEAAEDYL
+VGLFSDSMLCAIHARRVTLMRKDFELARRLGGKGRPW----
+>cenH3_Plants_Arabidopsis_lyrata_subsp._petraea_ABE27623.1 organism=Arabidopsis lyrata subsp. petraea phylum=Streptophyta class=Magnoliopsida
+--------------------MARTKHFA--------------------------------
+----------------------------------------TRTGSGNRTDANA--SSSQA
+AGPTTTPTTRGTEGGDNTQQTNPTTSPATGGRRGPRRARQAMPRGSQKKPYRFKPGTVAL
+REIRHFQKQTNLLIPAASFIRQVRSITHALAP------PQINRWTAEALVALQEAAEDYL
+VGLFSDSMLCAIHARRVTLMRKDFELARRLGGKGRPW----
+>cenH3_Plants_Arabidopsis_lyrata_subsp._petraea_ABE27624.1 organism=Arabidopsis lyrata subsp. petraea phylum=Streptophyta class=Magnoliopsida
+--------------------MARTKHFA--------------------------------
+----------------------------------------TRTGSGNRTDANA--SSSQA
+AGPTTTPTTRGTEGGDNTQQTNPTTSPATGGRRGPRRARQAMPRGSQKKPYRFKPGTVAL
+REIRHFQKQTNLLIPAASFIRQVRSITHALAP------PQINRWTAEALVALQEAAEDYL
+VGLFSDSMLCAIHARRVTLMRKDFELARRLGGKGRPW----
+>cenH3_Plants_Arabidopsis_lyrata_subsp._petraea_ABE27625.1 organism=Arabidopsis lyrata subsp. petraea phylum=Streptophyta class=Magnoliopsida
+--------------------MARTKHFA--------------------------------
+----------------------------------------TRSGSGNRTDANA--SSSQA
+AGPTTTPTTRGSEGGDNTQQTNPTTSR----RRGPRRARQAMPRGSQKKPYRFKPGTAAL
+REIRHFQKQTNLLIPAASFIRQVRSITHALAP------PQINRWTAEALVALQEAAEDYL
+VGLFSDSMLCAIHARRVTLMRKDFELARRLGGKGRPW----
+>cenH3_Plants_Arabidopsis_lyrata_subsp._petraea_ABE27626.1 organism=Arabidopsis lyrata subsp. petraea phylum=Streptophyta class=Magnoliopsida
+--------------------MARTKHFA--------------------------------
+----------------------------------------TRSGSGNRTDANA--SSSQA
+AGPTTTPTTRGSEGGDNTQQTNPTTSR----RRGPRRARQAMPRGSQKKPYRFKPGTAAL
+REIRHFQKQTNLLIPAASFIRQVRSITHALAP------PQINRWTAEALVALQEAAEDYL
+VGLFSDSMLCAIHARRVTLMRKDFELARRLGGKGRPW----
+>cenH3_Plants_Arabidopsis_lyrata_subsp._petraea_ABE27633.1 organism=Arabidopsis lyrata subsp. petraea phylum=Streptophyta class=Magnoliopsida
+--------------------MARTKHFA--------------------------------
+----------------------------------------TKSRSGNRTDANA--SSSQA
+AGPTTTPTTRGTEGGDNTQQTNPTTSPATGGRR-PRRARQAMPRGSQNKPYRYKPGTVAL
+REIRHFQKQTNLLIPAASFIRQVRSITHALAP------PQINRWTAEALVALQEAAEDYL
+VGLFSDSMLCAIHARRVTLMRKDFELARRLGGKGRPW----
+>cenH3_Plants_Arabidopsis_lyrata_subsp._petraea_ABE27634.1 organism=Arabidopsis lyrata subsp. petraea phylum=Streptophyta class=Magnoliopsida
+--------------------MARTKHFA--------------------------------
+----------------------------------------------TKSRTDANASSSQA
+AGPTTTPTTRGTEGGDNTQQTNPTTSPATGGRR-PRRARQAMPRGSQKKPYRYKPGTVAL
+REIRHFQKQTNLLIPAASFIRQVRSITHALAP------PQINRWTAEALVALQEAAEDYL
+VGLFSDSMLCAIHARRVTLMRKDFELARRLGGKGRPW----
+>cenH3_Plants_Arabidopsis_lyrata_subsp._petraea_ABE27635.1 organism=Arabidopsis lyrata subsp. petraea phylum=Streptophyta class=Magnoliopsida
+--------------------MARTKHFA--------------------------------
+----------------------------------------TKSRSGNRTDANA--SSSQA
+AGPTTTPTTRGTEGGDNTQQTNPTTSPATGGRR-PRRARQAMPRGSQNKPYRYKPGTVAL
+REIRHFQKQTNLLIPAASFIRQVRSITHALAP------PQINRWTAEALVALQEAAEDYL
+VGLFSDSMLCAIHARRVTLMRKDFELARRLGGKGRPW----
+>cenH3_Plants_Arabidopsis_lyrata_subsp._petraea_ABE27636.1 organism=Arabidopsis lyrata subsp. petraea phylum=Streptophyta class=Magnoliopsida
+--------------------MARTKHFA--------------------------------
+----------------------------------------------TKSRTDANASSSQA
+AGPTTTPTTRGTEGGDNTQQTNPTTSPATGGRR-PRRARQAMPRGSQKKPYRYKPGTVAL
+REIRHFQKQTNLLIPAASFIRQVRSITHALAP------PQINRWTAEALVALQEAAEDYL
+VGLFSDSMLCAIHARRVTLMRKDFELARRLGGKGRPW----
+>cenH3_Plants_Arabidopsis_lyrata_subsp._petraea_ABE27637.1 organism=Arabidopsis lyrata subsp. petraea phylum=Streptophyta class=Magnoliopsida
+--------------------MARTKHFA--------------------------------
+----------------------------------------------TKSRTDANASSSQA
+AGPTTTSTTRGTEGGDNTQQTNPTTSPATGGRR-PRRARQAMPRGSQKKPYRYKPGTVAL
+REIRHFQKQTNLLIPAASFIRQVRSITHALAP------PQINRWTAEALVALQEAAEDYL
+VGLFSDSMLCAIHARRVTLMRKDFELARRLGGKGRPW----
+>cenH3_Plants_Arabidopsis_lyrata_subsp._petraea_ABE27638.1 organism=Arabidopsis lyrata subsp. petraea phylum=Streptophyta class=Magnoliopsida
+--------------------MARTKHFA--------------------------------
+----------------------------------------------TKSRSDANASSSQA
+AGPTTV------RHRWRCQQTNPTTSPATGGRR-PRRARQAMPRGSQKKPYRYKPGTVAL
+REIRHFQKQTNLLIPAASFIRQVRSITHALAP------PQINRWTAEALVALQEAAEDYL
+VGLFSDSMLCAIHARRVTLMRKDFELARRLGGKGRPW----
+>cenH3_Plants_Arabidopsis_lyrata_subsp._petraea_ABE27639.1 organism=Arabidopsis lyrata subsp. petraea phylum=Streptophyta class=Magnoliopsida
+--------------------MARTKHFA--------------------------------
+----------------------------------------TKSRSGNRTDANA--SSSQA
+AGPTTTPTTRGTEGGDNTQQTNPTTSPATGGRR-PRRARQAMPRGSQKKPYRYKPGTVAL
+REIRHFQKQTNLLIPAASFIRQVRSITHALAP------PQINRWTAEALVALQEAAEDYL
+VGLFSDSMLCAIHARRVTLMRKDFELARRLGGKGRPW----
+>cenH3_Plants_Arabidopsis_lyrata_subsp._petraea_ABE27640.1 organism=Arabidopsis lyrata subsp. petraea phylum=Streptophyta class=Magnoliopsida
+--------------------MARTKHFA--------------------------------
+----------------------------------------------TKSRTDANASSSQA
+AGPTTTPTTRGTEGGDNTQQTNPTTSPATGGRR-PRRARQAMPRGSQKKPYRYKPGTVAL
+REIRHFQKQTNLLIPAASFIRQVRSITHALAP------PQINRWTAEALVALQEAAEDYL
+VGLFSDSMLCAIHARRVTLMRKDFELARRLGGKGRPW----
+>cenH3_Plants_Arabidopsis_lyrata_subsp._petraea_ABE27641.1 organism=Arabidopsis lyrata subsp. petraea phylum=Streptophyta class=Magnoliopsida
+--------------------MARTKHFA--------------------------------
+----------------------------------------TKSRSGNRTDANA--SSSQA
+AGPTTTPTTRGTEGGDNTQQTNPTTSPATGGRR-PRRARQAMPRGSQKKPYRYKPGTVAL
+REIRHFQKQTNLLIPAASFIRQVRSITHALAP------PQINRWTAEALVALQEAAEDYL
+VGLFSDSMLCAIHARRVTLMRKDFELARRLGGKGRPW----
+>cenH3_Plants_Arabidopsis_lyrata_subsp._petraea_ABE27642.1 organism=Arabidopsis lyrata subsp. petraea phylum=Streptophyta class=Magnoliopsida
+--------------------MARTKHFA--------------------------------
+----------------------------------------------------TKSRSDAN
+ASSSQAAGPTTVRHRWRCQQTNPTTSPATGGRR-PRRARQAMPRGSQKKPYRYKPGTVAL
+REIRHFQKQTNLLIPAASFIRQVRSITHALAP------PQINRWTAEALVALQEAAEDYL
+VGLFSDSMLCAIHARRVTLMRKDFELARRLGGKGRPW----
+>cenH3_Plants_Arabidopsis_lyrata_subsp._petraea_ABE27643.1 organism=Arabidopsis lyrata subsp. petraea phylum=Streptophyta class=Magnoliopsida
+--------------------MARTKHFA--------------------------------
+----------------------------------------TKSRSGNRTDANA--SSSQA
+AGPTTTPTTRGTEGGDNTQQTNPTTSPATGGRR-PRRARQAMPRGSQKKPYRYKPGTVAL
+REIRHFQKQTNLLIPAASFIRQVRSITHALAP------PQINRWTAEALVALQEAAEDYL
+VGLFSDSMLCAIHARRVTLMRKDFELARRLGGKGRPW----
+>cenH3_Plants_Arabidopsis_lyrata_subsp._petraea_ABE27644.1 organism=Arabidopsis lyrata subsp. petraea phylum=Streptophyta class=Magnoliopsida
+--------------------MARTKHFA--------------------------------
+----------------------------------------------TKSRTDANASSSQA
+AGPTTTSTTRGTEGGDNTQQTNPTTSPATGGRR-PRRARQAMPRGSQKKPYRYKPGTVAL
+REIRHFQKQTNLLIPAASFIRQVRSITHALAP------PQINRWTAEALVALQEAAEDYL
+VGLFSDSMLCAIHARRVTLMRKDFELARRLGGKGRPW----
+>cenH3_Plants_Arabidopsis_lyrata_subsp._petraea_ABE27645.1 organism=Arabidopsis lyrata subsp. petraea phylum=Streptophyta class=Magnoliopsida
+--------------------MARTKHFA--------------------------------
+----------------------------------------------TKSRTDANASSSQA
+AGPTTTPTTRGTEGGDNTQQTNPTTSPATGGRR-PRRARQAMPRGSQKKPYRYKPGTVAL
+REIRHFQKQTNLLIPAASFIRQVRSITHALAP------PQINRWTAEALVALQEAAEDYL
+VGLFSDSMLCAIHARRVTLMRKDFELARRLGGKGRPW----
+>cenH3_Plants_Arabidopsis_lyrata_subsp._petraea_ABE27646.1 organism=Arabidopsis lyrata subsp. petraea phylum=Streptophyta class=Magnoliopsida
+--------------------MARTKHFA--------------------------------
+----------------------------------------------TKSRTDANASSSQA
+AGPTTTPTTRGTEGGDNTQQTNPTTSPATGGRR-PRRARQAMPRGSQKKPYRYKPGTVAL
+REIRHFQKQTNLLIPAASFIRQVRSITHALAP------PQINRWTAEALVALQEAAEDYL
+VGLFSDSMLCAIHARRVTLMRKDFELARRLGGKGRPW----
+>cenH3_Plants_Arabidopsis_lyrata_subsp._petraea_ABE27647.1 organism=Arabidopsis lyrata subsp. petraea phylum=Streptophyta class=Magnoliopsida
+--------------------MARTKHFA--------------------------------
+----------------------------------------------TKSRTDANASSSQA
+AGPTTTSTTRGTEGGDNTQQTNPTTSPATGGRR-PRRARQAMPRGSQKKPYRYKPGTVAL
+REIRHFQKQTNLLIPAASFIRQVRSITHALAP------PQINRWTAEALVALQEAAEDYL
+VGLFSDSMLCAIHARRVTLMRKDFELARRLGGKGRPW----
+>cenH3_Plants_Arabidopsis_lyrata_subsp._petraea_ABE27648.1 organism=Arabidopsis lyrata subsp. petraea phylum=Streptophyta class=Magnoliopsida
+--------------------MARTKHFA--------------------------------
+----------------------------------------TKSRSGNRTDANA--SSSQA
+AGPTTTPTTRGTEGGDNTQQTNPTTSPATGGRR-PRRARQAMPRGSQNKPYRYKPGTVAL
+REIRHFQKQTNLLIPAASFIRQVRSITHALAP------PQINRWTAEALVALQEAAEDYL
+VGLFSDSMLCAIHARRVTLMRKDFELARRLGGKGRPW----
+>cenH3_Plants_Arabidopsis_lyrata_subsp._petraea_ABE27649.1 organism=Arabidopsis lyrata subsp. petraea phylum=Streptophyta class=Magnoliopsida
+--------------------MARTKHFA--------------------------------
+----------------------------------------TKSRSGNRTDANA--SSSQA
+AGPTTTPTTRGTEGGDNTQQTNPTTSPATGGRR-PRRARQAMPRGSQNKPYRYKPGTVAL
+REIRHFQKQTNLLIPAASFIRQVRSITHALAP------PQINRWTAEALVALQEAAEDYL
+VGLFSDSMLCAIHARRVTLMRKDFELARRLGGKGRPW----
+>cenH3_Plants_Arabidopsis_lyrata_subsp._petraea_ABE27650.1 organism=Arabidopsis lyrata subsp. petraea phylum=Streptophyta class=Magnoliopsida
+--------------------MARTKHFA--------------------------------
+----------------------------------------------TKSRTDANASSSQA
+AGPTTTPTTRGTEGGDNTQQTNPTTSPATGGRR-PRRARQAMPRGSQKKPYRYKPGTVAL
+REIRHFQKQTNLLIPAASFIRQVRSITHALAP------PQINRWTAEALVALQEAAEDYL
+VGLFSDSMLCAIHARRVTLMRKDFELARRLGGKGRPW----
+>cenH3_Plants_Arabidopsis_lyrata_subsp._petraea_ABE27651.1 organism=Arabidopsis lyrata subsp. petraea phylum=Streptophyta class=Magnoliopsida
+--------------------MARTKHFA--------------------------------
+----------------------------------------------TKSRTDANASSSQA
+AGPTTTPTTRGTEGGDNTQQTNPTTSPATGGRR-PRRARQAMPRGSQKKPYRYKPGTVAL
+REIRHFQKQTNLLIPAASFIRQVRSITHALAP------PQINRWTAEALVALQEAAEDYL
+VGLFSDSMLCAIHARRVTLMRKDFELARRLGGKGRPW----
+>cenH3_Plants_Arabidopsis_lyrata_subsp._petraea_ABE27652.1 organism=Arabidopsis lyrata subsp. petraea phylum=Streptophyta class=Magnoliopsida
+--------------------MARTKHFA--------------------------------
+----------------------------------------------TKSRTDANASSSQA
+AGPTTTSTTRGTEGGDNTQQTNPTTSPATGGRR-PRRARQAMPRGSQKKPYRYKPGTVAL
+REIRHFQKQTNLLIPAASFIRQVRSITHALAP------PQINRWTAEALVALQEAAEDYL
+VGLFSDSMLCAIHARRVTLMRKDFELARRLGGKGRPW----
+>cenH3_Plants_Arabidopsis_lyrata_subsp._petraea_ABE27653.1 organism=Arabidopsis lyrata subsp. petraea phylum=Streptophyta class=Magnoliopsida
+--------------------MARTKHFA--------------------------------
+----------------------------------------TKSRSGNRTDANA--SSSQA
+AGPTTTPTTRGTEGGDNTQQTNPTTSPATGGRR-PRRARQAMPRGSQKKPYRYKPGTVAL
+REIRHFQKQTNLLIPAASFIRQVRSITHALAP------PQINRWTAEALVALQEAAEDYL
+VGLFSDSMLCAIHARRVTLMRKDFELARRLGGKGRPW----
+>cenH3_Plants_Arabidopsis_lyrata_subsp._petraea_ABE27654.1 organism=Arabidopsis lyrata subsp. petraea phylum=Streptophyta class=Magnoliopsida
+--------------------MARTKHFA--------------------------------
+----------------------------------------TKSRSGNRTDANA--SSSQA
+AGPTTTPTTRGTEGGDNTQQTNPTTSPATGGRR-PRRARQAMPRGSQKKPYRYKPGTVAL
+REIRHFQKQTNLLIPAASFIRQVRSITHALAP------PQINRWTAEALVALQEAAEDYL
+VGLFSDSMLCAIHARRVTLMRKDFELARRLGGKGRPW----
+>cenH3_Plants_Arabidopsis_lyrata_subsp._petraea_ABE27655.1 organism=Arabidopsis lyrata subsp. petraea phylum=Streptophyta class=Magnoliopsida
+--------------------MARTKHFA--------------------------------
+----------------------------------------TKSRSGNRTDANA--SSSQA
+AGPTTTPTTRGTEGGDNTQQTNPTTSPATGGRR-PRRARQAMPRGSQKKPYRYKPGTVAL
+REIRHFQKQTNLLIPAASFIRQVRSITHALAP------PQINRWTAEALVALQEAAEDYL
+VGLFSDSMLCAIHARRVTLMRKDFELARRLGGKGRPW----
+>cenH3_Plants_Arabidopsis_lyrata_subsp._petraea_ABE27656.1 organism=Arabidopsis lyrata subsp. petraea phylum=Streptophyta class=Magnoliopsida
+--------------------MARTKHFA--------------------------------
+----------------------------------------TKSRSGNRTDANA--SSSQA
+AGPTTTPTTRGTEGGDNTQQTNPTTSPATGGRR-PRRARQAMPRGSQKKPYRYKPGTVAL
+REIRHFQKQTNLLIPAASFIRQVRSITHALAP------PQINRWTAEALVALQEAAEDYL
+VGLFSDSMLCAIHARRVTLMRKDFELARRLGGKGRPW----
+>cenH3_Plants_Arabidopsis_lyrata_subsp._petraea_ABE27657.1 organism=Arabidopsis lyrata subsp. petraea phylum=Streptophyta class=Magnoliopsida
+--------------------MARTKHFA--------------------------------
+----------------------------------------TKSRSGNRTDANA--SSSQA
+AGPTTTPTTRGTEGGDNTQQTNPTTSPATGGRR-PRRARQAMPRGSQNKPYRYKPGTVAL
+REIRHFQKQTNLLIPAASFIRQVRSITHALAP------PQINRWTAEALVALQEAAEDYL
+VGLFSDSMLCAIHARRVTLMRKDFELARRLGGKGRPW----
+>cenH3_Plants_Arabidopsis_lyrata_subsp._petraea_ABE27658.1 organism=Arabidopsis lyrata subsp. petraea phylum=Streptophyta class=Magnoliopsida
+--------------------MARTKHFA--------------------------------
+----------------------------------------TKSRSGNRTDANA--SSSQA
+AGPTTTPTTRGTEGGDNTQQTNPTTSPATGGRR-PRRARQAMPRGSQNKPYRYKPGTVAL
+REIRHFQKQTNLLIPAASFIRQVRSITHALAP------PQINRWTAEALVALQEAAEDYL
+VGLFSDSMLCAIHARRVTLMRKDFELARRLGGKGRPW----
+>cenH3_Plants_Arabidopsis_thaliana_BAC79427.1 organism=Arabidopsis thaliana phylum=Streptophyta class=Magnoliopsida
+--------------------MARTKHRV--------------------------------
+-----------------------------------------TRSQPRNQTDAAGASSSQA
+AGPTTTPTRRGGEGGDNTQQTNPTTSPATGTRRGAKRSRQAMPRGSQKKSYRYRPGTVAL
+KEIRHFQKQTNLLIPAASFIREVRSITHMLAP------PQINRWTAEALVALQEAAEDYL
+VGLFSDSMLCAIHARRVTLMRKDFELARRLGGKGRPW----
 >cenH3_Plants_Arabidopsis_thaliana_NP_563627.1 organism=Arabidopsis thaliana phylum=Streptophyta class=Magnoliopsida
----------MARTKHRVTRSQ--PRNQTDA------------------------------
-------------------------------------------------------AGASSS
-QAAGPTTTPTRRGGEGGDNTQQTNPTTSPATGTRRGAKRSRQAMPRGSQKKSYRYRPGTV
-ALKEIRHFQKQTNLLIPAASFIREVRSITHMLAPPQINRWTAEALVALQEAAEDYLVGLF
-SDSMLCAIHARRVTLMRKDFELARRLGGKGRPW----
+--------------------MARTKHRV--------------------------------
+-----------------------------------------TRSQPRNQTDAAGASSSQA
+AGPTTTPTRRGGEGGDNTQQTNPTTSPATGTRRGAKRSRQAMPRGSQKKSYRYRPGTVAL
+KEIRHFQKQTNLLIPAASFIREVRSITHMLAP------PQINRWTAEALVALQEAAEDYL
+VGLFSDSMLCAIHARRVTLMRKDFELARRLGGKGRPW----
+>cenH3_Plants_Hordeum_bulbosum_ADB03182.1 organism=Hordeum bulbosum phylum=Streptophyta class=Magnoliopsida
+--------------------MARTKHPA--------------------------------
+--------------------------------------------------VRKSKAPPRK
+KVGSARAPAAAQRRHETDGAGTSETPRRGPA---PAADQGAPGEPKKRKPHRYRPGTVAL
+REIRKYQKSVDFLIPFAPFVRLVKEVTEFYCP-------AISRWTPQALLAVQEAAEYHL
+VDVFERAHLCAIHAKRVTVMQKDIQLA--------------
+>cenH3_Plants_Hordeum_bulbosum_AEK21394.1 organism=Hordeum bulbosum phylum=Streptophyta class=Magnoliopsida
+--------------------MARTKKTV--------------------------------
+------------------------------------------------------------
+----------------------AATKRRSPRTRLEPQSQ----PEKKKRAHRFRPGTVAL
+REIRKYRKSTELLIPFAPFVRLVRGIANGFMN--IGGPNKPTPWTPHALLSLQEAAEYHL
+VDLFGKANLCAIHAKRVTVLLKDMRLAKRIGSV-TVY----
+>cenH3_Plants_Hordeum_vulgare_subsp._vulgare_AEK21392.1 organism=Hordeum vulgare subsp. vulgare phylum=Streptophyta class=Magnoliopsida
+--------------------MARTKHPA--------------------------------
+--------------------------------------------------VRKSKAPPKK
+KIGSASSPSAAQRRQETDGAGTSETPRRAGRGPAPAAAEGAPGEPTKRKPHRFRPGTVAL
+REIRKYQKSVNFLIPFAPFVRLVREITEYYCP-------RVKRWTPQALLAVQEATEYHL
+VDIFERAHLCAIHAKRVTVMQKDMQLA--------------
+>cenH3_Plants_Hordeum_vulgare_subsp._vulgare_AEK21393.1 organism=Hordeum vulgare subsp. vulgare phylum=Streptophyta class=Magnoliopsida
+--------------------MARTKKTV--------------------------------
+------------------------------------------------------------
+-------------------------AAKEKRPPCSKSEPQSQPKKKEKRAYRFRPGTVAL
+REIRKYRKSTNMLIPFAPFVRLVRDIADNLTPLSNKKESKPTPWTPLALLSLQESAEYHL
+VDLFGKANLCAIHSHRVTIMLKDMQLARRIGTR-SLW----
+>cenH3_Plants_Lathyrus_clymenum_AKA94118.1 organism=Lathyrus clymenum phylum=Streptophyta class=Magnoliopsida
+--------------------MGRVKQFP--------------------------------
+------------------------------------------------------------
+------------------------------------PSKFAARNNHEKKKRRVKPGTVAL
+REIRKFQKDVKLLIPYAPFVRCVREITTQFSS-------LVTRWTPEALISLQEAAEDDL
+IRMFEAGMLCAIHARRITLIKKDIELTRRLTGIGRLR----
+>cenH3_Plants_Lathyrus_clymenum_AKA94126.1 organism=Lathyrus clymenum phylum=Streptophyta class=Magnoliopsida
+--------------------MARVKQK---------------------------------
+------------------------------------------------------------
+----------------------------------PRHAR----ENQERKKRRNKPGTVAL
+REIRKLQKTCQLLIPYAPFVRCVREITNQVSS-------TVTRWTPQALLSLQEAAEDTL
+IRMFEVGWLCTLHAKRVTLMKKDIELTRRVTGIGRPW----
+>cenH3_Plants_Lathyrus_latifolius_AKA94119.1 organism=Lathyrus latifolius phylum=Streptophyta class=Magnoliopsida
+--------------------MGRVKHF---------------------------------
+------------------------------------------------------------
+----------------------------------PRPSKPAASNNHEKKKRRSKPGTKAV
+REIRKFQKDVKLLIPYAPFVRCVREITNQFSS-------LVTRWTPEALISLQEAAEDDL
+IRMFEAGVLCAHHARRITLMKKDIELTRRLTGIGRPW----
+>cenH3_Plants_Lathyrus_latifolius_AKA94125.1 organism=Lathyrus latifolius phylum=Streptophyta class=Magnoliopsida
+--------------------MARVKQK---------------------------------
+------------------------------------------------------------
+----------------------------------PRHAR----ENQERKKRRNKPGTVAL
+REIRKLQKTFQLLIPYAPFVRCVREITNQVSS-------LVTRWTPEALLSLQEAAEDCL
+VRMFEAGWLCALHAKRVTLMKKDIELTRRLTGIGRPW----
+>cenH3_Plants_Lathyrus_niger_AKA94120.1 organism=Lathyrus niger phylum=Streptophyta class=Magnoliopsida
+--------------------MGRVKHF---------------------------------
+------------------------------------------------------------
+----------------------------------PRPSKSAASDNHGKKKRRSKPGTKAL
+REIRKFQKDVKLLIPYAPFVRCVKEITNQFSS-------LVTRWTPEALISLQEAAEDDL
+IRMFEAGMLCARHARRITLMKKDIELTRRLTGIGRPW----
+>cenH3_Plants_Lathyrus_niger_AKA94127.1 organism=Lathyrus niger phylum=Streptophyta class=Magnoliopsida
+--------------------MARVKQT---------------------------------
+------------------------------------------------------------
+----------------------------------PRHAR----ENQERKKRRNKPGTVAL
+REIRKLQKTFQLLIPYAPFVRCVREITNQVSS-------LVTRWTPEALLSLQEAAEDCL
+VRMFEAGWLCALHAKRVTLMKNDIELTRRLTGIGRPW----
+>cenH3_Plants_Lathyrus_ochrus_AKA94121.1 organism=Lathyrus ochrus phylum=Streptophyta class=Magnoliopsida
+--------------------MGRVKHF---------------------------------
+------------------------------------------------------------
+----------------------------------PRPSKSAANNTHEKKKRRFKRGT-AL
+QEIRKFQKDVKLLIPYAPFVRCVREITTQFSS-------LVTRWTPEALISLQEAAEDDL
+IRMFEAGMLCARHARRITLMKKDIELTRRLTGIGRLR----
+>cenH3_Plants_Lathyrus_ochrus_AKA94128.1 organism=Lathyrus ochrus phylum=Streptophyta class=Magnoliopsida
+--------------------MGRVKQR---------------------------------
+------------------------------------------------------------
+----------------------------------PRHAR----ENQEKKKRRNKPGTVAL
+REIRKFQKTCQLLIPYAPFVRCVREITNQVSS-------TVTRWTPQALLSLQEAAEDTL
+IRMFEAGWLCTLHAKRVTLMKKDIELTRRLTGIGRPW----
+>cenH3_Plants_Lathyrus_sativus_AKA94122.1 organism=Lathyrus sativus phylum=Streptophyta class=Magnoliopsida
+--------------------MGRVKHF---------------------------------
+------------------------------------------------------------
+----------------------------------PRPSKPAASDNQEKRKRRSKPGTKAV
+REIRKFQKDVKLLIPYAPFVRCVKEITNQFSS-------RVTRWTPEALISLQEAAEDDL
+IRMFEAGILCAHHARRITLMKKDIELTRRLTGIGRPW----
+>cenH3_Plants_Lathyrus_sativus_AKA94129.1 organism=Lathyrus sativus phylum=Streptophyta class=Magnoliopsida
+--------------------MARVKQT---------------------------------
+------------------------------------------------------------
+----------------------------------PRHAR----ENQERKKRRNKPGTVAL
+REIRKFQKTFKLLIPYAPFVRCVREITSQVSS-------LVTRWTPEALLSLQEAAEDCL
+VRMFEAGWLCALHAKRVTLMKKDIELTRRLTGIGRPW----
+>cenH3_Plants_Lathyrus_sylvestris_AKA94123.1 organism=Lathyrus sylvestris phylum=Streptophyta class=Magnoliopsida
+--------------------MGRVKHF---------------------------------
+------------------------------------------------------------
+----------------------------------PRPSKPAASNNHEKKKRRSKPGTKAV
+REIRKFQKDVKLLIPYAPFVRCVREITNQFSS-------LVTRWTPEALISLQEAAEDDL
+IRMFEAGVLCAQHARRITLMKKDIELTRRLTGIGRPW----
+>cenH3_Plants_Lathyrus_sylvestris_AKA94130.1 organism=Lathyrus sylvestris phylum=Streptophyta class=Magnoliopsida
+--------------------MARVKQK---------------------------------
+------------------------------------------------------------
+----------------------------------PRHAR----ENQERKKRRNKPGTVAL
+REIRKLQKTFQLLIPYAPFVRCVREITNQVSS-------LVTRWTPEALLSLQEAAEDCL
+VRMFEAGWLCALHAKRVTLMKKDIELTRRLTGIGRPW----
+>cenH3_Plants_Lathyrus_vernus_AKA94124.1 organism=Lathyrus vernus phylum=Streptophyta class=Magnoliopsida
+--------------------MGRVKHF---------------------------------
+------------------------------------------------------------
+----------------------------------PRPSKPAASDNHGKKKRLSKPGTKAL
+REIRKFQNDVKLLIPYAPFVRCVKEITNQFSS-------LVTRWTPEALISLQEAAEDDL
+IRMFEAGILCAHHARRITLMKKDIELTRRLTGIGRPW----
+>cenH3_Plants_Lathyrus_vernus_AKA94131.1 organism=Lathyrus vernus phylum=Streptophyta class=Magnoliopsida
+--------------------MARVKQT---------------------------------
+------------------------------------------------------------
+----------------------------------PRHAR----ENQERKKRRNKPGTVAL
+REIRKFQKTFQLLIPYAPFVRCVREITNQVSS-------LVTRWTPEALLALQEAAEDCL
+VRMFEAGWLCTLHAKRVTLMKKDIELTRRLTGIGRPW----
+>cenH3_Plants_Lens_culinaris_AKA94133.1 organism=Lens culinaris phylum=Streptophyta class=Magnoliopsida
+--------------------MARVKQT---------------------------------
+------------------------------------------------------------
+----------------------------------PRPVL----QNQERKKRRNKPGTVAL
+REIRKLQKTFQLLIPYAPFVRCVREITNQVSS-------SVTRWTPEALISLQEAAEDCL
+VRMFEAGCLCALHAKRVTLMKKDIELTRRLTGVARPW----
+>cenH3_Plants_Pisum_fulvum_AKA94117.1 organism=Pisum fulvum phylum=Streptophyta class=Magnoliopsida
+--------------------MGRVKHF---------------------------------
+------------------------------------------------------------
+----------------------------------PSPSKPAASDNLGKKKRRCKPGTKAL
+REIRKFQKDVKLLIPYAPFVRCVKEITNQLSS-------LVTRWSPEALISLQEAAEDDL
+VRMFEAGMHCARHARRVTLMKKDLELARRLTGIGRLW----
+>cenH3_Plants_Pisum_fulvum_AKA94132.1 organism=Pisum fulvum phylum=Streptophyta class=Magnoliopsida
+--------------------MARVKQT---------------------------------
+------------------------------------------------------------
+----------------------------------PRHAR----ENQERKKRRNKPGTVAL
+REIKKLQKTFQLLIPYAPFVRCVREITNQVSS-------LVTRWTPEALLSLQEAAEDCL
+VRMFEAGWLCTLHAKRVTLMKKDIELTRRLTGIGRPW----
+>cenH3_Plants_Pisum_sativum_AEX31245.1 organism=Pisum sativum phylum=Streptophyta class=Magnoliopsida
+--------------------MGRVKHF---------------------------------
+------------------------------------------------------------
+----------------------------------PSPSKPAASDNLGKKKRRCKPGTKAL
+REIRKFQKDVKLLIPYAPFVRCVKEITNQLSS-------LVTRWSPEALISLQEAVEDDL
+VRMFEAGMHCARHARRVTLMKKDLELARRLTGIGRLW----
+>cenH3_Plants_Pisum_sativum_AEX31246.1 organism=Pisum sativum phylum=Streptophyta class=Magnoliopsida
+--------------------MARVKQT---------------------------------
+------------------------------------------------------------
+----------------------------------PRHAR----ENQERKKRRNKPGTVAL
+REIKKLQKTFQLLIPYAPFVRCVREITNQVSS-------LVTRWTPEALLSLQEAAEDCL
+VRMFEAGWLCTLHAKRVTLMKKDIELTRRLTGIGRPW----
+>cenH3_Plants_Secale_cereale_AUN88449.1 organism=Secale cereale phylum=Streptophyta class=Magnoliopsida
+--------------------MARTKHPA--------------------------------
+---------------------------------------------------VRKTKAPPK
+KQLGPRPA---QRRQETDGAGTSATPRRAGRAAAPGGAQGATGQPKQRKPHRFRPGTVAL
+REIRRYQKSVDFLIPFAPFVRLIKEVTDFFCP-------EISRWTPQALVAIQEAAEYHL
+VDVFERANHCAIHAKRVTVMQKDIQLARRIGGR-RLW----
+>cenH3_Plants_Secale_cereale_AUN88458.1 organism=Secale cereale phylum=Streptophyta class=Magnoliopsida
+--------------------MARTKHPA--------------------------------
+---------------------------------------------------VRKTKVPPK
+KKLGTRPSGGTQRRQDTDGAGTSATPRRAGRAAAPGAAEGATGQPKQRKPHRFRPGTVAL
+REIRKYQKSVEFLIPFAPFVRLIKEVTDFFCP-------EISRWTPQALVAIQEAAEYHL
+VDVFERANHCAIHAKRVTVMQKDIQLARRIGGR-RLW----
+>cenH3_Plants_Secale_cereale_AUN88466.1 organism=Secale cereale phylum=Streptophyta class=Magnoliopsida
+--------------------MGRTKHAV--------------------------------
+------------------------------------------------------------
+----AATATTPEKKKRLRFELSPRWRPPPPLRQVPPEPQ---PEKKKKRAYRFRPGTVAL
+REIRKYQKSTEPLIPFAPFVRLVKEITTDLTK------GEINHWTPQALVSLQEAAEYHI
+VDVFEKANLCAIHAKRVTIMQKDIQLARRIGGR-RLW----
+>cenH3_Plants_Secale_cereale_subsp._afghanicum_AUN88460.1 organism=Secale cereale subsp. afghanicum phylum=Streptophyta class=Magnoliopsida
+--------------------MARTKHPA--------------------------------
+---------------------------------------------------VRKTKVPPK
+KKLGTRPSGGTQRRQDTDGAGTSATPRRAGRAAAPGAAEGATGQPKQRKPHRFRPGTVAL
+REIRKYQKSVEFLIPFAPFVRLIKEVTDFFCP-------EISRWTPQALVAIQEAAEYHL
+VDVFERANHCAIHAKRVTVMQKDIQLARRIGGR-RLW----
+>cenH3_Plants_Secale_cereale_subsp._afghanicum_AUN88461.1 organism=Secale cereale subsp. afghanicum phylum=Streptophyta class=Magnoliopsida
+--------------------MGRTKHAV--------------------------------
+------------------------------------------------------------
+--AATATTTTTETKKRLRFELSPRWRPPPPMRQVPPEPQ---PEKKKKRAYRFRPGTVAL
+REVRKYQKSTGPLIPFAPFVRLVKEITNDLTK------GELNHWTPQALFALQEAAEYHI
+VDVFEKANLCAIHAKRVTIMQKDIQLARRIGGR-RLW----
+>cenH3_Plants_Secale_cereale_subsp._afghanicum_AUN88464.1 organism=Secale cereale subsp. afghanicum phylum=Streptophyta class=Magnoliopsida
+--------------------MGRTKHAV--------------------------------
+------------------------------------------------------------
+----AATATTPEKKKRLRFELSPRWRPPPPLRQVPPEPQ---PEKKKKRAYRFRPGTVAL
+REIRKYQKSTEPLIPFAPFVRLVKEITTDLTK------GEINHWTPQALVSLQEAAEYHI
+VDVFEKANLCAIHAKRVTIMQKDIQLARRIGGR-RLW----
+>cenH3_Plants_Secale_cereale_subsp._ancestrale_AUN88452.1 organism=Secale cereale subsp. ancestrale phylum=Streptophyta class=Magnoliopsida
+--------------------MARTKHPA--------------------------------
+---------------------------------------------------VRKTKVPPK
+KKLGTRPSGGTQRRQDTDGAGTSATPRRAGRAAAPGAAEGATGQPKQRKPHRFRPGTVAL
+REIRKYQKSVEFLIPFAPFVRLIKEVTDFFCP-------EISRWTPQALVAIQEAAEYHL
+VDVFERANHCAIHAKRVTVMQ--------------------
+>cenH3_Plants_Secale_cereale_subsp._ancestrale_AUN88471.1 organism=Secale cereale subsp. ancestrale phylum=Streptophyta class=Magnoliopsida
+--------------------MGRTKHAV--------------------------------
+------------------------------------------------------------
+----AATATTPEKKKRLRFELSPRWRPPPPLRQVPPEPQ---PEKKKKRAYRFRPGTVAL
+REIRKYQKSTEPLIPFAPFVRLVKEITTDLTK------GEINHWTPQALVSLQEAAEYHI
+VDVFEKANLCAIHAKRVTIMQKDIQLARRIGGR-RLW----
+>cenH3_Plants_Secale_cereale_subsp._dighoricum_AUN88455.1 organism=Secale cereale subsp. dighoricum phylum=Streptophyta class=Magnoliopsida
+--------------------MARTKHPA--------------------------------
+---------------------------------------------------VRKTKVPPK
+KKLGTRPSGGTQRRQDTDGAGTSATPRRAGRAAAPGAAEGATGQPKQRKPHRFRPGTVAL
+REIRKYQKSVEFLIPFAPFVRLIKEVTDFFCP-------EISRWTPQALVAIQEAAEYHL
+VDVFERANHCAIHAKRVTVMQ--------------------
+>cenH3_Plants_Secale_cereale_subsp._dighoricum_AUN88472.1 organism=Secale cereale subsp. dighoricum phylum=Streptophyta class=Magnoliopsida
+--------------------MGRTKHAV--------------------------------
+------------------------------------------------------------
+----AATATTPEKKKRLRFELSPRWRPPPPLRQVPPEPQ---PEKKKKRAYRFRPGTVAL
+REIRKYQKSTEPLIPFAPFVRLVKEITTDLTK------GEINHWTPQALVSLQEAAEYHI
+VDVFEKANLCAIHAKRVTIMQKDIQLARRIGGR-RLW----
+>cenH3_Plants_Secale_cereale_subsp._segetale_AUN88457.1 organism=Secale cereale subsp. segetale phylum=Streptophyta class=Magnoliopsida
+--------------------MARTKHPA--------------------------------
+---------------------------------------------------VRKTKVPPK
+KKLGTRPSGGTQRRQDTDGAGTSATPRRAGRAAAPGAAEGATGQPKQRKPHRFRPGTVAL
+REIRKYQKSVEFLIPFAPFVRLIKEVTDFFCP-------EISRWTPQALVAIQEAAEYHL
+VDVFERANHCAIHAKRVTVMQ--------------------
+>cenH3_Plants_Secale_cereale_subsp._segetale_AUN88474.1 organism=Secale cereale subsp. segetale phylum=Streptophyta class=Magnoliopsida
+--------------------MGRTKHAV--------------------------------
+------------------------------------------------------------
+----AATATTPEKKKRLRFELSPRWRPPPPLRQVPPEPQ---PEKKKKRAYRFRPGTVAL
+REIRKYQKSTEPLIPFAPFVRLVKEITTDLTK------GAINHWTPQALVSLQEAAEYHI
+VDVFEKANLCAIHAKRVTIMQKDIQLARRIGGR-RLW----
+>cenH3_Plants_Secale_cereale_subsp._vavilovii_AUN88459.1 organism=Secale cereale subsp. vavilovii phylum=Streptophyta class=Magnoliopsida
+--------------------MARTKHPA--------------------------------
+---------------------------------------------------VRKTKVPPK
+KKLGTRPSGGTQRRQDTDGAGTSATPRRAGRAAAPGAAEGATGQPKQRKPHRFRPGTVAL
+REIRKYQKSVEFLIPFAPFVRLIKEVTDFFCP-------EISRWTPQALVAIQEAAEYHL
+VDVFERANHCAIHAKRVTVMQKDIQLARRIGGR-RLW----
+>cenH3_Plants_Secale_cereale_subsp._vavilovii_AUN88470.1 organism=Secale cereale subsp. vavilovii phylum=Streptophyta class=Magnoliopsida
+--------------------MGRTKHAV--------------------------------
+------------------------------------------------------------
+----AATATTPEKKKRLRFELSPRWRPPPPLRQVPPEPQ---PEKKKKRAYRFRPGTVAL
+REIRKYQKSTEPLIPFAPFVRLVKEITTDLTK------GEINHWTPQALVSLQEAAEYHI
+VDVFEKANLCAIHAKRVTIMQKDIQLARRIGGR-RLW----
+>cenH3_Plants_Secale_strictum_subsp._africanum_AUN88450.1 organism=Secale strictum subsp. africanum phylum=Streptophyta class=Magnoliopsida
+--------------------MARTKHPA--------------------------------
+---------------------------------------------------VRKTKVPPK
+KKLGTRPSGGTQRRQDTDGAGTSATPRRAGRAAAPGAAEGATGQPKQRKPHRFRPGTVAL
+REIRKYQKSVEFLIPFAPFVRLIKEVTDFFCP-------EISRWTPQALVAIQEAAEYHL
+VDVFERANHCAIHAKRVTVMQKDIQLARRIGGR-RLW----
+>cenH3_Plants_Secale_strictum_subsp._africanum_AUN88462.1 organism=Secale strictum subsp. africanum phylum=Streptophyta class=Magnoliopsida
+--------------------MGRTKHAV--------------------------------
+------------------------------------------------------------
+--AATATTTTTETKKRLRFELSPRWRPPPPMRQVPPEPQ---PEKKKKRAYRFRPGTVAL
+REVRKYQKSTGPLIPFAPFVRLVKEITNDLTK------GELNHWTPQALFALQEAAEYHI
+VDVFEKANLCAIHAKRVTIMQKDIQLARRIGGR-RLW----
+>cenH3_Plants_Secale_strictum_subsp._africanum_AUN88465.1 organism=Secale strictum subsp. africanum phylum=Streptophyta class=Magnoliopsida
+--------------------MGRTKHAV--------------------------------
+------------------------------------------------------------
+----AATATTPEKKKRLRFELSPRWRPPPPLRQVPPEPQ---PEKKKKRAYRFRPGTVAL
+REIRKYQKSTEPLIPFAPFVRLVKEITTDLTK------GEINHWTPQALVSLQEAAEYHI
+VDVFEKANLCAIHAKRVTIMQKDIQLARRIGGR-RLW----
+>cenH3_Plants_Secale_strictum_subsp._anatolicum_AUN88451.1 organism=Secale strictum subsp. anatolicum phylum=Streptophyta class=Magnoliopsida
+--------------------MARTKHPA--------------------------------
+---------------------------------------------------VRKTKVPPK
+KKLGTRPSGGTQRRQDTDGAGTSATPRRAGRAAAPGAAEGATGQPKQRKPHRFRPGTVAL
+REIRKYQKSVEFLIPFAPFVRLIKEVTDFFCP-------EISRWTPQALVAIQEAAEYHL
+VDVFERANHCAIHAKRVTVMQKDIQLARRIGGR-RLW----
+>cenH3_Plants_Secale_strictum_subsp._anatolicum_AUN88473.1 organism=Secale strictum subsp. anatolicum phylum=Streptophyta class=Magnoliopsida
+--------------------MGRTKHAV--------------------------------
+------------------------------------------------------------
+----AATATTPEKKKRLRFELSPRWRPPPPLRQVPPEPQ---PEKKKKRAYRFRPGTVAL
+REIRKYQKSTEPLIPFAPFVRLVKEITTDLTK------GEINHWTPQALVSLQEAAEYHI
+VDVFEKANLCAIHAKRVTIMQKDIQLARRIGGR-RLW----
+>cenH3_Plants_Secale_strictum_subsp._kuprijanovii_AUN88456.1 organism=Secale strictum subsp. kuprijanovii phylum=Streptophyta class=Magnoliopsida
+--------------------MARTKHPA--------------------------------
+---------------------------------------------------VRKTKVPPK
+KKLGTRPSGGTQRRQDTDGAGTSATPRRAGRAAAPGAAEGATGQPKQRKPHRFRPGTVAL
+REIRKYQKSVEFLIPFAPFVRLIKEVTDFFCP-------EISRWTPQALVAIQEAAEYHL
+VDVFERANHCAIHAKRVTVMQKDIQLARRIGGR-RLW----
+>cenH3_Plants_Secale_strictum_subsp._kuprijanovii_AUN88467.1 organism=Secale strictum subsp. kuprijanovii phylum=Streptophyta class=Magnoliopsida
+--------------------MGRTKHAV--------------------------------
+------------------------------------------------------------
+----AATATTPEKKKRLRFELSPRWRPPPPLRQVPPEPQ---PEKKKKRAYRFRPGTVAL
+REIRKYQKSTEPLIPFAPFVRLVKEITTDLTK------GEINHWTPQALVSLQEAAEYHI
+VDVFEKANLCAIHAKRVTIMQKDIQLARRIGGR-RLW----
+>cenH3_Plants_Secale_strictum_subsp._strictum_AUN88453.1 organism=Secale strictum subsp. strictum phylum=Streptophyta class=Magnoliopsida
+--------------------MARTKHPA--------------------------------
+---------------------------------------------------VRKTKVPPK
+KKLGTRPSGGTQRRQDTDGAGTSATPRRAGRAAAPGAAEGATGQPKQRKPHRFRPGTVAL
+REIRKYQKSVEFLIPFAPFVRLIKEVTDFFCP-------EISRWTPQALVAIQEAAEYHL
+VDVFERANHCAIHAKRVTVMQKDIQLARRIGGR-RLW----
+>cenH3_Plants_Secale_strictum_subsp._strictum_AUN88463.1 organism=Secale strictum subsp. strictum phylum=Streptophyta class=Magnoliopsida
+--------------------MGRTKHAV--------------------------------
+------------------------------------------------------------
+--AATATTTTTETKKRLRFELSPRWRPPPPMRQVPPEPQ---PEKKKKRAYRFRPGTVAL
+REVRKYQKSTGPLIPFAPFVRLVKEITNDLTK------GELNHWTPQALFALQEAAEYHI
+VDVFEKANLCAIHAKRVTIMQKDIQLARRIGGR-RLW----
+>cenH3_Plants_Secale_strictum_subsp._strictum_AUN88468.1 organism=Secale strictum subsp. strictum phylum=Streptophyta class=Magnoliopsida
+--------------------MGRTKHAV--------------------------------
+------------------------------------------------------------
+----AATATTPEKKKRLRFELSPRWRPPPPLRQVPPEPQ---PEKKKKRAYRFRPGTVAL
+REIRKYQKSTEPLIPFAPFVRLVKEITTDLTK------GEINHWTPQALVSLQEAAEYHI
+VDVFEKANLCAIHAKRVTIMQKDIQLARRIGGR-RLW----
+>cenH3_Plants_Secale_sylvestre_AUN88454.1 organism=Secale sylvestre phylum=Streptophyta class=Magnoliopsida
+--------------------MARTKHPA--------------------------------
+---------------------------------------------------VRKTKVPPK
+KKLGTRPSGGTQRRQDTDGAGTSATPRRAGRAAAPGAAEGATGQPKQRKPHRFRPGTVAL
+REIRKYQKSVEFLIPFAPFVRLIKEVTDFFCP-------EISRWTPQALVAIQEAAEYHL
+VDVFERANHCAIHAKRVTVMQKDIQLARRIGGR-RLW----
+>cenH3_Plants_Secale_sylvestre_AUN88469.1 organism=Secale sylvestre phylum=Streptophyta class=Magnoliopsida
+--------------------MGRTKHAV--------------------------------
+------------------------------------------------------------
+----AATATTPETKKRLRFELSPRWRPPPPLRQVPPQPQ---PEKKKKRAYRFRPGTVAL
+REIRKYQKSTEPLIPFAPFVRLVKEITTDLTK------GEINHWTPQALVSLQEAAEYHI
+VDVFEKANLCAIHAKRVTIMQKDIQLARRIGGR-RLW----
+>cenH3_Plants_Turritis_glabra_BAC79432.1 organism=Turritis glabra phylum=Streptophyta class=Magnoliopsida
+--------------------MARTKHFA--------------------------------
+---------------------------------------------TRSRPRNQTDSSSQA
+AGPSTNPTTGGSEGGDAAQQTTPTTSPATGRKKRAKRAKQAMPQGSQKKPYRYKPGTIAL
+REIRYFQKNTNLLIPAASFIREVRSITHALAP------PQISRWTAEALVALQEAAEDYL
+VGLFSDSMLCAIHARRVTLMRKDFELARRIGGKGRPW----
+>cenH3_Plants_Vicia_faba_AKA94134.1 organism=Vicia faba phylum=Streptophyta class=Magnoliopsida
+--------------------MARVKQT---------------------------------
+------------------------------------------------------------
+----------------------------------PRHAR----ETQEKKKRRNKPGTVAL
+REIRKMQKTFKLIIPYAPFVRVVREITNQVSS-------LVTRWTPGALISLQEAAEDCL
+VRMFEAGWLCALHAKRVTLMKKDIELTRRLTGIGRPW----
+>cenH3_Plants_Vicia_lathyroides_AKA94135.1 organism=Vicia lathyroides phylum=Streptophyta class=Magnoliopsida
+--------------------MARVKQT---------------------------------
+------------------------------------------------------------
+----------------------------------PRHAR----ETQEKKKRRNKPGTVAL
+REIRKLQKTFKLIIPYAPFVRVVREITNQVSS-------LVTRWTPGALMSLQEAAEDCL
+VRMFEAGWLCALHAKRVTLMKKDIELTRRLTGIGRPW----
+>cenH3_Plants_Vicia_narbonensis_AKA94136.1 organism=Vicia narbonensis phylum=Streptophyta class=Magnoliopsida
+--------------------MARVKQT---------------------------------
+------------------------------------------------------------
+----------------------------------PRPAR----EIQERKKRRNKPGTVAL
+REIQKMQKTFKLIIPYAPFVRVVREITNQVSS-------SVTRWTPGALTSLQEAAEDCL
+VRMFEAGWLCALHAKRVTLMKKDIELTRRLTGIGRPW----
+>cenH3_Plants_Vicia_pannonica_AKA94137.1 organism=Vicia pannonica phylum=Streptophyta class=Magnoliopsida
+--------------------MARVKQT---------------------------------
+------------------------------------------------------------
+----------------------------------PRHAR----ENQAKKKRRNKPGTVAL
+REIRKLQKAVKLLIPYAPFVRLVREITNQVSS-------LVTRWTPEALVSLQEAAEDCL
+VRMFEAGWLCALHAKRVTLMKKDIELTRRLTGIGRPW----
+>cenH3_Plants_Vicia_peregrina_AKA94138.1 organism=Vicia peregrina phylum=Streptophyta class=Magnoliopsida
+--------------------MARVKQT---------------------------------
+------------------------------------------------------------
+----------------------------------PRNAR----ENQERKKRRNKPGTVVL
+HEIRKWQKAVKLIIPYAPFVRLVREITNQVSS-------LVTRWTPGALISLQEAAEDCL
+VRMFEAGWLCALHAKRVTLMKKDIELTRRLTGIGRPW----
+>cenH3_Plants_Vicia_sativa_AKA94139.1 organism=Vicia sativa phylum=Streptophyta class=Magnoliopsida
+--------------------MARVKQT---------------------------------
+------------------------------------------------------------
+----------------------------------PRHAR----ETQEKKKRRNKPGTVAL
+REIRKMQKTFKLIIPYAPFVRVVREITSQVSS-------LVTRWTPGALISLQEAAEDCL
+VRMFEAGWLCALHAKRVTLMKKDIELTRRLTGIGRPW----
+>cenH3_Plants_Vicia_sepium_AKA94140.1 organism=Vicia sepium phylum=Streptophyta class=Magnoliopsida
+--------------------MARVKQT---------------------------------
+------------------------------------------------------------
+----------------------------------PRHAR----ETQEKKKRRNKPGTVAL
+REIRKLQKTFKLIIPYAPFVRVVREITNQVSS-------LVTRWTPGALISLQEAAEDCL
+VRMFEAGWLCALHAKRVTLMKKDIELTRRLTGIGRPW----
+>cenH3_Plants_Vicia_villosa_AKA94141.1 organism=Vicia villosa phylum=Streptophyta class=Magnoliopsida
+--------------------MARVKQK---------------------------------
+------------------------------------------------------------
+----------------------------------PRHAR----VDQEKKKRRNKPGTVAL
+REIRKLQKSVKLLIPYAPFVRVVREITNQLSS-------LVTRWTPEALISLQEAAEDCL
+VRMFEAGWLCALHAKRVTLMKKDIELTRRLTGIARPW----
 >cenH3.1_Triticeae_Aegilops_speltoides_AKM28568.1 organism=Aegilops speltoides phylum=Streptophyta class=Magnoliopsida
----------MGRTKHP-------AVRKTKA------------------------------
-------------------------------------------------------PPKKQL
-GPR---PAQRRQETDGAGTSATPRRAGRAAAPGGAEGATGQPK-----QRKPHRFRPGTV
-ALREIRRYQKSVDFLIPFAPFVRLIKEVTDFFCP-EISRWTPQALVAIQEAAEYHLVDVF
-ERANHCAIHAKRVTVMQKDIQLARRIGGR-RLW----
+--------------------MGRTKHP---------------------------------
+--------------------------------------------------AVRKTKAPPK
+KQLGPR---PAQRRQETDGAGTSATPRRAGRAAAPGGAEGATGQPKQRKPHRFRPGTVAL
+REIRRYQKSVDFLIPFAPFVRLIKEVTDFFCP-------EISRWTPQALVAIQEAAEYHL
+VDVFERANHCAIHAKRVTVMQKDIQLARRIGGR-RLW----
 >cenH3.1_Triticeae_Aegilops_tauschii_AKM28569.1 organism=Aegilops tauschii phylum=Streptophyta class=Magnoliopsida
----------MARTKHP-------AVRKTKA------------------------------
-------------------------------------------------------PPKKQL
-GPR---PAQRRQET----------------------GATGQPK-----QRKPHRFRPATV
-ALREIRRYQKSVDFLIPFAPFVRLIKEVTDFFCP-EISRWTPQALVAIQEAAEYHLVDVF
-ERANHCAIHAKRVTVMQKDIQLARRIGGR-RLW----
+--------------------MARTKHP---------------------------------
+--------------------------------------------------AVRKTKAPPK
+KQLGPR---PAQRRQET----------------------GATGQPKQRKPHRFRPATVAL
+REIRRYQKSVDFLIPFAPFVRLIKEVTDFFCP-------EISRWTPQALVAIQEAAEYHL
+VDVFERANHCAIHAKRVTVMQKDIQLARRIGGR-RLW----
 >cenH3.1_Triticeae_Triticum_urartu_AKM28567.1 organism=Triticum urartu phylum=Streptophyta class=Magnoliopsida
----------MARTKHP-------AVRKTKA------------------------------
-------------------------------------------------------PPKKQL
-GPR---PAQRRQETDGAGTSATPRRAGRAAAPGGAEGATGQPK-----QRKPHRFRPGTV
-ALREIRRYQKSVDFLIPFAPFVRLIKEVTDFFCP-EISRWTPQALVAIQEAAEYHLVDVF
-ERANHCAIHAKRVTVMQKDIQLARRIGGR-RLW----
+--------------------MARTKHP---------------------------------
+--------------------------------------------------AVRKTKAPPK
+KQLGPR---PAQRRQETDGAGTSATPRRAGRAAAPGGAEGATGQPKQRKPHRFRPGTVAL
+REIRRYQKSVDFLIPFAPFVRLIKEVTDFFCP-------EISRWTPQALVAIQEAAEYHL
+VDVFERANHCAIHAKRVTVMQKDIQLARRIGGR-RLW----
 >cenH3.2_Triticeae_Aegilops_speltoides_AKM28571.1 organism=Aegilops speltoides phylum=Streptophyta class=Magnoliopsida
----------MGRTKHAVAATA--ATTETKK------------------------------
-------------------------------------------------------RLRFEL
-SPRWRPPPPMRQ------------------VPPEPQPQPQPEK-----KKRAYRFRPGTV
-ALREIRKYQKSTEPLIPFAPFVRL-KEITDDLTKGGLNHWTPRALLSLLEAAEYHIVDVF
-EKANLCAIHAKRVTIMQKDIQLARRIGGR-RLW----
+--------------------MGRTKHAV--------------------------------
+--------------------------------------------AATA--ATTETKKRLR
+FELSPRWRPPPPMRQ------------------VPPEPQPQPQPEKKKRAYRFRPGTVAL
+REIRKYQKSTEPLIPFAPFVRL-KEITDDLTK------GGLNHWTPRALLSLLEAAEYHI
+VDVFEKANLCAIHAKRVTIMQKDIQLARRIGGR-RLW----
 >cenH3.2_Triticeae_Aegilops_tauschii_AKM28572.1 organism=Aegilops tauschii phylum=Streptophyta class=Magnoliopsida
----------MGRTKHAVAATATTTTTETKK------------------------------
-------------------------------------------------------RLRFEL
-SPRWRPPPPMRQ------------------VPPEPQPE---KK-----KKRAYRFRPGTV
-ALREVRKYQKSTGPLIPFAPFVRLVKEITNDLTKGELNHWTPQALFALQEAAEYHIVDVF
-EKANLCAIHAKRVTIMQKDIQLARRIGGR-RLW----
+--------------------MGRTKHAV--------------------------------
+--------------------------------------------AATATTTTTETKKRLR
+FELSPRWRPPPPMRQ------------------VPPEPQPE---KKKKRAYRFRPGTVAL
+REVRKYQKSTGPLIPFAPFVRLVKEITNDLTK------GELNHWTPQALFALQEAAEYHI
+VDVFEKANLCAIHAKRVTIMQKDIQLARRIGGR-RLW----
 >cenH3.2_Triticeae_Triticum_urartu_AKM28570.1 organism=Triticum urartu phylum=Streptophyta class=Magnoliopsida
----------MGRTKHAVAATA--ATTETKK------------------------------
-------------------------------------------------------RLRFEL
-SPRWRPPPALRQ------------------VPPEPQPE---KK-----KKRAYRFRPGTV
-ALREVRKYQKSTGPLIPFAPFVRLVKEITDDLTKGEMNHWTPQALFSLQEAAEYHIVDVF
-EKANLCAIHAKRVTIMQKDIQLARRIGGR-RPW----
+--------------------MGRTKHAV--------------------------------
+--------------------------------------------AATA--ATTETKKRLR
+FELSPRWRPPPALRQ------------------VPPEPQPE---KKKKRAYRFRPGTVAL
+REVRKYQKSTGPLIPFAPFVRLVKEITDDLTK------GEMNHWTPQALFSLQEAAEYHI
+VDVFEKANLCAIHAKRVTIMQKDIQLARRIGGR-RPW----
 >cenH3.1_Vigna_unguiculata_Vigna_unguiculata_BBM60641.1 organism=Vigna unguiculata phylum=Streptophyta class=Magnoliopsida
----------MARVKHTPASLKVGKKKVSRA------------------------------
-------------------------------------------------------STSTP-
--QQSPATRSRRR------------------AQEEEPQEEAAAAAPQTHGRKKKRSKPGTA
-ALREIRHFQKSCKLLIPAAPFIRCVKQITHQFST-EVSRWTPEAVVALQEAAEECLVHLF
-EDGMLCAIHARRITLMTKDIQLARRRNRKALV-----
+--------------------MARVKHTP--------------------------------
+---------------------------------------------------------ASL
+KVGKKKVSRASTSTP--QQSPATRSRRRAQEEEPQEEAAAAAPQTHGRKKKRSKPGTAAL
+REIRHFQKSCKLLIPAAPFIRCVKQITHQFST-------EVSRWTPEAVVALQEAAEECL
+VHLFEDGMLCAIHARRITLMTKDIQLARRRNRKALV-----
 >cenH3.1_Vigna_unguiculata_Vigna_unguiculata_BBM60659.1 organism=Vigna unguiculata phylum=Streptophyta class=Magnoliopsida
----------MARVKHTPASLKVGKKKVSRA------------------------------
-------------------------------------------------------STSTP-
--QQSPATRSRRR------------------AQEEEPQEEAAAAAPQTQGRKKKRSKPGTA
-ALREIRHFQKSCKLLIPAAPFIRCVKQITHQFST-EVSRWTPEAVVALQEAAEECLVHLF
-EDGMLCAIHARRITLMTKDIQL---------------
+--------------------MARVKHTP--------------------------------
+---------------------------------------------------------ASL
+KVGKKKVSRASTSTP--QQSPATRSRRRAQEEEPQEEAAAAAPQTQGRKKKRSKPGTAAL
+REIRHFQKSCKLLIPAAPFIRCVKQITHQFST-------EVSRWTPEAVVALQEAAEECL
+VHLFEDGMLCAIHARRITLMTKDIQL---------------
 >cenH3.1_Vigna_unguiculata_Vigna_unguiculata_BBM60661.1 organism=Vigna unguiculata phylum=Streptophyta class=Magnoliopsida
----------MARVKHTPASLKVGKKKVSRA------------------------------
-------------------------------------------------------STSTP-
--QQSPATRSRRR------------------AQEEEPQEAAAAA-PQTQGRKKKRSKPGTA
-ALREIRHFQKSCKLLIPAAPFIRCVKQITHRFST-EVSRWTPEAVVALQEAAEECLVHLF
-EDGMLCAIHARRITLMTKDIQL---------------
+--------------------MARVKHTP--------------------------------
+---------------------------------------------------------ASL
+KVGKKKVSRASTSTP--QQSPATRSRRRAQEEEPQEAAAAA-PQTQGRKKKRSKPGTAAL
+REIRHFQKSCKLLIPAAPFIRCVKQITHRFST-------EVSRWTPEAVVALQEAAEECL
+VHLFEDGMLCAIHARRITLMTKDIQL---------------
 >cenH3.1_Vigna_unguiculata_Vigna_unguiculata_BBM60663.1 organism=Vigna unguiculata phylum=Streptophyta class=Magnoliopsida
----------MARVKHTPASLKVGKKKVSRA------------------------------
-------------------------------------------------------STSTP-
--QQSPATRSRRR------------------AQEEEPQEEAAAAAPQTQGRKKKRSKPGTA
-ALREIRHFQKSCKLLIPAAPFIRCVKQITHRFST-EVSRWTPEAVVALQEAAEECLVHLF
-EDGMLCAIHARRITLMTKDIQ----------------
+--------------------MARVKHTP--------------------------------
+---------------------------------------------------------ASL
+KVGKKKVSRASTSTP--QQSPATRSRRRAQEEEPQEEAAAAAPQTQGRKKKRSKPGTAAL
+REIRHFQKSCKLLIPAAPFIRCVKQITHRFST-------EVSRWTPEAVVALQEAAEECL
+VHLFEDGMLCAIHARRITLMTKDIQ----------------
 >cenH3.1_Vigna_unguiculata_Vigna_unguiculata_BBM60665.1 organism=Vigna unguiculata phylum=Streptophyta class=Magnoliopsida
----------MARVKHTPASLKVGKKKVSRA------------------------------
-------------------------------------------------------STSTP-
--QQSPATRSRRR------------------AQEEEPQEEAAAAAPQTQGRKKKRSKPGTM
-ALREIRHFQKSCKLLIPAAPFIRCVKQITHQFST-EVSRWTPEAVVALQEAAEECLVHLF
-EDGMLCAIHARRITLMTKDIQL---------------
+--------------------MARVKHTP--------------------------------
+---------------------------------------------------------ASL
+KVGKKKVSRASTSTP--QQSPATRSRRRAQEEEPQEEAAAAAPQTQGRKKKRSKPGTMAL
+REIRHFQKSCKLLIPAAPFIRCVKQITHQFST-------EVSRWTPEAVVALQEAAEECL
+VHLFEDGMLCAIHARRITLMTKDIQL---------------
 >cenH3.1_Vigna_unguiculata_Vigna_unguiculata_BBM60667.1 organism=Vigna unguiculata phylum=Streptophyta class=Magnoliopsida
----------MARVKHTPASLKVGKKKVSRA------------------------------
-------------------------------------------------------STSTP-
--QQSPATRSRRR------------------AQEEEPQEEAAAAAPQTQGRKKKRSKPGTA
-ALREIRHFQKSCKLLIPAAPFIRCVKQITHQFST-EVSRWTPEAVVALQEAAEECLVHLF
-EDGMLCAIHARRITLMTKDIQL---------------
+--------------------MARVKHTP--------------------------------
+---------------------------------------------------------ASL
+KVGKKKVSRASTSTP--QQSPATRSRRRAQEEEPQEEAAAAAPQTQGRKKKRSKPGTAAL
+REIRHFQKSCKLLIPAAPFIRCVKQITHQFST-------EVSRWTPEAVVALQEAAEECL
+VHLFEDGMLCAIHARRITLMTKDIQL---------------
 >cenH3.1_Vigna_unguiculata_Vigna_unguiculata_subsp._alba_BBM60649.1 organism=Vigna unguiculata subsp. alba phylum=Streptophyta class=Magnoliopsida
----------MARVKHTPASLKVGKKKVSRA------------------------------
-------------------------------------------------------STSTP-
--QQSPATRSRRR------------------AQEEEPQEEAAAAAPQTQGRKKKRSKPGTA
-ALREIRHFQKSCKLLIPAAPFIRCVKQITHQFST-EVSRWTPEAVVALQEAAEECLVHLF
-EDGMLCAIHARRITLMTKDIQL---------------
+--------------------MARVKHTP--------------------------------
+---------------------------------------------------------ASL
+KVGKKKVSRASTSTP--QQSPATRSRRRAQEEEPQEEAAAAAPQTQGRKKKRSKPGTAAL
+REIRHFQKSCKLLIPAAPFIRCVKQITHQFST-------EVSRWTPEAVVALQEAAEECL
+VHLFEDGMLCAIHARRITLMTKDIQL---------------
 >cenH3.1_Vigna_unguiculata_Vigna_unguiculata_subsp._baoulensis_BBM60653.1 organism=Vigna unguiculata subsp. baoulensis phylum=Streptophyta class=Magnoliopsida
----------MARVKHTPASL-----KASRA------------------------------
-------------------------------------------------------STSMPP
-SQQSPVTRSNRR------------------AQEEEPQEEAAAAALQTQGRKKKRSKPGTM
-ALREIRHFQKSCKLLIPAAPFIRCVKQITHRFST-EVSRWMPEAVVALQEAAEECLVHLF
-EDGMLCAIHARRITLMTKDIQL---------------
+--------------------MARVKHTP--------------------------------
+---------------------------------------------------------ASL
+-----KASRASTSMPPSQQSPVTRSNRRAQEEEPQEEAAAAALQTQGRKKKRSKPGTMAL
+REIRHFQKSCKLLIPAAPFIRCVKQITHRFST-------EVSRWMPEAVVALQEAAEECL
+VHLFEDGMLCAIHARRITLMTKDIQL---------------
 >cenH3.1_Vigna_unguiculata_Vigna_unguiculata_subsp._pawekiae_BBM60651.1 organism=Vigna unguiculata subsp. pawekiae phylum=Streptophyta class=Magnoliopsida
----------MARVKHTPASLQVGKKKVSRA------------------------------
-------------------------------------------------------STSTP-
--QQSPATRSRRR------------------AQEEEPQEEAAAAAPQTQGRKKKRIKPGTA
-ALREIRHFQKSCKLLIPAAPFIRCVKQITHQFST-EVSRWTPEAVVALQEAAEECLVHLF
-EDGMLCAIHARRITLMTKDIQL---------------
+--------------------MARVKHTP--------------------------------
+---------------------------------------------------------ASL
+QVGKKKVSRASTSTP--QQSPATRSRRRAQEEEPQEEAAAAAPQTQGRKKKRIKPGTAAL
+REIRHFQKSCKLLIPAAPFIRCVKQITHQFST-------EVSRWTPEAVVALQEAAEECL
+VHLFEDGMLCAIHARRITLMTKDIQL---------------
 >cenH3.1_Vigna_unguiculata_Vigna_unguiculata_subsp._sesquipedalis_BBM60645.1 organism=Vigna unguiculata subsp. sesquipedalis phylum=Streptophyta class=Magnoliopsida
----------MARVKHTPASLKVGKKKVSRA------------------------------
-------------------------------------------------------STSTP-
--QQSPATRSRRR------------------AQEEEPQEEAAAAAPQTQGRKKKRSKPGTA
-ALREIRHFQKSCKLLIPAAPFIRCVKQITHRFST-EVSRWTPEAVVALQEAAEECLVHLF
-EDGMLCAIHARRITLMTKDIQL---------------
+--------------------MARVKHTP--------------------------------
+---------------------------------------------------------ASL
+KVGKKKVSRASTSTP--QQSPATRSRRRAQEEEPQEEAAAAAPQTQGRKKKRSKPGTAAL
+REIRHFQKSCKLLIPAAPFIRCVKQITHRFST-------EVSRWTPEAVVALQEAAEECL
+VHLFEDGMLCAIHARRITLMTKDIQL---------------
 >cenH3.1_Vigna_unguiculata_Vigna_unguiculata_subsp._stenophylla_BBM60647.1 organism=Vigna unguiculata subsp. stenophylla phylum=Streptophyta class=Magnoliopsida
----------MARVKHTPASL-----KASRA------------------------------
-------------------------------------------------------STSMPP
-SQQSPVTRSNRR------------------AQEEEPQEEAAAAALQTQGRKKKRSKPGTM
-AHREIRHFQKSCKLLIPAAPFIRCVKQITHRFST-EVSRWTPEAVVALQEAAEECLVHLF
-EDGMLCAIHARRITLMTKDIQL---------------
+--------------------MARVKHTP--------------------------------
+---------------------------------------------------------ASL
+-----KASRASTSMPPSQQSPVTRSNRRAQEEEPQEEAAAAALQTQGRKKKRSKPGTMAH
+REIRHFQKSCKLLIPAAPFIRCVKQITHRFST-------EVSRWTPEAVVALQEAAEECL
+VHLFEDGMLCAIHARRITLMTKDIQL---------------
 >cenH3.1_Vigna_unguiculata_Vigna_unguiculata_subsp._unguiculata_BBM60643.1 organism=Vigna unguiculata subsp. unguiculata phylum=Streptophyta class=Magnoliopsida
----------MARVKHTPASLKVGKKKVSRA------------------------------
-------------------------------------------------------STSTP-
--QQSPATRSRRR------------------AQEEEPQEEAAAAAPQTQGRKKKRSKPGTA
-ALREIRHFQKSCKLLIPAAPFIRCVKQITHQFST-EVSRWTPEAVVALQEAAEECLVHLF
-EDGMLCAIHARRITLMTKDIQL---------------
+--------------------MARVKHTP--------------------------------
+---------------------------------------------------------ASL
+KVGKKKVSRASTSTP--QQSPATRSRRRAQEEEPQEEAAAAAPQTQGRKKKRSKPGTAAL
+REIRHFQKSCKLLIPAAPFIRCVKQITHQFST-------EVSRWTPEAVVALQEAAEECL
+VHLFEDGMLCAIHARRITLMTKDIQL---------------
 >cenH3.1_Vigna_unguiculata_Vigna_unguiculata_var._spontanea_BBM60669.1 organism=Vigna unguiculata var. spontanea phylum=Streptophyta class=Magnoliopsida
----------MARVKHTPASLKVGKKKVSRA------------------------------
-------------------------------------------------------STSTP-
--QQSPATRSRRR------------------AQEEEPQEEAAAAAPQTQGRKKKRSKPGTA
-ALREIRHFQKSCKLLIPAAPFIRCVKQITHQFST-EVSRWTPEAVVALQEAAEECLVHLF
-EDGMLCAIHARRITLMTKDIQL---------------
+--------------------MARVKHTP--------------------------------
+---------------------------------------------------------ASL
+KVGKKKVSRASTSTP--QQSPATRSRRRAQEEEPQEEAAAAAPQTQGRKKKRSKPGTAAL
+REIRHFQKSCKLLIPAAPFIRCVKQITHQFST-------EVSRWTPEAVVALQEAAEECL
+VHLFEDGMLCAIHARRITLMTKDIQL---------------
 >cenH3.2_Vigna_unguiculata_Vigna_unguiculata_BBM60642.1 organism=Vigna unguiculata phylum=Streptophyta class=Magnoliopsida
----------MARVKHTPASL-----KASRA------------------------------
-------------------------------------------------------STSVPP
-SQQSPVTRSNRR------------------AQEEEPQEE--AAAPQTQGRKKKRSKPGTM
-ALREIRHFQKSCKLLIPAAPFIRCVKQITHRFST-EVSRWTPEAVVALQEAAEECLVHLF
-EDGMLCAIHARRITLMTKDIQLARRRNRKALV-----
+--------------------MARVKHTP--------------------------------
+---------------------------------------------------------ASL
+-----KASRASTSVPPSQQSPVTRSNRRAQEEEPQEE--AAAPQTQGRKKKRSKPGTMAL
+REIRHFQKSCKLLIPAAPFIRCVKQITHRFST-------EVSRWTPEAVVALQEAAEECL
+VHLFEDGMLCAIHARRITLMTKDIQLARRRNRKALV-----
 >cenH3.2_Vigna_unguiculata_Vigna_unguiculata_BBM60660.1 organism=Vigna unguiculata phylum=Streptophyta class=Magnoliopsida
----------MARVKHTPASL-----KASRA------------------------------
-------------------------------------------------------STSVPP
-SQQSPVTRSNRR------------------AQEEEPQEE-AAAAPQTQGRKKKRSKPGTA
-ALREIRHFQKSCKLLIPAAPFIRCVKQITHQFST-EVSRWTPEAVVALQEAAEECLVHLF
-EDGMLCAIHARRITLMTKDIQL---------------
+--------------------MARVKHTP--------------------------------
+---------------------------------------------------------ASL
+-----KASRASTSVPPSQQSPVTRSNRRAQEEEPQEE-AAAAPQTQGRKKKRSKPGTAAL
+REIRHFQKSCKLLIPAAPFIRCVKQITHQFST-------EVSRWTPEAVVALQEAAEECL
+VHLFEDGMLCAIHARRITLMTKDIQL---------------
 >cenH3.2_Vigna_unguiculata_Vigna_unguiculata_BBM60662.1 organism=Vigna unguiculata phylum=Streptophyta class=Magnoliopsida
----------MARVKHTPASL-----KASRA------------------------------
-------------------------------------------------------STSVPP
-SQQSPVTRSNRR------------------AQEEEPQEE--AAAPQTQGRKKKRSKPGTM
-ALREIRHFQKSCKLLIPAAPFIRCVKQITHRFST-EVSRWTPEAVVALQEAAEECLVHLF
-EDGMLCAIHARRITLMTKDIQL---------------
+--------------------MARVKHTP--------------------------------
+---------------------------------------------------------ASL
+-----KASRASTSVPPSQQSPVTRSNRRAQEEEPQEE--AAAPQTQGRKKKRSKPGTMAL
+REIRHFQKSCKLLIPAAPFIRCVKQITHRFST-------EVSRWTPEAVVALQEAAEECL
+VHLFEDGMLCAIHARRITLMTKDIQL---------------
 >cenH3.2_Vigna_unguiculata_Vigna_unguiculata_BBM60664.1 organism=Vigna unguiculata phylum=Streptophyta class=Magnoliopsida
----------MARVKHTPASL-----KASRA------------------------------
-------------------------------------------------------STSVPP
-SQQSPVTRSNRR------------------AQEEEPQEE--AAAPQTQGRKKKRSKPGTM
-ALREIRHFQKSCKLLIPAAPFIRCVKQITHRFST-EVSRWTPEAVVALQEAAEECLVHLF
-EDGMLCAIHARRITLMTKDIQL---------------
+--------------------MARVKHTP--------------------------------
+---------------------------------------------------------ASL
+-----KASRASTSVPPSQQSPVTRSNRRAQEEEPQEE--AAAPQTQGRKKKRSKPGTMAL
+REIRHFQKSCKLLIPAAPFIRCVKQITHRFST-------EVSRWTPEAVVALQEAAEECL
+VHLFEDGMLCAIHARRITLMTKDIQL---------------
 >cenH3.2_Vigna_unguiculata_Vigna_unguiculata_BBM60666.1 organism=Vigna unguiculata phylum=Streptophyta class=Magnoliopsida
----------MARVKHTPASL-----KASRA------------------------------
-------------------------------------------------------STSVPP
-SQQSPVTRSNRR------------------AQEEEPQEE--AAAPQTQGRKKKRSKPGTM
-ALREIRHFQKSCKLLIPAAPFIRCVKQITHRFST-EVSRWTPEAVVALQEAAEECLVHLF
-EDGMLCAIHARRITLMTKDIQL---------------
+--------------------MARVKHTP--------------------------------
+---------------------------------------------------------ASL
+-----KASRASTSVPPSQQSPVTRSNRRAQEEEPQEE--AAAPQTQGRKKKRSKPGTMAL
+REIRHFQKSCKLLIPAAPFIRCVKQITHRFST-------EVSRWTPEAVVALQEAAEECL
+VHLFEDGMLCAIHARRITLMTKDIQL---------------
 >cenH3.2_Vigna_unguiculata_Vigna_unguiculata_BBM60668.1 organism=Vigna unguiculata phylum=Streptophyta class=Magnoliopsida
----------MARVKHTPASL-----KASRA------------------------------
-------------------------------------------------------STSVPP
-SQQSPVTRSNRR------------------AQEEEPQEE--AAAPQTQGRKKKRSKPGTM
-ALREIRHFQKSCKLLIPAAPFIRCVKQITHQFST-EVSRWTPEAVVALQEAAEECLVHLF
-EDGMLCAIHARRITLMTKDIQL---------------
+--------------------MARVKHTP--------------------------------
+---------------------------------------------------------ASL
+-----KASRASTSVPPSQQSPVTRSNRRAQEEEPQEE--AAAPQTQGRKKKRSKPGTMAL
+REIRHFQKSCKLLIPAAPFIRCVKQITHQFST-------EVSRWTPEAVVALQEAAEECL
+VHLFEDGMLCAIHARRITLMTKDIQL---------------
 >cenH3.2_Vigna_unguiculata_Vigna_unguiculata_subsp._alba_BBM60650.1 organism=Vigna unguiculata subsp. alba phylum=Streptophyta class=Magnoliopsida
----------MARVKHTPASL-----KASRA------------------------------
-------------------------------------------------------STSMPP
-SQQSPVTRSNRR------------------AQEEEPQEE--AAAPQTQGRKKKRSKPGTM
-ALREIRHFQKSCKLLIPAAPFIRCVKQITHQFST-EVSRWTPEAVVALQEAAEECLVHLF
-EDGMLCAIHARRITLMTKDIQL---------------
+--------------------MARVKHTP--------------------------------
+---------------------------------------------------------ASL
+-----KASRASTSMPPSQQSPVTRSNRRAQEEEPQEE--AAAPQTQGRKKKRSKPGTMAL
+REIRHFQKSCKLLIPAAPFIRCVKQITHQFST-------EVSRWTPEAVVALQEAAEECL
+VHLFEDGMLCAIHARRITLMTKDIQL---------------
 >cenH3.2_Vigna_unguiculata_Vigna_unguiculata_subsp._baoulensis_BBM60654.1 organism=Vigna unguiculata subsp. baoulensis phylum=Streptophyta class=Magnoliopsida
----------MARVKHTPASLKVGKKKVSRA------------------------------
-------------------------------------------------------STSTP-
--QQSPATRSRRR------------------AQEEEPQEEAAAAAPQTQGRKKKRSKPGTA
-ALREIRHFQKSCKLLIPAAPFIRCVKQITHQFST-EVSRWTPEAVVALQEAAEECLVHLF
-ENGMLCAIHARRITLMTKDIQL---------------
+--------------------MARVKHTP--------------------------------
+---------------------------------------------------------ASL
+KVGKKKVSRASTSTP--QQSPATRSRRRAQEEEPQEEAAAAAPQTQGRKKKRSKPGTAAL
+REIRHFQKSCKLLIPAAPFIRCVKQITHQFST-------EVSRWTPEAVVALQEAAEECL
+VHLFENGMLCAIHARRITLMTKDIQL---------------
 >cenH3.2_Vigna_unguiculata_Vigna_unguiculata_subsp._pawekiae_BBM60652.1 organism=Vigna unguiculata subsp. pawekiae phylum=Streptophyta class=Magnoliopsida
----------MARVKHTPASL-----KASRA------------------------------
-------------------------------------------------------STSMPP
-SQQSPVTRSNRR------------------AQEEEPQEEAAAAAPQTQGRKKKRSKPGTA
-ALREIRHFQKSCKLLIPAAPFIRCVKQITHQFST-EVSRWTPEAVVALQEAAEECLVHLF
-EDGMLCAIHARRITLMTKDIQL---------------
+--------------------MARVKHTP--------------------------------
+---------------------------------------------------------ASL
+-----KASRASTSMPPSQQSPVTRSNRRAQEEEPQEEAAAAAPQTQGRKKKRSKPGTAAL
+REIRHFQKSCKLLIPAAPFIRCVKQITHQFST-------EVSRWTPEAVVALQEAAEECL
+VHLFEDGMLCAIHARRITLMTKDIQL---------------
 >cenH3.2_Vigna_unguiculata_Vigna_unguiculata_subsp._sesquipedalis_BBM60646.1 organism=Vigna unguiculata subsp. sesquipedalis phylum=Streptophyta class=Magnoliopsida
----------MARVKHTPASL-----KASRA------------------------------
-------------------------------------------------------STSVPP
-SQQSPVTRSNRR------------------AQEEEPQEE--AAAPQTQGRKKKRSKPGTM
-ALREIRHFQKSCKLLIPAAPFIRCVKQITHRFST-EVSRWTPEAVVALQEAAEECLVHLF
-EDGMLCAIHARRITLMTKDIQL---------------
+--------------------MARVKHTP--------------------------------
+---------------------------------------------------------ASL
+-----KASRASTSVPPSQQSPVTRSNRRAQEEEPQEE--AAAPQTQGRKKKRSKPGTMAL
+REIRHFQKSCKLLIPAAPFIRCVKQITHRFST-------EVSRWTPEAVVALQEAAEECL
+VHLFEDGMLCAIHARRITLMTKDIQL---------------
 >cenH3.2_Vigna_unguiculata_Vigna_unguiculata_subsp._stenophylla_BBM60648.1 organism=Vigna unguiculata subsp. stenophylla phylum=Streptophyta class=Magnoliopsida
----------MARVKHTPASLKVGKKKVSRA------------------------------
-------------------------------------------------------STSTP-
--QQSPATRSRRR------------------AQEEEPQEEAAAAAPQTQGRKKKRSKPGTA
-ALREIRHFQKSCKLLIPAAPFIRCVKQITHQFST-EVSRWTPEAVVALQEAAEECLVHLF
-EDGMLCAIHARRITLMTKDIQL---------------
+--------------------MARVKHTP--------------------------------
+---------------------------------------------------------ASL
+KVGKKKVSRASTSTP--QQSPATRSRRRAQEEEPQEEAAAAAPQTQGRKKKRSKPGTAAL
+REIRHFQKSCKLLIPAAPFIRCVKQITHQFST-------EVSRWTPEAVVALQEAAEECL
+VHLFEDGMLCAIHARRITLMTKDIQL---------------
 >cenH3.2_Vigna_unguiculata_Vigna_unguiculata_subsp._unguiculata_BBM60644.1 organism=Vigna unguiculata subsp. unguiculata phylum=Streptophyta class=Magnoliopsida
----------MARVKHTPASL-----KASRA------------------------------
-------------------------------------------------------STSVPP
-SQQSPVTRSNRR------------------AQEEEPQEE--AAAPQTQGRKKKRSKPGTM
-ALREIRHFQKSCKLLIPAAPFIRCVKQITHRFST-EVSRWTPEAVVALQEAAEECLVHLF
-EDGMLCAIHARRITLMTKDIQL---------------
+--------------------MARVKHTP--------------------------------
+---------------------------------------------------------ASL
+-----KASRASTSVPPSQQSPVTRSNRRAQEEEPQEE--AAAPQTQGRKKKRSKPGTMAL
+REIRHFQKSCKLLIPAAPFIRCVKQITHRFST-------EVSRWTPEAVVALQEAAEECL
+VHLFEDGMLCAIHARRITLMTKDIQL---------------
 >cenH3.2_Vigna_unguiculata_Vigna_unguiculata_var._spontanea_BBM60670.1 organism=Vigna unguiculata var. spontanea phylum=Streptophyta class=Magnoliopsida
----------MARVKHTPASL-----KASRA------------------------------
-------------------------------------------------------STSMPP
-SQQSPVTRSNRR------------------AQEEEPQEEAAAAALQTQGRKKKRSKPGTM
-ALREIRHFQKSCKLLIPAAPFIRCVKQITHRFST-EVSRWTPEAVVALQEAAEECLVHLF
-EDGMLCAIHARRITLMTKDIQL---------------
+--------------------MARVKHTP--------------------------------
+---------------------------------------------------------ASL
+-----KASRASTSMPPSQQSPVTRSNRRAQEEEPQEEAAAAALQTQGRKKKRSKPGTMAL
+REIRHFQKSCKLLIPAAPFIRCVKQITHRFST-------EVSRWTPEAVVALQEAAEECL
+VHLFEDGMLCAIHARRITLMTKDIQL---------------
