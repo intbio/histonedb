@@ -1,12 +1,3 @@
->cenH3_Animals_Caenorhabditis_elegans_NP_499128.1 organism=Caenorhabditis elegans phylum=Nematoda class=Chromadorea
-------------------------------------------------------------
------------MADDT-PIIEEIAEQNESVTRIMQRLKHDMQRVTSVPGFNTSAAGVNDL
-IDILNQYKKELEDDAANDYTEAHIHKIRLVTGKRNQYVLKLKQAEDEYHARKEQARRRAS
-SMDFTVGRNSTNLVDYSHGRHHMPSY---------------RR------------HDSSD
-EENYSMDGTNGDGNR---------------------------------------------
------------------------AGPSNPDRGNRTGPSSSDRVRMRAGRNRVTKTRRYR-
-------------------PGQKALEEIRKYQKTEDLLIQKAPFARLVREIMQTSTPFGAD
-CRIRSDAISALQEAAEAFLVEMFEGSSLISTHAKRVTLMTTDIQLYRRLCLRHL-----
 >cenH3.1_Culicidae_Aedes_aegypti_HISTDB_Culicidae_6 organism=Aedes aegypti phylum=Arthropoda class=Insecta
 ------------------------------------------------------------
 -----------MPRRQ-NRPPTRNP-----------------------------------
@@ -2662,30 +2653,3 @@ A----SV----SQKN---------------------------------------------
 ---------------------------IQKQPPET-------AKSSR------RKKNNPE
 H-----------------RLKKLHREIEYLQKQKGFMIPRLPFSRLVREIMINH--SITP
 FQITTGALEAVQTAAEMYVTQRFQDAYLLTKYRSRVTLEVRDMAMVAYFCK--TYGNI-
->cenH3_Mammalia_Mus_musculus_NP_031707.1 organism=Mus musculus phylum=Chordata class=Mammalia
-------------------------------------------------------------
------------MGPR---------------------------------------------
--------------------------------------------------RKPQTPRRRPS
-S--P------------------APGP---------------SR------------QSSSV
-G----------SQTL---------------------------------------------
------------------------------------------------------RR-R---
-------------------QKFMWLKEIKTLQKSTDLLFRKKPFSMVVREICEKFS-RGVD
-FWWQAQALLALQEAAEAFLIHLFEDAYLLSLHAGRVTLFPKDIQLTRRIRGFEGGLP--
->cenH3_Homo_sapiens_Homo_sapiens_NP_001035891.1 organism=Homo sapiens phylum=Chordata class=Mammalia
-------------------------------------------------------------
------------MGPRR--------------------------------------------
------------------------------------------------RSRKPEAPRRRSP
-SPTP------------------TPGP---------------SR------------RGPSL
-G----------ASSH---------------------------------------------
------------------------------------------------------QHSR---
-------------------RRQGWLKEIRKLQKSTHLLIRKLPFSRL--------------
--------------AAEAFLVHLFEDAYLLTLHAGRVTLFPKDVQLARRIRGLEEGLG--
->cenH3_Homo_sapiens_Homo_sapiens_NP_001800.1 organism=Homo sapiens phylum=Chordata class=Mammalia
-------------------------------------------------------------
------------MGPRR--------------------------------------------
------------------------------------------------RSRKPEAPRRRSP
-SPTP------------------TPGP---------------SR------------RGPSL
-G----------ASSH---------------------------------------------
------------------------------------------------------QHSR---
-------------------RRQGWLKEIRKLQKSTHLLIRKLPFSRLAREICVKFT-RGVD
-FNWQAQALLALQEAAEAFLVHLFEDAYLLTLHAGRVTLFPKDVQLARRIRGLEEGLG--

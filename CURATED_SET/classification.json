@@ -193,6 +193,21 @@
             },
             "cenH3": {
                 "cenH3_(Animals)": {
+                    "cenH3_(Insecta)": {
+                        "cenH3_(Culicidae)": {
+                            "cenH3.1_(Culicidae)": "null",
+                            "cenH3.2_(Culicidae)": "null",
+                            "cenH3.3_(Aedes)": "null"
+                        },
+                        "cenH3_(Drosophilidae)": {
+                            "cenH3.1_(Drosophilidae)": "null",
+                            "cenH3.2_(Drosophila_eugracilis)": "null",
+                            "cenH3.3_(Montium)": "null",
+                            "cenH3.4_(Montium)": "null",
+                            "cenH3.5_(Drosophila)": "null",
+                            "cenH3.6_(Repleta)": "null"
+                        }
+                    },
                     "cenH3_(Mammalia)": {
                         "cenH3_(Homo_sapiens)": "null"
                     }
@@ -479,6 +494,60 @@
             ],
             "publications": []
         },
+        "cenH3.1_(Culicidae)": {
+            "level": "variant",
+            "description": {
+                "summary": "cenH3.1_(Culicidae) is a centromeric histone variant encoded by the mosqCid1 gene, found in most studied mosquito species (Anopheles, Aedes, Culex), with the exception of An. albimanus and An. darlingi where it has been lost [kursel_ancient_2020]. This gene emerged over 150 million years ago and has been retained in most species, acquiring specialized functions. Unlike its paralog mosqCid2, which shows high expression in ovaries and early embryos, mosqCid1 exhibits low expression levels in both somatic and germline tissues [kursel_ancient_2020]. Notably, mosqCid1 evolves under positive selection, suggesting its potential role in suppressing genetic conflicts such as centromere drive [kursel_ancient_2020]. Its N-terminal tail contains unique motifs absent in mosqCid2, likely reflecting differences in protein interactions.",
+                "taxonomy": "null",
+                "genes": "null",
+                "evolution": "null",
+                "expression": "null",
+                "knock-out": "null",
+                "function": "null",
+                "sequence": "null",
+                "localization": "null",
+                "deposition": "null",
+                "structure": "null",
+                "interactions": "null",
+                "disease": "null",
+                "caveats": "null",
+                "relations": "null"
+            },
+            "taxonomic_span": "Culicidae",
+            "taxonomic_span_id": "7157",
+            "alternate_names": [],
+            "publications": [
+                "kursel_ancient_2020"
+            ]
+        },
+        "cenH3.1_(Drosophilidae)": {
+            "level": "variant",
+            "description": {
+                "summary": "CenH3.1_(Drosophilidae) is a centromere-specific histone variant encoded by the Cid1 (also known as Cid) gene found in most Drosophila species except D. eugracilis, where it was pseudogenized and replaced by Cid2, and D. buzzatii and D. seriema, where Cid1 degenerated due to transposon insertions and was replaced by a new copy - Cid6 [teixeira_concurrent_2018, kursel_recurrent_2017]. As the ancestral centromeric histone in Drosophilidae, Cid1  represents the canonical centromeric histone in this family. It is essential for chromosome segregation during mitosis and meiosis, maintaining conserved histone-fold domains (HFD) critical for nucleosome assembly at centromeres. Unlike its paralogs (Cid3-Cid5), Cid1 is ubiquitously expressed in both somatic and germline tissues, though its expression is highest in gonads [kursel_recurrent_2017]. The N-terminal tail of Cid1 contains four conserved motifs. Remarkably, Cid1 persists throughout oogenesis in females but is specifically degraded during male meiosis I, disappearing from post-meiotic spermatids and sperm [kursel_gametic_2021].",
+                "taxonomy": "null",
+                "genes": "null",
+                "evolution": "null",
+                "expression": "null",
+                "knock-out": "null",
+                "function": "null",
+                "sequence": "null",
+                "localization": "null",
+                "deposition": "null",
+                "structure": "null",
+                "interactions": "null",
+                "disease": "null",
+                "caveats": "null",
+                "relations": "null"
+            },
+            "taxonomic_span": "Drosophilidae",
+            "taxonomic_span_id": "7214",
+            "alternate_names": [],
+            "publications": [
+                "kursel_gametic_2021",
+                "kursel_recurrent_2017",
+                "teixeira_concurrent_2018"
+            ]
+        },
         "cenH3.1_(Triticeae)": {
             "level": "variant",
             "description": {
@@ -529,6 +598,60 @@
             "alternate_names": [],
             "publications": [
                 "ishii_unequal_2020"
+            ]
+        },
+        "cenH3.2_(Culicidae)": {
+            "level": "variant",
+            "description": {
+                "summary": "cenH3.2_(Culicidae) is the ancestral (emerged over 150 My) centromeric histone variant in mosquitoes, conserved across Anopheles, Aedes, and Culex species [kursel_ancient_2020]. Unlike its paralog mosqCid1, mosqCid2 specializes in germline processes, showing dramatic upregulation (6-10 fold) in ovaries after blood feeding and during early embryogenesis [kursel_ancient_2020]. It contains four unique N-terminal motifs absent in mosqCid1, reflecting functional divergence. Remarkably, mosqCid2 serves as the sole centromeric histone in An. albimanus and An. darlingi following mosqCid1 loss, demonstrating its fundamental role in chromosome segregation [kursel_ancient_2020].",
+                "taxonomy": "null",
+                "genes": "null",
+                "evolution": "null",
+                "expression": "null",
+                "knock-out": "null",
+                "function": "null",
+                "sequence": "null",
+                "localization": "null",
+                "deposition": "null",
+                "structure": "null",
+                "interactions": "null",
+                "disease": "null",
+                "caveats": "null",
+                "relations": "null"
+            },
+            "taxonomic_span": "Culicidae",
+            "taxonomic_span_id": "7157",
+            "alternate_names": [],
+            "publications": [
+                "kursel_ancient_2020"
+            ]
+        },
+        "cenH3.2_(Drosophila_eugracilis)": {
+            "level": "variant",
+            "description": {
+                "summary": "cenH3.2_(Drosophila_eugracilis) is a centromere-specific histone variant encoded by the Cid2 gene, which has been identified exclusively in Drosophila eugracilis as a rare replacement for the ancestral Cid1 gene [kursel_recurrent_2017]. Unlike other Cid paralogs that coexist with Cid1, Cid2 uniquely serves as the sole centromeric histone in this species following the pseudogenization of Cid1 due to a frameshift-causing 2-bp deletion. While Cid2's precise functional specialization remains unstudied, its singular presence in D. eugracilis suggests it has assumed the core centromeric functions of the lost Cid1, though potential neofunctionalization cannot be ruled out given the lack of comparative data with other Cid paralogs [kursel_recurrent_2017].",
+                "taxonomy": "null",
+                "genes": "null",
+                "evolution": "null",
+                "expression": "null",
+                "knock-out": "null",
+                "function": "null",
+                "sequence": "null",
+                "localization": "null",
+                "deposition": "null",
+                "structure": "null",
+                "interactions": "null",
+                "disease": "null",
+                "caveats": "null",
+                "relations": "null"
+            },
+            "taxonomic_span": "Drosophila eugracilis",
+            "taxonomic_span_id": "29029",
+            "alternate_names": [],
+            "publications": [
+                "kursel_gametic_2021",
+                "kursel_recurrent_2017",
+                "teixeira_concurrent_2018"
             ]
         },
         "cenH3.2_(Triticeae)": {
@@ -583,6 +706,144 @@
                 "ishii_unequal_2020"
             ]
         },
+        "cenH3.3_(Aedes)": {
+            "level": "variant",
+            "description": {
+                "summary": "cenH3.3_(Aedes) is a recently evolved centromeric histone variant unique to Aedes mosquitoes, arising from a lineage-specific duplication of mosqCid1 [kursel_ancient_2020]. This paralog demonstrates specialized temporal expression during embryogenesis, suggesting a developmental-stage specific role in early development. Unlike the germline-focused mosqCid2 or the ubiquitously expressed mosqCid1, mosqCid3 shows no significant expression in adult tissues or ovaries, indicating its exclusive embryonic function [kursel_ancient_2020].",
+                "taxonomy": "null",
+                "genes": "null",
+                "evolution": "null",
+                "expression": "null",
+                "knock-out": "null",
+                "function": "null",
+                "sequence": "null",
+                "localization": "null",
+                "deposition": "null",
+                "structure": "null",
+                "interactions": "null",
+                "disease": "null",
+                "caveats": "null",
+                "relations": "null"
+            },
+            "taxonomic_span": "Aedes",
+            "taxonomic_span_id": "7158",
+            "alternate_names": [],
+            "publications": [
+                "kursel_ancient_2020"
+            ]
+        },
+        "cenH3.3_(Montium)": {
+            "level": "variant",
+            "description": {
+                "summary": "cenH3.3_(Montium) is a centromere-specific histone variant encoded by the Cid3 gene, found exclusively in the montium subgroup of Drosophila (e.g., D. kikkawai, D. auraria) [kursel_recurrent_2017]. Unlike the ubiquitously expressed Cid1, Cid3 exhibits male germline-specific expression, suggesting specialized meiotic functions, potentially related to suppressing centromere drive during spermatogenesis [kursel_recurrent_2017]. The histone variant retains conserved histone-fold domains through gene conversion with Cid1 but has a divergent N-terminal tail. Evolving under positive selection, Cid3 shows adaptive changes in DNA-contact regions, suggesting conflict-driven evolution. This paralog persists alongside Cid1 and Cid4 in a triplicate system, maintaining non-redundant meiotic functions for 15 million years [kursel_recurrent_2017].",
+                "taxonomy": "null",
+                "genes": "null",
+                "evolution": "null",
+                "expression": "null",
+                "knock-out": "null",
+                "function": "null",
+                "sequence": "null",
+                "localization": "null",
+                "deposition": "null",
+                "structure": "null",
+                "interactions": "null",
+                "disease": "null",
+                "caveats": "null",
+                "relations": "null"
+            },
+            "taxonomic_span": "montium subgroup",
+            "taxonomic_span_id": "32352",
+            "alternate_names": [],
+            "publications": [
+                "kursel_gametic_2021",
+                "kursel_recurrent_2017",
+                "teixeira_concurrent_2018"
+            ]
+        },
+        "cenH3.4_(Montium)": {
+            "level": "variant",
+            "description": {
+                "summary": "cenH3.4_(Montium) is a centromere-specific histone variant encoded by the Cid4 gene, uniquely present in the montium subgroup of Drosophila. Unlike its paralogs, Cid4 shows broad somatic expression and has effectively replaced Cid1 as the dominant centromeric histone in mitotic cells [kursel_recurrent_2017]. The histone variant shows positive selection in its DNA-binding Loop 1 region and retains all four conserved N-terminal motifs found in Cid1, while acquiring a novel motif that may enable specialized interactions [kursel_recurrent_2017]. As part of the montium's three-gene system with Cid1 and Cid3, Cid4 specializes in maintaining mitotic centromere function through 15 million years of evolution.",
+                "taxonomy": "null",
+                "genes": "null",
+                "evolution": "null",
+                "expression": "null",
+                "knock-out": "null",
+                "function": "null",
+                "sequence": "null",
+                "localization": "null",
+                "deposition": "null",
+                "structure": "null",
+                "interactions": "null",
+                "disease": "null",
+                "caveats": "null",
+                "relations": "null"
+            },
+            "taxonomic_span": "montium subgroup",
+            "taxonomic_span_id": "32352",
+            "alternate_names": [],
+            "publications": [
+                "kursel_gametic_2021",
+                "kursel_recurrent_2017",
+                "teixeira_concurrent_2018"
+            ]
+        },
+        "cenH3.5_(Drosophila)": {
+            "level": "variant",
+            "description": {
+                "summary": "cenH3.5_(Drosophila) is a divergent centromeric histone paralog found exclusively in the Drosophila subgenus, originating from an ancient duplication of Cid1 [kursel_gametic_2021, kursel_recurrent_2017]. Unlike the ubiquitously expressed Cid1, Cid5 exhibits germline-restricted expression and has functionally specialized for male gametogenesis. It is absent in somatic cells but co-expressed with Cid1 in early germ cells of both sexes [kursel_gametic_2021].  Cid5 replaces Cid1 during male meiosis I, becoming the sole centromeric histone in sperm, but is lost during late oogenesis in females [kursel_gametic_2021]. After fertilization, paternally inherited Cid5 is rapidly replaced by maternal Cid1 in the embryo. The histone variant lacks conserved N-terminal motifs present in Cid1 and features a divergent histone-fold domain, potentially adapting it for sperm chromatin [kursel_gametic_2021]. Notably, Cid5 co-exists with CENP-C2 (male-biased CENP-C paralog) in the Drosophila subgenus, potentially forming a distinct kinetochore configuration during spermatogenesis [teixeira_concurrent_2018]. While Cid5 maintains key centromere localization motifs, its rapid evolution and testis-specific expression pattern indicate subfunctionalization or neofunctionalization relative to Cid1.",
+                "taxonomy": "null",
+                "genes": "null",
+                "evolution": "null",
+                "expression": "null",
+                "knock-out": "null",
+                "function": "null",
+                "sequence": "null",
+                "localization": "null",
+                "deposition": "null",
+                "structure": "null",
+                "interactions": "null",
+                "disease": "null",
+                "caveats": "null",
+                "relations": "null"
+            },
+            "taxonomic_span": "Drosophila",
+            "taxonomic_span_id": "32281",
+            "alternate_names": [],
+            "publications": [
+                "kursel_gametic_2021",
+                "kursel_recurrent_2017",
+                "teixeira_concurrent_2018"
+            ]
+        },
+        "cenH3.6_(Repleta)": {
+            "level": "variant",
+            "description": {
+                "summary": "cenH3.6_(Repleta)  is a recently evolved centromeric histone variant found specifically in Drosophila buzzatii and D. seriema (repleta group), resulting from an interchromosomal duplication of Cid1 that occurred 4.6-11.3 million years ago [teixeira_concurrent_2018]. This paralog shows ~80% amino acid identity with ancestral Cid1 from closely related species like D. mojavensis, compared to only ~40% identity with Cid5. Unlike the male germline-restricted Cid5, Cid6 displays constitutive expression across all developmental stages, suggesting it functionally replaced the degenerated Cid1 copy in these species [teixeira_concurrent_2018]. While Cid6 maintains core centromere functions, it shows no evidence of positive selection observed in Cid5, indicating preservation of ancestral Cid1 roles rather than neofunctionalization [teixeira_concurrent_2018].",
+                "taxonomy": "null",
+                "genes": "null",
+                "evolution": "null",
+                "expression": "null",
+                "knock-out": "null",
+                "function": "null",
+                "sequence": "null",
+                "localization": "null",
+                "deposition": "null",
+                "structure": "null",
+                "interactions": "null",
+                "disease": "null",
+                "caveats": "null",
+                "relations": "null"
+            },
+            "taxonomic_span": "repleta group",
+            "taxonomic_span_id": "32321",
+            "alternate_names": [],
+            "publications": [
+                "kursel_gametic_2021",
+                "kursel_recurrent_2017",
+                "teixeira_concurrent_2018"
+            ]
+        },
         "cenH3_(Animals)": {
             "level": "variant",
             "description": {
@@ -613,6 +874,86 @@
                 },
                 {
                     "name": "cid"
+                }
+            ],
+            "publications": []
+        },
+        "cenH3_(Culicidae)": {
+            "level": "variant",
+            "description": {
+                "summary": "cenH3_(Culicidae) is a centromere-specific histone variant in Culicidae family (mosquitos), functionally analogous to CENP-A in mammals.",
+                "taxonomy": "null",
+                "genes": "In mosquitoes (Culicidae), three cenH3 paralogs exist: the evolutionarily ancient mosqCid1 and mosqCid2, which have been conserved for over 150 million years, and mosqCid3, a more recent paralog resulting from an independent duplication of mosqCid1 in Aedes aegypti and Aedes albopictus [kursel_ancient_2020].",
+                "evolution": "null",
+                "expression": "null",
+                "knock-out": "null",
+                "function": "null",
+                "sequence": "null",
+                "localization": "null",
+                "deposition": "null",
+                "structure": "null",
+                "interactions": "null",
+                "disease": "null",
+                "caveats": "null",
+                "relations": "null"
+            },
+            "taxonomic_span": "Culicidae",
+            "taxonomic_span_id": "7157",
+            "alternate_names": [
+                {
+                    "name": "mosqCid1"
+                },
+                {
+                    "name": "mosqCid2"
+                },
+                {
+                    "name": "mosqCid3"
+                }
+            ],
+            "publications": []
+        },
+        "cenH3_(Drosophilidae)": {
+            "level": "variant",
+            "description": {
+                "summary": "cenH3_(Drosophilidae) is a centromere-specific histone variant in Drosophilidae family, functionally analogous to CENP-A in mammals.",
+                "taxonomy": "null",
+                "genes": "In Drosophila, six cenH3 paralogs (Cid1\u2013Cid6) have been identified: Cid1, Cid4, and Cid6 (and likely Cid2) are essential for mitotic chromosome segregation and are ubiquitously expressed in somatic cells, while the remaining paralogs are germline-specific and may play a role in suppressing centromere drive [kursel_gametic_2021, kursel_recurrent_2017].",
+                "evolution": "null",
+                "expression": "null",
+                "knock-out": "null",
+                "function": "null",
+                "sequence": "null",
+                "localization": "null",
+                "deposition": "null",
+                "structure": "null",
+                "interactions": "null",
+                "disease": "null",
+                "caveats": "null",
+                "relations": "null"
+            },
+            "taxonomic_span": "Drosophilidae",
+            "taxonomic_span_id": "7214",
+            "alternate_names": [
+                {
+                    "name": "cid"
+                },
+                {
+                    "name": "cid1"
+                },
+                {
+                    "name": "cid2"
+                },
+                {
+                    "name": "cid3"
+                },
+                {
+                    "name": "cid4"
+                },
+                {
+                    "name": "cid5"
+                },
+                {
+                    "name": "cid6"
                 }
             ],
             "publications": []
@@ -672,6 +1013,61 @@
             "alternate_names": [
                 {
                     "name": "CENP-A"
+                }
+            ],
+            "publications": []
+        },
+        "cenH3_(Insecta)": {
+            "level": "variant",
+            "description": {
+                "summary": "cenH3_(Insecta) is a centromere-specific histone variant in insects, functionally analogous to CENP-A (Centromere Protein A) in other eukaryotes. It is essential for centromere specification and proper chromosome segregation during cell division. Notably, cenH3 is absent in four holocentric insect clades, suggesting alternative centromere organization mechanisms in these lineages [talbert_histone_2021, senaratne_formation_2021, sridhar_kinetochore_2022]. Some insect families, such as Drosophilidae and Culicidae, possess multiple cenH3 paralogs with evidence of functional specialization. For more overview of these families, see the cenH3_(Drosophilidae) and cenH3_(Culicidae) classes.",
+                "taxonomy": "null",
+                "genes": "In some insect lineages, cenH3 has undergone gene duplication, leading to paralogs with distinct functional roles. For detailed lineage-specific information, see the cenH3_(Drosophilidae) and cenH3_(Culicidae) classes.",
+                "evolution": "null",
+                "expression": "null",
+                "knock-out": "null",
+                "function": "null",
+                "sequence": "null",
+                "localization": "null",
+                "deposition": "null",
+                "structure": "null",
+                "interactions": "null",
+                "disease": "null",
+                "caveats": "null",
+                "relations": "null"
+            },
+            "taxonomic_span": "Insecta",
+            "taxonomic_span_id": "50557 ",
+            "alternate_names": [
+                {
+                    "name": "cid"
+                },
+                {
+                    "name": "cid1"
+                },
+                {
+                    "name": "cid2"
+                },
+                {
+                    "name": "cid3"
+                },
+                {
+                    "name": "cid4"
+                },
+                {
+                    "name": "cid5"
+                },
+                {
+                    "name": "cid6"
+                },
+                {
+                    "name": "mosqCid1"
+                },
+                {
+                    "name": "mosqCid2"
+                },
+                {
+                    "name": "mosqCid3"
                 }
             ],
             "publications": []
