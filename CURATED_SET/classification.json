@@ -224,7 +224,6 @@
                     }
                 }
             },
-            "H3.1-like_(Plants)": "null",
             "H3.3": {
                 "H3.3_(Animals)": {
                     "H3.3_(Homo_sapiens)": "null"
@@ -235,23 +234,6 @@
                 "H3.3_(Plants)": "null",
                 "H3.3_(Protists)": "null"
             },
-            "H3.3-like?": {
-                "H3.3-like_(Animals)": {
-                    "H3.X_(Primates?)": {
-                        "H3.X_(Homo_sapiens)": "null"
-                    },
-                    "H3.Y_(Primates?)": {
-                        "H3.Y_(Homo_sapiens)": {
-                            "H3.Y.1_(Homo_sapiens)": "null",
-                            "H3.Y.2_(Homo_sapiens)": "null"
-                        }
-                    }
-                },
-                "H3.3-like_(Plants)": {
-                    "H3_(Lilly???)": "null",
-                    "TS H3.10": "null"
-                }
-            },
             "H3.4_(Mammalia)": {
                 "H3.4_(Homo_sapiens)": "null"
             },
@@ -261,7 +243,15 @@
             "H3.7_(Homo_sapiens)": "null",
             "H3.B_(Giardia?)": "null",
             "H3.P_(Moneuplotes?)": "null",
-            "H3.V_(Trypanosomatidae)": "null"
+            "H3.V_(Trypanosomatidae)": "null",
+            "H3.Y_(Primates)": {
+                "H3.Y.1_(Primates)": {
+                    "H3.Y.1_(Homo_sapiens)": "null"
+                },
+                "H3.Y.2_(Primates)": {
+                    "H3.Y.2_(Homo_sapiens)": "null"
+                }
+            }
         },
         "H4": {
             "cH4": {
@@ -457,10 +447,10 @@
                 "evolution": "The co-occurrence of CenH3 loss and holocentricity in insects suggests that the evolutionary development of holocentromeres in this group may have been facilitated by the loss of a CenH3-defined centromere [senaratne_formation_2021]. It has been demonstrated that CenH3 has undergone adaptive evolution at a significantly higher frequency in clades with asymmetric meiosis compared to those with symmetric meiosis [zedek_cenh3_2016]. This finding is in accordance with the predictions of the centromere drive model. Furthermore, the occurrence of more frequent adaptive changes in CenH3 is necessary to offset the negative effects of centromere drive [zedek_cenh3_2016].",
                 "expression": "null",
                 "knock-out": "null",
-                "function": "Despite the high diversity of cenH3 proteins, they represent a key factor involved in centromere identity across a wide range of organisms. Moreover, it has been demonstrated that cenH3 from the monocot Zea mays is capable of substituting for cenH3 in A. thaliana [maheshwari_naturally_2015]. This example illustrates that the functions of the cenH3 histone are conserved across a broad evolutionary spectrum [maheshwari_naturally_2015].",
+                "function": "Despite the high diversity of cenH3 proteins, they represent a key factor involved in centromere identity and recruiting constitutive centromere-associated network (CCAN), ensuring accurate chromosome segregation, across a wide range of organisms. For example, the deep evolutionary conservation of cenH3 histone function in plants demonstarted by the ability of Zea mays cenH3 to functionally replace its counterpart in Arabidopsis thaliana [maheshwari_naturally_2015]. However, certain functional differences of cenH3 in chromosome segregation are observed across different species [wong_epigenetic_2020, steiner_diversity_2015]. Distinction is mainly related to cenH3 distribution on the chromosome, timing of cenH3 replenishment, heterochromatin dependence and chaperone specificity. In most mammals (including humans), cenH3 is incorporated into nucleosomes positioned within satellite repeat regions. In contrast, yeast species exhibit both regional (fission yeast) and point (budding yeast) centromeres, the latter consisting of a single cenH3 nucleosome complex assembled on specific DNA sequences. Nematode holocentromeres are characterized by the distribution of cenH3 along the entire chromosome length. Key factors of centromere identity in speicies with regional centromere (e.g., vertebrates) are the epigenetic context and transcription of centromeric DNA, whereas centromeres in budding yeast (S. cerevisiae) are determined by specific DNA sequences [wong_epigenetic_2020, hara_critical_2017, hori_histone_2014]. Moreover, studies in human and chicken cells have demonstrated the existence of natural and artificially created functional neocentromeres lacking alpha-satellite DNA [hara_critical_2017]. At the same time, despite the possibility of epigenetic drift, cenH3 positioning in maize centromeres is stable over generations and primarily governed by genetic changes [gent_stable_2015].",
                 "sequence": "cenH3 has an extended L1-loop and its N-terminal tail is very different from other H3 variants. cenH3s have an extended L1-loop and usually replace Phe84 in canonical H3 with Trp, and Thr 107 with Ala, Cys, or Ser. cenH3s ususally lack a conserved glutamine in the alpha1 helix of the histone fold. cenH3s typically have only about 50-60% amino acid identity to canonical H3 in the histone fold domain and no conservation of the N-terminus.",
                 "localization": "null",
-                "deposition": "null",
+                "deposition": "Unlike canonical histones, cenH3 deposition is replication-independent. In most speices, cenH3 synthesis and loading occurs during late mitosis and G1 phase of the cell cycle, mediated by specialized chaperones (HJURP in humans, Scm3 in budding and fission yeast, and CAL1 in Drosophila). However, the timing of deposition differs in some organisms. For instance, in budding yeast, cenH3 replenishment occurs during S-phase [wong_epigenetic_2020, pearson_stable_2004]. Notably, both budding yeast and nematodes (C. elegans) exhibit complete turnover of cenH3 each cell cycle [wong_epigenetic_2020]. The assembly and replenishment of cenH3 nucleosomes involves chromatin remodeling, resulting in the displacement of H3.3 histones and active stabilization by specific proteins (e.g., HJURP, CENP-C, CENP-B in humans) [dunleavy_h33_2011, wong_epigenetic_2020, black_epigenetic_2011]. It is possible that new cenH3 deposition doesn't always occur at the same centromeric position during every cell cycle [dunleavy_h33_2011]. Deposition of cenH3 into centromeric nucleosomes depends not only on a specific chaperone but also on numerous other factors. The study using DT40 (chicken) and HeLa S3 (human) cell lines demonstrated that chromatin-remodeling complexes FACT and CHD1 play important roles in the proper recruitment of cenH3 [okada_cenp-hcontaining_2009]. However, this observation is likely not universal across all organisms. For example, in Drosophila, cenH3 incorporation occurs independently of CHD1, yet still involves direct participation of FACT [podhraski_cenh3cid_2010, chen_establishment_2015, chen_cal1_2014].",
                 "structure": "null",
                 "interactions": "null",
                 "disease": "CenH3 plays pro-viral and restriction role in tombusvirus replication in plants and in the yeast model host [gonzalez_centromeric_2022].",
@@ -847,18 +837,18 @@
         "cenH3_(Animals)": {
             "level": "variant",
             "description": {
-                "summary": "cenH3_(Animals) is a centromere-specific histone variant in animals (Metazoa), often called CENP-A (Centromere Protein A), and an important component of active centromere required for chromosome segregation.",
+                "summary": "cenH3_(Animals) is a centromere-specific histone variant in animals (Metazoa), often called CENP-A (Centromere Protein A) in mammals, and an important component of active centromere required for chromosome segregation.",
                 "taxonomy": "null",
-                "genes": "CENP-A nucleosomes are essential for chromosome segregation. A functional kinetochore interacts with active centromeric chromatin reached with CENP-A to form the mitotic spindle. Notably, in certain holocentric organisms, CENP-A appears dispensable for meiotic chromosome segregation while remaining essential for mitosis. As demonstrated in Caenorhabditis elegans, CENP-A loading is specifically eliminated following meiosis I, and RNAi-mediated depletion of CENP-A during meiosis fails to disrupt proper chromosome segregation [monen_differential_2005]. This stands in striking contrast to mitotic divisions, where CENP-A is absolutely required for kinetochore assembly and faithful chromosome segregation. Moreover, C. elegans and C. remanei possess a second cenH3 histone gene that likely performs specialized functions distinct from canonical CENP-A roles [monen_separase_2015]. For more detailed information see the \"gene\" section.",
+                "genes": "The nematodes Caenorhabditis elegans and C. remanei possess two genes encoding cenH3: HCP-3 (also known as CeCENP-A) and CPAR-1 [monen_separase_2015, monen_differential_2005]. While HCP-3 functions as the predominant centromeric histone - being highly expressed and essential for precise chromosome segregation during mitotic divisions - CPAR-1 displays distinct characteristics: it exhibits lower expression levels but shows specific enrichment on meiotic chromosomes. Importantly, CPAR-1 undergoes separase-mediated proteolytic cleavage at the meiosis I metaphase-to-anaphase transition, implying a specialized, though not yet fully characterized, role in meiotic processes [monen_separase_2015].",
                 "evolution": "null",
                 "expression": "null",
                 "knock-out": "null",
-                "function": "The nematodes Caenorhabditis elegans and C. remanei possess two genes encoding the centromeric histone H3 variant (cenH3): HCP-3 (also known as CeCENP-A) and CPAR-1 [monen_separase_2015, monen_differential_2005]. While HCP-3 functions as the predominant centromeric histone - being highly expressed and essential for precise chromosome segregation during mitotic divisions - CPAR-1 displays distinct characteristics: it exhibits lower expression levels but shows specific enrichment on meiotic chromosomes. Importantly, CPAR-1 undergoes separase-mediated proteolytic cleavage at the meiosis I metaphase-to-anaphase transition, implying a specialized, though not yet fully characterized, role in meiotic processes [monen_separase_2015].",
+                "function": "The active centromeric chromatin, enriched with cenH3, defines the region of kinetochore interaction for spindle formation. However, certain functional differences in chromosome segregation are observed across different species. For example, in vertebrates, CENP-A is concentrated in a compact centromeric region, whereas in nematodes, HCP-3 is distributed diffusely, corresponding to a holocentric organization [hara_critical_2017]. Notably, in certain holocentric organisms, cenH3 appears dispensable for meiotic chromosome segregation while remaining essential for mitosis. As demonstrated in Caenorhabditis elegans, cenH3 loading is specifically eliminated following meiosis I, and RNAi-mediated depletion of CENP-A during meiosis fails to disrupt proper chromosome segregation [monen_differential_2005]. This stands in striking contrast to mitotic divisions, where cenH3 is absolutely required for kinetochore assembly and faithful chromosome segregation. Moreover, C. elegans and C. remanei possess a second cenH3 histone gene that likely performs specialized functions distinct from canonical cenH3 roles [monen_separase_2015]. For more detailed information see the \"gene\" section.",
                 "sequence": "null",
                 "localization": "null",
                 "deposition": "null",
                 "structure": "null",
-                "interactions": "null",
+                "interactions": "cenH3 nucleosomes stabilize the inner kinetochore known as the CCAN complex (Constitutive Centromere-Associated Network). The initiation of kinetochore assembly involves the interaction between CENP-A and CENP-C [watanabe_cdk1-mediated_2019, walstein_assembly_2021]. CDK1-mediated phosphorylation of CENP-C enhances its binding to CENP-A nucleosomes during mitosis, as shown in both chicken and human cells [watanabe_cdk1-mediated_2019]. However, the functional importance of this interaction varies: while it is nonessential for viability in chicken cells, it is crucial for proper CENP-C kinetochore localization and long-term survival in human cells [watanabe_cdk1-mediated_2019]. It was demonstrated that binding of the CENP-C protein stiffens the cenH3 nucleosome, decreasing its flexibility and stabilizing its conformation, which promotes chromatin condensation and restricts access for transcriptional machinery [melters_intrinsic_2019]. CENP-N specifically recognizes CENP-A in the centromeric nucleosome by binding to its L1 loop through key residues (e.g., E3, T4, E7 in humans) and stabilizes the interaction via electrostatic contacts with nucleosomal DNA [chittori_structural_2018]. This interaction has co-evolved across species to ensure accurate kinetochore assembly and epigenetic centromere inheritance [chittori_structural_2018].",
                 "disease": "null",
                 "caveats": "null",
                 "relations": "null"
@@ -921,10 +911,10 @@
                 "evolution": "null",
                 "expression": "null",
                 "knock-out": "null",
-                "function": "null",
+                "function": "Similar to other animals, Drosophila cenH3 functions primarily in kinetochore assembly through CENP-C recruitment. However, in contrast to vertebrates where CENP-A directly binds CENP-C, Drosophila depends on the CAL1 chaperone to bridge cenH3-CENP-C interaction for proper kinetochore formation and chromosome segregation [chen_cal1_2014].",
                 "sequence": "null",
                 "localization": "null",
-                "deposition": "null",
+                "deposition": "In Drosophila melanogaster, the deposition of cenH3 into nucleosomes is mediated by the chaperone CAL1 in a DNA sequence-independent manner. CAL1 facilitates nucleosome formation through direct interaction with cenH3-H4 histones and additionally recruits the FACT complex (comprising Dre4 and SSRP1 subunits) along with RNA polymerase II (RNAPII) [chen_establishment_2015, chen_cal1_2014]. FACT destabilizes H3-containing nucleosomes, enabling RNAPII-mediated transcription of DNA, a prerequisite for the replacement of H3 with CENP-A/H4 [chen_establishment_2015]. In the absence of FACT, transcription is abolished, preventing CENP-A incorporation. Importantly, CAL1 mediates the assembly of octameric nucleosomes with left-handed DNA wrapping, analogous to canonical nucleosomes [chen_cal1_2014].",
                 "structure": "null",
                 "interactions": "null",
                 "disease": "null",
@@ -992,18 +982,18 @@
         "cenH3_(Homo_sapiens)": {
             "level": "variant",
             "description": {
-                "summary": "cenH3(Homo_sapiens) is a centromere-specific histone variant in human, often called CENP-A (Centromere Protein A), and an important component of active centromere required for chromosome segregation. For a general description see cenH3(Animals) class.",
+                "summary": "cenH3_(Homo_sapiens) is a centromere-specific histone variant in human, often called CENP-A (Centromere Protein A), and an important component of active centromere required for chromosome segregation. For a general description see cenH3_(Animals) class.",
                 "taxonomy": "null",
                 "genes": "null",
                 "evolution": "null",
                 "expression": "null",
                 "knock-out": "CENP-A depletion at different stages of the cell cycle showed that the earlier CENP-A is removed, the more errors accumulate during later cell divisions [hoffmann_cenp-is_2016].",
-                "function": "CENP-A nucleosomes are essential for chromosome segregation. A functional kinetochore interacts with active centromeric chromatin reached with CENP-A to form the mitotic spindle. Human CENP-A plays an important role in stabilization and retention inner kinetochore during G1 phase of cell cycle [pesenti_structure_2022, hoffmann_cenp-is_2016]. However, mitosis can proceed without CENP-A as long as the CENP-B protein remains stably bound to centromeric sequences, facilitating the assembly of the inner kinetochore [hoffmann_cenp-is_2016].",
-                "sequence": "null",
+                "function": "While CENP-A is a crucial centromeric marker, the formation of a functional kinetochore and proper chromosome segregation requires an epigenetic context, including the targeting of the chaperone HJURP and histone PTMs [hara_critical_2017, hori_histone_2014]. Human CENP-A plays an important role in stabilization and retention inner kinetochore during G1 phase of cell cycle [pesenti_structure_2022, hoffmann_cenp-is_2016]. However, mitosis can proceed without CENP-A as long as the CENP-B protein remains stably bound to centromeric sequences, facilitating the assembly of the inner kinetochore [hoffmann_cenp-is_2016].",
+                "sequence": "The conserved residue K124 locaded in histone fold of CENP-A plays a crucial role in regulating centromeric function. During the cell cycle, K124 undergoes cyclic modifications [bui_internal_2017]. In G1/S phase, K124ac compacts the nucleosome, interfering with CENP-C binding (crucial for kinetochore assembly) while simultaneously promoting chromatin decondensation for centromere replication [bui_internal_2017]. During S phase, K124me stabilizes nucleosomes. Furthermore, K124 mutations disrupt both mitosis and replication, demonstrating its critical role in centromere epigenetic regulation [bui_internal_2017].",
                 "localization": "CENP-A in human chromosomes usually localized in active centromere region within \u03b1Sat arrays and associated with reduced CpG methylation [altemose_complete_2022, gershman_epigenetic_2022]. Although the centromere position is defined as a window with high CENP-A enrichment (totals 190 to 570 kb on each chromosome), CENP-A was also found near CDRs (centromere dip regions) and no all dips in CpG methylation was associated with CENP-A [altemose_complete_2022]. CENP-A is typically observed in young HOR-haps (although there are a few notable exceptions) [altemose_complete_2022]. Additionally, an analysis of CENP-A enrichment patterns on human chromosome X demonstrated that these patterns exhibit considerable inter-individual variability [altemose_complete_2022].",
-                "deposition": "Deposition of CENP-A into centromeric nucleosomes during the late telophase/early G1 phase of the cell cycle mediated by four major and some minor factors and regulators, which are important for identifying centromeric localization and limit the process to a single round [pan_mechanism_2019, xu_gross_2023]. The specific CENP-A chaperone HJURP (Holliday Junction Recognition Protein) plays a key role in stabilizing the binding of CENP-A to histone H4 [foltz_centromere_2009, dunleavy_hjurp_2009, shuaib_hjurp_2010]. To target centromeres and load a new CENP-A HJURP form a stoichiometric complex with the two-subunit Mis18 complex (Mis18\u03b1 and Mis18\u03b2) and Mis18-binding protein 1 (M18BP1) [hayashi_mis16_2004, pan_mechanism_2019]. Among minor proteins required for CENP-A loading there are RSF1, MgcRacGAP, Condensin II, and KAT7 [pan_mechanism_2019]. Furthermore, loading of CENP-A into centromeric nucleosomes contributed by CENP-I and CENP-B proteins that are specifically binds to the centromeric DNA. CENP-I, a subunit of the inner kinetochore complex, has been demonstrated to stabilise CENP-A nucleosomes in vitro [hu_cenp-i_2023]. The loss of CENP-B led to a slightly decrease in CENP-A incorporation, though the effect was less pronounced than with HJURP deletion, and a reduction in M18BP1 binding at centromeres assembled with a CENP-A variant without its CENP-C binding domain [fachinetti_dna_2015].",
-                "structure": "CENP-A confers enhanced flexibility and elasticity to nucleosomes, influencing centromeric chromatin organization and ensuring accurate chromosome segregation during mitosis [fedulova_molecular_2024, pitman_minimal_2020, melters_intrinsic_2019]. Partial nucleosome unwrapping in CENP-A-containing nucleosomes is promoted by its shortened \u03b1N-helix [roulland_flexible_2016]. Cryo-EM analysis of human CENP-A nucleosomes revealed asymmetric DNA end flexibility, with the right DNA end being highly dynamic and partially detached from the histone core while the left end remained stably bound, a sequence-dependent behavior confirmed by molecular dynamics simulations [kono_free_2019, boopathi_phase-plate_2020]. Notably, this intrinsic asymmetry can be overcome by antibody stabilization. The single-chain antibody fragment PL2-6 symmetrically stabilizes both DNA ends through allosteric interactions, despite the inherent sequence-dependent asymmetry [zhou_atomic_2019, dogan_cenp-nucleosome_2021]. Molecular dynamics simulations revealed that CENP-A-containing tetramers exhibit enhanced stability but distinct dynamics compared to canonical octameric structures, explaining the unusual properties of CENP-A nucleosomes [zhao_oligomerization_2019].",
-                "interactions": "CENP-A nucleosomes stabilize the inner kinetochore known as the CCAN complex (Constitutive Centromere-Associated Network) through direct interaction with CENP-C and CENP-N proteins of this complex [cao_constitutive_2018, pesenti_structure_2022, sridhar_kinetochore_2022, xu_gross_2023]. Human CENP-C has been demonstrated to bind with the CENP-A C-terminal hydrophobic tail, the acidic patch of H2A-H2B and histone H4, thereby facilitating its engagement with all four histone subunits present on the nucleosome surface [allu_structure_2019]. The binding of CENP-C to CENP-A is stabilized by the process of phosphorylation of CDK1, which strengthens the complex's structure through the occurrence of an intramolecular interaction, and is critical for long-term viability in human RPE-1 cells [watanabe_cdk1-mediated_2019, walstein_assembly_2021]. This process is predominantly observed during the M-phase of the cell cycle [ariyoshi_cryoem_2021]. Human CENP-N has been observed to bind to CENP-A nucleosomes through a direct recognition of the L1 loop and RG loop of CENP-A [chittori_structural_2018, tian_molecular_2018, ariyoshi_cryoem_2021]. However, cryo-EM studies have revealed that CENP-C and CENP-N bind to a single CENP-A nucleosome in a non-simultaneous manner, thereby demonstrating an asymmetric structure where CENP-C and CENP-N bind to opposite sides of the nucleosome [ariyoshi_cryoem_2021]. Furthermore, in 94% of cases, phosphorylated CENP-C exhibits exclusive binding to the RG-loop of CENP-A, suggesting that this particular interaction is predominant [ariyoshi_cryoem_2021]. In addition, in vitro reconstruction of the human CENP-C protein showed that CENP-C can bind to two centromeric nucleosomes simultaneously [walstein_assembly_2021].",
+                "deposition": "Deposition of CENP-A into centromeric nucleosomes during the late telophase/early G1 phase of the cell cycle mediated by four major and some minor factors and regulators, which are important for identifying centromeric localization and limit the process to a single round [pan_mechanism_2019, xu_gross_2023]. The specific CENP-A chaperone HJURP (Holliday Junction Recognition Protein) plays a key role in stabilizing the binding of CENP-A to histone H4 [foltz_centromere_2009, dunleavy_hjurp_2009, shuaib_hjurp_2010]. To target centromeres and load a new CENP-A HJURP form a stoichiometric complex with the two-subunit Mis18 complex (Mis18\u03b1 and Mis18\u03b2) and Mis18-binding protein 1 (M18BP1) [hayashi_mis16_2004, pan_mechanism_2019]. Among minor proteins required for CENP-A loading there are RSF1, MgcRacGAP, Condensin II, and KAT7 [pan_mechanism_2019]. Furthermore, loading of CENP-A into centromeric nucleosomes contributed by CENP-I and CENP-B proteins that are specifically binds to the centromeric DNA. CENP-I, a subunit of the inner kinetochore complex, has been demonstrated to stabilise CENP-A nucleosomes in vitro [hu_cenp-i_2023]. The loss of CENP-B led to a slightly decrease in CENP-A incorporation, though the effect was less pronounced than with HJURP deletion, and a reduction in M18BP1 binding at centromeres assembled with a CENP-A variant without its CENP-C binding domain [fachinetti_dna_2015]. Notably, in contrast to maintenance, de novo centromere formation (e.g., neocentromere establishment) depends on HJURP-mediated recruitment of CENP-C [tachiwana_hjurp_2015]. The deposition of CENP-A depends not only on protein factors but also on the characteristics of alpha-satellite DNA. CENP-B boxes stabilize CENP-A nucleosomes through interaction with the CENP-B protein [mcnulty_alpha_2018]. During early G1 phase, RNA polymerase II-mediated transcription of alpha-satellite DNA generates non-coding RNAs that facilitate recruitment of the CENP-A/HJURP complex [mcnulty_alpha_2018]. Furthermore, post-translational histone modifications (H3K4me2, H3K36me2, H3K9ac, H4K16ac) establish a permissive chromatin environment and prevent heterochromatin spreading [mcnulty_alpha_2018].",
+                "structure": "CENP-A confers enhanced flexibility and elasticity to nucleosomes, influencing centromeric chromatin organization and ensuring accurate chromosome segregation during mitosis [fedulova_molecular_2024, pitman_minimal_2020, melters_intrinsic_2019, tachiwana_crystal_2011]. Partial nucleosome unwrapping in CENP-A-containing nucleosomes is promoted by its shortened \u03b1N-helix [roulland_flexible_2016]. Cryo-EM analysis of human CENP-A nucleosomes revealed asymmetric DNA end flexibility, with the right DNA end being highly dynamic and partially detached from the histone core while the left end remained stably bound, a sequence-dependent behavior confirmed by molecular dynamics simulations [kono_free_2019, boopathi_phase-plate_2020]. Notably, this intrinsic asymmetry can be overcome by antibody stabilization. The single-chain antibody fragment PL2-6 symmetrically stabilizes both DNA ends through allosteric interactions, despite the inherent sequence-dependent asymmetry [zhou_atomic_2019, dogan_cenp-nucleosome_2021]. Molecular dynamics simulations revealed that CENP-A-containing tetramers exhibit enhanced stability but distinct dynamics compared to canonical octameric structures, explaining the unusual properties of CENP-A nucleosomes [zhao_oligomerization_2019].",
+                "interactions": "CENP-A nucleosomes stabilize the inner kinetochore known as the CCAN complex (Constitutive Centromere-Associated Network) through direct interaction with CENP-C and CENP-N proteins of this complex [cao_constitutive_2018, pesenti_structure_2022, sridhar_kinetochore_2022, xu_gross_2023]. Human CENP-C has been demonstrated to bind with the CENP-A C-terminal hydrophobic tail, the acidic patch of H2A-H2B and histone H4, thereby facilitating its engagement with all four histone subunits present on the nucleosome surface [allu_structure_2019]. The binding of CENP-C to CENP-A is critical for long-term viability in human RPE-1 cells [watanabe_cdk1-mediated_2019]. This interaction is stabilized by the process of CENP-C phosphorylation mediated by CDK1, which strengthens the complex's structure through the occurrence of an intramolecular interaction [watanabe_cdk1-mediated_2019, walstein_assembly_2021, ariyoshi_cryoem_2021]. Human CENP-N has been observed to bind to CENP-A nucleosomes through a direct recognition of the L1 loop and RG loop of CENP-A [chittori_structural_2018, tian_molecular_2018, ariyoshi_cryoem_2021]. However, cryo-EM studies have revealed that CENP-C and CENP-N bind to a single CENP-A nucleosome in a non-simultaneous manner, thereby demonstrating an asymmetric structure where CENP-C and CENP-N bind to opposite sides of the nucleosome [ariyoshi_cryoem_2021]. Furthermore, in 94% of cases, phosphorylated CENP-C exhibits exclusive binding to the RG-loop of CENP-A, suggesting that this particular interaction is predominant [ariyoshi_cryoem_2021]. In addition, in vitro reconstruction of the human CENP-C protein showed that CENP-C can bind to two centromeric nucleosomes simultaneously [walstein_assembly_2021]. Nevertheless, interactions with CENP-C or CENP-N do not determine the stability of CENP-A nucleosomes in chromatin [cao_constitutive_2018].",
                 "disease": "null",
                 "caveats": "null",
                 "relations": "null"
@@ -1020,7 +1010,7 @@
         "cenH3_(Insecta)": {
             "level": "variant",
             "description": {
-                "summary": "cenH3_(Insecta) is a centromere-specific histone variant in insects, functionally analogous to CENP-A (Centromere Protein A) in other eukaryotes. It is essential for centromere specification and proper chromosome segregation during cell division. Notably, cenH3 is absent in four holocentric insect clades, suggesting alternative centromere organization mechanisms in these lineages [talbert_histone_2021, senaratne_formation_2021, sridhar_kinetochore_2022]. Some insect families, such as Drosophilidae and Culicidae, possess multiple cenH3 paralogs with evidence of functional specialization. For more overview of these families, see the cenH3_(Drosophilidae) and cenH3_(Culicidae) classes.",
+                "summary": "cenH3_(Insecta) is a centromere-specific histone variant in insects, functionally analogous to CENP-A (Centromere Protein A) in other eukaryotes. It is essential for centromere specification and proper chromosome segregation during cell division. Notably, cenH3 is absent in four holocentric insect clades, suggesting alternative centromere organization mechanisms in these lineages [talbert_histone_2021, senaratne_formation_2021, sridhar_kinetochore_2022, cortes-silva_cenh3-independent_2020]. Some insect families, such as Drosophilidae and Culicidae, possess multiple cenH3 paralogs with evidence of functional specialization. For more overview of these families, see the cenH3_(Drosophilidae) and cenH3_(Culicidae) classes.",
                 "taxonomy": "null",
                 "genes": "In some insect lineages, cenH3 has undergone gene duplication, leading to paralogs with distinct functional roles. For detailed lineage-specific information, see the cenH3_(Drosophilidae) and cenH3_(Culicidae) classes.",
                 "evolution": "null",
@@ -5722,30 +5712,6 @@
             "alternate_names": [],
             "publications": []
         },
-        "H3.1-like_(Plants)": {
-            "level": "variant_group",
-            "description": {
-                "summary": "null",
-                "taxonomy": "null",
-                "genes": "null",
-                "evolution": "null",
-                "expression": "null",
-                "knock-out": "null",
-                "function": "null",
-                "sequence": "null",
-                "localization": "null",
-                "deposition": "null",
-                "structure": "null",
-                "interactions": "null",
-                "disease": "null",
-                "caveats": "null",
-                "relations": "null"
-            },
-            "taxonomic_span": "null",
-            "taxonomic_span_id": "null",
-            "alternate_names": [],
-            "publications": []
-        },
         "H3.3": {
             "level": "variant_group",
             "description": {
@@ -5772,78 +5738,6 @@
                 "malik_phylogenomics_2003",
                 "talbert_unified_2012"
             ]
-        },
-        "H3.3-like?": {
-            "level": "variant_group",
-            "description": {
-                "summary": "null",
-                "taxonomy": "null",
-                "genes": "null",
-                "evolution": "null",
-                "expression": "null",
-                "knock-out": "null",
-                "function": "null",
-                "sequence": "null",
-                "localization": "null",
-                "deposition": "null",
-                "structure": "null",
-                "interactions": "null",
-                "disease": "null",
-                "caveats": "null",
-                "relations": "null"
-            },
-            "taxonomic_span": "null",
-            "taxonomic_span_id": "null",
-            "alternate_names": [],
-            "publications": []
-        },
-        "H3.3-like_(Animals)": {
-            "level": "variant",
-            "description": {
-                "summary": "null",
-                "taxonomy": "null",
-                "genes": "null",
-                "evolution": "null",
-                "expression": "null",
-                "knock-out": "null",
-                "function": "null",
-                "sequence": "null",
-                "localization": "null",
-                "deposition": "null",
-                "structure": "null",
-                "interactions": "null",
-                "disease": "null",
-                "caveats": "null",
-                "relations": "null"
-            },
-            "taxonomic_span": "null",
-            "taxonomic_span_id": "null",
-            "alternate_names": [],
-            "publications": []
-        },
-        "H3.3-like_(Plants)": {
-            "level": "variant",
-            "description": {
-                "summary": "null",
-                "taxonomy": "null",
-                "genes": "null",
-                "evolution": "null",
-                "expression": "null",
-                "knock-out": "null",
-                "function": "null",
-                "sequence": "null",
-                "localization": "null",
-                "deposition": "null",
-                "structure": "null",
-                "interactions": "null",
-                "disease": "null",
-                "caveats": "null",
-                "relations": "null"
-            },
-            "taxonomic_span": "null",
-            "taxonomic_span_id": "null",
-            "alternate_names": [],
-            "publications": []
         },
         "H3.3_(Animals)": {
             "level": "variant",
@@ -6221,54 +6115,6 @@
             "alternate_names": [],
             "publications": []
         },
-        "H3.X_(Homo_sapiens)": {
-            "level": "variant",
-            "description": {
-                "summary": "null",
-                "taxonomy": "null",
-                "genes": "null",
-                "evolution": "null",
-                "expression": "null",
-                "knock-out": "null",
-                "function": "null",
-                "sequence": "null",
-                "localization": "null",
-                "deposition": "null",
-                "structure": "null",
-                "interactions": "null",
-                "disease": "null",
-                "caveats": "null",
-                "relations": "null"
-            },
-            "taxonomic_span": "null",
-            "taxonomic_span_id": "null",
-            "alternate_names": [],
-            "publications": []
-        },
-        "H3.X_(Primates?)": {
-            "level": "variant",
-            "description": {
-                "summary": "null",
-                "taxonomy": "null",
-                "genes": "null",
-                "evolution": "null",
-                "expression": "null",
-                "knock-out": "null",
-                "function": "null",
-                "sequence": "null",
-                "localization": "null",
-                "deposition": "null",
-                "structure": "null",
-                "interactions": "null",
-                "disease": "null",
-                "caveats": "null",
-                "relations": "null"
-            },
-            "taxonomic_span": "null",
-            "taxonomic_span_id": "null",
-            "alternate_names": [],
-            "publications": []
-        },
         "H3.Y.1_(Homo_sapiens)": {
             "level": "variant",
             "description": {
@@ -6290,6 +6136,30 @@
             },
             "taxonomic_span": "Homo sapiens",
             "taxonomic_span_id": "9606",
+            "alternate_names": [],
+            "publications": []
+        },
+        "H3.Y.1_(Primates)": {
+            "level": "variant",
+            "description": {
+                "summary": "null",
+                "taxonomy": "null",
+                "genes": "null",
+                "evolution": "null",
+                "expression": "null",
+                "knock-out": "null",
+                "function": "null",
+                "sequence": "null",
+                "localization": "null",
+                "deposition": "null",
+                "structure": "null",
+                "interactions": "null",
+                "disease": "null",
+                "caveats": "null",
+                "relations": "null"
+            },
+            "taxonomic_span": "Primates",
+            "taxonomic_span_id": "9443",
             "alternate_names": [],
             "publications": []
         },
@@ -6317,7 +6187,7 @@
             "alternate_names": [],
             "publications": []
         },
-        "H3.Y_(Homo_sapiens)": {
+        "H3.Y.2_(Primates)": {
             "level": "variant",
             "description": {
                 "summary": "null",
@@ -6336,12 +6206,12 @@
                 "caveats": "null",
                 "relations": "null"
             },
-            "taxonomic_span": "null",
-            "taxonomic_span_id": "null",
+            "taxonomic_span": "Primates",
+            "taxonomic_span_id": "9443",
             "alternate_names": [],
             "publications": []
         },
-        "H3.Y_(Primates?)": {
+        "H3.Y_(Primates)": {
             "level": "variant",
             "description": {
                 "summary": "H3.Y is involved in memory formation due to its presence in neurons in human hippocampus. One splice isoform has an extended C-terminal alpha tail that may interacts with the H2A.Z acidic patch",
@@ -6372,30 +6242,6 @@
                 "20819935",
                 "talbert_unified_2012"
             ]
-        },
-        "H3_(Lilly???)": {
-            "level": "variant",
-            "description": {
-                "summary": "null",
-                "taxonomy": "null",
-                "genes": "null",
-                "evolution": "null",
-                "expression": "null",
-                "knock-out": "null",
-                "function": "null",
-                "sequence": "null",
-                "localization": "null",
-                "deposition": "null",
-                "structure": "null",
-                "interactions": "null",
-                "disease": "null",
-                "caveats": "null",
-                "relations": "null"
-            },
-            "taxonomic_span": "null",
-            "taxonomic_span_id": "null",
-            "alternate_names": [],
-            "publications": []
         },
         "H4": {
             "level": "type",
@@ -7215,30 +7061,6 @@
             },
             "taxonomic_span": "Viruses",
             "taxonomic_span_id": "10239",
-            "alternate_names": [],
-            "publications": []
-        },
-        "TS H3.10": {
-            "level": "variant",
-            "description": {
-                "summary": "null",
-                "taxonomy": "null",
-                "genes": "null",
-                "evolution": "null",
-                "expression": "null",
-                "knock-out": "null",
-                "function": "null",
-                "sequence": "null",
-                "localization": "null",
-                "deposition": "null",
-                "structure": "null",
-                "interactions": "null",
-                "disease": "null",
-                "caveats": "null",
-                "relations": "null"
-            },
-            "taxonomic_span": "null",
-            "taxonomic_span_id": "null",
             "alternate_names": [],
             "publications": []
         },
