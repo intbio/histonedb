@@ -224,6 +224,9 @@
                     }
                 }
             },
+            "H3-like_(Plants)": "null",
+            "H3.10_(Arabidopsis)": "null",
+            "H3.14_(Arabidopsis)": "null",
             "H3.3": {
                 "H3.3_(Animals)": {
                     "H3.3_(Homo_sapiens)": "null"
@@ -5688,6 +5691,30 @@
                 "malik_phylogenomics_2003"
             ]
         },
+        "H3-like_(Plants)": {
+            "level": "variant_group",
+            "description": {
+                "summary": "H3-like_(Plants) is a group of poorly characterized histone variants that exhibit amino acid substitutions resembling those of either H3.3 variants (termed H3.3-like) or H3.1 variants (termed H3.1-like) [alvarez-venegas_canonical_2019]. This group includes three Arabidopsis genes (HTR6, HTR11, and HTR15), four rice genes (HTR701, HTR709, HTR714, and HTR715) and five lily genes (gcH3, gH3, leH3, soH3-1 \u0438 soH3-2), which are expected to encode functional proteins [alvarez-venegas_canonical_2019, probst_similar_2020].",
+                "taxonomy": "null",
+                "genes": "null",
+                "evolution": "null",
+                "expression": "null",
+                "knock-out": "null",
+                "function": "The functions of most H3-like genes are still unknown. Nevertheless, the lily isoforms are presumed to participate in specialized chromatin remodeling during male germline development due to their specific expression in the pollen generative cell and association with the male gametophyte [alvarez-venegas_canonical_2019]. Interestingly, phylogenetic analysis clustered gH3 with centromeric histones, suggesting a potential role in centromere function [alvarez-venegas_canonical_2019].",
+                "sequence": "The amino acid sequences of the Arabidopsis and rice H3-like variants show no significant homology and lack conserved patterns of amino acid substitutions, suggesting they may have emerged as specialized, divergent variants following lineage-specific duplication events [alvarez-venegas_canonical_2019]. In lily, soH3-1 and soH3-2 exhibit similarity to the conserved H3.3 variant, whereas gcH3, gH3, and leH3 are highly divergent.",
+                "localization": "null",
+                "deposition": "null",
+                "structure": "null",
+                "interactions": "null",
+                "disease": "null",
+                "caveats": "Alvarez-Venegas et al. classified HTR10 and HTR14 as H3-like histone genes [alvarez-venegas_canonical_2019]. However, recent studies have characterized the corresponding histone variants H3.10 and H3.14 in detail, leading to their reclassification as distinct functional variants (see more on histone variants H3.10_(Arabidopsis) and H3.14_(Arabidopsis)) [borg_targeted_2020, vazquez_histone_2025].",
+                "relations": "null"
+            },
+            "taxonomic_span": "Viridiplantae",
+            "taxonomic_span_id": "33090",
+            "alternate_names": [],
+            "publications": []
+        },
         "H3-like_(Viruses)": {
             "level": "variant",
             "description": {
@@ -5709,6 +5736,54 @@
             },
             "taxonomic_span": "Viruses",
             "taxonomic_span_id": "10239",
+            "alternate_names": [],
+            "publications": []
+        },
+        "H3.10_(Arabidopsis)": {
+            "level": "variant_group",
+            "description": {
+                "summary": "H3.10_(Arabidopsis) is a poorly characterized sperm-specific histone variant in Arabidopsis, encoded by HTR10 gene [borg_targeted_2020, alvarez-venegas_canonical_2019].",
+                "taxonomy": "null",
+                "genes": "null",
+                "evolution": "null",
+                "expression": "null",
+                "knock-out": "null",
+                "function": "H3.10 plays a critical role in reprogramming parental epigenetic memory. The deposition of H3.10 constitutes one of the key mechanisms leading to the loss of H3K27me3 in plant sperm cells [borg_targeted_2020].",
+                "sequence": "The amino acid substitutions (Y31, H87, L90) in H3.10 are similar to those in H3.3 [alvarez-venegas_canonical_2019]. The absence of alanine at position 31 in the amino acid sequence around lysine 27 (K27) makes H3.10 immune to methylation at K27 [borg_targeted_2020].",
+                "localization": "null",
+                "deposition": "null",
+                "structure": "null",
+                "interactions": "null",
+                "disease": "null",
+                "caveats": "null",
+                "relations": "null"
+            },
+            "taxonomic_span": "Arabidopsis",
+            "taxonomic_span_id": "3701",
+            "alternate_names": [],
+            "publications": []
+        },
+        "H3.14_(Arabidopsis)": {
+            "level": "variant_group",
+            "description": {
+                "summary": "H3.14_(Arabidopsis) is a specialized histone variant in Arabidopsis (encoded by the HTR14 gene) dedicated to managing the trade-off between growth and stress survival at the chromatin level. Rapid expression of HTR14 is induced by various abiotic stresses (e.g., salt, osmotic stress, oxidative stress, ABA) in a subset of responsive cells of the root transition zone [nunez-vazquez_histone_2025]. Its accumulation peaks during the growth arrest and quiescent phases of the stress response and declines before recovery.",
+                "taxonomy": "null",
+                "genes": "null",
+                "evolution": "null",
+                "expression": "H3.14 is expressed in both vegetative tissues and reproductive structures, including the vegetative nucleus of mature pollen, the central cell, and the antipodes of the female gametophyte [nunez-vazquez_histone_2025, probst_similar_2020]. However, under normal non-stress conditions, its expression in vegetative cells remains very low but is rapidly and strongly induced in response to abiotic stress [nunez-vazquez_histone_2025].",
+                "knock-out": "null",
+                "function": "H3.14 plays a dual role in the transcriptional reprogramming during the early stress response. It activates stress-responsive genes and represses growth- and development-related genes [nunez-vazquez_histone_2025].",
+                "sequence": "null",
+                "localization": "H3.14 is exclusively localized in euchromatin (colocalizes with H3K4me3) and is highly dynamic, with a fast turnover rate dependent on active transcription [nunez-vazquez_histone_2025].",
+                "deposition": "H3.14 deposition is independent of the major histone chaperones CAF-1 (for H3.1) and HIRA (for H3.3), suggesting a unique incorporation pathway [nunez-vazquez_histone_2025].",
+                "structure": "null",
+                "interactions": "null",
+                "disease": "null",
+                "caveats": "null",
+                "relations": "null"
+            },
+            "taxonomic_span": "Arabidopsis",
+            "taxonomic_span_id": "3701",
             "alternate_names": [],
             "publications": []
         },
@@ -6142,7 +6217,7 @@
         "H3.Y.1_(Primates)": {
             "level": "variant",
             "description": {
-                "summary": "null",
+                "summary": "H3.Y.1_(Primates) is a primate-specific histone H3 variant encoded by the gene homologous to human H3Y1 [wiedemann_identification_2010].",
                 "taxonomy": "null",
                 "genes": "null",
                 "evolution": "null",
@@ -6184,37 +6259,19 @@
             },
             "taxonomic_span": "Homo sapiens",
             "taxonomic_span_id": "9606",
-            "alternate_names": [],
+            "alternate_names": [
+                {
+                    "name": "H3.X",
+                    "taxonomy": "Homo_sapiens",
+                    "gene": "2"
+                }
+            ],
             "publications": []
         },
         "H3.Y.2_(Primates)": {
             "level": "variant",
             "description": {
-                "summary": "null",
-                "taxonomy": "null",
-                "genes": "null",
-                "evolution": "null",
-                "expression": "null",
-                "knock-out": "null",
-                "function": "null",
-                "sequence": "null",
-                "localization": "null",
-                "deposition": "null",
-                "structure": "null",
-                "interactions": "null",
-                "disease": "null",
-                "caveats": "null",
-                "relations": "null"
-            },
-            "taxonomic_span": "Primates",
-            "taxonomic_span_id": "9443",
-            "alternate_names": [],
-            "publications": []
-        },
-        "H3.Y_(Primates)": {
-            "level": "variant",
-            "description": {
-                "summary": "H3.Y is involved in memory formation due to its presence in neurons in human hippocampus. One splice isoform has an extended C-terminal alpha tail that may interacts with the H2A.Z acidic patch",
+                "summary": "H3.Y.2_(Primates) is a primate-specific histone H3 variant (also known as H3.X) encoded by the gene homologous to human H3Y [wiedemann_identification_2010].",
                 "taxonomy": "null",
                 "genes": "null",
                 "evolution": "null",
@@ -6235,9 +6292,34 @@
             "alternate_names": [
                 {
                     "name": "H3.X",
+                    "taxonomy": "Primates",
                     "gene": "2"
                 }
             ],
+            "publications": []
+        },
+        "H3.Y_(Primates)": {
+            "level": "variant_group",
+            "description": {
+                "summary": "H3.Y_(Primates) is a primate-specific histone H3 variant. Studies on human tissues demonstrate that H3.Y expression is detected at low levels in certain cell lines (e.g., osteosarcoma U2OS), in several normal (brain, testis) and malignant tissues, as well as during early embryonic cleavage stages [ding_primate-specific_2021, talbert_histone_2021, resnick_dux4-induced_2019]. However, the precise physiological functions of H3.Y remain poorly understood.",
+                "taxonomy": "None",
+                "genes": "The H3.Y variant is encoded by two intron-free genes homologous to human H3Y1 and H3Y2 [wiedemann_identification_2010].",
+                "evolution": "None",
+                "expression": "None",
+                "knock-out": "None",
+                "function": "None",
+                "sequence": "None",
+                "localization": "None",
+                "deposition": "None",
+                "structure": "None",
+                "interactions": "None",
+                "disease": "None",
+                "caveats": "None",
+                "relations": "null"
+            },
+            "taxonomic_span": "Primates",
+            "taxonomic_span_id": "9443",
+            "alternate_names": [],
             "publications": [
                 "20819935",
                 "talbert_unified_2012"
