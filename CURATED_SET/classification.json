@@ -258,8 +258,18 @@
         },
         "H4": {
             "cH4": {
-                "cH4_(Homo_sapiens)": "null"
-            }
+                "cH4_(Animals)": {
+                    "cH4_(Vertebrata)": {
+                        "cH4_(Mammalia)": {
+                            "cH4_(Homo_sapiens)": "null"
+                        }
+                    }
+                },
+                "cH4_(Fungi)": "null",
+                "cH4_(Plants)": "null",
+                "cH4_(Protists)": "null"
+            },
+            "H4.V_(Trypanosomatidae)": "null"
         },
         "H1": {
             "cH1": "null",
@@ -2283,6 +2293,9 @@
             "alternate_names": [
                 {
                     "name": "H2B.21"
+                },
+                {
+                    "name": "H2B.E"
                 }
             ],
             "publications": [
@@ -2939,6 +2952,54 @@
                 "talbert_unified_2012"
             ]
         },
+        "cH4_(Animals)": {
+            "level": "variant",
+            "description": {
+                "summary": "cH4_(Animals) clustered H4 histones in animals (Metazoa), often called canonical, replication-dependent, replication-coupled or \"bulk\" H4 histones are a major class of H4 histones in animals with high sequence similarity across all animal species.",
+                "taxonomy": "null",
+                "genes": "null",
+                "evolution": "null",
+                "expression": "null",
+                "knock-out": "null",
+                "function": "null",
+                "sequence": "The threonine 71 position of histone H4 is highly conserved across numerous animal species and can be subjected to O-GlcNAcylation (H4T71Gc). This modification plays a critical role, in concert with H3K9me3, in the progression and maintenance of condensed chromatin [hayakawa_novel_2025].",
+                "localization": "null",
+                "deposition": "null",
+                "structure": "null",
+                "interactions": "null",
+                "disease": "null",
+                "caveats": "null",
+                "relations": "null"
+            },
+            "taxonomic_span": "Metazoa",
+            "taxonomic_span_id": "33208",
+            "alternate_names": [],
+            "publications": []
+        },
+        "cH4_(Fungi)": {
+            "level": "variant",
+            "description": {
+                "summary": "null",
+                "taxonomy": "null",
+                "genes": "null",
+                "evolution": "null",
+                "expression": "null",
+                "knock-out": "null",
+                "function": "null",
+                "sequence": "null",
+                "localization": "null",
+                "deposition": "null",
+                "structure": "null",
+                "interactions": "null",
+                "disease": "null",
+                "caveats": "null",
+                "relations": "null"
+            },
+            "taxonomic_span": "Fungi",
+            "taxonomic_span_id": "4751",
+            "alternate_names": [],
+            "publications": []
+        },
         "cH4_(Homo_sapiens)": {
             "level": "variant",
             "description": {
@@ -2960,6 +3021,102 @@
             },
             "taxonomic_span": "Homo sapiens",
             "taxonomic_span_id": "9606",
+            "alternate_names": [],
+            "publications": []
+        },
+        "cH4_(Mammalia)": {
+            "level": "variant",
+            "description": {
+                "summary": "null",
+                "taxonomy": "null",
+                "genes": "null",
+                "evolution": "null",
+                "expression": "null",
+                "knock-out": "null",
+                "function": "null",
+                "sequence": "null",
+                "localization": "null",
+                "deposition": "null",
+                "structure": "null",
+                "interactions": "null",
+                "disease": "null",
+                "caveats": "null",
+                "relations": "null"
+            },
+            "taxonomic_span": "Mammalia",
+            "taxonomic_span_id": "40674",
+            "alternate_names": [],
+            "publications": []
+        },
+        "cH4_(Plants)": {
+            "level": "variant",
+            "description": {
+                "summary": "null",
+                "taxonomy": "null",
+                "genes": "null",
+                "evolution": "null",
+                "expression": "null",
+                "knock-out": "null",
+                "function": "null",
+                "sequence": "null",
+                "localization": "null",
+                "deposition": "null",
+                "structure": "null",
+                "interactions": "null",
+                "disease": "null",
+                "caveats": "null",
+                "relations": "null"
+            },
+            "taxonomic_span": "Viridiplantae",
+            "taxonomic_span_id": "33090",
+            "alternate_names": [],
+            "publications": []
+        },
+        "cH4_(Protists)": {
+            "level": "variant",
+            "description": {
+                "summary": "null",
+                "taxonomy": "null",
+                "genes": "null",
+                "evolution": "null",
+                "expression": "null",
+                "knock-out": "null",
+                "function": "null",
+                "sequence": "null",
+                "localization": "null",
+                "deposition": "null",
+                "structure": "null",
+                "interactions": "null",
+                "disease": "null",
+                "caveats": "null",
+                "relations": "null"
+            },
+            "taxonomic_span": "SAR,Metamonada,Discoba,Amoebozoa",
+            "taxonomic_span_id": "2698737,2611341,2611352,554915",
+            "alternate_names": [],
+            "publications": []
+        },
+        "cH4_(Vertebrata)": {
+            "level": "variant",
+            "description": {
+                "summary": "null",
+                "taxonomy": "null",
+                "genes": "null",
+                "evolution": "null",
+                "expression": "null",
+                "knock-out": "null",
+                "function": "null",
+                "sequence": "null",
+                "localization": "null",
+                "deposition": "null",
+                "structure": "null",
+                "interactions": "null",
+                "disease": "null",
+                "caveats": "null",
+                "relations": "null"
+            },
+            "taxonomic_span": "Vertebrata",
+            "taxonomic_span_id": "7742",
             "alternate_names": [],
             "publications": []
         },
@@ -6418,6 +6575,30 @@
             },
             "taxonomic_span": "Viruses",
             "taxonomic_span_id": "10239",
+            "alternate_names": [],
+            "publications": []
+        },
+        "H4.V_(Trypanosomatidae)": {
+            "level": "variant_group",
+            "description": {
+                "summary": "H4.V_(Trypanosomatidae) is a histone variant characterized so far in some trypanosomatids (T. brucei and T. cruzi). It shares ~98% sequence identity with canonical H4. H4.V co-localizes with the histone variant H3.V and DNA base J at transcription termination sites (TTSs), where it is a key factor in ensuring efficient transcription termination [kim_genetic_2021].",
+                "taxonomy": "null",
+                "genes": "H4.V encoded by a single-copy gene located apart from the typical  30 tandem arrays of canonical histone H4 [roson_new_2025].",
+                "evolution": "null",
+                "expression": "H4.V expression analysis in T. cruzi demonstrated that H4.V transcript levels remain stable throughout the cell cycle, while protein abundance increases during the G2/M phase [roson_new_2025]. H4.V is more abundant in the nuclei of metacyclic trypomastigotes but is barely detectable in amastigotes and bloodstream trypomastigotes. During metacyclogenesis, its expression progressively increases, suggesting a role in parasite differentiation [roson_new_2025].",
+                "knock-out": "The H4.V knockout in T. brucei is viable, and the knockout cells grow normally without morphological abnormalities [kim_genetic_2021]. However, these mutants exhibit a significant increase in antisense transcription. The simultaneous knockout of H4.V and H3.V leads to severe defects in growth, DNA replication, and cell-cycle progression, which are exacerbated in the triple knockout with base J, indicating a synthetic lethal genetic interaction among these three epigenetic marks [kim_genetic_2021].",
+                "function": "H4.V is the major signal for RNA polymerase II transcription termination at TTSs and, together with H3.V, plays a role in repressing transcription of telomeric variant surface glycoprotein genes [kim_genetic_2021]. The enrichment of H4.V at telomeres and TTSs, coupled with its increased expression in metacyclic forms, suggests its role in regulating the expression of virulence genes and adaptation to different host environments [roson_new_2025].",
+                "sequence": "null",
+                "localization": "While the core function of H4.V in marking transcription termination sites is conserved in trypanosomes, its genomic localization exhibits significant species-specificity between T. brucei and T. cruzi. In T. brucei, H4.V is specifically localized at transcription termination sites that demarcate polycistronic transcription units and is absent from telomeric repeats, where the histone variant H3.V and base J are instead enriched [kim_genetic_2021]. In contrast, T. cruzi H4.V displays a unique localization pattern, occupying not only convergent strand-switch regions but also telomeric regions and specific tDNA loci [roson_new_2025].",
+                "deposition": "null",
+                "structure": "null",
+                "interactions": "null",
+                "disease": "null",
+                "caveats": "null",
+                "relations": "null"
+            },
+            "taxonomic_span": "Trypanosomes",
+            "taxonomic_span_id": "93954",
             "alternate_names": [],
             "publications": []
         },
