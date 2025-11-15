@@ -269,6 +269,7 @@
                 "cH4_(Plants)": "null",
                 "cH4_(Protists)": "null"
             },
+            "H4.G_(Hominidae)": "null",
             "H4.V_(Trypanosomatidae)": "null"
         },
         "H1": {
@@ -3099,7 +3100,7 @@
         "cH4_(Vertebrata)": {
             "level": "variant",
             "description": {
-                "summary": "null",
+                "summary": "cH4_(Vertebrata) clustered H4 histones in vertebrates, often called canonical, replication-dependent, replication-coupled or \"bulk\" H4 histones. This is a subclass of cH4_(Animals) (see it for a detailed description). Asymmetric dimethylation of histone H4 at arginine 3 (H4R3me2a), catalyzed by PRMT1 in vertebrates, constitutes a key epigenetic mark for the establishment and maintenance of open and transcriptionally active chromatin at regulatory regions of the vertebrate genome, particularly at enhancers and super-enhancers [sudhakar_histone_2024].",
                 "taxonomy": "null",
                 "genes": "null",
                 "evolution": "null",
@@ -6485,7 +6486,7 @@
         "H4": {
             "level": "type",
             "description": {
-                "summary": "H4 is one of the core histones. Two H4s and two H3s form H3-H4 tetramer via \"hand shake\" and \"four helix bundle\" motifs. Two H2A-H2B dimers then associate with H3-H4 tetramer to form complete nucleosome core. H4 is the most conservative histone type and has very few known variants. Structure of H4 has a histone fold domain and a flexible N-terminal tail. H4 provides sites for H2B interaction via \"four-helix bundle\" and forms a small \u03b2-sheet with H2Aa.",
+                "summary": "H4 is one of the core histones. Two H4s and two H3s form H3-H4 tetramer via \"hand shake\" and \"four helix bundle\" motifs. Two H2A-H2B dimers then associate with H3-H4 tetramer to form complete nucleosome core. H4 is the most conservative histone type and has very few known variants. Structure of H4 has a histone fold domain and a flexible N-terminal tail. H4 provides sites for H2B interaction via \"four-helix bundle\" and forms a small \u03b2-sheet with H2Aa. Acetylation of the H4 tail within the basic patch region (K5, K8, K12, K16, K20) modulates its conformational ensemble through electrostatic effects, alterations in contact patterns, and subtle changes in the protonation of key residues, thereby contributing to the regulation of chromatin architecture [dewing_acetylation-dependent_2024].",
                 "taxonomy": "null",
                 "genes": "null",
                 "evolution": "null",
@@ -6576,6 +6577,34 @@
             "taxonomic_span": "Viruses",
             "taxonomic_span_id": "10239",
             "alternate_names": [],
+            "publications": []
+        },
+        "H4.G_(Hominidae)": {
+            "level": "variant_group",
+            "description": {
+                "summary": "H4.G_(Hominidae) is a hominid-specific histone H4 variant, also known as H4G or H4.7, which promotes breast cancer proliferation by destabilizing nucleolar chromatin [pang_histone_2020, talbert_histone_2021, lai_roles_2024]. H4.G is encode by clustered gene H4C7. Since the expression of this gene has been described only in tumor cells and its product, H4.G, is incapable of forming stable nucleosomes in vitro, there is no compelling evidence that H4.G is a bona fide histone variant in normal cells [seal_standardized_2022].",
+                "taxonomy": "null",
+                "genes": "H4.G is encode by clustered gene H4C7.",
+                "evolution": "null",
+                "expression": "Although H4.G expression is observed at low levels in various human cell lines, its significant upregulation is found primarily in breast cancer, as well as in T-cell prolymphocytic leukemia, HuR-silenced thyroid carcinoma, and endometrioid carcinoma [pang_histone_2020, lai_roles_2024].",
+                "knock-out": "H4.G knockdown in MCF7 breast cancer cells significantly impairs cell growth, proliferation, rRNA synthesis, and protein synthesis [long_novel_2019, pang_histone_2020].",
+                "function": "The functional role of H4.G in cells is likely to loosen the structure of nucleolar chromatin by forming destabilized nucleosome-like structures, thereby enhancing ribosomal RNA (rRNA) transcription and ribosome biogenesis, which promotes tumor cell growth [long_novel_2019, lai_roles_2024].",
+                "sequence": "H4.G shares 85% identity with canonical histone H4, differing by 15 amino acid residues located predominantly near the N-terminal \u03b11, \u03b12, and \u03b13 regions, and possessing a C-terminus shortened by five residues [long_novel_2019].",
+                "localization": "It is predominantly localized to the nucleolus which contains the nucleolar chromatin [lai_roles_2024].",
+                "deposition": "H4.G is not stably incorporated into nucleolar chromatin even with the assistance of the chaperone NPM1; instead, the H4.G-NPM1 complex forms unstable nucleosome-like structures that rapidly dissociate, and this very property appears to facilitate chromatin loosening [pang_histone_2020].",
+                "structure": "H4.G is unable to form stable nucleosomes in vitro, even in the presence of the chaperone NPM1; instead, it likely forms transient nucleosome-like structures that rapidly dissociate [pang_histone_2020].",
+                "interactions": "null",
+                "disease": "H4.G is overexpressed in a number of cancers, and its expression level positively correlates with cancer stage progression, as demonstrated in breast cancer, where it promotes tumor growth by facilitating rRNA and protein synthesis [lai_roles_2024].",
+                "caveats": "null",
+                "relations": "null"
+            },
+            "taxonomic_span": "Hominidae",
+            "taxonomic_span_id": "9604",
+            "alternate_names": [
+                {
+                    "name": "H4.7"
+                }
+            ],
             "publications": []
         },
         "H4.V_(Trypanosomatidae)": {
