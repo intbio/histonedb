@@ -273,36 +273,37 @@
             "H4.V_(Trypanosomatidae)": "null"
         },
         "H1": {
-            "cH1": "null",
+            "cH1": {
+                "cH1.1": {
+                    "cH1.1_(Homo_sapiens)": "null"
+                },
+                "cH1.2": {
+                    "cH1.2_(Homo_sapiens)": "null"
+                },
+                "cH1.3": {
+                    "cH1.3_(Homo_sapiens)": "null"
+                },
+                "cH1.4": {
+                    "cH1.4_(Homo_sapiens)": "null"
+                },
+                "cH1.5": {
+                    "cH1.5_(Homo_sapiens)": "null"
+                },
+                "cH1.6": {
+                    "cH1.6_(Homo_sapiens)": "null"
+                }
+            },
             "generic_H1": "null",
             "H1.0": {
                 "H1.0_(Homo_sapiens)": "null"
             },
-            "H1.1": {
-                "H1.1_(Homo_sapiens)": "null"
-            },
             "H1.10": {
                 "H1.10_(Homo_sapiens)": "null"
-            },
-            "H1.2": {
-                "H1.2_(Homo_sapiens)": "null"
-            },
-            "H1.3": {
-                "H1.3_(Homo_sapiens)": "null"
-            },
-            "H1.4": {
-                "H1.4_(Homo_sapiens)": "null"
-            },
-            "H1.5": {
-                "H1.5_(Homo_sapiens)": "null"
             },
             "OO_H1.8": {
                 "H1.8_(Homo_sapiens)": "null"
             },
             "scH1": "null",
-            "TS_H1.6": {
-                "H1.6_(Homo_sapiens)": "null"
-            },
             "TS_H1.7": {
                 "H1.7_(Homo_sapiens)": "null"
             },
@@ -1201,7 +1202,7 @@
         "cH1": {
             "level": "variant_group",
             "description": {
-                "summary": "null",
+                "summary": "cH1 is a group of replication dependent linker histones located within large histone gene clusters in mammals [happel_histone_2009, talbert_histone_2021].",
                 "taxonomy": "null",
                 "genes": "null",
                 "evolution": "null",
@@ -1219,6 +1220,313 @@
             },
             "taxonomic_span": "null",
             "taxonomic_span_id": "null",
+            "alternate_names": [],
+            "publications": []
+        },
+        "cH1.1": {
+            "level": "variant",
+            "description": {
+                "summary": "cH1.1 is a replication dependent linker histone located within large histone gene clusters in mammals [happel_histone_2009, talbert_histone_2021].",
+                "taxonomy": "null",
+                "genes": "null",
+                "evolution": "null",
+                "expression": "null",
+                "knock-out": "null",
+                "function": "null",
+                "sequence": "null",
+                "localization": "null",
+                "deposition": "null",
+                "structure": "null",
+                "interactions": "null",
+                "disease": "null",
+                "caveats": "null",
+                "relations": "null"
+            },
+            "taxonomic_span": "Mammalia",
+            "taxonomic_span_id": "40674",
+            "alternate_names": [],
+            "publications": [
+                "26689747"
+            ]
+        },
+        "cH1.1_(Homo_sapiens)": {
+            "level": "variant",
+            "description": {
+                "summary": "null",
+                "taxonomy": "null",
+                "genes": "null",
+                "evolution": "null",
+                "expression": "null",
+                "knock-out": "null",
+                "function": "null",
+                "sequence": "null",
+                "localization": "null",
+                "deposition": "null",
+                "structure": "null",
+                "interactions": "null",
+                "disease": "null",
+                "caveats": "null",
+                "relations": "null"
+            },
+            "taxonomic_span": "Homo sapiens",
+            "taxonomic_span_id": "9606",
+            "alternate_names": [],
+            "publications": []
+        },
+        "cH1.2": {
+            "level": "variant",
+            "description": {
+                "summary": "cH1.2 is a replication dependent linker histone located within large histone gene clusters in mammals [happel_histone_2009, talbert_histone_2021].",
+                "taxonomy": "null",
+                "genes": "null",
+                "evolution": "null",
+                "expression": "null",
+                "knock-out": "null",
+                "function": "null",
+                "sequence": "null",
+                "localization": "null",
+                "deposition": "null",
+                "structure": "null",
+                "interactions": "null",
+                "disease": "null",
+                "caveats": "null",
+                "relations": "null"
+            },
+            "taxonomic_span": "Mammalia",
+            "taxonomic_span_id": "40674",
+            "alternate_names": [],
+            "publications": [
+                "26689747"
+            ]
+        },
+        "cH1.2_(Homo_sapiens)": {
+            "level": "variant",
+            "description": {
+                "summary": "null",
+                "taxonomy": "null",
+                "genes": "null",
+                "evolution": "null",
+                "expression": "null",
+                "knock-out": "null",
+                "function": "null",
+                "sequence": "null",
+                "localization": "null",
+                "deposition": "null",
+                "structure": "null",
+                "interactions": "null",
+                "disease": "null",
+                "caveats": "null",
+                "relations": "null"
+            },
+            "taxonomic_span": "Homo sapiens",
+            "taxonomic_span_id": "9606",
+            "alternate_names": [],
+            "publications": []
+        },
+        "cH1.3": {
+            "level": "variant",
+            "description": {
+                "summary": "cH1.3 is a replication dependent linker histone located within large histone gene clusters in mammals [happel_histone_2009, talbert_histone_2021].",
+                "taxonomy": "null",
+                "genes": "null",
+                "evolution": "null",
+                "expression": "null",
+                "knock-out": "null",
+                "function": "null",
+                "sequence": "null",
+                "localization": "null",
+                "deposition": "null",
+                "structure": "null",
+                "interactions": "null",
+                "disease": "null",
+                "caveats": "null",
+                "relations": "null"
+            },
+            "taxonomic_span": "Mammalia",
+            "taxonomic_span_id": "40674",
+            "alternate_names": [],
+            "publications": [
+                "26689747"
+            ]
+        },
+        "cH1.3_(Homo_sapiens)": {
+            "level": "variant",
+            "description": {
+                "summary": "null",
+                "taxonomy": "null",
+                "genes": "null",
+                "evolution": "null",
+                "expression": "null",
+                "knock-out": "null",
+                "function": "null",
+                "sequence": "null",
+                "localization": "null",
+                "deposition": "null",
+                "structure": "null",
+                "interactions": "null",
+                "disease": "null",
+                "caveats": "null",
+                "relations": "null"
+            },
+            "taxonomic_span": "Homo sapiens",
+            "taxonomic_span_id": "9606",
+            "alternate_names": [],
+            "publications": []
+        },
+        "cH1.4": {
+            "level": "variant",
+            "description": {
+                "summary": "cH1.4 is a replication dependent linker histone located within large histone gene clusters in mammals [happel_histone_2009, talbert_histone_2021].",
+                "taxonomy": "null",
+                "genes": "null",
+                "evolution": "null",
+                "expression": "null",
+                "knock-out": "null",
+                "function": "null",
+                "sequence": "null",
+                "localization": "null",
+                "deposition": "null",
+                "structure": "null",
+                "interactions": "null",
+                "disease": "null",
+                "caveats": "null",
+                "relations": "null"
+            },
+            "taxonomic_span": "Mammalia",
+            "taxonomic_span_id": "40674",
+            "alternate_names": [],
+            "publications": [
+                "26689747"
+            ]
+        },
+        "cH1.4_(Homo_sapiens)": {
+            "level": "variant",
+            "description": {
+                "summary": "null",
+                "taxonomy": "null",
+                "genes": "null",
+                "evolution": "null",
+                "expression": "null",
+                "knock-out": "null",
+                "function": "null",
+                "sequence": "null",
+                "localization": "null",
+                "deposition": "null",
+                "structure": "null",
+                "interactions": "null",
+                "disease": "null",
+                "caveats": "null",
+                "relations": "null"
+            },
+            "taxonomic_span": "Homo sapiens",
+            "taxonomic_span_id": "9606",
+            "alternate_names": [],
+            "publications": []
+        },
+        "cH1.5": {
+            "level": "variant",
+            "description": {
+                "summary": "cH1.5 is a replication dependent linker histone located within large histone gene clusters in mammals [happel_histone_2009, talbert_histone_2021].",
+                "taxonomy": "null",
+                "genes": "null",
+                "evolution": "null",
+                "expression": "null",
+                "knock-out": "null",
+                "function": "null",
+                "sequence": "null",
+                "localization": "null",
+                "deposition": "null",
+                "structure": "null",
+                "interactions": "null",
+                "disease": "null",
+                "caveats": "null",
+                "relations": "null"
+            },
+            "taxonomic_span": "Mammalia",
+            "taxonomic_span_id": "40674",
+            "alternate_names": [],
+            "publications": [
+                "26689747"
+            ]
+        },
+        "cH1.5_(Homo_sapiens)": {
+            "level": "variant",
+            "description": {
+                "summary": "null",
+                "taxonomy": "null",
+                "genes": "null",
+                "evolution": "null",
+                "expression": "null",
+                "knock-out": "null",
+                "function": "null",
+                "sequence": "null",
+                "localization": "null",
+                "deposition": "null",
+                "structure": "null",
+                "interactions": "null",
+                "disease": "null",
+                "caveats": "null",
+                "relations": "null"
+            },
+            "taxonomic_span": "Homo sapiens",
+            "taxonomic_span_id": "9606",
+            "alternate_names": [],
+            "publications": []
+        },
+        "cH1.6": {
+            "level": "variant_group",
+            "description": {
+                "summary": "Sequences collected here belong to (TS) H1.6 - a testis specific variant of H1 common in mammals.",
+                "taxonomy": "null",
+                "genes": "null",
+                "evolution": "null",
+                "expression": "null",
+                "knock-out": "null",
+                "function": "null",
+                "sequence": "null",
+                "localization": "null",
+                "deposition": "null",
+                "structure": "null",
+                "interactions": "null",
+                "disease": "null",
+                "caveats": "null",
+                "relations": "null"
+            },
+            "taxonomic_span": "Mammalia",
+            "taxonomic_span_id": "40674",
+            "alternate_names": [
+                {
+                    "name": "H1t"
+                },
+                {
+                    "name": "TS_H1.6"
+                }
+            ],
+            "publications": [
+                "talbert_unified_2012"
+            ]
+        },
+        "cH1.6_(Homo_sapiens)": {
+            "level": "variant",
+            "description": {
+                "summary": "null",
+                "taxonomy": "null",
+                "genes": "null",
+                "evolution": "null",
+                "expression": "null",
+                "knock-out": "null",
+                "function": "null",
+                "sequence": "null",
+                "localization": "null",
+                "deposition": "null",
+                "structure": "null",
+                "interactions": "null",
+                "disease": "null",
+                "caveats": "null",
+                "relations": "null"
+            },
+            "taxonomic_span": "Homo sapiens",
+            "taxonomic_span_id": "9606",
             "alternate_names": [],
             "publications": []
         },
@@ -3504,32 +3812,6 @@
             "alternate_names": [],
             "publications": []
         },
-        "H1.1": {
-            "level": "variant_group",
-            "description": {
-                "summary": "H1.1 is a replication independent linker histone.",
-                "taxonomy": "null",
-                "genes": "null",
-                "evolution": "null",
-                "expression": "null",
-                "knock-out": "null",
-                "function": "null",
-                "sequence": "null",
-                "localization": "null",
-                "deposition": "null",
-                "structure": "null",
-                "interactions": "null",
-                "disease": "null",
-                "caveats": "null",
-                "relations": "null"
-            },
-            "taxonomic_span": "Homo",
-            "taxonomic_span_id": "9605",
-            "alternate_names": [],
-            "publications": [
-                "26689747"
-            ]
-        },
         "H1.10": {
             "level": "variant_group",
             "description": {
@@ -3561,254 +3843,6 @@
             ]
         },
         "H1.10_(Homo_sapiens)": {
-            "level": "variant",
-            "description": {
-                "summary": "null",
-                "taxonomy": "null",
-                "genes": "null",
-                "evolution": "null",
-                "expression": "null",
-                "knock-out": "null",
-                "function": "null",
-                "sequence": "null",
-                "localization": "null",
-                "deposition": "null",
-                "structure": "null",
-                "interactions": "null",
-                "disease": "null",
-                "caveats": "null",
-                "relations": "null"
-            },
-            "taxonomic_span": "Homo sapiens",
-            "taxonomic_span_id": "9606",
-            "alternate_names": [],
-            "publications": []
-        },
-        "H1.1_(Homo_sapiens)": {
-            "level": "variant",
-            "description": {
-                "summary": "null",
-                "taxonomy": "null",
-                "genes": "null",
-                "evolution": "null",
-                "expression": "null",
-                "knock-out": "null",
-                "function": "null",
-                "sequence": "null",
-                "localization": "null",
-                "deposition": "null",
-                "structure": "null",
-                "interactions": "null",
-                "disease": "null",
-                "caveats": "null",
-                "relations": "null"
-            },
-            "taxonomic_span": "Homo sapiens",
-            "taxonomic_span_id": "9606",
-            "alternate_names": [],
-            "publications": []
-        },
-        "H1.2": {
-            "level": "variant_group",
-            "description": {
-                "summary": "H1.2 is a replication independent linker histone.",
-                "taxonomy": "null",
-                "genes": "null",
-                "evolution": "null",
-                "expression": "null",
-                "knock-out": "null",
-                "function": "null",
-                "sequence": "null",
-                "localization": "null",
-                "deposition": "null",
-                "structure": "null",
-                "interactions": "null",
-                "disease": "null",
-                "caveats": "null",
-                "relations": "null"
-            },
-            "taxonomic_span": "Homo",
-            "taxonomic_span_id": "9605",
-            "alternate_names": [],
-            "publications": [
-                "26689747"
-            ]
-        },
-        "H1.2_(Homo_sapiens)": {
-            "level": "variant",
-            "description": {
-                "summary": "null",
-                "taxonomy": "null",
-                "genes": "null",
-                "evolution": "null",
-                "expression": "null",
-                "knock-out": "null",
-                "function": "null",
-                "sequence": "null",
-                "localization": "null",
-                "deposition": "null",
-                "structure": "null",
-                "interactions": "null",
-                "disease": "null",
-                "caveats": "null",
-                "relations": "null"
-            },
-            "taxonomic_span": "Homo sapiens",
-            "taxonomic_span_id": "9606",
-            "alternate_names": [],
-            "publications": []
-        },
-        "H1.3": {
-            "level": "variant_group",
-            "description": {
-                "summary": "H1.3 is a replication independent linker histone.",
-                "taxonomy": "null",
-                "genes": "null",
-                "evolution": "null",
-                "expression": "null",
-                "knock-out": "null",
-                "function": "null",
-                "sequence": "null",
-                "localization": "null",
-                "deposition": "null",
-                "structure": "null",
-                "interactions": "null",
-                "disease": "null",
-                "caveats": "null",
-                "relations": "null"
-            },
-            "taxonomic_span": "Homo",
-            "taxonomic_span_id": "9605",
-            "alternate_names": [],
-            "publications": [
-                "26689747"
-            ]
-        },
-        "H1.3_(Homo_sapiens)": {
-            "level": "variant",
-            "description": {
-                "summary": "null",
-                "taxonomy": "null",
-                "genes": "null",
-                "evolution": "null",
-                "expression": "null",
-                "knock-out": "null",
-                "function": "null",
-                "sequence": "null",
-                "localization": "null",
-                "deposition": "null",
-                "structure": "null",
-                "interactions": "null",
-                "disease": "null",
-                "caveats": "null",
-                "relations": "null"
-            },
-            "taxonomic_span": "Homo sapiens",
-            "taxonomic_span_id": "9606",
-            "alternate_names": [],
-            "publications": []
-        },
-        "H1.4": {
-            "level": "variant_group",
-            "description": {
-                "summary": "H1.4 is a replication independent linker histone.",
-                "taxonomy": "null",
-                "genes": "null",
-                "evolution": "null",
-                "expression": "null",
-                "knock-out": "null",
-                "function": "null",
-                "sequence": "null",
-                "localization": "null",
-                "deposition": "null",
-                "structure": "null",
-                "interactions": "null",
-                "disease": "null",
-                "caveats": "null",
-                "relations": "null"
-            },
-            "taxonomic_span": "Homo",
-            "taxonomic_span_id": "9605",
-            "alternate_names": [],
-            "publications": [
-                "26689747"
-            ]
-        },
-        "H1.4_(Homo_sapiens)": {
-            "level": "variant",
-            "description": {
-                "summary": "null",
-                "taxonomy": "null",
-                "genes": "null",
-                "evolution": "null",
-                "expression": "null",
-                "knock-out": "null",
-                "function": "null",
-                "sequence": "null",
-                "localization": "null",
-                "deposition": "null",
-                "structure": "null",
-                "interactions": "null",
-                "disease": "null",
-                "caveats": "null",
-                "relations": "null"
-            },
-            "taxonomic_span": "Homo sapiens",
-            "taxonomic_span_id": "9606",
-            "alternate_names": [],
-            "publications": []
-        },
-        "H1.5": {
-            "level": "variant_group",
-            "description": {
-                "summary": "H1.5 is a replication independent linker histone.",
-                "taxonomy": "null",
-                "genes": "null",
-                "evolution": "null",
-                "expression": "null",
-                "knock-out": "null",
-                "function": "null",
-                "sequence": "null",
-                "localization": "null",
-                "deposition": "null",
-                "structure": "null",
-                "interactions": "null",
-                "disease": "null",
-                "caveats": "null",
-                "relations": "null"
-            },
-            "taxonomic_span": "Homo",
-            "taxonomic_span_id": "9605",
-            "alternate_names": [],
-            "publications": [
-                "26689747"
-            ]
-        },
-        "H1.5_(Homo_sapiens)": {
-            "level": "variant",
-            "description": {
-                "summary": "null",
-                "taxonomy": "null",
-                "genes": "null",
-                "evolution": "null",
-                "expression": "null",
-                "knock-out": "null",
-                "function": "null",
-                "sequence": "null",
-                "localization": "null",
-                "deposition": "null",
-                "structure": "null",
-                "interactions": "null",
-                "disease": "null",
-                "caveats": "null",
-                "relations": "null"
-            },
-            "taxonomic_span": "Homo sapiens",
-            "taxonomic_span_id": "9606",
-            "alternate_names": [],
-            "publications": []
-        },
-        "H1.6_(Homo_sapiens)": {
             "level": "variant",
             "description": {
                 "summary": "null",
@@ -7355,36 +7389,6 @@
             "taxonomic_span_id": "10239",
             "alternate_names": [],
             "publications": []
-        },
-        "TS_H1.6": {
-            "level": "variant_group",
-            "description": {
-                "summary": "Sequences collected here belong to (TS) H1.6 - a testis specific variant of H1 common in mammals.",
-                "taxonomy": "null",
-                "genes": "null",
-                "evolution": "null",
-                "expression": "null",
-                "knock-out": "null",
-                "function": "null",
-                "sequence": "null",
-                "localization": "null",
-                "deposition": "null",
-                "structure": "null",
-                "interactions": "null",
-                "disease": "null",
-                "caveats": "null",
-                "relations": "null"
-            },
-            "taxonomic_span": "Mammalia",
-            "taxonomic_span_id": "40674",
-            "alternate_names": [
-                {
-                    "name": "H1t"
-                }
-            ],
-            "publications": [
-                "talbert_unified_2012"
-            ]
         },
         "TS_H1.7": {
             "level": "variant_group",
