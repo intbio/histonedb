@@ -1,501 +1,581 @@
 <!DOCTYPE html>
 <html lang="en">
-<!-- code taken from https://observablehq.com/@d3/collapsible-tree -->
-<style>
-.node circle {
-  fill: #999;
-}
-
-.node text {
-  font: 10px sans-serif;
-}
-
-.node--internal circle {
-  fill: #555;
-}
-
-.node--internal text {
-  text-shadow: 0 1px 0 #fff, 0 -1px 0 #fff, 1px 0 0 #fff, -1px 0 0 #fff;
-}
-
-.link {
-  fill: none;
-  stroke: #555;
-  stroke-opacity: 0.4;
-  stroke-width: 1.5px;
-}
-
-form {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  position: absolute;
-  left: 10px;
-  top: 10px;
-}
-
-label {
-  display: block;
-}
-
-</style>
 <head>
-<!--- <script src="https://d3js.org/d3.v7.min.js"></script> -->
-<script src="../js/d3.v7.min.js"></script>
-<script src="../js/msa.min.js"></script>
-<!--- <script src="../js/msa.js">Use this for development</script>. -->
+  <meta charset="UTF-8" />
+  <title>Collapsible & Zoomable Histone Tree</title>
+  <style>
+    .node circle {
+      fill: #999;
+    }
 
+    .node text {
+      font: 10px sans-serif;
+    }
 
+    .node--internal circle {
+      fill: #555;
+    }
+
+    .node--internal text {
+      text-shadow: 0 1px 0 #fff, 0 -1px 0 #fff, 1px 0 0 #fff, -1px 0 0 #fff;
+    }
+
+    .link {
+      fill: none;
+      stroke: #555;
+      stroke-opacity: 0.4;
+      stroke-width: 1.5px;
+    }
+
+    form {
+      font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+      position: absolute;
+      left: 10px;
+      top: 10px;
+      z-index: 10;
+    }
+
+    label {
+      display: block;
+    }
+
+    /* Highlight for search */
+    .highlight {
+      fill: orange !important;
+      font-weight: bold;
+    }
+  </style>
 </head>
 <body>
-<h1> Classification tree of histones and their variants used in HistoneDB 3.0</h1>
-<h3>Click on node to collapse/expand branches. Click on node label to view info, sequence alignment and phylogeny. </h3>
-<div id="tree"></div>
-<h1>Multiple sequence alignment will appear below</h1>
-<div id="summary"></div>
-<div id="taxonomic_span"></div>
-<div id="alternate_names" style="padding-bottom: 30px;"></div>
-<div id="menu"></div>
-<div id="msa"></div>
-<script >
+  <h1>Classification tree of histones and their variants used in HistoneDB 3.0</h1>
+  <h3>Click on node to collapse/expand branches. Click on node label to view info, sequence alignment and phylogeny.</h3>
 
-//polyfill for at
-function at(n) {
-    // ToInteger() abstract op
-    n = Math.trunc(n) || 0;
-    // Allow negative indexing from the end
-    if (n < 0) n += this.length;
-    // OOB access is guaranteed to return undefined
-    if (n < 0 || n >= this.length) return undefined;
-    // Otherwise, this is just normal property access
-    return this[n];
-}
+  <!-- Search box -->
+  <!-- <form id="searchForm">
+    <label>
+      Search node:
+      <input type="text" id="searchInput" placeholder="e.g., H3, H2A..." />
+    </label>
+  </form> -->
 
-const TypedArray = Reflect.getPrototypeOf(Int8Array);
-for (const C of [Array, String, TypedArray]) {
-    Object.defineProperty(C.prototype, "at",
-                          { value: at,
-                            writable: true,
-                            enumerable: false,
-                            configurable: true });
-}
-//////
+  <button id="resetViewBtn" style="margin-top: 10px; margin-bottom: 15px;">Reset view</button>
 
+  <div id="tree-wrapper" style="
+    width: 100%;
+    max-width: 1010px;
+    height: 1200px;
+    overflow: hidden;
+    border: 1px solid #ddd;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    position: relative;
+  ">
+  </div>
 
-d3.json("https://intbio.org/histonedb/CURATED_SET/classification.json").then(function(data) {
-    
-//console.log(data);
+  <h1>Multiple sequence alignment will appear below</h1>
+  <div id="summary"></div>
+  <div id="taxonomic_span"></div>
+  <div id="alternate_names" style="padding-bottom: 30px;"></div>
+  <div id="menu"></div>
+  <div id="msa"></div>
 
-var datah={"name": "root"};
+  <!-- Polyfill for Array.prototype.at (если нужен) -->
+  <script>
+    if (!Array.prototype.at) {
+      Array.prototype.at = function(n) {
+        n = Math.trunc(n) || 0;
+        if (n < 0) n += this.length;
+        return n < 0 || n >= this.length ? undefined : this[n];
+      };
+    }
+  </script>
 
-function dict2tree(tree,d)
-{
-tree["children"]=[]
+  <!-- D3 и MSA -->
+  <script src="../js/d3.v7.min.js"></script>
+  <script src="../js/msa.min.js"></script>
 
-for (var ind in d)
-{
-tree["children"].push({"name":ind})
-if (typeof d[ind]  === "object") { 
-dict2tree(tree["children"].at(-1),d[ind])}
-}
-}
-dict2tree(datah,data['tree']);
+  <script>
+    let rootData, svg, gNode, gLink, zoom, treeLayout, rootHierarchy;
 
-const margin = { top: 10, right: 120, bottom: 10, left: 40 };
-const width = d3.width || 960;
-const root = d3.hierarchy(datah);
-const dx = 10;
-const dy = width / 8;
-const tree = d3.tree().nodeSize([dx, dy]);
-const diagonal = d3
-  .linkHorizontal()
-  .x((d) => d.y)
-  .y((d) => d.x);
+    // Инициализация SVG с zoom
+    const containerWidth = 1200;   // ширина области просмотра
+    const containerHeight = 1200;   // высота области просмотра
+    const dx = 15;
+    const dy = containerWidth / 5;
 
-root.x0 = dy / 2;
-root.y0 = 0;
-root.descendants().forEach((d, i) => {
-  d.id = i;
-  d._children = d.children;
-  // if (d.depth && d.data.name.length !== 7) d.children = null;
-});
+    // Инициализация после загрузки данных
+    d3.json("https://intbio.org/histonedb/CURATED_SET/classification.json")
+      .then(function(data) {
+        const originalData = data; // ← сохраняем для сброса
+        const datah = { name: "root" };
+        function dict2tree(tree, d) {
+          tree.children = [];
+          for (let key in d) {
+            const node = { name: key };
+            tree.children.push(node);
+            if (typeof d[key] === "object") dict2tree(node, d[key]);
+          }
+        }
+        dict2tree(datah, data.tree);
 
-tree(root);
+        // Создаём иерархию
+        rootHierarchy = d3.hierarchy(datah);
+        rootHierarchy.x0 = dy / 2;
+        rootHierarchy.y0 = 0;
+        rootHierarchy.descendants().forEach((d, i) => {
+          d.id = i;
+          d._children = d.children;
+        });
 
-const svg = d3
-  .create("svg")
-  .attr("viewBox", [-margin.left, -margin.top, width, dx])
-  .style("font", "10px sans-serif")
-  .style("user-select", "none");
-
-const gLink = svg
-  .append("g")
-  .attr("fill", "none")
-  .attr("stroke", "#555")
-  .attr("stroke-opacity", 0.4)
-  .attr("stroke-width", 1.5);
-
-const gNode = svg
-  .append("g")
-  .attr("cursor", "pointer")
-  .attr("pointer-events", "all");
-
-update(root, data['info']);
-
-document.querySelector("#tree").appendChild(svg.node());
-
-function update(source, dataInfo) {
-  const duration = d3.event && d3.event.altKey ? 2500 : 250;
-   //const duration = 10000;
-  const nodes = root.descendants().reverse();
-  const links = root.links();
-
-  // Compute the new tree layout.
-  tree(root);
-  
-  let left = root;
-  let right = root;
-  root.eachBefore((node) => {
-    if (node.x < left.x) left = node;
-    if (node.x > right.x) right = node;
-  });
-
-  const height = right.x - left.x + margin.top + margin.bottom;
-
-  const transition = svg
-    .transition()
-    .duration(duration)
-    .attr("viewBox", [-margin.left, left.x - margin.top, width, height])
-    .tween(
-      "resize",
-      window.ResizeObserver ? null : () => () => svg.dispatch("toggle")
-    );
-
-  // Update the nodes…
-  const node = gNode.selectAll("g").data(nodes, (d) => d.id);
-
-  // Enter any new nodes at the parent's previous position.
-  const nodeEnter = node
-    .enter()
-    .append("g")
-    .attr("transform", (d) => `translate(${source.y0},${source.x0})`)
-    .attr("fill-opacity", 0)
-    .attr("stroke-opacity", 0)
-   // .on("click", (event, d) => {
-    //  d.children = d.children ? null : d._children;
-    //  update(d);
-    //})
-    ;
-
-
-
-function histcolor(d) {
-let r = 0xF, g=0xF, b=0xF;
-if(d.data.name.includes('H3')) { r= 0; g=0; b = 0xF ;}
-if(d.data.name.includes('H4')) { r= 0; g=0xF; b = 0 ;}
-if(d.data.name.includes('H2A')) { r= 0xF; g=0xF; b = 0 ;}
-if(d.data.name.includes('H2B')) { r= 0xF; g=0; b = 0 ;}
-if(d.data.name.includes('H1')) { r= 0xF; g=0; b = 0xF ;}
-if(d.data.name.includes('Arch')) { r= 0; g=0xF; b = 0xF ;}
-return d._children ? "#"+(r & 0x5).toString(16)+(g& 0x5).toString(16)+(b& 0x5).toString(16) :  "#"+(r& 0x9).toString(16)+(g& 0x9).toString(16)+(b& 0x9).toString(16)
-}
-
-  nodeEnter
-    .append("circle")
-    .attr("r", 2.5)
-    .attr("fill", (d) => histcolor(d) )
-    .attr("stroke-width", 10)
-    .on("click", (event, d) => {
-    d.children = d.children ? null : d._children;
-    update(d);
-    })
-    ;
-
-  nodeEnter
-    .append("a")
-    .attr("xlink:href", (d)=>"javascript:upd_msa(\""+d.data.name+"\")")
-    .append("text")
-    .attr("dy", "0.31em")
-    .attr("x", (d) => (d._children ? -6 : 6))
-    .attr("text-anchor", (d) => (d._children ? "end" : "start"))
-    .text((d) => d.data.name)
-    .clone(true)
-    .lower()
-    .attr("stroke-linejoin", "round")
-    .attr("stroke-width", 3)
-    .attr("stroke", "white");
-
-  // Transition nodes to their new position.
-  node
-    .merge(nodeEnter)
-    .transition(transition)
-    .attr("transform", (d) => `translate(${d.y},${d.x})`)
-    .attr("fill-opacity", 1)
-    .attr("stroke-opacity", 1);
-
-  // Transition exiting nodes to the parent's new position.
-  node
-    .exit()
-    .transition(transition)
-    .remove()
-    .attr("transform", (d) => `translate(${source.y},${source.x})`)
-    .attr("fill-opacity", 0)
-    .attr("stroke-opacity", 0);
-
-  // Update the links…
-  const link = gLink.selectAll("path").data(links, (d) => d.target.id);
-
-  // Enter any new links at the parent's previous position.
-  const linkEnter = link
-    .enter()
-    .append("path")
-    .attr("stroke", (d) => histcolor(d.source))
-    .attr("d", (d) => {
-      const o = { x: source.x0, y: source.y0 };
-      return diagonal({ source: o, target: o });
-    });
-
-  // Transition links to their new position.
-  link.merge(linkEnter).transition(transition).attr("d", diagonal);
-
-  // Transition exiting nodes to the parent's new position.
-  link
-    .exit()
-    .transition(transition)
-    .remove()
-    .attr("d", (d) => {
-      const o = { x: source.x, y: source.y };
-      return diagonal({ source: o, target: o });
-    });
-
-  // Stash the old positions for transition.
-  root.eachBefore((d) => {
-    d.x0 = d.x;
-    d.y0 = d.y;
-  });
-}
- });
-
-var descDiv = document.getElementById('summary');
-var taxDiv = document.getElementById('taxonomic_span');
-var altDiv = document.getElementById('alternate_names');
-var rootDiv = document.getElementById("msa");
-var menuDiv = document.getElementById("menu");
-
-
-
-
-function upd_msa(name) {
-
-// var seqs;
-
-
-// var xhr = msa.io.xhr;
-// var gffParser = msa.io.gff;
-
-// xhr("../seeds/"+name+".gff3", function(err, request, body) {
-//   var features = gffParser.parseSeqs(body);
-//   m.seqs.addFeatures(features);
-
-// xhr("../seeds/"+name+".fasta", function(err, request, body) {
-// seqs =  msa.io.fasta.parse(body);
-// m.seqs.add(seqs);
-// m.seqs.add(seq2);
-// m.render();
-// });
-
-// });
-
-// Add full description
-fetch('https://intbio.org/histonedb/CURATED_SET/classification.json')
-    .then((response) => response.json())
-    .then((json) => {
-        const description = json['info'][name]['description'];
-        
-        // Очищаем содержимое div перед добавлением новых элементов
-        descDiv.innerHTML = '';
-
-        // Проходим по всем ключам объекта description
-        for (const [key, value] of Object.entries(description)) {
-            // Проверка на null
-            if (value !== 'null') {
-                // Преобразуем ключ: первая буква заглавная, остальные — строчные
-                const capitalizedKey = key.charAt(0).toUpperCase() + key.slice(1);
-                const fieldDiv = document.createElement('div'); // Создаем новый контейнер для каждой пары ключ-значение
-                
-                // Формируем HTML содержимое с жирным ключом и значением
-                fieldDiv.innerHTML = `<strong>${capitalizedKey}:</strong> ${value}`;
-                
-                descDiv.appendChild(fieldDiv); // Добавляем элемент в контейнер
+        // Сворачиваем всё глубже 2-го уровня (показываем уровни 0, 1, 2 → всего 3)
+        function collapseBeyondDepth(node, maxDepth) {
+          if (node.depth >= maxDepth) {
+            // Если узел на максимальной разрешённой глубине — скрываем его детей
+            if (node.children) {
+              node._children = node.children; // сохраняем для будущего раскрытия
+              node.children = null;
             }
+          } else {
+            // Рекурсивно обходим детей, если они есть
+            if (node.children) {
+              node.children.forEach(child => collapseBeyondDepth(child, maxDepth));
+            }
+          }
         }
-    })
-    .catch((error) => console.error('Ошибка:', error)); // Обработка ошибок
+        collapseBeyondDepth(rootHierarchy, 2);
 
-// Add taxonomic_span
-fetch('https://intbio.org/histonedb/CURATED_SET/classification.json')
-    .then((response) => response.json())
-    .then((json) => {
-        const taxonomic_span = json['info'][name]['taxonomic_span'];
-        const taxonomic_span_id = json['info'][name]['taxonomic_span_id'];
-        
-         // Очищаем содержимое div перед добавлением новых элементов
-        taxDiv.innerHTML = '';
-    
-        const fieldDiv = document.createElement('div'); // Создаем новый контейнер
-    
-        // Формируем HTML содержимое с жирным ключом и значением
-        fieldDiv.innerHTML = `<strong>Taxonomic span:</strong> ${taxonomic_span}, ${taxonomic_span_id}`;
-                
-        taxDiv.appendChild(fieldDiv); // Добавляем элемент в контейнер
-});
+        // Создаём SVG с фиксированными размерами (важно!)
+        const svgElem = d3.create("svg")
+          .attr("width", containerWidth)
+          .attr("height", containerHeight)
+          .style("font", "10px sans-serif")
+          .style("user-select", "none");
 
+        svg = svgElem;
+        const g = svg.append("g");
 
-// Add alternate_names
-fetch('https://intbio.org/histonedb/CURATED_SET/classification.json')
-    .then((response) => response.json())
-    .then((json) => {
-        const alternateNames = json['info'][name]['alternate_names']
-             .map(item => item.name) // Извлекаем свойство name из каждого объекта
-             .join(', ');
-        
-         // Очищаем содержимое div перед добавлением новых элементов
-        altDiv.innerHTML = '';
-    
-        const fieldDiv = document.createElement('div'); // Создаем новый контейнер
-    
-        // Формируем HTML содержимое с жирным ключом и значением
-        fieldDiv.innerHTML = `<strong>Alternate names:</strong> ${alternateNames}`;
-                
-        altDiv.appendChild(fieldDiv); // Добавляем элемент в контейнер
-});
+        gLink = g.append("g").attr("class", "links");
+        gNode = g.append("g").attr("class", "nodes");
 
-//Add consensus
+        // Zoom с ограничением области
+        zoom = d3.zoom()
+          .scaleExtent([0.1, 4])
+          .extent([[0, 0], [containerWidth, containerHeight]])
+          .translateExtent([[-containerWidth, -containerHeight], [2 * containerWidth, 2 * containerHeight]])
+          .on("zoom", (event) => {
+            g.attr("transform", event.transform);
+          });
 
- var m = msa({
-  el: rootDiv,
- importURL: "../draft_seeds/"+name.replace(/[()]/g, '')+".fasta",
- // seqs:seqs,
-  all: true,
-  vis: {
-    labelId: false,
-    conserv: false,
-    seqlogo: false //should be false, we trigger it below manually.
-  },
-  zoomer: {
-  labelNameLength:350,
-  alignmentHeight:  "auto" 
-},
-   
-   conf: {
-    debug: false,
-    dropImport: true//,
-   // manualRendering:true
-  }
-//colorscheme: {scheme: "pid"}
-});
+        svg.call(zoom);
 
+        // Layout
+        treeLayout = d3.tree().nodeSize([dx, dy]);
 
+        // Первичная отрисовка
+        function fitTreeToView() {
+          // Сначала обновляем layout, чтобы получить актуальные координаты
+          treeLayout(rootHierarchy);
 
-//m.g.zoomer.set("alignmentHeight", 5);
+          // Находим экстремумы
+          let xMin = Infinity, xMax = -Infinity;
+          let yMin = Infinity, yMax = -Infinity;
 
-var fun={}
+          rootHierarchy.each(d => {
+            if (d.x < xMin) xMin = d.x;
+            if (d.x > xMax) xMax = d.x;
+            if (d.y < yMin) yMin = d.y;
+            if (d.y > yMax) yMax = d.y;
+          });
 
-fun.init = function(){
-  // you have here access to the conservation or the sequence object
-  this.cons = this.opt.conservation();
-  this.consensus= this.opt.consensus();
-  this.frequency= this.opt.frequency();
-  this.consensus80="";
-  this.frequency.forEach((it,i) => {
-    let aa="*";
-    for(let i2 in it) {
-     if (it[i2] >=0.8) {
-      aa=i2;}
+          const treeWidth = yMax - yMin;
+          const treeHeight = xMax - xMin;
+
+          // Поля вокруг дерева (в пикселях)
+          const padding = 20;
+
+          // Доступная область
+          const viewWidth = containerWidth - 2 * padding;
+          const viewHeight = containerHeight - 2 * padding;
+
+          // Масштаб, чтобы дерево влезло
+          const scaleX = viewWidth / treeWidth;
+          const scaleY = viewHeight / treeHeight;
+          const scale = Math.min(scaleX, scaleY, 1); // не увеличиваем больше 100%
+
+          // Центр дерева
+          const treeCenterX = (yMin + yMax) / 2 + 250;
+          const treeCenterY = (xMin + xMax) / 2;
+
+          // Центр области просмотра
+          const viewCenterX = containerWidth / 2;
+          const viewCenterY = containerHeight / 2;
+
+          // Сдвиг: чтобы центр дерева совпал с центром области
+          const translateX = viewCenterX - treeCenterX * scale;
+          const translateY = viewCenterY - treeCenterY * scale;
+
+          // Применяем трансформацию
+          const transform = d3.zoomIdentity
+            .translate(translateX, translateY)
+            .scale(scale);
+
+          svg.transition().duration(750).call(zoom.transform, transform);
+        }
+        updateTree(rootHierarchy, data.info);
+        // Затем подгоняем под вид
+        setTimeout(fitTreeToView, 100); // небольшая задержка, чтобы DOM обновился
+
+        // reset View Button
+        // document.getElementById("resetViewBtn").addEventListener("click", fitTreeToView);
+        document.getElementById("resetViewBtn").addEventListener("click", () => {
+          // 1. Сворачиваем до 3 уровней (depth ≤ 2)
+          collapseBeyondDepth(rootHierarchy, 2);
+
+          updateTree(rootHierarchy, data.info);
+          // Ждём завершения анимации, затем подгоняем под вид
+          setTimeout(() => {
+            fitTreeToView();
+          }, 300); // чуть дольше, чем duration в updateTree (250 мс)
+        });
+
+        // Вставляем SVG в НОВЫЙ контейнер
+        document.querySelector("#tree-wrapper").appendChild(svg.node());
+
+        // Поиск
+        setupSearch(data.info);
+      });
+
+    function histcolor(d) {
+      let r = 0xF, g = 0xF, b = 0xF;
+      if (d.data.name.includes('H3')) { r = 0; g = 0; b = 0xF; }
+      if (d.data.name.includes('H4')) { r = 0; g = 0xF; b = 0; }
+      if (d.data.name.includes('H2A')) { r = 0xF; g = 0xF; b = 0; }
+      if (d.data.name.includes('H2B')) { r = 0xF; g = 0; b = 0; }
+      if (d.data.name.includes('H1')) { r = 0xF; g = 0; b = 0xF; }
+      if (d.data.name.includes('Arch')) { r = 0; g = 0xF; b = 0xF; }
+      return d._children
+        ? "#" + (r & 0x5).toString(16) + (g & 0x5).toString(16) + (b & 0x5).toString(16)
+        : "#" + (r & 0x9).toString(16) + (g & 0x9).toString(16) + (b & 0x9).toString(16);
     }
-    this.consensus80+=aa;
-  });
 
-  this.consensus50="";
-  this.frequency.forEach((it,i) => {
-    let aa="*";
-    for(let i2 in it) {
-     if (it[i2] >=0.5) {
-      aa=i2;}
+    function updateTree(source, dataInfo) {
+      const duration = 250;
+
+      treeLayout(rootHierarchy);
+
+      let left = rootHierarchy, right = rootHierarchy;
+      rootHierarchy.eachBefore(d => {
+        if (d.x < left.x) left = d;
+        if (d.x > right.x) right = d;
+      });
+
+      const nodes = rootHierarchy.descendants().reverse();
+      const links = rootHierarchy.links();
+
+      // Обновление узлов
+      const node = gNode.selectAll("g").data(nodes, d => d.id);
+      const nodeEnter = node.enter().append("g")
+        .attr("transform", d => `translate(${source.y0},${source.x0})`)
+        .attr("fill-opacity", 0)
+        .attr("stroke-opacity", 0);
+
+      nodeEnter.append("circle")
+        .attr("r", 3.5)
+        .attr("fill", histcolor)
+        .on("click", (event, d) => {
+          d.children = d.children ? null : d._children;
+          updateTree(d, dataInfo);
+        });
+
+      nodeEnter.append("a")
+        .attr("xlink:href", d => `javascript:upd_msa("${d.data.name}")`)
+        .append("text")
+        .attr("dy", "0.31em")
+        .attr("x", d => (d._children ? -6 : 6))
+        .attr("text-anchor", d => (d._children ? "end" : "start"))
+        .text(d => d.data.name)
+        .clone(true).lower()
+        .attr("stroke-linejoin", "round")
+        .attr("stroke-width", 3)
+        .attr("stroke", "white");
+
+      const nodeUpdate = node.merge(nodeEnter)
+        .transition().duration(duration)
+        .attr("transform", d => `translate(${d.y},${d.x})`)
+        .attr("fill-opacity", 1)
+        .attr("stroke-opacity", 1);
+
+      node.exit().transition().duration(duration)
+        .attr("transform", d => `translate(${source.y},${source.x})`)
+        .attr("fill-opacity", 0)
+        .attr("stroke-opacity", 0)
+        .remove();
+
+      // Обновление связей
+      const link = gLink.selectAll("path").data(links, d => d.target.id);
+      const linkEnter = link.enter().append("path")
+        .attr("fill", "none")
+        .attr("stroke", d => histcolor(d.source))
+        .attr("stroke-opacity", 0.6)
+        // .attr("stroke-width", 1.5)
+        .attr("d", d => {
+          const o = { x: source.x0, y: source.y0 };
+          return d3.linkHorizontal().x(d => d.y).y(d => d.x)({ source: o, target: o });
+        });
+
+      link.merge(linkEnter)
+        .transition().duration(duration)
+        .attr("d", d3.linkHorizontal().x(d => d.y).y(d => d.x));
+
+      link.exit().transition().duration(duration).remove();
+
+      rootHierarchy.eachBefore(d => {
+        d.x0 = d.x;
+        d.y0 = d.y;
+      });
     }
-    this.consensus50+=aa;
-  });
-}
 
-function aasimilar(aa1,aa2) {
-const groups = {pos:"KRH", neg:"ED", aliph:"VLAIM",oh:"TS", small:"SAG",aroma:"FWY"}
+    // === Поиск по дереву ===
+    function setupSearch(dataInfo) {
+      const input = document.getElementById("searchInput");
+      input.addEventListener("input", () => {
+        const term = input.value.trim().toLowerCase();
+        // Убираем предыдущую подсветку
+        d3.selectAll(".node text").classed("highlight", false);
+        if (term === "") return;
 
-for(let i in groups) {
-  if(groups[i].includes(aa1) && groups[i].includes(aa2)) {return true;}
-}
-return false;
-}
-
-fun.run = function(letter,opts){
-
-  if(letter == "-") {return "#fff";}
-  if (letter == this.consensus80[opts.pos]) {return "#74b";}
-  if (letter == this.consensus50[opts.pos]) {return "#08c";} 
-  if (aasimilar(letter,this.consensus80[opts.pos]) || aasimilar(letter,this.consensus50[opts.pos]) ) {return "#f09";}
-  else {return "#fff";} 
-};
-
-m.g.colorscheme.addDynScheme("fscheme", fun);
-m.g.colorscheme.set("scheme", "fscheme");
-//m.render();
-
+        // Подсвечиваем совпадения
+        d3.selectAll(".node text")
+          .filter(function(d) {
+            return d && d.data && d.data.name.toLowerCase().includes(term);
+          })
+          .classed("highlight", true);
+      });
+    }
+    
+    var descDiv = document.getElementById('summary');
+    var taxDiv = document.getElementById('taxonomic_span');
+    var altDiv = document.getElementById('alternate_names');
+    var rootDiv = document.getElementById("msa");
+    var menuDiv = document.getElementById("menu");
 
 
 
-// the menu is independent to the MSA container
-var menuOpts = {};
-menuOpts.el = menuDiv;
-menuOpts.msa = m;
-//menuOpts.menu = "small";
-var defMenu = new msa.menu.defaultmenu(menuOpts);
-m.addView("menu", defMenu);
 
-var xhr = msa.io.xhr;
-var gffParser = msa.io.gff;
+    function upd_msa(name) {
 
-//Now we will add consensus with features
-//first we need to get features and load them.
-xhr("../draft_seeds/"+name.replace(/[()]/g, '')+".gff3", function(err, request, body) {
-  var features = gffParser.parseSeqs(body);
-  m.seqs.addFeatures(features);
+    // var seqs;
 
-//Nex in this asyn call we will wait till msa has loaded all sequences and add consensus
-waitForSeqs();
 
+    // var xhr = msa.io.xhr;
+    // var gffParser = msa.io.gff;
+
+    // xhr("../seeds/"+name+".gff3", function(err, request, body) {
+    //   var features = gffParser.parseSeqs(body);
+    //   m.seqs.addFeatures(features);
+
+    // xhr("../seeds/"+name+".fasta", function(err, request, body) {
+    // seqs =  msa.io.fasta.parse(body);
+    // m.seqs.add(seqs);
+    // m.seqs.add(seq2);
+    // m.render();
+    // });
+
+    // });
+
+    // Add full description
+    fetch('https://intbio.org/histonedb/CURATED_SET/classification.json')
+        .then((response) => response.json())
+        .then((json) => {
+            const description = json['info'][name]['description'];
+            
+            // Очищаем содержимое div перед добавлением новых элементов
+            descDiv.innerHTML = '';
+
+            // Проходим по всем ключам объекта description
+            for (const [key, value] of Object.entries(description)) {
+                // Проверка на null
+                if (value !== 'null') {
+                    // Преобразуем ключ: первая буква заглавная, остальные — строчные
+                    const capitalizedKey = key.charAt(0).toUpperCase() + key.slice(1);
+                    const fieldDiv = document.createElement('div'); // Создаем новый контейнер для каждой пары ключ-значение
+                    
+                    // Формируем HTML содержимое с жирным ключом и значением
+                    fieldDiv.innerHTML = `<strong>${capitalizedKey}:</strong> ${value}`;
+                    
+                    descDiv.appendChild(fieldDiv); // Добавляем элемент в контейнер
+                }
+            }
+        })
+        .catch((error) => console.error('Ошибка:', error)); // Обработка ошибок
+
+    // Add taxonomic_span
+    fetch('https://intbio.org/histonedb/CURATED_SET/classification.json')
+        .then((response) => response.json())
+        .then((json) => {
+            const taxonomic_span = json['info'][name]['taxonomic_span'];
+            const taxonomic_span_id = json['info'][name]['taxonomic_span_id'];
+            
+            // Очищаем содержимое div перед добавлением новых элементов
+            taxDiv.innerHTML = '';
+        
+            const fieldDiv = document.createElement('div'); // Создаем новый контейнер
+        
+            // Формируем HTML содержимое с жирным ключом и значением
+            fieldDiv.innerHTML = `<strong>Taxonomic span:</strong> ${taxonomic_span}, ${taxonomic_span_id}`;
+                    
+            taxDiv.appendChild(fieldDiv); // Добавляем элемент в контейнер
     });
 
-function waitForSeqs(){
-    if(m.seqs.length > 0){
-        //variable exists, do what you want
-        var seqc = {
-          seq: m.g.stats._consensus,
-          id: "10c",
-          ids: ["Consensus"], //This is important for tree not to hide it. Tree shoud have a root node named consensus.
-          name: "Consensus",
-          label:"Consensus"
+
+    // Add alternate_names
+    fetch('https://intbio.org/histonedb/CURATED_SET/classification.json')
+        .then((response) => response.json())
+        .then((json) => {
+            const alternateNames = json['info'][name]['alternate_names']
+                .map(item => item.name) // Извлекаем свойство name из каждого объекта
+                .join(', ');
+            
+            // Очищаем содержимое div перед добавлением новых элементов
+            altDiv.innerHTML = '';
+        
+            const fieldDiv = document.createElement('div'); // Создаем новый контейнер
+        
+            // Формируем HTML содержимое с жирным ключом и значением
+            fieldDiv.innerHTML = `<strong>Alternate names:</strong> ${alternateNames}`;
+                    
+            altDiv.appendChild(fieldDiv); // Добавляем элемент в контейнер
+    });
+
+    //Add consensus
+
+    var m = msa({
+      el: rootDiv,
+    importURL: "../draft_seeds/"+name.replace(/[()]/g, '')+".fasta",
+    // seqs:seqs,
+      all: true,
+      vis: {
+        labelId: false,
+        conserv: false,
+        seqlogo: false //should be false, we trigger it below manually.
+      },
+      zoomer: {
+      labelNameLength:350,
+      alignmentHeight:  "auto" 
+    },
+      
+      conf: {
+        debug: false,
+        dropImport: true//,
+      // manualRendering:true
+      }
+    //colorscheme: {scheme: "pid"}
+    });
+
+
+
+    //m.g.zoomer.set("alignmentHeight", 5);
+
+    var fun={}
+
+    fun.init = function(){
+      // you have here access to the conservation or the sequence object
+      this.cons = this.opt.conservation();
+      this.consensus= this.opt.consensus();
+      this.frequency= this.opt.frequency();
+      this.consensus80="";
+      this.frequency.forEach((it,i) => {
+        let aa="*";
+        for(let i2 in it) {
+        if (it[i2] >=0.8) {
+          aa=i2;}
         }
-        m.seqs.unshift(seqc);
-  //After that we add a tree
- m.importURL("../draft_seeds/"+name.replace(/[()]/g, '')+".tree", function(){
- console.log("tree loaded");
- //Trigger SeqLogo from menu, see msa.js:24482 why we need to do this hack!
- console.log(defMenu.views["40_vis"]._nodes[3].callback());
-});
-  //m.render();
- 
-}
-    else{
-        setTimeout(waitForSeqs, 100);
+        this.consensus80+=aa;
+      });
+
+      this.consensus50="";
+      this.frequency.forEach((it,i) => {
+        let aa="*";
+        for(let i2 in it) {
+        if (it[i2] >=0.5) {
+          aa=i2;}
+        }
+        this.consensus50+=aa;
+      });
     }
-}
+
+    function aasimilar(aa1,aa2) {
+    const groups = {pos:"KRH", neg:"ED", aliph:"VLAIM",oh:"TS", small:"SAG",aroma:"FWY"}
+
+    for(let i in groups) {
+      if(groups[i].includes(aa1) && groups[i].includes(aa2)) {return true;}
+    }
+    return false;
+    }
+
+    fun.run = function(letter,opts){
+
+      if(letter == "-") {return "#fff";}
+      if (letter == this.consensus80[opts.pos]) {return "#74b";}
+      if (letter == this.consensus50[opts.pos]) {return "#08c";} 
+      if (aasimilar(letter,this.consensus80[opts.pos]) || aasimilar(letter,this.consensus50[opts.pos]) ) {return "#f09";}
+      else {return "#fff";} 
+    };
+
+    m.g.colorscheme.addDynScheme("fscheme", fun);
+    m.g.colorscheme.set("scheme", "fscheme");
+    //m.render();
+
+
+
+
+    // the menu is independent to the MSA container
+    var menuOpts = {};
+    menuOpts.el = menuDiv;
+    menuOpts.msa = m;
+    //menuOpts.menu = "small";
+    var defMenu = new msa.menu.defaultmenu(menuOpts);
+    m.addView("menu", defMenu);
+
+    var xhr = msa.io.xhr;
+    var gffParser = msa.io.gff;
+
+    //Now we will add consensus with features
+    //first we need to get features and load them.
+    xhr("../draft_seeds/"+name.replace(/[()]/g, '')+".gff3", function(err, request, body) {
+      var features = gffParser.parseSeqs(body);
+      m.seqs.addFeatures(features);
+
+    //Nex in this asyn call we will wait till msa has loaded all sequences and add consensus
+    waitForSeqs();
+
+        });
+
+    function waitForSeqs(){
+        if(m.seqs.length > 0){
+            //variable exists, do what you want
+            var seqc = {
+              seq: m.g.stats._consensus,
+              id: "10c",
+              ids: ["Consensus"], //This is important for tree not to hide it. Tree shoud have a root node named consensus.
+              name: "Consensus",
+              label:"Consensus"
+            }
+            m.seqs.unshift(seqc);
+      //After that we add a tree
+    m.importURL("../draft_seeds/"+name.replace(/[()]/g, '')+".tree", function(){
+    console.log("tree loaded");
+    //Trigger SeqLogo from menu, see msa.js:24482 why we need to do this hack!
+    console.log(defMenu.views["40_vis"]._nodes[3].callback());
+    });
+      //m.render();
+    
+    }
+        else{
+            setTimeout(waitForSeqs, 100);
+        }
+    }
 
 // call render at the end to display the whole MSA
 //m.render();
@@ -508,9 +588,6 @@ function waitForSeqs(){
 
 }
 
-
-</script>
-
-
+  </script>
 </body>
 </html>
