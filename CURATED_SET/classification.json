@@ -222,7 +222,8 @@
                         "cenH3.1_(Vigna_unguiculata)": "null",
                         "cenH3.2_(Vigna_unguiculata)": "null"
                     }
-                }
+                },
+                "cenH3_(Protists)": "null"
             },
             "H3-like_(Plants)": "null",
             "H3.10_(Arabidopsis)": "null",
@@ -1146,6 +1147,30 @@
                 "tachiwana_crystal_2011",
                 "talbert_unified_2012"
             ]
+        },
+        "cenH3_(Protists)": {
+            "level": "variant",
+            "description": {
+                "summary": "null",
+                "taxonomy": "null",
+                "genes": "null",
+                "evolution": "null",
+                "expression": "null",
+                "knock-out": "null",
+                "function": "null",
+                "sequence": "null",
+                "localization": "null",
+                "deposition": "null",
+                "structure": "null",
+                "interactions": "null",
+                "disease": "null",
+                "caveats": "null",
+                "relations": "null"
+            },
+            "taxonomic_span": "SAR,Metamonada,Discoba,Amoebozoa",
+            "taxonomic_span_id": "2698737,2611341,2611352,554915",
+            "alternate_names": [],
+            "publications": []
         },
         "cenH3_(Triticeae)": {
             "level": "variant",
@@ -6281,7 +6306,11 @@
             },
             "taxonomic_span": "Homo sapiens",
             "taxonomic_span_id": "9606",
-            "alternate_names": [],
+            "alternate_names": [
+                {
+                    "name": "H3.3C"
+                }
+            ],
             "publications": []
         },
         "H3.7_(Homo_sapiens)": {

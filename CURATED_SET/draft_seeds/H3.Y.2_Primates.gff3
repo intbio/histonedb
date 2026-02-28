@@ -1,6 +1,6 @@
 ##gff-version 3
 ##sequence-region Consensus 1 147
-Consensus	feature	misc	40	136	.	.	.	Color=#DDD;Name=core
+Consensus	feature	misc	40	146	.	.	.	Color=#DDD;Name=core
 Consensus	feature	helix	45	58	.	.	.	Color=#F77;Name=alphaN
 Consensus	feature	helix	64	77	.	.	.	Color=#F77;Name=alpha1
 Consensus	feature	helix	86	115	.	.	.	Color=#F77;Name=alpha2

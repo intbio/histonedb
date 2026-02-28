@@ -1,14 +1,14 @@
 ##gff-version 3
-##sequence-region Consensus 1 597
-Consensus	feature	misc	364	593	.	.	.	Color=#DDD;Name=core
+##sequence-region Consensus 1 599
+Consensus	feature	misc	364	595	.	.	.	Color=#DDD;Name=core
 Consensus	feature	helix	468	495	.	.	.	Color=#F77;Name=alphaN
-Consensus	feature	helix	502	521	.	.	.	Color=#F77;Name=alpha1
-Consensus	feature	helix	533	561	.	.	.	Color=#F77;Name=alpha2
-Consensus	feature	helix	570	581	.	.	.	Color=#F77;Name=alpha3
-Consensus	feature	loop	524	530	.	.	.	Color=#FF4;Name=loopL1
-Consensus	feature	loop	562	569	.	.	.	Color=#FF4;Name=loopL2
-Consensus	feature	sheet	530	530	.	.	.	Color=#1B3;Name=beta1
-Consensus	feature	sheet	566	569	.	.	.	Color=#1B3;Name=beta2
+Consensus	feature	helix	502	523	.	.	.	Color=#F77;Name=alpha1
+Consensus	feature	helix	535	563	.	.	.	Color=#F77;Name=alpha2
+Consensus	feature	helix	572	580	.	.	.	Color=#F77;Name=alpha3
+Consensus	feature	loop	526	532	.	.	.	Color=#FF4;Name=loopL1
+Consensus	feature	loop	564	571	.	.	.	Color=#FF4;Name=loopL2
+Consensus	feature	sheet	532	532	.	.	.	Color=#1B3;Name=beta1
+Consensus	feature	sheet	568	571	.	.	.	Color=#1B3;Name=beta2
 Consensus	feature	frameblock	502	502	.	.	.	Color=#FA3;Name=mgarg1
-Consensus	feature	frameblock	530	530	.	.	.	Color=#FA3;Name=mgarg2
+Consensus	feature	frameblock	532	532	.	.	.	Color=#FA3;Name=mgarg2
 Consensus	feature	frameblock	487	487	.	.	.	Color=#FA3;Name=mgarg3
